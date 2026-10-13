@@ -165,7 +165,22 @@ button, input, select, textarea { font: inherit; color: inherit; }
   align-items: center;
   gap: 0.4em;
 }
-.section-btn .q {
+.preset-group h2 { display: flex; align-items: center; gap: 0.4em; }
+.section-btn .chevron {
+  flex: none;
+  width: 0.45em;
+  height: 0.45em;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(-45deg);
+  transition: transform 150ms ease-out;
+  margin-right: 0.2em;
+}
+.section-btn[aria-expanded="true"] .chevron { transform: rotate(45deg); }
+.preset-group .q {
+  border: 0;
+  padding: 0;
+  cursor: pointer;
   flex: none;
   width: 1.25em;
   height: 1.25em;
@@ -179,6 +194,10 @@ button, input, select, textarea { font: inherit; color: inherit; }
   background: var(--orange);
 }
 .section-btn:hover { color: var(--action); }
+.info-btn { gap: 0.4em; }
+.info-group:first-child h2 { margin-top: 0.2em; }
+.info-group:last-child { margin-top: 1.4em; padding-top: 0.6em; border-top: 1px solid var(--line); }
+.info-group:first-child { padding-bottom: 0.6em; border-bottom: 1px solid var(--line); margin-bottom: 0.4em; }
 
 /* Section explanation popup */
 .about {

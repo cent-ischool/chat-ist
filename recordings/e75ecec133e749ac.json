@@ -1,0 +1,281 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-4-31b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the capital of Australia?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "The capital of Australia is **Canberra**.",
+    "tokens": [
+      {
+        "token": "The",
+        "prob": 0.9999997615814777,
+        "top": [
+          {
+            "token": "The",
+            "prob": 0.9999997615814777
+          },
+          {
+            "token": "the",
+            "prob": 2.8736863582436966e-7
+          },
+          {
+            "token": "B",
+            "prob": 2.4337438334891088e-8
+          },
+          {
+            "token": " The",
+            "prob": 1.3867054361168895e-8
+          },
+          {
+            "token": " provide",
+            "prob": 1.186112015134383e-8
+          }
+        ]
+      },
+      {
+        "token": " capital",
+        "prob": 1,
+        "top": [
+          {
+            "token": " capital",
+            "prob": 1
+          },
+          {
+            "token": "capital",
+            "prob": 1.4615767766244206e-9
+          },
+          {
+            "token": "资本",
+            "prob": 7.292077099628093e-10
+          },
+          {
+            "token": " the",
+            "prob": 3.724428547293578e-10
+          },
+          {
+            "token": " capita",
+            "prob": 3.348351440638815e-10
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 1,
+        "top": [
+          {
+            "token": " of",
+            "prob": 1
+          },
+          {
+            "token": " city",
+            "prob": 3.8891115722610075e-8
+          },
+          {
+            "token": " revolving",
+            "prob": 6.34880011604368e-9
+          },
+          {
+            "token": "al",
+            "prob": 5.964145762203144e-9
+          },
+          {
+            "token": " area",
+            "prob": 1.7087563700445755e-9
+          }
+        ]
+      },
+      {
+        "token": " Australia",
+        "prob": 1,
+        "top": [
+          {
+            "token": " Australia",
+            "prob": 1
+          },
+          {
+            "token": " ऑस्ट्रेलिया",
+            "prob": 1.7805650254331454e-8
+          },
+          {
+            "token": "Australia",
+            "prob": 1.0799672795372076e-8
+          },
+          {
+            "token": " Australie",
+            "prob": 5.602796437537268e-9
+          },
+          {
+            "token": " Austr",
+            "prob": 4.55504125133489e-9
+          }
+        ]
+      },
+      {
+        "token": " is",
+        "prob": 1,
+        "top": [
+          {
+            "token": " is",
+            "prob": 1
+          },
+          {
+            "token": " là",
+            "prob": 1.3440409951135022e-8
+          },
+          {
+            "token": "은",
+            "prob": 6.34880011604368e-9
+          },
+          {
+            "token": " Is",
+            "prob": 1.7087563700445755e-9
+          },
+          {
+            "token": "是",
+            "prob": 6.691586091292783e-10
+          }
+        ]
+      },
+      {
+        "token": " **",
+        "prob": 0.9999946356109105,
+        "top": [
+          {
+            "token": " **",
+            "prob": 0.9999946356109105
+          },
+          {
+            "token": " Canberra",
+            "prob": 0.00000542221734436887
+          },
+          {
+            "token": "**",
+            "prob": 1.5229892598318825e-8
+          },
+          {
+            "token": "堪",
+            "prob": 2.0611418284566694e-9
+          },
+          {
+            "token": " ",
+            "prob": 1.41660068076589e-9
+          }
+        ]
+      },
+      {
+        "token": "Can",
+        "prob": 0.9999952316511552,
+        "top": [
+          {
+            "token": "Can",
+            "prob": 0.9999952316511552
+          },
+          {
+            "token": " Canberra",
+            "prob": 0.00000478509457496562
+          },
+          {
+            "token": "CAN",
+            "prob": 1.8475991180942306e-9
+          },
+          {
+            "token": "ら",
+            "prob": 1.2910922747916039e-9
+          },
+          {
+            "token": "can",
+            "prob": 1.1610066295128198e-9
+          }
+        ]
+      },
+      {
+        "token": "berra",
+        "prob": 0.9999983310727032,
+        "top": [
+          {
+            "token": "berra",
+            "prob": 0.9999983310727032
+          },
+          {
+            "token": "ber",
+            "prob": 0.0000016536891665502549
+          },
+          {
+            "token": "terbury",
+            "prob": 8.677764327999391e-9
+          },
+          {
+            "token": "bera",
+            "prob": 8.152005165739432e-9
+          },
+          {
+            "token": "berta",
+            "prob": 4.363453930307876e-9
+          }
+        ]
+      },
+      {
+        "token": "**.",
+        "prob": 1,
+        "top": [
+          {
+            "token": "**.",
+            "prob": 1
+          },
+          {
+            "token": "**",
+            "prob": 8.245651932552453e-11
+          },
+          {
+            "token": " the",
+            "prob": 6.611652455766365e-12
+          },
+          {
+            "token": " spends",
+            "prob": 5.699600678190038e-12
+          },
+          {
+            "token": " retirees",
+            "prob": 4.799544972039692e-12
+          }
+        ]
+      },
+      {
+        "token": "",
+        "prob": 0.9999998807907247,
+        "top": [
+          {
+            "token": "<turn|>",
+            "prob": 0.9999998807907247
+          },
+          {
+            "token": "**",
+            "prob": 7.734421907141565e-8
+          },
+          {
+            "token": "of",
+            "prob": 5.152235735927438e-8
+          },
+          {
+            "token": "}",
+            "prob": 2.3588654076195056e-8
+          },
+          {
+            "token": " cabin",
+            "prob": 2.2862907487214137e-8
+          }
+        ]
+      }
+    ],
+    "provider": "CoreWeave"
+  },
+  "savedAt": "2026-10-13T16:52:47.802Z"
+}

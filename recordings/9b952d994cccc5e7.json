@@ -1,0 +1,203 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the capital of Australia?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "The capital of Australia is Canberra.",
+    "tokens": [
+      {
+        "token": "The",
+        "prob": 0.7156047425456384,
+        "top": [
+          {
+            "token": "The",
+            "prob": 0.7156047425456384
+          },
+          {
+            "token": "Can",
+            "prob": 0.2843700773057326
+          },
+          {
+            "token": "can",
+            "prob": 0.000007598816853211165
+          },
+          {
+            "token": "the",
+            "prob": 0.000004262196160028837
+          },
+          {
+            "token": " Canberra",
+            "prob": 0.000002816343909985095
+          }
+        ]
+      },
+      {
+        "token": " capital",
+        "prob": 0.999994561441089,
+        "top": [
+          {
+            "token": " capital",
+            "prob": 0.999994561441089
+          },
+          {
+            "token": " Capital",
+            "prob": 0.0000027080113815156955
+          },
+          {
+            "token": " ",
+            "prob": 7.574161490601399e-7
+          },
+          {
+            "token": " national",
+            "prob": 4.878913984596244e-7
+          },
+          {
+            "token": " capita",
+            "prob": 4.4961417987337523e-7
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9954260960049662,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9954260960049662
+          },
+          {
+            "token": " city",
+            "prob": 0.004572137313164604
+          },
+          {
+            "token": " is",
+            "prob": 0.000001086205638854299
+          },
+          {
+            "token": " Australia",
+            "prob": 2.1238609836065336e-7
+          },
+          {
+            "token": " City",
+            "prob": 1.223251712271349e-7
+          }
+        ]
+      },
+      {
+        "token": " Australia",
+        "prob": 0.9999961110815618,
+        "top": [
+          {
+            "token": " Australia",
+            "prob": 0.9999961110815618
+          },
+          {
+            "token": " A",
+            "prob": 8.107403454510802e-7
+          },
+          {
+            "token": "Australia",
+            "prob": 6.677887205771915e-7
+          },
+          {
+            "token": " australia",
+            "prob": 3.5127164339161856e-7
+          },
+          {
+            "token": " Austria",
+            "prob": 3.5017668344280073e-7
+          }
+        ]
+      },
+      {
+        "token": " is",
+        "prob": 0.9999913429644723,
+        "top": [
+          {
+            "token": " is",
+            "prob": 0.9999913429644723
+          },
+          {
+            "token": " Canberra",
+            "prob": 0.000005875995884760376
+          },
+          {
+            "token": " in",
+            "prob": 0.0000022370713065321586
+          },
+          {
+            "token": " ",
+            "prob": 1.1760715047164703e-7
+          },
+          {
+            "token": ",",
+            "prob": 6.030945175344274e-8
+          }
+        ]
+      },
+      {
+        "token": " Canberra",
+        "prob": 0.9999993295729247,
+        "top": [
+          {
+            "token": " Canberra",
+            "prob": 0.9999993295729247
+          },
+          {
+            "token": " Sydney",
+            "prob": 3.466864735052334e-7
+          },
+          {
+            "token": " Can",
+            "prob": 1.1400266632609912e-7
+          },
+          {
+            "token": " ",
+            "prob": 6.763400147164032e-8
+          },
+          {
+            "token": " can",
+            "prob": 1.8750170335711067e-8
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9993536563700931,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9993536563700931
+          },
+          {
+            "token": "<|end|>",
+            "prob": 0.000606761172407562
+          },
+          {
+            "token": ",",
+            "prob": 0.000034451500692068934
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.0000022678348323344885
+          },
+          {
+            "token": ".\n",
+            "prob": 0.0000013429149107839582
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T16:52:48.024Z"
+}

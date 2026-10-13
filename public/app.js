@@ -61,7 +61,7 @@ function showProbe(t, node) {
   const msg = node.closest(".msg");
   state.pickedTok = msg && node.dataset.i != null ? [...msg.querySelectorAll(`.tok[data-i="${node.dataset.i}"]`)] : [node];
   state.pickedTok.forEach((n) => n.classList.add("picked"));
-  $("#probe-caption").textContent = `After the text before it, the model rated these as the most likely next pieces:`;
+  $("#probe-caption").textContent = `At this position, these tokens had the highest probabilities:`;
   $("#probe").replaceChildren(...barRows(t.top.length ? t.top : [t], t.token));
 }
 
@@ -86,7 +86,7 @@ function barRows(options, chosen, onPick) {
 function clearProbe() {
   state.pickedTok = null;
   $("#probe").replaceChildren();
-  $("#probe-caption").textContent = "Click any word in an answer to see what else the model considered.";
+  $("#probe-caption").textContent = "Click any word in a response to see the other candidates for that spot.";
 }
 
 function showSent(messages) {
@@ -125,7 +125,7 @@ async function sendChat(text) {
   const messages = remember ? [...state.history] : [state.history.at(-1)];
   showSent(messages);
 
-  const pending = addMessage(el("li", { className: "msg msg-model thinking", textContent: "Thinking" }));
+  const pending = addMessage(el("li", { className: "msg msg-model thinking", textContent: "Generating" }));
   try {
     const res = await post("/api/chat", {
       model: model.id, messages, temperature: Number($("#temp").value), max_tokens: 500,
@@ -133,9 +133,9 @@ async function sendChat(text) {
     state.history.push({ role: "assistant", content: res.text });
     const body = renderAnswer(res.text, res.tokens?.filter((t) => !isStop(t.token)), level);
     const notes = [model.name];
-    if (!remember) notes.push("saw only your last message");
-    else if (messages.length > 1) notes.push(`re-read all ${messages.length} messages`);
-    if (!res.tokens?.length) notes.push("this model doesn't share probabilities");
+    if (!remember) notes.push("sent your last message only");
+    else if (messages.length > 1) notes.push(`sent all ${messages.length} messages`);
+    if (!res.tokens?.length) notes.push("no probabilities returned");
     if (res.replayed) notes.push("from recording");
     pending.replaceWith(addMessage(el("li", { className: "msg msg-model" + (remember ? "" : " forgot") },
       body, el("span", { className: "msg-meta", textContent: notes.join(", ") }))));
@@ -161,7 +161,7 @@ function userTurn(text) {
 
 function resetConversation() {
   state.history = [];
-  $("#transcript").replaceChildren(el("li", { className: "empty", textContent: "New conversation. The model remembers nothing." }));
+  $("#transcript").replaceChildren(el("li", { className: "empty", textContent: "New conversation. No earlier messages will be sent." }));
   showSent(null);
   clearProbe();
 }
@@ -206,7 +206,7 @@ let lastGuess = null;
 
 async function predict() {
   const box = $("#next-candidates");
-  box.replaceChildren(el("p", { className: "thinking", textContent: "Guessing" }));
+  box.replaceChildren(el("p", { className: "thinking", textContent: "Predicting" }));
   $("#next-take").disabled = true;
   showSent([{ role: "Raw text, no chat", content: nextText() }]);
   try {
@@ -217,7 +217,7 @@ async function predict() {
     if (!first) {
       lastGuess = { token: res.text, prob: null };
       box.replaceChildren(el("p", {}, `Next: “${res.text}”`),
-        el("p", { className: "note", textContent: "This model doesn't share its probabilities. Pick another model to see the odds." }));
+        el("p", { className: "note", textContent: "This model's provider doesn't return probabilities. Choose another model to see them." }));
     } else {
       lastGuess = first;
       box.replaceChildren(...barRows(first.top.length ? first.top : [first], first.token, (o) => addPiece({ ...o, top: first.top })),
@@ -237,7 +237,7 @@ function addPiece(piece) {
 
 async function keepWriting() {
   const box = $("#next-candidates");
-  box.replaceChildren(el("p", { className: "thinking", textContent: "Writing" }));
+  box.replaceChildren(el("p", { className: "thinking", textContent: "Generating" }));
   try {
     const res = await post("/api/complete", {
       model: currentModel().id, prompt: nextText(), temperature: Number($("#temp").value), max_tokens: 40,
@@ -245,7 +245,7 @@ async function keepWriting() {
     const pieces = res.tokens?.length ? res.tokens : [{ token: res.text, prob: null }];
     state.next.pieces.push(...pieces);
     renderNext();
-    box.replaceChildren(el("p", { className: "note", textContent: "Click any added word to see the alternatives it beat." }));
+    box.replaceChildren(el("p", { className: "note", textContent: "Click any added word to see the other candidates for that spot." }));
   } catch (err) {
     box.replaceChildren(el("p", { className: "msg-error", textContent: err.message }));
   }
@@ -276,24 +276,34 @@ function setMode(mode) {
 $("#tab-chat").addEventListener("click", () => setMode("chat"));
 $("#tab-next").addEventListener("click", () => setMode("next"));
 
+// Sections start collapsed; click a heading to open it.
 function renderPresets() {
-  $("#presets").replaceChildren(...presets.map((group) =>
-    el("section", { className: "preset-group" },
-      el("h2", {}, sectionButton(group)),
-      el("ul", {}, ...group.items.map((p) => {
-        const b = el("button", { type: "button", className: "preset", title: p.text },
-          p.label, el("span", { className: "preset-hint", textContent: presetHint(p) }));
-        b.addEventListener("click", () => usePreset(p, b));
-        return el("li", {}, b);
-      })))));
-}
-
-// A section heading that opens its explanation.
-function sectionButton(group) {
-  const b = el("button", { type: "button", className: "section-btn", title: "What is this about?" },
-    group.section, el("span", { className: "q", textContent: "?", ariaHidden: "true" }));
-  b.addEventListener("click", () => showAbout(group.section, group.about));
-  return b;
+  $("#presets").replaceChildren(...presets.map((group, i) => {
+    if (!group.items.length) {
+      // No demos: the heading just opens the explanation.
+      const b = el("button", { type: "button", className: "section-btn info-btn" },
+        group.section, el("span", { className: "q", textContent: "?", ariaHidden: "true" }));
+      b.addEventListener("click", () => showAbout(group.section, group.about));
+      return el("section", { className: "preset-group info-group" }, el("h2", {}, b));
+    }
+    const list = el("ul", { id: `section-${i}`, hidden: true }, ...group.items.map((p) => {
+      const b = el("button", { type: "button", className: "preset", title: p.text },
+        p.label, el("span", { className: "preset-hint", textContent: presetHint(p) }));
+      b.addEventListener("click", () => usePreset(p, b));
+      return el("li", {}, b);
+    }));
+    const toggle = el("button", { type: "button", className: "section-btn" },
+      el("span", { className: "chevron", ariaHidden: "true" }), group.section);
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.setAttribute("aria-controls", list.id);
+    toggle.addEventListener("click", () => {
+      list.hidden = !list.hidden;
+      toggle.setAttribute("aria-expanded", String(!list.hidden));
+    });
+    const about = el("button", { type: "button", className: "q", textContent: "?", title: `What is “${group.section}” about?` });
+    about.addEventListener("click", () => showAbout(group.section, group.about));
+    return el("section", { className: "preset-group" }, el("h2", {}, toggle, about), list);
+  }));
 }
 
 function showAbout(title, about = {}) {
@@ -307,12 +317,12 @@ function showAbout(title, about = {}) {
 
 const ABOUT_SITE = {
   tagline: "Understand how generative AI works, so you can use it wisely.",
-  text: "ChatIST is a chatbot with the curtain pulled back. Popular AI apps wrap the model in hidden instructions, web search and behind-the-scenes “thinking”. ChatIST talks to the bare model, so you can see what it really does: predict the next word, one word at a time.",
+  text: "ChatIST is a chatbot with the curtain pulled back. Popular AI apps wrap the model in hidden instructions, web search and behind-the-scenes reasoning steps. ChatIST sends your text to the bare model, so you can see what it actually does: predict the next word, one word at a time.",
   points: [
-    "The colors show how sure the model was about each word. Click any word to see what else it considered.",
+    "Each word is colored by the probability the model assigned to it. Click any word to see the other candidates.",
     "“What the model received” shows exactly what was sent to the model. Nothing is hidden.",
     "Each section on the left demonstrates one idea. Click its ? to learn more.",
-    "Once you know how it works, you'll know when to trust it, and when to check.",
+    "Once you know how it works, you'll know when to trust the output, and when to check it.",
   ],
 };
 $("#about-site").addEventListener("click", () => showAbout("ChatIST", ABOUT_SITE));
@@ -359,7 +369,7 @@ function usePreset(p, button) {
 function describeModel() {
   const m = currentModel();
   $("#cutoff").replaceChildren(...(m.cutoff
-    ? ["Knows the world up to ", el("strong", { textContent: m.cutoff })]
+    ? ["Training data up to ", el("strong", { textContent: m.cutoff })]
     : ["Training cutoff not published"]));
   store.set("model", m.id);
 }

@@ -1,0 +1,55 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-4-31b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Complete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      },
+      {
+        "role": "assistant",
+        "content": "beach"
+      },
+      {
+        "role": "user",
+        "content": "Complete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "park",
+    "tokens": [
+      {
+        "token": "park",
+        "prob": 0.9994337191228584,
+        "top": [
+          {
+            "token": "park",
+            "prob": 0.9994337191228584
+          },
+          {
+            "token": "**",
+            "prob": 0.0003942054626965133
+          },
+          {
+            "token": "Since",
+            "prob": 0.000057039819828405935
+          },
+          {
+            "token": "Depending",
+            "prob": 0.000052362951519167086
+          },
+          {
+            "token": "Park",
+            "prob": 0.000040412510512406646
+          }
+        ]
+      }
+    ],
+    "provider": "Parasail"
+  },
+  "savedAt": "2026-10-13T17:01:11.528Z"
+}

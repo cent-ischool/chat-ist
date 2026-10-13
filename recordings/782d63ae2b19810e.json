@@ -1,0 +1,151 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the capital of Australia?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "The capital of Australia is Canberra.",
+    "tokens": [
+      {
+        "token": " Australia",
+        "prob": 0.9999983310727032,
+        "top": [
+          {
+            "token": " Australia",
+            "prob": 0.9999983310727032
+          },
+          {
+            "token": "Australia",
+            "prob": 0.000001067701973552941
+          },
+          {
+            "token": " the",
+            "prob": 5.043467006019808e-7
+          },
+          {
+            "token": " both",
+            "prob": 7.734407154916583e-8
+          },
+          {
+            "token": " Canada",
+            "prob": 3.889104154376441e-8
+          }
+        ]
+      },
+      {
+        "token": " is",
+        "prob": 0.9999990463265931,
+        "top": [
+          {
+            "token": " is",
+            "prob": 0.9999990463265931
+          },
+          {
+            "token": ",",
+            "prob": 3.4663241069161144e-7
+          },
+          {
+            "token": " was",
+            "prob": 2.3823673954981372e-7
+          },
+          {
+            "token": " are",
+            "prob": 1.275189375371399e-7
+          },
+          {
+            "token": " can",
+            "prob": 9.931194312156244e-8
+          }
+        ]
+      },
+      {
+        "token": " Canberra",
+        "prob": 0.9998116847948291,
+        "top": [
+          {
+            "token": " Canberra",
+            "prob": 0.9998116847948291
+          },
+          {
+            "token": " Sydney",
+            "prob": 0.000040057770878705514
+          },
+          {
+            "token": " Commonwealth",
+            "prob": 0.00003320905846784575
+          },
+          {
+            "token": " Melbourne",
+            "prob": 0.00002753127645719952
+          },
+          {
+            "token": " actually",
+            "prob": 0.000025863240739822343
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.99962903913519,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.99962903913519
+          },
+          {
+            "token": ",",
+            "prob": 0.00023047435051557397
+          },
+          {
+            "token": "<|eot_id|>",
+            "prob": 0.0001233640300939526
+          },
+          {
+            "token": " (",
+            "prob": 0.00001147464224615792
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.0000016530789488616286
+          }
+        ]
+      },
+      {
+        "token": "<|eot_id|>",
+        "prob": 0.995470628504213,
+        "top": [
+          {
+            "token": "<|eot_id|>",
+            "prob": 0.995470628504213
+          },
+          {
+            "token": " It",
+            "prob": 0.004068261625762924
+          },
+          {
+            "token": " However",
+            "prob": 0.00037840727709568183
+          },
+          {
+            "token": " Located",
+            "prob": 0.00005121185602453948
+          },
+          {
+            "token": " Prior",
+            "prob": 0.00000476344462965258
+          }
+        ]
+      }
+    ],
+    "provider": "Parasail"
+  },
+  "savedAt": "2026-10-13T16:52:47.787Z"
+}

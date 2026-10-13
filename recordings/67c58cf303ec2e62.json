@@ -1,0 +1,115 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My mom is a zookeeper, my dad is a firefighter.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      },
+      {
+        "role": "assistant",
+        "content": "zoo"
+      },
+      {
+        "role": "user",
+        "content": "My mom is a chef, my dad is a historian.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      },
+      {
+        "role": "assistant",
+        "content": "museum."
+      },
+      {
+        "role": "user",
+        "content": "My mom is a zookeeper, my dad is a firefighter.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "fire station.",
+    "tokens": [
+      {
+        "token": "fire",
+        "prob": 0.8762035919001983,
+        "top": [
+          {
+            "token": "fire",
+            "prob": 0.8762035919001983
+          },
+          {
+            "token": "s",
+            "prob": 0.033974098656479025
+          },
+          {
+            "token": "animal",
+            "prob": 0.033974098656479025
+          },
+          {
+            "token": "wild",
+            "prob": 0.029982036832446202
+          },
+          {
+            "token": "park",
+            "prob": 0.014162511382696745
+          }
+        ]
+      },
+      {
+        "token": " station",
+        "prob": 0.9890766521296336,
+        "top": [
+          {
+            "token": " station",
+            "prob": 0.9890766521296336
+          },
+          {
+            "token": "house",
+            "prob": 0.009696566093759964
+          },
+          {
+            "token": "station",
+            "prob": 0.0011580896705721832
+          },
+          {
+            "token": "works",
+            "prob": 0.000021211152206973236
+          },
+          {
+            "token": " department",
+            "prob": 0.000014578197502656172
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9998839471634962,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9998839471634962
+          },
+          {
+            "token": "!",
+            "prob": 0.00009610047028777974
+          },
+          {
+            "token": " zoo",
+            "prob": 0.000018923304592277583
+          },
+          {
+            "token": " and",
+            "prob": 3.465924134936814e-7
+          },
+          {
+            "token": ".\n",
+            "prob": 2.6992644303548724e-7
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T17:03:12.349Z"
+}

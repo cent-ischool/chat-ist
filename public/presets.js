@@ -21,36 +21,48 @@ const ADVISOR = "Tomorrow I'm meeting my daughter's academic advisor. She's a so
 const BASEBALLS = "There are:\n12 baseballs in a box\n6 boxes in a case\n8 cases in a shipment\n\nEach game requires 2 baseballs.\n\nHow many games can you play with a shipment?";
 
 export default [
+  // A section with no items is a heading that opens its explanation.
+  { section: "Introduction",
+about: {
+      text: "Tools like ChatGPT, Gemini and Claude can seem to understand us. Under the hood they're doing something simpler — and stranger: predicting the next word. Today we'll pull back the curtain and see what that means for how we use them.",
+      points: [
+        "A large language model (LLM) is a program trained on a huge collection of text, its training data, to predict the next word.",
+        "ChatIST sends your text straight to the model: no web search, no saved memory, no built-in personality. You see the model's raw output, not the product wrapped around it.",
+        "Each word is colored by the probability the model assigned to it. Click any word to see the other candidates for that spot.",
+        "Each section below covers one idea, with live demos you can try.",
+      ],
+    },
+    items: []},
   { section: "Next-word prediction",
     about: {
-      text: "A language model does one thing: it looks at the text so far and predicts what comes next. It gives every possible next piece a probability, picks one, adds it, and repeats. Every answer, essay or poem is built from this one move.",
+      text: "To simplify: a large language model takes the text so far and predicts what comes next. It assigns a probability to every possible next token, selects one, appends it, and repeats. Every response, essay or poem is produced by repeating this one step.",
       points: [
-        "The pieces are called tokens: whole words or parts of words.",
-        "Some text is predictable (“Once upon a…”), some is wide open (“Today I feel…”). The more open it is, the more the answers vary.",
-        "Creativity (temperature) controls how often it picks a less likely token. That's why the same question can get different answers.",
-        "The colors in ChatIST show how sure the model was about each token.",
+        "Tokens are the pieces it works with: whole words or parts of words.",
+        "Some text is predictable (“Once upon a…”), some is wide open (“Today I feel…”). The more open the text, the more the output varies.",
+        "Creativity (temperature) controls how often a lower-probability token is selected. That's why the same prompt can produce different responses.",
+        "The colors in ChatIST show the probability of each token.",
       ],
     },
     items: [
-      // Only GPT-3.5 spreads its guesses: " Sam" 46%, "," 27%.
+      // Only GPT-3.5 spreads its probabilities: " Sam" 46%, "," 27%.
       { label: "Green eggs and ham", mode: "next", model: GPT35, temperature: 0,
         text: "I do not like green eggs and ham. I do not like them" },
-      // Sure: " time" 99%. Wide open: content 24%, grateful 18%, happy 17%.
-      { label: "Sure: Once upon a", mode: "next", model: GPT35, temperature: 0,
+      // Predictable: " time" 99%. Wide open: content 24%, grateful 18%, happy 17%.
+      { label: "Predictable: Once upon a", mode: "next", model: GPT35, temperature: 0,
         text: "Once upon a" },
       { label: "Wide open: Today I feel", mode: "next", model: GPT35, temperature: 0,
         text: "Today I feel" },
-      // Team guesses are split, so sending twice gives different teams.
+      // Team probabilities are split, so sending twice gives different teams.
       { label: "New York teams", mode: "chat", fresh: true, model: GPT35, temperature: 1,
         text: "Add to this list, only reply with next items in the list\n\nNew York Knicks\nNew York Redbulls\nNew York Giants\nNew York Liberty\nNew York Rangers" },
     ]},
-  { section: "Remembering the conversation",
+  { section: "Memory",
     about: {
-      text: "The model has no memory. Every time you send a message, the app sends the whole conversation again from the start. “Memory” is just the app replaying the transcript.",
+      text: "The model has no memory. Each request stands alone: every time you send a message, the app sends the whole conversation again from the start. “Memory” is the app replaying the transcript.",
       points: [
-        "Turn off “Remember conversation” and the model forgets everything except your last message.",
-        "Conversations have a size limit. In very long chats the oldest parts get dropped or summarized.",
-        "“New conversation” gives the model a blank slate.",
+        "Turn off “Remember conversation” and only your last message is sent, so earlier details are missing from the input.",
+        "The input has a size limit, called the context window. In very long chats the oldest parts are dropped or summarized.",
+        "“New conversation” clears the history, so the next request starts empty.",
       ],
     },
     items: [
@@ -59,12 +71,12 @@ export default [
       { label: "What should I call you?", mode: "chat", model: GEMMA4, temperature: 0, text: "What should I call you?" },
       { label: "What should you call me?", mode: "chat", model: GEMMA4, temperature: 0, text: "What should you call me?" },
     ]},
-  { section: "Knowledge cutoff",
+  { section: "Training cutoff",
     about: {
-      text: "A model learns from a snapshot of text collected up to a certain date, its training cutoff. It knows nothing after that, and often doesn't realize time has passed.",
+      text: "A model is trained on a snapshot of text collected up to a certain date: its training cutoff. Nothing after that date is in its training data, and its output often treats the cutoff date as the present.",
       points: [
-        "It will confidently give answers that were true on its cutoff date.",
-        "Chatbots like ChatGPT add web search to fill the gap. That's a form of grounding, coming up later.",
+        "Responses can present facts from the cutoff date as if they're still current.",
+        "Chatbots like ChatGPT add web search to fill the gap. That's a form of grounding, covered later.",
       ],
     },
     items: [
@@ -75,11 +87,12 @@ export default [
     ]},
   { section: "Leading the witness",
     about: {
-      text: "A language model is an improv partner: it continues whatever scene you set up. Small details in your question steer the answer, and models tend to agree with whatever you seem to want. This is called sycophancy.",
+      text: "A language model works a lot like an improv partner: it continues whatever scene the prompt sets up. Small details in your question steer the response, and the output tends to go along with whatever the prompt implies. This is called sycophancy.",
       points: [
         "Mention a zookeeper and the lovely day is at the zoo.",
-        "A leading question gets the answer you hinted at.",
-        "If you want an honest opinion, ask neutrally and ask for pros and cons.",
+        "A leading question tends to produce the answer it hints at.",
+        "Push back and the response may include an apology, even when the original answer was correct.",
+        "For a balanced response, phrase the question neutrally and ask for pros and cons.",
       ],
     },
     items: [
@@ -90,15 +103,20 @@ export default [
         text: "My mom is a zookeeper, my dad is a firefighter.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?" },
       { label: "Chef and historian", mode: "chat", fresh: true, model: GPT35, temperature: 0,
         text: "My mom is a chef, my dad is a historian.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?" },
+      // Answers Canberra (right), then apologizes and thanks you for "pointing out its mistake".
+      { label: "Capital of Australia", mode: "chat", fresh: true, model: GEMMA3, temperature: 0,
+        text: "What is the capital of Australia?" },
+      { label: "Push back: it's Sydney", mode: "chat", model: GEMMA3, temperature: 0,
+        text: "Are you sure? I'm pretty sure it's Sydney." },
     ]},
   { section: "Hallucinations",
     about: {
-      text: "The model always produces the most plausible-sounding next words, whether or not it knows the facts. When it doesn't know, it can invent a fluent, confident answer. This is called a hallucination.",
+      text: "The model always produces plausible-sounding next words, whether or not the facts appear in its training data. When they don't, it can still generate a fluent, confident-sounding answer. This is called a hallucination.",
       points: [
-        "Well-known facts come back the same every time.",
-        "Made-up facts change each time you ask.",
-        "Ask about something that never happened and it may describe it in detail anyway.",
-        "Click the key words: an invented answer often rests on low-probability guesses.",
+        "Facts that appear often in the training data come back the same every time.",
+        "Made-up details change from one response to the next.",
+        "Ask about something that never happened and the response may describe it in detail anyway.",
+        "Click the key words: a made-up answer often rests on low-probability tokens.",
         "Check anything important against a trusted source.",
       ],
     },
@@ -115,10 +133,11 @@ export default [
     ]},
   { section: "Grounding",
     about: {
-      text: "Grounding means putting the facts the model needs into the prompt itself. Without context it falls back on general knowledge and gives a generic answer. With context, the answer fits your situation.",
+      text: "Grounding means putting the facts the model needs into the prompt itself. Without context, the response draws only on general patterns from the training data and comes out generic. With context, the response is specific to your situation.",
       points: [
-        "This is how web search, “chat with your documents” and company assistants work: they find relevant information and paste it into the prompt for you.",
-        "The answer can only be as good, and as current, as the context you give it.",
+        "This is how web search, “chat with your documents” and company assistants work: the app retrieves relevant information and adds it to the prompt.",
+        "The response can only be as accurate, and as current, as the context provided.",
+        "Context also shapes the style: the same facts can come back as a pirate's sales pitch.",
       ],
     },
     items: [
@@ -133,13 +152,16 @@ export default [
         text: MEETING },
       { label: "Meeting talking points, with context", mode: "chat", fresh: true, model: GPT35, temperature: 0,
         text: ADVISOR + MEETING },
+      // Same conversation, new voice: the facts carry over. GPT-3.5 ignores the timeshare, GPT-4o pitches it throughout.
+      { label: "As a pirate selling a timeshare", mode: "chat", model: GPT4O, temperature: 0,
+        text: "Now give me those talking points again, as a pirate of the high seas who keeps trying to sell me a timeshare on his private island." },
     ]},
   { section: "Reasoning traps",
     about: {
-      text: "Models learn patterns, not rules. A question that looks like a familiar pattern or a famous puzzle triggers the familiar answer, even when the details are different.",
+      text: "Models are trained on patterns, not rules. A question that resembles a familiar pattern or a famous puzzle tends to produce the familiar answer, even when the details are different.",
       points: [
-        "Strawberry: the model sees tokens like “straw” and “berry”, not individual letters, so counting letters is hard.",
-        "Car wash, surgeon and goat: they look like well-known riddles, so the model gives the riddle's usual answer instead of reading the question.",
+        "Strawberry: the model processes tokens like “straw” and “berry”, not individual letters, so letter counts are unreliable.",
+        "Car wash, surgeon and goat: these resemble well-known riddles, so the output follows the riddle's usual answer instead of the details in the question.",
         "9.11 vs 9.9: in software versions and dates, 9.11 really does come after 9.9.",
       ],
     },
@@ -160,13 +182,13 @@ export default [
     ]},
   { section: "Making it reason",
     about: {
-      text: "The model writes one token at a time, so it can only “think” on the page. Asking for just the answer forces a guess in a single step. Asking it to explain its reasoning first gives it room to work the problem out, and each step it writes becomes context for the next.",
+      text: "The model generates one token at a time, and each token becomes part of the input for the next. Asking for just the answer means it has to be produced in a single step. Asking for the reasoning first puts the intermediate steps into the text, where each one becomes context for the next.",
       points: [
-        "Ask it to explain its reasoning first, then give the answer (chain of thought).",
-        "Show it a worked example of a similar problem first (few-shot prompting).",
+        "Ask for the reasoning first, then the answer (chain of thought).",
+        "Include a worked example of a similar problem in the prompt (few-shot prompting).",
         "Break a big problem into smaller steps.",
-        "Ask it to check its answer, or to justify each step.",
-        "“Thinking” or reasoning models do this automatically behind the scenes. ChatIST turns that off so you can see the difference.",
+        "Ask for each step to be checked or justified.",
+        "Reasoning models, sometimes labeled “thinking”, generate these steps automatically before the final answer. ChatIST turns that off so you can see the difference.",
       ],
     },
     items: [
@@ -176,4 +198,19 @@ export default [
       { label: "Baseballs, explain the math first", mode: "chat", fresh: true, model: GPT4O_MINI, temperature: 0,
         text: BASEBALLS + " Explain the math first." },
     ]},
+  { section: "Takeaways",
+    about: {
+      text: "Keep these in mind whenever you use an AI tool.",
+      points: [
+        "It predicts the next word. It doesn't look anything up unless the app adds a search step.",
+        "It has no memory. The app re-sends your conversation every time.",
+        "Its output reflects its training data, which stops at a cutoff date.",
+        "It tends to produce whatever the prompt implies you want. Ask neutral questions.",
+        "It can generate false information that sounds confident. Check anything important.",
+        "Provide context. The more relevant information the prompt includes, the more specific the response.",
+        "For anything with multiple steps, ask for the reasoning first.",
+        "Treat the output as a fast first draft: useful, but it needs review.",
+      ],
+    },
+    items: []},
 ];

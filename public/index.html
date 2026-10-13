@@ -64,11 +64,11 @@
 
       <!-- Next-word mode -->
       <section id="next-view" class="view" hidden>
-        <p class="hint">The model sees only this text and guesses what comes next. No chat, no instructions.</p>
+        <p class="hint">Only this text is sent. The model predicts the next token: no chat format, no instructions.</p>
         <div id="next-text" class="next-text" contenteditable="true" spellcheck="false" aria-label="Text so far"></div>
         <div class="next-actions">
-          <button id="next-predict" class="btn" type="button">Guess the next word</button>
-          <button id="next-take" class="btn btn-quiet" type="button" disabled>Add top guess</button>
+          <button id="next-predict" class="btn" type="button">Predict the next word</button>
+          <button id="next-take" class="btn btn-quiet" type="button" disabled>Add top prediction</button>
           <button id="next-run" class="btn btn-quiet" type="button">Keep writing</button>
           <button id="next-undo" class="btn btn-quiet" type="button" disabled>Undo</button>
         </div>
@@ -78,11 +78,11 @@
 
     <aside class="inspector">
       <section class="panel">
-        <h2>Its top guesses</h2>
-        <p id="probe-caption" class="caption">Click any word in an answer to see what else the model considered.</p>
+        <h2>Top predictions</h2>
+        <p id="probe-caption" class="caption">Click any word in a response to see the other candidates for that spot.</p>
         <div id="probe" class="probe"></div>
-        <div class="legend" aria-label="Colour key">
-          <span class="chip p5">sure</span><span class="chip p4">likely</span><span class="chip p3">torn</span><span class="chip p2">unsure</span><span class="chip p1">guessing</span>
+        <div class="legend" aria-label="Probability key">
+          <span class="chip p5">90%+</span><span class="chip p4">60–90%</span><span class="chip p3">35–60%</span><span class="chip p2">15–35%</span><span class="chip p1">under 15%</span>
         </div>
       </section>
       <section class="panel">

@@ -42,6 +42,11 @@
 	Its a lovely day to go to the ____ ?
 
 
+	What is the capital of Australia?
+
+	Are you sure? I'm pretty sure it's Sydney.
+
+
 ## Hallucinations:
 
 	What is George Washington's birthday?
@@ -69,6 +74,8 @@
 	Tomorrow I'm meeting my daughter's academic advisor. She's a sophomore at the Syracuse iSchool with a 3.4 GPA. She's thinking about switching from Applied Data Analytics to Information Management and Technology, she's worried about finding a summer internship, and she works 15 hours a week at the library.
 
 	Give me 3 talking points for my meeting tomorrow.
+
+	Now give me those talking points again, as a pirate of the high seas who keeps trying to sell me a timeshare on his private island.
 
 
 ## Reasoning traps:

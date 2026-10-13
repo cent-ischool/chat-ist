@@ -1,0 +1,4727 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why do we only use 10% of our brains?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "The idea that humans only use 10% of their brains is actually a myth. This misconception has been debunked by neuroscientists. In reality, we use virtually every part of our brain, and most of the brain is active almost all the time. Brain imaging research has shown that even when we are at rest, our brains are still active, and different tasks and activities engage different parts of the brain.\n\nThe myth may have originated from misinterpretations or misrepresentations of neurological research in the early 20th century, or from the fact that at any given moment, only a small percentage of neurons may be firing. However, this does not mean that the rest of the brain is inactive or unused. Each part of the brain has a known function, and damage to even small areas can have significant effects on cognition and behavior, further indicating that we use all parts of our brain.",
+    "tokens": [
+      {
+        "token": "The",
+        "prob": 0.9999939654258196,
+        "top": [
+          {
+            "token": "The",
+            "prob": 0.9999939654258196
+          },
+          {
+            "token": "Actually",
+            "prob": 0.0000055943369990798735
+          },
+          {
+            "token": "\n",
+            "prob": 7.734377650551034e-8
+          },
+          {
+            "token": " The",
+            "prob": 5.5708632384631455e-8
+          },
+          {
+            "token": "It's",
+            "prob": 5.072328700451826e-8
+          }
+        ]
+      },
+      {
+        "token": " idea",
+        "prob": 0.9209514081645037,
+        "top": [
+          {
+            "token": " idea",
+            "prob": 0.9209514081645037
+          },
+          {
+            "token": " claim",
+            "prob": 0.05530742519602116
+          },
+          {
+            "token": " notion",
+            "prob": 0.016095382169984313
+          },
+          {
+            "token": " statement",
+            "prob": 0.005307693698166517
+          },
+          {
+            "token": " belief",
+            "prob": 0.0021112546869152126
+          }
+        ]
+      },
+      {
+        "token": " that",
+        "prob": 1,
+        "top": [
+          {
+            "token": " that",
+            "prob": 1
+          },
+          {
+            "token": " we",
+            "prob": 1.9863638254836128e-8
+          },
+          {
+            "token": ",",
+            "prob": 1.4615767766244206e-9
+          },
+          {
+            "token": " or",
+            "prob": 1.2648892727765008e-9
+          },
+          {
+            "token": " is",
+            "prob": 8.727473555221112e-10
+          }
+        ]
+      },
+      {
+        "token": " humans",
+        "prob": 0.5234039146246262,
+        "top": [
+          {
+            "token": " humans",
+            "prob": 0.5234039146246262
+          },
+          {
+            "token": " we",
+            "prob": 0.476564687452593
+          },
+          {
+            "token": " \"",
+            "prob": 0.000016331712148008156
+          },
+          {
+            "token": " people",
+            "prob": 0.000014639652153907418
+          },
+          {
+            "token": " human",
+            "prob": 3.336988792693308e-7
+          }
+        ]
+      },
+      {
+        "token": " only",
+        "prob": 0.9789104925997266,
+        "top": [
+          {
+            "token": " only",
+            "prob": 0.9789104925997266
+          },
+          {
+            "token": " use",
+            "prob": 0.020961557841150794
+          },
+          {
+            "token": " \"",
+            "prob": 0.00012464203848768583
+          },
+          {
+            "token": " utilize",
+            "prob": 0.00000207860279950279
+          },
+          {
+            "token": " typically",
+            "prob": 5.174051462012707e-7
+          }
+        ]
+      },
+      {
+        "token": " use",
+        "prob": 0.9999797803764172,
+        "top": [
+          {
+            "token": " use",
+            "prob": 0.9999797803764172
+          },
+          {
+            "token": " utilize",
+            "prob": 0.000020145693244897584
+          },
+          {
+            "token": " \"",
+            "prob": 8.345165224271037e-9
+          },
+          {
+            "token": " employ",
+            "prob": 7.823092596725172e-10
+          },
+          {
+            "token": " uses",
+            "prob": 4.026982954696166e-10
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9999992103693378,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9999992103693378
+          },
+          {
+            "token": " about",
+            "prob": 2.964904127783773e-7
+          },
+          {
+            "token": " \"",
+            "prob": 2.2732708495719762e-7
+          },
+          {
+            "token": " ten",
+            "prob": 2.0698366627584772e-7
+          },
+          {
+            "token": " or",
+            "prob": 1.2237632521703756e-8
+          }
+        ]
+      },
+      {
+        "token": "10",
+        "prob": 1,
+        "top": [
+          {
+            "token": "10",
+            "prob": 1
+          },
+          {
+            "token": "１０",
+            "prob": 5.880525425099987e-12
+          },
+          {
+            "token": "۱۰",
+            "prob": 2.888417042574018e-12
+          },
+          {
+            "token": " ten",
+            "prob": 2.692300724356978e-12
+          },
+          {
+            "token": "<|end|>",
+            "prob": 1.252036112270598e-12
+          }
+        ]
+      },
+      {
+        "token": "%",
+        "prob": 0.9999998063873693,
+        "top": [
+          {
+            "token": "%",
+            "prob": 0.9999998063873693
+          },
+          {
+            "token": " percent",
+            "prob": 1.0087587866101831e-7
+          },
+          {
+            "token": "%,",
+            "prob": 3.4177277508975546e-10
+          },
+          {
+            "token": "\\",
+            "prob": 2.2414005812055543e-10
+          },
+          {
+            "token": "-",
+            "prob": 5.450043132884139e-11
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999998063873693,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999998063873693
+          },
+          {
+            "token": " (",
+            "prob": 1.3363882657349946e-7
+          },
+          {
+            "token": " or",
+            "prob": 1.522997974471263e-8
+          },
+          {
+            "token": " percent",
+            "prob": 1.1562023948166155e-9
+          },
+          {
+            "token": " their",
+            "prob": 1.469946388827852e-10
+          }
+        ]
+      },
+      {
+        "token": " their",
+        "prob": 0.9996897306176304,
+        "top": [
+          {
+            "token": " their",
+            "prob": 0.9996897306176304
+          },
+          {
+            "token": " our",
+            "prob": 0.0003101560673353223
+          },
+          {
+            "token": " the",
+            "prob": 4.1386508212010633e-8
+          },
+          {
+            "token": " your",
+            "prob": 6.333496999009542e-10
+          },
+          {
+            "token": " theirs",
+            "prob": 3.390076651210585e-10
+          }
+        ]
+      },
+      {
+        "token": " brains",
+        "prob": 0.9997833743490786,
+        "top": [
+          {
+            "token": " brains",
+            "prob": 0.9997833743490786
+          },
+          {
+            "token": " brain",
+            "prob": 0.00021654406796118328
+          },
+          {
+            "token": "brains",
+            "prob": 2.524829155379282e-9
+          },
+          {
+            "token": " total",
+            "prob": 4.932993438841643e-10
+          },
+          {
+            "token": " cerebral",
+            "prob": 1.814746869583455e-10
+          }
+        ]
+      },
+      {
+        "token": " is",
+        "prob": 0.999999448776502,
+        "top": [
+          {
+            "token": " is",
+            "prob": 0.999999448776502
+          },
+          {
+            "token": " at",
+            "prob": 3.7479900037518686e-7
+          },
+          {
+            "token": " has",
+            "prob": 6.462351390820105e-8
+          },
+          {
+            "token": ",",
+            "prob": 2.3042223493058382e-8
+          },
+          {
+            "token": " and",
+            "prob": 3.4788554184661817e-9
+          }
+        ]
+      },
+      {
+        "token": " actually",
+        "prob": 0.7217351458670678,
+        "top": [
+          {
+            "token": " actually",
+            "prob": 0.7217351458670678
+          },
+          {
+            "token": " a",
+            "prob": 0.2782536944222101
+          },
+          {
+            "token": " largely",
+            "prob": 0.0000030005273890296314
+          },
+          {
+            "token": " indeed",
+            "prob": 0.0000024109914900576073
+          },
+          {
+            "token": ",",
+            "prob": 0.000002282680863504193
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 1,
+        "top": [
+          {
+            "token": " a",
+            "prob": 1
+          },
+          {
+            "token": " one",
+            "prob": 4.9548566844970286e-8
+          },
+          {
+            "token": " just",
+            "prob": 1.808604844573311e-8
+          },
+          {
+            "token": " not",
+            "prob": 6.653485395215931e-9
+          },
+          {
+            "token": " more",
+            "prob": 6.010923137169528e-9
+          }
+        ]
+      },
+      {
+        "token": " myth",
+        "prob": 0.9959984858896919,
+        "top": [
+          {
+            "token": " myth",
+            "prob": 0.9959984858896919
+          },
+          {
+            "token": " misconception",
+            "prob": 0.0022832972380294903
+          },
+          {
+            "token": " widely",
+            "prob": 0.0007529515132564232
+          },
+          {
+            "token": " widespread",
+            "prob": 0.000729785630597381
+          },
+          {
+            "token": " common",
+            "prob": 0.00011546890941113101
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.6927386743693451,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.6927386743693451
+          },
+          {
+            "token": " and",
+            "prob": 0.30263513179938345
+          },
+          {
+            "token": ",",
+            "prob": 0.0012760605745277976
+          },
+          {
+            "token": " that",
+            "prob": 0.0011438533063222393
+          },
+          {
+            "token": " rather",
+            "prob": 0.0007985383028263433
+          }
+        ]
+      },
+      {
+        "token": " This",
+        "prob": 0.5055388763455984,
+        "top": [
+          {
+            "token": " This",
+            "prob": 0.5055388763455984
+          },
+          {
+            "token": " Neu",
+            "prob": 0.3114534666199048
+          },
+          {
+            "token": " Neuros",
+            "prob": 0.13395446680198958
+          },
+          {
+            "token": " Modern",
+            "prob": 0.025565657378903393
+          },
+          {
+            "token": " Brain",
+            "prob": 0.0037410822537275053
+          }
+        ]
+      },
+      {
+        "token": " misconception",
+        "prob": 0.969499856315643,
+        "top": [
+          {
+            "token": " misconception",
+            "prob": 0.969499856315643
+          },
+          {
+            "token": " concept",
+            "prob": 0.012591606157957378
+          },
+          {
+            "token": " notion",
+            "prob": 0.005415582325587873
+          },
+          {
+            "token": " myth",
+            "prob": 0.005248962374002456
+          },
+          {
+            "token": " popular",
+            "prob": 0.0032847167206668903
+          }
+        ]
+      },
+      {
+        "token": " has",
+        "prob": 0.9460117868744731,
+        "top": [
+          {
+            "token": " has",
+            "prob": 0.9460117868744731
+          },
+          {
+            "token": " may",
+            "prob": 0.029938042917738553
+          },
+          {
+            "token": " might",
+            "prob": 0.008989032727869642
+          },
+          {
+            "token": " is",
+            "prob": 0.00884967069271267
+          },
+          {
+            "token": " likely",
+            "prob": 0.005537982409765974
+          }
+        ]
+      },
+      {
+        "token": " been",
+        "prob": 0.9975358276381814,
+        "top": [
+          {
+            "token": " been",
+            "prob": 0.9975358276381814
+          },
+          {
+            "token": " persisted",
+            "prob": 0.001224047662796978
+          },
+          {
+            "token": " no",
+            "prob": 0.0005182943906312003
+          },
+          {
+            "token": " circulated",
+            "prob": 0.000510258980896306
+          },
+          {
+            "token": " often",
+            "prob": 0.00008729501877462439
+          }
+        ]
+      },
+      {
+        "token": " deb",
+        "prob": 0.38425934077968915,
+        "top": [
+          {
+            "token": " deb",
+            "prob": 0.38425934077968915
+          },
+          {
+            "token": " popular",
+            "prob": 0.2559719047135241
+          },
+          {
+            "token": " widely",
+            "prob": 0.23306507146384647
+          },
+          {
+            "token": " perpet",
+            "prob": 0.10342199853593653
+          },
+          {
+            "token": " around",
+            "prob": 0.019432417783634512
+          }
+        ]
+      },
+      {
+        "token": "unk",
+        "prob": 1,
+        "top": [
+          {
+            "token": "unk",
+            "prob": 1
+          },
+          {
+            "token": "UNK",
+            "prob": 4.867793902108199e-9
+          },
+          {
+            "token": "oned",
+            "prob": 5.634880440366908e-10
+          },
+          {
+            "token": "unkt",
+            "prob": 5.547519716492687e-10
+          },
+          {
+            "token": "unks",
+            "prob": 4.745045067647817e-10
+          }
+        ]
+      },
+      {
+        "token": "ed",
+        "prob": 1,
+        "top": [
+          {
+            "token": "ed",
+            "prob": 1
+          },
+          {
+            "token": "ing",
+            "prob": 5.484526391933337e-8
+          },
+          {
+            "token": "red",
+            "prob": 3.2426498061107754e-9
+          },
+          {
+            "token": "led",
+            "prob": 2.9989608248573072e-9
+          },
+          {
+            "token": "edly",
+            "prob": 2.409732720382012e-9
+          }
+        ]
+      },
+      {
+        "token": " by",
+        "prob": 0.9985213499527036,
+        "top": [
+          {
+            "token": " by",
+            "prob": 0.9985213499527036
+          },
+          {
+            "token": " repeatedly",
+            "prob": 0.001000025653609281
+          },
+          {
+            "token": " numerous",
+            "prob": 0.00015335882782612412
+          },
+          {
+            "token": " through",
+            "prob": 0.00015335882782612412
+          },
+          {
+            "token": " multiple",
+            "prob": 0.00009596950218529209
+          }
+        ]
+      },
+      {
+        "token": " neurosc",
+        "prob": 0.9584256687264869,
+        "top": [
+          {
+            "token": " neurosc",
+            "prob": 0.9584256687264869
+          },
+          {
+            "token": " neurolog",
+            "prob": 0.029860662429315135
+          },
+          {
+            "token": " neuroscience",
+            "prob": 0.0075499578190900175
+          },
+          {
+            "token": " numerous",
+            "prob": 0.0013749494631492747
+          },
+          {
+            "token": " modern",
+            "prob": 0.0011760565985885812
+          }
+        ]
+      },
+      {
+        "token": "ient",
+        "prob": 0.9999995679801056,
+        "top": [
+          {
+            "token": "ient",
+            "prob": 0.9999995679801056
+          },
+          {
+            "token": " scientists",
+            "prob": 2.2380291861018046e-7
+          },
+          {
+            "token": "iences",
+            "prob": 1.0571701315726883e-7
+          },
+          {
+            "token": "ien",
+            "prob": 3.541076383106643e-8
+          },
+          {
+            "token": "ienti",
+            "prob": 8.28039636107427e-9
+          }
+        ]
+      },
+      {
+        "token": "ists",
+        "prob": 0.9697853682308907,
+        "top": [
+          {
+            "token": "ists",
+            "prob": 0.9697853682308907
+          },
+          {
+            "token": "ific",
+            "prob": 0.03021458820722693
+          },
+          {
+            "token": " research",
+            "prob": 2.0828789372975883e-8
+          },
+          {
+            "token": "ic",
+            "prob": 4.795059582331578e-9
+          },
+          {
+            "token": "if",
+            "prob": 4.647531108490022e-9
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.7163578848454369,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.7163578848454369
+          },
+          {
+            "token": " and",
+            "prob": 0.20847203573204776
+          },
+          {
+            "token": " through",
+            "prob": 0.023389911381286866
+          },
+          {
+            "token": ",",
+            "prob": 0.021296756664422475
+          },
+          {
+            "token": " who",
+            "prob": 0.007133521633735075
+          }
+        ]
+      },
+      {
+        "token": " In",
+        "prob": 0.792811711432098,
+        "top": [
+          {
+            "token": " In",
+            "prob": 0.792811711432098
+          },
+          {
+            "token": " Brain",
+            "prob": 0.12942294061236723
+          },
+          {
+            "token": " Modern",
+            "prob": 0.038257348169894734
+          },
+          {
+            "token": " Research",
+            "prob": 0.012227782915922568
+          },
+          {
+            "token": " The",
+            "prob": 0.009980025553976946
+          }
+        ]
+      },
+      {
+        "token": " reality",
+        "prob": 0.9995956263439822,
+        "top": [
+          {
+            "token": " reality",
+            "prob": 0.9995956263439822
+          },
+          {
+            "token": " fact",
+            "prob": 0.00023778245476391895
+          },
+          {
+            "token": " truth",
+            "prob": 0.00015839726297837574
+          },
+          {
+            "token": " actuality",
+            "prob": 0.000008136468169550156
+          },
+          {
+            "token": " real",
+            "prob": 6.212270108327049e-8
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 1,
+        "top": [
+          {
+            "token": ",",
+            "prob": 1
+          },
+          {
+            "token": ":\n\n",
+            "prob": 4.139937718785167e-8
+          },
+          {
+            "token": ",\n\n",
+            "prob": 1.8293778382344208e-10
+          },
+          {
+            "token": ":\n",
+            "prob": 8.50739702194323e-11
+          },
+          {
+            "token": " and",
+            "prob": 8.375502056293531e-11
+          }
+        ]
+      },
+      {
+        "token": " we",
+        "prob": 0.9740053339309905,
+        "top": [
+          {
+            "token": " we",
+            "prob": 0.9740053339309905
+          },
+          {
+            "token": " almost",
+            "prob": 0.009851923366056335
+          },
+          {
+            "token": " nearly",
+            "prob": 0.0076726856322441445
+          },
+          {
+            "token": " brain",
+            "prob": 0.002867073151894631
+          },
+          {
+            "token": " virtually",
+            "prob": 0.00148741795663269
+          }
+        ]
+      },
+      {
+        "token": " use",
+        "prob": 0.9977034589777112,
+        "top": [
+          {
+            "token": " use",
+            "prob": 0.9977034589777112
+          },
+          {
+            "token": " utilize",
+            "prob": 0.0022872059654355124
+          },
+          {
+            "token": " have",
+            "prob": 0.000004555504350575837
+          },
+          {
+            "token": " virtually",
+            "prob": 0.000002151867886078203
+          },
+          {
+            "token": " make",
+            "prob": 0.0000011699502764985946
+          }
+        ]
+      },
+      {
+        "token": " virtually",
+        "prob": 0.6066046132278569,
+        "top": [
+          {
+            "token": " virtually",
+            "prob": 0.6066046132278569
+          },
+          {
+            "token": " all",
+            "prob": 0.38558136338014004
+          },
+          {
+            "token": " almost",
+            "prob": 0.003809754873080263
+          },
+          {
+            "token": " nearly",
+            "prob": 0.002421627535127077
+          },
+          {
+            "token": " much",
+            "prob": 0.0006620361278747074
+          }
+        ]
+      },
+      {
+        "token": " every",
+        "prob": 0.9124356507872841,
+        "top": [
+          {
+            "token": " every",
+            "prob": 0.9124356507872841
+          },
+          {
+            "token": " all",
+            "prob": 0.08756379974324305
+          },
+          {
+            "token": " the",
+            "prob": 2.425003674313588e-7
+          },
+          {
+            "token": " ",
+            "prob": 1.859314812665689e-7
+          },
+          {
+            "token": " our",
+            "prob": 5.989330755290706e-8
+          }
+        ]
+      },
+      {
+        "token": " part",
+        "prob": 1,
+        "top": [
+          {
+            "token": " part",
+            "prob": 1
+          },
+          {
+            "token": " portion",
+            "prob": 5.367150244568423e-9
+          },
+          {
+            "token": " area",
+            "prob": 2.73592328961659e-9
+          },
+          {
+            "token": " region",
+            "prob": 2.0451135976936183e-9
+          },
+          {
+            "token": " parts",
+            "prob": 4.060634374117118e-10
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 1,
+        "top": [
+          {
+            "token": " of",
+            "prob": 1
+          },
+          {
+            "token": ",",
+            "prob": 1.6212229047677827e-8
+          },
+          {
+            "token": " and",
+            "prob": 9.094236279226865e-9
+          },
+          {
+            "token": " our",
+            "prob": 8.025635347790164e-9
+          },
+          {
+            "token": " the",
+            "prob": 1.9667665261174114e-9
+          }
+        ]
+      },
+      {
+        "token": " our",
+        "prob": 0.9591541884983703,
+        "top": [
+          {
+            "token": " our",
+            "prob": 0.9591541884983703
+          },
+          {
+            "token": " the",
+            "prob": 0.04084571077402965
+          },
+          {
+            "token": " it",
+            "prob": 2.2981433690382927e-8
+          },
+          {
+            "token": " your",
+            "prob": 1.3510087911448292e-8
+          },
+          {
+            "token": "<|end|>",
+            "prob": 4.578655559580675e-9
+          }
+        ]
+      },
+      {
+        "token": " brain",
+        "prob": 0.9273630641875321,
+        "top": [
+          {
+            "token": " brain",
+            "prob": 0.9273630641875321
+          },
+          {
+            "token": " brains",
+            "prob": 0.07263668892992799
+          },
+          {
+            "token": " cerebral",
+            "prob": 5.330232728226382e-8
+          },
+          {
+            "token": "brains",
+            "prob": 4.375321461615229e-9
+          },
+          {
+            "token": "brain",
+            "prob": 3.078423126756663e-9
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9973229371986536,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9973229371986536
+          },
+          {
+            "token": " over",
+            "prob": 0.0009988251911076434
+          },
+          {
+            "token": " throughout",
+            "prob": 0.000367447253132639
+          },
+          {
+            "token": " for",
+            "prob": 0.00033983315597927555
+          },
+          {
+            "token": ".",
+            "prob": 0.0002952521625321139
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9999466429773702,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9999466429773702
+          },
+          {
+            "token": " even",
+            "prob": 0.00001696380831789529
+          },
+          {
+            "token": " although",
+            "prob": 0.000014063491050766073
+          },
+          {
+            "token": " most",
+            "prob": 0.000007071567396836911
+          },
+          {
+            "token": " just",
+            "prob": 0.000004124808738149843
+          }
+        ]
+      },
+      {
+        "token": " most",
+        "prob": 0.964911708411745,
+        "top": [
+          {
+            "token": " most",
+            "prob": 0.964911708411745
+          },
+          {
+            "token": " over",
+            "prob": 0.01910904149131742
+          },
+          {
+            "token": " much",
+            "prob": 0.010888006234725914
+          },
+          {
+            "token": " brain",
+            "prob": 0.002143975547313589
+          },
+          {
+            "token": " the",
+            "prob": 0.0008798857917563343
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9988858858231502,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9988858858231502
+          },
+          {
+            "token": " parts",
+            "prob": 0.0007205542537103256
+          },
+          {
+            "token": " areas",
+            "prob": 0.00022321729469285923
+          },
+          {
+            "token": " regions",
+            "prob": 0.0001684932538830208
+          },
+          {
+            "token": " portions",
+            "prob": 0.0000011352986143672458
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9200128667962355,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9200128667962355
+          },
+          {
+            "token": " it",
+            "prob": 0.07094377719450118
+          },
+          {
+            "token": " our",
+            "prob": 0.009019486960176416
+          },
+          {
+            "token": " your",
+            "prob": 0.00001489302839119721
+          },
+          {
+            "token": " its",
+            "prob": 0.000007145753114579569
+          }
+        ]
+      },
+      {
+        "token": " brain",
+        "prob": 0.999998137537802,
+        "top": [
+          {
+            "token": " brain",
+            "prob": 0.999998137537802
+          },
+          {
+            "token": " human",
+            "prob": 0.0000011911076239111797
+          },
+          {
+            "token": " parts",
+            "prob": 2.5759508899750194e-7
+          },
+          {
+            "token": " cerebral",
+            "prob": 9.329475871598448e-8
+          },
+          {
+            "token": " regions",
+            "prob": 9.184835754716599e-8
+          }
+        ]
+      },
+      {
+        "token": " is",
+        "prob": 0.9999740587317903,
+        "top": [
+          {
+            "token": " is",
+            "prob": 0.9999740587317903
+          },
+          {
+            "token": "'s",
+            "prob": 0.000020303581696949837
+          },
+          {
+            "token": " remains",
+            "prob": 0.000004460105001792892
+          },
+          {
+            "token": "’s",
+            "prob": 6.32577401950538e-7
+          },
+          {
+            "token": " has",
+            "prob": 1.226307230244339e-7
+          }
+        ]
+      },
+      {
+        "token": " active",
+        "prob": 0.9999933694113405,
+        "top": [
+          {
+            "token": " active",
+            "prob": 0.9999933694113405
+          },
+          {
+            "token": " almost",
+            "prob": 0.0000031381356521864
+          },
+          {
+            "token": " constantly",
+            "prob": 0.0000010030083984192145
+          },
+          {
+            "token": " actively",
+            "prob": 7.690332151504093e-7
+          },
+          {
+            "token": " continuously",
+            "prob": 4.592107069334317e-7
+          }
+        ]
+      },
+      {
+        "token": " almost",
+        "prob": 0.9688756089352653,
+        "top": [
+          {
+            "token": " almost",
+            "prob": 0.9688756089352653
+          },
+          {
+            "token": " at",
+            "prob": 0.008252458921438863
+          },
+          {
+            "token": " all",
+            "prob": 0.0061327067292694035
+          },
+          {
+            "token": " over",
+            "prob": 0.005005369353871721
+          },
+          {
+            "token": " most",
+            "prob": 0.004557440659234289
+          }
+        ]
+      },
+      {
+        "token": " all",
+        "prob": 0.9997444149468854,
+        "top": [
+          {
+            "token": " all",
+            "prob": 0.9997444149468854
+          },
+          {
+            "token": " constantly",
+            "prob": 0.00021994554065853775
+          },
+          {
+            "token": " at",
+            "prob": 0.000013842657854298567
+          },
+          {
+            "token": " continuously",
+            "prob": 0.000012802365688306007
+          },
+          {
+            "token": " always",
+            "prob": 0.000004156319608732422
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9850424532744042,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9850424532744042
+          },
+          {
+            "token": " of",
+            "prob": 0.014957081110833438
+          },
+          {
+            "token": " times",
+            "prob": 3.6064079011724353e-7
+          },
+          {
+            "token": " at",
+            "prob": 9.189952635201336e-8
+          },
+          {
+            "token": "the",
+            "prob": 9.993609866605574e-9
+          }
+        ]
+      },
+      {
+        "token": " time",
+        "prob": 0.9999998063873693,
+        "top": [
+          {
+            "token": " time",
+            "prob": 0.9999998063873693
+          },
+          {
+            "token": " times",
+            "prob": 8.428495142776028e-8
+          },
+          {
+            "token": " way",
+            "prob": 1.2501528663867426e-9
+          },
+          {
+            "token": " of",
+            "prob": 4.457557320187012e-10
+          },
+          {
+            "token": " same",
+            "prob": 2.9693733281871395e-10
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.46789927430414635,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.46789927430414635
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.2793954345544582
+          },
+          {
+            "token": ",",
+            "prob": 0.2504484488949266
+          },
+          {
+            "token": "—even",
+            "prob": 0.0016875079723238798
+          },
+          {
+            "token": " —",
+            "prob": 0.00019841943467322545
+          }
+        ]
+      },
+      {
+        "token": " Brain",
+        "prob": 0.5967043108371362,
+        "top": [
+          {
+            "token": " Brain",
+            "prob": 0.5967043108371362
+          },
+          {
+            "token": " \n\n",
+            "prob": 0.16060078653277918
+          },
+          {
+            "token": " The",
+            "prob": 0.0989432742919711
+          },
+          {
+            "token": " Even",
+            "prob": 0.05133109449009277
+          },
+          {
+            "token": " Modern",
+            "prob": 0.02834772270170325
+          }
+        ]
+      },
+      {
+        "token": " imaging",
+        "prob": 0.9300364995151031,
+        "top": [
+          {
+            "token": " imaging",
+            "prob": 0.9300364995151031
+          },
+          {
+            "token": " scans",
+            "prob": 0.059455243372221495
+          },
+          {
+            "token": "-im",
+            "prob": 0.003683907670140594
+          },
+          {
+            "token": " activity",
+            "prob": 0.0034607109875288314
+          },
+          {
+            "token": " function",
+            "prob": 0.001634724119211947
+          }
+        ]
+      },
+      {
+        "token": " research",
+        "prob": 0.6461341802478389,
+        "top": [
+          {
+            "token": " research",
+            "prob": 0.6461341802478389
+          },
+          {
+            "token": " technologies",
+            "prob": 0.17390466576835573
+          },
+          {
+            "token": " technology",
+            "prob": 0.10713955651929531
+          },
+          {
+            "token": " techniques",
+            "prob": 0.03588725617158718
+          },
+          {
+            "token": " studies",
+            "prob": 0.03424385906227238
+          }
+        ]
+      },
+      {
+        "token": " has",
+        "prob": 0.4833634287289734,
+        "top": [
+          {
+            "token": " has",
+            "prob": 0.4833634287289734
+          },
+          {
+            "token": " shows",
+            "prob": 0.2628001535115215
+          },
+          {
+            "token": ",",
+            "prob": 0.15939635048192446
+          },
+          {
+            "token": " techniques",
+            "prob": 0.06644628459127842
+          },
+          {
+            "token": " using",
+            "prob": 0.017606512653862004
+          }
+        ]
+      },
+      {
+        "token": " shown",
+        "prob": 0.9924237561810032,
+        "top": [
+          {
+            "token": " shown",
+            "prob": 0.9924237561810032
+          },
+          {
+            "token": " demonstrated",
+            "prob": 0.006899163712328511
+          },
+          {
+            "token": " consistently",
+            "prob": 0.0004920254693520188
+          },
+          {
+            "token": " provided",
+            "prob": 0.00005026354210661032
+          },
+          {
+            "token": " revealed",
+            "prob": 0.000041669939989266576
+          }
+        ]
+      },
+      {
+        "token": " that",
+        "prob": 0.9990664649338433,
+        "top": [
+          {
+            "token": " that",
+            "prob": 0.9990664649338433
+          },
+          {
+            "token": " activity",
+            "prob": 0.0008558340015997133
+          },
+          {
+            "token": " us",
+            "prob": 0.00001890784491490421
+          },
+          {
+            "token": " activities",
+            "prob": 0.000009360061966391067
+          },
+          {
+            "token": " active",
+            "prob": 0.000006433070238319726
+          }
+        ]
+      },
+      {
+        "token": " even",
+        "prob": 0.8575020802856252,
+        "top": [
+          {
+            "token": " even",
+            "prob": 0.8575020802856252
+          },
+          {
+            "token": " no",
+            "prob": 0.04010590957624584
+          },
+          {
+            "token": " over",
+            "prob": 0.023948332433358015
+          },
+          {
+            "token": " there",
+            "prob": 0.015222482638962004
+          },
+          {
+            "token": " many",
+            "prob": 0.013020479395254511
+          }
+        ]
+      },
+      {
+        "token": " when",
+        "prob": 0.44346433885555114,
+        "top": [
+          {
+            "token": " when",
+            "prob": 0.44346433885555114
+          },
+          {
+            "token": " simple",
+            "prob": 0.2648046515205399
+          },
+          {
+            "token": " during",
+            "prob": 0.19678610748403533
+          },
+          {
+            "token": " while",
+            "prob": 0.08869843725715645
+          },
+          {
+            "token": " though",
+            "prob": 0.0026784607188148142
+          }
+        ]
+      },
+      {
+        "token": " we",
+        "prob": 0.5073518149217902,
+        "top": [
+          {
+            "token": " we",
+            "prob": 0.5073518149217902
+          },
+          {
+            "token": " we're",
+            "prob": 0.43396100419429345
+          },
+          {
+            "token": " at",
+            "prob": 0.02862282735601522
+          },
+          {
+            "token": " you're",
+            "prob": 0.020296623836988686
+          },
+          {
+            "token": " you",
+            "prob": 0.005906654276019681
+          }
+        ]
+      },
+      {
+        "token": " are",
+        "prob": 0.9359332080256695,
+        "top": [
+          {
+            "token": " are",
+            "prob": 0.9359332080256695
+          },
+          {
+            "token": "’re",
+            "prob": 0.05799136124374818
+          },
+          {
+            "token": " perform",
+            "prob": 0.004613764210453874
+          },
+          {
+            "token": " sleep",
+            "prob": 0.0006751428744740712
+          },
+          {
+            "token": " rest",
+            "prob": 0.0002903754704394054
+          }
+        ]
+      },
+      {
+        "token": " at",
+        "prob": 0.9321757063121594,
+        "top": [
+          {
+            "token": " at",
+            "prob": 0.9321757063121594
+          },
+          {
+            "token": " resting",
+            "prob": 0.05866810474066953
+          },
+          {
+            "token": " asleep",
+            "prob": 0.004523999542439797
+          },
+          {
+            "token": " sleeping",
+            "prob": 0.0013165589241184695
+          },
+          {
+            "token": " not",
+            "prob": 0.0011086537674168092
+          }
+        ]
+      },
+      {
+        "token": " rest",
+        "prob": 1,
+        "top": [
+          {
+            "token": " rest",
+            "prob": 1
+          },
+          {
+            "token": " resting",
+            "prob": 4.406940761911853e-8
+          },
+          {
+            "token": "-rest",
+            "prob": 1.6305067188138468e-9
+          },
+          {
+            "token": " a",
+            "prob": 1.0203450321865548e-9
+          },
+          {
+            "token": " complete",
+            "prob": 9.290347239885026e-10
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.6582808972312968,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.6582808972312968
+          },
+          {
+            "token": " or",
+            "prob": 0.33100444203234136
+          },
+          {
+            "token": " and",
+            "prob": 0.010640117817289543
+          },
+          {
+            "token": "—",
+            "prob": 0.000016895964606315962
+          },
+          {
+            "token": " (",
+            "prob": 0.000010010527735083664
+          }
+        ]
+      },
+      {
+        "token": " our",
+        "prob": 0.47241610856369626,
+        "top": [
+          {
+            "token": " our",
+            "prob": 0.47241610856369626
+          },
+          {
+            "token": " various",
+            "prob": 0.23386293202521377
+          },
+          {
+            "token": " many",
+            "prob": 0.07132416450793595
+          },
+          {
+            "token": " parts",
+            "prob": 0.049020333585027956
+          },
+          {
+            "token": " a",
+            "prob": 0.02352021309514098
+          }
+        ]
+      },
+      {
+        "token": " brains",
+        "prob": 0.9431788734685697,
+        "top": [
+          {
+            "token": " brains",
+            "prob": 0.9431788734685697
+          },
+          {
+            "token": " brain",
+            "prob": 0.05664229359000765
+          },
+          {
+            "token": " entire",
+            "prob": 0.00009500088636563541
+          },
+          {
+            "token": " neurons",
+            "prob": 0.000038988285207878975
+          },
+          {
+            "token": " minds",
+            "prob": 0.000015752691218986326
+          }
+        ]
+      },
+      {
+        "token": " are",
+        "prob": 0.9843936211963512,
+        "top": [
+          {
+            "token": " are",
+            "prob": 0.9843936211963512
+          },
+          {
+            "token": " remain",
+            "prob": 0.006428722572037724
+          },
+          {
+            "token": " maintain",
+            "prob": 0.0027649591243952215
+          },
+          {
+            "token": " still",
+            "prob": 0.0017302672072568412
+          },
+          {
+            "token": " exhibit",
+            "prob": 0.001326641886113002
+          }
+        ]
+      },
+      {
+        "token": " still",
+        "prob": 0.3813110324531148,
+        "top": [
+          {
+            "token": " still",
+            "prob": 0.3813110324531148
+          },
+          {
+            "token": " active",
+            "prob": 0.22769120356286043
+          },
+          {
+            "token": " quite",
+            "prob": 0.22068588169104292
+          },
+          {
+            "token": " busy",
+            "prob": 0.05408140117108131
+          },
+          {
+            "token": " highly",
+            "prob": 0.036025979848007934
+          }
+        ]
+      },
+      {
+        "token": " active",
+        "prob": 0.5888124372581407,
+        "top": [
+          {
+            "token": " active",
+            "prob": 0.5888124372581407
+          },
+          {
+            "token": " highly",
+            "prob": 0.13138181342279623
+          },
+          {
+            "token": " very",
+            "prob": 0.12733961997514434
+          },
+          {
+            "token": " quite",
+            "prob": 0.1196245024183544
+          },
+          {
+            "token": " working",
+            "prob": 0.00908143710743687
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.48063271380383393,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.48063271380383393
+          },
+          {
+            "token": ".",
+            "prob": 0.1824275905266588
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.13770356982495674
+          },
+          {
+            "token": " and",
+            "prob": 0.11064792683192051
+          },
+          {
+            "token": " in",
+            "prob": 0.04333035072750283
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.20806245840199006,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.20806245840199006
+          },
+          {
+            "token": " managing",
+            "prob": 0.14753837558597518
+          },
+          {
+            "token": " handling",
+            "prob": 0.1452510050859583
+          },
+          {
+            "token": " performing",
+            "prob": 0.09525793478864976
+          },
+          {
+            "token": " with",
+            "prob": 0.08673333662872922
+          }
+        ]
+      },
+      {
+        "token": " different",
+        "prob": 0.6454912051903697,
+        "top": [
+          {
+            "token": " different",
+            "prob": 0.6454912051903697
+          },
+          {
+            "token": " various",
+            "prob": 0.13959726733804304
+          },
+          {
+            "token": " activities",
+            "prob": 0.033157257281619626
+          },
+          {
+            "token": " specific",
+            "prob": 0.026229549406976214
+          },
+          {
+            "token": " over",
+            "prob": 0.022788627443771064
+          }
+        ]
+      },
+      {
+        "token": " tasks",
+        "prob": 0.578246860655486,
+        "top": [
+          {
+            "token": " tasks",
+            "prob": 0.578246860655486
+          },
+          {
+            "token": " parts",
+            "prob": 0.2127251319570811
+          },
+          {
+            "token": " areas",
+            "prob": 0.11747798933901667
+          },
+          {
+            "token": " activities",
+            "prob": 0.05815582182152651
+          },
+          {
+            "token": " mental",
+            "prob": 0.014476128627951263
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.37696749752653347,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.37696749752653347
+          },
+          {
+            "token": " require",
+            "prob": 0.2550689677293404
+          },
+          {
+            "token": " engage",
+            "prob": 0.1476225931056628
+          },
+          {
+            "token": " or",
+            "prob": 0.08411280806681955
+          },
+          {
+            "token": " will",
+            "prob": 0.07539823385491139
+          }
+        ]
+      },
+      {
+        "token": " activities",
+        "prob": 0.9516924731138102,
+        "top": [
+          {
+            "token": " activities",
+            "prob": 0.9516924731138102
+          },
+          {
+            "token": " processes",
+            "prob": 0.025361745066847217
+          },
+          {
+            "token": " functions",
+            "prob": 0.0071536086736609895
+          },
+          {
+            "token": " thoughts",
+            "prob": 0.004994023707214589
+          },
+          {
+            "token": " situations",
+            "prob": 0.0029820677596920156
+          }
+        ]
+      },
+      {
+        "token": " engage",
+        "prob": 0.48285297107837577,
+        "top": [
+          {
+            "token": " engage",
+            "prob": 0.48285297107837577
+          },
+          {
+            "token": " require",
+            "prob": 0.2427937213752968
+          },
+          {
+            "token": " stimulate",
+            "prob": 0.1405182255539126
+          },
+          {
+            "token": " involve",
+            "prob": 0.026402592328843844
+          },
+          {
+            "token": " can",
+            "prob": 0.02258333397727938
+          }
+        ]
+      },
+      {
+        "token": " different",
+        "prob": 0.8018531562138397,
+        "top": [
+          {
+            "token": " different",
+            "prob": 0.8018531562138397
+          },
+          {
+            "token": " various",
+            "prob": 0.1415354978355105
+          },
+          {
+            "token": " multiple",
+            "prob": 0.04249666293693468
+          },
+          {
+            "token": " many",
+            "prob": 0.008110628120877426
+          },
+          {
+            "token": " numerous",
+            "prob": 0.001622227679257152
+          }
+        ]
+      },
+      {
+        "token": " parts",
+        "prob": 0.45488154415331034,
+        "top": [
+          {
+            "token": " parts",
+            "prob": 0.45488154415331034
+          },
+          {
+            "token": " areas",
+            "prob": 0.4014315537581942
+          },
+          {
+            "token": " regions",
+            "prob": 0.0895714815398224
+          },
+          {
+            "token": " brain",
+            "prob": 0.032951506573768025
+          },
+          {
+            "token": " networks",
+            "prob": 0.00770532757855866
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9955776716916753,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9955776716916753
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.0014735848088504506
+          },
+          {
+            "token": " and",
+            "prob": 0.0011298366645115761
+          },
+          {
+            "token": ".",
+            "prob": 0.000839623314867387
+          },
+          {
+            "token": " across",
+            "prob": 0.00022954035054535726
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9804353904974239,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9804353904974239
+          },
+          {
+            "token": " our",
+            "prob": 0.017404809527584532
+          },
+          {
+            "token": " it",
+            "prob": 0.0021446933411434083
+          },
+          {
+            "token": " this",
+            "prob": 0.000013260833400206088
+          },
+          {
+            "token": " your",
+            "prob": 5.222754404733381e-7
+          }
+        ]
+      },
+      {
+        "token": " brain",
+        "prob": 0.9999326969867418,
+        "top": [
+          {
+            "token": " brain",
+            "prob": 0.9999326969867418
+          },
+          {
+            "token": " organ",
+            "prob": 0.00006605203543605327
+          },
+          {
+            "token": " brains",
+            "prob": 4.2467455645461604e-7
+          },
+          {
+            "token": " mind",
+            "prob": 2.3822083606247446e-7
+          },
+          {
+            "token": " neural",
+            "prob": 8.494033592639942e-8
+          }
+        ]
+      },
+      {
+        "token": ".\n\n",
+        "prob": 0.6643509328491706,
+        "top": [
+          {
+            "token": ".\n\n",
+            "prob": 0.6643509328491706
+          },
+          {
+            "token": ".",
+            "prob": 0.28130389251456467
+          },
+          {
+            "token": " to",
+            "prob": 0.013156759700344372
+          },
+          {
+            "token": ",",
+            "prob": 0.012952783047525378
+          },
+          {
+            "token": " simultaneously",
+            "prob": 0.011979366029350824
+          }
+        ]
+      },
+      {
+        "token": "The",
+        "prob": 0.9405900595044366,
+        "top": [
+          {
+            "token": "The",
+            "prob": 0.9405900595044366
+          },
+          {
+            "token": "This",
+            "prob": 0.049849449507083365
+          },
+          {
+            "token": "It's",
+            "prob": 0.002683528286184165
+          },
+          {
+            "token": "Every",
+            "prob": 0.0013706121342359167
+          },
+          {
+            "token": "While",
+            "prob": 0.0013284428320780024
+          }
+        ]
+      },
+      {
+        "token": " myth",
+        "prob": 0.5259255955608416,
+        "top": [
+          {
+            "token": " myth",
+            "prob": 0.5259255955608416
+          },
+          {
+            "token": " origin",
+            "prob": 0.2603520489149064
+          },
+          {
+            "token": " origins",
+            "prob": 0.09139216470213136
+          },
+          {
+            "token": " ",
+            "prob": 0.05372668198938562
+          },
+          {
+            "token": " brain",
+            "prob": 0.04184238200516187
+          }
+        ]
+      },
+      {
+        "token": " may",
+        "prob": 0.7572815219152053,
+        "top": [
+          {
+            "token": " may",
+            "prob": 0.7572815219152053
+          },
+          {
+            "token": " might",
+            "prob": 0.13159580420908082
+          },
+          {
+            "token": " likely",
+            "prob": 0.07043815814805796
+          },
+          {
+            "token": "'s",
+            "prob": 0.032248938741926
+          },
+          {
+            "token": " possibly",
+            "prob": 0.0023728930266244406
+          }
+        ]
+      },
+      {
+        "token": " have",
+        "prob": 0.99738804608263,
+        "top": [
+          {
+            "token": " have",
+            "prob": 0.99738804608263
+          },
+          {
+            "token": " stem",
+            "prob": 0.002181777315916866
+          },
+          {
+            "token": " originate",
+            "prob": 0.00026057626518936395
+          },
+          {
+            "token": " persist",
+            "prob": 0.00013731404241853527
+          },
+          {
+            "token": " arise",
+            "prob": 0.000014472793592368564
+          }
+        ]
+      },
+      {
+        "token": " originated",
+        "prob": 0.9758280742480184,
+        "top": [
+          {
+            "token": " originated",
+            "prob": 0.9758280742480184
+          },
+          {
+            "token": " arisen",
+            "prob": 0.013491183259646463
+          },
+          {
+            "token": " persisted",
+            "prob": 0.0043799459328278875
+          },
+          {
+            "token": " origins",
+            "prob": 0.0027840630241725284
+          },
+          {
+            "token": " stem",
+            "prob": 0.0007731063803159901
+          }
+        ]
+      },
+      {
+        "token": " from",
+        "prob": 0.9497294123155062,
+        "top": [
+          {
+            "token": " from",
+            "prob": 0.9497294123155062
+          },
+          {
+            "token": " in",
+            "prob": 0.04955346729905527
+          },
+          {
+            "token": " early",
+            "prob": 0.00020894206994256058
+          },
+          {
+            "token": " over",
+            "prob": 0.00019937391594059166
+          },
+          {
+            "token": " as",
+            "prob": 0.00014586507290643085
+          }
+        ]
+      },
+      {
+        "token": " mis",
+        "prob": 0.43526565537666,
+        "top": [
+          {
+            "token": " mis",
+            "prob": 0.43526565537666
+          },
+          {
+            "token": " a",
+            "prob": 0.3608478809429161
+          },
+          {
+            "token": " misunderstand",
+            "prob": 0.1413100605516456
+          },
+          {
+            "token": " early",
+            "prob": 0.04733294132803414
+          },
+          {
+            "token": " the",
+            "prob": 0.005742138635467747
+          }
+        ]
+      },
+      {
+        "token": "interpret",
+        "prob": 0.9972182531742856,
+        "top": [
+          {
+            "token": "interpret",
+            "prob": 0.9972182531742856
+          },
+          {
+            "token": "interpre",
+            "prob": 0.0025107828483887707
+          },
+          {
+            "token": "represent",
+            "prob": 0.00010202571356475176
+          },
+          {
+            "token": "quotes",
+            "prob": 0.00009003737620487656
+          },
+          {
+            "token": "quoted",
+            "prob": 0.000034174333343705966
+          }
+        ]
+      },
+      {
+        "token": "ations",
+        "prob": 0.999781825037968,
+        "top": [
+          {
+            "token": "ations",
+            "prob": 0.999781825037968
+          },
+          {
+            "token": "ation",
+            "prob": 0.00021318645674115738
+          },
+          {
+            "token": "ed",
+            "prob": 0.0000022598358243347524
+          },
+          {
+            "token": " interpretations",
+            "prob": 0.00000209000648019946
+          },
+          {
+            "token": "ions",
+            "prob": 2.2727766084219122e-7
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.6854891320370753,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.6854891320370753
+          },
+          {
+            "token": " of",
+            "prob": 0.313839803131595
+          },
+          {
+            "token": " and",
+            "prob": 0.00040358533550671207
+          },
+          {
+            "token": ",",
+            "prob": 0.00024864171224408995
+          },
+          {
+            "token": " about",
+            "prob": 0.000010755184889444058
+          }
+        ]
+      },
+      {
+        "token": " mis",
+        "prob": 0.6930645532328538,
+        "top": [
+          {
+            "token": " mis",
+            "prob": 0.6930645532328538
+          },
+          {
+            "token": " overs",
+            "prob": 0.1698427782089118
+          },
+          {
+            "token": " exagger",
+            "prob": 0.09379607922700135
+          },
+          {
+            "token": " outdated",
+            "prob": 0.020928734179215622
+          },
+          {
+            "token": " over",
+            "prob": 0.007120644879397173
+          }
+        ]
+      },
+      {
+        "token": "represent",
+        "prob": 0.8332331732402838,
+        "top": [
+          {
+            "token": "represent",
+            "prob": 0.8332331732402838
+          },
+          {
+            "token": "quot",
+            "prob": 0.06733556606445006
+          },
+          {
+            "token": "quotes",
+            "prob": 0.06526386849194248
+          },
+          {
+            "token": "communications",
+            "prob": 0.02555769812013933
+          },
+          {
+            "token": "stat",
+            "prob": 0.006461998062395757
+          }
+        ]
+      },
+      {
+        "token": "ations",
+        "prob": 0.9999959918780695,
+        "top": [
+          {
+            "token": "ations",
+            "prob": 0.9999959918780695
+          },
+          {
+            "token": "ative",
+            "prob": 0.0000012679250472508567
+          },
+          {
+            "token": "ing",
+            "prob": 0.0000012289150946205193
+          },
+          {
+            "token": "ions",
+            "prob": 0.0000011365606668032673
+          },
+          {
+            "token": "ings",
+            "prob": 6.51301139574638e-8
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9997767004173445,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9997767004173445
+          },
+          {
+            "token": " in",
+            "prob": 0.00020988030628980284
+          },
+          {
+            "token": " by",
+            "prob": 0.000003611190145384852
+          },
+          {
+            "token": " from",
+            "prob": 0.000002812397713045463
+          },
+          {
+            "token": " about",
+            "prob": 0.0000020899965142957138
+          }
+        ]
+      },
+      {
+        "token": " neurological",
+        "prob": 0.9958184187058673,
+        "top": [
+          {
+            "token": " neurological",
+            "prob": 0.9958184187058673
+          },
+          {
+            "token": " early",
+            "prob": 0.0030719570499015457
+          },
+          {
+            "token": " scientific",
+            "prob": 0.00068544626851363
+          },
+          {
+            "token": " neuroscience",
+            "prob": 0.00013925685603259917
+          },
+          {
+            "token": " earlier",
+            "prob": 0.00013081970964335925
+          }
+        ]
+      },
+      {
+        "token": " research",
+        "prob": 0.9965569723396304,
+        "top": [
+          {
+            "token": " research",
+            "prob": 0.9965569723396304
+          },
+          {
+            "token": " studies",
+            "prob": 0.0031718224111758325
+          },
+          {
+            "token": " findings",
+            "prob": 0.0002027677261867638
+          },
+          {
+            "token": " science",
+            "prob": 0.000038698897759437064
+          },
+          {
+            "token": " and",
+            "prob": 0.00000919179389391288
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.5619059879035483,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.5619059879035483
+          },
+          {
+            "token": " from",
+            "prob": 0.19724754134527372
+          },
+          {
+            "token": " or",
+            "prob": 0.08483511041203133
+          },
+          {
+            "token": ".",
+            "prob": 0.06110443778132256
+          },
+          {
+            "token": ",",
+            "prob": 0.05830626185123751
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.999979065168139,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.999979065168139
+          },
+          {
+            "token": " popular",
+            "prob": 0.000014738889977824333
+          },
+          {
+            "token": " its",
+            "prob": 0.0000035559226915429074
+          },
+          {
+            "token": " history",
+            "prob": 0.000001051128739865664
+          },
+          {
+            "token": " early",
+            "prob": 5.453184064646913e-7
+          }
+        ]
+      },
+      {
+        "token": " early",
+        "prob": 0.7541511793902053,
+        "top": [
+          {
+            "token": " early",
+            "prob": 0.7541511793902053
+          },
+          {
+            "token": " late",
+            "prob": 0.23730419731366445
+          },
+          {
+            "token": " past",
+            "prob": 0.006627433417025104
+          },
+          {
+            "token": " ",
+            "prob": 0.001898791464849213
+          },
+          {
+            "token": " earlier",
+            "prob": 0.000014272689579839328
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9996337458173231,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9996337458173231
+          },
+          {
+            "token": " days",
+            "prob": 0.00018232108701136986
+          },
+          {
+            "token": " to",
+            "prob": 0.00008885620127345865
+          },
+          {
+            "token": " part",
+            "prob": 0.000035901150668458464
+          },
+          {
+            "token": " twentieth",
+            "prob": 0.000022466366014726487
+          }
+        ]
+      },
+      {
+        "token": "20",
+        "prob": 0.9997439382608097,
+        "top": [
+          {
+            "token": "20",
+            "prob": 0.9997439382608097
+          },
+          {
+            "token": "190",
+            "prob": 0.00024536674743564756
+          },
+          {
+            "token": "19",
+            "prob": 0.000010613523815349447
+          },
+          {
+            "token": "21",
+            "prob": 3.827838024075504e-8
+          },
+          {
+            "token": "1",
+            "prob": 1.7903036677099512e-9
+          }
+        ]
+      },
+      {
+        "token": "th",
+        "prob": 1,
+        "top": [
+          {
+            "token": "th",
+            "prob": 1
+          },
+          {
+            "token": "\\xe1",
+            "prob": 9.640143775040296e-11
+          },
+          {
+            "token": "ths",
+            "prob": 4.8473687062702556e-11
+          },
+          {
+            "token": "^",
+            "prob": 1.898256859952468e-11
+          },
+          {
+            "token": "st",
+            "prob": 1.5016447733406337e-11
+          }
+        ]
+      },
+      {
+        "token": " century",
+        "prob": 0.9999986143516758,
+        "top": [
+          {
+            "token": " century",
+            "prob": 0.9999986143516758
+          },
+          {
+            "token": "-century",
+            "prob": 0.0000012098659934854867
+          },
+          {
+            "token": " Century",
+            "prob": 1.23595592286109e-7
+          },
+          {
+            "token": " centuries",
+            "prob": 7.422485169429315e-9
+          },
+          {
+            "token": " or",
+            "prob": 4.537274174275615e-9
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.5450798575004193,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.5450798575004193
+          },
+          {
+            "token": ".",
+            "prob": 0.3204359176543467
+          },
+          {
+            "token": " or",
+            "prob": 0.12353905136284787
+          },
+          {
+            "token": " and",
+            "prob": 0.008810395326826254
+          },
+          {
+            "token": " but",
+            "prob": 0.0019053816151933392
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.621631201418493,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.621631201418493
+          },
+          {
+            "token": " but",
+            "prob": 0.15233727289145543
+          },
+          {
+            "token": " possibly",
+            "prob": 0.09835633576241187
+          },
+          {
+            "token": " and",
+            "prob": 0.04036535886568275
+          },
+          {
+            "token": " as",
+            "prob": 0.03452632109084898
+          }
+        ]
+      },
+      {
+        "token": " from",
+        "prob": 0.6498720650263382,
+        "top": [
+          {
+            "token": " from",
+            "prob": 0.6498720650263382
+          },
+          {
+            "token": " it",
+            "prob": 0.22812655717439426
+          },
+          {
+            "token": " possibly",
+            "prob": 0.060447519982180384
+          },
+          {
+            "token": " perhaps",
+            "prob": 0.039642451445967924
+          },
+          {
+            "token": " as",
+            "prob": 0.00870829091224112
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.4310238324814072,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.4310238324814072
+          },
+          {
+            "token": " motivational",
+            "prob": 0.19126567764478486
+          },
+          {
+            "token": " popular",
+            "prob": 0.07259626280278776
+          },
+          {
+            "token": " self",
+            "prob": 0.06507486939978181
+          },
+          {
+            "token": " misunderstand",
+            "prob": 0.059251342853953864
+          }
+        ]
+      },
+      {
+        "token": " fact",
+        "prob": 0.5515273084738727,
+        "top": [
+          {
+            "token": " fact",
+            "prob": 0.5515273084738727
+          },
+          {
+            "token": " idea",
+            "prob": 0.09584107531411495
+          },
+          {
+            "token": " notion",
+            "prob": 0.08591138466925577
+          },
+          {
+            "token": " way",
+            "prob": 0.05546855891508479
+          },
+          {
+            "token": " simple",
+            "prob": 0.038122945852323176
+          }
+        ]
+      },
+      {
+        "token": " that",
+        "prob": 0.999994799847051,
+        "top": [
+          {
+            "token": " that",
+            "prob": 0.999994799847051
+          },
+          {
+            "token": " we",
+            "prob": 0.0000026425802032865404
+          },
+          {
+            "token": " the",
+            "prob": 5.368727321569085e-7
+          },
+          {
+            "token": " early",
+            "prob": 3.256297724168536e-7
+          },
+          {
+            "token": " there",
+            "prob": 2.9648928175936765e-7
+          }
+        ]
+      },
+      {
+        "token": " at",
+        "prob": 0.6622838519042937,
+        "top": [
+          {
+            "token": " at",
+            "prob": 0.6622838519042937
+          },
+          {
+            "token": " a",
+            "prob": 0.08419994793961191
+          },
+          {
+            "token": " not",
+            "prob": 0.07666492502667611
+          },
+          {
+            "token": " only",
+            "prob": 0.06160199786911367
+          },
+          {
+            "token": " we",
+            "prob": 0.057869721493653284
+          }
+        ]
+      },
+      {
+        "token": " any",
+        "prob": 0.9920025542219367,
+        "top": [
+          {
+            "token": " any",
+            "prob": 0.9920025542219367
+          },
+          {
+            "token": " a",
+            "prob": 0.006478414587944057
+          },
+          {
+            "token": " certain",
+            "prob": 0.0004408616454376776
+          },
+          {
+            "token": " one",
+            "prob": 0.00040773036957557937
+          },
+          {
+            "token": " times",
+            "prob": 0.00018377838828355546
+          }
+        ]
+      },
+      {
+        "token": " given",
+        "prob": 0.9958590863342274,
+        "top": [
+          {
+            "token": " given",
+            "prob": 0.9958590863342274
+          },
+          {
+            "token": " one",
+            "prob": 0.003321713758384421
+          },
+          {
+            "token": " single",
+            "prob": 0.00032379516886558497
+          },
+          {
+            "token": " moment",
+            "prob": 0.00029481885621691293
+          },
+          {
+            "token": " particular",
+            "prob": 0.00007224846788426585
+          }
+        ]
+      },
+      {
+        "token": " moment",
+        "prob": 0.8070566865604408,
+        "top": [
+          {
+            "token": " moment",
+            "prob": 0.8070566865604408
+          },
+          {
+            "token": " time",
+            "prob": 0.1916927538225235
+          },
+          {
+            "token": " point",
+            "prob": 0.0011760296810972835
+          },
+          {
+            "token": " instant",
+            "prob": 0.00005674964308941185
+          },
+          {
+            "token": " second",
+            "prob": 0.000005196702901937802
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9764449863029632,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9764449863029632
+          },
+          {
+            "token": " only",
+            "prob": 0.008580937638826627
+          },
+          {
+            "token": " a",
+            "prob": 0.005897586441139461
+          },
+          {
+            "token": " not",
+            "prob": 0.002658250472888108
+          },
+          {
+            "token": " all",
+            "prob": 0.0026170381192262846
+          }
+        ]
+      },
+      {
+        "token": " only",
+        "prob": 0.40414062143504026,
+        "top": [
+          {
+            "token": " only",
+            "prob": 0.40414062143504026
+          },
+          {
+            "token": " not",
+            "prob": 0.36797422327117013
+          },
+          {
+            "token": " a",
+            "prob": 0.10218273919078218
+          },
+          {
+            "token": " certain",
+            "prob": 0.05218983640507766
+          },
+          {
+            "token": " some",
+            "prob": 0.0266559601509927
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.8160472090056363,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.8160472090056363
+          },
+          {
+            "token": " certain",
+            "prob": 0.17105278746045327
+          },
+          {
+            "token": " some",
+            "prob": 0.008384183120858524
+          },
+          {
+            "token": " specific",
+            "prob": 0.0032323905409397643
+          },
+          {
+            "token": " parts",
+            "prob": 0.0005617052510710203
+          }
+        ]
+      },
+      {
+        "token": " small",
+        "prob": 0.38802789701830226,
+        "top": [
+          {
+            "token": " small",
+            "prob": 0.38802789701830226
+          },
+          {
+            "token": " certain",
+            "prob": 0.37025880591686977
+          },
+          {
+            "token": " portion",
+            "prob": 0.12402115022129723
+          },
+          {
+            "token": " subset",
+            "prob": 0.05089817749728106
+          },
+          {
+            "token": " fraction",
+            "prob": 0.045624831436850324
+          }
+        ]
+      },
+      {
+        "token": " percentage",
+        "prob": 0.7380155673092514,
+        "top": [
+          {
+            "token": " percentage",
+            "prob": 0.7380155673092514
+          },
+          {
+            "token": " fraction",
+            "prob": 0.10799554195688875
+          },
+          {
+            "token": " portion",
+            "prob": 0.09530573126989902
+          },
+          {
+            "token": " proportion",
+            "prob": 0.022637095355718034
+          },
+          {
+            "token": " number",
+            "prob": 0.014615603774395127
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999975415208362,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999975415208362
+          },
+          {
+            "token": " may",
+            "prob": 0.0000011911064879829723
+          },
+          {
+            "token": " (",
+            "prob": 5.368737561613567e-7
+          },
+          {
+            "token": " might",
+            "prob": 4.66444002665373e-7
+          },
+          {
+            "token": ",",
+            "prob": 6.312639141672706e-8
+          }
+        ]
+      },
+      {
+        "token": " neurons",
+        "prob": 0.9643434367201741,
+        "top": [
+          {
+            "token": " neurons",
+            "prob": 0.9643434367201741
+          },
+          {
+            "token": " our",
+            "prob": 0.014642781259696269
+          },
+          {
+            "token": " brain",
+            "prob": 0.010383286719329102
+          },
+          {
+            "token": " the",
+            "prob": 0.010383286719329102
+          },
+          {
+            "token": " your",
+            "prob": 0.0000756470332792636
+          }
+        ]
+      },
+      {
+        "token": " may",
+        "prob": 0.4578182712061417,
+        "top": [
+          {
+            "token": " may",
+            "prob": 0.4578182712061417
+          },
+          {
+            "token": " are",
+            "prob": 0.32975415013457376
+          },
+          {
+            "token": " might",
+            "prob": 0.18788825113042232
+          },
+          {
+            "token": " in",
+            "prob": 0.02141244675934062
+          },
+          {
+            "token": " fire",
+            "prob": 0.0016511505983427645
+          }
+        ]
+      },
+      {
+        "token": " be",
+        "prob": 0.9933492332406342,
+        "top": [
+          {
+            "token": " be",
+            "prob": 0.9933492332406342
+          },
+          {
+            "token": " fire",
+            "prob": 0.005724942008047121
+          },
+          {
+            "token": " seem",
+            "prob": 0.0003717466964330675
+          },
+          {
+            "token": " appear",
+            "prob": 0.00020529802394517006
+          },
+          {
+            "token": " actually",
+            "prob": 0.0001598862618115105
+          }
+        ]
+      },
+      {
+        "token": " firing",
+        "prob": 0.9363513056298138,
+        "top": [
+          {
+            "token": " firing",
+            "prob": 0.9363513056298138
+          },
+          {
+            "token": " actively",
+            "prob": 0.046618192027051426
+          },
+          {
+            "token": " active",
+            "prob": 0.012161081987284475
+          },
+          {
+            "token": " \"",
+            "prob": 0.0025892437684860046
+          },
+          {
+            "token": " activated",
+            "prob": 0.0005178813338476294
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.5888208603478661,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.5888208603478661
+          },
+          {
+            "token": " at",
+            "prob": 0.17405511385724687
+          },
+          {
+            "token": ",",
+            "prob": 0.08094314505921026
+          },
+          {
+            "token": " in",
+            "prob": 0.05145059338074616
+          },
+          {
+            "token": " simultaneously",
+            "prob": 0.04684629837232038
+          }
+        ]
+      },
+      {
+        "token": " However",
+        "prob": 0.9742010233368116,
+        "top": [
+          {
+            "token": " However",
+            "prob": 0.9742010233368116
+          },
+          {
+            "token": " Nonetheless",
+            "prob": 0.010166697728015544
+          },
+          {
+            "token": " Nevertheless",
+            "prob": 0.004802407958542609
+          },
+          {
+            "token": " But",
+            "prob": 0.0024528299759005827
+          },
+          {
+            "token": " This",
+            "prob": 0.001970904255057313
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9999980183344259,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9999980183344259
+          },
+          {
+            "token": " that",
+            "prob": 9.276355502243472e-7
+          },
+          {
+            "token": " this",
+            "prob": 5.62639402250465e-7
+          },
+          {
+            "token": " the",
+            "prob": 8.494584447335411e-8
+          },
+          {
+            "token": " these",
+            "prob": 4.012557572355266e-8
+          }
+        ]
+      },
+      {
+        "token": " this",
+        "prob": 0.7077895095205724,
+        "top": [
+          {
+            "token": " this",
+            "prob": 0.7077895095205724
+          },
+          {
+            "token": " over",
+            "prob": 0.1707621762251185
+          },
+          {
+            "token": " that",
+            "prob": 0.04317543961549785
+          },
+          {
+            "token": " the",
+            "prob": 0.023474079353524187
+          },
+          {
+            "token": " neurons",
+            "prob": 0.011803505548572296
+          }
+        ]
+      },
+      {
+        "token": " does",
+        "prob": 0.4922669663612008,
+        "top": [
+          {
+            "token": " does",
+            "prob": 0.4922669663612008
+          },
+          {
+            "token": " doesn't",
+            "prob": 0.455272519624698
+          },
+          {
+            "token": " doesn",
+            "prob": 0.03098168562123122
+          },
+          {
+            "token": " is",
+            "prob": 0.014865175215384207
+          },
+          {
+            "token": " should",
+            "prob": 0.0028817456629441794
+          }
+        ]
+      },
+      {
+        "token": " not",
+        "prob": 0.9999996871837232,
+        "top": [
+          {
+            "token": " not",
+            "prob": 0.9999996871837232
+          },
+          {
+            "token": " NOT",
+            "prob": 9.931194312156244e-8
+          },
+          {
+            "token": " no",
+            "prob": 2.4720697221535385e-8
+          },
+          {
+            "token": "n't",
+            "prob": 1.6467534506261262e-8
+          },
+          {
+            "token": " mean",
+            "prob": 1.3652065610331087e-8
+          }
+        ]
+      },
+      {
+        "token": " mean",
+        "prob": 0.9118158881684537,
+        "top": [
+          {
+            "token": " mean",
+            "prob": 0.9118158881684537
+          },
+          {
+            "token": " imply",
+            "prob": 0.0714189453112403
+          },
+          {
+            "token": " equ",
+            "prob": 0.012410751763805905
+          },
+          {
+            "token": " indicate",
+            "prob": 0.00126783811035504
+          },
+          {
+            "token": " translate",
+            "prob": 0.0011188632053670293
+          }
+        ]
+      },
+      {
+        "token": " that",
+        "prob": 0.8429344834098298,
+        "top": [
+          {
+            "token": " that",
+            "prob": 0.8429344834098298
+          },
+          {
+            "token": " the",
+            "prob": 0.14878677881607302
+          },
+          {
+            "token": " we",
+            "prob": 0.0036670563890649167
+          },
+          {
+            "token": " other",
+            "prob": 0.003610203949332329
+          },
+          {
+            "token": " only",
+            "prob": 0.000520099191043333
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9481491354995358,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9481491354995358
+          },
+          {
+            "token": " other",
+            "prob": 0.035632633179165804
+          },
+          {
+            "token": " we",
+            "prob": 0.006907699381522098
+          },
+          {
+            "token": " ",
+            "prob": 0.00453017985545244
+          },
+          {
+            "token": " only",
+            "prob": 0.00306527301939917
+          }
+        ]
+      },
+      {
+        "token": " rest",
+        "prob": 0.835525322877857,
+        "top": [
+          {
+            "token": " rest",
+            "prob": 0.835525322877857
+          },
+          {
+            "token": " other",
+            "prob": 0.09671907343827307
+          },
+          {
+            "token": " inactive",
+            "prob": 0.03189456523363353
+          },
+          {
+            "token": " unused",
+            "prob": 0.013933703624419798
+          },
+          {
+            "token": " remaining",
+            "prob": 0.011551446028739792
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9870074934542623,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9870074934542623
+          },
+          {
+            "token": " are",
+            "prob": 0.007079317771331342
+          },
+          {
+            "token": " is",
+            "prob": 0.005868960569285659
+          },
+          {
+            "token": " aren't",
+            "prob": 0.000013454421957153358
+          },
+          {
+            "token": " isn't",
+            "prob": 0.000012060465896017034
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9985187313459243,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9985187313459243
+          },
+          {
+            "token": " our",
+            "prob": 0.0014102581775266264
+          },
+          {
+            "token": " your",
+            "prob": 0.000061001810744974174
+          },
+          {
+            "token": " them",
+            "prob": 0.000004778031053149317
+          },
+          {
+            "token": " those",
+            "prob": 0.0000029436595378741667
+          }
+        ]
+      },
+      {
+        "token": " brain",
+        "prob": 0.9877403654033768,
+        "top": [
+          {
+            "token": " brain",
+            "prob": 0.9877403654033768
+          },
+          {
+            "token": " neurons",
+            "prob": 0.012241049030728467
+          },
+          {
+            "token": " neuron",
+            "prob": 0.000010005898615874786
+          },
+          {
+            "token": " neural",
+            "prob": 0.000002303488655953207
+          },
+          {
+            "token": " cells",
+            "prob": 0.0000017939587690524554
+          }
+        ]
+      },
+      {
+        "token": " is",
+        "prob": 0.9985734010549849,
+        "top": [
+          {
+            "token": " is",
+            "prob": 0.9985734010549849
+          },
+          {
+            "token": " isn't",
+            "prob": 0.0011332364211304217
+          },
+          {
+            "token": " remains",
+            "prob": 0.00011046601394185832
+          },
+          {
+            "token": " isn",
+            "prob": 0.00007592210705301329
+          },
+          {
+            "token": " or",
+            "prob": 0.000048259027441256915
+          }
+        ]
+      },
+      {
+        "token": " inactive",
+        "prob": 0.8112198250611906,
+        "top": [
+          {
+            "token": " inactive",
+            "prob": 0.8112198250611906
+          },
+          {
+            "token": " unused",
+            "prob": 0.15006057440022383
+          },
+          {
+            "token": " dormant",
+            "prob": 0.020308492760063933
+          },
+          {
+            "token": " not",
+            "prob": 0.013957809342396023
+          },
+          {
+            "token": " idle",
+            "prob": 0.002174207349537839
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.8562548677313221,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.8562548677313221
+          },
+          {
+            "token": ".",
+            "prob": 0.11408492748876507
+          },
+          {
+            "token": ";",
+            "prob": 0.022818421015004982
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.003136768560048135
+          },
+          {
+            "token": ",",
+            "prob": 0.002367757131398366
+          }
+        ]
+      },
+      {
+        "token": " unused",
+        "prob": 0.8687145724805274,
+        "top": [
+          {
+            "token": " unused",
+            "prob": 0.8687145724805274
+          },
+          {
+            "token": " unnecessary",
+            "prob": 0.10056101381978458
+          },
+          {
+            "token": " not",
+            "prob": 0.015421527263446401
+          },
+          {
+            "token": " useless",
+            "prob": 0.004282403457849511
+          },
+          {
+            "token": " un",
+            "prob": 0.003232527721679474
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.8298585883648152,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.8298585883648152
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.1088537465532865
+          },
+          {
+            "token": ";",
+            "prob": 0.05222859837738304
+          },
+          {
+            "token": "—",
+            "prob": 0.00428718442593565
+          },
+          {
+            "token": "—it",
+            "prob": 0.0030400689816802978
+          }
+        ]
+      },
+      {
+        "token": " Each",
+        "prob": 0.3976123716037907,
+        "top": [
+          {
+            "token": " Each",
+            "prob": 0.3976123716037907
+          },
+          {
+            "token": " The",
+            "prob": 0.24116409405875194
+          },
+          {
+            "token": " Every",
+            "prob": 0.1070159180267117
+          },
+          {
+            "token": " Our",
+            "prob": 0.043238339496153785
+          },
+          {
+            "token": " All",
+            "prob": 0.03936895612011558
+          }
+        ]
+      },
+      {
+        "token": " part",
+        "prob": 0.8742499168481861,
+        "top": [
+          {
+            "token": " part",
+            "prob": 0.8742499168481861
+          },
+          {
+            "token": " region",
+            "prob": 0.07759409704880756
+          },
+          {
+            "token": " area",
+            "prob": 0.04561521646830613
+          },
+          {
+            "token": " portion",
+            "prob": 0.0008486285996181272
+          },
+          {
+            "token": " brain",
+            "prob": 0.0007146169281669214
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9994941587032862,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9994941587032862
+          },
+          {
+            "token": " has",
+            "prob": 0.00045118598303800354
+          },
+          {
+            "token": " plays",
+            "prob": 0.00002281696086291943
+          },
+          {
+            "token": " serves",
+            "prob": 0.000018049701674292226
+          },
+          {
+            "token": " contributes",
+            "prob": 0.000004708546006668828
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9955090220230015,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9955090220230015
+          },
+          {
+            "token": " our",
+            "prob": 0.0044682838692734934
+          },
+          {
+            "token": " your",
+            "prob": 0.000021349092121574602
+          },
+          {
+            "token": " a",
+            "prob": 0.0000010629087090486603
+          },
+          {
+            "token": " it",
+            "prob": 1.668678186919803e-7
+          }
+        ]
+      },
+      {
+        "token": " brain",
+        "prob": 0.9999841908314937,
+        "top": [
+          {
+            "token": " brain",
+            "prob": 0.9999841908314937
+          },
+          {
+            "token": " human",
+            "prob": 0.00001568954152537955
+          },
+          {
+            "token": " cerebral",
+            "prob": 5.072280327186428e-8
+          },
+          {
+            "token": " organ",
+            "prob": 2.472032001650886e-8
+          },
+          {
+            "token": " brains",
+            "prob": 1.3651857297930973e-8
+          }
+        ]
+      },
+      {
+        "token": " has",
+        "prob": 0.9816061867133573,
+        "top": [
+          {
+            "token": " has",
+            "prob": 0.9816061867133573
+          },
+          {
+            "token": " is",
+            "prob": 0.014673822163538483
+          },
+          {
+            "token": " serves",
+            "prob": 0.0023217358127361485
+          },
+          {
+            "token": " performs",
+            "prob": 0.0005870267444576124
+          },
+          {
+            "token": " plays",
+            "prob": 0.0003241869579379376
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.9536306910553727,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.9536306910553727
+          },
+          {
+            "token": " known",
+            "prob": 0.027478430864449885
+          },
+          {
+            "token": " specific",
+            "prob": 0.013817026045972068
+          },
+          {
+            "token": " its",
+            "prob": 0.0020537175772333705
+          },
+          {
+            "token": " specialized",
+            "prob": 0.0018409405382967706
+          }
+        ]
+      },
+      {
+        "token": " known",
+        "prob": 0.8501658866211245,
+        "top": [
+          {
+            "token": " known",
+            "prob": 0.8501658866211245
+          },
+          {
+            "token": " specific",
+            "prob": 0.11870976514604001
+          },
+          {
+            "token": " specialized",
+            "prob": 0.010372741205293516
+          },
+          {
+            "token": " function",
+            "prob": 0.010053605508792687
+          },
+          {
+            "token": " distinct",
+            "prob": 0.005134879246145814
+          }
+        ]
+      },
+      {
+        "token": " function",
+        "prob": 0.9940221868259347,
+        "top": [
+          {
+            "token": " function",
+            "prob": 0.9940221868259347
+          },
+          {
+            "token": " purpose",
+            "prob": 0.002748717745444315
+          },
+          {
+            "token": " role",
+            "prob": 0.0024639346626915163
+          },
+          {
+            "token": " and",
+            "prob": 0.00044175914270157783
+          },
+          {
+            "token": ",",
+            "prob": 0.00012855923971226316
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9668065962149812,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9668065962149812
+          },
+          {
+            "token": " and",
+            "prob": 0.028296794962903722
+          },
+          {
+            "token": " or",
+            "prob": 0.001753297930313884
+          },
+          {
+            "token": " that",
+            "prob": 0.0007659591390366528
+          },
+          {
+            "token": ";",
+            "prob": 0.0007083964007101543
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9016677384525931,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9016677384525931
+          },
+          {
+            "token": " whether",
+            "prob": 0.0695291501520218
+          },
+          {
+            "token": " from",
+            "prob": 0.009708446984453188
+          },
+          {
+            "token": " even",
+            "prob": 0.004375939894226561
+          },
+          {
+            "token": " ranging",
+            "prob": 0.004375939894226561
+          }
+        ]
+      },
+      {
+        "token": " damage",
+        "prob": 0.7185875064840941,
+        "top": [
+          {
+            "token": " damage",
+            "prob": 0.7185875064840941
+          },
+          {
+            "token": " even",
+            "prob": 0.05898525975459067
+          },
+          {
+            "token": " brain",
+            "prob": 0.02786266381280931
+          },
+          {
+            "token": " loss",
+            "prob": 0.023462715295498177
+          },
+          {
+            "token": " the",
+            "prob": 0.022388279336701594
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.9998367601029556,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.9998367601029556
+          },
+          {
+            "token": " or",
+            "prob": 0.00012147670058466996
+          },
+          {
+            "token": " even",
+            "prob": 0.000028853245423884526
+          },
+          {
+            "token": " in",
+            "prob": 0.000006239951935180069
+          },
+          {
+            "token": " can",
+            "prob": 0.0000026011989663959807
+          }
+        ]
+      },
+      {
+        "token": " even",
+        "prob": 0.7470950532855063,
+        "top": [
+          {
+            "token": " even",
+            "prob": 0.7470950532855063
+          },
+          {
+            "token": " almost",
+            "prob": 0.1615706459669342
+          },
+          {
+            "token": " any",
+            "prob": 0.061325300076135
+          },
+          {
+            "token": " nearly",
+            "prob": 0.01411788234038989
+          },
+          {
+            "token": " small",
+            "prob": 0.006565425013276407
+          }
+        ]
+      },
+      {
+        "token": " small",
+        "prob": 0.5146453197271732,
+        "top": [
+          {
+            "token": " small",
+            "prob": 0.5146453197271732
+          },
+          {
+            "token": " a",
+            "prob": 0.48346453606752426
+          },
+          {
+            "token": " very",
+            "prob": 0.00133689960060654
+          },
+          {
+            "token": " the",
+            "prob": 0.000383028148494246
+          },
+          {
+            "token": " relatively",
+            "prob": 0.00007904232600781077
+          }
+        ]
+      },
+      {
+        "token": " areas",
+        "prob": 0.9827296708557667,
+        "top": [
+          {
+            "token": " areas",
+            "prob": 0.9827296708557667
+          },
+          {
+            "token": " parts",
+            "prob": 0.011089059963221116
+          },
+          {
+            "token": " regions",
+            "prob": 0.004695403415237597
+          },
+          {
+            "token": " brain",
+            "prob": 0.0006159028945497686
+          },
+          {
+            "token": " portions",
+            "prob": 0.0006159028945497686
+          }
+        ]
+      },
+      {
+        "token": " can",
+        "prob": 0.6068437810627265,
+        "top": [
+          {
+            "token": " can",
+            "prob": 0.6068437810627265
+          },
+          {
+            "token": " of",
+            "prob": 0.39180779301507973
+          },
+          {
+            "token": " in",
+            "prob": 0.00046598409179755417
+          },
+          {
+            "token": " often",
+            "prob": 0.00019123948594977917
+          },
+          {
+            "token": " usually",
+            "prob": 0.0001714259672852663
+          }
+        ]
+      },
+      {
+        "token": " have",
+        "prob": 0.9463519196969914,
+        "top": [
+          {
+            "token": " have",
+            "prob": 0.9463519196969914
+          },
+          {
+            "token": " lead",
+            "prob": 0.02482843441216241
+          },
+          {
+            "token": " result",
+            "prob": 0.014369591994843743
+          },
+          {
+            "token": " significantly",
+            "prob": 0.00553997122578836
+          },
+          {
+            "token": " affect",
+            "prob": 0.004521592735316673
+          }
+        ]
+      },
+      {
+        "token": " significant",
+        "prob": 0.9476584658691735,
+        "top": [
+          {
+            "token": " significant",
+            "prob": 0.9476584658691735
+          },
+          {
+            "token": " profound",
+            "prob": 0.02372416795712091
+          },
+          {
+            "token": " a",
+            "prob": 0.015803702903892512
+          },
+          {
+            "token": " serious",
+            "prob": 0.0071232869813670305
+          },
+          {
+            "token": " noticeable",
+            "prob": 0.002276739267687018
+          }
+        ]
+      },
+      {
+        "token": " effects",
+        "prob": 0.5919842887773967,
+        "top": [
+          {
+            "token": " effects",
+            "prob": 0.5919842887773967
+          },
+          {
+            "token": " impacts",
+            "prob": 0.23547508114365887
+          },
+          {
+            "token": " consequences",
+            "prob": 0.1496770682972373
+          },
+          {
+            "token": " and",
+            "prob": 0.01994253675988512
+          },
+          {
+            "token": ",",
+            "prob": 0.0006213287034851779
+          }
+        ]
+      },
+      {
+        "token": " on",
+        "prob": 0.8532780779588758,
+        "top": [
+          {
+            "token": " on",
+            "prob": 0.8532780779588758
+          },
+          {
+            "token": ",",
+            "prob": 0.12682847319711776
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.010741184057079604
+          },
+          {
+            "token": ".",
+            "prob": 0.00904498382354751
+          },
+          {
+            "token": " depending",
+            "prob": 0.00005636458784524245
+          }
+        ]
+      },
+      {
+        "token": " cognition",
+        "prob": 0.5824896641532242,
+        "top": [
+          {
+            "token": " cognition",
+            "prob": 0.5824896641532242
+          },
+          {
+            "token": " behavior",
+            "prob": 0.25052566784803765
+          },
+          {
+            "token": " cognitive",
+            "prob": 0.05010828590468082
+          },
+          {
+            "token": " a",
+            "prob": 0.04933142893760659
+          },
+          {
+            "token": " our",
+            "prob": 0.019931699055295765
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.8134500361195739,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.8134500361195739
+          },
+          {
+            "token": ",",
+            "prob": 0.17319351463586558
+          },
+          {
+            "token": " or",
+            "prob": 0.013355246616790127
+          },
+          {
+            "token": ".\n\n",
+            "prob": 8.287514966777612e-7
+          },
+          {
+            "token": ".",
+            "prob": 2.841800020559084e-7
+          }
+        ]
+      },
+      {
+        "token": " behavior",
+        "prob": 0.5361119001940722,
+        "top": [
+          {
+            "token": " behavior",
+            "prob": 0.5361119001940722
+          },
+          {
+            "token": " bodily",
+            "prob": 0.26957399274358496
+          },
+          {
+            "token": " functioning",
+            "prob": 0.05391819056662665
+          },
+          {
+            "token": " abilities",
+            "prob": 0.05144909685567216
+          },
+          {
+            "token": " function",
+            "prob": 0.027111768843954782
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.8496694407037765,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.8496694407037765
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.0867992030489744
+          },
+          {
+            "token": ".",
+            "prob": 0.06350365353074267
+          },
+          {
+            "token": "—",
+            "prob": 0.000016333659155858874
+          },
+          {
+            "token": ".\n",
+            "prob": 0.000004396144723186419
+          }
+        ]
+      },
+      {
+        "token": " further",
+        "prob": 0.30977302969180276,
+        "top": [
+          {
+            "token": " further",
+            "prob": 0.30977302969180276
+          },
+          {
+            "token": " indicating",
+            "prob": 0.2820515532104714
+          },
+          {
+            "token": " which",
+            "prob": 0.21966197050682112
+          },
+          {
+            "token": " unders",
+            "prob": 0.07591313665044186
+          },
+          {
+            "token": " highlighting",
+            "prob": 0.03164530346423379
+          }
+        ]
+      },
+      {
+        "token": " indicating",
+        "prob": 0.2448214558685504,
+        "top": [
+          {
+            "token": " indicating",
+            "prob": 0.2448214558685504
+          },
+          {
+            "token": " dispro",
+            "prob": 0.1936697121251857
+          },
+          {
+            "token": " illustrating",
+            "prob": 0.1211954089926656
+          },
+          {
+            "token": " demonstrating",
+            "prob": 0.11385255036073184
+          },
+          {
+            "token": " supporting",
+            "prob": 0.09891680994732743
+          }
+        ]
+      },
+      {
+        "token": " that",
+        "prob": 0.9351428664910417,
+        "top": [
+          {
+            "token": " that",
+            "prob": 0.9351428664910417
+          },
+          {
+            "token": " the",
+            "prob": 0.05794239563751101
+          },
+          {
+            "token": " how",
+            "prob": 0.004756200332203831
+          },
+          {
+            "token": " their",
+            "prob": 0.0006190226596729962
+          },
+          {
+            "token": " its",
+            "prob": 0.00048209533209227326
+          }
+        ]
+      },
+      {
+        "token": " we",
+        "prob": 0.5552730629399701,
+        "top": [
+          {
+            "token": " we",
+            "prob": 0.5552730629399701
+          },
+          {
+            "token": " all",
+            "prob": 0.1747244318459305
+          },
+          {
+            "token": " the",
+            "prob": 0.1093397555364305
+          },
+          {
+            "token": " most",
+            "prob": 0.058525353742346964
+          },
+          {
+            "token": " much",
+            "prob": 0.027645419595220877
+          }
+        ]
+      },
+      {
+        "token": " use",
+        "prob": 0.7724566897841532,
+        "top": [
+          {
+            "token": " use",
+            "prob": 0.7724566897841532
+          },
+          {
+            "token": " utilize",
+            "prob": 0.08269844945232616
+          },
+          {
+            "token": " do",
+            "prob": 0.06749650729681896
+          },
+          {
+            "token": " indeed",
+            "prob": 0.05508904371775242
+          },
+          {
+            "token": " rely",
+            "prob": 0.008853617133848947
+          }
+        ]
+      },
+      {
+        "token": " all",
+        "prob": 0.4513601368874325,
+        "top": [
+          {
+            "token": " all",
+            "prob": 0.4513601368874325
+          },
+          {
+            "token": " much",
+            "prob": 0.26122719064374444
+          },
+          {
+            "token": " the",
+            "prob": 0.14884276658151604
+          },
+          {
+            "token": " far",
+            "prob": 0.05828766488346311
+          },
+          {
+            "token": " our",
+            "prob": 0.04399783776150193
+          }
+        ]
+      },
+      {
+        "token": " parts",
+        "prob": 0.6923467738033026,
+        "top": [
+          {
+            "token": " parts",
+            "prob": 0.6923467738033026
+          },
+          {
+            "token": " of",
+            "prob": 0.2931580515626379
+          },
+          {
+            "token": " areas",
+            "prob": 0.00781239931364998
+          },
+          {
+            "token": " regions",
+            "prob": 0.0021026787500832743
+          },
+          {
+            "token": " our",
+            "prob": 0.0017161563794455138
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9987796858337528,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9987796858337528
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.0007550540816454611
+          },
+          {
+            "token": ".",
+            "prob": 0.00024132989462852798
+          },
+          {
+            "token": " for",
+            "prob": 0.0000874038956951575
+          },
+          {
+            "token": " extensively",
+            "prob": 0.000021419245811215
+          }
+        ]
+      },
+      {
+        "token": " our",
+        "prob": 0.9497277954427636,
+        "top": [
+          {
+            "token": " our",
+            "prob": 0.9497277954427636
+          },
+          {
+            "token": " the",
+            "prob": 0.0472841586311834
+          },
+          {
+            "token": " it",
+            "prob": 0.002975911345599917
+          },
+          {
+            "token": " this",
+            "prob": 0.000009926233317304709
+          },
+          {
+            "token": " a",
+            "prob": 5.343555073454889e-7
+          }
+        ]
+      },
+      {
+        "token": " brain",
+        "prob": 0.793085602965877,
+        "top": [
+          {
+            "token": " brain",
+            "prob": 0.793085602965877
+          },
+          {
+            "token": " brains",
+            "prob": 0.2068887314173644
+          },
+          {
+            "token": " cerebral",
+            "prob": 0.000011689448961312166
+          },
+          {
+            "token": " minds",
+            "prob": 0.0000025280206297676282
+          },
+          {
+            "token": " organ",
+            "prob": 0.0000023380368792266736
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.7725712277664342,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.7725712277664342
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.20153723414303884
+          },
+          {
+            "token": " for",
+            "prob": 0.016034207159703023
+          },
+          {
+            "token": " in",
+            "prob": 0.006684051980537403
+          },
+          {
+            "token": " throughout",
+            "prob": 0.0006025855617863503
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T16:53:11.167Z"
+}

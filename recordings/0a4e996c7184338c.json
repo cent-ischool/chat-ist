@@ -1,0 +1,89 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "qwen/qwen3.7-flash",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Complete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      },
+      {
+        "role": "assistant",
+        "content": "beach"
+      },
+      {
+        "role": "user",
+        "content": "Complete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      },
+      {
+        "role": "assistant",
+        "content": "park"
+      },
+      {
+        "role": "user",
+        "content": "Complete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "zoo",
+    "tokens": [
+      {
+        "token": "z",
+        "prob": 0.21310044340043077,
+        "top": [
+          {
+            "token": "z",
+            "prob": 0.21310044340043077
+          },
+          {
+            "token": "mount",
+            "prob": 0.18806048124028404
+          },
+          {
+            "token": "g",
+            "prob": 0.08883348123028924
+          },
+          {
+            "token": "movies",
+            "prob": 0.07839527203153704
+          },
+          {
+            "token": "library",
+            "prob": 0.07839527203153704
+          }
+        ]
+      },
+      {
+        "token": "oo",
+        "prob": 0.9999175139789379,
+        "top": [
+          {
+            "token": "oo",
+            "prob": 0.9999175139789379
+          },
+          {
+            "token": "OO",
+            "prob": 0.000045396206394934316
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 0.000015688509132165016
+          },
+          {
+            "token": "ookeeper",
+            "prob": 0.000009515561793839721
+          },
+          {
+            "token": "ooo",
+            "prob": 0.000004784724952076424
+          }
+        ]
+      }
+    ],
+    "provider": "Alibaba"
+  },
+  "savedAt": "2026-10-13T17:01:19.314Z"
+}

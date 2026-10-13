@@ -1,0 +1,105 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "qwen/qwen3.7-flash",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My mom is a zookeeper, my dad is a firefighter.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      },
+      {
+        "role": "assistant",
+        "content": "zoo"
+      },
+      {
+        "role": "user",
+        "content": "My mom is a chef, my dad is a historian.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      },
+      {
+        "role": "assistant",
+        "content": "museum."
+      },
+      {
+        "role": "user",
+        "content": "My mom is a zookeeper, my dad is a firefighter.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      },
+      {
+        "role": "assistant",
+        "content": "fire station."
+      },
+      {
+        "role": "user",
+        "content": "My mom is a zookeeper, my dad is a firefighter.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      },
+      {
+        "role": "assistant",
+        "content": "zoo"
+      },
+      {
+        "role": "user",
+        "content": "My mom is a zookeeper, my dad is a firefighter.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "zoo",
+    "tokens": [
+      {
+        "token": "z",
+        "prob": 0.8288558414421077,
+        "top": [
+          {
+            "token": "z",
+            "prob": 0.8288558414421077
+          },
+          {
+            "token": "fire",
+            "prob": 0.07709559812575645
+          },
+          {
+            "token": "park",
+            "prob": 0.022088258679834702
+          },
+          {
+            "token": "It",
+            "prob": 0.022088258679834702
+          },
+          {
+            "token": "museum",
+            "prob": 0.010433757096246561
+          }
+        ]
+      },
+      {
+        "token": "oo",
+        "prob": 0.9995706733177699,
+        "top": [
+          {
+            "token": "oo",
+            "prob": 0.9995706733177699
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 0.00017948316307823627
+          },
+          {
+            "token": "ookeeper",
+            "prob": 0.00017948316307823627
+          },
+          {
+            "token": "ooo",
+            "prob": 0.000012213982530584134
+          },
+          {
+            "token": "oor",
+            "prob": 0.000011473974738206328
+          }
+        ]
+      }
+    ],
+    "provider": "Alibaba"
+  },
+  "savedAt": "2026-10-13T17:03:46.505Z"
+}

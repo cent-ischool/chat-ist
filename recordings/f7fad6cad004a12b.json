@@ -1,0 +1,123 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "deepseek/deepseek-v4-flash",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My mom is a zookeeper, my dad is a firefighter.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      },
+      {
+        "role": "assistant",
+        "content": "zoo"
+      },
+      {
+        "role": "user",
+        "content": "My mom is a chef, my dad is a historian.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      },
+      {
+        "role": "assistant",
+        "content": "museum."
+      },
+      {
+        "role": "user",
+        "content": "My mom is a zookeeper, my dad is a firefighter.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      },
+      {
+        "role": "assistant",
+        "content": "fire station."
+      },
+      {
+        "role": "user",
+        "content": "My mom is a zookeeper, my dad is a firefighter.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "zoo",
+    "tokens": [
+      {
+        "token": "z",
+        "prob": 0.6078757034799324,
+        "top": [
+          {
+            "token": "z",
+            "prob": 0.6078757034799324
+          },
+          {
+            "token": "It",
+            "prob": 0.28714015054783487
+          },
+          {
+            "token": "That",
+            "prob": 0.018356255691095107
+          },
+          {
+            "token": "Given",
+            "prob": 0.01619934265266608
+          },
+          {
+            "token": "You",
+            "prob": 0.011133634528638704
+          }
+        ]
+      },
+      {
+        "token": "oo",
+        "prob": 0.9999809268774651,
+        "top": [
+          {
+            "token": "oo",
+            "prob": 0.9999809268774651
+          },
+          {
+            "token": "ook",
+            "prob": 0.000016701382233621983
+          },
+          {
+            "token": "oooo",
+            "prob": 0.0000010676836453911577
+          },
+          {
+            "token": "ooo",
+            "prob": 8.315128591031658e-7
+          },
+          {
+            "token": "ool",
+            "prob": 9.931004891463771e-8
+          }
+        ]
+      },
+      {
+        "token": "<｜end▁of▁sentence｜>",
+        "prob": 0.6261537395038818,
+        "top": [
+          {
+            "token": "oo",
+            "prob": 0.9999809268774651
+          },
+          {
+            "token": "ook",
+            "prob": 0.000016701382233621983
+          },
+          {
+            "token": "oooo",
+            "prob": 0.0000010676836453911577
+          },
+          {
+            "token": "ooo",
+            "prob": 8.315128591031658e-7
+          },
+          {
+            "token": "ool",
+            "prob": 9.931004891463771e-8
+          }
+        ]
+      }
+    ],
+    "provider": "StreamLake"
+  },
+  "savedAt": "2026-10-13T17:03:21.840Z"
+}

@@ -1,0 +1,177 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many legs does a spider have?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "A spider has eight legs.",
+    "tokens": [
+      {
+        "token": "A",
+        "prob": 0.9999034944852412,
+        "top": [
+          {
+            "token": "A",
+            "prob": 0.9999034944852412
+          },
+          {
+            "token": "Sp",
+            "prob": 0.00009610239492660868
+          },
+          {
+            "token": "Most",
+            "prob": 7.73366957954185e-8
+          },
+          {
+            "token": "Spider",
+            "prob": 5.315268187730999e-8
+          },
+          {
+            "token": " A",
+            "prob": 4.139535026839429e-8
+          }
+        ]
+      },
+      {
+        "token": " spider",
+        "prob": 0.999980972389532,
+        "top": [
+          {
+            "token": " spider",
+            "prob": 0.999980972389532
+          },
+          {
+            "token": " typical",
+            "prob": 0.000018925145442106525
+          },
+          {
+            "token": " standard",
+            "prob": 4.691074545834896e-8
+          },
+          {
+            "token": " common",
+            "prob": 2.215906711867151e-8
+          },
+          {
+            "token": " Spider",
+            "prob": 2.215906711867151e-8
+          }
+        ]
+      },
+      {
+        "token": " has",
+        "prob": 0.9324080052553487,
+        "top": [
+          {
+            "token": " has",
+            "prob": 0.9324080052553487
+          },
+          {
+            "token": " typically",
+            "prob": 0.06754341690605317
+          },
+          {
+            "token": " generally",
+            "prob": 0.000022658297534978
+          },
+          {
+            "token": " usually",
+            "prob": 0.00001999587739245826
+          },
+          {
+            "token": " traditionally",
+            "prob": 0.000003066467114555691
+          }
+        ]
+      },
+      {
+        "token": " eight",
+        "prob": 0.9999733435294234,
+        "top": [
+          {
+            "token": " eight",
+            "prob": 0.9999733435294234
+          },
+          {
+            "token": " ",
+            "prob": 0.000016701254812673777
+          },
+          {
+            "token": " a",
+            "prob": 0.000006144048287348291
+          },
+          {
+            "token": " four",
+            "prob": 0.0000013709224783157102
+          },
+          {
+            "token": " six",
+            "prob": 0.0000010676754996424661
+          }
+        ]
+      },
+      {
+        "token": " legs",
+        "prob": 0.9999880052965596,
+        "top": [
+          {
+            "token": " legs",
+            "prob": 0.9999880052965596
+          },
+          {
+            "token": "legs",
+            "prob": 0.000011478757578876643
+          },
+          {
+            "token": " Legs",
+            "prob": 4.450797320133171e-7
+          },
+          {
+            "token": " limbs",
+            "prob": 2.5109704198035704e-8
+          },
+          {
+            "token": " leg",
+            "prob": 1.0467282005523084e-8
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9999831180163555,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9999831180163555
+          },
+          {
+            "token": ",",
+            "prob": 0.000016701414089010932
+          },
+          {
+            "token": ".\n",
+            "prob": 7.734289138129681e-8
+          },
+          {
+            "token": ".\n\n",
+            "prob": 2.2159109383778193e-8
+          },
+          {
+            "token": "!",
+            "prob": 3.8506758209688996e-9
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T16:52:55.159Z"
+}

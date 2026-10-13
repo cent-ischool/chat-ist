@@ -1,0 +1,81 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My mom is a zookeeper, my dad is a firefighter.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      },
+      {
+        "role": "assistant",
+        "content": "zoo"
+      },
+      {
+        "role": "user",
+        "content": "My mom is a chef, my dad is a historian.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "museum.",
+    "tokens": [
+      {
+        "token": "museum",
+        "prob": 0.9984797498247381,
+        "top": [
+          {
+            "token": "museum",
+            "prob": 0.9984797498247381
+          },
+          {
+            "token": "c",
+            "prob": 0.00043008762654625396
+          },
+          {
+            "token": "library",
+            "prob": 0.0003349527400614191
+          },
+          {
+            "token": "cul",
+            "prob": 0.0002955947556164255
+          },
+          {
+            "token": "m",
+            "prob": 0.00010874323350937968
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9922730192773231,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9922730192773231
+          },
+          {
+            "token": "<|end|>",
+            "prob": 0.006685881686223211
+          },
+          {
+            "token": "!",
+            "prob": 0.001025313164319875
+          },
+          {
+            "token": " ",
+            "prob": 0.0000022428634403057155
+          },
+          {
+            "token": " café",
+            "prob": 0.0000022428634403057155
+          }
+        ]
+      }
+    ],
+    "provider": "Azure"
+  },
+  "savedAt": "2026-10-13T17:03:05.239Z"
+}

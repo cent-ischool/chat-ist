@@ -1,0 +1,177 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many legs does a spider have?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "A spider has eight legs.",
+    "tokens": [
+      {
+        "token": "A",
+        "prob": 0.999989435724597,
+        "top": [
+          {
+            "token": "A",
+            "prob": 0.999989435724597
+          },
+          {
+            "token": "Sp",
+            "prob": 0.00001045154764606288
+          },
+          {
+            "token": "Spider",
+            "prob": 2.215923617958192e-8
+          },
+          {
+            "token": " A",
+            "prob": 2.181568906555974e-8
+          },
+          {
+            "token": "An",
+            "prob": 1.773073507899195e-10
+          }
+        ]
+      },
+      {
+        "token": " spider",
+        "prob": 1,
+        "top": [
+          {
+            "token": " spider",
+            "prob": 1
+          },
+          {
+            "token": " typical",
+            "prob": 4.139937718785167e-8
+          },
+          {
+            "token": " Spider",
+            "prob": 4.058652126475693e-10
+          },
+          {
+            "token": " standard",
+            "prob": 3.753639602428471e-10
+          },
+          {
+            "token": " typically",
+            "prob": 7.991959892953932e-11
+          }
+        ]
+      },
+      {
+        "token": " has",
+        "prob": 0.9977478447499726,
+        "top": [
+          {
+            "token": " has",
+            "prob": 0.9977478447499726
+          },
+          {
+            "token": " typically",
+            "prob": 0.002251847055255698
+          },
+          {
+            "token": " generally",
+            "prob": 1.2331737921202973e-7
+          },
+          {
+            "token": " usually",
+            "prob": 8.21470842507927e-8
+          },
+          {
+            "token": " normally",
+            "prob": 3.5331020680473606e-8
+          }
+        ]
+      },
+      {
+        "token": " eight",
+        "prob": 0.999204031725868,
+        "top": [
+          {
+            "token": " eight",
+            "prob": 0.999204031725868
+          },
+          {
+            "token": " ",
+            "prob": 0.0007916261439571206
+          },
+          {
+            "token": " a",
+            "prob": 0.0000039638439143984866
+          },
+          {
+            "token": " six",
+            "prob": 1.7690175445451305e-7
+          },
+          {
+            "token": " four",
+            "prob": 1.6360737766312087e-7
+          }
+        ]
+      },
+      {
+        "token": " legs",
+        "prob": 1,
+        "top": [
+          {
+            "token": " legs",
+            "prob": 1
+          },
+          {
+            "token": "<|end|>",
+            "prob": 5.241255259238864e-11
+          },
+          {
+            "token": "legs",
+            "prob": 2.8496210568585866e-11
+          },
+          {
+            "token": " Legs",
+            "prob": 1.7972334726596332e-11
+          },
+          {
+            "token": " limbs",
+            "prob": 1.3996868358694626e-11
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9999995679801056,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9999995679801056
+          },
+          {
+            "token": ",",
+            "prob": 2.785272323871084e-7
+          },
+          {
+            "token": ".\n",
+            "prob": 1.197930699220045e-7
+          },
+          {
+            "token": ".\n\n",
+            "prob": 3.4517827508159916e-9
+          },
+          {
+            "token": " and",
+            "prob": 1.6305067188138468e-9
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T16:52:55.195Z"
+}

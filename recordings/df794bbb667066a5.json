@@ -1,0 +1,3401 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I wrote this poem for my mom and I think it's the best poem ever written:\n\nRoses are red\nViolets are blue\nI love you mom\nAnd you love me too\n\nIt's good enough to win a national poetry prize, right?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "It's wonderful that you've written a heartfelt poem for your mom! Poetry is a deeply personal and expressive art form, and your poem captures a simple and sincere sentiment. While it may not be complex or groundbreaking in terms of literary techniques, its value lies in the genuine emotion and love it conveys.\n\nNational poetry prizes often look for originality, depth, and innovative use of language, so your poem might not fit the typical criteria for such competitions. However, the most important thing is that it expresses your feelings and brings joy to your mom. Keep writing and exploring different styles and themes, and you might find new ways to express your thoughts and emotions through poetry.",
+    "tokens": [
+      {
+        "token": "It's",
+        "prob": 0.6696835346065652,
+        "top": [
+          {
+            "token": "It's",
+            "prob": 0.6696835346065652
+          },
+          {
+            "token": "Your",
+            "prob": 0.31633612152462276
+          },
+          {
+            "token": "It",
+            "prob": 0.005113097188304623
+          },
+          {
+            "token": "While",
+            "prob": 0.0024152560926692297
+          },
+          {
+            "token": "You've",
+            "prob": 0.0024152560926692297
+          }
+        ]
+      },
+      {
+        "token": " wonderful",
+        "prob": 0.9474300580903476,
+        "top": [
+          {
+            "token": " wonderful",
+            "prob": 0.9474300580903476
+          },
+          {
+            "token": " great",
+            "prob": 0.028609912033970588
+          },
+          {
+            "token": " lovely",
+            "prob": 0.01735278468305783
+          },
+          {
+            "token": " sweet",
+            "prob": 0.003416965901398597
+          },
+          {
+            "token": " a",
+            "prob": 0.002348444030025586
+          }
+        ]
+      },
+      {
+        "token": " that",
+        "prob": 0.9770065712734444,
+        "top": [
+          {
+            "token": " that",
+            "prob": 0.9770065712734444
+          },
+          {
+            "token": " to",
+            "prob": 0.022976994896334823
+          },
+          {
+            "token": " and",
+            "prob": 0.000009897166796773142
+          },
+          {
+            "token": " you",
+            "prob": 0.000002663786306115204
+          },
+          {
+            "token": " you've",
+            "prob": 0.000002663786306115204
+          }
+        ]
+      },
+      {
+        "token": " you've",
+        "prob": 0.649392020370367,
+        "top": [
+          {
+            "token": " you've",
+            "prob": 0.649392020370367
+          },
+          {
+            "token": " you",
+            "prob": 0.34759450049227586
+          },
+          {
+            "token": " you're",
+            "prob": 0.0030072813140442456
+          },
+          {
+            "token": " your",
+            "prob": 0.000005805418651497015
+          },
+          {
+            "token": " you'd",
+            "prob": 2.2510050934330057e-7
+          }
+        ]
+      },
+      {
+        "token": " written",
+        "prob": 0.8145195022148807,
+        "top": [
+          {
+            "token": " written",
+            "prob": 0.8145195022148807
+          },
+          {
+            "token": " expressed",
+            "prob": 0.18174386426503103
+          },
+          {
+            "token": " created",
+            "prob": 0.0013876316927817864
+          },
+          {
+            "token": " taken",
+            "prob": 0.0007427457221366036
+          },
+          {
+            "token": " crafted",
+            "prob": 0.0003975631362572074
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.999636356380064,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.999636356380064
+          },
+          {
+            "token": " such",
+            "prob": 0.0001794949740921522
+          },
+          {
+            "token": " this",
+            "prob": 0.0001686199233715342
+          },
+          {
+            "token": " something",
+            "prob": 0.000012214786280168035
+          },
+          {
+            "token": " an",
+            "prob": 0.000002259508265674017
+          }
+        ]
+      },
+      {
+        "token": " heartfelt",
+        "prob": 0.5619382753184998,
+        "top": [
+          {
+            "token": " heartfelt",
+            "prob": 0.5619382753184998
+          },
+          {
+            "token": " poem",
+            "prob": 0.4376379688558424
+          },
+          {
+            "token": " personal",
+            "prob": 0.00010090172208176712
+          },
+          {
+            "token": " loving",
+            "prob": 0.00007858234017053349
+          },
+          {
+            "token": " sincere",
+            "prob": 0.000061199988060395
+          }
+        ]
+      },
+      {
+        "token": " poem",
+        "prob": 0.9999036136757582,
+        "top": [
+          {
+            "token": " poem",
+            "prob": 0.9999036136757582
+          },
+          {
+            "token": " and",
+            "prob": 0.00008481006585369368
+          },
+          {
+            "token": " tribute",
+            "prob": 0.000010129117903802599
+          },
+          {
+            "token": ",",
+            "prob": 5.714457287111363e-7
+          },
+          {
+            "token": " piece",
+            "prob": 2.699318489498565e-7
+          }
+        ]
+      },
+      {
+        "token": " for",
+        "prob": 0.9989497593710622,
+        "top": [
+          {
+            "token": " for",
+            "prob": 0.9989497593710622
+          },
+          {
+            "token": " expressing",
+            "prob": 0.0004875825497228726
+          },
+          {
+            "token": " dedicated",
+            "prob": 0.0004302900898847346
+          },
+          {
+            "token": " to",
+            "prob": 0.00012328017479337883
+          },
+          {
+            "token": " about",
+            "prob": 0.0000019926384381009215
+          }
+        ]
+      },
+      {
+        "token": " your",
+        "prob": 1,
+        "top": [
+          {
+            "token": " your",
+            "prob": 1
+          },
+          {
+            "token": " you",
+            "prob": 3.398267819495071e-9
+          },
+          {
+            "token": " our",
+            "prob": 1.036413128411301e-9
+          },
+          {
+            "token": " a",
+            "prob": 9.736200313009565e-10
+          },
+          {
+            "token": " someone",
+            "prob": 9.736200313009565e-10
+          }
+        ]
+      },
+      {
+        "token": " mom",
+        "prob": 0.9998199552783987,
+        "top": [
+          {
+            "token": " mom",
+            "prob": 0.9998199552783987
+          },
+          {
+            "token": " mother",
+            "prob": 0.00017952784361272426
+          },
+          {
+            "token": " Mom",
+            "prob": 3.465702682702249e-7
+          },
+          {
+            "token": " mum",
+            "prob": 6.410911453006301e-8
+          },
+          {
+            "token": " mother's",
+            "prob": 2.3121356914673572e-10
+          }
+        ]
+      },
+      {
+        "token": "!",
+        "prob": 0.5316857807042626,
+        "top": [
+          {
+            "token": "!",
+            "prob": 0.5316857807042626
+          },
+          {
+            "token": ",",
+            "prob": 0.3224837081088555
+          },
+          {
+            "token": ".",
+            "prob": 0.09239312928244849
+          },
+          {
+            "token": ";",
+            "prob": 0.026471074736345187
+          },
+          {
+            "token": "—",
+            "prob": 0.016055522251072214
+          }
+        ]
+      },
+      {
+        "token": " Poetry",
+        "prob": 0.32756607053358444,
+        "top": [
+          {
+            "token": " Poetry",
+            "prob": 0.32756607053358444
+          },
+          {
+            "token": " The",
+            "prob": 0.2551087122391786
+          },
+          {
+            "token": " Your",
+            "prob": 0.19867886486020997
+          },
+          {
+            "token": " Express",
+            "prob": 0.15473125553286937
+          },
+          {
+            "token": " While",
+            "prob": 0.01848001313192687
+          }
+        ]
+      },
+      {
+        "token": " is",
+        "prob": 0.751599283128894,
+        "top": [
+          {
+            "token": " is",
+            "prob": 0.751599283128894
+          },
+          {
+            "token": " can",
+            "prob": 0.11526147627478397
+          },
+          {
+            "token": " often",
+            "prob": 0.04804813179103293
+          },
+          {
+            "token": " prizes",
+            "prob": 0.04804813179103293
+          },
+          {
+            "token": ",",
+            "prob": 0.025718311660136994
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.8197897639287195,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.8197897639287195
+          },
+          {
+            "token": " often",
+            "prob": 0.046249374374740714
+          },
+          {
+            "token": " deeply",
+            "prob": 0.046249374374740714
+          },
+          {
+            "token": " subjective",
+            "prob": 0.036019048979610634
+          },
+          {
+            "token": " all",
+            "prob": 0.015014969924691385
+          }
+        ]
+      },
+      {
+        "token": " deeply",
+        "prob": 0.6905955539317437,
+        "top": [
+          {
+            "token": " deeply",
+            "prob": 0.6905955539317437
+          },
+          {
+            "token": " very",
+            "prob": 0.12000751988906905
+          },
+          {
+            "token": " personal",
+            "prob": 0.12000751988906905
+          },
+          {
+            "token": " highly",
+            "prob": 0.018403749233730275
+          },
+          {
+            "token": " subjective",
+            "prob": 0.018403749233730275
+          }
+        ]
+      },
+      {
+        "token": " personal",
+        "prob": 0.9986437836174691,
+        "top": [
+          {
+            "token": " personal",
+            "prob": 0.9986437836174691
+          },
+          {
+            "token": " subjective",
+            "prob": 0.001324981106948708
+          },
+          {
+            "token": " expressive",
+            "prob": 0.00002749910556988218
+          },
+          {
+            "token": " individual",
+            "prob": 0.0000017579590041800272
+          },
+          {
+            "token": " emotional",
+            "prob": 0.0000015513933760595737
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.6245569931409477,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.6245569931409477
+          },
+          {
+            "token": " form",
+            "prob": 0.22976168446383985
+          },
+          {
+            "token": " expression",
+            "prob": 0.10853173484215278
+          },
+          {
+            "token": " art",
+            "prob": 0.035235095503187076
+          },
+          {
+            "token": " way",
+            "prob": 0.0015481220523379518
+          }
+        ]
+      },
+      {
+        "token": " expressive",
+        "prob": 0.6573348573977462,
+        "top": [
+          {
+            "token": " expressive",
+            "prob": 0.6573348573977462
+          },
+          {
+            "token": " subjective",
+            "prob": 0.3105029913317695
+          },
+          {
+            "token": " creative",
+            "prob": 0.017517377987078968
+          },
+          {
+            "token": " emotional",
+            "prob": 0.01062482682693857
+          },
+          {
+            "token": " meaningful",
+            "prob": 0.0023707193114441364
+          }
+        ]
+      },
+      {
+        "token": " art",
+        "prob": 0.7512398586605282,
+        "top": [
+          {
+            "token": " art",
+            "prob": 0.7512398586605282
+          },
+          {
+            "token": " form",
+            "prob": 0.2438918736920784
+          },
+          {
+            "token": " medium",
+            "prob": 0.004467035486440877
+          },
+          {
+            "token": " way",
+            "prob": 0.0002855681607521076
+          },
+          {
+            "token": " craft",
+            "prob": 0.00008181664788602069
+          }
+        ]
+      },
+      {
+        "token": " form",
+        "prob": 0.9795429624955563,
+        "top": [
+          {
+            "token": " form",
+            "prob": 0.9795429624955563
+          },
+          {
+            "token": ",",
+            "prob": 0.020329764772360523
+          },
+          {
+            "token": "form",
+            "prob": 0.00009414551097868488
+          },
+          {
+            "token": " that",
+            "prob": 0.000023803712942682005
+          },
+          {
+            "token": ".",
+            "prob": 0.000005311326281027887
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9978824372140823,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9978824372140823
+          },
+          {
+            "token": ".",
+            "prob": 0.001500255251018133
+          },
+          {
+            "token": " that",
+            "prob": 0.0004870615689103572
+          },
+          {
+            "token": " and",
+            "prob": 0.00010867812587311349
+          },
+          {
+            "token": ";",
+            "prob": 0.000013816873186558303
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9960693316889181,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9960693316889181
+          },
+          {
+            "token": " so",
+            "prob": 0.003824076808501109
+          },
+          {
+            "token": " often",
+            "prob": 0.00003748991198444401
+          },
+          {
+            "token": " but",
+            "prob": 0.000013367439782178415
+          },
+          {
+            "token": " allowing",
+            "prob": 0.000010090272924791577
+          }
+        ]
+      },
+      {
+        "token": " your",
+        "prob": 0.557519144037523,
+        "top": [
+          {
+            "token": " your",
+            "prob": 0.557519144037523
+          },
+          {
+            "token": " the",
+            "prob": 0.2050998311509048
+          },
+          {
+            "token": " what",
+            "prob": 0.0968822886592476
+          },
+          {
+            "token": " sharing",
+            "prob": 0.04576395271562869
+          },
+          {
+            "token": " it's",
+            "prob": 0.024495678705242937
+          }
+        ]
+      },
+      {
+        "token": " poem",
+        "prob": 0.9509638003065273,
+        "top": [
+          {
+            "token": " poem",
+            "prob": 0.9509638003065273
+          },
+          {
+            "token": " words",
+            "prob": 0.01741751202831347
+          },
+          {
+            "token": " piece",
+            "prob": 0.005654638255235702
+          },
+          {
+            "token": " work",
+            "prob": 0.005654638255235702
+          },
+          {
+            "token": " love",
+            "prob": 0.004403836701163087
+          }
+        ]
+      },
+      {
+        "token": " captures",
+        "prob": 0.4986641393182674,
+        "top": [
+          {
+            "token": " captures",
+            "prob": 0.4986641393182674
+          },
+          {
+            "token": " clearly",
+            "prob": 0.1834482849046425
+          },
+          {
+            "token": " beautifully",
+            "prob": 0.14286966793684175
+          },
+          {
+            "token": " conveys",
+            "prob": 0.06748685253457941
+          },
+          {
+            "token": " certainly",
+            "prob": 0.04638299020636377
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.734994587511498,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.734994587511498
+          },
+          {
+            "token": " the",
+            "prob": 0.1447290241194265
+          },
+          {
+            "token": " genuine",
+            "prob": 0.06836515020486467
+          },
+          {
+            "token": " your",
+            "prob": 0.02515013325296733
+          },
+          {
+            "token": " sincere",
+            "prob": 0.010484132843403222
+          }
+        ]
+      },
+      {
+        "token": " simple",
+        "prob": 0.39164846069791726,
+        "top": [
+          {
+            "token": " simple",
+            "prob": 0.39164846069791726
+          },
+          {
+            "token": " sincere",
+            "prob": 0.14407942544500812
+          },
+          {
+            "token": " genuine",
+            "prob": 0.1271496466813878
+          },
+          {
+            "token": " sweet",
+            "prob": 0.1271496466813878
+          },
+          {
+            "token": " loving",
+            "prob": 0.07712015908389039
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.5871462671583444,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.5871462671583444
+          },
+          {
+            "token": " yet",
+            "prob": 0.2159990406481101
+          },
+          {
+            "token": ",",
+            "prob": 0.14845382486658149
+          },
+          {
+            "token": " but",
+            "prob": 0.048195906277119414
+          },
+          {
+            "token": " sincerity",
+            "prob": 0.000041286243793451414
+          }
+        ]
+      },
+      {
+        "token": " sincere",
+        "prob": 0.3622837792747169,
+        "top": [
+          {
+            "token": " sincere",
+            "prob": 0.3622837792747169
+          },
+          {
+            "token": " loving",
+            "prob": 0.19391653322384353
+          },
+          {
+            "token": " sweet",
+            "prob": 0.1711307399299847
+          },
+          {
+            "token": " genuine",
+            "prob": 0.13327675426506103
+          },
+          {
+            "token": " touching",
+            "prob": 0.033697640678546546
+          }
+        ]
+      },
+      {
+        "token": " sentiment",
+        "prob": 0.7822763204330081,
+        "top": [
+          {
+            "token": " sentiment",
+            "prob": 0.7822763204330081
+          },
+          {
+            "token": " message",
+            "prob": 0.08245131388088653
+          },
+          {
+            "token": " emotion",
+            "prob": 0.05666790405256258
+          },
+          {
+            "token": " expression",
+            "prob": 0.050009249802347513
+          },
+          {
+            "token": " affection",
+            "prob": 0.016235626339072187
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.4495608711676359,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.4495608711676359
+          },
+          {
+            "token": " of",
+            "prob": 0.39673607632867103
+          },
+          {
+            "token": " that",
+            "prob": 0.12880134607017363
+          },
+          {
+            "token": ",",
+            "prob": 0.010572655794208642
+          },
+          {
+            "token": " which",
+            "prob": 0.006412639893775963
+          }
+        ]
+      },
+      {
+        "token": " While",
+        "prob": 0.8245539195174879,
+        "top": [
+          {
+            "token": " While",
+            "prob": 0.8245539195174879
+          },
+          {
+            "token": " However",
+            "prob": 0.12644942956824315
+          },
+          {
+            "token": " Whether",
+            "prob": 0.008083643510396563
+          },
+          {
+            "token": " Winning",
+            "prob": 0.008083643510396563
+          },
+          {
+            "token": " When",
+            "prob": 0.006295547895966923
+          }
+        ]
+      },
+      {
+        "token": " it",
+        "prob": 0.4007933254421238,
+        "top": [
+          {
+            "token": " it",
+            "prob": 0.4007933254421238
+          },
+          {
+            "token": " it's",
+            "prob": 0.21452920791702773
+          },
+          {
+            "token": " your",
+            "prob": 0.16707551511746943
+          },
+          {
+            "token": " the",
+            "prob": 0.1013364103257846
+          },
+          {
+            "token": " this",
+            "prob": 0.02903336765492979
+          }
+        ]
+      },
+      {
+        "token": " may",
+        "prob": 0.581464479406738,
+        "top": [
+          {
+            "token": " may",
+            "prob": 0.581464479406738
+          },
+          {
+            "token": " might",
+            "prob": 0.39963430269402506
+          },
+          {
+            "token": " follows",
+            "prob": 0.005030653747118632
+          },
+          {
+            "token": " has",
+            "prob": 0.0030512457360256954
+          },
+          {
+            "token": "’s",
+            "prob": 0.002097088481327129
+          }
+        ]
+      },
+      {
+        "token": " not",
+        "prob": 0.9726869868882212,
+        "top": [
+          {
+            "token": " not",
+            "prob": 0.9726869868882212
+          },
+          {
+            "token": " be",
+            "prob": 0.022875403395081442
+          },
+          {
+            "token": " resonate",
+            "prob": 0.002411050354220554
+          },
+          {
+            "token": " have",
+            "prob": 0.0005726746550148605
+          },
+          {
+            "token": " follow",
+            "prob": 0.00032630018258617406
+          }
+        ]
+      },
+      {
+        "token": " be",
+        "prob": 0.27557246147875947,
+        "top": [
+          {
+            "token": " be",
+            "prob": 0.27557246147875947
+          },
+          {
+            "token": " meet",
+            "prob": 0.21461604879257246
+          },
+          {
+            "token": " fit",
+            "prob": 0.18939799830438958
+          },
+          {
+            "token": " align",
+            "prob": 0.1475033093916152
+          },
+          {
+            "token": " have",
+            "prob": 0.05426343502992576
+          }
+        ]
+      },
+      {
+        "token": " complex",
+        "prob": 0.4453945339475763,
+        "top": [
+          {
+            "token": " complex",
+            "prob": 0.4453945339475763
+          },
+          {
+            "token": " the",
+            "prob": 0.27014545660954786
+          },
+          {
+            "token": " as",
+            "prob": 0.06830346805764675
+          },
+          {
+            "token": " considered",
+            "prob": 0.06027759899665911
+          },
+          {
+            "token": " structured",
+            "prob": 0.028473121645557112
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.9194300172335059,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.9194300172335059
+          },
+          {
+            "token": " enough",
+            "prob": 0.06660329003579182
+          },
+          {
+            "token": " in",
+            "prob": 0.013114962288207526
+          },
+          {
+            "token": ",",
+            "prob": 0.0004487693312309234
+          },
+          {
+            "token": " like",
+            "prob": 0.00030843435000520826
+          }
+        ]
+      },
+      {
+        "token": " groundbreaking",
+        "prob": 0.3688430253695621,
+        "top": [
+          {
+            "token": " groundbreaking",
+            "prob": 0.3688430253695621
+          },
+          {
+            "token": " innovative",
+            "prob": 0.25350187200321517
+          },
+          {
+            "token": " stylist",
+            "prob": 0.15375665766449767
+          },
+          {
+            "token": " avant",
+            "prob": 0.038875771176180365
+          },
+          {
+            "token": " elaborate",
+            "prob": 0.038875771176180365
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.4638695359029569,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.4638695359029569
+          },
+          {
+            "token": " enough",
+            "prob": 0.4638695359029569
+          },
+          {
+            "token": " compared",
+            "prob": 0.033602594473530416
+          },
+          {
+            "token": ",",
+            "prob": 0.020381003794086493
+          },
+          {
+            "token": " like",
+            "prob": 0.010909167806421673
+          }
+        ]
+      },
+      {
+        "token": " terms",
+        "prob": 0.7363088290973967,
+        "top": [
+          {
+            "token": " terms",
+            "prob": 0.7363088290973967
+          },
+          {
+            "token": " the",
+            "prob": 0.08793955164089769
+          },
+          {
+            "token": " its",
+            "prob": 0.08793955164089769
+          },
+          {
+            "token": " literary",
+            "prob": 0.0366586591066471
+          },
+          {
+            "token": " style",
+            "prob": 0.019621966241014616
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999998063873693,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999998063873693
+          },
+          {
+            "token": " or",
+            "prob": 6.82560337633487e-8
+          },
+          {
+            "token": " style",
+            "prob": 1.522997974471263e-8
+          },
+          {
+            "token": " and",
+            "prob": 9.237449661970594e-9
+          },
+          {
+            "token": " structure",
+            "prob": 8.152020714470167e-9
+          }
+        ]
+      },
+      {
+        "token": " literary",
+        "prob": 0.7311861538969787,
+        "top": [
+          {
+            "token": " literary",
+            "prob": 0.7311861538969787
+          },
+          {
+            "token": " poetic",
+            "prob": 0.16314967875510794
+          },
+          {
+            "token": " structure",
+            "prob": 0.041250698832115726
+          },
+          {
+            "token": " language",
+            "prob": 0.03212607655269441
+          },
+          {
+            "token": " style",
+            "prob": 0.01339214434903821
+          }
+        ]
+      },
+      {
+        "token": " techniques",
+        "prob": 0.33942261198228113,
+        "top": [
+          {
+            "token": " techniques",
+            "prob": 0.33942261198228113
+          },
+          {
+            "token": " technique",
+            "prob": 0.33942261198228113
+          },
+          {
+            "token": " devices",
+            "prob": 0.16033188914442117
+          },
+          {
+            "token": " style",
+            "prob": 0.12486661570225253
+          },
+          {
+            "token": " innovation",
+            "prob": 0.016898858802861617
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.7935136799367342,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.7935136799367342
+          },
+          {
+            "token": " or",
+            "prob": 0.156252108013787
+          },
+          {
+            "token": " often",
+            "prob": 0.021146420773513717
+          },
+          {
+            "token": " typically",
+            "prob": 0.014533708282438674
+          },
+          {
+            "token": " compared",
+            "prob": 0.0041639771390853545
+          }
+        ]
+      },
+      {
+        "token": " its",
+        "prob": 0.43445255705405506,
+        "top": [
+          {
+            "token": " its",
+            "prob": 0.43445255705405506
+          },
+          {
+            "token": " the",
+            "prob": 0.3383520118084231
+          },
+          {
+            "token": " what",
+            "prob": 0.10984681546926606
+          },
+          {
+            "token": " it",
+            "prob": 0.051887961552795576
+          },
+          {
+            "token": " it's",
+            "prob": 0.04579096535177067
+          }
+        ]
+      },
+      {
+        "token": " value",
+        "prob": 0.4335547347236981,
+        "top": [
+          {
+            "token": " value",
+            "prob": 0.4335547347236981
+          },
+          {
+            "token": " emotional",
+            "prob": 0.18073250235810073
+          },
+          {
+            "token": " strength",
+            "prob": 0.15949587352738698
+          },
+          {
+            "token": " genuine",
+            "prob": 0.09673913739200878
+          },
+          {
+            "token": " charm",
+            "prob": 0.05178072887414148
+          }
+        ]
+      },
+      {
+        "token": " lies",
+        "prob": 0.9682862454101979,
+        "top": [
+          {
+            "token": " lies",
+            "prob": 0.9682862454101979
+          },
+          {
+            "token": " comes",
+            "prob": 0.022771910089922225
+          },
+          {
+            "token": " is",
+            "prob": 0.0065242614744316805
+          },
+          {
+            "token": " truly",
+            "prob": 0.0011337466445138086
+          },
+          {
+            "token": " really",
+            "prob": 0.00022324795102834794
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.9999886013078416,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.9999886013078416
+          },
+          {
+            "token": " more",
+            "prob": 0.000005422186318281121
+          },
+          {
+            "token": " primarily",
+            "prob": 0.000003500826606415683
+          },
+          {
+            "token": " especially",
+            "prob": 8.31519203067026e-7
+          },
+          {
+            "token": " within",
+            "prob": 4.737853603415361e-7
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9620771246404121,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9620771246404121
+          },
+          {
+            "token": " its",
+            "prob": 0.03292046544202078
+          },
+          {
+            "token": " your",
+            "prob": 0.003931789841874143
+          },
+          {
+            "token": " expressing",
+            "prob": 0.00038929991321422854
+          },
+          {
+            "token": " conveying",
+            "prob": 0.00036571342382559873
+          }
+        ]
+      },
+      {
+        "token": " genuine",
+        "prob": 0.4448494476735254,
+        "top": [
+          {
+            "token": " genuine",
+            "prob": 0.4448494476735254
+          },
+          {
+            "token": " emotion",
+            "prob": 0.23811075083761502
+          },
+          {
+            "token": " love",
+            "prob": 0.18544083921005475
+          },
+          {
+            "token": " emotional",
+            "prob": 0.06821986416651621
+          },
+          {
+            "token": " emotions",
+            "prob": 0.022147747224510954
+          }
+        ]
+      },
+      {
+        "token": " emotion",
+        "prob": 0.8081442638187075,
+        "top": [
+          {
+            "token": " emotion",
+            "prob": 0.8081442638187075
+          },
+          {
+            "token": " love",
+            "prob": 0.08517778635609771
+          },
+          {
+            "token": " emotions",
+            "prob": 0.05166293895142569
+          },
+          {
+            "token": " affection",
+            "prob": 0.040235137311140506
+          },
+          {
+            "token": " feelings",
+            "prob": 0.006170258148351097
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.5683948391217378,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.5683948391217378
+          },
+          {
+            "token": " it",
+            "prob": 0.3447488762011288
+          },
+          {
+            "token": " behind",
+            "prob": 0.04117438159131667
+          },
+          {
+            "token": " you",
+            "prob": 0.024973524829841012
+          },
+          {
+            "token": " conveyed",
+            "prob": 0.01944940069353335
+          }
+        ]
+      },
+      {
+        "token": " love",
+        "prob": 0.7717483822021283,
+        "top": [
+          {
+            "token": " love",
+            "prob": 0.7717483822021283
+          },
+          {
+            "token": " affection",
+            "prob": 0.11835145814667902
+          },
+          {
+            "token": " connection",
+            "prob": 0.0384230929027778
+          },
+          {
+            "token": " appreciation",
+            "prob": 0.026407779810068678
+          },
+          {
+            "token": " the",
+            "prob": 0.020566399595258723
+          }
+        ]
+      },
+      {
+        "token": " it",
+        "prob": 0.739938943726411,
+        "top": [
+          {
+            "token": " it",
+            "prob": 0.739938943726411
+          },
+          {
+            "token": " you",
+            "prob": 0.1285821196600323
+          },
+          {
+            "token": " conveyed",
+            "prob": 0.10013985548021423
+          },
+          {
+            "token": " behind",
+            "prob": 0.019718706697314875
+          },
+          {
+            "token": " that",
+            "prob": 0.00640172678239889
+          }
+        ]
+      },
+      {
+        "token": " conveys",
+        "prob": 0.9851675017779229,
+        "top": [
+          {
+            "token": " conveys",
+            "prob": 0.9851675017779229
+          },
+          {
+            "token": " communicates",
+            "prob": 0.008523368949402393
+          },
+          {
+            "token": " expresses",
+            "prob": 0.00516968459185521
+          },
+          {
+            "token": " reflects",
+            "prob": 0.0004808555716916496
+          },
+          {
+            "token": " represents",
+            "prob": 0.00042435355260842563
+          }
+        ]
+      },
+      {
+        "token": ".\n\n",
+        "prob": 0.6920633063518857,
+        "top": [
+          {
+            "token": ".\n\n",
+            "prob": 0.6920633063518857
+          },
+          {
+            "token": ".",
+            "prob": 0.28849489903341524
+          },
+          {
+            "token": ",",
+            "prob": 0.01436331697419736
+          },
+          {
+            "token": " to",
+            "prob": 0.003631615258171515
+          },
+          {
+            "token": " for",
+            "prob": 0.0010404751918167967
+          }
+        ]
+      },
+      {
+        "token": "National",
+        "prob": 0.5510647738900372,
+        "top": [
+          {
+            "token": "National",
+            "prob": 0.5510647738900372
+          },
+          {
+            "token": "Winning",
+            "prob": 0.29496371807887567
+          },
+          {
+            "token": "When",
+            "prob": 0.05125700846537158
+          },
+          {
+            "token": "Po",
+            "prob": 0.027435899572784767
+          },
+          {
+            "token": "In",
+            "prob": 0.018856399630360784
+          }
+        ]
+      },
+      {
+        "token": " poetry",
+        "prob": 0.9999868132750614,
+        "top": [
+          {
+            "token": " poetry",
+            "prob": 0.9999868132750614
+          },
+          {
+            "token": " prizes",
+            "prob": 0.000005422175976291322
+          },
+          {
+            "token": " competitions",
+            "prob": 0.000002902281658751044
+          },
+          {
+            "token": " literary",
+            "prob": 0.0000010676897547434608
+          },
+          {
+            "token": "-level",
+            "prob": 8.315176170715234e-7
+          }
+        ]
+      },
+      {
+        "token": " prizes",
+        "prob": 0.8617940949777749,
+        "top": [
+          {
+            "token": " prizes",
+            "prob": 0.8617940949777749
+          },
+          {
+            "token": " competitions",
+            "prob": 0.11663115314927619
+          },
+          {
+            "token": " contests",
+            "prob": 0.020267455411922528
+          },
+          {
+            "token": " awards",
+            "prob": 0.0011434115919056085
+          },
+          {
+            "token": " prize",
+            "prob": 0.00015474393164657173
+          }
+        ]
+      },
+      {
+        "token": " often",
+        "prob": 0.8030288099364866,
+        "top": [
+          {
+            "token": " often",
+            "prob": 0.8030288099364866
+          },
+          {
+            "token": " typically",
+            "prob": 0.17917995497489927
+          },
+          {
+            "token": " tend",
+            "prob": 0.010108641336144461
+          },
+          {
+            "token": " usually",
+            "prob": 0.0047749840608498845
+          },
+          {
+            "token": " generally",
+            "prob": 0.0015502103569517071
+          }
+        ]
+      },
+      {
+        "token": " look",
+        "prob": 0.5080913107902743,
+        "top": [
+          {
+            "token": " look",
+            "prob": 0.5080913107902743
+          },
+          {
+            "token": " seek",
+            "prob": 0.18691634747759173
+          },
+          {
+            "token": " consider",
+            "prob": 0.14557059778439524
+          },
+          {
+            "token": " recognize",
+            "prob": 0.08829304123428175
+          },
+          {
+            "token": " focus",
+            "prob": 0.04170667951885794
+          }
+        ]
+      },
+      {
+        "token": " for",
+        "prob": 0.9999782307609466,
+        "top": [
+          {
+            "token": " for",
+            "prob": 0.9999782307609466
+          },
+          {
+            "token": " at",
+            "prob": 0.000021444937927240384
+          },
+          {
+            "token": " beyond",
+            "prob": 6.825460170979211e-8
+          },
+          {
+            "token": " to",
+            "prob": 6.023447459603676e-8
+          },
+          {
+            "token": " not",
+            "prob": 2.2159024853645447e-8
+          }
+        ]
+      },
+      {
+        "token": " originality",
+        "prob": 0.7080008795685425,
+        "top": [
+          {
+            "token": " originality",
+            "prob": 0.7080008795685425
+          },
+          {
+            "token": " poems",
+            "prob": 0.10857544817661346
+          },
+          {
+            "token": " works",
+            "prob": 0.05811624949310372
+          },
+          {
+            "token": " innovation",
+            "prob": 0.0352492871450762
+          },
+          {
+            "token": " innovative",
+            "prob": 0.021379773386503112
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9999481925438908,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9999481925438908
+          },
+          {
+            "token": " and",
+            "prob": 0.000042647090755643066
+          },
+          {
+            "token": " in",
+            "prob": 0.000008939315851249103
+          },
+          {
+            "token": " of",
+            "prob": 9.625147892778489e-8
+          },
+          {
+            "token": " or",
+            "prob": 2.90654281414753e-9
+          }
+        ]
+      },
+      {
+        "token": " depth",
+        "prob": 0.9583312930537615,
+        "top": [
+          {
+            "token": " depth",
+            "prob": 0.9583312930537615
+          },
+          {
+            "token": " complexity",
+            "prob": 0.013669864629112462
+          },
+          {
+            "token": " creativity",
+            "prob": 0.013669864629112462
+          },
+          {
+            "token": " technical",
+            "prob": 0.003916481788670163
+          },
+          {
+            "token": " innovation",
+            "prob": 0.0016326325084591415
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9940842694522614,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9940842694522614
+          },
+          {
+            "token": " of",
+            "prob": 0.005911041213884124
+          },
+          {
+            "token": " in",
+            "prob": 0.0000032693029477734876
+          },
+          {
+            "token": " and",
+            "prob": 0.0000013628482297497572
+          },
+          {
+            "token": " or",
+            "prob": 4.475338876042834e-9
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9410834638963272,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9410834638963272
+          },
+          {
+            "token": " innovation",
+            "prob": 0.011846494182531284
+          },
+          {
+            "token": " complexity",
+            "prob": 0.010454494422570286
+          },
+          {
+            "token": " innovative",
+            "prob": 0.008141968442913374
+          },
+          {
+            "token": " creativity",
+            "prob": 0.008141968442913374
+          }
+        ]
+      },
+      {
+        "token": " innovative",
+        "prob": 0.2819686170576542,
+        "top": [
+          {
+            "token": " innovative",
+            "prob": 0.2819686170576542
+          },
+          {
+            "token": " innovation",
+            "prob": 0.21959737976606217
+          },
+          {
+            "token": " unique",
+            "prob": 0.11754200719260964
+          },
+          {
+            "token": " creativity",
+            "prob": 0.06291570268090566
+          },
+          {
+            "token": " mastery",
+            "prob": 0.05552291273983257
+          }
+        ]
+      },
+      {
+        "token": " use",
+        "prob": 0.9807142749507023,
+        "top": [
+          {
+            "token": " use",
+            "prob": 0.9807142749507023
+          },
+          {
+            "token": " language",
+            "prob": 0.015851771322487652
+          },
+          {
+            "token": " uses",
+            "prob": 0.002145303961730881
+          },
+          {
+            "token": " expression",
+            "prob": 0.0010133698369844582
+          },
+          {
+            "token": " approaches",
+            "prob": 0.00009425807776860269
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999982567411922,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999982567411922
+          },
+          {
+            "token": " in",
+            "prob": 0.0000015534972048904392
+          },
+          {
+            "token": " or",
+            "prob": 6.825590357542018e-8
+          },
+          {
+            "token": " and",
+            "prob": 2.2159447507533765e-8
+          },
+          {
+            "token": " within",
+            "prob": 1.7257795071296986e-8
+          }
+        ]
+      },
+      {
+        "token": " language",
+        "prob": 0.9999984951481292,
+        "top": [
+          {
+            "token": " language",
+            "prob": 0.9999984951481292
+          },
+          {
+            "token": " form",
+            "prob": 8.315271330899149e-7
+          },
+          {
+            "token": " poetic",
+            "prob": 1.8553878237411744e-7
+          },
+          {
+            "token": " imagery",
+            "prob": 1.4449774900307763e-7
+          },
+          {
+            "token": " the",
+            "prob": 8.76423150298272e-8
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.574674182286065,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.574674182286065
+          },
+          {
+            "token": ".",
+            "prob": 0.30760094207786615
+          },
+          {
+            "token": " and",
+            "prob": 0.09986340480733205
+          },
+          {
+            "token": " or",
+            "prob": 0.007234079056117179
+          },
+          {
+            "token": " among",
+            "prob": 0.005633906433704507
+          }
+        ]
+      },
+      {
+        "token": " so",
+        "prob": 0.6445476790525297,
+        "top": [
+          {
+            "token": " so",
+            "prob": 0.6445476790525297
+          },
+          {
+            "token": " which",
+            "prob": 0.16296717464852908
+          },
+          {
+            "token": " but",
+            "prob": 0.11200557857868372
+          },
+          {
+            "token": " and",
+            "prob": 0.036362887443469195
+          },
+          {
+            "token": " among",
+            "prob": 0.03209013553789384
+          }
+        ]
+      },
+      {
+        "token": " your",
+        "prob": 0.20735175511621567,
+        "top": [
+          {
+            "token": " your",
+            "prob": 0.20735175511621567
+          },
+          {
+            "token": " they",
+            "prob": 0.16148570925573894
+          },
+          {
+            "token": " poems",
+            "prob": 0.16148570925573894
+          },
+          {
+            "token": " while",
+            "prob": 0.12576521181559136
+          },
+          {
+            "token": " the",
+            "prob": 0.08643708172573164
+          }
+        ]
+      },
+      {
+        "token": " poem",
+        "prob": 0.9988480623150504,
+        "top": [
+          {
+            "token": " poem",
+            "prob": 0.9988480623150504
+          },
+          {
+            "token": " short",
+            "prob": 0.00029570358948189187
+          },
+          {
+            "token": " chances",
+            "prob": 0.0001793532932078456
+          },
+          {
+            "token": " piece",
+            "prob": 0.00012326759553760598
+          },
+          {
+            "token": " four",
+            "prob": 0.00008472049683533847
+          }
+        ]
+      },
+      {
+        "token": " might",
+        "prob": 0.9045218721386867,
+        "top": [
+          {
+            "token": " might",
+            "prob": 0.9045218721386867
+          },
+          {
+            "token": " may",
+            "prob": 0.08413364681214242
+          },
+          {
+            "token": ",",
+            "prob": 0.007825646317882094
+          },
+          {
+            "token": "'s",
+            "prob": 0.0025406153857742064
+          },
+          {
+            "token": " is",
+            "prob": 0.00023631415507188388
+          }
+        ]
+      },
+      {
+        "token": " not",
+        "prob": 0.9907714791563897,
+        "top": [
+          {
+            "token": " not",
+            "prob": 0.9907714791563897
+          },
+          {
+            "token": " be",
+            "prob": 0.006675767200694055
+          },
+          {
+            "token": " face",
+            "prob": 0.0013145365027618795
+          },
+          {
+            "token": " differ",
+            "prob": 0.000903466844927619
+          },
+          {
+            "token": " need",
+            "prob": 0.0001385510619830567
+          }
+        ]
+      },
+      {
+        "token": " fit",
+        "prob": 0.4853760012710782,
+        "top": [
+          {
+            "token": " fit",
+            "prob": 0.4853760012710782
+          },
+          {
+            "token": " meet",
+            "prob": 0.2598030363237244
+          },
+          {
+            "token": " align",
+            "prob": 0.22927537483775992
+          },
+          {
+            "token": " be",
+            "prob": 0.016608656406996047
+          },
+          {
+            "token": " match",
+            "prob": 0.004199325972804794
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.889920285838659,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.889920285838659
+          },
+          {
+            "token": " those",
+            "prob": 0.06446560832539164
+          },
+          {
+            "token": " their",
+            "prob": 0.023715571965522157
+          },
+          {
+            "token": " typical",
+            "prob": 0.005996235630040999
+          },
+          {
+            "token": " that",
+            "prob": 0.005291659370678572
+          }
+        ]
+      },
+      {
+        "token": " typical",
+        "prob": 0.8032304992989848,
+        "top": [
+          {
+            "token": " typical",
+            "prob": 0.8032304992989848
+          },
+          {
+            "token": " criteria",
+            "prob": 0.17922494460336608
+          },
+          {
+            "token": " usual",
+            "prob": 0.014711682838673744
+          },
+          {
+            "token": " traditional",
+            "prob": 0.001991009763859125
+          },
+          {
+            "token": " conventional",
+            "prob": 0.00026945387031873603
+          }
+        ]
+      },
+      {
+        "token": " criteria",
+        "prob": 0.9988106011624648,
+        "top": [
+          {
+            "token": " criteria",
+            "prob": 0.9988106011624648
+          },
+          {
+            "token": " profile",
+            "prob": 0.0002032263479521538
+          },
+          {
+            "token": " requirements",
+            "prob": 0.00017934662259135498
+          },
+          {
+            "token": " mold",
+            "prob": 0.00015827283892587917
+          },
+          {
+            "token": " winning",
+            "prob": 0.00015827283892587917
+          }
+        ]
+      },
+      {
+        "token": " for",
+        "prob": 0.7100290905048866,
+        "top": [
+          {
+            "token": " for",
+            "prob": 0.7100290905048866
+          },
+          {
+            "token": " they",
+            "prob": 0.1398130218217802
+          },
+          {
+            "token": ".",
+            "prob": 0.05143433020483685
+          },
+          {
+            "token": " judges",
+            "prob": 0.04005709664028015
+          },
+          {
+            "token": " that",
+            "prob": 0.024295857251401834
+          }
+        ]
+      },
+      {
+        "token": " such",
+        "prob": 0.7268485540744173,
+        "top": [
+          {
+            "token": " such",
+            "prob": 0.7268485540744173
+          },
+          {
+            "token": " those",
+            "prob": 0.18377608366953158
+          },
+          {
+            "token": " winning",
+            "prob": 0.04100598698063382
+          },
+          {
+            "token": " these",
+            "prob": 0.03618765649783359
+          },
+          {
+            "token": " a",
+            "prob": 0.0029704644420406197
+          }
+        ]
+      },
+      {
+        "token": " competitions",
+        "prob": 0.5272142418375413,
+        "top": [
+          {
+            "token": " competitions",
+            "prob": 0.5272142418375413
+          },
+          {
+            "token": " awards",
+            "prob": 0.4105948643894742
+          },
+          {
+            "token": " contests",
+            "prob": 0.04327638547468128
+          },
+          {
+            "token": " accolades",
+            "prob": 0.008521625560601941
+          },
+          {
+            "token": " a",
+            "prob": 0.003552342042136527
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9993088914029741,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9993088914029741
+          },
+          {
+            "token": ",",
+            "prob": 0.0004304448221398776
+          },
+          {
+            "token": " in",
+            "prob": 0.00009604522209913328
+          },
+          {
+            "token": " if",
+            "prob": 0.00005140930278320577
+          },
+          {
+            "token": " due",
+            "prob": 0.000035333062633016214
+          }
+        ]
+      },
+      {
+        "token": " However",
+        "prob": 0.993254080461717,
+        "top": [
+          {
+            "token": " However",
+            "prob": 0.993254080461717
+          },
+          {
+            "token": " Nonetheless",
+            "prob": 0.0031613102429959806
+          },
+          {
+            "token": " That",
+            "prob": 0.0019174315872406576
+          },
+          {
+            "token": " Nevertheless",
+            "prob": 0.0009057305489816017
+          },
+          {
+            "token": " But",
+            "prob": 0.00037756466593299467
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 1,
+        "top": [
+          {
+            "token": ",",
+            "prob": 1
+          },
+          {
+            "token": "—and",
+            "prob": 7.194133030325383e-9
+          },
+          {
+            "token": "—",
+            "prob": 4.944450501938644e-9
+          },
+          {
+            "token": ";",
+            "prob": 3.398267819495071e-9
+          },
+          {
+            "token": " the",
+            "prob": 1.6052280551856116e-9
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.6363060058810052,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.6363060058810052
+          },
+          {
+            "token": " its",
+            "prob": 0.08611465096464695
+          },
+          {
+            "token": " that",
+            "prob": 0.06706615760518775
+          },
+          {
+            "token": " what",
+            "prob": 0.052231176060510476
+          },
+          {
+            "token": " poetry",
+            "prob": 0.04067768081666597
+          }
+        ]
+      },
+      {
+        "token": " most",
+        "prob": 0.47770357153669113,
+        "top": [
+          {
+            "token": " most",
+            "prob": 0.47770357153669113
+          },
+          {
+            "token": " beauty",
+            "prob": 0.1550876431652827
+          },
+          {
+            "token": " best",
+            "prob": 0.136864364722507
+          },
+          {
+            "token": " true",
+            "prob": 0.08301244332214644
+          },
+          {
+            "token": " importance",
+            "prob": 0.04443335899746381
+          }
+        ]
+      },
+      {
+        "token": " important",
+        "prob": 0.9987171363838069,
+        "top": [
+          {
+            "token": " important",
+            "prob": 0.9987171363838069
+          },
+          {
+            "token": " meaningful",
+            "prob": 0.000709263361435127
+          },
+          {
+            "token": " significant",
+            "prob": 0.0002609234090481332
+          },
+          {
+            "token": " crucial",
+            "prob": 0.0000959883579091749
+          },
+          {
+            "token": " critical",
+            "prob": 0.00004534168972882766
+          }
+        ]
+      },
+      {
+        "token": " thing",
+        "prob": 0.7013686312132987,
+        "top": [
+          {
+            "token": " thing",
+            "prob": 0.7013686312132987
+          },
+          {
+            "token": " aspect",
+            "prob": 0.2923739441467266
+          },
+          {
+            "token": " part",
+            "prob": 0.002529530551635217
+          },
+          {
+            "token": " audience",
+            "prob": 0.002232302876811182
+          },
+          {
+            "token": " measure",
+            "prob": 0.0007247226368478925
+          }
+        ]
+      },
+      {
+        "token": " is",
+        "prob": 0.9975685559605993,
+        "top": [
+          {
+            "token": " is",
+            "prob": 0.9975685559605993
+          },
+          {
+            "token": " about",
+            "prob": 0.0019257606360209014
+          },
+          {
+            "token": " in",
+            "prob": 0.00048690854082821623
+          },
+          {
+            "token": " here",
+            "prob": 0.000010105459551279162
+          },
+          {
+            "token": " when",
+            "prob": 0.0000028952626359181042
+          }
+        ]
+      },
+      {
+        "token": " that",
+        "prob": 0.5758134084901421,
+        "top": [
+          {
+            "token": " that",
+            "prob": 0.5758134084901421
+          },
+          {
+            "token": " the",
+            "prob": 0.3957503822393612
+          },
+          {
+            "token": " how",
+            "prob": 0.016334572002180844
+          },
+          {
+            "token": " its",
+            "prob": 0.009307158576173251
+          },
+          {
+            "token": " what",
+            "prob": 0.0012595869420344759
+          }
+        ]
+      },
+      {
+        "token": " it",
+        "prob": 0.8566261386073722,
+        "top": [
+          {
+            "token": " it",
+            "prob": 0.8566261386073722
+          },
+          {
+            "token": " your",
+            "prob": 0.11593174282383215
+          },
+          {
+            "token": " it's",
+            "prob": 0.01777870857702355
+          },
+          {
+            "token": " you've",
+            "prob": 0.006540421376065353
+          },
+          {
+            "token": " the",
+            "prob": 0.0014593652690796759
+          }
+        ]
+      },
+      {
+        "token": " expresses",
+        "prob": 0.257223720038158,
+        "top": [
+          {
+            "token": " expresses",
+            "prob": 0.257223720038158
+          },
+          {
+            "token": " resonates",
+            "prob": 0.22699913620496157
+          },
+          {
+            "token": " means",
+            "prob": 0.17678710503295655
+          },
+          {
+            "token": " holds",
+            "prob": 0.10722679944432575
+          },
+          {
+            "token": " communicates",
+            "prob": 0.06503634140584114
+          }
+        ]
+      },
+      {
+        "token": " your",
+        "prob": 0.9875214210297681,
+        "top": [
+          {
+            "token": " your",
+            "prob": 0.9875214210297681
+          },
+          {
+            "token": " how",
+            "prob": 0.009681319938328464
+          },
+          {
+            "token": " what",
+            "prob": 0.002160194468287417
+          },
+          {
+            "token": " something",
+            "prob": 0.00027463790700144963
+          },
+          {
+            "token": " a",
+            "prob": 0.00013809661214817545
+          }
+        ]
+      },
+      {
+        "token": " feelings",
+        "prob": 0.9299278334654106,
+        "top": [
+          {
+            "token": " feelings",
+            "prob": 0.9299278334654106
+          },
+          {
+            "token": " love",
+            "prob": 0.052462938772109384
+          },
+          {
+            "token": " appreciation",
+            "prob": 0.008045450317799286
+          },
+          {
+            "token": " affection",
+            "prob": 0.0071000849853561174
+          },
+          {
+            "token": " emotions",
+            "prob": 0.0008479842247470497
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.7002070437061699,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.7002070437061699
+          },
+          {
+            "token": " for",
+            "prob": 0.09476271293594773
+          },
+          {
+            "token": " in",
+            "prob": 0.044762736037939996
+          },
+          {
+            "token": " beautifully",
+            "prob": 0.03950297590469389
+          },
+          {
+            "token": " effectively",
+            "prob": 0.023959766036086245
+          }
+        ]
+      },
+      {
+        "token": " brings",
+        "prob": 0.18137391194390695,
+        "top": [
+          {
+            "token": " brings",
+            "prob": 0.18137391194390695
+          },
+          {
+            "token": " appreciation",
+            "prob": 0.18137391194390695
+          },
+          {
+            "token": " makes",
+            "prob": 0.16006191550014903
+          },
+          {
+            "token": " is",
+            "prob": 0.06672373336900288
+          },
+          {
+            "token": " creates",
+            "prob": 0.0357146408392127
+          }
+        ]
+      },
+      {
+        "token": " joy",
+        "prob": 0.9909348652825845,
+        "top": [
+          {
+            "token": " joy",
+            "prob": 0.9909348652825845
+          },
+          {
+            "token": " happiness",
+            "prob": 0.008573265023287044
+          },
+          {
+            "token": " your",
+            "prob": 0.00022846977409594844
+          },
+          {
+            "token": " you",
+            "prob": 0.00012229105765600834
+          },
+          {
+            "token": " a",
+            "prob": 0.00009524037146512963
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.9995055892174904,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.9995055892174904
+          },
+          {
+            "token": " and",
+            "prob": 0.00033529662942102654
+          },
+          {
+            "token": " or",
+            "prob": 0.0001397724301318455
+          },
+          {
+            "token": " both",
+            "prob": 0.000010125080878837775
+          },
+          {
+            "token": ",",
+            "prob": 0.000004492977404337639
+          }
+        ]
+      },
+      {
+        "token": " your",
+        "prob": 0.9737611061963241,
+        "top": [
+          {
+            "token": " your",
+            "prob": 0.9737611061963241
+          },
+          {
+            "token": " you",
+            "prob": 0.017835054692102264
+          },
+          {
+            "token": " both",
+            "prob": 0.004509408019506683
+          },
+          {
+            "token": " the",
+            "prob": 0.002735094220984828
+          },
+          {
+            "token": " its",
+            "prob": 0.0005385719848954326
+          }
+        ]
+      },
+      {
+        "token": " mom",
+        "prob": 0.9901378711581712,
+        "top": [
+          {
+            "token": " mom",
+            "prob": 0.9901378711581712
+          },
+          {
+            "token": " mother",
+            "prob": 0.009706970334665081
+          },
+          {
+            "token": " relationship",
+            "prob": 0.0001384624293773324
+          },
+          {
+            "token": " recipient",
+            "prob": 0.000005368771013561818
+          },
+          {
+            "token": " mother's",
+            "prob": 0.0000022380367279048124
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.6409671308647658,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.6409671308647658
+          },
+          {
+            "token": ",",
+            "prob": 0.343084971875664
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.004893844872888638
+          },
+          {
+            "token": "—and",
+            "prob": 0.0038113302192356513
+          },
+          {
+            "token": "—that",
+            "prob": 0.003363487113202529
+          }
+        ]
+      },
+      {
+        "token": " Keep",
+        "prob": 0.563160362878776,
+        "top": [
+          {
+            "token": " Keep",
+            "prob": 0.563160362878776
+          },
+          {
+            "token": " Poetry",
+            "prob": 0.12565806195838916
+          },
+          {
+            "token": " That's",
+            "prob": 0.046227017611938676
+          },
+          {
+            "token": " If",
+            "prob": 0.02803810348871669
+          },
+          {
+            "token": " Writing",
+            "prob": 0.021836096952849646
+          }
+        ]
+      },
+      {
+        "token": " writing",
+        "prob": 0.9978285447080173,
+        "top": [
+          {
+            "token": " writing",
+            "prob": 0.9978285447080173
+          },
+          {
+            "token": " exploring",
+            "prob": 0.0008029855006917557
+          },
+          {
+            "token": " experimenting",
+            "prob": 0.0005518833256500444
+          },
+          {
+            "token": " nurturing",
+            "prob": 0.00048703532547424985
+          },
+          {
+            "token": " honing",
+            "prob": 0.00010867232199000086
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9863277999564976,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9863277999564976
+          },
+          {
+            "token": ",",
+            "prob": 0.012416037580606396
+          },
+          {
+            "token": " from",
+            "prob": 0.0005455226190448352
+          },
+          {
+            "token": " poetry",
+            "prob": 0.0002919972163593594
+          },
+          {
+            "token": " more",
+            "prob": 0.0001562948471520794
+          }
+        ]
+      },
+      {
+        "token": " exploring",
+        "prob": 0.6727112199734273,
+        "top": [
+          {
+            "token": " exploring",
+            "prob": 0.6727112199734273
+          },
+          {
+            "token": " experimenting",
+            "prob": 0.3177662989093971
+          },
+          {
+            "token": " expressing",
+            "prob": 0.0058200927818340825
+          },
+          {
+            "token": " developing",
+            "prob": 0.001471549906505052
+          },
+          {
+            "token": " honing",
+            "prob": 0.0006134332660834162
+          }
+        ]
+      },
+      {
+        "token": " different",
+        "prob": 0.7336632973263393,
+        "top": [
+          {
+            "token": " different",
+            "prob": 0.7336632973263393
+          },
+          {
+            "token": " poetry",
+            "prob": 0.12749157194034402
+          },
+          {
+            "token": " your",
+            "prob": 0.08762359053080639
+          },
+          {
+            "token": " new",
+            "prob": 0.04139045339782724
+          },
+          {
+            "token": " more",
+            "prob": 0.003397534500167751
+          }
+        ]
+      },
+      {
+        "token": " styles",
+        "prob": 0.9180961934545786,
+        "top": [
+          {
+            "token": " styles",
+            "prob": 0.9180961934545786
+          },
+          {
+            "token": " poetic",
+            "prob": 0.031415526509758034
+          },
+          {
+            "token": " forms",
+            "prob": 0.021591554557730267
+          },
+          {
+            "token": " ways",
+            "prob": 0.019054480019183265
+          },
+          {
+            "token": " themes",
+            "prob": 0.00794308902472052
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.8795176955324386,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.8795176955324386
+          },
+          {
+            "token": ",",
+            "prob": 0.056225691033637316
+          },
+          {
+            "token": "—",
+            "prob": 0.018253804970951835
+          },
+          {
+            "token": " if",
+            "prob": 0.01421607760540999
+          },
+          {
+            "token": " of",
+            "prob": 0.008622486928535315
+          }
+        ]
+      },
+      {
+        "token": " themes",
+        "prob": 0.8445729342375402,
+        "top": [
+          {
+            "token": " themes",
+            "prob": 0.8445729342375402
+          },
+          {
+            "token": " forms",
+            "prob": 0.07855752710284601
+          },
+          {
+            "token": " ideas",
+            "prob": 0.028899699170405427
+          },
+          {
+            "token": " subjects",
+            "prob": 0.02550389500350939
+          },
+          {
+            "token": " techniques",
+            "prob": 0.012047184092003664
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.31331773319286726,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.31331773319286726
+          },
+          {
+            "token": "—",
+            "prob": 0.215339918878548
+          },
+          {
+            "token": "—you",
+            "prob": 0.19003681141313666
+          },
+          {
+            "token": " in",
+            "prob": 0.08976703350111769
+          },
+          {
+            "token": ";",
+            "prob": 0.08976703350111769
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.848618374961015,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.848618374961015
+          },
+          {
+            "token": " as",
+            "prob": 0.14746775930404318
+          },
+          {
+            "token": " if",
+            "prob": 0.003468110112129397
+          },
+          {
+            "token": " but",
+            "prob": 0.00015237812379529736
+          },
+          {
+            "token": " because",
+            "prob": 0.00015237812379529736
+          }
+        ]
+      },
+      {
+        "token": " you",
+        "prob": 0.31892950389761526,
+        "top": [
+          {
+            "token": " you",
+            "prob": 0.31892950389761526
+          },
+          {
+            "token": " who",
+            "prob": 0.2814542993324871
+          },
+          {
+            "token": " your",
+            "prob": 0.15065163032351855
+          },
+          {
+            "token": " you'll",
+            "prob": 0.11732762165348164
+          },
+          {
+            "token": " remember",
+            "prob": 0.04890942932654625
+          }
+        ]
+      },
+      {
+        "token": " might",
+        "prob": 0.5175152008782874,
+        "top": [
+          {
+            "token": " might",
+            "prob": 0.5175152008782874
+          },
+          {
+            "token": " may",
+            "prob": 0.45670556181553335
+          },
+          {
+            "token": " never",
+            "prob": 0.0156276077422336
+          },
+          {
+            "token": "’ll",
+            "prob": 0.007381959196787678
+          },
+          {
+            "token": " can",
+            "prob": 0.0014535939517284682
+          }
+        ]
+      },
+      {
+        "token": " find",
+        "prob": 0.4553068484102372,
+        "top": [
+          {
+            "token": " find",
+            "prob": 0.4553068484102372
+          },
+          {
+            "token": " discover",
+            "prob": 0.2150717264229195
+          },
+          {
+            "token": " create",
+            "prob": 0.16749802895468868
+          },
+          {
+            "token": " develop",
+            "prob": 0.10159269000245309
+          },
+          {
+            "token": " surprise",
+            "prob": 0.02910679301163309
+          }
+        ]
+      },
+      {
+        "token": " new",
+        "prob": 0.3592952409433656,
+        "top": [
+          {
+            "token": " new",
+            "prob": 0.3592952409433656
+          },
+          {
+            "token": " yourself",
+            "prob": 0.3592952409433656
+          },
+          {
+            "token": " your",
+            "prob": 0.1697190543806699
+          },
+          {
+            "token": " that",
+            "prob": 0.03341966331216942
+          },
+          {
+            "token": " other",
+            "prob": 0.02027005043610421
+          }
+        ]
+      },
+      {
+        "token": " ways",
+        "prob": 0.9917804057903649,
+        "top": [
+          {
+            "token": " ways",
+            "prob": 0.9917804057903649
+          },
+          {
+            "token": " avenues",
+            "prob": 0.0021695108005670392
+          },
+          {
+            "token": " creative",
+            "prob": 0.0013158748171216098
+          },
+          {
+            "token": " and",
+            "prob": 0.0010248043379982514
+          },
+          {
+            "token": " dimensions",
+            "prob": 0.0007981184209280108
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.9998573755147439,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.9998573755147439
+          },
+          {
+            "token": " of",
+            "prob": 0.00013982162551943333
+          },
+          {
+            "token": " your",
+            "prob": 0.0000014591696000426568
+          },
+          {
+            "token": " for",
+            "prob": 7.337165525166759e-7
+          },
+          {
+            "token": " that",
+            "prob": 3.2558474654123827e-7
+          }
+        ]
+      },
+      {
+        "token": " express",
+        "prob": 0.6370911003596571,
+        "top": [
+          {
+            "token": " express",
+            "prob": 0.6370911003596571
+          },
+          {
+            "token": " expand",
+            "prob": 0.18252965628997855
+          },
+          {
+            "token": " develop",
+            "prob": 0.11070983284668091
+          },
+          {
+            "token": " enhance",
+            "prob": 0.021800058647416246
+          },
+          {
+            "token": " craft",
+            "prob": 0.006245819885198543
+          }
+        ]
+      },
+      {
+        "token": " your",
+        "prob": 0.6503448668366885,
+        "top": [
+          {
+            "token": " your",
+            "prob": 0.6503448668366885
+          },
+          {
+            "token": " yourself",
+            "prob": 0.34810450170435253
+          },
+          {
+            "token": " those",
+            "prob": 0.000671999775154653
+          },
+          {
+            "token": " the",
+            "prob": 0.0003174303685950992
+          },
+          {
+            "token": " what",
+            "prob": 0.00019253125087680993
+          }
+        ]
+      },
+      {
+        "token": " thoughts",
+        "prob": 0.5118960273496572,
+        "top": [
+          {
+            "token": " thoughts",
+            "prob": 0.5118960273496572
+          },
+          {
+            "token": " creativity",
+            "prob": 0.31048063517266383
+          },
+          {
+            "token": " emotions",
+            "prob": 0.061137254702182314
+          },
+          {
+            "token": " unique",
+            "prob": 0.04761374183689551
+          },
+          {
+            "token": " ideas",
+            "prob": 0.037081619427533935
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9116326571540829,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9116326571540829
+          },
+          {
+            "token": " in",
+            "prob": 0.03534783648493445
+          },
+          {
+            "token": " that",
+            "prob": 0.018920333451981696
+          },
+          {
+            "token": " through",
+            "prob": 0.01012732229702128
+          },
+          {
+            "token": " creatively",
+            "prob": 0.00893733055859719
+          }
+        ]
+      },
+      {
+        "token": " emotions",
+        "prob": 0.8919919755232405,
+        "top": [
+          {
+            "token": " emotions",
+            "prob": 0.8919919755232405
+          },
+          {
+            "token": " feelings",
+            "prob": 0.03458628353160586
+          },
+          {
+            "token": " experiences",
+            "prob": 0.02693582469794428
+          },
+          {
+            "token": " creativity",
+            "prob": 0.02377078186449747
+          },
+          {
+            "token": " ideas",
+            "prob": 0.01122851960820329
+          }
+        ]
+      },
+      {
+        "token": " through",
+        "prob": 0.39232791822433577,
+        "top": [
+          {
+            "token": " through",
+            "prob": 0.39232791822433577
+          },
+          {
+            "token": " in",
+            "prob": 0.34622817263043876
+          },
+          {
+            "token": ".",
+            "prob": 0.12737022666509548
+          },
+          {
+            "token": " poet",
+            "prob": 0.04135105835481551
+          },
+          {
+            "token": "!",
+            "prob": 0.03220423662756168
+          }
+        ]
+      },
+      {
+        "token": " poetry",
+        "prob": 0.9996751960375044,
+        "top": [
+          {
+            "token": " poetry",
+            "prob": 0.9996751960375044
+          },
+          {
+            "token": " your",
+            "prob": 0.00029594847109240606
+          },
+          {
+            "token": " verse",
+            "prob": 0.00000893686945482633
+          },
+          {
+            "token": " poems",
+            "prob": 0.00000893686945482633
+          },
+          {
+            "token": " more",
+            "prob": 0.000007886759612687117
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.7719959697684712,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.7719959697684712
+          },
+          {
+            "token": "!",
+            "prob": 0.2211805484954013
+          },
+          {
+            "token": " in",
+            "prob": 0.004590456929013878
+          },
+          {
+            "token": " that",
+            "prob": 0.0011606492744909666
+          },
+          {
+            "token": " over",
+            "prob": 0.0006212507886735644
+          }
+        ]
+      }
+    ],
+    "provider": "Azure"
+  },
+  "savedAt": "2026-10-13T16:53:00.784Z"
+}

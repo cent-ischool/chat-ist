@@ -1,0 +1,1196 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-3-27b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the capital of Australia?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "The capital of Australia is **Canberra**.\n\nIt's located in the Australian Capital Territory (ACT). It's a planned city, specifically designed to be the capital as a compromise between the rivalry between Sydney and Melbourne.\n\n\n\n",
+    "tokens": [
+      {
+        "token": "The capital of",
+        "prob": null,
+        "top": []
+      },
+      {
+        "token": " Australia",
+        "prob": 1,
+        "top": [
+          {
+            "token": " Australia",
+            "prob": 1
+          },
+          {
+            "token": "Australia",
+            "prob": 1.3887943864964021e-11
+          },
+          {
+            "token": " ऑस्ट्रेलिया",
+            "prob": 3.266131342787447e-13
+          },
+          {
+            "token": " **",
+            "prob": 1.2015425731771786e-13
+          },
+          {
+            "token": " australia",
+            "prob": 9.357622968840175e-14
+          }
+        ]
+      },
+      {
+        "token": " is",
+        "prob": 1,
+        "top": [
+          {
+            "token": " is",
+            "prob": 1
+          },
+          {
+            "token": " **",
+            "prob": 1.0815941557285693e-11
+          },
+          {
+            "token": " isn",
+            "prob": 6.560200168153779e-12
+          },
+          {
+            "token": "is",
+            "prob": 1.8795288165390832e-12
+          },
+          {
+            "token": "",
+            "prob": 8.878265478459658e-13
+          }
+        ]
+      },
+      {
+        "token": " **",
+        "prob": 1,
+        "top": [
+          {
+            "token": " **",
+            "prob": 1
+          },
+          {
+            "token": " Canberra",
+            "prob": 8.423463754468647e-12
+          },
+          {
+            "token": "",
+            "prob": 1.626111044617819e-14
+          },
+          {
+            "token": "**",
+            "prob": 5.9821282237671354e-15
+          },
+          {
+            "token": " *",
+            "prob": 1.713908431542013e-15
+          }
+        ]
+      },
+      {
+        "token": "Can",
+        "prob": 1,
+        "top": [
+          {
+            "token": "Can",
+            "prob": 1
+          },
+          {
+            "token": " Canberra",
+            "prob": 2.646573638909117e-9
+          },
+          {
+            "token": "can",
+            "prob": 5.109089028063325e-12
+          },
+          {
+            "token": "CAN",
+            "prob": 1.039538011670222e-15
+          },
+          {
+            "token": "Cam",
+            "prob": 1.039538011670222e-15
+          }
+        ]
+      },
+      {
+        "token": "berra",
+        "prob": 1,
+        "top": [
+          {
+            "token": "berra",
+            "prob": 1
+          },
+          {
+            "token": "bera",
+            "prob": 9.357622968840175e-14
+          },
+          {
+            "token": "ber",
+            "prob": 9.862862046580451e-15
+          },
+          {
+            "token": " Canberra",
+            "prob": 2.8257572871156114e-15
+          },
+          {
+            "token": "barra",
+            "prob": 1.334793228597603e-15
+          }
+        ]
+      },
+      {
+        "token": "**.",
+        "prob": 0.9999982118638471,
+        "top": [
+          {
+            "token": "**.",
+            "prob": 0.9999982118638471
+          },
+          {
+            "token": "**",
+            "prob": 0.0000017603429545652396
+          },
+          {
+            "token": ".**",
+            "prob": 1.5229950695859287e-8
+          },
+          {
+            "token": "**,",
+            "prob": 5.905292735481272e-10
+          },
+          {
+            "token": "!",
+            "prob": 1.0815920927534024e-11
+          }
+        ]
+      },
+      {
+        "token": "\n\n",
+        "prob": 0.6224588661061308,
+        "top": [
+          {
+            "token": "\n\n",
+            "prob": 0.6224588661061308
+          },
+          {
+            "token": " ",
+            "prob": 0.3775403979549097
+          },
+          {
+            "token": " 😊",
+            "prob": 6.646015303231172e-7
+          },
+          {
+            "token": " 🎉",
+            "prob": 8.994412212312359e-8
+          },
+          {
+            "token": "\n",
+            "prob": 7.383063140704385e-9
+          }
+        ]
+      },
+      {
+        "token": "It",
+        "prob": 0.9975194624861137,
+        "top": [
+          {
+            "token": "It",
+            "prob": 0.9975194624861137
+          },
+          {
+            "token": "While",
+            "prob": 0.002472602981053334
+          },
+          {
+            "token": "Despite",
+            "prob": 0.000004773248928085284
+          },
+          {
+            "token": "However",
+            "prob": 0.0000028951218213241873
+          },
+          {
+            "token": "Many",
+            "prob": 3.918121316934069e-7
+          }
+        ]
+      },
+      {
+        "token": "'",
+        "prob": 1,
+        "top": [
+          {
+            "token": "'",
+            "prob": 1
+          },
+          {
+            "token": "’",
+            "prob": 1.186112015134383e-8
+          },
+          {
+            "token": " is",
+            "prob": 5.602796437537268e-9
+          },
+          {
+            "token": " often",
+            "prob": 3.398267819495071e-9
+          },
+          {
+            "token": " was",
+            "prob": 4.8473687062702556e-11
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 1,
+        "top": [
+          {
+            "token": "s",
+            "prob": 1
+          },
+          {
+            "token": "ς",
+            "prob": 1.0956650033262367e-16
+          },
+          {
+            "token": "t",
+            "prob": 3.1391327920480296e-17
+          },
+          {
+            "token": "d",
+            "prob": 2.770274965784119e-17
+          },
+          {
+            "token": "a",
+            "prob": 2.1574923126757813e-17
+          }
+        ]
+      },
+      {
+        "token": " located",
+        "prob": 0.5976877830563709,
+        "top": [
+          {
+            "token": " located",
+            "prob": 0.5976877830563709
+          },
+          {
+            "token": " often",
+            "prob": 0.21987703452008306
+          },
+          {
+            "token": " a",
+            "prob": 0.13336216280312346
+          },
+          {
+            "token": " important",
+            "prob": 0.04906119792542797
+          },
+          {
+            "token": " unique",
+            "prob": 0.0000036723213167504693
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.9999985694905718,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.9999985694905718
+          },
+          {
+            "token": " within",
+            "prob": 0.0000013709577789362383
+          },
+          {
+            "token": " between",
+            "prob": 3.581741098647678e-10
+          },
+          {
+            "token": " as",
+            "prob": 3.775127343788253e-11
+          },
+          {
+            "token": " inland",
+            "prob": 2.2897304783270907e-11
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 1,
+        "top": [
+          {
+            "token": " the",
+            "prob": 1
+          },
+          {
+            "token": " South",
+            "prob": 2.061153622438558e-9
+          },
+          {
+            "token": " southeastern",
+            "prob": 1.6052280551856116e-9
+          },
+          {
+            "token": " a",
+            "prob": 1.2501528663867426e-9
+          },
+          {
+            "token": " Southeastern",
+            "prob": 5.905303998944039e-10
+          }
+        ]
+      },
+      {
+        "token": " Australian",
+        "prob": 1,
+        "top": [
+          {
+            "token": " Australian",
+            "prob": 1
+          },
+          {
+            "token": "Australian",
+            "prob": 5.3157852544244216e-8
+          },
+          {
+            "token": " state",
+            "prob": 1.3176514270095466e-10
+          },
+          {
+            "token": " ACT",
+            "prob": 8.423463754468647e-12
+          },
+          {
+            "token": " Australia",
+            "prob": 2.413362771833214e-12
+          }
+        ]
+      },
+      {
+        "token": " Capital",
+        "prob": 1,
+        "top": [
+          {
+            "token": " Capital",
+            "prob": 1
+          },
+          {
+            "token": "Capital",
+            "prob": 2.413362771833214e-12
+          },
+          {
+            "token": " capital",
+            "prob": 1.9810087980489796e-13
+          },
+          {
+            "token": " Capt",
+            "prob": 1.626111044617819e-14
+          },
+          {
+            "token": " Federal",
+            "prob": 5.9821282237671354e-15
+          }
+        ]
+      },
+      {
+        "token": " Territory",
+        "prob": 1,
+        "top": [
+          {
+            "token": " Territory",
+            "prob": 1
+          },
+          {
+            "token": " Terr",
+            "prob": 2.289734845645553e-11
+          },
+          {
+            "token": " territory",
+            "prob": 5.109089028063325e-12
+          },
+          {
+            "token": "Terr",
+            "prob": 1.1399918530443554e-12
+          },
+          {
+            "token": " Territories",
+            "prob": 4.1937956583795446e-13
+          }
+        ]
+      },
+      {
+        "token": " (",
+        "prob": 0.999995112442896,
+        "top": [
+          {
+            "token": " (",
+            "prob": 0.999995112442896
+          },
+          {
+            "token": "!",
+            "prob": 0.00000478509457496562
+          },
+          {
+            "token": ".",
+            "prob": 6.825564320030807e-8
+          },
+          {
+            "token": ",",
+            "prob": 5.3157548373442334e-8
+          },
+          {
+            "token": " and",
+            "prob": 5.3157548373442334e-8
+          }
+        ]
+      },
+      {
+        "token": "ACT",
+        "prob": 1,
+        "top": [
+          {
+            "token": "ACT",
+            "prob": 1
+          },
+          {
+            "token": "a",
+            "prob": 6.560200168153779e-12
+          },
+          {
+            "token": " ACT",
+            "prob": 6.560200168153779e-12
+          },
+          {
+            "token": "also",
+            "prob": 3.266131342787447e-13
+          },
+          {
+            "token": "ATC",
+            "prob": 1.542811203191888e-13
+          }
+        ]
+      },
+      {
+        "token": ").",
+        "prob": 0.9903491637576671,
+        "top": [
+          {
+            "token": ").",
+            "prob": 0.9903491637576671
+          },
+          {
+            "token": ")",
+            "prob": 0.006672918796337572
+          },
+          {
+            "token": ")!",
+            "prob": 0.0014889294396842698
+          },
+          {
+            "token": "),",
+            "prob": 0.0014889294396842698
+          },
+          {
+            "token": "!).",
+            "prob": 1.5897374495007896e-9
+          }
+        ]
+      },
+      {
+        "token": " It",
+        "prob": 0.999443245158873,
+        "top": [
+          {
+            "token": " It",
+            "prob": 0.999443245158873
+          },
+          {
+            "token": " Interestingly",
+            "prob": 0.0003352758454192705
+          },
+          {
+            "token": " While",
+            "prob": 0.00020335507970786103
+          },
+          {
+            "token": " Many",
+            "prob": 0.000013000055311243096
+          },
+          {
+            "token": " ",
+            "prob": 0.0000010671095223339977
+          }
+        ]
+      },
+      {
+        "token": "'",
+        "prob": 0.8629190709378053,
+        "top": [
+          {
+            "token": "'",
+            "prob": 0.8629190709378053
+          },
+          {
+            "token": " was",
+            "prob": 0.11678338469418564
+          },
+          {
+            "token": " wasn",
+            "prob": 0.020293909287798995
+          },
+          {
+            "token": "’",
+            "prob": 0.000003215800524229981
+          },
+          {
+            "token": " isn",
+            "prob": 4.3521127477911203e-7
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 1,
+        "top": [
+          {
+            "token": "s",
+            "prob": 1
+          },
+          {
+            "token": "d",
+            "prob": 1.9039802832864523e-17
+          },
+          {
+            "token": "t",
+            "prob": 1.1548224173015786e-17
+          },
+          {
+            "token": "sa",
+            "prob": 1.1548224173015786e-17
+          },
+          {
+            "token": "ς",
+            "prob": 6.181318967705965e-18
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.9978668988280315,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.9978668988280315
+          },
+          {
+            "token": " unique",
+            "prob": 0.0015002323591143695
+          },
+          {
+            "token": " important",
+            "prob": 0.00033474708654904596
+          },
+          {
+            "token": " notable",
+            "prob": 0.00012314657113343149
+          },
+          {
+            "token": " often",
+            "prob": 0.00009590664603127489
+          }
+        ]
+      },
+      {
+        "token": " planned",
+        "prob": 0.9998730582261783,
+        "top": [
+          {
+            "token": " planned",
+            "prob": 0.9998730582261783
+          },
+          {
+            "token": " bit",
+            "prob": 0.0000748423363821811
+          },
+          {
+            "token": " unique",
+            "prob": 0.00004539417166031913
+          },
+          {
+            "token": " purposely",
+            "prob": 0.00000290195230549434
+          },
+          {
+            "token": " purpose",
+            "prob": 0.0000022600427279548603
+          }
+        ]
+      },
+      {
+        "token": " city",
+        "prob": 1,
+        "top": [
+          {
+            "token": " city",
+            "prob": 1
+          },
+          {
+            "token": ",",
+            "prob": 1.8795288165390832e-12
+          },
+          {
+            "token": " City",
+            "prob": 1.1399918530443554e-12
+          },
+          {
+            "token": "city",
+            "prob": 1.542811203191888e-13
+          },
+          {
+            "token": " and",
+            "prob": 2.6810038677818034e-14
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.970156099961466,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.970156099961466
+          },
+          {
+            "token": " specifically",
+            "prob": 0.029296177476225746
+          },
+          {
+            "token": " chosen",
+            "prob": 0.0005365782074748186
+          },
+          {
+            "token": " and",
+            "prob": 0.000007653877061892345
+          },
+          {
+            "token": " intentionally",
+            "prob": 0.0000013300443997299395
+          }
+        ]
+      },
+      {
+        "token": " specifically",
+        "prob": 0.6210529944737808,
+        "top": [
+          {
+            "token": " specifically",
+            "prob": 0.6210529944737808
+          },
+          {
+            "token": " chosen",
+            "prob": 0.37668768245468875
+          },
+          {
+            "token": " deliberately",
+            "prob": 0.0007271782946606837
+          },
+          {
+            "token": " and",
+            "prob": 0.0007271782946606837
+          },
+          {
+            "token": " intentionally",
+            "prob": 0.0005663270253142693
+          }
+        ]
+      },
+      {
+        "token": " designed",
+        "prob": 0.9955959822838674,
+        "top": [
+          {
+            "token": " designed",
+            "prob": 0.9955959822838674
+          },
+          {
+            "token": " chosen",
+            "prob": 0.004068773791153709
+          },
+          {
+            "token": " created",
+            "prob": 0.0003339852910478077
+          },
+          {
+            "token": " established",
+            "prob": 8.278667671593005e-7
+          },
+          {
+            "token": " designated",
+            "prob": 1.8472204433781758e-7
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.9996646575567589,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.9996646575567589
+          },
+          {
+            "token": " as",
+            "prob": 0.00033535003422553863
+          },
+          {
+            "token": " and",
+            "prob": 2.0604618229775925e-9
+          },
+          {
+            "token": " after",
+            "prob": 3.5805457630790927e-10
+          },
+          {
+            "token": " in",
+            "prob": 2.1717107838116364e-10
+          }
+        ]
+      },
+      {
+        "token": " be",
+        "prob": 0.9992438316764722,
+        "top": [
+          {
+            "token": " be",
+            "prob": 0.9992438316764722
+          },
+          {
+            "token": " resolve",
+            "prob": 0.0005526662506216962
+          },
+          {
+            "token": " settle",
+            "prob": 0.00020331455143302588
+          },
+          {
+            "token": " serve",
+            "prob": 1.1244999338050274e-7
+          },
+          {
+            "token": " solve",
+            "prob": 7.985910532434723e-11
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9999772315450165,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9999772315450165
+          },
+          {
+            "token": " a",
+            "prob": 0.00002144491747576362
+          },
+          {
+            "token": " Australia",
+            "prob": 8.315096871393859e-7
+          },
+          {
+            "token": " neutral",
+            "prob": 5.043361190980971e-7
+          },
+          {
+            "token": " capital",
+            "prob": 4.363362382361484e-9
+          }
+        ]
+      },
+      {
+        "token": " capital",
+        "prob": 0.9979980808987693,
+        "top": [
+          {
+            "token": " capital",
+            "prob": 0.9979980808987693
+          },
+          {
+            "token": " nation",
+            "prob": 0.0019265890975263364
+          },
+          {
+            "token": " national",
+            "prob": 0.00007470200169449763
+          },
+          {
+            "token": " neutral",
+            "prob": 5.033381281431177e-7
+          },
+          {
+            "token": " compromise",
+            "prob": 6.811934317233628e-8
+          }
+        ]
+      },
+      {
+        "token": " as",
+        "prob": 0.9919261084110236,
+        "top": [
+          {
+            "token": " as",
+            "prob": 0.9919261084110236
+          },
+          {
+            "token": " after",
+            "prob": 0.006683545234255747
+          },
+          {
+            "token": ",",
+            "prob": 0.0007044404850146996
+          },
+          {
+            "token": " and",
+            "prob": 0.00042726475210425323
+          },
+          {
+            "token": "!",
+            "prob": 0.00009533569802239368
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.9999803308534772,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.9999803308534772
+          },
+          {
+            "token": " Sydney",
+            "prob": 0.000013007037157436464
+          },
+          {
+            "token": " both",
+            "prob": 0.0000037265785385442787
+          },
+          {
+            "token": " part",
+            "prob": 0.0000022602841394542027
+          },
+          {
+            "token": " neither",
+            "prob": 5.043375620173722e-7
+          }
+        ]
+      },
+      {
+        "token": " compromise",
+        "prob": 0.9999997615814777,
+        "top": [
+          {
+            "token": " compromise",
+            "prob": 0.9999997615814777
+          },
+          {
+            "token": " neutral",
+            "prob": 1.855391362615978e-7
+          },
+          {
+            "token": " result",
+            "prob": 7.194133030325383e-9
+          },
+          {
+            "token": "comprom",
+            "prob": 4.5990553786523166e-10
+          },
+          {
+            "token": " solution",
+            "prob": 4.5990553786523166e-10
+          }
+        ]
+      },
+      {
+        "token": " between",
+        "prob": 1,
+        "top": [
+          {
+            "token": " between",
+            "prob": 1
+          },
+          {
+            "token": " location",
+            "prob": 2.646573638909117e-9
+          },
+          {
+            "token": " after",
+            "prob": 1.6918979226151304e-10
+          },
+          {
+            "token": " между",
+            "prob": 1.026187963170189e-10
+          },
+          {
+            "token": " city",
+            "prob": 2.9400777392844726e-11
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.8174322211372806,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.8174322211372806
+          },
+          {
+            "token": " Sydney",
+            "prob": 0.18239377697708992
+          },
+          {
+            "token": " rival",
+            "prob": 0.0001663215363735536
+          },
+          {
+            "token": " competing",
+            "prob": 0.000003911507622814208
+          },
+          {
+            "token": " Australia",
+            "prob": 0.0000018476653718089488
+          }
+        ]
+      },
+      {
+        "token": " rivalry",
+        "prob": 0.6586692971525282,
+        "top": [
+          {
+            "token": " rivalry",
+            "prob": 0.6586692971525282
+          },
+          {
+            "token": " competing",
+            "prob": 0.18871192442683618
+          },
+          {
+            "token": " two",
+            "prob": 0.1469689945185318
+          },
+          {
+            "token": " claims",
+            "prob": 0.0020963996153620895
+          },
+          {
+            "token": " larger",
+            "prob": 0.0020963996153620895
+          }
+        ]
+      },
+      {
+        "token": " between",
+        "prob": 0.9820137577607906,
+        "top": [
+          {
+            "token": " between",
+            "prob": 0.9820137577607906
+          },
+          {
+            "token": " of",
+            "prob": 0.017986211314027313
+          },
+          {
+            "token": " claims",
+            "prob": 2.0240804676045707e-9
+          },
+          {
+            "token": " cities",
+            "prob": 2.7392950337696004e-10
+          },
+          {
+            "token": " for",
+            "prob": 3.707232692638554e-11
+          }
+        ]
+      },
+      {
+        "token": " Sydney",
+        "prob": 0.9999938011552557,
+        "top": [
+          {
+            "token": " Sydney",
+            "prob": 0.9999938011552557
+          },
+          {
+            "token": " the",
+            "prob": 0.000006144177195963701
+          },
+          {
+            "token": " Australia",
+            "prob": 4.139914029939297e-8
+          },
+          {
+            "token": " Melbourne",
+            "prob": 9.23739680501087e-9
+          },
+          {
+            "token": "Sydney",
+            "prob": 1.3176438873691742e-10
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9999982118638471,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9999982118638471
+          },
+          {
+            "token": " &",
+            "prob": 0.0000017603429545652396
+          },
+          {
+            "token": " (",
+            "prob": 9.237432042950414e-9
+          },
+          {
+            "token": ",",
+            "prob": 4.599046606658694e-10
+          },
+          {
+            "token": "and",
+            "prob": 3.1608754254165217e-10
+          }
+        ]
+      },
+      {
+        "token": " Melbourne",
+        "prob": 1,
+        "top": [
+          {
+            "token": " Melbourne",
+            "prob": 1
+          },
+          {
+            "token": "Melbourne",
+            "prob": 3.775134544279098e-11
+          },
+          {
+            "token": " Mel",
+            "prob": 9.862862046580451e-15
+          },
+          {
+            "token": " Victoria",
+            "prob": 3.8242466280971355e-16
+          },
+          {
+            "token": " the",
+            "prob": 8.533047625744066e-17
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.7772997506488211,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.7772997506488211
+          },
+          {
+            "token": "!",
+            "prob": 0.2227000938851565
+          },
+          {
+            "token": ",",
+            "prob": 8.747364145599655e-8
+          },
+          {
+            "token": " in",
+            "prob": 8.747364145599655e-8
+          },
+          {
+            "token": " –",
+            "prob": 4.355056167555718e-9
+          }
+        ]
+      },
+      {
+        "token": "\n\n\n\n",
+        "prob": 0.8251764813957498,
+        "top": [
+          {
+            "token": "\n\n\n\n",
+            "prob": 0.8251764813957498
+          },
+          {
+            "token": " ",
+            "prob": 0.08697296256179783
+          },
+          {
+            "token": "\n",
+            "prob": 0.08697296256179783
+          },
+          {
+            "token": "<end_of_turn>",
+            "prob": 0.0005860190723769871
+          },
+          {
+            "token": "\n\n",
+            "prob": 0.00027681594105529985
+          }
+        ]
+      },
+      {
+        "token": "<end_of_turn>",
+        "prob": 1,
+        "top": [
+          {
+            "token": "<end_of_turn>",
+            "prob": 1
+          },
+          {
+            "token": "While",
+            "prob": 2.061153622438558e-9
+          },
+          {
+            "token": "However",
+            "prob": 2.7346982915918745e-12
+          },
+          {
+            "token": " ",
+            "prob": 2.413362771833214e-12
+          },
+          {
+            "token": "Though",
+            "prob": 1.291780004785996e-12
+          }
+        ]
+      }
+    ],
+    "provider": "NextBit"
+  },
+  "savedAt": "2026-10-13T16:57:34.222Z"
+}

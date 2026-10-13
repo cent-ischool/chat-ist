@@ -1,0 +1,89 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "qwen/qwen3.7-flash",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My mom is a chef, my dad is a historian.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      },
+      {
+        "role": "assistant",
+        "content": "museum"
+      },
+      {
+        "role": "user",
+        "content": "My mom is a chef, my dad is a historian.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      },
+      {
+        "role": "assistant",
+        "content": "farmers' market."
+      },
+      {
+        "role": "user",
+        "content": "My mom is a chef, my dad is a historian.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "library.",
+    "tokens": [
+      {
+        "token": "library",
+        "prob": 0.2641083759062924,
+        "top": [
+          {
+            "token": "library",
+            "prob": 0.2641083759062924
+          },
+          {
+            "token": "k",
+            "prob": 0.14136702657143252
+          },
+          {
+            "token": "histor",
+            "prob": 0.0971600533194843
+          },
+          {
+            "token": "market",
+            "prob": 0.052006028934768425
+          },
+          {
+            "token": "history",
+            "prob": 0.052006028934768425
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.5696484541193296,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.5696484541193296
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 0.3455092732752357
+          },
+          {
+            "token": ",",
+            "prob": 0.019492299360944435
+          },
+          {
+            "token": " and",
+            "prob": 0.01518061438682482
+          },
+          {
+            "token": " (",
+            "prob": 0.011822674371964204
+          }
+        ]
+      }
+    ],
+    "provider": "Alibaba"
+  },
+  "savedAt": "2026-10-13T17:02:31.494Z"
+}

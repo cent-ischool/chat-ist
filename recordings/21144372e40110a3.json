@@ -1,0 +1,203 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the capital of Australia?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "The capital of Australia is Canberra.",
+    "tokens": [
+      {
+        "token": "The",
+        "prob": 0.9999036136757582,
+        "top": [
+          {
+            "token": "The",
+            "prob": 0.9999036136757582
+          },
+          {
+            "token": "Can",
+            "prob": 0.00009610239492660868
+          },
+          {
+            "token": "Australia",
+            "prob": 9.930228304396534e-8
+          },
+          {
+            "token": "Sydney",
+            "prob": 8.763395720587819e-8
+          },
+          {
+            "token": " The",
+            "prob": 1.9553778905788248e-8
+          }
+        ]
+      },
+      {
+        "token": " capital",
+        "prob": 1,
+        "top": [
+          {
+            "token": " capital",
+            "prob": 1
+          },
+          {
+            "token": " current",
+            "prob": 5.905303998944039e-10
+          },
+          {
+            "token": " Capital",
+            "prob": 3.581747930283181e-10
+          },
+          {
+            "token": " national",
+            "prob": 3.160881454313692e-10
+          },
+          {
+            "token": " official",
+            "prob": 2.7894680928689246e-10
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999784691634502,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999784691634502
+          },
+          {
+            "token": " city",
+            "prob": 0.000021444937927240384
+          },
+          {
+            "token": " and",
+            "prob": 4.0185254911499074e-11
+          },
+          {
+            "token": " ",
+            "prob": 2.4373589172191874e-11
+          },
+          {
+            "token": "of",
+            "prob": 1.898217033356375e-11
+          }
+        ]
+      },
+      {
+        "token": " Australia",
+        "prob": 1,
+        "top": [
+          {
+            "token": " Australia",
+            "prob": 1
+          },
+          {
+            "token": " Australia's",
+            "prob": 3.581747930283181e-10
+          },
+          {
+            "token": " the",
+            "prob": 1.026187963170189e-10
+          },
+          {
+            "token": " Australian",
+            "prob": 1.026187963170189e-10
+          },
+          {
+            "token": " ",
+            "prob": 5.4927883509546835e-11
+          }
+        ]
+      },
+      {
+        "token": " is",
+        "prob": 1,
+        "top": [
+          {
+            "token": " is",
+            "prob": 1
+          },
+          {
+            "token": ",",
+            "prob": 2.3125502732234879e-10
+          },
+          {
+            "token": " and",
+            "prob": 2.4374100555808313e-11
+          },
+          {
+            "token": "is",
+            "prob": 2.289734845645553e-11
+          },
+          {
+            "token": "<|end|>",
+            "prob": 1.0160636785541307e-11
+          }
+        ]
+      },
+      {
+        "token": " Canberra",
+        "prob": 1,
+        "top": [
+          {
+            "token": " Canberra",
+            "prob": 1
+          },
+          {
+            "token": " Can",
+            "prob": 2.4616969518153846e-10
+          },
+          {
+            "token": " **",
+            "prob": 2.172439935079017e-10
+          },
+          {
+            "token": " ",
+            "prob": 2.5946094982764667e-11
+          },
+          {
+            "token": " can",
+            "prob": 1.783247290814639e-11
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.999999448776502,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.999999448776502
+          },
+          {
+            "token": ".\n",
+            "prob": 3.4663241069161144e-7
+          },
+          {
+            "token": ",",
+            "prob": 1.6373755690670415e-7
+          },
+          {
+            "token": "<|end|>",
+            "prob": 4.944450501938644e-9
+          },
+          {
+            "token": ".\n\n",
+            "prob": 3.398267819495071e-9
+          }
+        ]
+      }
+    ],
+    "provider": "Azure"
+  },
+  "savedAt": "2026-10-13T16:58:12.144Z"
+}

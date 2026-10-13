@@ -1,0 +1,159 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My mom is a chef, my dad is a historian.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      },
+      {
+        "role": "assistant",
+        "content": "museum"
+      },
+      {
+        "role": "user",
+        "content": "My mom is a chef, my dad is a historian.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "farmers' market.",
+    "tokens": [
+      {
+        "token": "farm",
+        "prob": 0.7578638162525495,
+        "top": [
+          {
+            "token": "farm",
+            "prob": 0.7578638162525495
+          },
+          {
+            "token": "far",
+            "prob": 0.14923222918746595
+          },
+          {
+            "token": "market",
+            "prob": 0.04844861719062245
+          },
+          {
+            "token": "cul",
+            "prob": 0.013880757916925425
+          },
+          {
+            "token": "c",
+            "prob": 0.010810345135326124
+          }
+        ]
+      },
+      {
+        "token": "ers",
+        "prob": 0.999999448776502,
+        "top": [
+          {
+            "token": "ers",
+            "prob": 0.999999448776502
+          },
+          {
+            "token": "er's",
+            "prob": 3.9278597995802437e-7
+          },
+          {
+            "token": "ERS",
+            "prob": 9.931194312156244e-8
+          },
+          {
+            "token": " market",
+            "prob": 2.510999155743982e-8
+          },
+          {
+            "token": ".",
+            "prob": 8.592166619174109e-10
+          }
+        ]
+      },
+      {
+        "token": "'",
+        "prob": 0.9924082568124878,
+        "top": [
+          {
+            "token": "'",
+            "prob": 0.9924082568124878
+          },
+          {
+            "token": " market",
+            "prob": 0.006686793538370386
+          },
+          {
+            "token": "’",
+            "prob": 0.0009049590974601079
+          },
+          {
+            "token": " markets",
+            "prob": 4.906917671292748e-9
+          },
+          {
+            "token": " Market",
+            "prob": 4.330339646153466e-9
+          }
+        ]
+      },
+      {
+        "token": " market",
+        "prob": 0.999999448776502,
+        "top": [
+          {
+            "token": " market",
+            "prob": 0.999999448776502
+          },
+          {
+            "token": " markets",
+            "prob": 2.6995759288455584e-7
+          },
+          {
+            "token": " Market",
+            "prob": 9.931194312156244e-8
+          },
+          {
+            "token": "market",
+            "prob": 1.9555681087850496e-8
+          },
+          {
+            "token": "市场",
+            "prob": 1.186112015134383e-8
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.998297586904857,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.998297586904857
+          },
+          {
+            "token": "!",
+            "prob": 0.0017007197432001562
+          },
+          {
+            "token": "<|end|>",
+            "prob": 0.0000013686246657125691
+          },
+          {
+            "token": ".\n",
+            "prob": 1.1234366094086316e-7
+          },
+          {
+            "token": ".\n\n",
+            "prob": 6.813987478499413e-8
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T17:02:23.198Z"
+}

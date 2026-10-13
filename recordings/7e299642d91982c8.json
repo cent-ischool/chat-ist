@@ -1,0 +1,1545 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Now give me those talking points again, as a pirate of the high seas who keeps trying to sell me a timeshare on his private island."
+      },
+      {
+        "role": "assistant",
+        "content": "Ahoy, matey! Gather 'round and lend me yer ears, for I've got a treasure of an offer ye won't want to miss! Picture this: a slice of paradise on me very own private island, where the sun kisses the sea and the rum flows as freely as the tides. Let me spin ye a yarn about why this timeshare be the finest booty ye could ever claim!\n\n1. **A Bounty of Adventure Awaits**: Imagine waking up to the sound of waves gently lapping at the shore, ready to set sail on a new adventure each day. Whether ye fancy a bit of treasure hunting or exploring hidden coves, this island be yer gateway to endless escapades!\n\n2. **A Pirate's Paradise**: This be no ordinary island, me hearties! With white sandy beaches and lush jungles teeming with exotic creatures, it be a true pirate's paradise. Ye'll have a place to rest yer weary bones after a long day of swashbuckling and plundering.\n\n3. **Share the Spoils**: Why keep all the riches to yerself when ye can share the spoils with yer fellow buccaneers? With a timeshare, ye'll have the chance to invite yer crew to join in the merriment, making memories that be worth more than gold.\n\n4. **A Safe Harbor**: In these treacherous waters, every pirate needs a safe harbor. This island be a fortress of tranquility, where ye can escape the storms of the high seas and find peace in the gentle embrace of the ocean breeze.\n\n5. **A Treasure for Generations**: Invest in this timeshare, and ye'll be leaving a legacy for yer kin. They'll sing songs of yer wisdom and foresight, as they enjoy the island's bounty for years to come.\n\nSo, what say ye, me hearty? Are ye ready to stake yer claim on this island paradise and join the ranks of the most legendary pirates of the high seas? Sign the parchment, and let the adventure begin! Arrr!"
+      },
+      {
+        "role": "user",
+        "content": "What can you do?"
+      },
+      {
+        "role": "assistant",
+        "content": "Ahoy, matey! As a digital buccaneer of sorts, I be here to assist ye with a treasure trove of knowledge and skills. Here be a list of what I can do for ye:\n\n1. **Answer Questions**: Whether ye seek knowledge about history, science, or the latest happenings, I can provide answers to satisfy yer curiosity.\n\n2. **Provide Recommendations**: From books and movies to recipes and travel destinations, I can offer suggestions to suit yer tastes.\n\n3. **Assist with Writing**: Need help crafting a letter, story, or speech? I can help ye spin a yarn or polish yer prose.\n\n4. **Translate Languages**: I can help ye communicate in different tongues, breaking down language barriers like a true polyglot pirate.\n\n5. **Offer Educational Support**: If ye be in need of tutoring or explanations on various subjects, I can guide ye through the stormy seas of learning.\n\n6. **Generate Ideas**: Whether ye need inspiration for a project or creative solutions to a problem, I can help ye brainstorm like a seasoned navigator.\n\n7. **Engage in Conversation**: If ye seek a chat about any topic under the sun, I'm here to lend an ear and share me thoughts.\n\nSo, what be yer command, captain? How can I assist ye on this fine day? Arrr!"
+      },
+      {
+        "role": "user",
+        "content": "how many states in the union?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "As of now, there be 50 states in the Union, matey! The United States of America be comprised of these 50 states, each with its own unique character and charm. If ye have any more questions about them or anything else, feel free to ask! Arrr!",
+    "tokens": [
+      {
+        "token": "As",
+        "prob": 0.6971010620365785,
+        "top": [
+          {
+            "token": "As",
+            "prob": 0.6971010620365785
+          },
+          {
+            "token": "The",
+            "prob": 0.15554428088302363
+          },
+          {
+            "token": "There",
+            "prob": 0.12113800775397734
+          },
+          {
+            "token": "Arr",
+            "prob": 0.011267587228831137
+          },
+          {
+            "token": "In",
+            "prob": 0.006834137115272593
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999850252454783,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999850252454783
+          },
+          {
+            "token": " a",
+            "prob": 0.000006144118600803232
+          },
+          {
+            "token": " it",
+            "prob": 0.0000037265963082978466
+          },
+          {
+            "token": " the",
+            "prob": 0.0000022602949173545573
+          },
+          {
+            "token": " o",
+            "prob": 0.0000013709381673681717
+          }
+        ]
+      },
+      {
+        "token": " now",
+        "prob": 0.9666098480994163,
+        "top": [
+          {
+            "token": " now",
+            "prob": 0.9666098480994163
+          },
+          {
+            "token": " the",
+            "prob": 0.020061347155297844
+          },
+          {
+            "token": " October",
+            "prob": 0.0065129658524998545
+          },
+          {
+            "token": " ",
+            "prob": 0.002114450433834756
+          },
+          {
+            "token": " today",
+            "prob": 0.0016467356536361793
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9999912237620663,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9999912237620663
+          },
+          {
+            "token": " in",
+            "prob": 0.000005422201831302804
+          },
+          {
+            "token": " and",
+            "prob": 0.0000025612667873185223
+          },
+          {
+            "token": "—and",
+            "prob": 1.855375437732516e-7
+          },
+          {
+            "token": "—",
+            "prob": 1.855375437732516e-7
+          }
+        ]
+      },
+      {
+        "token": " there",
+        "prob": 0.8144567184521774,
+        "top": [
+          {
+            "token": " there",
+            "prob": 0.8144567184521774
+          },
+          {
+            "token": " the",
+            "prob": 0.18172984719025564
+          },
+          {
+            "token": " thar",
+            "prob": 0.0029373894015679086
+          },
+          {
+            "token": " mate",
+            "prob": 0.0007426883490135761
+          },
+          {
+            "token": " th",
+            "prob": 0.0001138950014484475
+          }
+        ]
+      },
+      {
+        "token": " be",
+        "prob": 0.9626715596583449,
+        "top": [
+          {
+            "token": " be",
+            "prob": 0.9626715596583449
+          },
+          {
+            "token": " are",
+            "prob": 0.037326825737347996
+          },
+          {
+            "token": " still",
+            "prob": 8.004890190995972e-7
+          },
+          {
+            "token": " bein",
+            "prob": 1.2275896698374804e-7
+          },
+          {
+            "token": " remain",
+            "prob": 1.0833451144343413e-7
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9992387827357623,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9992387827357623
+          },
+          {
+            "token": " fifty",
+            "prob": 0.0006262496221356116
+          },
+          {
+            "token": " a",
+            "prob": 0.00007479488691254048
+          },
+          {
+            "token": " **",
+            "prob": 0.0000582503164972237
+          },
+          {
+            "token": " *",
+            "prob": 0.0000015523183542080281
+          }
+        ]
+      },
+      {
+        "token": "50",
+        "prob": 1,
+        "top": [
+          {
+            "token": "50",
+            "prob": 1
+          },
+          {
+            "token": " fifty",
+            "prob": 2.335593038799337e-9
+          },
+          {
+            "token": " Fifty",
+            "prob": 4.058652126475693e-10
+          },
+          {
+            "token": "5",
+            "prob": 2.4616969518153846e-10
+          },
+          {
+            "token": " ",
+            "prob": 1.162823303022097e-10
+          }
+        ]
+      },
+      {
+        "token": " states",
+        "prob": 0.9978895597812782,
+        "top": [
+          {
+            "token": " states",
+            "prob": 0.9978895597812782
+          },
+          {
+            "token": " grand",
+            "prob": 0.0008030345125329644
+          },
+          {
+            "token": " mighty",
+            "prob": 0.0008030345125329644
+          },
+          {
+            "token": " fine",
+            "prob": 0.00023007334959247478
+          },
+          {
+            "token": " proud",
+            "prob": 0.00017918130482648045
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.9999386567913551,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.9999386567913551
+          },
+          {
+            "token": " that",
+            "prob": 0.00002144409943268609
+          },
+          {
+            "token": " makin",
+            "prob": 0.000013006503775850402
+          },
+          {
+            "token": " making",
+            "prob": 0.000007888843315721401
+          },
+          {
+            "token": " sail",
+            "prob": 0.000006961879791099327
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9999735819307618,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9999735819307618
+          },
+          {
+            "token": " these",
+            "prob": 0.00001892500105525618
+          },
+          {
+            "token": " this",
+            "prob": 0.000004222738516268515
+          },
+          {
+            "token": " our",
+            "prob": 0.0000012098348407972113
+          },
+          {
+            "token": " that",
+            "prob": 0.0000010676754996424661
+          }
+        ]
+      },
+      {
+        "token": " Union",
+        "prob": 0.59069310305023,
+        "top": [
+          {
+            "token": " Union",
+            "prob": 0.59069310305023
+          },
+          {
+            "token": " United",
+            "prob": 0.3582734561259958
+          },
+          {
+            "token": " union",
+            "prob": 0.04848703966097177
+          },
+          {
+            "token": " grand",
+            "prob": 0.0008880711092140913
+          },
+          {
+            "token": " mighty",
+            "prob": 0.0006103617521668515
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.5839763199488177,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.5839763199488177
+          },
+          {
+            "token": " of",
+            "prob": 0.31257999923706703
+          },
+          {
+            "token": " known",
+            "prob": 0.07903261008516874
+          },
+          {
+            "token": ".",
+            "prob": 0.015562443647630457
+          },
+          {
+            "token": " that",
+            "prob": 0.00393480196160103
+          }
+        ]
+      },
+      {
+        "token": " mate",
+        "prob": 0.4249443024976081,
+        "top": [
+          {
+            "token": " mate",
+            "prob": 0.4249443024976081
+          },
+          {
+            "token": " each",
+            "prob": 0.15632827253180842
+          },
+          {
+            "token": " making",
+            "prob": 0.13795921629572142
+          },
+          {
+            "token": " me",
+            "prob": 0.07384423838888848
+          },
+          {
+            "token": " forming",
+            "prob": 0.03952597252793331
+          }
+        ]
+      },
+      {
+        "token": "y",
+        "prob": 0.999996587894339,
+        "top": [
+          {
+            "token": "y",
+            "prob": 0.999996587894339
+          },
+          {
+            "token": "!",
+            "prob": 0.000002902309337197794
+          },
+          {
+            "token": ".",
+            "prob": 4.4508355217969405e-7
+          },
+          {
+            "token": "y's",
+            "prob": 1.2501480974411177e-9
+          },
+          {
+            "token": ",",
+            "prob": 5.492767397669945e-11
+          }
+        ]
+      },
+      {
+        "token": "!",
+        "prob": 0.9377887428749289,
+        "top": [
+          {
+            "token": "!",
+            "prob": 0.9377887428749289
+          },
+          {
+            "token": ".",
+            "prob": 0.059950822342362826
+          },
+          {
+            "token": ",",
+            "prob": 0.0015976356809021658
+          },
+          {
+            "token": "—",
+            "prob": 0.0003145929682827859
+          },
+          {
+            "token": "—the",
+            "prob": 0.0003145929682827859
+          }
+        ]
+      },
+      {
+        "token": " The",
+        "prob": 0.4272056374231522,
+        "top": [
+          {
+            "token": " The",
+            "prob": 0.4272056374231522
+          },
+          {
+            "token": " Each",
+            "prob": 0.25911330165486385
+          },
+          {
+            "token": " These",
+            "prob": 0.2017976422330251
+          },
+          {
+            "token": " From",
+            "prob": 0.09532245661287866
+          },
+          {
+            "token": " This",
+            "prob": 0.006093762229096471
+          }
+        ]
+      },
+      {
+        "token": " United",
+        "prob": 0.9371053839733618,
+        "top": [
+          {
+            "token": " United",
+            "prob": 0.9371053839733618
+          },
+          {
+            "token": " grand",
+            "prob": 0.028298130797800112
+          },
+          {
+            "token": " good",
+            "prob": 0.011796415957497555
+          },
+          {
+            "token": " stars",
+            "prob": 0.005572232340542217
+          },
+          {
+            "token": " last",
+            "prob": 0.0049174777810102165
+          }
+        ]
+      },
+      {
+        "token": " States",
+        "prob": 1,
+        "top": [
+          {
+            "token": " States",
+            "prob": 1
+          },
+          {
+            "token": " State",
+            "prob": 5.602796437537268e-9
+          },
+          {
+            "token": " S",
+            "prob": 2.646573638909117e-9
+          },
+          {
+            "token": " of",
+            "prob": 2.061153622438558e-9
+          },
+          {
+            "token": " Federation",
+            "prob": 1.8189616875530459e-9
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.728501773443412,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.728501773443412
+          },
+          {
+            "token": " be",
+            "prob": 0.2087192588330115
+          },
+          {
+            "token": ",",
+            "prob": 0.013342974219237063
+          },
+          {
+            "token": " consists",
+            "prob": 0.010391518770443392
+          },
+          {
+            "token": " comprises",
+            "prob": 0.006302774735253243
+          }
+        ]
+      },
+      {
+        "token": " America",
+        "prob": 0.99998347562188,
+        "top": [
+          {
+            "token": " America",
+            "prob": 0.99998347562188
+          },
+          {
+            "token": " America's",
+            "prob": 0.000014738960258496015
+          },
+          {
+            "token": " these",
+            "prob": 8.315152380839415e-7
+          },
+          {
+            "token": " Amer",
+            "prob": 3.927799865653355e-7
+          },
+          {
+            "token": " this",
+            "prob": 1.8553612823952963e-7
+          }
+        ]
+      },
+      {
+        "token": " be",
+        "prob": 0.4989646966216184,
+        "top": [
+          {
+            "token": " be",
+            "prob": 0.4989646966216184
+          },
+          {
+            "token": ",",
+            "prob": 0.12615802469504347
+          },
+          {
+            "token": " consists",
+            "prob": 0.08670705780635009
+          },
+          {
+            "token": " stretches",
+            "prob": 0.04641094362410561
+          },
+          {
+            "token": " comprises",
+            "prob": 0.04095751399430148
+          }
+        ]
+      },
+      {
+        "token": " comprised",
+        "prob": 0.6396327545924857,
+        "top": [
+          {
+            "token": " comprised",
+            "prob": 0.6396327545924857
+          },
+          {
+            "token": " composed",
+            "prob": 0.18325786334266347
+          },
+          {
+            "token": " made",
+            "prob": 0.0865648851698579
+          },
+          {
+            "token": " a",
+            "prob": 0.05250425691002227
+          },
+          {
+            "token": " comprising",
+            "prob": 0.01704563248865945
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9997956460731265,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9997956460731265
+          },
+          {
+            "token": " o",
+            "prob": 0.0002034268481403553
+          },
+          {
+            "token": ",",
+            "prob": 2.699027612581229e-7
+          },
+          {
+            "token": " from",
+            "prob": 1.8550127412878726e-7
+          },
+          {
+            "token": " like",
+            "prob": 3.652736664121192e-8
+          }
+        ]
+      },
+      {
+        "token": " these",
+        "prob": 0.9639956775347814,
+        "top": [
+          {
+            "token": " these",
+            "prob": 0.9639956775347814
+          },
+          {
+            "token": " this",
+            "prob": 0.02911014503154435
+          },
+          {
+            "token": " a",
+            "prob": 0.0034767118567046442
+          },
+          {
+            "token": " ",
+            "prob": 0.0016422823946253854
+          },
+          {
+            "token": " those",
+            "prob": 0.0006041619295804849
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.7569986754934007,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.7569986754934007
+          },
+          {
+            "token": " states",
+            "prob": 0.11608951024168218
+          },
+          {
+            "token": " fine",
+            "prob": 0.070411847232604
+          },
+          {
+            "token": " fifty",
+            "prob": 0.02285937993532408
+          },
+          {
+            "token": " grand",
+            "prob": 0.007421354098284916
+          }
+        ]
+      },
+      {
+        "token": "50",
+        "prob": 0.9999998063873693,
+        "top": [
+          {
+            "token": "50",
+            "prob": 0.9999998063873693
+          },
+          {
+            "token": "5",
+            "prob": 1.1253517471925912e-7
+          },
+          {
+            "token": "13",
+            "prob": 2.215948977336598e-8
+          },
+          {
+            "token": "48",
+            "prob": 1.0467401794744656e-8
+          },
+          {
+            "token": "49",
+            "prob": 8.152020714470167e-9
+          }
+        ]
+      },
+      {
+        "token": " states",
+        "prob": 0.9088045253660074,
+        "top": [
+          {
+            "token": " states",
+            "prob": 0.9088045253660074
+          },
+          {
+            "token": " fine",
+            "prob": 0.04524671708279312
+          },
+          {
+            "token": " proud",
+            "prob": 0.010095904821822755
+          },
+          {
+            "token": " glorious",
+            "prob": 0.007862698581049933
+          },
+          {
+            "token": " grand",
+            "prob": 0.005403948437120609
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9967927393693399,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9967927393693399
+          },
+          {
+            "token": " that",
+            "prob": 0.0013225250514250545
+          },
+          {
+            "token": ".",
+            "prob": 0.0005513104640124714
+          },
+          {
+            "token": " spread",
+            "prob": 0.000178984387768512
+          },
+          {
+            "token": " from",
+            "prob": 0.00015795316781671198
+          }
+        ]
+      },
+      {
+        "token": " each",
+        "prob": 0.9117112326240234,
+        "top": [
+          {
+            "token": " each",
+            "prob": 0.9117112326240234
+          },
+          {
+            "token": " from",
+            "prob": 0.024296280113696455
+          },
+          {
+            "token": " stretch",
+            "prob": 0.018921961978269
+          },
+          {
+            "token": " stretching",
+            "prob": 0.011476750081736863
+          },
+          {
+            "token": " with",
+            "prob": 0.00893810195077148
+          }
+        ]
+      },
+      {
+        "token": " with",
+        "prob": 0.7931981645983979,
+        "top": [
+          {
+            "token": " with",
+            "prob": 0.7931981645983979
+          },
+          {
+            "token": " one",
+            "prob": 0.09473400134017382
+          },
+          {
+            "token": " bringing",
+            "prob": 0.027141745809719477
+          },
+          {
+            "token": " adding",
+            "prob": 0.02113801289053455
+          },
+          {
+            "token": " flying",
+            "prob": 0.011314362975840354
+          }
+        ]
+      },
+      {
+        "token": " its",
+        "prob": 0.9912777403654629,
+        "top": [
+          {
+            "token": " its",
+            "prob": 0.9912777403654629
+          },
+          {
+            "token": " their",
+            "prob": 0.008576233462335865
+          },
+          {
+            "token": " a",
+            "prob": 0.00009527334784424694
+          },
+          {
+            "token": " unique",
+            "prob": 0.000024088874759904412
+          },
+          {
+            "token": " her",
+            "prob": 0.000014610641099859827
+          }
+        ]
+      },
+      {
+        "token": " own",
+        "prob": 0.9986177431048006,
+        "top": [
+          {
+            "token": " own",
+            "prob": 0.9986177431048006
+          },
+          {
+            "token": " unique",
+            "prob": 0.0013249463583919546
+          },
+          {
+            "token": " distinct",
+            "prob": 0.000024267250618774482
+          },
+          {
+            "token": " fair",
+            "prob": 0.0000054147555169292335
+          },
+          {
+            "token": " very",
+            "prob": 0.000004778504971942898
+          }
+        ]
+      },
+      {
+        "token": " unique",
+        "prob": 0.9577963364969263,
+        "top": [
+          {
+            "token": " unique",
+            "prob": 0.9577963364969263
+          },
+          {
+            "token": " distinct",
+            "prob": 0.008286563698748695
+          },
+          {
+            "token": " character",
+            "prob": 0.0073128667972156705
+          },
+          {
+            "token": " flag",
+            "prob": 0.005026054946952805
+          },
+          {
+            "token": " government",
+            "prob": 0.0044354779229058335
+          }
+        ]
+      },
+      {
+        "token": " character",
+        "prob": 0.5851506927622255,
+        "top": [
+          {
+            "token": " character",
+            "prob": 0.5851506927622255
+          },
+          {
+            "token": " charm",
+            "prob": 0.21526492268523875
+          },
+          {
+            "token": " flag",
+            "prob": 0.04238817653865168
+          },
+          {
+            "token": " charms",
+            "prob": 0.04238817653865168
+          },
+          {
+            "token": " treasures",
+            "prob": 0.04238817653865168
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9952247384442774,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9952247384442774
+          },
+          {
+            "token": ",",
+            "prob": 0.0035893416008475417
+          },
+          {
+            "token": ".",
+            "prob": 0.0006237340443700108
+          },
+          {
+            "token": " but",
+            "prob": 0.00048576456218365886
+          },
+          {
+            "token": " yet",
+            "prob": 0.000035188666860433785
+          }
+        ]
+      },
+      {
+        "token": " charm",
+        "prob": 0.4792670621787708,
+        "top": [
+          {
+            "token": " charm",
+            "prob": 0.4792670621787708
+          },
+          {
+            "token": " history",
+            "prob": 0.29069018472831026
+          },
+          {
+            "token": " treasures",
+            "prob": 0.10693894271187411
+          },
+          {
+            "token": " bounty",
+            "prob": 0.03934063848430913
+          },
+          {
+            "token": " treasure",
+            "prob": 0.01447260865039618
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9520440504901917,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9520440504901917
+          },
+          {
+            "token": ",",
+            "prob": 0.04739947958232089
+          },
+          {
+            "token": "—",
+            "prob": 0.0001937108855393583
+          },
+          {
+            "token": " from",
+            "prob": 0.00013313541481630613
+          },
+          {
+            "token": "—from",
+            "prob": 0.00008075071097964927
+          }
+        ]
+      },
+      {
+        "token": " If",
+        "prob": 0.9671712044595346,
+        "top": [
+          {
+            "token": " If",
+            "prob": 0.9671712044595346
+          },
+          {
+            "token": " Whether",
+            "prob": 0.008367672122335211
+          },
+          {
+            "token": " Should",
+            "prob": 0.006516749601359426
+          },
+          {
+            "token": " Is",
+            "prob": 0.006516749601359426
+          },
+          {
+            "token": " From",
+            "prob": 0.005075249692618987
+          }
+        ]
+      },
+      {
+        "token": " ye",
+        "prob": 0.9948173100311637,
+        "top": [
+          {
+            "token": " ye",
+            "prob": 0.9948173100311637
+          },
+          {
+            "token": " there",
+            "prob": 0.002794237286710073
+          },
+          {
+            "token": " yer",
+            "prob": 0.0013199042346636433
+          },
+          {
+            "token": " there's",
+            "prob": 0.0007064938261543263
+          },
+          {
+            "token": " you've",
+            "prob": 0.00017862952826619175
+          }
+        ]
+      },
+      {
+        "token": " have",
+        "prob": 0.6266525742888324,
+        "top": [
+          {
+            "token": " have",
+            "prob": 0.6266525742888324
+          },
+          {
+            "token": " be",
+            "prob": 0.29600971628309836
+          },
+          {
+            "token": " need",
+            "prob": 0.031199198278250077
+          },
+          {
+            "token": " seek",
+            "prob": 0.021442874483515034
+          },
+          {
+            "token": "'ve",
+            "prob": 0.011477543627599663
+          }
+        ]
+      },
+      {
+        "token": " any",
+        "prob": 0.7952349237415952,
+        "top": [
+          {
+            "token": " any",
+            "prob": 0.7952349237415952
+          },
+          {
+            "token": " more",
+            "prob": 0.13819110249046718
+          },
+          {
+            "token": " questions",
+            "prob": 0.05760662895302081
+          },
+          {
+            "token": " further",
+            "prob": 0.0032499428405091146
+          },
+          {
+            "token": " a",
+            "prob": 0.0028680644903262753
+          }
+        ]
+      },
+      {
+        "token": " more",
+        "prob": 0.7843009755722635,
+        "top": [
+          {
+            "token": " more",
+            "prob": 0.7843009755722635
+          },
+          {
+            "token": " other",
+            "prob": 0.13629106728453783
+          },
+          {
+            "token": " questions",
+            "prob": 0.06437934929720686
+          },
+          {
+            "token": " further",
+            "prob": 0.009872892976971227
+          },
+          {
+            "token": " specific",
+            "prob": 0.002202940191079898
+          }
+        ]
+      },
+      {
+        "token": " questions",
+        "prob": 0.9759598916034952,
+        "top": [
+          {
+            "token": " questions",
+            "prob": 0.9759598916034952
+          },
+          {
+            "token": " queries",
+            "prob": 0.017875325981207883
+          },
+          {
+            "token": " curios",
+            "prob": 0.003988524348892304
+          },
+          {
+            "token": " inquiries",
+            "prob": 0.001884045497209858
+          },
+          {
+            "token": " curiosity",
+            "prob": 0.0001364797980593576
+          }
+        ]
+      },
+      {
+        "token": " about",
+        "prob": 0.832547550553182,
+        "top": [
+          {
+            "token": " about",
+            "prob": 0.832547550553182
+          },
+          {
+            "token": " or",
+            "prob": 0.16393832798083252
+          },
+          {
+            "token": " '",
+            "prob": 0.0023384552144999357
+          },
+          {
+            "token": ",",
+            "prob": 0.0011046080284125848
+          },
+          {
+            "token": " on",
+            "prob": 0.00003779760820423798
+          }
+        ]
+      },
+      {
+        "token": " them",
+        "prob": 0.598430097977896,
+        "top": [
+          {
+            "token": " them",
+            "prob": 0.598430097977896
+          },
+          {
+            "token": " the",
+            "prob": 0.28267834558934357
+          },
+          {
+            "token": " these",
+            "prob": 0.0809887019798495
+          },
+          {
+            "token": " this",
+            "prob": 0.018071026351445186
+          },
+          {
+            "token": " '",
+            "prob": 0.01594762478167498
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.9629375584660993,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.9629375584660993
+          },
+          {
+            "token": ",",
+            "prob": 0.03294991179333176
+          },
+          {
+            "token": "—or",
+            "prob": 0.00238688303553164
+          },
+          {
+            "token": " states",
+            "prob": 0.0016404791200489474
+          },
+          {
+            "token": " lands",
+            "prob": 0.000026515888022667952
+          }
+        ]
+      },
+      {
+        "token": " anything",
+        "prob": 0.6033099237851663,
+        "top": [
+          {
+            "token": " anything",
+            "prob": 0.6033099237851663
+          },
+          {
+            "token": " need",
+            "prob": 0.15254063727483386
+          },
+          {
+            "token": " any",
+            "prob": 0.07205508639279463
+          },
+          {
+            "token": " their",
+            "prob": 0.06358839055710669
+          },
+          {
+            "token": " wish",
+            "prob": 0.049522688360125015
+          }
+        ]
+      },
+      {
+        "token": " else",
+        "prob": 0.9998153108486125,
+        "top": [
+          {
+            "token": " else",
+            "prob": 0.9998153108486125
+          },
+          {
+            "token": " related",
+            "prob": 0.00017952698755929758
+          },
+          {
+            "token": " under",
+            "prob": 0.0000015532127770974726
+          },
+          {
+            "token": " in",
+            "prob": 0.000001067506489380245
+          },
+          {
+            "token": " at",
+            "prob": 9.420711703670216e-7
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9798911595520864,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9798911595520864
+          },
+          {
+            "token": " under",
+            "prob": 0.017947333263779765
+          },
+          {
+            "token": " that",
+            "prob": 0.0008935451082246419
+          },
+          {
+            "token": " related",
+            "prob": 0.0004782802310744775
+          },
+          {
+            "token": " on",
+            "prob": 0.000328716718330774
+          }
+        ]
+      },
+      {
+        "token": " feel",
+        "prob": 0.6636282396060036,
+        "top": [
+          {
+            "token": " feel",
+            "prob": 0.6636282396060036
+          },
+          {
+            "token": " just",
+            "prob": 0.31347576515966386
+          },
+          {
+            "token": " don't",
+            "prob": 0.02003983520679345
+          },
+          {
+            "token": " don",
+            "prob": 0.0018639950356257634
+          },
+          {
+            "token": " I'm",
+            "prob": 0.00041591351081505477
+          }
+        ]
+      },
+      {
+        "token": " free",
+        "prob": 1,
+        "top": [
+          {
+            "token": " free",
+            "prob": 1
+          },
+          {
+            "token": " welcome",
+            "prob": 1.186112015134383e-8
+          },
+          {
+            "token": " fre",
+            "prob": 5.547519716492687e-10
+          },
+          {
+            "token": " feel",
+            "prob": 2.7894680928689246e-10
+          },
+          {
+            "token": " as",
+            "prob": 1.493094676197164e-10
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.9999969455039983,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.9999969455039983
+          },
+          {
+            "token": " t",
+            "prob": 0.000002902312105056987
+          },
+          {
+            "token": " ta",
+            "prob": 6.023550859819657e-8
+          },
+          {
+            "token": " ter",
+            "prob": 7.194105586938129e-9
+          },
+          {
+            "token": ",",
+            "prob": 3.398254856156838e-9
+          }
+        ]
+      },
+      {
+        "token": " ask",
+        "prob": 0.9969960326332774,
+        "top": [
+          {
+            "token": " ask",
+            "prob": 0.9969960326332774
+          },
+          {
+            "token": " fire",
+            "prob": 0.001322794988218629
+          },
+          {
+            "token": " let",
+            "prob": 0.0008023157168688102
+          },
+          {
+            "token": " holl",
+            "prob": 0.0003789871093872559
+          },
+          {
+            "token": " give",
+            "prob": 0.0001681744301541623
+          }
+        ]
+      },
+      {
+        "token": "!",
+        "prob": 0.9829026258468992,
+        "top": [
+          {
+            "token": "!",
+            "prob": 0.9829026258468992
+          },
+          {
+            "token": ".",
+            "prob": 0.012372917188861162
+          },
+          {
+            "token": ",",
+            "prob": 0.004551741861098777
+          },
+          {
+            "token": " away",
+            "prob": 0.00008336806024262006
+          },
+          {
+            "token": "—",
+            "prob": 0.00005056528457791891
+          }
+        ]
+      },
+      {
+        "token": " Arr",
+        "prob": 0.9941786226190967,
+        "top": [
+          {
+            "token": " Arr",
+            "prob": 0.9941786226190967
+          },
+          {
+            "token": "<|end|>",
+            "prob": 0.005216970580255739
+          },
+          {
+            "token": " Yar",
+            "prob": 0.00042823502290121284
+          },
+          {
+            "token": " Ar",
+            "prob": 0.00012269138824473082
+          },
+          {
+            "token": " ",
+            "prob": 0.000021320566362696463
+          }
+        ]
+      },
+      {
+        "token": "r",
+        "prob": 0.9999230421891283,
+        "top": [
+          {
+            "token": "r",
+            "prob": 0.9999230421891283
+          },
+          {
+            "token": "!",
+            "prob": 0.00007484604798533887
+          },
+          {
+            "token": "rr",
+            "prob": 0.000001760210334845862
+          },
+          {
+            "token": ",",
+            "prob": 1.2750920898541266e-7
+          },
+          {
+            "token": "gh",
+            "prob": 4.6908061280758204e-8
+          }
+        ]
+      },
+      {
+        "token": "!",
+        "prob": 0.9999233997749879,
+        "top": [
+          {
+            "token": "!",
+            "prob": 0.9999233997749879
+          },
+          {
+            "token": "!\n",
+            "prob": 0.00007484611936412656
+          },
+          {
+            "token": "!\n\n",
+            "prob": 9.421735968498187e-7
+          },
+          {
+            "token": ",",
+            "prob": 5.043091853627092e-7
+          },
+          {
+            "token": ".",
+            "prob": 2.3821879140541234e-7
+          }
+        ]
+      }
+    ],
+    "provider": "Azure"
+  },
+  "savedAt": "2026-10-13T17:29:47.636Z"
+}
