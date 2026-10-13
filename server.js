@@ -7,6 +7,7 @@ import { createHash } from "node:crypto";
 import { extname, join, normalize } from "node:path";
 import { fileURLToPath } from "node:url";
 import curated from "./public/models.js";
+import { restoreMissingStart, recordingKey } from "./public/replay.js";
 
 const ROOT = fileURLToPath(new URL(".", import.meta.url));
 const PUBLIC = join(ROOT, "public");
@@ -75,17 +76,6 @@ function normaliseTokens(logprobs) {
   return null;
 }
 
-// Some providers skip probabilities for the first few tokens. Put the missing
-// start of the answer back as one token with no probability.
-function restoreMissingStart(response) {
-  const { text, tokens } = response;
-  if (!tokens?.length) return response;
-  const joined = tokens.map((t) => t.token).join("");
-  const at = text.indexOf(joined.slice(0, 40));
-  if (at <= 0) return response;
-  return { ...response, tokens: [{ token: text.slice(0, at), prob: null, top: [] }, ...tokens] };
-}
-
 // ---- OpenRouter calls with record / replay ----
 
 // model id -> providers that answered without probabilities
@@ -95,7 +85,7 @@ const recordingPath = (key) =>
   join(RECORDINGS, createHash("sha256").update(JSON.stringify(key)).digest("hex").slice(0, 16) + ".json");
 
 async function ask(kind, { model, messages, prompt, temperature, max_tokens, offline }) {
-  const key = { kind, model, messages, prompt, temperature, max_tokens };
+  const key = recordingKey(kind, { model, messages, prompt, temperature, max_tokens });
   const file = recordingPath(key);
   const replay = () => ({ ...restoreMissingStart(JSON.parse(readFileSync(file, "utf8")).response), replayed: true });
 

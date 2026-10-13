@@ -1,6 +1,7 @@
 import presets from "./presets.js";
 import curatedModels from "./models.js";
 import { renderAnswer } from "./markdown.js";
+import { restoreMissingStart, recordingKey } from "./replay.js";
 
 const $ = (sel) => document.querySelector(sel);
 const el = (tag, props = {}, ...kids) => {
@@ -42,7 +43,35 @@ function currentModel() {
   return state.models.find((m) => m.id === $("#model").value) || {};
 }
 
+// With no server (e.g. GitHub Pages) the page is view-only: it replays the
+// recordings directly instead of calling the model.
+let viewOnly = false;
+
+async function replayRecording(kind, body) {
+  const json = JSON.stringify(recordingKey(kind, body));
+  const digest = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(json));
+  const hash = [...new Uint8Array(digest)].map((b) => b.toString(16).padStart(2, "0")).join("").slice(0, 16);
+  const r = await fetch(`recordings/${hash}.json`);
+  if (!r.ok) {
+    throw new Error("This view-only copy can only replay the demos, using the model and creativity each one sets. Run ChatIST locally to try your own prompts.");
+  }
+  return { ...restoreMissingStart((await r.json()).response), replayed: true };
+}
+
+function enterViewOnly() {
+  viewOnly = true;
+  const offline = $("#offline");
+  offline.checked = true;
+  offline.disabled = true;
+  offline.nextElementSibling.textContent = "Offline (view-only)";
+  $("#chat-input").readOnly = true;
+  $("#chat-input").placeholder = "View-only: pick a demo on the left";
+  $("#next-text").contentEditable = "false";
+  $("#transcript .empty")?.replaceChildren("This is a view-only copy. Pick a demo on the left to replay its recorded answer.");
+}
+
 async function post(path, body) {
+  if (viewOnly) return replayRecording(path === "/api/chat" ? "chat" : "complete", body);
   const r = await fetch(path, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -375,7 +404,14 @@ function describeModel() {
 }
 
 async function loadModels() {
-  state.models = await (await fetch("/api/models")).json();
+  try {
+    const r = await fetch("/api/models");
+    if (!r.ok) throw new Error(r.statusText);
+    state.models = await r.json();
+  } catch {
+    state.models = curatedModels.map((m) => ({ ...m, probabilities: true }));
+    enterViewOnly();
+  }
   $("#model").replaceChildren(...state.models.map((m) =>
     el("option", { value: m.id, textContent: m.name + (m.probabilities ? "" : " (no probabilities)") })));
   const saved = store.get("model");
