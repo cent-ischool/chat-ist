@@ -1,0 +1,4831 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Help me write up three talking points my shareholders meeting"
+      }
+    ],
+    "temperature": 0.7,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "1. Financial performance: Provide an overview of the company's financial performance in the past year, including revenue growth, profit margins, and any key financial metrics. Discuss any challenges or successes that have impacted the financial results and explain how the company plans to address them in the future.\n\n2. Strategic initiatives: Outline the company's strategic initiatives and goals for the upcoming year, including any new products or services being launched, expansion plans, or partnerships. Discuss how these initiatives align with the company's long-term vision and how they are expected to drive growth and increase shareholder value.\n\n3. Corporate governance and sustainability: Review the company's corporate governance practices and commitment to sustainability and social responsibility. Highlight any recent governance changes or initiatives, as well as the company's efforts to reduce its environmental impact and support the communities in which it operates. Invite feedback and questions from shareholders on these topics and demonstrate the company's commitment to transparency and accountability.",
+    "tokens": [
+      {
+        "token": "1",
+        "prob": 0.9966780997602055,
+        "top": [
+          {
+            "token": "1",
+            "prob": 0.9966780997602055
+          },
+          {
+            "token": "Sure",
+            "prob": 0.002547161951010939
+          },
+          {
+            "token": "-",
+            "prob": 0.0003751743525168735
+          },
+          {
+            "token": "Certainly",
+            "prob": 0.00008098035204999908
+          },
+          {
+            "token": "Here",
+            "prob": 0.00007040635704093904
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9989944899643455,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9989944899643455
+          },
+          {
+            "token": ")",
+            "prob": 0.0010038807898212344
+          },
+          {
+            "token": "-",
+            "prob": 5.807769853475264e-7
+          },
+          {
+            "token": ":",
+            "prob": 4.0883793760590843e-7
+          },
+          {
+            "token": " -",
+            "prob": 1.2710593046560547e-7
+          }
+        ]
+      },
+      {
+        "token": " Financial",
+        "prob": 0.8632841359210734,
+        "top": [
+          {
+            "token": " Financial",
+            "prob": 0.8632841359210734
+          },
+          {
+            "token": " Company",
+            "prob": 0.08173983658931586
+          },
+          {
+            "token": " Review",
+            "prob": 0.014869329653355023
+          },
+          {
+            "token": " Performance",
+            "prob": 0.009982317511854043
+          },
+          {
+            "token": " Overview",
+            "prob": 0.007003373622178559
+          }
+        ]
+      },
+      {
+        "token": " performance",
+        "prob": 0.5161442646094739,
+        "top": [
+          {
+            "token": " performance",
+            "prob": 0.5161442646094739
+          },
+          {
+            "token": " Performance",
+            "prob": 0.4808736621641773
+          },
+          {
+            "token": " Update",
+            "prob": 0.0009054423039584465
+          },
+          {
+            "token": " Highlights",
+            "prob": 0.0004560949255721114
+          },
+          {
+            "token": " update",
+            "prob": 0.00036501759502342585
+          }
+        ]
+      },
+      {
+        "token": ":",
+        "prob": 0.9507448984543969,
+        "top": [
+          {
+            "token": ":",
+            "prob": 0.9507448984543969
+          },
+          {
+            "token": " and",
+            "prob": 0.04016931031156249
+          },
+          {
+            "token": " review",
+            "prob": 0.0026229254504089076
+          },
+          {
+            "token": " update",
+            "prob": 0.0017179492431614847
+          },
+          {
+            "token": " highlights",
+            "prob": 0.001301586075635056
+          }
+        ]
+      },
+      {
+        "token": " Provide",
+        "prob": 0.19030536742630327,
+        "top": [
+          {
+            "token": " Discuss",
+            "prob": 0.3744000503113887
+          },
+          {
+            "token": " Provide",
+            "prob": 0.19030536742630327
+          },
+          {
+            "token": " We",
+            "prob": 0.16754044402455798
+          },
+          {
+            "token": " Highlight",
+            "prob": 0.13516361113634762
+          },
+          {
+            "token": " The",
+            "prob": 0.023573275562727827
+          }
+        ]
+      },
+      {
+        "token": " an",
+        "prob": 0.9076461581486877,
+        "top": [
+          {
+            "token": " an",
+            "prob": 0.9076461581486877
+          },
+          {
+            "token": " a",
+            "prob": 0.07695951304673641
+          },
+          {
+            "token": " updates",
+            "prob": 0.011240165617186638
+          },
+          {
+            "token": " shareholders",
+            "prob": 0.002693557414836887
+          },
+          {
+            "token": " detailed",
+            "prob": 0.0008099690669318759
+          }
+        ]
+      },
+      {
+        "token": " overview",
+        "prob": 0.9696354547190164,
+        "top": [
+          {
+            "token": " overview",
+            "prob": 0.9696354547190164
+          },
+          {
+            "token": " update",
+            "prob": 0.025299455632047697
+          },
+          {
+            "token": " in",
+            "prob": 0.0035759142545230484
+          },
+          {
+            "token": " analysis",
+            "prob": 0.0014600421117696803
+          },
+          {
+            "token": " updated",
+            "prob": 0.000018865805638500105
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9998477214355578,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9998477214355578
+          },
+          {
+            "token": " and",
+            "prob": 0.00014887820535625264
+          },
+          {
+            "token": " on",
+            "prob": 0.000003200424822304064
+          },
+          {
+            "token": " the",
+            "prob": 6.742169409309613e-8
+          },
+          {
+            "token": " to",
+            "prob": 4.350491137729129e-8
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9755554869634606,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9755554869634606
+          },
+          {
+            "token": " our",
+            "prob": 0.02427986919891391
+          },
+          {
+            "token": " company",
+            "prob": 0.00007321457827967021
+          },
+          {
+            "token": " your",
+            "prob": 0.000029758433117711762
+          },
+          {
+            "token": " how",
+            "prob": 0.000020907470973944094
+          }
+        ]
+      },
+      {
+        "token": " company",
+        "prob": 0.9996126584061322,
+        "top": [
+          {
+            "token": " company",
+            "prob": 0.9996126584061322
+          },
+          {
+            "token": " financial",
+            "prob": 0.0002209811840757197
+          },
+          {
+            "token": " current",
+            "prob": 0.00009485662660264109
+          },
+          {
+            "token": " Company",
+            "prob": 0.000031272232335362105
+          },
+          {
+            "token": " past",
+            "prob": 0.000013675536202561028
+          }
+        ]
+      },
+      {
+        "token": "'s",
+        "prob": 0.9978497920162929,
+        "top": [
+          {
+            "token": "'s",
+            "prob": 0.9978497920162929
+          },
+          {
+            "token": "’s",
+            "prob": 0.0021496518074094625
+          },
+          {
+            "token": " financial",
+            "prob": 2.015559150518865e-7
+          },
+          {
+            "token": "'",
+            "prob": 1.470628191934482e-7
+          },
+          {
+            "token": "´s",
+            "prob": 5.02522256221491e-8
+          }
+        ]
+      },
+      {
+        "token": " financial",
+        "prob": 0.9928094883260195,
+        "top": [
+          {
+            "token": " financial",
+            "prob": 0.9928094883260195
+          },
+          {
+            "token": " recent",
+            "prob": 0.004957218409952452
+          },
+          {
+            "token": " current",
+            "prob": 0.0010937189601353202
+          },
+          {
+            "token": " latest",
+            "prob": 0.000442678537639
+          },
+          {
+            "token": " performance",
+            "prob": 0.0001883708371501908
+          }
+        ]
+      },
+      {
+        "token": " performance",
+        "prob": 0.988855358804386,
+        "top": [
+          {
+            "token": " performance",
+            "prob": 0.988855358804386
+          },
+          {
+            "token": " results",
+            "prob": 0.008056921848986315
+          },
+          {
+            "token": " health",
+            "prob": 0.0015611549173443168
+          },
+          {
+            "token": " status",
+            "prob": 0.00048138875107243636
+          },
+          {
+            "token": " standing",
+            "prob": 0.00047141205265577866
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.030105397631444642,
+        "top": [
+          {
+            "token": " over",
+            "prob": 0.5890735384900672
+          },
+          {
+            "token": ",",
+            "prob": 0.25525779084340694
+          },
+          {
+            "token": " for",
+            "prob": 0.07537695404191273
+          },
+          {
+            "token": " during",
+            "prob": 0.03534801644836068
+          },
+          {
+            "token": " in",
+            "prob": 0.030105397631444642
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9993503245305569,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9993503245305569
+          },
+          {
+            "token": " terms",
+            "prob": 0.00031239567016561336
+          },
+          {
+            "token": " recent",
+            "prob": 0.00026165335572098455
+          },
+          {
+            "token": " comparison",
+            "prob": 0.00003845672403225706
+          },
+          {
+            "token": " relation",
+            "prob": 0.000016787886051718003
+          }
+        ]
+      },
+      {
+        "token": " past",
+        "prob": 0.8050738956001213,
+        "top": [
+          {
+            "token": " past",
+            "prob": 0.8050738956001213
+          },
+          {
+            "token": " previous",
+            "prob": 0.10498736178723796
+          },
+          {
+            "token": " last",
+            "prob": 0.07434699677240507
+          },
+          {
+            "token": " current",
+            "prob": 0.011623562396186688
+          },
+          {
+            "token": " recent",
+            "prob": 0.0014311924515415931
+          }
+        ]
+      },
+      {
+        "token": " year",
+        "prob": 0.9844603982039791,
+        "top": [
+          {
+            "token": " year",
+            "prob": 0.9844603982039791
+          },
+          {
+            "token": " fiscal",
+            "prob": 0.009006929981480198
+          },
+          {
+            "token": " quarter",
+            "prob": 0.0065154239344529345
+          },
+          {
+            "token": " financial",
+            "prob": 0.000012215633403926459
+          },
+          {
+            "token": " period",
+            "prob": 0.0000010851221463793986
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9994036577827429,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9994036577827429
+          },
+          {
+            "token": " including",
+            "prob": 0.00030641627643027624
+          },
+          {
+            "token": ".",
+            "prob": 0.00024600492546915885
+          },
+          {
+            "token": " and",
+            "prob": 0.00004077146942347665
+          },
+          {
+            "token": " or",
+            "prob": 0.000001102821127420654
+          }
+        ]
+      },
+      {
+        "token": " including",
+        "prob": 0.736098196496464,
+        "top": [
+          {
+            "token": " including",
+            "prob": 0.736098196496464
+          },
+          {
+            "token": " highlighting",
+            "prob": 0.25680287801644097
+          },
+          {
+            "token": " discussing",
+            "prob": 0.004135233015909527
+          },
+          {
+            "token": " focusing",
+            "prob": 0.00118643294339292
+          },
+          {
+            "token": " detailing",
+            "prob": 0.0006977581536386471
+          }
+        ]
+      },
+      {
+        "token": " revenue",
+        "prob": 0.7229453337400691,
+        "top": [
+          {
+            "token": " revenue",
+            "prob": 0.7229453337400691
+          },
+          {
+            "token": " key",
+            "prob": 0.25197573141927426
+          },
+          {
+            "token": " any",
+            "prob": 0.008886129509670144
+          },
+          {
+            "token": " revenues",
+            "prob": 0.007549245156431964
+          },
+          {
+            "token": " sales",
+            "prob": 0.002125434557214111
+          }
+        ]
+      },
+      {
+        "token": " growth",
+        "prob": 0.8851747020582997,
+        "top": [
+          {
+            "token": " growth",
+            "prob": 0.8851747020582997
+          },
+          {
+            "token": ",",
+            "prob": 0.11135275987499199
+          },
+          {
+            "token": " and",
+            "prob": 0.002283256878055503
+          },
+          {
+            "token": " trends",
+            "prob": 0.0006619913953979713
+          },
+          {
+            "token": " figures",
+            "prob": 0.0002960245996996512
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9999542716355735,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9999542716355735
+          },
+          {
+            "token": " and",
+            "prob": 0.00004012664421631495
+          },
+          {
+            "token": " or",
+            "prob": 0.000004598773134196193
+          },
+          {
+            "token": " trends",
+            "prob": 6.554098970615106e-7
+          },
+          {
+            "token": " rates",
+            "prob": 1.5302691744728758e-7
+          }
+        ]
+      },
+      {
+        "token": " profit",
+        "prob": 0.38025382071139485,
+        "top": [
+          {
+            "token": " profitability",
+            "prob": 0.6062338356083304
+          },
+          {
+            "token": " profit",
+            "prob": 0.38025382071139485
+          },
+          {
+            "token": " profits",
+            "prob": 0.008565289049697134
+          },
+          {
+            "token": " cost",
+            "prob": 0.001675984374594523
+          },
+          {
+            "token": " earnings",
+            "prob": 0.0012567924228043751
+          }
+        ]
+      },
+      {
+        "token": " margins",
+        "prob": 0.9767815407893552,
+        "top": [
+          {
+            "token": " margins",
+            "prob": 0.9767815407893552
+          },
+          {
+            "token": " margin",
+            "prob": 0.023206689531439707
+          },
+          {
+            "token": " levels",
+            "prob": 0.000006287921418332402
+          },
+          {
+            "token": ",",
+            "prob": 0.0000016782919133529335
+          },
+          {
+            "token": " trends",
+            "prob": 6.461643201189628e-7
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9999598739650709,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9999598739650709
+          },
+          {
+            "token": " and",
+            "prob": 0.00004007944293947287
+          },
+          {
+            "token": ",and",
+            "prob": 2.0087964144782587e-8
+          },
+          {
+            "token": ",\n",
+            "prob": 5.589125511675596e-9
+          },
+          {
+            "token": " ,",
+            "prob": 1.4451105689570703e-9
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9990732460019923,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9990732460019923
+          },
+          {
+            "token": " cash",
+            "prob": 0.0004865262991193517
+          },
+          {
+            "token": " expenses",
+            "prob": 0.00014128421318904713
+          },
+          {
+            "token": " cost",
+            "prob": 0.0001272507510996227
+          },
+          {
+            "token": " key",
+            "prob": 0.00004142953606427739
+          }
+        ]
+      },
+      {
+        "token": " any",
+        "prob": 0.8813035418429962,
+        "top": [
+          {
+            "token": " any",
+            "prob": 0.8813035418429962
+          },
+          {
+            "token": " key",
+            "prob": 0.06888618700111067
+          },
+          {
+            "token": " cash",
+            "prob": 0.015146955868329303
+          },
+          {
+            "token": " overall",
+            "prob": 0.010184947336590951
+          },
+          {
+            "token": " return",
+            "prob": 0.005102319697573267
+          }
+        ]
+      },
+      {
+        "token": " key",
+        "prob": 0.34462648521225686,
+        "top": [
+          {
+            "token": " significant",
+            "prob": 0.4409841037955661
+          },
+          {
+            "token": " key",
+            "prob": 0.34462648521225686
+          },
+          {
+            "token": " major",
+            "prob": 0.06369526831068165
+          },
+          {
+            "token": " challenges",
+            "prob": 0.06050848353843445
+          },
+          {
+            "token": " notable",
+            "prob": 0.04055364554482191
+          }
+        ]
+      },
+      {
+        "token": " financial",
+        "prob": 0.9254314479483857,
+        "top": [
+          {
+            "token": " financial",
+            "prob": 0.9254314479483857
+          },
+          {
+            "token": " metrics",
+            "prob": 0.031172016302985908
+          },
+          {
+            "token": " milestones",
+            "prob": 0.01948344789045188
+          },
+          {
+            "token": " achievements",
+            "prob": 0.0041307057616937195
+          },
+          {
+            "token": " factors",
+            "prob": 0.004085137056786809
+          }
+        ]
+      },
+      {
+        "token": " metrics",
+        "prob": 0.8057971444310762,
+        "top": [
+          {
+            "token": " metrics",
+            "prob": 0.8057971444310762
+          },
+          {
+            "token": " milestones",
+            "prob": 0.13199969064460365
+          },
+          {
+            "token": " indicators",
+            "prob": 0.030915970003379485
+          },
+          {
+            "token": " achievements",
+            "prob": 0.01235451124020386
+          },
+          {
+            "token": " highlights",
+            "prob": 0.009898540073888022
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.7280878827558999,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.7280878827558999
+          },
+          {
+            "token": " that",
+            "prob": 0.2656607925387572
+          },
+          {
+            "token": " such",
+            "prob": 0.002588815095595955
+          },
+          {
+            "token": " or",
+            "prob": 0.0015754336677527327
+          },
+          {
+            "token": " relevant",
+            "prob": 0.001372284238797796
+          }
+        ]
+      },
+      {
+        "token": " Discuss",
+        "prob": 0.8615663492665383,
+        "top": [
+          {
+            "token": " Discuss",
+            "prob": 0.8615663492665383
+          },
+          {
+            "token": " Highlight",
+            "prob": 0.08649609591443828
+          },
+          {
+            "token": " Share",
+            "prob": 0.0311459331267752
+          },
+          {
+            "token": " Explain",
+            "prob": 0.009872172878191908
+          },
+          {
+            "token": " This",
+            "prob": 0.005710676990973832
+          }
+        ]
+      },
+      {
+        "token": " any",
+        "prob": 0.8915391124597352,
+        "top": [
+          {
+            "token": " any",
+            "prob": 0.8915391124597352
+          },
+          {
+            "token": " how",
+            "prob": 0.0772820161902383
+          },
+          {
+            "token": " the",
+            "prob": 0.026659705788037207
+          },
+          {
+            "token": " what",
+            "prob": 0.001948478631279141
+          },
+          {
+            "token": " factors",
+            "prob": 0.0008720703157311001
+          }
+        ]
+      },
+      {
+        "token": " challenges",
+        "prob": 0.920717100032948,
+        "top": [
+          {
+            "token": " challenges",
+            "prob": 0.920717100032948
+          },
+          {
+            "token": " significant",
+            "prob": 0.030462361701502565
+          },
+          {
+            "token": " factors",
+            "prob": 0.021093578949562288
+          },
+          {
+            "token": " major",
+            "prob": 0.008833826553248872
+          },
+          {
+            "token": " notable",
+            "prob": 0.0026331556108642874
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.7080343284164043,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.7080343284164043
+          },
+          {
+            "token": " faced",
+            "prob": 0.2425998259278151
+          },
+          {
+            "token": " that",
+            "prob": 0.02585101794205816
+          },
+          {
+            "token": " the",
+            "prob": 0.019047098475639047
+          },
+          {
+            "token": " and",
+            "prob": 0.003880681486187558
+          }
+        ]
+      },
+      {
+        "token": " successes",
+        "prob": 0.629468906928744,
+        "top": [
+          {
+            "token": " successes",
+            "prob": 0.629468906928744
+          },
+          {
+            "token": " opportunities",
+            "prob": 0.35197845945029316
+          },
+          {
+            "token": " obstacles",
+            "prob": 0.007996570633663129
+          },
+          {
+            "token": " areas",
+            "prob": 0.0037475461994180078
+          },
+          {
+            "token": " achievements",
+            "prob": 0.0022291008078647455
+          }
+        ]
+      },
+      {
+        "token": " that",
+        "prob": 0.7348705777264164,
+        "top": [
+          {
+            "token": " that",
+            "prob": 0.7348705777264164
+          },
+          {
+            "token": " in",
+            "prob": 0.17131472791969582
+          },
+          {
+            "token": " the",
+            "prob": 0.0773703226661281
+          },
+          {
+            "token": " encountered",
+            "prob": 0.005085519965196639
+          },
+          {
+            "token": " faced",
+            "prob": 0.004723782137200413
+          }
+        ]
+      },
+      {
+        "token": " have",
+        "prob": 0.3212241220330749,
+        "top": [
+          {
+            "token": " impacted",
+            "prob": 0.5270675817752161
+          },
+          {
+            "token": " have",
+            "prob": 0.3212241220330749
+          },
+          {
+            "token": " may",
+            "prob": 0.05470585154757796
+          },
+          {
+            "token": " the",
+            "prob": 0.033955198991021354
+          },
+          {
+            "token": " contributed",
+            "prob": 0.02431756135849627
+          }
+        ]
+      },
+      {
+        "token": " impacted",
+        "prob": 0.9609493374268595,
+        "top": [
+          {
+            "token": " impacted",
+            "prob": 0.9609493374268595
+          },
+          {
+            "token": " influenced",
+            "prob": 0.023090943375438232
+          },
+          {
+            "token": " contributed",
+            "prob": 0.006947958524755371
+          },
+          {
+            "token": " affected",
+            "prob": 0.006295085684886424
+          },
+          {
+            "token": " had",
+            "prob": 0.0021956744788443196
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9863608506911279,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9863608506911279
+          },
+          {
+            "token": " financial",
+            "prob": 0.010865452702630158
+          },
+          {
+            "token": " our",
+            "prob": 0.0021779569946632224
+          },
+          {
+            "token": " these",
+            "prob": 0.00038438100375510445
+          },
+          {
+            "token": " performance",
+            "prob": 0.00008195002071486754
+          }
+        ]
+      },
+      {
+        "token": " financial",
+        "prob": 0.3203467743791276,
+        "top": [
+          {
+            "token": " company",
+            "prob": 0.6194781555222095
+          },
+          {
+            "token": " financial",
+            "prob": 0.3203467743791276
+          },
+          {
+            "token": " bottom",
+            "prob": 0.05896933004385034
+          },
+          {
+            "token": " overall",
+            "prob": 0.000706760998098361
+          },
+          {
+            "token": " business",
+            "prob": 0.00025394394608624804
+          }
+        ]
+      },
+      {
+        "token": " results",
+        "prob": 0.4670563802563638,
+        "top": [
+          {
+            "token": " results",
+            "prob": 0.4670563802563638
+          },
+          {
+            "token": " performance",
+            "prob": 0.3279189515712792
+          },
+          {
+            "token": " health",
+            "prob": 0.1756925124912881
+          },
+          {
+            "token": "s",
+            "prob": 0.009567803683626341
+          },
+          {
+            "token": " standing",
+            "prob": 0.005207503566249006
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9472091451203366,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9472091451203366
+          },
+          {
+            "token": ",",
+            "prob": 0.03822603695002369
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.00806259027519113
+          },
+          {
+            "token": " of",
+            "prob": 0.006241562670424512
+          },
+          {
+            "token": ".",
+            "prob": 0.00022269665589530997
+          }
+        ]
+      },
+      {
+        "token": " explain",
+        "prob": 0.03476872511047486,
+        "top": [
+          {
+            "token": " outline",
+            "prob": 0.7837409846030384
+          },
+          {
+            "token": " provide",
+            "prob": 0.09774482721827643
+          },
+          {
+            "token": " explain",
+            "prob": 0.03476872511047486
+          },
+          {
+            "token": " how",
+            "prob": 0.03316313869992544
+          },
+          {
+            "token": " highlight",
+            "prob": 0.011841541070673763
+          }
+        ]
+      },
+      {
+        "token": " how",
+        "prob": 0.4696685386450497,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.49456858593203873
+          },
+          {
+            "token": " how",
+            "prob": 0.4696685386450497
+          },
+          {
+            "token": " any",
+            "prob": 0.025087609503656218
+          },
+          {
+            "token": " strategies",
+            "prob": 0.004924990171473376
+          },
+          {
+            "token": " what",
+            "prob": 0.002295143293876062
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9723450245281615,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9723450245281615
+          },
+          {
+            "token": " these",
+            "prob": 0.013494352694276662
+          },
+          {
+            "token": " they",
+            "prob": 0.009441912726656974
+          },
+          {
+            "token": " management",
+            "prob": 0.00279910655561644
+          },
+          {
+            "token": " you",
+            "prob": 0.0003888336269690622
+          }
+        ]
+      },
+      {
+        "token": " company",
+        "prob": 0.999793858390102,
+        "top": [
+          {
+            "token": " company",
+            "prob": 0.999793858390102
+          },
+          {
+            "token": " management",
+            "prob": 0.00007731396182400167
+          },
+          {
+            "token": " business",
+            "prob": 0.000030171071198630246
+          },
+          {
+            "token": " leadership",
+            "prob": 0.000027098667527889613
+          },
+          {
+            "token": " board",
+            "prob": 0.000022067403345709704
+          }
+        ]
+      },
+      {
+        "token": " plans",
+        "prob": 0.989784110337958,
+        "top": [
+          {
+            "token": " plans",
+            "prob": 0.989784110337958
+          },
+          {
+            "token": " is",
+            "prob": 0.009779420991608608
+          },
+          {
+            "token": " intends",
+            "prob": 0.0001651124171489282
+          },
+          {
+            "token": "'s",
+            "prob": 0.00011007836904250105
+          },
+          {
+            "token": " aims",
+            "prob": 0.00007044220299869527
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.9999940846288958,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.9999940846288958
+          },
+          {
+            "token": " on",
+            "prob": 0.000005717465186531363
+          },
+          {
+            "token": " for",
+            "prob": 1.0874501577303792e-7
+          },
+          {
+            "token": " ",
+            "prob": 1.1331221008188497e-8
+          },
+          {
+            "token": " are",
+            "prob": 9.597223490925154e-9
+          }
+        ]
+      },
+      {
+        "token": " address",
+        "prob": 0.8652465446021974,
+        "top": [
+          {
+            "token": " address",
+            "prob": 0.8652465446021974
+          },
+          {
+            "token": " continue",
+            "prob": 0.0787944749046286
+          },
+          {
+            "token": " maintain",
+            "prob": 0.017647142618707517
+          },
+          {
+            "token": " improve",
+            "prob": 0.015443339019904672
+          },
+          {
+            "token": " sustain",
+            "prob": 0.010110346232480538
+          }
+        ]
+      },
+      {
+        "token": " them",
+        "prob": 0.5555229814561793,
+        "top": [
+          {
+            "token": " them",
+            "prob": 0.5555229814561793
+          },
+          {
+            "token": " any",
+            "prob": 0.3602027902065561
+          },
+          {
+            "token": " these",
+            "prob": 0.04696422205637532
+          },
+          {
+            "token": " or",
+            "prob": 0.03130616925685076
+          },
+          {
+            "token": " and",
+            "prob": 0.00235216287915996
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.5912939546715634,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.5912939546715634
+          },
+          {
+            "token": " moving",
+            "prob": 0.357779787700233
+          },
+          {
+            "token": " going",
+            "prob": 0.04621753072252364
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.004325399815416527
+          },
+          {
+            "token": " or",
+            "prob": 0.0002326240329803174
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9999858596579756,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9999858596579756
+          },
+          {
+            "token": " future",
+            "prob": 0.000007823981419835336
+          },
+          {
+            "token": " order",
+            "prob": 0.000004530954202148845
+          },
+          {
+            "token": " upcoming",
+            "prob": 0.0000011963934320100848
+          },
+          {
+            "token": " moving",
+            "prob": 4.6239607867423137e-7
+          }
+        ]
+      },
+      {
+        "token": " future",
+        "prob": 0.7343449879184611,
+        "top": [
+          {
+            "token": " future",
+            "prob": 0.7343449879184611
+          },
+          {
+            "token": " upcoming",
+            "prob": 0.13849083899262032
+          },
+          {
+            "token": " coming",
+            "prob": 0.12648612001957554
+          },
+          {
+            "token": " year",
+            "prob": 0.0003468226513081804
+          },
+          {
+            "token": " next",
+            "prob": 0.00028535287091552915
+          }
+        ]
+      },
+      {
+        "token": ".\n\n",
+        "prob": 0.9928165382912268,
+        "top": [
+          {
+            "token": ".\n\n",
+            "prob": 0.9928165382912268
+          },
+          {
+            "token": ".",
+            "prob": 0.004454923455112066
+          },
+          {
+            "token": ".\n",
+            "prob": 0.0017182464740902862
+          },
+          {
+            "token": " to",
+            "prob": 0.0009737905680289015
+          },
+          {
+            "token": ".\n\n\n",
+            "prob": 0.00002576916334672279
+          }
+        ]
+      },
+      {
+        "token": "2",
+        "prob": 0.9999982567412194,
+        "top": [
+          {
+            "token": "2",
+            "prob": 0.9999982567412194
+          },
+          {
+            "token": "1",
+            "prob": 8.117986463584102e-7
+          },
+          {
+            "token": "3",
+            "prob": 4.352409722678792e-7
+          },
+          {
+            "token": " ",
+            "prob": 2.0160651193620795e-7
+          },
+          {
+            "token": " \n\n",
+            "prob": 8.166110658664743e-8
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9999993295729247,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9999993295729247
+          },
+          {
+            "token": " .",
+            "prob": 1.8170415399007968e-7
+          },
+          {
+            "token": ".Str",
+            "prob": 1.1980912326892418e-7
+          },
+          {
+            "token": ".Customer",
+            "prob": 1.1186388692880532e-7
+          },
+          {
+            "token": "..",
+            "prob": 3.878694949958714e-8
+          }
+        ]
+      },
+      {
+        "token": " Strategic",
+        "prob": 0.9651608380277119,
+        "top": [
+          {
+            "token": " Strategic",
+            "prob": 0.9651608380277119
+          },
+          {
+            "token": " Growth",
+            "prob": 0.012876011144769656
+          },
+          {
+            "token": " Business",
+            "prob": 0.011003652674343108
+          },
+          {
+            "token": " Market",
+            "prob": 0.005054855563070089
+          },
+          {
+            "token": " Strategy",
+            "prob": 0.0012877084958664033
+          }
+        ]
+      },
+      {
+        "token": " initiatives",
+        "prob": 0.9230050381901304,
+        "top": [
+          {
+            "token": " initiatives",
+            "prob": 0.9230050381901304
+          },
+          {
+            "token": " priorities",
+            "prob": 0.04733816678908667
+          },
+          {
+            "token": " goals",
+            "prob": 0.011172313165595069
+          },
+          {
+            "token": " direction",
+            "prob": 0.006952837008747567
+          },
+          {
+            "token": " growth",
+            "prob": 0.005094707618096094
+          }
+        ]
+      },
+      {
+        "token": ":",
+        "prob": 0.9989724816588654,
+        "top": [
+          {
+            "token": ":",
+            "prob": 0.9989724816588654
+          },
+          {
+            "token": " and",
+            "prob": 0.0010262914584614712
+          },
+          {
+            "token": " for",
+            "prob": 3.646703653654431e-7
+          },
+          {
+            "token": " &",
+            "prob": 2.8847252197164513e-7
+          },
+          {
+            "token": ":\n",
+            "prob": 1.7194090409730446e-7
+          }
+        ]
+      },
+      {
+        "token": " Outline",
+        "prob": 0.21439960331437605,
+        "top": [
+          {
+            "token": " Highlight",
+            "prob": 0.3644042684595035
+          },
+          {
+            "token": " Share",
+            "prob": 0.2948424892446916
+          },
+          {
+            "token": " Outline",
+            "prob": 0.21439960331437605
+          },
+          {
+            "token": " Update",
+            "prob": 0.043590501842869514
+          },
+          {
+            "token": " Discuss",
+            "prob": 0.03580066894985211
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9023477058455642,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9023477058455642
+          },
+          {
+            "token": " any",
+            "prob": 0.09534578056368205
+          },
+          {
+            "token": " key",
+            "prob": 0.002003164698034639
+          },
+          {
+            "token": " some",
+            "prob": 0.000055968025696486426
+          },
+          {
+            "token": " upcoming",
+            "prob": 0.000055286323205361155
+          }
+        ]
+      },
+      {
+        "token": " company",
+        "prob": 0.8027727550840518,
+        "top": [
+          {
+            "token": " company",
+            "prob": 0.8027727550840518
+          },
+          {
+            "token": " strategic",
+            "prob": 0.14425572302944997
+          },
+          {
+            "token": " key",
+            "prob": 0.05151136067546449
+          },
+          {
+            "token": " current",
+            "prob": 0.0007552654357287662
+          },
+          {
+            "token": " major",
+            "prob": 0.0003020566425692245
+          }
+        ]
+      },
+      {
+        "token": "'s",
+        "prob": 0.9992516433586125,
+        "top": [
+          {
+            "token": "'s",
+            "prob": 0.9992516433586125
+          },
+          {
+            "token": "’s",
+            "prob": 0.0007482667693918547
+          },
+          {
+            "token": "'",
+            "prob": 1.719443589395757e-8
+          },
+          {
+            "token": "´s",
+            "prob": 8.421995849695644e-9
+          },
+          {
+            "token": " strategy",
+            "prob": 2.192196122323716e-9
+          }
+        ]
+      },
+      {
+        "token": " strategic",
+        "prob": 0.9085898379626275,
+        "top": [
+          {
+            "token": " strategic",
+            "prob": 0.9085898379626275
+          },
+          {
+            "token": " key",
+            "prob": 0.06505395997576527
+          },
+          {
+            "token": " current",
+            "prob": 0.02467738603147965
+          },
+          {
+            "token": " major",
+            "prob": 0.00045768334473949256
+          },
+          {
+            "token": " strategy",
+            "prob": 0.0003485140545090394
+          }
+        ]
+      },
+      {
+        "token": " initiatives",
+        "prob": 0.9754114207388735,
+        "top": [
+          {
+            "token": " initiatives",
+            "prob": 0.9754114207388735
+          },
+          {
+            "token": " priorities",
+            "prob": 0.017990705779888462
+          },
+          {
+            "token": " goals",
+            "prob": 0.0033600020328242147
+          },
+          {
+            "token": " objectives",
+            "prob": 0.001417865084955408
+          },
+          {
+            "token": " plans",
+            "prob": 0.0009033323692591497
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.49181276198216295,
+        "top": [
+          {
+            "token": " for",
+            "prob": 0.503508422026079
+          },
+          {
+            "token": " and",
+            "prob": 0.49181276198216295
+          },
+          {
+            "token": " that",
+            "prob": 0.00187863843730791
+          },
+          {
+            "token": ",",
+            "prob": 0.0016301732197898141
+          },
+          {
+            "token": " to",
+            "prob": 0.0004926588555597961
+          }
+        ]
+      },
+      {
+        "token": " goals",
+        "prob": 0.6198689836295856,
+        "top": [
+          {
+            "token": " goals",
+            "prob": 0.6198689836295856
+          },
+          {
+            "token": " long",
+            "prob": 0.13539744346957217
+          },
+          {
+            "token": " objectives",
+            "prob": 0.045911924620641864
+          },
+          {
+            "token": " priorities",
+            "prob": 0.044452027722886825
+          },
+          {
+            "token": " key",
+            "prob": 0.04274420706640059
+          }
+        ]
+      },
+      {
+        "token": " for",
+        "prob": 0.9995264250920127,
+        "top": [
+          {
+            "token": " for",
+            "prob": 0.9995264250920127
+          },
+          {
+            "token": " moving",
+            "prob": 0.00032404667302507136
+          },
+          {
+            "token": ",",
+            "prob": 0.00009872918117043423
+          },
+          {
+            "token": " going",
+            "prob": 0.00003490571460139018
+          },
+          {
+            "token": " that",
+            "prob": 0.000007427887945556699
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9998907410091983,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9998907410091983
+          },
+          {
+            "token": " growth",
+            "prob": 0.00008663549096206292
+          },
+          {
+            "token": " future",
+            "prob": 0.000009451000018442253
+          },
+          {
+            "token": " upcoming",
+            "prob": 0.0000052352864337505355
+          },
+          {
+            "token": " driving",
+            "prob": 0.0000027158081166739355
+          }
+        ]
+      },
+      {
+        "token": " upcoming",
+        "prob": 0.904301207454452,
+        "top": [
+          {
+            "token": " upcoming",
+            "prob": 0.904301207454452
+          },
+          {
+            "token": " coming",
+            "prob": 0.08731311485373014
+          },
+          {
+            "token": " next",
+            "prob": 0.00557816728548363
+          },
+          {
+            "token": " year",
+            "prob": 0.0015114222258712064
+          },
+          {
+            "token": " future",
+            "prob": 0.0011853697828920697
+          }
+        ]
+      },
+      {
+        "token": " year",
+        "prob": 0.9996928289566881,
+        "top": [
+          {
+            "token": " year",
+            "prob": 0.9996928289566881
+          },
+          {
+            "token": " fiscal",
+            "prob": 0.00011527949349226499
+          },
+          {
+            "token": " years",
+            "prob": 0.00010399819653321893
+          },
+          {
+            "token": " period",
+            "prob": 0.00004511462881866794
+          },
+          {
+            "token": " months",
+            "prob": 0.000026023593216654125
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.6647936149197724,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.6647936149197724
+          },
+          {
+            "token": ".",
+            "prob": 0.3331195314855486
+          },
+          {
+            "token": " and",
+            "prob": 0.0019705294815197598
+          },
+          {
+            "token": " or",
+            "prob": 0.00005326239555970311
+          },
+          {
+            "token": " to",
+            "prob": 0.000036158626757517524
+          }
+        ]
+      },
+      {
+        "token": " including",
+        "prob": 0.9250383434041732,
+        "top": [
+          {
+            "token": " including",
+            "prob": 0.9250383434041732
+          },
+          {
+            "token": " highlighting",
+            "prob": 0.03313431588336126
+          },
+          {
+            "token": " focusing",
+            "prob": 0.01978374377438685
+          },
+          {
+            "token": " such",
+            "prob": 0.01412403956019294
+          },
+          {
+            "token": " emphasizing",
+            "prob": 0.0029636777463885374
+          }
+        ]
+      },
+      {
+        "token": " any",
+        "prob": 0.535419514559087,
+        "top": [
+          {
+            "token": " any",
+            "prob": 0.535419514559087
+          },
+          {
+            "token": " new",
+            "prob": 0.1680311500167623
+          },
+          {
+            "token": " plans",
+            "prob": 0.16574884802760753
+          },
+          {
+            "token": " expansion",
+            "prob": 0.09409992776800229
+          },
+          {
+            "token": " market",
+            "prob": 0.007699333594782303
+          }
+        ]
+      },
+      {
+        "token": " new",
+        "prob": 0.9260870382153648,
+        "top": [
+          {
+            "token": " new",
+            "prob": 0.9260870382153648
+          },
+          {
+            "token": " plans",
+            "prob": 0.032508574294364795
+          },
+          {
+            "token": " planned",
+            "prob": 0.013065688282454118
+          },
+          {
+            "token": " expansion",
+            "prob": 0.008021520392067792
+          },
+          {
+            "token": " major",
+            "prob": 0.007265413985733357
+          }
+        ]
+      },
+      {
+        "token": " products",
+        "prob": 0.249909781562623,
+        "top": [
+          {
+            "token": " product",
+            "prob": 0.4360278768271846
+          },
+          {
+            "token": " products",
+            "prob": 0.249909781562623
+          },
+          {
+            "token": " markets",
+            "prob": 0.1528973802410482
+          },
+          {
+            "token": " market",
+            "prob": 0.12490216851396524
+          },
+          {
+            "token": " projects",
+            "prob": 0.025475410147575213
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.9518229218045056,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.9518229218045056
+          },
+          {
+            "token": ",",
+            "prob": 0.04794158444202733
+          },
+          {
+            "token": "/services",
+            "prob": 0.00020585057838751252
+          },
+          {
+            "token": " and",
+            "prob": 0.000024236737437119683
+          },
+          {
+            "token": " launches",
+            "prob": 0.0000034192955761187033
+          }
+        ]
+      },
+      {
+        "token": " services",
+        "prob": 0.9942111533178604,
+        "top": [
+          {
+            "token": " services",
+            "prob": 0.9942111533178604
+          },
+          {
+            "token": " markets",
+            "prob": 0.005167506544169296
+          },
+          {
+            "token": " market",
+            "prob": 0.00027286019504845985
+          },
+          {
+            "token": " service",
+            "prob": 0.00012366614529218432
+          },
+          {
+            "token": " expansion",
+            "prob": 0.00005483258082924171
+          }
+        ]
+      },
+      {
+        "token": " being",
+        "prob": 0.32344292832568966,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.5680369554303918
+          },
+          {
+            "token": " being",
+            "prob": 0.32344292832568966
+          },
+          {
+            "token": " that",
+            "prob": 0.08261605061165393
+          },
+          {
+            "token": " to",
+            "prob": 0.016738179020084756
+          },
+          {
+            "token": " in",
+            "prob": 0.005671940386188385
+          }
+        ]
+      },
+      {
+        "token": " launched",
+        "prob": 0.7574922747503419,
+        "top": [
+          {
+            "token": " launched",
+            "prob": 0.7574922747503419
+          },
+          {
+            "token": " introduced",
+            "prob": 0.16881125879872216
+          },
+          {
+            "token": " developed",
+            "prob": 0.07165445137359377
+          },
+          {
+            "token": " rolled",
+            "prob": 0.00117024833565302
+          },
+          {
+            "token": " planned",
+            "prob": 0.0003809297054465906
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9999620195462757,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9999620195462757
+          },
+          {
+            "token": " and",
+            "prob": 0.000028849035416668792
+          },
+          {
+            "token": " or",
+            "prob": 0.000004909070213381082
+          },
+          {
+            "token": ".",
+            "prob": 0.000004174241052577115
+          },
+          {
+            "token": " as",
+            "prob": 5.9006342016882585e-9
+          }
+        ]
+      },
+      {
+        "token": " expansion",
+        "prob": 0.7106184725679363,
+        "top": [
+          {
+            "token": " expansion",
+            "prob": 0.7106184725679363
+          },
+          {
+            "token": " market",
+            "prob": 0.1635162999058738
+          },
+          {
+            "token": " expansions",
+            "prob": 0.06092562627998148
+          },
+          {
+            "token": " partnerships",
+            "prob": 0.021027882159942533
+          },
+          {
+            "token": " potential",
+            "prob": 0.011769009686910326
+          }
+        ]
+      },
+      {
+        "token": " plans",
+        "prob": 0.7596452735425663,
+        "top": [
+          {
+            "token": " plans",
+            "prob": 0.7596452735425663
+          },
+          {
+            "token": " into",
+            "prob": 0.23694763775499061
+          },
+          {
+            "token": " opportunities",
+            "prob": 0.002610650121415561
+          },
+          {
+            "token": " efforts",
+            "prob": 0.0006173389087589874
+          },
+          {
+            "token": " or",
+            "prob": 0.00007532262526223574
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9905097721662232,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9905097721662232
+          },
+          {
+            "token": " into",
+            "prob": 0.00901524721566621
+          },
+          {
+            "token": " in",
+            "prob": 0.0003503253373309048
+          },
+          {
+            "token": " or",
+            "prob": 0.00007603703756546935
+          },
+          {
+            "token": " for",
+            "prob": 0.00004232777787858032
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.8102378357760404,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.8102378357760404
+          },
+          {
+            "token": " and",
+            "prob": 0.18270617821424617
+          },
+          {
+            "token": " partnerships",
+            "prob": 0.004209729016443361
+          },
+          {
+            "token": " cost",
+            "prob": 0.0012868910605347136
+          },
+          {
+            "token": " marketing",
+            "prob": 0.00035810583025919674
+          }
+        ]
+      },
+      {
+        "token": " partnerships",
+        "prob": 0.22825857311848632,
+        "top": [
+          {
+            "token": " cost",
+            "prob": 0.31203294618525085
+          },
+          {
+            "token": " partnerships",
+            "prob": 0.22825857311848632
+          },
+          {
+            "token": " changes",
+            "prob": 0.10094466334090575
+          },
+          {
+            "token": " investments",
+            "prob": 0.06741829221749078
+          },
+          {
+            "token": " potential",
+            "prob": 0.04888930588385189
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.8866537975687838,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.8866537975687838
+          },
+          {
+            "token": " that",
+            "prob": 0.08037547392650467
+          },
+          {
+            "token": " being",
+            "prob": 0.022492028982134347
+          },
+          {
+            "token": " and",
+            "prob": 0.0052733628920881405
+          },
+          {
+            "token": " with",
+            "prob": 0.0028369521207959603
+          }
+        ]
+      },
+      {
+        "token": " Discuss",
+        "prob": 0.6803898746758172,
+        "top": [
+          {
+            "token": " Discuss",
+            "prob": 0.6803898746758172
+          },
+          {
+            "token": " Highlight",
+            "prob": 0.12599828288756346
+          },
+          {
+            "token": " Explain",
+            "prob": 0.09525300661135143
+          },
+          {
+            "token": " Share",
+            "prob": 0.06877114679403921
+          },
+          {
+            "token": " Provide",
+            "prob": 0.016672260308823357
+          }
+        ]
+      },
+      {
+        "token": " how",
+        "prob": 0.9741378953752138,
+        "top": [
+          {
+            "token": " how",
+            "prob": 0.9741378953752138
+          },
+          {
+            "token": " the",
+            "prob": 0.025554304575162633
+          },
+          {
+            "token": " why",
+            "prob": 0.00020936906543032925
+          },
+          {
+            "token": " any",
+            "prob": 0.00008268775766201883
+          },
+          {
+            "token": " key",
+            "prob": 0.000006238854288831022
+          }
+        ]
+      },
+      {
+        "token": " these",
+        "prob": 0.9997887336898705,
+        "top": [
+          {
+            "token": " these",
+            "prob": 0.9997887336898705
+          },
+          {
+            "token": " the",
+            "prob": 0.00019880999268300265
+          },
+          {
+            "token": " each",
+            "prob": 0.000011433693402801313
+          },
+          {
+            "token": " this",
+            "prob": 2.59535718569346e-7
+          },
+          {
+            "token": " those",
+            "prob": 2.324071608118342e-7
+          }
+        ]
+      },
+      {
+        "token": " initiatives",
+        "prob": 0.9989140694497873,
+        "top": [
+          {
+            "token": " initiatives",
+            "prob": 0.9989140694497873
+          },
+          {
+            "token": " strategic",
+            "prob": 0.0007772123113037887
+          },
+          {
+            "token": " strategies",
+            "prob": 0.00014964361362282646
+          },
+          {
+            "token": " efforts",
+            "prob": 0.00012326969014902163
+          },
+          {
+            "token": " plans",
+            "prob": 0.000018366981299058447
+          }
+        ]
+      },
+      {
+        "token": " align",
+        "prob": 0.9577850786205508,
+        "top": [
+          {
+            "token": " align",
+            "prob": 0.9577850786205508
+          },
+          {
+            "token": " will",
+            "prob": 0.014614774644560076
+          },
+          {
+            "token": " tie",
+            "prob": 0.014511280013823968
+          },
+          {
+            "token": " support",
+            "prob": 0.005149364345410476
+          },
+          {
+            "token": " are",
+            "prob": 0.004879842667027647
+          }
+        ]
+      },
+      {
+        "token": " with",
+        "prob": 0.9999998063873687,
+        "top": [
+          {
+            "token": " with",
+            "prob": 0.9999998063873687
+          },
+          {
+            "token": "s",
+            "prob": 4.240455717252642e-8
+          },
+          {
+            "token": " the",
+            "prob": 1.949636108141959e-8
+          },
+          {
+            "token": " to",
+            "prob": 1.0967801422718061e-8
+          },
+          {
+            "token": " and",
+            "prob": 3.73211029701347e-9
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9999266180325883,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9999266180325883
+          },
+          {
+            "token": " long",
+            "prob": 0.000029448104890651496
+          },
+          {
+            "token": " our",
+            "prob": 0.000020030829425151976
+          },
+          {
+            "token": " overall",
+            "prob": 0.000008813049827492272
+          },
+          {
+            "token": " and",
+            "prob": 0.000004109858328506457
+          }
+        ]
+      },
+      {
+        "token": " company",
+        "prob": 0.9725053181206145,
+        "top": [
+          {
+            "token": " company",
+            "prob": 0.9725053181206145
+          },
+          {
+            "token": " overall",
+            "prob": 0.024770095005043312
+          },
+          {
+            "token": " long",
+            "prob": 0.0026040248803905217
+          },
+          {
+            "token": " overarching",
+            "prob": 0.00005237563791682316
+          },
+          {
+            "token": " broader",
+            "prob": 0.00003762014047678039
+          }
+        ]
+      },
+      {
+        "token": "'s",
+        "prob": 0.9990383851781495,
+        "top": [
+          {
+            "token": "'s",
+            "prob": 0.9990383851781495
+          },
+          {
+            "token": "’s",
+            "prob": 0.0009595079087271944
+          },
+          {
+            "token": " mission",
+            "prob": 0.0000013701600501784073
+          },
+          {
+            "token": " vision",
+            "prob": 5.328248917827783e-7
+          },
+          {
+            "token": " values",
+            "prob": 5.096447579332228e-8
+          }
+        ]
+      },
+      {
+        "token": " long",
+        "prob": 0.8385339915662411,
+        "top": [
+          {
+            "token": " long",
+            "prob": 0.8385339915662411
+          },
+          {
+            "token": " overall",
+            "prob": 0.1553838456186617
+          },
+          {
+            "token": " mission",
+            "prob": 0.004720766965001971
+          },
+          {
+            "token": " overarching",
+            "prob": 0.000625204163481342
+          },
+          {
+            "token": " vision",
+            "prob": 0.0004677474707937504
+          }
+        ]
+      },
+      {
+        "token": "-term",
+        "prob": 0.9999957534720165,
+        "top": [
+          {
+            "token": "-term",
+            "prob": 0.9999957534720165
+          },
+          {
+            "token": " term",
+            "prob": 0.00000400016079060915
+          },
+          {
+            "token": "-",
+            "prob": 1.0647506613559701e-7
+          },
+          {
+            "token": "term",
+            "prob": 1.3581761641452428e-8
+          },
+          {
+            "token": "-range",
+            "prob": 4.260352217153327e-9
+          }
+        ]
+      },
+      {
+        "token": " vision",
+        "prob": 0.758770969566408,
+        "top": [
+          {
+            "token": " vision",
+            "prob": 0.758770969566408
+          },
+          {
+            "token": " growth",
+            "prob": 0.07603409658712897
+          },
+          {
+            "token": " goals",
+            "prob": 0.06181081066268617
+          },
+          {
+            "token": " objectives",
+            "prob": 0.05421261221026824
+          },
+          {
+            "token": " strategy",
+            "prob": 0.0326905086030188
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.999984906043415,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.999984906043415
+          },
+          {
+            "token": ",",
+            "prob": 0.000014004764007265413
+          },
+          {
+            "token": " for",
+            "prob": 7.810075656669974e-7
+          },
+          {
+            "token": " to",
+            "prob": 9.17526011504474e-8
+          },
+          {
+            "token": " or",
+            "prob": 2.5254411086188108e-8
+          }
+        ]
+      },
+      {
+        "token": " how",
+        "prob": 0.7918718625236101,
+        "top": [
+          {
+            "token": " how",
+            "prob": 0.7918718625236101
+          },
+          {
+            "token": " mission",
+            "prob": 0.06011385088602268
+          },
+          {
+            "token": " growth",
+            "prob": 0.03801688027986975
+          },
+          {
+            "token": " objectives",
+            "prob": 0.0284933172972699
+          },
+          {
+            "token": " goals",
+            "prob": 0.026869195426297784
+          }
+        ]
+      },
+      {
+        "token": " they",
+        "prob": 0.9994260439758113,
+        "top": [
+          {
+            "token": " they",
+            "prob": 0.9994260439758113
+          },
+          {
+            "token": " shareholders",
+            "prob": 0.0004187460113519641
+          },
+          {
+            "token": " the",
+            "prob": 0.00007125169141068139
+          },
+          {
+            "token": " management",
+            "prob": 0.00005516438567230005
+          },
+          {
+            "token": " shareholder",
+            "prob": 0.0000159187961360849
+          }
+        ]
+      },
+      {
+        "token": " are",
+        "prob": 0.3510184123691221,
+        "top": [
+          {
+            "token": " will",
+            "prob": 0.6424450571710277
+          },
+          {
+            "token": " are",
+            "prob": 0.3510184123691221
+          },
+          {
+            "token": " contribute",
+            "prob": 0.00431876585177766
+          },
+          {
+            "token": " aim",
+            "prob": 0.0015236766746002754
+          },
+          {
+            "token": " support",
+            "prob": 0.00034542103282409733
+          }
+        ]
+      },
+      {
+        "token": " expected",
+        "prob": 0.9993212764870781,
+        "top": [
+          {
+            "token": " expected",
+            "prob": 0.9993212764870781
+          },
+          {
+            "token": " intended",
+            "prob": 0.00035179793341354507
+          },
+          {
+            "token": " designed",
+            "prob": 0.00009855448652834694
+          },
+          {
+            "token": " positioned",
+            "prob": 0.00007606411156972948
+          },
+          {
+            "token": " projected",
+            "prob": 0.0000625592781698191
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 1,
+        "top": [
+          {
+            "token": " to",
+            "prob": 1
+          },
+          {
+            "token": " contribute",
+            "prob": 2.523242407086723e-8
+          },
+          {
+            "token": " ",
+            "prob": 8.369254705148727e-9
+          },
+          {
+            "token": " impact",
+            "prob": 7.3349591100669835e-9
+          },
+          {
+            "token": " the",
+            "prob": 4.4088057021671546e-9
+          }
+        ]
+      },
+      {
+        "token": " drive",
+        "prob": 0.9594886909528869,
+        "top": [
+          {
+            "token": " drive",
+            "prob": 0.9594886909528869
+          },
+          {
+            "token": " contribute",
+            "prob": 0.03572103671566974
+          },
+          {
+            "token": " impact",
+            "prob": 0.002608992884816769
+          },
+          {
+            "token": " benefit",
+            "prob": 0.0007519618249478598
+          },
+          {
+            "token": " create",
+            "prob": 0.0006923329336883739
+          }
+        ]
+      },
+      {
+        "token": " growth",
+        "prob": 0.9701557115468123,
+        "top": [
+          {
+            "token": " growth",
+            "prob": 0.9701557115468123
+          },
+          {
+            "token": " future",
+            "prob": 0.01531551365376425
+          },
+          {
+            "token": " value",
+            "prob": 0.007164505042431446
+          },
+          {
+            "token": " sustainable",
+            "prob": 0.0026498384582315415
+          },
+          {
+            "token": " shareholder",
+            "prob": 0.0021923981250434677
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9999229229965849,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9999229229965849
+          },
+          {
+            "token": " in",
+            "prob": 0.0000255844707978423
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.000024178566477458242
+          },
+          {
+            "token": " for",
+            "prob": 0.000018134071243918526
+          },
+          {
+            "token": ",",
+            "prob": 0.000005622669538433551
+          }
+        ]
+      },
+      {
+        "token": " increase",
+        "prob": 0.04037647361100375,
+        "top": [
+          {
+            "token": " create",
+            "prob": 0.3577268044371821
+          },
+          {
+            "token": " profitability",
+            "prob": 0.29632394923832395
+          },
+          {
+            "token": " value",
+            "prob": 0.21048455531009438
+          },
+          {
+            "token": " shareholder",
+            "prob": 0.04353315270554601
+          },
+          {
+            "token": " increase",
+            "prob": 0.04037647361100375
+          }
+        ]
+      },
+      {
+        "token": " shareholder",
+        "prob": 0.9963178828800312,
+        "top": [
+          {
+            "token": " shareholder",
+            "prob": 0.9963178828800312
+          },
+          {
+            "token": " value",
+            "prob": 0.003217584680868751
+          },
+          {
+            "token": " market",
+            "prob": 0.0002075629273357831
+          },
+          {
+            "token": " profitability",
+            "prob": 0.0001703366133765994
+          },
+          {
+            "token": " shareholders",
+            "prob": 0.000021819794403313627
+          }
+        ]
+      },
+      {
+        "token": " value",
+        "prob": 0.9999998063873687,
+        "top": [
+          {
+            "token": " value",
+            "prob": 0.9999998063873687
+          },
+          {
+            "token": " returns",
+            "prob": 1.1837124584851103e-7
+          },
+          {
+            "token": " return",
+            "prob": 2.140434281985471e-8
+          },
+          {
+            "token": " values",
+            "prob": 1.3979988720028938e-9
+          },
+          {
+            "token": " wealth",
+            "prob": 1.07708017354159e-9
+          }
+        ]
+      },
+      {
+        "token": ".\n\n",
+        "prob": 0.9998123313119718,
+        "top": [
+          {
+            "token": ".\n\n",
+            "prob": 0.9998123313119718
+          },
+          {
+            "token": " in",
+            "prob": 0.00011299511164120636
+          },
+          {
+            "token": ".",
+            "prob": 0.00004184362928400277
+          },
+          {
+            "token": " over",
+            "prob": 0.00002975489207486699
+          },
+          {
+            "token": ".\n",
+            "prob": 0.0000021674222494668222
+          }
+        ]
+      },
+      {
+        "token": "3",
+        "prob": 0.9999995679800934,
+        "top": [
+          {
+            "token": "3",
+            "prob": 0.9999995679800934
+          },
+          {
+            "token": "4",
+            "prob": 8.406849110830034e-8
+          },
+          {
+            "token": " ",
+            "prob": 8.144116330901209e-8
+          },
+          {
+            "token": "2",
+            "prob": 5.643800826538829e-8
+          },
+          {
+            "token": "1",
+            "prob": 2.106957036875597e-8
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9999983759447187,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9999983759447187
+          },
+          {
+            "token": ".Sh",
+            "prob": 8.603005775360226e-7
+          },
+          {
+            "token": " .",
+            "prob": 1.2069368862235723e-7
+          },
+          {
+            "token": "..",
+            "prob": 8.923076122744205e-8
+          },
+          {
+            "token": ",",
+            "prob": 7.92341059610131e-8
+          }
+        ]
+      },
+      {
+        "token": " Corporate",
+        "prob": 0.9483946290276853,
+        "top": [
+          {
+            "token": " Corporate",
+            "prob": 0.9483946290276853
+          },
+          {
+            "token": " Governance",
+            "prob": 0.017765018644539776
+          },
+          {
+            "token": " E",
+            "prob": 0.014687213406750733
+          },
+          {
+            "token": " Sustainability",
+            "prob": 0.012483768481043685
+          },
+          {
+            "token": " Share",
+            "prob": 0.0038095431696936835
+          }
+        ]
+      },
+      {
+        "token": " governance",
+        "prob": 0.9098664577184372,
+        "top": [
+          {
+            "token": " governance",
+            "prob": 0.9098664577184372
+          },
+          {
+            "token": " social",
+            "prob": 0.056687860029508985
+          },
+          {
+            "token": " responsibility",
+            "prob": 0.032302727809917345
+          },
+          {
+            "token": " sustainability",
+            "prob": 0.0010184677367709308
+          },
+          {
+            "token": " citizenship",
+            "prob": 0.00003121770987461909
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.6551143555236326,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.6551143555236326
+          },
+          {
+            "token": ":",
+            "prob": 0.3447498491059663
+          },
+          {
+            "token": " updates",
+            "prob": 0.000051334295545580664
+          },
+          {
+            "token": " &",
+            "prob": 0.00004105971859105968
+          },
+          {
+            "token": " update",
+            "prob": 0.000015563859968862326
+          }
+        ]
+      },
+      {
+        "token": " sustainability",
+        "prob": 0.5205585548209439,
+        "top": [
+          {
+            "token": " sustainability",
+            "prob": 0.5205585548209439
+          },
+          {
+            "token": " transparency",
+            "prob": 0.3192554860613205
+          },
+          {
+            "token": " risk",
+            "prob": 0.09796463821194634
+          },
+          {
+            "token": " accountability",
+            "prob": 0.014092485033893352
+          },
+          {
+            "token": " compliance",
+            "prob": 0.013074153669974466
+          }
+        ]
+      },
+      {
+        "token": ":",
+        "prob": 0.9767688007108032,
+        "top": [
+          {
+            "token": ":",
+            "prob": 0.9767688007108032
+          },
+          {
+            "token": " efforts",
+            "prob": 0.022172515447889153
+          },
+          {
+            "token": " practices",
+            "prob": 0.0008473977287776798
+          },
+          {
+            "token": " initiatives",
+            "prob": 0.00016512339748976074
+          },
+          {
+            "token": " measures",
+            "prob": 0.00002270127426569018
+          }
+        ]
+      },
+      {
+        "token": " Review",
+        "prob": 0.1748035337506893,
+        "top": [
+          {
+            "token": " Provide",
+            "prob": 0.351572545742886
+          },
+          {
+            "token": " Review",
+            "prob": 0.1748035337506893
+          },
+          {
+            "token": " Highlight",
+            "prob": 0.15897535321560452
+          },
+          {
+            "token": " Update",
+            "prob": 0.1445241582908162
+          },
+          {
+            "token": " Share",
+            "prob": 0.09447840397163032
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9994515246376326,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9994515246376326
+          },
+          {
+            "token": " any",
+            "prob": 0.00022833858697162467
+          },
+          {
+            "token": " corporate",
+            "prob": 0.00020003544142311273
+          },
+          {
+            "token": " key",
+            "prob": 0.00006232007206700066
+          },
+          {
+            "token": " updates",
+            "prob": 0.00002564715265786311
+          }
+        ]
+      },
+      {
+        "token": " company",
+        "prob": 0.9993417511408984,
+        "top": [
+          {
+            "token": " company",
+            "prob": 0.9993417511408984
+          },
+          {
+            "token": " corporate",
+            "prob": 0.000605578111492904
+          },
+          {
+            "token": " governance",
+            "prob": 0.00001624039339003181
+          },
+          {
+            "token": " current",
+            "prob": 0.000006768063860850543
+          },
+          {
+            "token": " board",
+            "prob": 0.000005502566159958472
+          }
+        ]
+      },
+      {
+        "token": "'s",
+        "prob": 0.999703669534548,
+        "top": [
+          {
+            "token": "'s",
+            "prob": 0.999703669534548
+          },
+          {
+            "token": "’s",
+            "prob": 0.00029621441229649674
+          },
+          {
+            "token": "'",
+            "prob": 1.151835485041979e-8
+          },
+          {
+            "token": "´s",
+            "prob": 5.020908216425893e-9
+          },
+          {
+            "token": " policies",
+            "prob": 1.817261753218332e-9
+          }
+        ]
+      },
+      {
+        "token": " corporate",
+        "prob": 0.978001219515239,
+        "top": [
+          {
+            "token": " corporate",
+            "prob": 0.978001219515239
+          },
+          {
+            "token": " governance",
+            "prob": 0.010063965571356954
+          },
+          {
+            "token": " commitment",
+            "prob": 0.005835050841998009
+          },
+          {
+            "token": " approach",
+            "prob": 0.004391676210747259
+          },
+          {
+            "token": " efforts",
+            "prob": 0.0011087515792386374
+          }
+        ]
+      },
+      {
+        "token": " governance",
+        "prob": 0.9999998063873687,
+        "top": [
+          {
+            "token": " governance",
+            "prob": 0.9999998063873687
+          },
+          {
+            "token": " social",
+            "prob": 8.728178885872845e-8
+          },
+          {
+            "token": " govern",
+            "prob": 6.790894997152236e-8
+          },
+          {
+            "token": " Governance",
+            "prob": 1.2480829623157885e-8
+          },
+          {
+            "token": " responsibility",
+            "prob": 1.1069215056630737e-8
+          }
+        ]
+      },
+      {
+        "token": " practices",
+        "prob": 0.9822261517934315,
+        "top": [
+          {
+            "token": " practices",
+            "prob": 0.9822261517934315
+          },
+          {
+            "token": " policies",
+            "prob": 0.01097558520283077
+          },
+          {
+            "token": " structure",
+            "prob": 0.004942424394757912
+          },
+          {
+            "token": " principles",
+            "prob": 0.0008861649950814174
+          },
+          {
+            "token": " framework",
+            "prob": 0.0007444175183173651
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.4597111598907873,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.5400669314364973
+          },
+          {
+            "token": " and",
+            "prob": 0.4597111598907873
+          },
+          {
+            "token": " to",
+            "prob": 0.00021333219632914546
+          },
+          {
+            "token": " in",
+            "prob": 0.000004574491559263084
+          },
+          {
+            "token": " including",
+            "prob": 0.0000023170447475271114
+          }
+        ]
+      },
+      {
+        "token": " commitment",
+        "prob": 0.20017636019843832,
+        "top": [
+          {
+            "token": " sustainability",
+            "prob": 0.6012887262938721
+          },
+          {
+            "token": " commitment",
+            "prob": 0.20017636019843832
+          },
+          {
+            "token": " highlight",
+            "prob": 0.053736752901314785
+          },
+          {
+            "token": " policies",
+            "prob": 0.03465920264528924
+          },
+          {
+            "token": " any",
+            "prob": 0.033449635143034104
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 1,
+        "top": [
+          {
+            "token": " to",
+            "prob": 1
+          },
+          {
+            "token": " towards",
+            "prob": 1.3543934882169921e-8
+          },
+          {
+            "token": " sustainability",
+            "prob": 5.0874607560803995e-9
+          },
+          {
+            "token": " ",
+            "prob": 3.160483208340467e-10
+          },
+          {
+            "token": "\n",
+            "prob": 2.3146510224673966e-10
+          }
+        ]
+      },
+      {
+        "token": " sustainability",
+        "prob": 0.9893182336130016,
+        "top": [
+          {
+            "token": " sustainability",
+            "prob": 0.9893182336130016
+          },
+          {
+            "token": " sustainable",
+            "prob": 0.005912780999209869
+          },
+          {
+            "token": " environmental",
+            "prob": 0.0023179618322759247
+          },
+          {
+            "token": " ethical",
+            "prob": 0.0012527714774859982
+          },
+          {
+            "token": " social",
+            "prob": 0.0003405449599916097
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.24047885843873215,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.6189053412766169
+          },
+          {
+            "token": " and",
+            "prob": 0.24047885843873215
+          },
+          {
+            "token": ".",
+            "prob": 0.1321743096333558
+          },
+          {
+            "token": " initiatives",
+            "prob": 0.007714625007397177
+          },
+          {
+            "token": " efforts",
+            "prob": 0.00046441221766117715
+          }
+        ]
+      },
+      {
+        "token": " social",
+        "prob": 0.7957988468781274,
+        "top": [
+          {
+            "token": " social",
+            "prob": 0.7957988468781274
+          },
+          {
+            "token": " responsible",
+            "prob": 0.11298242537729847
+          },
+          {
+            "token": " corporate",
+            "prob": 0.06756972170799098
+          },
+          {
+            "token": " ethical",
+            "prob": 0.014190422695322082
+          },
+          {
+            "token": " environmental",
+            "prob": 0.003749660411626278
+          }
+        ]
+      },
+      {
+        "token": " responsibility",
+        "prob": 0.9999937270200753,
+        "top": [
+          {
+            "token": " responsibility",
+            "prob": 0.9999937270200753
+          },
+          {
+            "token": " impact",
+            "prob": 0.000002732477093263563
+          },
+          {
+            "token": " responsibilities",
+            "prob": 0.0000015841176394502797
+          },
+          {
+            "token": " responsible",
+            "prob": 6.984334069618007e-7
+          },
+          {
+            "token": " respons",
+            "prob": 6.233479293316244e-7
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9993743736158497,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9993743736158497
+          },
+          {
+            "token": " initiatives",
+            "prob": 0.0004434927959397035
+          },
+          {
+            "token": ",",
+            "prob": 0.00016740425199874954
+          },
+          {
+            "token": " efforts",
+            "prob": 0.00001324389323100109
+          },
+          {
+            "token": " goals",
+            "prob": 4.3906428478577324e-7
+          }
+        ]
+      },
+      {
+        "token": " Highlight",
+        "prob": 0.38818121477610223,
+        "top": [
+          {
+            "token": " Highlight",
+            "prob": 0.38818121477610223
+          },
+          {
+            "token": " Discuss",
+            "prob": 0.3639731783179633
+          },
+          {
+            "token": " Provide",
+            "prob": 0.21783800255068503
+          },
+          {
+            "token": " Share",
+            "prob": 0.023309250034597308
+          },
+          {
+            "token": " Address",
+            "prob": 0.001441095054326158
+          }
+        ]
+      },
+      {
+        "token": " any",
+        "prob": 0.9999790651681366,
+        "top": [
+          {
+            "token": " any",
+            "prob": 0.9999790651681366
+          },
+          {
+            "token": " key",
+            "prob": 0.000008671060121187395
+          },
+          {
+            "token": " the",
+            "prob": 0.0000052135424522266825
+          },
+          {
+            "token": " initiatives",
+            "prob": 0.000003006863647542897
+          },
+          {
+            "token": " efforts",
+            "prob": 0.0000012561161727096628
+          }
+        ]
+      },
+      {
+        "token": " recent",
+        "prob": 0.6581422866000708,
+        "top": [
+          {
+            "token": " recent",
+            "prob": 0.6581422866000708
+          },
+          {
+            "token": " initiatives",
+            "prob": 0.15191518610794452
+          },
+          {
+            "token": " efforts",
+            "prob": 0.03753729901247663
+          },
+          {
+            "token": " achievements",
+            "prob": 0.03495806075947737
+          },
+          {
+            "token": " changes",
+            "prob": 0.02892348743277634
+          }
+        ]
+      },
+      {
+        "token": " governance",
+        "prob": 0.00638314535985166,
+        "top": [
+          {
+            "token": " initiatives",
+            "prob": 0.4566393628477599
+          },
+          {
+            "token": " achievements",
+            "prob": 0.3071373614590025
+          },
+          {
+            "token": " accomplishments",
+            "prob": 0.08725060358882794
+          },
+          {
+            "token": " developments",
+            "prob": 0.037360327485054357
+          },
+          {
+            "token": " efforts",
+            "prob": 0.03661787389484571
+          }
+        ]
+      },
+      {
+        "token": " changes",
+        "prob": 0.8223729058872088,
+        "top": [
+          {
+            "token": " changes",
+            "prob": 0.8223729058872088
+          },
+          {
+            "token": " updates",
+            "prob": 0.06120918616454402
+          },
+          {
+            "token": " improvements",
+            "prob": 0.054660114703158236
+          },
+          {
+            "token": " initiatives",
+            "prob": 0.01848407552529988
+          },
+          {
+            "token": " or",
+            "prob": 0.015250942112012552
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.8933127191410203,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.8933127191410203
+          },
+          {
+            "token": ",",
+            "prob": 0.10643529895478131
+          },
+          {
+            "token": " and",
+            "prob": 0.0001955424630152068
+          },
+          {
+            "token": " that",
+            "prob": 0.000023238689904716326
+          },
+          {
+            "token": " implemented",
+            "prob": 0.000018284003610994827
+          }
+        ]
+      },
+      {
+        "token": " initiatives",
+        "prob": 0.4763395970246568,
+        "top": [
+          {
+            "token": " initiatives",
+            "prob": 0.4763395970246568
+          },
+          {
+            "token": " improvements",
+            "prob": 0.30213607005026066
+          },
+          {
+            "token": " updates",
+            "prob": 0.11434896611067516
+          },
+          {
+            "token": " achievements",
+            "prob": 0.02987594313070921
+          },
+          {
+            "token": " enhancements",
+            "prob": 0.0281970955788523
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.09875026417644281,
+        "top": [
+          {
+            "token": " aimed",
+            "prob": 0.561513029648418
+          },
+          {
+            "token": " to",
+            "prob": 0.15789940909517902
+          },
+          {
+            "token": " that",
+            "prob": 0.14038937035202015
+          },
+          {
+            "token": ",",
+            "prob": 0.09875026417644281
+          },
+          {
+            "token": " taken",
+            "prob": 0.015828651422009097
+          }
+        ]
+      },
+      {
+        "token": " as",
+        "prob": 0.7019317372984993,
+        "top": [
+          {
+            "token": " as",
+            "prob": 0.7019317372984993
+          },
+          {
+            "token": " such",
+            "prob": 0.2711271716752385
+          },
+          {
+            "token": " and",
+            "prob": 0.02178060247530873
+          },
+          {
+            "token": " compliance",
+            "prob": 0.0016562911885176501
+          },
+          {
+            "token": " including",
+            "prob": 0.0013455231263800312
+          }
+        ]
+      },
+      {
+        "token": " well",
+        "prob": 1,
+        "top": [
+          {
+            "token": " well",
+            "prob": 1
+          },
+          {
+            "token": " wells",
+            "prob": 1.6054093069112978e-8
+          },
+          {
+            "token": " we",
+            "prob": 2.995924415742598e-9
+          },
+          {
+            "token": " wel",
+            "prob": 2.6844177107752246e-9
+          },
+          {
+            "token": "well",
+            "prob": 1.93537834973359e-9
+          }
+        ]
+      },
+      {
+        "token": " as",
+        "prob": 0.9999982567412194,
+        "top": [
+          {
+            "token": " as",
+            "prob": 0.9999982567412194
+          },
+          {
+            "token": " any",
+            "prob": 0.0000011165946448775713
+          },
+          {
+            "token": " the",
+            "prob": 2.3517239406105152e-7
+          },
+          {
+            "token": " sustainability",
+            "prob": 4.208291492014851e-8
+          },
+          {
+            "token": "l",
+            "prob": 3.449863772226025e-8
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.3707287929517374,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.3707287929517374
+          },
+          {
+            "token": " any",
+            "prob": 0.26371671531850754
+          },
+          {
+            "token": " efforts",
+            "prob": 0.18981837216376984
+          },
+          {
+            "token": " progress",
+            "prob": 0.13221162770816372
+          },
+          {
+            "token": " environmental",
+            "prob": 0.011604821739931933
+          }
+        ]
+      },
+      {
+        "token": " company",
+        "prob": 0.9983228978102372,
+        "top": [
+          {
+            "token": " company",
+            "prob": 0.9983228978102372
+          },
+          {
+            "token": " steps",
+            "prob": 0.0007351114776353724
+          },
+          {
+            "token": " progress",
+            "prob": 0.0006781496307850972
+          },
+          {
+            "token": " impact",
+            "prob": 0.00021654547205259225
+          },
+          {
+            "token": " efforts",
+            "prob": 0.000015939248998251167
+          }
+        ]
+      },
+      {
+        "token": "'s",
+        "prob": 0.9997265427962388,
+        "top": [
+          {
+            "token": "'s",
+            "prob": 0.9997265427962388
+          },
+          {
+            "token": "’s",
+            "prob": 0.00027342218284646355
+          },
+          {
+            "token": "´s",
+            "prob": 4.90646065141142e-9
+          },
+          {
+            "token": "'",
+            "prob": 3.5348110154603225e-9
+          },
+          {
+            "token": "\"s",
+            "prob": 1.5077339630493478e-9
+          }
+        ]
+      },
+      {
+        "token": " efforts",
+        "prob": 0.7028824873242818,
+        "top": [
+          {
+            "token": " efforts",
+            "prob": 0.7028824873242818
+          },
+          {
+            "token": " progress",
+            "prob": 0.2658312154452765
+          },
+          {
+            "token": " environmental",
+            "prob": 0.017561445085469713
+          },
+          {
+            "token": " performance",
+            "prob": 0.007392315235920749
+          },
+          {
+            "token": " approach",
+            "prob": 0.002397535845785985
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.9988172575917965,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.9988172575917965
+          },
+          {
+            "token": " in",
+            "prob": 0.0006616465877111711
+          },
+          {
+            "token": " towards",
+            "prob": 0.0005136267621274874
+          },
+          {
+            "token": " toward",
+            "prob": 0.000004081106113666765
+          },
+          {
+            "token": " and",
+            "prob": 0.0000015715895477350855
+          }
+        ]
+      },
+      {
+        "token": " reduce",
+        "prob": 0.6105658065522862,
+        "top": [
+          {
+            "token": " reduce",
+            "prob": 0.6105658065522862
+          },
+          {
+            "token": " minimize",
+            "prob": 0.29343920475345264
+          },
+          {
+            "token": " promote",
+            "prob": 0.03873920665179086
+          },
+          {
+            "token": " mitigate",
+            "prob": 0.014277477262032202
+          },
+          {
+            "token": " operate",
+            "prob": 0.013509758538063327
+          }
+        ]
+      },
+      {
+        "token": " its",
+        "prob": 0.993508535582895,
+        "top": [
+          {
+            "token": " its",
+            "prob": 0.993508535582895
+          },
+          {
+            "token": " environmental",
+            "prob": 0.00630104113320226
+          },
+          {
+            "token": " carbon",
+            "prob": 0.00012884917805119288
+          },
+          {
+            "token": " their",
+            "prob": 0.00005688101090703625
+          },
+          {
+            "token": " the",
+            "prob": 0.000001854541615478017
+          }
+        ]
+      },
+      {
+        "token": " environmental",
+        "prob": 0.9958445439010378,
+        "top": [
+          {
+            "token": " environmental",
+            "prob": 0.9958445439010378
+          },
+          {
+            "token": " carbon",
+            "prob": 0.003807334275296558
+          },
+          {
+            "token": " impact",
+            "prob": 0.0003473061119135869
+          },
+          {
+            "token": " ecological",
+            "prob": 5.335238833047345e-7
+          },
+          {
+            "token": " overall",
+            "prob": 1.0699764629173e-7
+          }
+        ]
+      },
+      {
+        "token": " impact",
+        "prob": 0.6765061300454539,
+        "top": [
+          {
+            "token": " impact",
+            "prob": 0.6765061300454539
+          },
+          {
+            "token": " footprint",
+            "prob": 0.3234897986016735
+          },
+          {
+            "token": " impacts",
+            "prob": 0.0000022504485636401208
+          },
+          {
+            "token": " and",
+            "prob": 0.0000017448132990192123
+          },
+          {
+            "token": ",",
+            "prob": 3.6845586309107685e-8
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.3970504215247499,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.6000127343947298
+          },
+          {
+            "token": " and",
+            "prob": 0.3970504215247499
+          },
+          {
+            "token": " or",
+            "prob": 0.002931250954912543
+          },
+          {
+            "token": ".",
+            "prob": 0.000005450490245674009
+          },
+          {
+            "token": " through",
+            "prob": 1.0698095596078809e-7
+          }
+        ]
+      },
+      {
+        "token": " support",
+        "prob": 0.38315564060942625,
+        "top": [
+          {
+            "token": " contribute",
+            "prob": 0.5423763911196912
+          },
+          {
+            "token": " support",
+            "prob": 0.38315564060942625
+          },
+          {
+            "token": " promote",
+            "prob": 0.06330820103557593
+          },
+          {
+            "token": " engage",
+            "prob": 0.002634963365820181
+          },
+          {
+            "token": " improve",
+            "prob": 0.0024164842122817044
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.8382717056212261,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.8382717056212261
+          },
+          {
+            "token": " its",
+            "prob": 0.0636772642033307
+          },
+          {
+            "token": " local",
+            "prob": 0.05858576089883755
+          },
+          {
+            "token": " social",
+            "prob": 0.026851180298973636
+          },
+          {
+            "token": " communities",
+            "prob": 0.005923224495948294
+          }
+        ]
+      },
+      {
+        "token": " communities",
+        "prob": 0.9276206704983712,
+        "top": [
+          {
+            "token": " communities",
+            "prob": 0.9276206704983712
+          },
+          {
+            "token": " community",
+            "prob": 0.035345216996317735
+          },
+          {
+            "token": " well",
+            "prob": 0.028156453406370553
+          },
+          {
+            "token": " local",
+            "prob": 0.007704949225835794
+          },
+          {
+            "token": " wellbeing",
+            "prob": 0.0007855982724078079
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.991315108462212,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.991315108462212
+          },
+          {
+            "token": " where",
+            "prob": 0.0076882691409420785
+          },
+          {
+            "token": " it",
+            "prob": 0.0009946659557873395
+          },
+          {
+            "token": " and",
+            "prob": 0.0000017538064813572837
+          },
+          {
+            "token": " within",
+            "prob": 1.1180114888790402e-7
+          }
+        ]
+      },
+      {
+        "token": " which",
+        "prob": 1,
+        "top": [
+          {
+            "token": " which",
+            "prob": 1
+          },
+          {
+            "token": " wh",
+            "prob": 1.0701755965689554e-8
+          },
+          {
+            "token": "which",
+            "prob": 7.989193667263522e-9
+          },
+          {
+            "token": " w",
+            "prob": 4.250254387155834e-9
+          },
+          {
+            "token": " and",
+            "prob": 1.851162531145487e-9
+          }
+        ]
+      },
+      {
+        "token": " it",
+        "prob": 0.9999993295729247,
+        "top": [
+          {
+            "token": " it",
+            "prob": 0.9999993295729247
+          },
+          {
+            "token": " they",
+            "prob": 4.2016346458304866e-7
+          },
+          {
+            "token": " we",
+            "prob": 1.3078971925241874e-7
+          },
+          {
+            "token": " its",
+            "prob": 3.3253527009382616e-8
+          },
+          {
+            "token": " the",
+            "prob": 2.1901822158515482e-8
+          }
+        ]
+      },
+      {
+        "token": " operates",
+        "prob": 1,
+        "top": [
+          {
+            "token": " operates",
+            "prob": 1
+          },
+          {
+            "token": " operate",
+            "prob": 2.6553613415680185e-8
+          },
+          {
+            "token": " does",
+            "prob": 3.952660264653635e-9
+          },
+          {
+            "token": " oper",
+            "prob": 1.298422202476877e-9
+          },
+          {
+            "token": " conducts",
+            "prob": 1.752162833937369e-10
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9999957534720165,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9999957534720165
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.000004097026873948056
+          },
+          {
+            "token": ".\n",
+            "prob": 1.7462395563548428e-7
+          },
+          {
+            "token": ",",
+            "prob": 3.995715827236429e-8
+          },
+          {
+            "token": "..",
+            "prob": 3.5972074530039145e-9
+          }
+        ]
+      },
+      {
+        "token": " Invite",
+        "prob": 0.06674120170849433,
+        "top": [
+          {
+            "token": " Discuss",
+            "prob": 0.511319898596212
+          },
+          {
+            "token": " Share",
+            "prob": 0.33754241584108935
+          },
+          {
+            "token": " Invite",
+            "prob": 0.06674120170849433
+          },
+          {
+            "token": " Address",
+            "prob": 0.022376275742992537
+          },
+          {
+            "token": " Eng",
+            "prob": 0.015312420232452264
+          }
+        ]
+      },
+      {
+        "token": " feedback",
+        "prob": 0.7108887934939284,
+        "top": [
+          {
+            "token": " feedback",
+            "prob": 0.7108887934939284
+          },
+          {
+            "token": " shareholders",
+            "prob": 0.2148763999751623
+          },
+          {
+            "token": " shareholder",
+            "prob": 0.05745212998027348
+          },
+          {
+            "token": " questions",
+            "prob": 0.011318604400300535
+          },
+          {
+            "token": " input",
+            "prob": 0.005066552362932643
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.5073288633550097,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.5073288633550097
+          },
+          {
+            "token": " from",
+            "prob": 0.48983285417432704
+          },
+          {
+            "token": " or",
+            "prob": 0.0021962465265520387
+          },
+          {
+            "token": " on",
+            "prob": 0.000640298553845356
+          },
+          {
+            "token": ",",
+            "prob": 0.0000016668298983233232
+          }
+        ]
+      },
+      {
+        "token": " questions",
+        "prob": 0.8618045363551234,
+        "top": [
+          {
+            "token": " questions",
+            "prob": 0.8618045363551234
+          },
+          {
+            "token": " input",
+            "prob": 0.09876074213531782
+          },
+          {
+            "token": " suggestions",
+            "prob": 0.01957292001435027
+          },
+          {
+            "token": " discussion",
+            "prob": 0.015177371158137493
+          },
+          {
+            "token": " engagement",
+            "prob": 0.004100452276558473
+          }
+        ]
+      },
+      {
+        "token": " from",
+        "prob": 0.9987669576222343,
+        "top": [
+          {
+            "token": " from",
+            "prob": 0.9987669576222343
+          },
+          {
+            "token": " on",
+            "prob": 0.0012236198783847246
+          },
+          {
+            "token": " regarding",
+            "prob": 0.000006878527191076264
+          },
+          {
+            "token": " related",
+            "prob": 0.0000011646033511918547
+          },
+          {
+            "token": " about",
+            "prob": 0.000001158493620243772
+          }
+        ]
+      },
+      {
+        "token": " shareholders",
+        "prob": 0.9999399679479958,
+        "top": [
+          {
+            "token": " shareholders",
+            "prob": 0.9999399679479958
+          },
+          {
+            "token": " the",
+            "prob": 0.00004782332819338143
+          },
+          {
+            "token": " stakeholders",
+            "prob": 0.000011444331683699767
+          },
+          {
+            "token": " attendees",
+            "prob": 2.696791278618473e-7
+          },
+          {
+            "token": " investors",
+            "prob": 2.022179016312075e-7
+          }
+        ]
+      },
+      {
+        "token": " on",
+        "prob": 0.9979788329146067,
+        "top": [
+          {
+            "token": " on",
+            "prob": 0.9979788329146067
+          },
+          {
+            "token": " regarding",
+            "prob": 0.0016916887307492736
+          },
+          {
+            "token": " about",
+            "prob": 0.00022799451188029453
+          },
+          {
+            "token": " to",
+            "prob": 0.00007123573281923428
+          },
+          {
+            "token": " related",
+            "prob": 0.000019711624896295728
+          }
+        ]
+      },
+      {
+        "token": " these",
+        "prob": 0.9852965136735666,
+        "top": [
+          {
+            "token": " these",
+            "prob": 0.9852965136735666
+          },
+          {
+            "token": " how",
+            "prob": 0.0142181636710914
+          },
+          {
+            "token": " the",
+            "prob": 0.0002829667948190342
+          },
+          {
+            "token": " any",
+            "prob": 0.00011006317927569124
+          },
+          {
+            "token": " this",
+            "prob": 0.000046101318845897694
+          }
+        ]
+      },
+      {
+        "token": " topics",
+        "prob": 0.7383284863171728,
+        "top": [
+          {
+            "token": " topics",
+            "prob": 0.7383284863171728
+          },
+          {
+            "token": " important",
+            "prob": 0.25692344958331476
+          },
+          {
+            "token": " issues",
+            "prob": 0.0012206344676110885
+          },
+          {
+            "token": " matters",
+            "prob": 0.0008700217905674961
+          },
+          {
+            "token": " areas",
+            "prob": 0.0007684390565130459
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.003969142113308398,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.8981843519909658
+          },
+          {
+            "token": ".",
+            "prob": 0.09625672866980477
+          },
+          {
+            "token": " and",
+            "prob": 0.003969142113308398
+          },
+          {
+            "token": ",",
+            "prob": 0.000980731535470593
+          },
+          {
+            "token": " during",
+            "prob": 0.0004430269298666755
+          }
+        ]
+      },
+      {
+        "token": " demonstrate",
+        "prob": 0.3639736150860393,
+        "top": [
+          {
+            "token": " demonstrate",
+            "prob": 0.3639736150860393
+          },
+          {
+            "token": " emphasize",
+            "prob": 0.2691750143417403
+          },
+          {
+            "token": " discuss",
+            "prob": 0.22239842465868923
+          },
+          {
+            "token": " address",
+            "prob": 0.031211489460990064
+          },
+          {
+            "token": " how",
+            "prob": 0.026524944151196238
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.8467184907192203,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.8467184907192203
+          },
+          {
+            "token": " how",
+            "prob": 0.07839708762155616
+          },
+          {
+            "token": " transparency",
+            "prob": 0.041445581557777424
+          },
+          {
+            "token": " a",
+            "prob": 0.030842776659041164
+          },
+          {
+            "token": " that",
+            "prob": 0.0007476870873014004
+          }
+        ]
+      },
+      {
+        "token": " company",
+        "prob": 0.999361630584512,
+        "top": [
+          {
+            "token": " company",
+            "prob": 0.999361630584512
+          },
+          {
+            "token": " importance",
+            "prob": 0.0005232796150289676
+          },
+          {
+            "token": " commitment",
+            "prob": 0.00006281183794157877
+          },
+          {
+            "token": " value",
+            "prob": 0.000032315485996999356
+          },
+          {
+            "token": " transparency",
+            "prob": 0.00000478062149518302
+          }
+        ]
+      },
+      {
+        "token": "'s",
+        "prob": 0.9996031332024696,
+        "top": [
+          {
+            "token": "'s",
+            "prob": 0.9996031332024696
+          },
+          {
+            "token": "’s",
+            "prob": 0.0003968352701646791
+          },
+          {
+            "token": "'",
+            "prob": 1.9617025496215056e-8
+          },
+          {
+            "token": " is",
+            "prob": 1.607873894643593e-8
+          },
+          {
+            "token": " commitment",
+            "prob": 3.2058005377305756e-9
+          }
+        ]
+      },
+      {
+        "token": " commitment",
+        "prob": 0.7075317883104172,
+        "top": [
+          {
+            "token": " commitment",
+            "prob": 0.7075317883104172
+          },
+          {
+            "token": " dedication",
+            "prob": 0.215626184042499
+          },
+          {
+            "token": " ongoing",
+            "prob": 0.05781734279227736
+          },
+          {
+            "token": " transparency",
+            "prob": 0.0073721344604210795
+          },
+          {
+            "token": " continued",
+            "prob": 0.005767105331461785
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.9999998063873687,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.9999998063873687
+          },
+          {
+            "token": " towards",
+            "prob": 7.91261834404938e-8
+          },
+          {
+            "token": " transparency",
+            "prob": 5.4040611944557355e-8
+          },
+          {
+            "token": " and",
+            "prob": 1.0252748714952304e-8
+          },
+          {
+            "token": " transparent",
+            "prob": 2.888995422274249e-9
+          }
+        ]
+      },
+      {
+        "token": " transparency",
+        "prob": 0.9447925550988532,
+        "top": [
+          {
+            "token": " transparency",
+            "prob": 0.9447925550988532
+          },
+          {
+            "token": " transparent",
+            "prob": 0.019994906757201097
+          },
+          {
+            "token": " responsible",
+            "prob": 0.017940079337161113
+          },
+          {
+            "token": " ethical",
+            "prob": 0.00965832539828589
+          },
+          {
+            "token": " accountability",
+            "prob": 0.0035739794933221064
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9999435438517084,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9999435438517084
+          },
+          {
+            "token": ",",
+            "prob": 0.00004915023156443499
+          },
+          {
+            "token": ".",
+            "prob": 0.000004223330597878413
+          },
+          {
+            "token": " in",
+            "prob": 0.00000302842765159039
+          },
+          {
+            "token": " with",
+            "prob": 2.8938732708600585e-9
+          }
+        ]
+      },
+      {
+        "token": " accountability",
+        "prob": 0.92707425513275,
+        "top": [
+          {
+            "token": " accountability",
+            "prob": 0.92707425513275
+          },
+          {
+            "token": " ethical",
+            "prob": 0.03386233311148165
+          },
+          {
+            "token": " responsible",
+            "prob": 0.02704017921650529
+          },
+          {
+            "token": " good",
+            "prob": 0.008308075378562351
+          },
+          {
+            "token": " stake",
+            "prob": 0.0025333171716250542
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9978998868300337,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9978998868300337
+          },
+          {
+            "token": " in",
+            "prob": 0.001975162313411795
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.00007283863813088985
+          },
+          {
+            "token": " to",
+            "prob": 0.000043668698237087936
+          },
+          {
+            "token": ".\n",
+            "prob": 0.000005450086924318905
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T14:56:55.343Z"
+}

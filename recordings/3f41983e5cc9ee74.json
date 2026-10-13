@@ -1,0 +1,47 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o",
+    "messages": [
+      {
+        "role": "user",
+        "content": "There are:\n12 baseballs in a box\n6 boxes in a case\n8 cases in a shipment\n2 baseballs in every box are damaged and can't be used.\n\nEach game requires 2 baseballs.\n\nHow many games can you play with a shipment? Reply with only the number, nothing else."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 600
+  },
+  "response": {
+    "text": "288",
+    "tokens": [
+      {
+        "token": "288",
+        "prob": 0.5114601138929156,
+        "top": [
+          {
+            "token": "288",
+            "prob": 0.5114601138929156
+          },
+          {
+            "token": "192",
+            "prob": 0.15598651232281419
+          },
+          {
+            "token": "384",
+            "prob": 0.10889613565445246
+          },
+          {
+            "token": "240",
+            "prob": 0.0834935634156046
+          },
+          {
+            "token": "336",
+            "prob": 0.07843494413346429
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T14:50:29.225Z"
+}

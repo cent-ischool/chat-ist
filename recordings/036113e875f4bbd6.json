@@ -1,0 +1,73 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My mom is a chef, my dad is a historian.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "museum.",
+    "tokens": [
+      {
+        "token": "museum",
+        "prob": 0.6499390807123774,
+        "top": [
+          {
+            "token": "museum",
+            "prob": 0.6499390807123774
+          },
+          {
+            "token": "It's",
+            "prob": 0.30700949219736556
+          },
+          {
+            "token": "be",
+            "prob": 0.01528510075548732
+          },
+          {
+            "token": "market",
+            "prob": 0.009270882244999796
+          },
+          {
+            "token": "farm",
+            "prob": 0.003410566979456771
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.23878368676586909,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.23878368676586909
+          },
+          {
+            "token": " or",
+            "prob": 0.1859649222379359
+          },
+          {
+            "token": " restaurant",
+            "prob": 0.14482962706271738
+          },
+          {
+            "token": " and",
+            "prob": 0.14482962706271738
+          },
+          {
+            "token": "<|end|>",
+            "prob": 0.08784361972005952
+          }
+        ]
+      }
+    ],
+    "provider": "Azure"
+  },
+  "savedAt": "2026-10-13T14:46:32.035Z"
+}

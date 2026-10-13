@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "deepseek/deepseek-v4-flash",
+    "prompt": "The quick brown fox jumps over the lazy",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "dog",
+    "tokens": [
+      {
+        "token": "dog",
+        "prob": 0.17052608547034165,
+        "top": [
+          {
+            "token": "dog",
+            "prob": 0.17052608547034165
+          },
+          {
+            "token": "This",
+            "prob": 0.21895982795218485
+          },
+          {
+            "token": "The",
+            "prob": 0.21895982795218485
+          },
+          {
+            "token": "That",
+            "prob": 0.19323136995825904
+          },
+          {
+            "token": "It",
+            "prob": 0.13280584889840336
+          }
+        ]
+      }
+    ],
+    "provider": "DigitalOcean"
+  },
+  "savedAt": "2026-10-13T16:07:05.721Z"
+}

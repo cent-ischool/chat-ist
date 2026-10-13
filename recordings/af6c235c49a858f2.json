@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "openai/gpt-4o",
+    "prompt": "All is fair in love and",
+    "temperature": 1.5,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "war",
+    "tokens": [
+      {
+        "token": "war",
+        "prob": 0.9755061357294337,
+        "top": [
+          {
+            "token": "war",
+            "prob": 0.9755061357294337
+          },
+          {
+            "token": "All",
+            "prob": 0.01266961248843199
+          },
+          {
+            "token": "\"",
+            "prob": 0.011535813445387205
+          },
+          {
+            "token": "“All",
+            "prob": 0.00008807706454513001
+          },
+          {
+            "token": "War",
+            "prob": 0.000056866826935657524
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T14:15:52.405Z"
+}

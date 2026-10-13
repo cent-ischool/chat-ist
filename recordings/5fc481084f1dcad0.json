@@ -1,0 +1,367 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My mom is a zookeeper, my dad is a firefighter.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's a lovely day to go to the **zoo**?"
+      },
+      {
+        "role": "user",
+        "content": "My mom is a zookeeper, my dad is a firefighter.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 0.7,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "It's a lovely day to go to the **fire station**?",
+    "tokens": [
+      {
+        "token": "It's",
+        "prob": 0.9999238765539077,
+        "top": [
+          {
+            "token": "It's",
+            "prob": 0.9999238765539077
+          },
+          {
+            "token": "It",
+            "prob": 0.00007484611936412656
+          },
+          {
+            "token": "\"It's",
+            "prob": 8.314652809169524e-7
+          },
+          {
+            "token": " It's",
+            "prob": 2.3821879140541234e-7
+          },
+          {
+            "token": "Sure",
+            "prob": 6.825082643988766e-8
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 1,
+        "top": [
+          {
+            "token": " a",
+            "prob": 1
+          },
+          {
+            "token": " а",
+            "prob": 4.277787868968998e-11
+          },
+          {
+            "token": "a",
+            "prob": 6.560200168153779e-12
+          },
+          {
+            "token": " also",
+            "prob": 5.789356328730652e-12
+          },
+          {
+            "token": " always",
+            "prob": 3.97896253583724e-12
+          }
+        ]
+      },
+      {
+        "token": " lovely",
+        "prob": 1,
+        "top": [
+          {
+            "token": " lovely",
+            "prob": 1
+          },
+          {
+            "token": " lively",
+            "prob": 2.061153622438558e-9
+          },
+          {
+            "token": "Lovely",
+            "prob": 1.2501528663867426e-9
+          },
+          {
+            "token": " sunny",
+            "prob": 2.172439935079017e-10
+          },
+          {
+            "token": " loving",
+            "prob": 1.6918979226151304e-10
+          }
+        ]
+      },
+      {
+        "token": " day",
+        "prob": 1,
+        "top": [
+          {
+            "token": " day",
+            "prob": 1
+          },
+          {
+            "token": "day",
+            "prob": 1.103256032343554e-9
+          },
+          {
+            "token": " way",
+            "prob": 2.172439935079017e-10
+          },
+          {
+            "token": " Day",
+            "prob": 1.6918979226151304e-10
+          },
+          {
+            "token": " day's",
+            "prob": 4.277787868968998e-11
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 1,
+        "top": [
+          {
+            "token": " to",
+            "prob": 1
+          },
+          {
+            "token": " for",
+            "prob": 5.21141248788854e-10
+          },
+          {
+            "token": "to",
+            "prob": 9.056076989672867e-11
+          },
+          {
+            "token": "-to",
+            "prob": 1.478363929001648e-11
+          },
+          {
+            "token": "\tto",
+            "prob": 1.478363929001648e-11
+          }
+        ]
+      },
+      {
+        "token": " go",
+        "prob": 1,
+        "top": [
+          {
+            "token": " go",
+            "prob": 1
+          },
+          {
+            "token": " visit",
+            "prob": 4.944450501938644e-9
+          },
+          {
+            "token": "去",
+            "prob": 1.103256032343554e-9
+          },
+          {
+            "token": "go",
+            "prob": 1.103256032343554e-9
+          },
+          {
+            "token": ".go",
+            "prob": 5.21141248788854e-10
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 1,
+        "top": [
+          {
+            "token": " to",
+            "prob": 1
+          },
+          {
+            "token": " the",
+            "prob": 6.34880011604368e-9
+          },
+          {
+            "token": " for",
+            "prob": 2.061153622438558e-9
+          },
+          {
+            "token": " on",
+            "prob": 2.061153622438558e-9
+          },
+          {
+            "token": " see",
+            "prob": 8.592166619174109e-10
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 1,
+        "top": [
+          {
+            "token": " the",
+            "prob": 1
+          },
+          {
+            "token": " **",
+            "prob": 1.186112015134383e-8
+          },
+          {
+            "token": " a",
+            "prob": 2.061153622438558e-9
+          },
+          {
+            "token": " your",
+            "prob": 5.4927883509546835e-11
+          },
+          {
+            "token": " school",
+            "prob": 3.775134544279098e-11
+          }
+        ]
+      },
+      {
+        "token": " **",
+        "prob": 0.9999998063873693,
+        "top": [
+          {
+            "token": " **",
+            "prob": 0.9999998063873693
+          },
+          {
+            "token": " ***",
+            "prob": 9.931194312156244e-8
+          },
+          {
+            "token": " ____",
+            "prob": 1.6052280551856116e-9
+          },
+          {
+            "token": " __",
+            "prob": 1.4166087866431964e-9
+          },
+          {
+            "token": " ****",
+            "prob": 4.5990553786523166e-10
+          }
+        ]
+      },
+      {
+        "token": "fire",
+        "prob": 0.9105684870978545,
+        "top": [
+          {
+            "token": "fire",
+            "prob": 0.9105684870978545
+          },
+          {
+            "token": "park",
+            "prob": 0.05137076185779197
+          },
+          {
+            "token": "wild",
+            "prob": 0.01471796969061989
+          },
+          {
+            "token": "s",
+            "prob": 0.012988562664306008
+          },
+          {
+            "token": "animal",
+            "prob": 0.008926899866082225
+          }
+        ]
+      },
+      {
+        "token": " station",
+        "prob": 0.9787693088538258,
+        "top": [
+          {
+            "token": " station",
+            "prob": 0.9787693088538258
+          },
+          {
+            "token": "house",
+            "prob": 0.020313708179615267
+          },
+          {
+            "token": "station",
+            "prob": 0.0008925222607268881
+          },
+          {
+            "token": " department",
+            "prob": 0.000012731140225314979
+          },
+          {
+            "token": "fighter",
+            "prob": 0.000004683524751564144
+          }
+        ]
+      },
+      {
+        "token": "**",
+        "prob": 0.9990544514020441,
+        "top": [
+          {
+            "token": "**",
+            "prob": 0.9990544514020441
+          },
+          {
+            "token": "!",
+            "prob": 0.0009110196921906338
+          },
+          {
+            "token": "?",
+            "prob": 0.000024277852452524813
+          },
+          {
+            "token": ".",
+            "prob": 0.000006138402401103647
+          },
+          {
+            "token": "**,",
+            "prob": 0.000003723129257923008
+          }
+        ]
+      },
+      {
+        "token": "?",
+        "prob": 0.849646372563243,
+        "top": [
+          {
+            "token": "?",
+            "prob": 0.849646372563243
+          },
+          {
+            "token": "!",
+            "prob": 0.14764640509888652
+          },
+          {
+            "token": ".",
+            "prob": 0.002704237594270405
+          },
+          {
+            "token": " ?",
+            "prob": 0.0000011648301716763195
+          },
+          {
+            "token": "!?",
+            "prob": 4.855734579474542e-7
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T14:10:57.361Z"
+}

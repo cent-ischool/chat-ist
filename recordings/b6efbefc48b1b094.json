@@ -1,0 +1,20 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is George Washington's birthday?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "George Washington's birthday is February 22, 1732.",
+    "tokens": null,
+    "provider": "Cloudflare"
+  },
+  "savedAt": "2026-10-13T14:46:43.679Z"
+}

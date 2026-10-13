@@ -1,0 +1,47 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many e's are in the word excellence? Reply with just the number."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "4",
+    "tokens": [
+      {
+        "token": "4",
+        "prob": 0.9872889718931145,
+        "top": [
+          {
+            "token": "4",
+            "prob": 0.9872889718931145
+          },
+          {
+            "token": "There",
+            "prob": 0.006652300214003439
+          },
+          {
+            "token": "3",
+            "prob": 0.002773091302717247
+          },
+          {
+            "token": "5",
+            "prob": 0.0014843288121060214
+          },
+          {
+            "token": "Four",
+            "prob": 0.0013099155791006358
+          }
+        ]
+      }
+    ],
+    "provider": "Azure"
+  },
+  "savedAt": "2026-10-13T15:18:37.311Z"
+}

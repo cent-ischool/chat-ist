@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "openai/gpt-3.5-turbo",
+    "prompt": "Add to this list, only reply with next items in the list\n\nNew York Knicks\nNew York Redbulls\nNew York Giants\nNew York Liberty\nNew York Rangers\n\nNewYorkJets\nNew",
+    "temperature": 1.5,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": " York",
+    "tokens": [
+      {
+        "token": " York",
+        "prob": 0.9469872542196419,
+        "top": [
+          {
+            "token": " York",
+            "prob": 0.9469872542196419
+          },
+          {
+            "token": "York",
+            "prob": 0.049706821588320564
+          },
+          {
+            "token": " ",
+            "prob": 0.0015200683166036108
+          },
+          {
+            "token": " Jersey",
+            "prob": 0.0008798201908055653
+          },
+          {
+            "token": " England",
+            "prob": 0.0002192627007994561
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T14:22:54.993Z"
+}

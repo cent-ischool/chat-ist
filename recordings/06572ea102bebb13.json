@@ -1,0 +1,333 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My mom is a chef, my dad is a historian.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "It's a lovely day to go to the farmer's market.",
+    "tokens": [
+      {
+        "token": "It's",
+        "prob": 0.9963570451173954,
+        "top": [
+          {
+            "token": "It's",
+            "prob": 0.9963570451173954
+          },
+          {
+            "token": "\"It's",
+            "prob": 0.002179521957869
+          },
+          {
+            "token": "It",
+            "prob": 0.001321946890964455
+          },
+          {
+            "token": "museum",
+            "prob": 0.00003108921101684344
+          },
+          {
+            "token": "\"",
+            "prob": 0.00002743613242616321
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 1,
+        "top": [
+          {
+            "token": " a",
+            "prob": 1
+          },
+          {
+            "token": " а",
+            "prob": 2.5946094982764667e-11
+          },
+          {
+            "token": "a",
+            "prob": 4.508755242294825e-12
+          },
+          {
+            "token": " A",
+            "prob": 3.97896253583724e-12
+          },
+          {
+            "token": " always",
+            "prob": 2.129785170955785e-12
+          }
+        ]
+      },
+      {
+        "token": " lovely",
+        "prob": 1,
+        "top": [
+          {
+            "token": " lovely",
+            "prob": 1
+          },
+          {
+            "token": "Lovely",
+            "prob": 3.850741922767617e-9
+          },
+          {
+            "token": " lively",
+            "prob": 1.2501528663867426e-9
+          },
+          {
+            "token": " nice",
+            "prob": 4.5990553786523166e-10
+          },
+          {
+            "token": " sunny",
+            "prob": 1.917171513758312e-10
+          }
+        ]
+      },
+      {
+        "token": " day",
+        "prob": 1,
+        "top": [
+          {
+            "token": " day",
+            "prob": 1
+          },
+          {
+            "token": " Day",
+            "prob": 1.4166087866431964e-9
+          },
+          {
+            "token": "day",
+            "prob": 6.691586091292783e-10
+          },
+          {
+            "token": " way",
+            "prob": 9.056076989672867e-11
+          },
+          {
+            "token": " day's",
+            "prob": 9.056076989672867e-11
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 1,
+        "top": [
+          {
+            "token": " to",
+            "prob": 1
+          },
+          {
+            "token": "to",
+            "prob": 4.058652126475693e-10
+          },
+          {
+            "token": " for",
+            "prob": 3.581747930283181e-10
+          },
+          {
+            "token": " TO",
+            "prob": 8.50739702194323e-11
+          },
+          {
+            "token": "-to",
+            "prob": 6.625567462588725e-11
+          }
+        ]
+      },
+      {
+        "token": " go",
+        "prob": 1,
+        "top": [
+          {
+            "token": " go",
+            "prob": 1
+          },
+          {
+            "token": " going",
+            "prob": 1.103256032343554e-9
+          },
+          {
+            "token": "go",
+            "prob": 7.582560427911907e-10
+          },
+          {
+            "token": " goes",
+            "prob": 3.160881454313692e-10
+          },
+          {
+            "token": ".go",
+            "prob": 3.160881454313692e-10
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 1,
+        "top": [
+          {
+            "token": " to",
+            "prob": 1
+          },
+          {
+            "token": " the",
+            "prob": 5.21141248788854e-10
+          },
+          {
+            "token": " for",
+            "prob": 1.026187963170189e-10
+          },
+          {
+            "token": " a",
+            "prob": 3.331544542166412e-11
+          },
+          {
+            "token": " into",
+            "prob": 3.331544542166412e-11
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 1,
+        "top": [
+          {
+            "token": " the",
+            "prob": 1
+          },
+          {
+            "token": " a",
+            "prob": 4.5990553786523166e-10
+          },
+          {
+            "token": " **",
+            "prob": 1.493094676197164e-10
+          },
+          {
+            "token": " The",
+            "prob": 5.4927883509546835e-11
+          },
+          {
+            "token": " your",
+            "prob": 3.331544542166412e-11
+          }
+        ]
+      },
+      {
+        "token": " farmer",
+        "prob": 0.683128509399886,
+        "top": [
+          {
+            "token": " farmer",
+            "prob": 0.683128509399886
+          },
+          {
+            "token": " farmers",
+            "prob": 0.1957195948150188
+          },
+          {
+            "token": " market",
+            "prob": 0.07200121516685024
+          },
+          {
+            "token": " museum",
+            "prob": 0.02648776679924564
+          },
+          {
+            "token": " **",
+            "prob": 0.01820476248059008
+          }
+        ]
+      },
+      {
+        "token": "'s",
+        "prob": 0.999088951739003,
+        "top": [
+          {
+            "token": "'s",
+            "prob": 0.999088951739003
+          },
+          {
+            "token": "’s",
+            "prob": 0.0009110514045295695
+          },
+          {
+            "token": "‘s",
+            "prob": 3.3285085150774393e-11
+          },
+          {
+            "token": " market",
+            "prob": 6.55422187635323e-12
+          },
+          {
+            "token": "\\'",
+            "prob": 5.104433129727628e-12
+          }
+        ]
+      },
+      {
+        "token": " market",
+        "prob": 0.9999996871837232,
+        "top": [
+          {
+            "token": " market",
+            "prob": 0.9999996871837232
+          },
+          {
+            "token": " markets",
+            "prob": 1.855391362615978e-7
+          },
+          {
+            "token": " Market",
+            "prob": 2.510999155743982e-8
+          },
+          {
+            "token": " mercado",
+            "prob": 7.194133030325383e-9
+          },
+          {
+            "token": "市场",
+            "prob": 4.363462252943702e-9
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.6766216664542972,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.6766216664542972
+          },
+          {
+            "token": "!",
+            "prob": 0.31961344409289705
+          },
+          {
+            "token": ",",
+            "prob": 0.0024402784683597196
+          },
+          {
+            "token": " for",
+            "prob": 0.0006991514868596974
+          },
+          {
+            "token": " and",
+            "prob": 0.0005444997254518693
+          }
+        ]
+      }
+    ],
+    "provider": "Azure"
+  },
+  "savedAt": "2026-10-13T14:46:32.468Z"
+}

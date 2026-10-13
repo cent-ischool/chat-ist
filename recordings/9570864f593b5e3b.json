@@ -1,0 +1,125 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-4-31b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "There are:\n12 baseballs in a box\n6 boxes in a case\n8 cases in a shipment\n\nEach game requires 2 baseballs.\n\nHow many games can you play with a shipment? Reply with only the number, nothing else."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 600
+  },
+  "response": {
+    "text": "288",
+    "tokens": [
+      {
+        "token": "2",
+        "prob": 0.9999731786297104,
+        "top": [
+          {
+            "token": "2",
+            "prob": 0.9999731786297104
+          },
+          {
+            "token": "1",
+            "prob": 0.000008939537509091427
+          },
+          {
+            "token": "3",
+            "prob": 0.000004784989617415373
+          },
+          {
+            "token": "//",
+            "prob": 0.000004784989617415373
+          },
+          {
+            "token": "5",
+            "prob": 0.0000029022429093690476
+          }
+        ]
+      },
+      {
+        "token": "8",
+        "prob": 0.999800840946219,
+        "top": [
+          {
+            "token": "8",
+            "prob": 0.999800840946219
+          },
+          {
+            "token": "3",
+            "prob": 0.00015842974407954475
+          },
+          {
+            "token": "야",
+            "prob": 0.00002144113428810925
+          },
+          {
+            "token": "9",
+            "prob": 0.0000044943059002235465
+          },
+          {
+            "token": " 싶",
+            "prob": 0.0000027259343226129683
+          }
+        ]
+      },
+      {
+        "token": "8",
+        "prob": 0.999998927117538,
+        "top": [
+          {
+            "token": "8",
+            "prob": 0.999998927117538
+          },
+          {
+            "token": "7",
+            "prob": 1.5381719983132275e-7
+          },
+          {
+            "token": " ",
+            "prob": 1.4449788680693535e-7
+          },
+          {
+            "token": "9",
+            "prob": 4.139929822488149e-8
+          },
+          {
+            "token": "6",
+            "prob": 3.432122370066092e-8
+          }
+        ]
+      },
+      {
+        "token": "",
+        "prob": 0.9999996423722521,
+        "top": [
+          {
+            "token": "<turn|>",
+            "prob": 0.9999996423722521
+          },
+          {
+            "token": "0",
+            "prob": 1.7429788826727445e-7
+          },
+          {
+            "token": "of",
+            "prob": 1.1253517471925912e-7
+          },
+          {
+            "token": "Of",
+            "prob": 2.510999155743982e-8
+          },
+          {
+            "token": "v",
+            "prob": 1.9555681087850496e-8
+          }
+        ]
+      }
+    ],
+    "provider": "CoreWeave"
+  },
+  "savedAt": "2026-10-13T14:50:20.254Z"
+}

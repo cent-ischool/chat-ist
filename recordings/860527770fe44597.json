@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "deepseek/deepseek-v4-flash",
+    "prompt": "I do not like green eggs and ham. I do not like them",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "...",
+    "tokens": [
+      {
+        "token": "...",
+        "prob": 0.310435539939379,
+        "top": [
+          {
+            "token": "...",
+            "prob": 0.310435539939379
+          },
+          {
+            "token": "Here",
+            "prob": 0.39860714744177317
+          },
+          {
+            "token": "This",
+            "prob": 0.18828867283767908
+          },
+          {
+            "token": "That",
+            "prob": 0.06112839443805926
+          },
+          {
+            "token": "Ah",
+            "prob": 0.01984548407997036
+          }
+        ]
+      }
+    ],
+    "provider": "DigitalOcean"
+  },
+  "savedAt": "2026-10-13T14:44:46.498Z"
+}

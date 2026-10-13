@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "prompt": "On the weekend I like to",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "...",
+    "tokens": [
+      {
+        "token": "...",
+        "prob": 0.5355475568353386,
+        "top": [
+          {
+            "token": "...",
+            "prob": 0.5355475568353386
+          },
+          {
+            "token": "It",
+            "prob": 0.3680760940956271
+          },
+          {
+            "token": "go",
+            "prob": 0.030213529279062738
+          },
+          {
+            "token": "it",
+            "prob": 0.01259487283688584
+          },
+          {
+            "token": "On",
+            "prob": 0.009808896828051458
+          }
+        ]
+      }
+    ],
+    "provider": "Parasail"
+  },
+  "savedAt": "2026-10-13T16:07:13.296Z"
+}

@@ -1,0 +1,20 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Who is the 50th US president?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "There have only been45 presidents of the United States so far. The most recent one is Joe Biden, who is the 46th president. \n\nIf you're looking for information on a specific president, please let me know and I'll be happy to help.",
+    "tokens": null,
+    "provider": "Cloudflare"
+  },
+  "savedAt": "2026-10-13T14:45:47.415Z"
+}

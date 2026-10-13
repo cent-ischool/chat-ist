@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "google/gemma-4-31b-it",
+    "prompt": "I do not like green eggs and ham. I do not like them",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "Would",
+    "tokens": [
+      {
+        "token": "Would",
+        "prob": 0.8658725541406814,
+        "top": [
+          {
+            "token": "Would",
+            "prob": 0.8658725541406814
+          },
+          {
+            "token": "With",
+            "prob": 0.132785868704159
+          },
+          {
+            "token": "with",
+            "prob": 0.0004789005048734532
+          },
+          {
+            "token": "Here",
+            "prob": 0.0003092015527158731
+          },
+          {
+            "token": "**",
+            "prob": 0.0001761777341176376
+          }
+        ]
+      }
+    ],
+    "provider": "CoreWeave"
+  },
+  "savedAt": "2026-10-13T14:44:45.680Z"
+}

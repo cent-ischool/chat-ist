@@ -1,0 +1,133 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I do not like green eggs and ham. I do not like them"
+      },
+      {
+        "role": "assistant",
+        "content": " Sam-I-Am."
+      },
+      {
+        "role": "user",
+        "content": "I do not like green eggs and ham. I do not like them"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "Sam-I-Am.",
+    "tokens": [
+      {
+        "token": "Sam",
+        "prob": 0.9979876215287403,
+        "top": [
+          {
+            "token": "Sam",
+            "prob": 0.9979876215287403
+          },
+          {
+            "token": "I",
+            "prob": 0.0005519712275808534
+          },
+          {
+            "token": "**",
+            "prob": 0.000457600220062308
+          },
+          {
+            "token": "Anywhere",
+            "prob": 0.000457600220062308
+          },
+          {
+            "token": " Sam",
+            "prob": 0.00017919890639361816
+          }
+        ]
+      },
+      {
+        "token": "-I",
+        "prob": 0.9999967070975446,
+        "top": [
+          {
+            "token": "-I",
+            "prob": 0.9999967070975446
+          },
+          {
+            "token": " I",
+            "prob": 0.0000031875662575196146
+          },
+          {
+            "token": ",",
+            "prob": 2.6465635430511496e-9
+          },
+          {
+            "token": "—I",
+            "prob": 8.592133842722118e-10
+          },
+          {
+            "token": " -",
+            "prob": 2.461687561204665e-10
+          }
+        ]
+      },
+      {
+        "token": "-Am",
+        "prob": 0.9999441398354054,
+        "top": [
+          {
+            "token": "-Am",
+            "prob": 0.9999441398354054
+          },
+          {
+            "token": "-am",
+            "prob": 0.000055622026961763473
+          },
+          {
+            "token": "-AM",
+            "prob": 1.0906679839480251e-7
+          },
+          {
+            "token": " -",
+            "prob": 2.7148872686338154e-8
+          },
+          {
+            "token": " Am",
+            "prob": 1.0466822826206513e-8
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9405372211055775,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9405372211055775
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.05560795055209415
+          },
+          {
+            "token": ".\n",
+            "prob": 0.001815663901120625
+          },
+          {
+            "token": "!",
+            "prob": 0.0013492868405036004
+          },
+          {
+            "token": ",",
+            "prob": 0.00048110303904692236
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T15:36:17.876Z"
+}

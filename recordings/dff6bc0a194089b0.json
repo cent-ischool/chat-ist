@@ -1,0 +1,55 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Complete this:\nAll is fair in love and ?"
+      },
+      {
+        "role": "assistant",
+        "content": "war"
+      },
+      {
+        "role": "user",
+        "content": "Complete this:\nAll is fair in love and ?"
+      }
+    ],
+    "temperature": 1.5,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "war",
+    "tokens": [
+      {
+        "token": "war",
+        "prob": 0.9052657759099219,
+        "top": [
+          {
+            "token": "war",
+            "prob": 0.9052657759099219
+          },
+          {
+            "token": "All",
+            "prob": 0.05787170832697444
+          },
+          {
+            "token": "War",
+            "prob": 0.01658051808506795
+          },
+          {
+            "token": "The",
+            "prob": 0.01291292046838051
+          },
+          {
+            "token": "\"",
+            "prob": 0.00609963172746779
+          }
+        ]
+      }
+    ],
+    "provider": "Azure"
+  },
+  "savedAt": "2026-10-13T14:15:17.554Z"
+}

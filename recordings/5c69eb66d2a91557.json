@@ -1,0 +1,125 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-3-27b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which is larger, 9.11 or 9.9? Reply with just the number."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "9.9\n",
+    "tokens": [
+      {
+        "token": ".",
+        "prob": 1,
+        "top": [
+          {
+            "token": ".",
+            "prob": 1
+          },
+          {
+            "token": "\\.",
+            "prob": 5.905303998944039e-10
+          },
+          {
+            "token": ",",
+            "prob": 1.0815941557285693e-11
+          },
+          {
+            "token": "٫",
+            "prob": 5.789356328730652e-12
+          },
+          {
+            "token": "9",
+            "prob": 5.789356328730652e-12
+          }
+        ]
+      },
+      {
+        "token": "9",
+        "prob": 0.9999963045256735,
+        "top": [
+          {
+            "token": "9",
+            "prob": 0.9999963045256735
+          },
+          {
+            "token": "  ",
+            "prob": 0.0000037266389560521204
+          },
+          {
+            "token": " ",
+            "prob": 4.363445607687925e-9
+          },
+          {
+            "token": "1",
+            "prob": 5.905281472039989e-10
+          },
+          {
+            "token": "",
+            "prob": 2.7894574519129143e-10
+          }
+        ]
+      },
+      {
+        "token": "\n",
+        "prob": 0.9398918407037883,
+        "top": [
+          {
+            "token": "\n",
+            "prob": 0.9398918407037883
+          },
+          {
+            "token": "<end_of_turn>",
+            "prob": 0.060085273574983056
+          },
+          {
+            "token": " ",
+            "prob": 0.000022840146981843893
+          },
+          {
+            "token": ".",
+            "prob": 1.8380220232387837e-8
+          },
+          {
+            "token": "\n\n",
+            "prob": 1.8380220232387837e-8
+          }
+        ]
+      },
+      {
+        "token": "<end_of_turn>",
+        "prob": 1,
+        "top": [
+          {
+            "token": "<end_of_turn>",
+            "prob": 1
+          },
+          {
+            "token": ".",
+            "prob": 3.0988191387218256e-12
+          },
+          {
+            "token": " ",
+            "prob": 1.463778514125909e-12
+          },
+          {
+            "token": "Reply",
+            "prob": 6.101936677605324e-13
+          },
+          {
+            "token": "\n",
+            "prob": 1.2015425731771786e-13
+          }
+        ]
+      }
+    ],
+    "provider": "NextBit"
+  },
+  "savedAt": "2026-10-13T15:18:41.978Z"
+}

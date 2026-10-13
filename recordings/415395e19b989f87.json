@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "openai/gpt-4o",
+    "prompt": "Happy birthday to",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "Thank",
+    "tokens": [
+      {
+        "token": "Thank",
+        "prob": 0.9690462881370921,
+        "top": [
+          {
+            "token": "Thank",
+            "prob": 0.9690462881370921
+          },
+          {
+            "token": "Happy",
+            "prob": 0.020750335149961545
+          },
+          {
+            "token": "It",
+            "prob": 0.004630024501260517
+          },
+          {
+            "token": "Thanks",
+            "prob": 0.002556942375135937
+          },
+          {
+            "token": "If",
+            "prob": 0.0016508860766675521
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T16:07:10.877Z"
+}

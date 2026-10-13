@@ -1,0 +1,281 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Complete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "It's a lovely day to go to the beach!",
+    "tokens": [
+      {
+        "token": "It's",
+        "prob": 0.9986753980028404,
+        "top": [
+          {
+            "token": "It's",
+            "prob": 0.9986753980028404
+          },
+          {
+            "token": "It",
+            "prob": 0.0005523516832042301
+          },
+          {
+            "token": "park",
+            "prob": 0.00037962538998841485
+          },
+          {
+            "token": "be",
+            "prob": 0.00020319882854727772
+          },
+          {
+            "token": "\"It's",
+            "prob": 0.0001396563763234289
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 1,
+        "top": [
+          {
+            "token": " a",
+            "prob": 1
+          },
+          {
+            "token": " а",
+            "prob": 3.331544542166412e-11
+          },
+          {
+            "token": " A",
+            "prob": 1.2256067444099483e-11
+          },
+          {
+            "token": "a",
+            "prob": 8.423463754468647e-12
+          },
+          {
+            "token": " always",
+            "prob": 2.7346982915918745e-12
+          }
+        ]
+      },
+      {
+        "token": " lovely",
+        "prob": 1,
+        "top": [
+          {
+            "token": " lovely",
+            "prob": 1
+          },
+          {
+            "token": "Lovely",
+            "prob": 3.398267819495071e-9
+          },
+          {
+            "token": " lively",
+            "prob": 1.8189616875530459e-9
+          },
+          {
+            "token": " lov",
+            "prob": 4.5990553786523166e-10
+          },
+          {
+            "token": " Lovely",
+            "prob": 3.160881454313692e-10
+          }
+        ]
+      },
+      {
+        "token": " day",
+        "prob": 1,
+        "top": [
+          {
+            "token": " day",
+            "prob": 1
+          },
+          {
+            "token": "day",
+            "prob": 4.058652126475693e-10
+          },
+          {
+            "token": " Day",
+            "prob": 3.160881454313692e-10
+          },
+          {
+            "token": " day's",
+            "prob": 7.05287985111216e-11
+          },
+          {
+            "token": " день",
+            "prob": 6.224144622907783e-11
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 1,
+        "top": [
+          {
+            "token": " to",
+            "prob": 1
+          },
+          {
+            "token": "to",
+            "prob": 4.058652126475693e-10
+          },
+          {
+            "token": " for",
+            "prob": 1.162823303022097e-10
+          },
+          {
+            "token": "-to",
+            "prob": 7.991959892953932e-11
+          },
+          {
+            "token": " TO",
+            "prob": 2.4374100555808313e-11
+          }
+        ]
+      },
+      {
+        "token": " go",
+        "prob": 1,
+        "top": [
+          {
+            "token": " go",
+            "prob": 1
+          },
+          {
+            "token": "go",
+            "prob": 2.646573638909117e-9
+          },
+          {
+            "token": " going",
+            "prob": 2.646573638909117e-9
+          },
+          {
+            "token": ".go",
+            "prob": 7.582560427911907e-10
+          },
+          {
+            "token": " goes",
+            "prob": 5.21141248788854e-10
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 1,
+        "top": [
+          {
+            "token": " to",
+            "prob": 1
+          },
+          {
+            "token": " for",
+            "prob": 7.582560427911907e-10
+          },
+          {
+            "token": " the",
+            "prob": 5.905303998944039e-10
+          },
+          {
+            "token": "to",
+            "prob": 3.331544542166412e-11
+          },
+          {
+            "token": " on",
+            "prob": 1.57371021068629e-11
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 1,
+        "top": [
+          {
+            "token": " the",
+            "prob": 1
+          },
+          {
+            "token": " **",
+            "prob": 7.05287985111216e-11
+          },
+          {
+            "token": " The",
+            "prob": 3.331544542166412e-11
+          },
+          {
+            "token": " a",
+            "prob": 2.020683909022217e-11
+          },
+          {
+            "token": "the",
+            "prob": 7.433680672352188e-12
+          }
+        ]
+      },
+      {
+        "token": " beach",
+        "prob": 0.49984177375662125,
+        "top": [
+          {
+            "token": " beach",
+            "prob": 0.49984177375662125
+          },
+          {
+            "token": " park",
+            "prob": 0.49984177375662125
+          },
+          {
+            "token": " **",
+            "prob": 0.0003132642966451308
+          },
+          {
+            "token": " seaside",
+            "prob": 9.9705158759423e-7
+          },
+          {
+            "token": " parks",
+            "prob": 5.336832570828147e-7
+          }
+        ]
+      },
+      {
+        "token": "!",
+        "prob": 0.9626715596583449,
+        "top": [
+          {
+            "token": "!",
+            "prob": 0.9626715596583449
+          },
+          {
+            "token": ".",
+            "prob": 0.037326825737347996
+          },
+          {
+            "token": "!\n",
+            "prob": 8.004890190995972e-7
+          },
+          {
+            "token": "!\n\n",
+            "prob": 3.78124238459113e-7
+          },
+          {
+            "token": " and",
+            "prob": 1.7861324302875263e-7
+          }
+        ]
+      }
+    ],
+    "provider": "Azure"
+  },
+  "savedAt": "2026-10-13T14:46:05.869Z"
+}

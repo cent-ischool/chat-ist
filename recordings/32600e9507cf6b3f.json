@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "deepseek/deepseek-v4-flash",
+    "prompt": "Happy birthday to",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "Happy",
+    "tokens": [
+      {
+        "token": "Happy",
+        "prob": 0.8012511876569786,
+        "top": [
+          {
+            "token": "Happy",
+            "prob": 0.8012511876569786
+          },
+          {
+            "token": "Thank",
+            "prob": 0.0844512576335837
+          },
+          {
+            "token": "Here",
+            "prob": 0.031067881464468275
+          },
+          {
+            "token": "This",
+            "prob": 0.018843622640517838
+          },
+          {
+            "token": "\"",
+            "prob": 0.011429232146587587
+          }
+        ]
+      }
+    ],
+    "provider": "Parasail"
+  },
+  "savedAt": "2026-10-13T16:07:10.990Z"
+}

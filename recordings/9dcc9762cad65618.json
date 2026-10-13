@@ -1,0 +1,20 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My mom is a zookeeper, my dad is a firefighter.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 1,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "It's a lovely day to go to the zoo.",
+    "tokens": null,
+    "provider": "Cloudflare"
+  },
+  "savedAt": "2026-10-13T14:46:16.000Z"
+}

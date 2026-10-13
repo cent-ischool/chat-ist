@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChatIST</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@400;600&family=Open+Sans:wght@400;600;700&family=Zilla+Slab:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/katex.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="bar">
+    <div class="brand-block">
+      <div class="brand-row">
+        <h1 class="brand">Chat<span class="brand-ist">IST</span></h1>
+        <button id="about-site" class="brand-q" type="button" title="What is ChatIST?" aria-label="What is ChatIST?">?</button>
+      </div>
+      <p id="brand-tagline" class="brand-tagline"></p>
+    </div>
+
+    <label class="field">
+      <span>Model</span>
+      <select id="model"></select>
+      <span id="cutoff" class="cutoff"></span>
+    </label>
+
+    <label class="field temp">
+      <span>Creativity <output id="temp-value">0.7</output></span>
+      <input id="temp" type="range" min="0" max="1.5" step="0.1" value="0.7">
+    </label>
+
+    <div class="switches">
+      <label class="switch"><input id="memory" type="checkbox" checked><span>Remember conversation</span></label>
+      <label class="switch"><input id="show-probs" type="checkbox" checked><span>Show probabilities</span></label>
+      <label class="switch"><input id="offline" type="checkbox"><span>Offline</span></label>
+    </div>
+
+    <button id="reset" class="btn btn-quiet" title="Ctrl+L">New conversation</button>
+  </header>
+
+  <div class="layout">
+    <nav class="demos" aria-label="Demo prompts">
+      <div class="tabs" role="tablist">
+        <button role="tab" id="tab-chat" class="tab" aria-selected="true">Chat</button>
+        <button role="tab" id="tab-next" class="tab" aria-selected="false">Next word</button>
+      </div>
+      <div id="presets"></div>
+    </nav>
+
+    <main class="stage">
+      <!-- Chat mode -->
+      <section id="chat-view" class="view">
+        <ol id="transcript" class="transcript" aria-live="polite">
+          <li class="empty">Pick a demo on the left, or type anything below.</li>
+        </ol>
+        <form id="chat-form" class="composer">
+          <textarea id="chat-input" rows="2" placeholder="Message the model" aria-label="Message"></textarea>
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </section>
+
+      <!-- Next-word mode -->
+      <section id="next-view" class="view" hidden>
+        <p class="hint">The model sees only this text and guesses what comes next. No chat, no instructions.</p>
+        <div id="next-text" class="next-text" contenteditable="true" spellcheck="false" aria-label="Text so far"></div>
+        <div class="next-actions">
+          <button id="next-predict" class="btn" type="button">Guess the next word</button>
+          <button id="next-take" class="btn btn-quiet" type="button" disabled>Add top guess</button>
+          <button id="next-run" class="btn btn-quiet" type="button">Keep writing</button>
+          <button id="next-undo" class="btn btn-quiet" type="button" disabled>Undo</button>
+        </div>
+        <div id="next-candidates" class="candidates"></div>
+      </section>
+    </main>
+
+    <aside class="inspector">
+      <section class="panel">
+        <h2>Its top guesses</h2>
+        <p id="probe-caption" class="caption">Click any word in an answer to see what else the model considered.</p>
+        <div id="probe" class="probe"></div>
+        <div class="legend" aria-label="Colour key">
+          <span class="chip p5">sure</span><span class="chip p4">likely</span><span class="chip p3">torn</span><span class="chip p2">unsure</span><span class="chip p1">guessing</span>
+        </div>
+      </section>
+      <section class="panel">
+        <h2>What the model received <span id="sent-count" class="count"></span></h2>
+        <ol id="sent" class="sent"></ol>
+      </section>
+    </aside>
+  </div>
+  <dialog id="about" class="about" aria-labelledby="about-title">
+    <h2 id="about-title"></h2>
+    <p id="about-tagline" class="tagline" hidden></p>
+    <p id="about-text"></p>
+    <ul id="about-points"></ul>
+    <form method="dialog"><button class="btn">Close</button></form>
+  </dialog>
+</body>
+</html>

@@ -1,0 +1,5507 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Give me 3 talking points for my meeting tomorrow."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "Certainly! Here are three talking points you might consider for your meeting:\n\n1. **Project Progress and Milestones:**\n   - Discuss the current status of ongoing projects, highlighting any recent achievements or milestones reached. Provide updates on timelines, any challenges encountered, and how they are being addressed. This will help keep everyone informed and aligned on project goals.\n\n2. **Resource Allocation and Needs:**\n   - Address any resource needs or adjustments required to meet project objectives. This could include staffing, budget considerations, or technology requirements. Emphasize the importance of optimizing resources to enhance productivity and ensure successful project delivery.\n\n3. **Strategic Initiatives and Future Planning:**\n   - Outline any strategic initiatives or future plans that are on the horizon. This could involve new opportunities for growth, potential partnerships, or market trends that the team should be aware of. Encourage input and collaboration to refine these plans and ensure they align with the overall vision and goals of the organization.\n\nTailor these points to fit the specific context and objectives of your meeting for maximum impact.",
+    "tokens": [
+      {
+        "token": "Certainly",
+        "prob": 0.7352492281458338,
+        "top": [
+          {
+            "token": "Certainly",
+            "prob": 0.7352492281458338
+          },
+          {
+            "token": "Of",
+            "prob": 0.15900879224767328
+          },
+          {
+            "token": "Sure",
+            "prob": 0.0799546514484877
+          },
+          {
+            "token": "To",
+            "prob": 0.01729140603433268
+          },
+          {
+            "token": "Absolutely",
+            "prob": 0.006361152788978813
+          }
+        ]
+      },
+      {
+        "token": "!",
+        "prob": 0.9929823607868042,
+        "top": [
+          {
+            "token": "!",
+            "prob": 0.9929823607868042
+          },
+          {
+            "token": ",",
+            "prob": 0.007011753910701141
+          },
+          {
+            "token": ".",
+            "prob": 0.0000056425925214087
+          },
+          {
+            "token": "—",
+            "prob": 6.518056917931676e-8
+          },
+          {
+            "token": ";",
+            "prob": 1.548174218057949e-8
+          }
+        ]
+      },
+      {
+        "token": " Here",
+        "prob": 0.789537040508814,
+        "top": [
+          {
+            "token": " Here",
+            "prob": 0.789537040508814
+          },
+          {
+            "token": " To",
+            "prob": 0.18176173922847194
+          },
+          {
+            "token": " Without",
+            "prob": 0.006028189424083577
+          },
+          {
+            "token": " Here's",
+            "prob": 0.004479769993201278
+          },
+          {
+            "token": " When",
+            "prob": 0.004078876995409128
+          }
+        ]
+      },
+      {
+        "token": " are",
+        "prob": 0.999560010498385,
+        "top": [
+          {
+            "token": " are",
+            "prob": 0.999560010498385
+          },
+          {
+            "token": "’s",
+            "prob": 0.0003682714997712948
+          },
+          {
+            "token": " is",
+            "prob": 0.00004330187402540813
+          },
+          {
+            "token": " they",
+            "prob": 0.000017495538649333868
+          },
+          {
+            "token": " you",
+            "prob": 0.000008329125045475067
+          }
+        ]
+      },
+      {
+        "token": " three",
+        "prob": 0.999997064707474,
+        "top": [
+          {
+            "token": " three",
+            "prob": 0.999997064707474
+          },
+          {
+            "token": " some",
+            "prob": 0.00000177414780351458
+          },
+          {
+            "token": " ",
+            "prob": 5.163064455489795e-7
+          },
+          {
+            "token": " a",
+            "prob": 3.2436088091336335e-7
+          },
+          {
+            "token": " the",
+            "prob": 1.290218443307768e-7
+          }
+        ]
+      },
+      {
+        "token": " talking",
+        "prob": 0.7087052546713608,
+        "top": [
+          {
+            "token": " talking",
+            "prob": 0.7087052546713608
+          },
+          {
+            "token": " general",
+            "prob": 0.13109729403777468
+          },
+          {
+            "token": " versatile",
+            "prob": 0.06389171837649178
+          },
+          {
+            "token": " potential",
+            "prob": 0.05054250927991537
+          },
+          {
+            "token": " tailored",
+            "prob": 0.011277558189931017
+          }
+        ]
+      },
+      {
+        "token": " points",
+        "prob": 0.9999694099191822,
+        "top": [
+          {
+            "token": " points",
+            "prob": 0.9999694099191822
+          },
+          {
+            "token": " point",
+            "prob": 0.000030241950212505485
+          },
+          {
+            "token": "-point",
+            "prob": 1.5381265246164215e-7
+          },
+          {
+            "token": "-p",
+            "prob": 3.124893574268133e-8
+          },
+          {
+            "token": " pointers",
+            "prob": 2.4336695626548226e-8
+          }
+        ]
+      },
+      {
+        "token": " you",
+        "prob": 0.683738283621885,
+        "top": [
+          {
+            "token": " you",
+            "prob": 0.683738283621885
+          },
+          {
+            "token": " that",
+            "prob": 0.1958942863784135
+          },
+          {
+            "token": " for",
+            "prob": 0.0597443818343657
+          },
+          {
+            "token": " tailored",
+            "prob": 0.030994976981885303
+          },
+          {
+            "token": " to",
+            "prob": 0.027783717801351825
+          }
+        ]
+      },
+      {
+        "token": " might",
+        "prob": 0.565204836286708,
+        "top": [
+          {
+            "token": " might",
+            "prob": 0.565204836286708
+          },
+          {
+            "token": " can",
+            "prob": 0.34281404179243824
+          },
+          {
+            "token": " could",
+            "prob": 0.09083667810573687
+          },
+          {
+            "token": " may",
+            "prob": 0.0011434650248252059
+          },
+          {
+            "token": " should",
+            "prob": 4.590968573099995e-7
+          }
+        ]
+      },
+      {
+        "token": " consider",
+        "prob": 0.9756482989686427,
+        "top": [
+          {
+            "token": " consider",
+            "prob": 0.9756482989686427
+          },
+          {
+            "token": " find",
+            "prob": 0.0225893167117953
+          },
+          {
+            "token": " use",
+            "prob": 0.001197190211815984
+          },
+          {
+            "token": " want",
+            "prob": 0.0005230136692977863
+          },
+          {
+            "token": " incorporate",
+            "prob": 0.000018320939179909293
+          }
+        ]
+      },
+      {
+        "token": " for",
+        "prob": 0.9111685425562499,
+        "top": [
+          {
+            "token": " for",
+            "prob": 0.9111685425562499
+          },
+          {
+            "token": " using",
+            "prob": 0.03216818516277125
+          },
+          {
+            "token": ",",
+            "prob": 0.02076934134820284
+          },
+          {
+            "token": " incorporating",
+            "prob": 0.012597239306306088
+          },
+          {
+            "token": ":\n\n",
+            "prob": 0.010443478193614415
+          }
+        ]
+      },
+      {
+        "token": " your",
+        "prob": 0.9953375080141827,
+        "top": [
+          {
+            "token": " your",
+            "prob": 0.9953375080141827
+          },
+          {
+            "token": " a",
+            "prob": 0.004398250279102265
+          },
+          {
+            "token": " tomorrow",
+            "prob": 0.00009566356967323711
+          },
+          {
+            "token": " an",
+            "prob": 0.00009344752546856857
+          },
+          {
+            "token": " the",
+            "prob": 0.00003546868000951754
+          }
+        ]
+      },
+      {
+        "token": " meeting",
+        "prob": 0.9974072557128771,
+        "top": [
+          {
+            "token": " meeting",
+            "prob": 0.9974072557128771
+          },
+          {
+            "token": " upcoming",
+            "prob": 0.0025909753232078525
+          },
+          {
+            "token": " next",
+            "prob": 5.271815231599284e-7
+          },
+          {
+            "token": " forthcoming",
+            "prob": 3.8871927906481563e-7
+          },
+          {
+            "token": " meetings",
+            "prob": 2.490229187638128e-7
+          }
+        ]
+      },
+      {
+        "token": ":\n\n",
+        "prob": 0.7744483366871477,
+        "top": [
+          {
+            "token": ":\n\n",
+            "prob": 0.7744483366871477
+          },
+          {
+            "token": ",",
+            "prob": 0.1674862087177304
+          },
+          {
+            "token": ".",
+            "prob": 0.034026887191941954
+          },
+          {
+            "token": " tomorrow",
+            "prob": 0.022666793495040475
+          },
+          {
+            "token": ":",
+            "prob": 0.0011110172219714384
+          }
+        ]
+      },
+      {
+        "token": "1",
+        "prob": 0.9973285139057562,
+        "top": [
+          {
+            "token": "1",
+            "prob": 0.9973285139057562
+          },
+          {
+            "token": "###",
+            "prob": 0.002631568937553016
+          },
+          {
+            "token": "**",
+            "prob": 0.000036382413107830325
+          },
+          {
+            "token": "####",
+            "prob": 0.0000017556435792287755
+          },
+          {
+            "token": "---\n\n",
+            "prob": 0.0000017556435792287755
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 1,
+        "top": [
+          {
+            "token": ".",
+            "prob": 1
+          },
+          {
+            "token": "\\.",
+            "prob": 1.2626096677664469e-8
+          },
+          {
+            "token": ")",
+            "prob": 9.530677790842976e-9
+          },
+          {
+            "token": " **",
+            "prob": 2.7735853597511714e-9
+          },
+          {
+            "token": ":",
+            "prob": 7.823256733461685e-10
+          }
+        ]
+      },
+      {
+        "token": " **",
+        "prob": 0.9999846676393996,
+        "top": [
+          {
+            "token": " **",
+            "prob": 0.9999846676393996
+          },
+          {
+            "token": " ***",
+            "prob": 0.000011843098574861054
+          },
+          {
+            "token": " Project",
+            "prob": 0.0000017880404493514434
+          },
+          {
+            "token": " ###",
+            "prob": 9.874497191449226e-7
+          },
+          {
+            "token": " Progress",
+            "prob": 3.9896575181565797e-7
+          }
+        ]
+      },
+      {
+        "token": "Project",
+        "prob": 0.6592154106099162,
+        "top": [
+          {
+            "token": "Project",
+            "prob": 0.6592154106099162
+          },
+          {
+            "token": "Progress",
+            "prob": 0.283525023580367
+          },
+          {
+            "token": "Current",
+            "prob": 0.043479970590874745
+          },
+          {
+            "token": "Performance",
+            "prob": 0.003100846527037754
+          },
+          {
+            "token": "Strateg",
+            "prob": 0.002912975733279066
+          }
+        ]
+      },
+      {
+        "token": " Progress",
+        "prob": 0.4621500734649259,
+        "top": [
+          {
+            "token": " Progress",
+            "prob": 0.4621500734649259
+          },
+          {
+            "token": " Updates",
+            "prob": 0.4015229420793067
+          },
+          {
+            "token": " Update",
+            "prob": 0.0803096407319131
+          },
+          {
+            "token": " Status",
+            "prob": 0.03793558814440317
+          },
+          {
+            "token": " Mil",
+            "prob": 0.014175490245774369
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9550255571909718,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9550255571909718
+          },
+          {
+            "token": " Update",
+            "prob": 0.038205829513298976
+          },
+          {
+            "token": " &",
+            "prob": 0.004090278697902876
+          },
+          {
+            "token": " Updates",
+            "prob": 0.002024834783894474
+          },
+          {
+            "token": " Overview",
+            "prob": 0.0003410378226558027
+          }
+        ]
+      },
+      {
+        "token": " Mil",
+        "prob": 0.8196600055493733,
+        "top": [
+          {
+            "token": " Mil",
+            "prob": 0.8196600055493733
+          },
+          {
+            "token": " Updates",
+            "prob": 0.09053754503122177
+          },
+          {
+            "token": " Challenges",
+            "prob": 0.030326278894918804
+          },
+          {
+            "token": " Key",
+            "prob": 0.01727938873259681
+          },
+          {
+            "token": " Ach",
+            "prob": 0.013884378906189947
+          }
+        ]
+      },
+      {
+        "token": "estones",
+        "prob": 0.9998726315164257,
+        "top": [
+          {
+            "token": "estones",
+            "prob": 0.9998726315164257
+          },
+          {
+            "token": "estone",
+            "prob": 0.00012731098137703234
+          },
+          {
+            "token": "est",
+            "prob": 2.093344538507781e-9
+          },
+          {
+            "token": "eston",
+            "prob": 1.5801393582730755e-9
+          },
+          {
+            "token": " milestones",
+            "prob": 6.79609469457677e-10
+          }
+        ]
+      },
+      {
+        "token": ":",
+        "prob": 0.6500480831200733,
+        "top": [
+          {
+            "token": ":",
+            "prob": 0.6500480831200733
+          },
+          {
+            "token": "**",
+            "prob": 0.31680815258825995
+          },
+          {
+            "token": ":**",
+            "prob": 0.019325421276369208
+          },
+          {
+            "token": " Ach",
+            "prob": 0.008442651295275501
+          },
+          {
+            "token": "**\n",
+            "prob": 0.005283276179250898
+          }
+        ]
+      },
+      {
+        "token": "**\n",
+        "prob": 0.999927333198781,
+        "top": [
+          {
+            "token": "**\n",
+            "prob": 0.999927333198781
+          },
+          {
+            "token": "**\n\n",
+            "prob": 0.00007254362309072772
+          },
+          {
+            "token": " **\n",
+            "prob": 7.379702046573311e-8
+          },
+          {
+            "token": "**",
+            "prob": 1.8369530808110295e-8
+          },
+          {
+            "token": "**\r\n",
+            "prob": 8.677151943296927e-9
+          }
+        ]
+      },
+      {
+        "token": "  ",
+        "prob": 0.9998179291746961,
+        "top": [
+          {
+            "token": "  ",
+            "prob": 0.9998179291746961
+          },
+          {
+            "token": "   ",
+            "prob": 0.00017952750119086373
+          },
+          {
+            "token": "  ",
+            "prob": 0.000001084320372750434
+          },
+          {
+            "token": "    ",
+            "prob": 7.111146617976175e-7
+          },
+          {
+            "token": " ",
+            "prob": 2.616044643909267e-7
+          }
+        ]
+      },
+      {
+        "token": " -",
+        "prob": 0.9982619568779791,
+        "top": [
+          {
+            "token": " -",
+            "prob": 0.9982619568779791
+          },
+          {
+            "token": " Discuss",
+            "prob": 0.0014098957662738083
+          },
+          {
+            "token": " Begin",
+            "prob": 0.0001533190517952073
+          },
+          {
+            "token": " Highlight",
+            "prob": 0.00010871948751342121
+          },
+          {
+            "token": " *",
+            "prob": 0.000026229797036517233
+          }
+        ]
+      },
+      {
+        "token": " Discuss",
+        "prob": 0.4024305343983122,
+        "top": [
+          {
+            "token": " Discuss",
+            "prob": 0.4024305343983122
+          },
+          {
+            "token": " Provide",
+            "prob": 0.17857746713374256
+          },
+          {
+            "token": " Highlight",
+            "prob": 0.12663038598854817
+          },
+          {
+            "token": " Begin",
+            "prob": 0.08979438958891361
+          },
+          {
+            "token": " Update",
+            "prob": 0.0870317066590917
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.987028981430051,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.987028981430051
+          },
+          {
+            "token": " recent",
+            "prob": 0.008022093940116763
+          },
+          {
+            "token": " current",
+            "prob": 0.0027293800011280464
+          },
+          {
+            "token": " any",
+            "prob": 0.0008068031872637381
+          },
+          {
+            "token": " where",
+            "prob": 0.0007232137029579892
+          }
+        ]
+      },
+      {
+        "token": " current",
+        "prob": 0.9954738163573452,
+        "top": [
+          {
+            "token": " current",
+            "prob": 0.9954738163573452
+          },
+          {
+            "token": " status",
+            "prob": 0.0014059576193986953
+          },
+          {
+            "token": " progress",
+            "prob": 0.001300298235733164
+          },
+          {
+            "token": " latest",
+            "prob": 0.0007180928866262925
+          },
+          {
+            "token": " recent",
+            "prob": 0.000493537542154312
+          }
+        ]
+      },
+      {
+        "token": " status",
+        "prob": 0.9941925343788726,
+        "top": [
+          {
+            "token": " status",
+            "prob": 0.9941925343788726
+          },
+          {
+            "token": " progress",
+            "prob": 0.003938030452190329
+          },
+          {
+            "token": " state",
+            "prob": 0.0017203980923651803
+          },
+          {
+            "token": " stage",
+            "prob": 0.0001246252792390732
+          },
+          {
+            "token": " phase",
+            "prob": 0.000012436354141500873
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9992291456382393,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9992291456382393
+          },
+          {
+            "token": " and",
+            "prob": 0.0007672897589887811
+          },
+          {
+            "token": ",",
+            "prob": 0.0000021052338117725475
+          },
+          {
+            "token": " updates",
+            "prob": 5.322864660430566e-7
+          },
+          {
+            "token": " or",
+            "prob": 1.89792584326459e-7
+          }
+        ]
+      },
+      {
+        "token": " ongoing",
+        "prob": 0.685108642272274,
+        "top": [
+          {
+            "token": " ongoing",
+            "prob": 0.685108642272274
+          },
+          {
+            "token": " your",
+            "prob": 0.12092885503342132
+          },
+          {
+            "token": " the",
+            "prob": 0.11010697549775421
+          },
+          {
+            "token": " key",
+            "prob": 0.04311851114128499
+          },
+          {
+            "token": " any",
+            "prob": 0.033060109274999167
+          }
+        ]
+      },
+      {
+        "token": " projects",
+        "prob": 0.9999838332275324,
+        "top": [
+          {
+            "token": " projects",
+            "prob": 0.9999838332275324
+          },
+          {
+            "token": " initiatives",
+            "prob": 0.000014738960258496015
+          },
+          {
+            "token": " project",
+            "prob": 0.0000012778536640178755
+          },
+          {
+            "token": " tasks",
+            "prob": 1.5261785610415832e-7
+          },
+          {
+            "token": " or",
+            "prob": 4.72788513491667e-8
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.8444160753169097,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.8444160753169097
+          },
+          {
+            "token": ".",
+            "prob": 0.09623281941615727
+          },
+          {
+            "token": " and",
+            "prob": 0.04838890043961897
+          },
+          {
+            "token": " or",
+            "prob": 0.004643741772111778
+          },
+          {
+            "token": ".\n",
+            "prob": 0.0037313513402746556
+          }
+        ]
+      },
+      {
+        "token": " highlighting",
+        "prob": 0.8797114735401426,
+        "top": [
+          {
+            "token": " highlighting",
+            "prob": 0.8797114735401426
+          },
+          {
+            "token": " including",
+            "prob": 0.06998941994910692
+          },
+          {
+            "token": " emphasizing",
+            "prob": 0.0320434914237449
+          },
+          {
+            "token": " focusing",
+            "prob": 0.012548408548134164
+          },
+          {
+            "token": " highlight",
+            "prob": 0.003075119765478925
+          }
+        ]
+      },
+      {
+        "token": " any",
+        "prob": 0.5384543336071177,
+        "top": [
+          {
+            "token": " any",
+            "prob": 0.5384543336071177
+          },
+          {
+            "token": " key",
+            "prob": 0.31654095422161543
+          },
+          {
+            "token": " recent",
+            "prob": 0.10769763560982316
+          },
+          {
+            "token": " major",
+            "prob": 0.0110020087400268
+          },
+          {
+            "token": " completed",
+            "prob": 0.009120985603957474
+          }
+        ]
+      },
+      {
+        "token": " recent",
+        "prob": 0.23508782615484988,
+        "top": [
+          {
+            "token": " recent",
+            "prob": 0.23508782615484988
+          },
+          {
+            "token": " key",
+            "prob": 0.19187309167871952
+          },
+          {
+            "token": " significant",
+            "prob": 0.1719939277899793
+          },
+          {
+            "token": " completed",
+            "prob": 0.12007111264593842
+          },
+          {
+            "token": " major",
+            "prob": 0.11457265607709174
+          }
+        ]
+      },
+      {
+        "token": " achievements",
+        "prob": 0.8204240346290056,
+        "top": [
+          {
+            "token": " achievements",
+            "prob": 0.8204240346290056
+          },
+          {
+            "token": " accomplishments",
+            "prob": 0.08783379774379066
+          },
+          {
+            "token": " milestones",
+            "prob": 0.07281677588997042
+          },
+          {
+            "token": " successes",
+            "prob": 0.01305532541475126
+          },
+          {
+            "token": " progress",
+            "prob": 0.004372986250677947
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.8429377994418421,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.8429377994418421
+          },
+          {
+            "token": " and",
+            "prob": 0.15113042418221717
+          },
+          {
+            "token": ",",
+            "prob": 0.004934582557225594
+          },
+          {
+            "token": ".",
+            "prob": 0.0007807643377661777
+          },
+          {
+            "token": ".\n",
+            "prob": 0.00015135807089651008
+          }
+        ]
+      },
+      {
+        "token": " milestones",
+        "prob": 0.616394687432108,
+        "top": [
+          {
+            "token": " milestones",
+            "prob": 0.616394687432108
+          },
+          {
+            "token": " completed",
+            "prob": 0.36235975421422634
+          },
+          {
+            "token": " key",
+            "prob": 0.005168784909486343
+          },
+          {
+            "token": " challenges",
+            "prob": 0.0031843960051286943
+          },
+          {
+            "token": " significant",
+            "prob": 0.002558734073686172
+          }
+        ]
+      },
+      {
+        "token": " reached",
+        "prob": 0.79373780524712,
+        "top": [
+          {
+            "token": " reached",
+            "prob": 0.79373780524712
+          },
+          {
+            "token": ".",
+            "prob": 0.09479846210617496
+          },
+          {
+            "token": " that",
+            "prob": 0.06935603647698359
+          },
+          {
+            "token": " met",
+            "prob": 0.03712361116108543
+          },
+          {
+            "token": ".\n",
+            "prob": 0.0015322747945423426
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9008755165992628,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9008755165992628
+          },
+          {
+            "token": ".\n",
+            "prob": 0.07749721823573276
+          },
+          {
+            "token": " since",
+            "prob": 0.021520200280880152
+          },
+          {
+            "token": " by",
+            "prob": 0.0000879481398579274
+          },
+          {
+            "token": ",",
+            "prob": 0.000006573177287265341
+          }
+        ]
+      },
+      {
+        "token": " Provide",
+        "prob": 0.3001108457069991,
+        "top": [
+          {
+            "token": " Provide",
+            "prob": 0.3001108457069991
+          },
+          {
+            "token": " This",
+            "prob": 0.18780456835235065
+          },
+          {
+            "token": " Em",
+            "prob": 0.1657369498621864
+          },
+          {
+            "token": " \n",
+            "prob": 0.08733724562412784
+          },
+          {
+            "token": " Share",
+            "prob": 0.05909533641982524
+          }
+        ]
+      },
+      {
+        "token": " updates",
+        "prob": 0.36540945655273754,
+        "top": [
+          {
+            "token": " updates",
+            "prob": 0.36540945655273754
+          },
+          {
+            "token": " an",
+            "prob": 0.2845811709049685
+          },
+          {
+            "token": " a",
+            "prob": 0.25114200185753205
+          },
+          {
+            "token": " specific",
+            "prob": 0.05102259243784571
+          },
+          {
+            "token": " insights",
+            "prob": 0.013732544457343442
+          }
+        ]
+      },
+      {
+        "token": " on",
+        "prob": 0.9997010478316865,
+        "top": [
+          {
+            "token": " on",
+            "prob": 0.9997010478316865
+          },
+          {
+            "token": " about",
+            "prob": 0.0001313297195624008
+          },
+          {
+            "token": " with",
+            "prob": 0.00006920589897050196
+          },
+          {
+            "token": " that",
+            "prob": 0.0000275282046916395
+          },
+          {
+            "token": " regarding",
+            "prob": 0.00002211953388286545
+          }
+        ]
+      },
+      {
+        "token": " timelines",
+        "prob": 0.7987333945926193,
+        "top": [
+          {
+            "token": " timelines",
+            "prob": 0.7987333945926193
+          },
+          {
+            "token": " key",
+            "prob": 0.07546373211702444
+          },
+          {
+            "token": " any",
+            "prob": 0.05351179899398169
+          },
+          {
+            "token": " deadlines",
+            "prob": 0.014402505313160188
+          },
+          {
+            "token": " upcoming",
+            "prob": 0.010703033131482177
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.5037478489876915,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.5037478489876915
+          },
+          {
+            "token": " and",
+            "prob": 0.4959379624775209
+          },
+          {
+            "token": " or",
+            "prob": 0.0002458769290260438
+          },
+          {
+            "token": " for",
+            "prob": 0.00004477751527436984
+          },
+          {
+            "token": " to",
+            "prob": 0.000017398667489665427
+          }
+        ]
+      },
+      {
+        "token": " any",
+        "prob": 0.29361793214294346,
+        "top": [
+          {
+            "token": " any",
+            "prob": 0.29361793214294346
+          },
+          {
+            "token": " budget",
+            "prob": 0.2181983194862409
+          },
+          {
+            "token": " resource",
+            "prob": 0.169933022080749
+          },
+          {
+            "token": " resources",
+            "prob": 0.070838631239276
+          },
+          {
+            "token": " budgets",
+            "prob": 0.05603796967378111
+          }
+        ]
+      },
+      {
+        "token": " challenges",
+        "prob": 0.5314350694083304,
+        "top": [
+          {
+            "token": " challenges",
+            "prob": 0.5314350694083304
+          },
+          {
+            "token": " adjustments",
+            "prob": 0.17800845079088262
+          },
+          {
+            "token": " potential",
+            "prob": 0.08812057309770767
+          },
+          {
+            "token": " shifts",
+            "prob": 0.05601284422061857
+          },
+          {
+            "token": " obstacles",
+            "prob": 0.047167543838191106
+          }
+        ]
+      },
+      {
+        "token": " encountered",
+        "prob": 0.5359841283397369,
+        "top": [
+          {
+            "token": " encountered",
+            "prob": 0.5359841283397369
+          },
+          {
+            "token": " faced",
+            "prob": 0.4443464492761826
+          },
+          {
+            "token": " that",
+            "prob": 0.011477111275119467
+          },
+          {
+            "token": " overcome",
+            "prob": 0.005254604438514844
+          },
+          {
+            "token": " being",
+            "prob": 0.0009720040849956104
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9992037934389296,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9992037934389296
+          },
+          {
+            "token": " and",
+            "prob": 0.0007096090892640865
+          },
+          {
+            "token": " along",
+            "prob": 0.00007026081453398786
+          },
+          {
+            "token": " so",
+            "prob": 0.000008261360140607694
+          },
+          {
+            "token": " or",
+            "prob": 0.000004353430869683463
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9998480789960419,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9998480789960419
+          },
+          {
+            "token": " solutions",
+            "prob": 0.00005475446532114397
+          },
+          {
+            "token": " or",
+            "prob": 0.00005306984752523519
+          },
+          {
+            "token": " how",
+            "prob": 0.00003023828763096789
+          },
+          {
+            "token": " resolutions",
+            "prob": 0.000003935533393440045
+          }
+        ]
+      },
+      {
+        "token": " how",
+        "prob": 0.39984078066147555,
+        "top": [
+          {
+            "token": " how",
+            "prob": 0.39984078066147555
+          },
+          {
+            "token": " strategies",
+            "prob": 0.1859432203017426
+          },
+          {
+            "token": " the",
+            "prob": 0.14481272557781588
+          },
+          {
+            "token": " solutions",
+            "prob": 0.12194454106126693
+          },
+          {
+            "token": " steps",
+            "prob": 0.06734417158508971
+          }
+        ]
+      },
+      {
+        "token": " they",
+        "prob": 0.772283798379552,
+        "top": [
+          {
+            "token": " they",
+            "prob": 0.772283798379552
+          },
+          {
+            "token": " these",
+            "prob": 0.0624100910435979
+          },
+          {
+            "token": " those",
+            "prob": 0.055076712035997746
+          },
+          {
+            "token": " the",
+            "prob": 0.05014791697952038
+          },
+          {
+            "token": " they're",
+            "prob": 0.025215956226767977
+          }
+        ]
+      },
+      {
+        "token": " are",
+        "prob": 0.5338146237006646,
+        "top": [
+          {
+            "token": " are",
+            "prob": 0.5338146237006646
+          },
+          {
+            "token": " were",
+            "prob": 0.40928986936283623
+          },
+          {
+            "token": " have",
+            "prob": 0.04116336868485365
+          },
+          {
+            "token": "’re",
+            "prob": 0.010738106298906711
+          },
+          {
+            "token": "’ve",
+            "prob": 0.004618401969783071
+          }
+        ]
+      },
+      {
+        "token": " being",
+        "prob": 0.9999821644040676,
+        "top": [
+          {
+            "token": " being",
+            "prob": 0.9999821644040676
+          },
+          {
+            "token": " or",
+            "prob": 0.000011843064691532713
+          },
+          {
+            "token": " addressed",
+            "prob": 0.0000047108456627924405
+          },
+          {
+            "token": "/w",
+            "prob": 3.359618853714781e-7
+          },
+          {
+            "token": " managed",
+            "prob": 3.0589677765950214e-7
+          }
+        ]
+      },
+      {
+        "token": " addressed",
+        "prob": 0.9942243502172047,
+        "top": [
+          {
+            "token": " addressed",
+            "prob": 0.9942243502172047
+          },
+          {
+            "token": " managed",
+            "prob": 0.004901114661495207
+          },
+          {
+            "token": " resolved",
+            "prob": 0.0003663055935835078
+          },
+          {
+            "token": " mitig",
+            "prob": 0.0002365046667194861
+          },
+          {
+            "token": " or",
+            "prob": 0.00017303051049079272
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9917813442369695,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9917813442369695
+          },
+          {
+            "token": " to",
+            "prob": 0.004117012003120079
+          },
+          {
+            "token": ".\n",
+            "prob": 0.003059503531780708
+          },
+          {
+            "token": ",",
+            "prob": 0.0006215758439830834
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.00037115988894236544
+          }
+        ]
+      },
+      {
+        "token": " This",
+        "prob": 0.7738117421242122,
+        "top": [
+          {
+            "token": " This",
+            "prob": 0.7738117421242122
+          },
+          {
+            "token": " Em",
+            "prob": 0.13873679639386854
+          },
+          {
+            "token": " Encourage",
+            "prob": 0.019071664627541073
+          },
+          {
+            "token": " If",
+            "prob": 0.008331791239065758
+          },
+          {
+            "token": " Invite",
+            "prob": 0.007705647239415139
+          }
+        ]
+      },
+      {
+        "token": " will",
+        "prob": 0.6432008456372804,
+        "top": [
+          {
+            "token": " will",
+            "prob": 0.6432008456372804
+          },
+          {
+            "token": " sets",
+            "prob": 0.0856982180579749
+          },
+          {
+            "token": " can",
+            "prob": 0.07802911549359169
+          },
+          {
+            "token": " helps",
+            "prob": 0.06468840881004893
+          },
+          {
+            "token": " ensures",
+            "prob": 0.04882937275947953
+          }
+        ]
+      },
+      {
+        "token": " help",
+        "prob": 0.5704501211346215,
+        "top": [
+          {
+            "token": " help",
+            "prob": 0.5704501211346215
+          },
+          {
+            "token": " ensure",
+            "prob": 0.2165184310710552
+          },
+          {
+            "token": " keep",
+            "prob": 0.16862472366752979
+          },
+          {
+            "token": " set",
+            "prob": 0.019217103230862297
+          },
+          {
+            "token": " give",
+            "prob": 0.008798233073359814
+          }
+        ]
+      },
+      {
+        "token": " keep",
+        "prob": 0.6831098406206485,
+        "top": [
+          {
+            "token": " keep",
+            "prob": 0.6831098406206485
+          },
+          {
+            "token": " align",
+            "prob": 0.14544248222159487
+          },
+          {
+            "token": " ensure",
+            "prob": 0.10153520423031609
+          },
+          {
+            "token": " in",
+            "prob": 0.01683618733767364
+          },
+          {
+            "token": " to",
+            "prob": 0.015570927878333163
+          }
+        ]
+      },
+      {
+        "token": " everyone",
+        "prob": 0.8233694501453218,
+        "top": [
+          {
+            "token": " everyone",
+            "prob": 0.8233694501453218
+          },
+          {
+            "token": " the",
+            "prob": 0.134411371833678
+          },
+          {
+            "token": " all",
+            "prob": 0.030463524087750417
+          },
+          {
+            "token": " team",
+            "prob": 0.005293766712126014
+          },
+          {
+            "token": " stakeholders",
+            "prob": 0.004320646467726733
+          }
+        ]
+      },
+      {
+        "token": " informed",
+        "prob": 0.8299710634520121,
+        "top": [
+          {
+            "token": " informed",
+            "prob": 0.8299710634520121
+          },
+          {
+            "token": " aligned",
+            "prob": 0.1272801887111785
+          },
+          {
+            "token": " on",
+            "prob": 0.03762395191774956
+          },
+          {
+            "token": " in",
+            "prob": 0.005012905204938221
+          },
+          {
+            "token": " aware",
+            "prob": 0.000056565337394074144
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9931032160546911,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9931032160546911
+          },
+          {
+            "token": " about",
+            "prob": 0.0058136550210293614
+          },
+          {
+            "token": " on",
+            "prob": 0.0006625458370388135
+          },
+          {
+            "token": " of",
+            "prob": 0.0002805395584748779
+          },
+          {
+            "token": ",",
+            "prob": 0.00013887715195289092
+          }
+        ]
+      },
+      {
+        "token": " aligned",
+        "prob": 0.9546803722183176,
+        "top": [
+          {
+            "token": " aligned",
+            "prob": 0.9546803722183176
+          },
+          {
+            "token": " engaged",
+            "prob": 0.013617785101526374
+          },
+          {
+            "token": " align",
+            "prob": 0.012399134433986424
+          },
+          {
+            "token": " focused",
+            "prob": 0.007520455188111415
+          },
+          {
+            "token": " ensure",
+            "prob": 0.006847452371069677
+          }
+        ]
+      },
+      {
+        "token": " on",
+        "prob": 0.9289374122275885,
+        "top": [
+          {
+            "token": " on",
+            "prob": 0.9289374122275885
+          },
+          {
+            "token": " with",
+            "prob": 0.05000716329737674
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.014105171448427252
+          },
+          {
+            "token": ",",
+            "prob": 0.005610649563391667
+          },
+          {
+            "token": " while",
+            "prob": 0.00041283449680396217
+          }
+        ]
+      },
+      {
+        "token": " project",
+        "prob": 0.5204740459141236,
+        "top": [
+          {
+            "token": " project",
+            "prob": 0.5204740459141236
+          },
+          {
+            "token": " the",
+            "prob": 0.38078694645186484
+          },
+          {
+            "token": " priorities",
+            "prob": 0.04407929373027568
+          },
+          {
+            "token": " progress",
+            "prob": 0.013029814338502768
+          },
+          {
+            "token": " next",
+            "prob": 0.011679850086565496
+          }
+        ]
+      },
+      {
+        "token": " goals",
+        "prob": 0.7430401881160535,
+        "top": [
+          {
+            "token": " goals",
+            "prob": 0.7430401881160535
+          },
+          {
+            "token": " objectives",
+            "prob": 0.1999865476304181
+          },
+          {
+            "token": " priorities",
+            "prob": 0.02503125145605071
+          },
+          {
+            "token": " deliver",
+            "prob": 0.008650569028640052
+          },
+          {
+            "token": " expectations",
+            "prob": 0.005762521287378048
+          }
+        ]
+      },
+      {
+        "token": ".\n\n",
+        "prob": 0.7195154424010283,
+        "top": [
+          {
+            "token": ".\n\n",
+            "prob": 0.7195154424010283
+          },
+          {
+            "token": " and",
+            "prob": 0.2773979224766645
+          },
+          {
+            "token": ",",
+            "prob": 0.0012450838777997224
+          },
+          {
+            "token": ".\n",
+            "prob": 0.0009696722990200051
+          },
+          {
+            "token": ".",
+            "prob": 0.0005030593616554733
+          }
+        ]
+      },
+      {
+        "token": "2",
+        "prob": 0.9999996871837232,
+        "top": [
+          {
+            "token": "2",
+            "prob": 0.9999996871837232
+          },
+          {
+            "token": "3",
+            "prob": 8.233249263085099e-8
+          },
+          {
+            "token": "1",
+            "prob": 6.82560337633487e-8
+          },
+          {
+            "token": " ",
+            "prob": 3.5262180756152875e-10
+          },
+          {
+            "token": "4",
+            "prob": 2.3859584989085823e-10
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9999995679801056,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9999995679801056
+          },
+          {
+            "token": " **",
+            "prob": 2.1024338523818466e-7
+          },
+          {
+            "token": "..",
+            "prob": 4.691164021834418e-8
+          },
+          {
+            "token": " ",
+            "prob": 2.2862907487214137e-8
+          },
+          {
+            "token": "**",
+            "prob": 1.186112015134383e-8
+          }
+        ]
+      },
+      {
+        "token": " **",
+        "prob": 0.9999998063873693,
+        "top": [
+          {
+            "token": " **",
+            "prob": 0.9999998063873693
+          },
+          {
+            "token": "**",
+            "prob": 6.312651182087824e-8
+          },
+          {
+            "token": " ",
+            "prob": 4.618434264903946e-8
+          },
+          {
+            "token": " ***",
+            "prob": 1.1142491209772546e-8
+          },
+          {
+            "token": " *",
+            "prob": 5.871680252669901e-9
+          }
+        ]
+      },
+      {
+        "token": "Resource",
+        "prob": 0.7560624602330474,
+        "top": [
+          {
+            "token": "Resource",
+            "prob": 0.7560624602330474
+          },
+          {
+            "token": "Team",
+            "prob": 0.15602231188478943
+          },
+          {
+            "token": "Strateg",
+            "prob": 0.06303870499304838
+          },
+          {
+            "token": "Coll",
+            "prob": 0.005174533246311455
+          },
+          {
+            "token": "Goals",
+            "prob": 0.0027697280573396772
+          }
+        ]
+      },
+      {
+        "token": " Allocation",
+        "prob": 0.9767040918032632,
+        "top": [
+          {
+            "token": " Allocation",
+            "prob": 0.9767040918032632
+          },
+          {
+            "token": " and",
+            "prob": 0.009726059093012406
+          },
+          {
+            "token": " Optimization",
+            "prob": 0.005371239964546425
+          },
+          {
+            "token": " Management",
+            "prob": 0.00459426500552167
+          },
+          {
+            "token": " Needs",
+            "prob": 0.002743360936123553
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.998065507348027,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.998065507348027
+          },
+          {
+            "token": ":",
+            "prob": 0.001754298116461155
+          },
+          {
+            "token": " &",
+            "prob": 0.00011040987740642656
+          },
+          {
+            "token": " or",
+            "prob": 0.000024635773627664463
+          },
+          {
+            "token": " Needs",
+            "prob": 0.000018023917017190827
+          }
+        ]
+      },
+      {
+        "token": " Needs",
+        "prob": 0.4258731046672977,
+        "top": [
+          {
+            "token": " Needs",
+            "prob": 0.4258731046672977
+          },
+          {
+            "token": " Budget",
+            "prob": 0.20755397483402602
+          },
+          {
+            "token": " Efficiency",
+            "prob": 0.18605018060531872
+          },
+          {
+            "token": " Optimization",
+            "prob": 0.05586239449080702
+          },
+          {
+            "token": " Prior",
+            "prob": 0.05586239449080702
+          }
+        ]
+      },
+      {
+        "token": ":",
+        "prob": 0.9987599443411054,
+        "top": [
+          {
+            "token": ":",
+            "prob": 0.9987599443411054
+          },
+          {
+            "token": " Assessment",
+            "prob": 0.0012255497865939478
+          },
+          {
+            "token": ":**",
+            "prob": 0.000009504542361789275
+          },
+          {
+            "token": " Analysis",
+            "prob": 0.0000043514965815987015
+          },
+          {
+            "token": " Assess",
+            "prob": 1.6353468469735066e-7
+          }
+        ]
+      },
+      {
+        "token": "**\n",
+        "prob": 0.9999998063873693,
+        "top": [
+          {
+            "token": "**\n",
+            "prob": 0.9999998063873693
+          },
+          {
+            "token": "**\n\n",
+            "prob": 1.0571701315726883e-7
+          },
+          {
+            "token": " **\n",
+            "prob": 4.8400775530246366e-8
+          },
+          {
+            "token": "***\n",
+            "prob": 1.3652065610331087e-8
+          },
+          {
+            "token": "*\n",
+            "prob": 1.0145353698083854e-8
+          }
+        ]
+      },
+      {
+        "token": "  ",
+        "prob": 0.9999914621676675,
+        "top": [
+          {
+            "token": "  ",
+            "prob": 0.9999914621676675
+          },
+          {
+            "token": "   ",
+            "prob": 0.000008398070481631265
+          },
+          {
+            "token": " ",
+            "prob": 1.562382762618888e-7
+          },
+          {
+            "token": "    ",
+            "prob": 8.151958519725165e-9
+          },
+          {
+            "token": "  ",
+            "prob": 5.964100259555661e-9
+          }
+        ]
+      },
+      {
+        "token": " -",
+        "prob": 0.9999989719621736,
+        "top": [
+          {
+            "token": " -",
+            "prob": 0.9999989719621736
+          },
+          {
+            "token": " –",
+            "prob": 9.721546369043307e-7
+          },
+          {
+            "token": " —",
+            "prob": 5.263330122692228e-9
+          },
+          {
+            "token": " ",
+            "prob": 4.229204566360819e-9
+          },
+          {
+            "token": " *",
+            "prob": 2.8172576002392743e-9
+          }
+        ]
+      },
+      {
+        "token": " Address",
+        "prob": 0.8871001175612268,
+        "top": [
+          {
+            "token": " Address",
+            "prob": 0.8871001175612268
+          },
+          {
+            "token": " Review",
+            "prob": 0.037777278000831055
+          },
+          {
+            "token": " Talk",
+            "prob": 0.032312618216404326
+          },
+          {
+            "token": " Evaluate",
+            "prob": 0.01152142158598148
+          },
+          {
+            "token": " Bring",
+            "prob": 0.010327735561874966
+          }
+        ]
+      },
+      {
+        "token": " any",
+        "prob": 0.5861616231885644,
+        "top": [
+          {
+            "token": " any",
+            "prob": 0.5861616231885644
+          },
+          {
+            "token": " the",
+            "prob": 0.3500131127013894
+          },
+          {
+            "token": " resource",
+            "prob": 0.038062160224151154
+          },
+          {
+            "token": " current",
+            "prob": 0.02202868832501289
+          },
+          {
+            "token": " whether",
+            "prob": 0.0026309516336787213
+          }
+        ]
+      },
+      {
+        "token": " resource",
+        "prob": 0.7031285614082957,
+        "top": [
+          {
+            "token": " resource",
+            "prob": 0.7031285614082957
+          },
+          {
+            "token": " current",
+            "prob": 0.06540114398882126
+          },
+          {
+            "token": " concerns",
+            "prob": 0.061438688986043724
+          },
+          {
+            "token": " changes",
+            "prob": 0.054219452729041884
+          },
+          {
+            "token": " needs",
+            "prob": 0.04637635554095165
+          }
+        ]
+      },
+      {
+        "token": " needs",
+        "prob": 0.3991803122028149,
+        "top": [
+          {
+            "token": " needs",
+            "prob": 0.3991803122028149
+          },
+          {
+            "token": " requirements",
+            "prob": 0.3991803122028149
+          },
+          {
+            "token": " constraints",
+            "prob": 0.12366028458611447
+          },
+          {
+            "token": "-related",
+            "prob": 0.028026855219130214
+          },
+          {
+            "token": " allocation",
+            "prob": 0.015001694561486555
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.8187281032338153,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.8187281032338153
+          },
+          {
+            "token": ",",
+            "prob": 0.14451409017316502
+          },
+          {
+            "token": " that",
+            "prob": 0.02251095617618763
+          },
+          {
+            "token": " such",
+            "prob": 0.005182316369290393
+          },
+          {
+            "token": " for",
+            "prob": 0.004229683348971114
+          }
+        ]
+      },
+      {
+        "token": " adjustments",
+        "prob": 0.4443991047989891,
+        "top": [
+          {
+            "token": " adjustments",
+            "prob": 0.4443991047989891
+          },
+          {
+            "token": " constraints",
+            "prob": 0.25321096214771155
+          },
+          {
+            "token": " realloc",
+            "prob": 0.1911336618868322
+          },
+          {
+            "token": " re",
+            "prob": 0.04683931824995913
+          },
+          {
+            "token": " allocations",
+            "prob": 0.01184283429408955
+          }
+        ]
+      },
+      {
+        "token": " required",
+        "prob": 0.46937821612687447,
+        "top": [
+          {
+            "token": " required",
+            "prob": 0.46937821612687447
+          },
+          {
+            "token": " that",
+            "prob": 0.38912820860875214
+          },
+          {
+            "token": ",",
+            "prob": 0.04504485696981287
+          },
+          {
+            "token": " necessary",
+            "prob": 0.04037794882644923
+          },
+          {
+            "token": ".",
+            "prob": 0.03676454077775482
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.8221147566367774,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.8221147566367774
+          },
+          {
+            "token": " for",
+            "prob": 0.15937421524158002
+          },
+          {
+            "token": ",",
+            "prob": 0.010348898729832554
+          },
+          {
+            "token": ".",
+            "prob": 0.004052686972510807
+          },
+          {
+            "token": " moving",
+            "prob": 0.002576044572638887
+          }
+        ]
+      },
+      {
+        "token": " meet",
+        "prob": 0.3509677825687555,
+        "top": [
+          {
+            "token": " meet",
+            "prob": 0.3509677825687555
+          },
+          {
+            "token": " ensure",
+            "prob": 0.3455265314426287
+          },
+          {
+            "token": " optimize",
+            "prob": 0.15094936232014838
+          },
+          {
+            "token": " maintain",
+            "prob": 0.07590209700091191
+          },
+          {
+            "token": " improve",
+            "prob": 0.019493270676344564
+          }
+        ]
+      },
+      {
+        "token": " project",
+        "prob": 0.7967099227862329,
+        "top": [
+          {
+            "token": " project",
+            "prob": 0.7967099227862329
+          },
+          {
+            "token": " upcoming",
+            "prob": 0.14509165356229703
+          },
+          {
+            "token": " objectives",
+            "prob": 0.028127300036788854
+          },
+          {
+            "token": " your",
+            "prob": 0.011543423428697925
+          },
+          {
+            "token": " current",
+            "prob": 0.008713433146508924
+          }
+        ]
+      },
+      {
+        "token": " objectives",
+        "prob": 0.4690889938533113,
+        "top": [
+          {
+            "token": " objectives",
+            "prob": 0.4690889938533113
+          },
+          {
+            "token": " goals",
+            "prob": 0.1725681969184303
+          },
+          {
+            "token": " deadlines",
+            "prob": 0.15468913196715475
+          },
+          {
+            "token": " demands",
+            "prob": 0.1522908992651233
+          },
+          {
+            "token": " or",
+            "prob": 0.038505169414935134
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.6796980184916556,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.6796980184916556
+          },
+          {
+            "token": " effectively",
+            "prob": 0.1277114662426512
+          },
+          {
+            "token": " efficiently",
+            "prob": 0.06625583586232485
+          },
+          {
+            "token": " or",
+            "prob": 0.06421735809577486
+          },
+          {
+            "token": ",",
+            "prob": 0.04081903633661102
+          }
+        ]
+      },
+      {
+        "token": " This",
+        "prob": 0.9330204020285154,
+        "top": [
+          {
+            "token": " This",
+            "prob": 0.9330204020285154
+          },
+          {
+            "token": " Whether",
+            "prob": 0.04099405150262829
+          },
+          {
+            "token": " Discuss",
+            "prob": 0.02126743375202711
+          },
+          {
+            "token": " Talk",
+            "prob": 0.0019475106569709823
+          },
+          {
+            "token": " Consider",
+            "prob": 0.001181224923569994
+          }
+        ]
+      },
+      {
+        "token": " could",
+        "prob": 0.8247008951598273,
+        "top": [
+          {
+            "token": " could",
+            "prob": 0.8247008951598273
+          },
+          {
+            "token": " might",
+            "prob": 0.08165644894402486
+          },
+          {
+            "token": " includes",
+            "prob": 0.04236280764372585
+          },
+          {
+            "token": " can",
+            "prob": 0.03299218776603699
+          },
+          {
+            "token": " may",
+            "prob": 0.01822001218604242
+          }
+        ]
+      },
+      {
+        "token": " include",
+        "prob": 0.7144063341184396,
+        "top": [
+          {
+            "token": " include",
+            "prob": 0.7144063341184396
+          },
+          {
+            "token": " involve",
+            "prob": 0.2841712148425502
+          },
+          {
+            "token": " pert",
+            "prob": 0.0004547884309390859
+          },
+          {
+            "token": " relate",
+            "prob": 0.0003174933416801709
+          },
+          {
+            "token": " cover",
+            "prob": 0.0002359410172841826
+          }
+        ]
+      },
+      {
+        "token": " staffing",
+        "prob": 0.42792678437635767,
+        "top": [
+          {
+            "token": " staffing",
+            "prob": 0.42792678437635767
+          },
+          {
+            "token": " discussing",
+            "prob": 0.189891359478655
+          },
+          {
+            "token": " personnel",
+            "prob": 0.15742546629866677
+          },
+          {
+            "token": " manpower",
+            "prob": 0.08040507013817005
+          },
+          {
+            "token": " additional",
+            "prob": 0.057015732334289033
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.723898375085972,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.723898375085972
+          },
+          {
+            "token": " changes",
+            "prob": 0.10759787488797137
+          },
+          {
+            "token": " requirements",
+            "prob": 0.08379730921957115
+          },
+          {
+            "token": " needs",
+            "prob": 0.053264810502519806
+          },
+          {
+            "token": " considerations",
+            "prob": 0.0162448493819284
+          }
+        ]
+      },
+      {
+        "token": " budget",
+        "prob": 0.9611121715851443,
+        "top": [
+          {
+            "token": " budget",
+            "prob": 0.9611121715851443
+          },
+          {
+            "token": " budgeting",
+            "prob": 0.03393140580644357
+          },
+          {
+            "token": " technology",
+            "prob": 0.002203321535160497
+          },
+          {
+            "token": " budgets",
+            "prob": 0.0010738131557221238
+          },
+          {
+            "token": " tools",
+            "prob": 0.0005484500941213107
+          }
+        ]
+      },
+      {
+        "token": " considerations",
+        "prob": 0.7287130091052962,
+        "top": [
+          {
+            "token": " considerations",
+            "prob": 0.7287130091052962
+          },
+          {
+            "token": "ary",
+            "prob": 0.11175174935942533
+          },
+          {
+            "token": " adjustments",
+            "prob": 0.03802161780571843
+          },
+          {
+            "token": ",",
+            "prob": 0.03743214725891119
+          },
+          {
+            "token": " allocations",
+            "prob": 0.023424439199790953
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9999964686909203,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9999964686909203
+          },
+          {
+            "token": " or",
+            "prob": 0.0000033931433826079293
+          },
+          {
+            "token": " for",
+            "prob": 1.4615712011621217e-9
+          },
+          {
+            "token": " (",
+            "prob": 7.762346055499169e-10
+          },
+          {
+            "token": ".",
+            "prob": 7.349241533972332e-10
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.9993391303750774,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.9993391303750774
+          },
+          {
+            "token": " technology",
+            "prob": 0.00030524039963315906
+          },
+          {
+            "token": " and",
+            "prob": 0.00013128225998905254
+          },
+          {
+            "token": " tools",
+            "prob": 0.00009909704887835381
+          },
+          {
+            "token": " equipment",
+            "prob": 0.00006298991672911226
+          }
+        ]
+      },
+      {
+        "token": " technology",
+        "prob": 0.2617778396573618,
+        "top": [
+          {
+            "token": " technology",
+            "prob": 0.2617778396573618
+          },
+          {
+            "token": " technological",
+            "prob": 0.2577193504296458
+          },
+          {
+            "token": " additional",
+            "prob": 0.10912523894664457
+          },
+          {
+            "token": " equipment",
+            "prob": 0.100924347731739
+          },
+          {
+            "token": " tools",
+            "prob": 0.08768459285284158
+          }
+        ]
+      },
+      {
+        "token": " requirements",
+        "prob": 0.36884227788856433,
+        "top": [
+          {
+            "token": " requirements",
+            "prob": 0.36884227788856433
+          },
+          {
+            "token": " resources",
+            "prob": 0.1715275786040848
+          },
+          {
+            "token": " needs",
+            "prob": 0.1586370775058371
+          },
+          {
+            "token": " tools",
+            "prob": 0.09181209675402582
+          },
+          {
+            "token": " and",
+            "prob": 0.06212317215084928
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9999833564200242,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9999833564200242
+          },
+          {
+            "token": " that",
+            "prob": 0.000010129929366190528
+          },
+          {
+            "token": ",",
+            "prob": 0.0000026015810217342356
+          },
+          {
+            "token": ".\n",
+            "prob": 0.0000013496824539705839
+          },
+          {
+            "token": " necessary",
+            "prob": 0.0000010187937663667023
+          }
+        ]
+      },
+      {
+        "token": " Em",
+        "prob": 0.2642405795370176,
+        "top": [
+          {
+            "token": " Em",
+            "prob": 0.2642405795370176
+          },
+          {
+            "token": " Discuss",
+            "prob": 0.09720866514671948
+          },
+          {
+            "token": " Encourage",
+            "prob": 0.08850949683201029
+          },
+          {
+            "token": " Eng",
+            "prob": 0.0871372842722556
+          },
+          {
+            "token": " Open",
+            "prob": 0.08058881394607867
+          }
+        ]
+      },
+      {
+        "token": "phas",
+        "prob": 0.9999669067238633,
+        "top": [
+          {
+            "token": "phas",
+            "prob": 0.9999669067238633
+          },
+          {
+            "token": "phasis",
+            "prob": 0.000031201843492350634
+          },
+          {
+            "token": "ph",
+            "prob": 8.578956382470975e-7
+          },
+          {
+            "token": "brace",
+            "prob": 7.811228676067198e-7
+          },
+          {
+            "token": "pha",
+            "prob": 6.932866187910761e-8
+          }
+        ]
+      },
+      {
+        "token": "ize",
+        "prob": 0.6406168138739021,
+        "top": [
+          {
+            "token": "ize",
+            "prob": 0.6406168138739021
+          },
+          {
+            "token": "izing",
+            "prob": 0.3593534534366378
+          },
+          {
+            "token": "ise",
+            "prob": 0.000008597200387058793
+          },
+          {
+            "token": "ising",
+            "prob": 0.000004255922804661911
+          },
+          {
+            "token": "izes",
+            "prob": 0.00000393608515503135
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.8880838587542418,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.8880838587542418
+          },
+          {
+            "token": " how",
+            "prob": 0.06741996689443118
+          },
+          {
+            "token": " any",
+            "prob": 0.018145837921078607
+          },
+          {
+            "token": " collaboration",
+            "prob": 0.011715833514543765
+          },
+          {
+            "token": " areas",
+            "prob": 0.01083537472176444
+          }
+        ]
+      },
+      {
+        "token": " importance",
+        "prob": 0.9870748637217245,
+        "top": [
+          {
+            "token": " importance",
+            "prob": 0.9870748637217245
+          },
+          {
+            "token": " impact",
+            "prob": 0.011313489001989486
+          },
+          {
+            "token": " potential",
+            "prob": 0.0005811454151440109
+          },
+          {
+            "token": " benefits",
+            "prob": 0.00026606788596456727
+          },
+          {
+            "token": " need",
+            "prob": 0.00018867038288552336
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999995679801056,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999995679801056
+          },
+          {
+            "token": " and",
+            "prob": 3.059023205018258e-7
+          },
+          {
+            "token": " or",
+            "prob": 6.448779170146252e-9
+          },
+          {
+            "token": " to",
+            "prob": 2.177012092602425e-9
+          },
+          {
+            "token": " for",
+            "prob": 2.1432606484847756e-9
+          }
+        ]
+      },
+      {
+        "token": " optimizing",
+        "prob": 0.23396197790119405,
+        "top": [
+          {
+            "token": " optimizing",
+            "prob": 0.23396197790119405
+          },
+          {
+            "token": " aligning",
+            "prob": 0.20647072082036932
+          },
+          {
+            "token": " efficient",
+            "prob": 0.1850791579831626
+          },
+          {
+            "token": " having",
+            "prob": 0.07836744623671507
+          },
+          {
+            "token": " ensuring",
+            "prob": 0.05220397359773683
+          }
+        ]
+      },
+      {
+        "token": " resources",
+        "prob": 0.9348555280584729,
+        "top": [
+          {
+            "token": " resources",
+            "prob": 0.9348555280584729
+          },
+          {
+            "token": " resource",
+            "prob": 0.06263141672342702
+          },
+          {
+            "token": " available",
+            "prob": 0.0015679468376690175
+          },
+          {
+            "token": " current",
+            "prob": 0.0005090378095359684
+          },
+          {
+            "token": " these",
+            "prob": 0.00025999094902066195
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.888563039985613,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.888563039985613
+          },
+          {
+            "token": " for",
+            "prob": 0.10612371345074853
+          },
+          {
+            "token": " effectively",
+            "prob": 0.0026567551815342262
+          },
+          {
+            "token": " efficiently",
+            "prob": 0.0016625549100382614
+          },
+          {
+            "token": " and",
+            "prob": 0.0009622129621853189
+          }
+        ]
+      },
+      {
+        "token": " enhance",
+        "prob": 0.4511602906594565,
+        "top": [
+          {
+            "token": " enhance",
+            "prob": 0.4511602906594565
+          },
+          {
+            "token": " ensure",
+            "prob": 0.34591661455788325
+          },
+          {
+            "token": " improve",
+            "prob": 0.10225275595096187
+          },
+          {
+            "token": " maintain",
+            "prob": 0.0670589945492781
+          },
+          {
+            "token": " maximize",
+            "prob": 0.023910620858828877
+          }
+        ]
+      },
+      {
+        "token": " productivity",
+        "prob": 0.7695452221116568,
+        "top": [
+          {
+            "token": " productivity",
+            "prob": 0.7695452221116568
+          },
+          {
+            "token": " efficiency",
+            "prob": 0.22047841067736706
+          },
+          {
+            "token": " team",
+            "prob": 0.009389100928894592
+          },
+          {
+            "token": " overall",
+            "prob": 0.00039363725786050916
+          },
+          {
+            "token": " project",
+            "prob": 0.00013185202838736734
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9998745385366407,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9998745385366407
+          },
+          {
+            "token": " while",
+            "prob": 0.0000960995538066468
+          },
+          {
+            "token": " without",
+            "prob": 0.000011124330794665284
+          },
+          {
+            "token": ",",
+            "prob": 0.000010369016459539354
+          },
+          {
+            "token": " or",
+            "prob": 0.000005337512246372798
+          }
+        ]
+      },
+      {
+        "token": " ensure",
+        "prob": 0.267915321637138,
+        "top": [
+          {
+            "token": " ensure",
+            "prob": 0.267915321637138
+          },
+          {
+            "token": " achieve",
+            "prob": 0.24393967632307859
+          },
+          {
+            "token": " efficiency",
+            "prob": 0.24393967632307859
+          },
+          {
+            "token": " meet",
+            "prob": 0.13471628394139426
+          },
+          {
+            "token": " project",
+            "prob": 0.06773960163263261
+          }
+        ]
+      },
+      {
+        "token": " successful",
+        "prob": 0.5912085624648475,
+        "top": [
+          {
+            "token": " successful",
+            "prob": 0.5912085624648475
+          },
+          {
+            "token": " project",
+            "prob": 0.27493753112835845
+          },
+          {
+            "token": " the",
+            "prob": 0.09803199572045194
+          },
+          {
+            "token": " timely",
+            "prob": 0.01246336665521131
+          },
+          {
+            "token": " that",
+            "prob": 0.008433135716039472
+          }
+        ]
+      },
+      {
+        "token": " project",
+        "prob": 0.6418510114009286,
+        "top": [
+          {
+            "token": " project",
+            "prob": 0.6418510114009286
+          },
+          {
+            "token": " outcomes",
+            "prob": 0.3544637936857756
+          },
+          {
+            "token": " delivery",
+            "prob": 0.002314876472487765
+          },
+          {
+            "token": " completion",
+            "prob": 0.0010272202078364246
+          },
+          {
+            "token": " deliver",
+            "prob": 0.00014798503127909206
+          }
+        ]
+      },
+      {
+        "token": " delivery",
+        "prob": 0.40884428291528324,
+        "top": [
+          {
+            "token": " delivery",
+            "prob": 0.40884428291528324
+          },
+          {
+            "token": " outcomes",
+            "prob": 0.33894383554098173
+          },
+          {
+            "token": " completion",
+            "prob": 0.21210563243559466
+          },
+          {
+            "token": " execution",
+            "prob": 0.03923559681616043
+          },
+          {
+            "token": " deliver",
+            "prob": 0.00029956754984704787
+          }
+        ]
+      },
+      {
+        "token": ".\n\n",
+        "prob": 0.9998524888756998,
+        "top": [
+          {
+            "token": ".\n\n",
+            "prob": 0.9998524888756998
+          },
+          {
+            "token": ".",
+            "prob": 0.00013341809092874078
+          },
+          {
+            "token": ".\n",
+            "prob": 0.000010288098466404474
+          },
+          {
+            "token": " while",
+            "prob": 0.0000012677424730764966
+          },
+          {
+            "token": ".\n\n\n",
+            "prob": 7.452673532507952e-7
+          }
+        ]
+      },
+      {
+        "token": "3",
+        "prob": 1,
+        "top": [
+          {
+            "token": "3",
+            "prob": 1
+          },
+          {
+            "token": "2",
+            "prob": 6.653485395215931e-9
+          },
+          {
+            "token": "4",
+            "prob": 5.6910276431061254e-9
+          },
+          {
+            "token": " ",
+            "prob": 1.2898369782606281e-9
+          },
+          {
+            "token": "5",
+            "prob": 5.130617026091758e-10
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9999998063873693,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9999998063873693
+          },
+          {
+            "token": " **",
+            "prob": 1.0571701315726883e-7
+          },
+          {
+            "token": "..",
+            "prob": 2.017644504154463e-8
+          },
+          {
+            "token": " ",
+            "prob": 8.677780879537103e-9
+          },
+          {
+            "token": ":",
+            "prob": 7.901209404604079e-9
+          }
+        ]
+      },
+      {
+        "token": " **",
+        "prob": 0.9999995679801056,
+        "top": [
+          {
+            "token": " **",
+            "prob": 0.9999995679801056
+          },
+          {
+            "token": "**",
+            "prob": 2.037748763016618e-7
+          },
+          {
+            "token": " ",
+            "prob": 8.233249263085099e-8
+          },
+          {
+            "token": " *",
+            "prob": 1.6990270164599047e-8
+          },
+          {
+            "token": "  ",
+            "prob": 4.501973413345846e-9
+          }
+        ]
+      },
+      {
+        "token": "Strateg",
+        "prob": 0.7281037450796204,
+        "top": [
+          {
+            "token": "Strateg",
+            "prob": 0.7281037450796204
+          },
+          {
+            "token": "Future",
+            "prob": 0.17025860979238974
+          },
+          {
+            "token": "Innovation",
+            "prob": 0.03513484999405697
+          },
+          {
+            "token": "Feedback",
+            "prob": 0.016085906488120486
+          },
+          {
+            "token": "Team",
+            "prob": 0.015349279199121582
+          }
+        ]
+      },
+      {
+        "token": "ic",
+        "prob": 0.9999944422379315,
+        "top": [
+          {
+            "token": "ic",
+            "prob": 0.9999944422379315
+          },
+          {
+            "token": "izing",
+            "prob": 0.000005338153656200081
+          },
+          {
+            "token": "ical",
+            "prob": 1.1793517568373418e-7
+          },
+          {
+            "token": "ically",
+            "prob": 1.6726764729217708e-8
+          },
+          {
+            "token": "ize",
+            "prob": 1.3026817469365907e-8
+          }
+        ]
+      },
+      {
+        "token": " Initi",
+        "prob": 0.5123829763594396,
+        "top": [
+          {
+            "token": " Initi",
+            "prob": 0.5123829763594396
+          },
+          {
+            "token": " Goals",
+            "prob": 0.363333936312154
+          },
+          {
+            "token": " Opportunities",
+            "prob": 0.03224771625445928
+          },
+          {
+            "token": " Prior",
+            "prob": 0.03077098581228799
+          },
+          {
+            "token": " Vision",
+            "prob": 0.024341853302570486
+          }
+        ]
+      },
+      {
+        "token": "atives",
+        "prob": 0.9999951574562983,
+        "top": [
+          {
+            "token": "atives",
+            "prob": 0.9999951574562983
+          },
+          {
+            "token": "ates",
+            "prob": 0.00000294801124742445
+          },
+          {
+            "token": "aries",
+            "prob": 4.1163460244990754e-7
+          },
+          {
+            "token": "ation",
+            "prob": 3.74797570633192e-7
+          },
+          {
+            "token": "ations",
+            "prob": 2.9648928175936765e-7
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9958932519871058,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9958932519871058
+          },
+          {
+            "token": " for",
+            "prob": 0.0031697102321885245
+          },
+          {
+            "token": ":",
+            "prob": 0.00039058493674146513
+          },
+          {
+            "token": " or",
+            "prob": 0.0003785679015756685
+          },
+          {
+            "token": " Moving",
+            "prob": 0.0001308295660070213
+          }
+        ]
+      },
+      {
+        "token": " Future",
+        "prob": 0.8696139803236476,
+        "top": [
+          {
+            "token": " Future",
+            "prob": 0.8696139803236476
+          },
+          {
+            "token": " Innovation",
+            "prob": 0.04755083658366568
+          },
+          {
+            "token": " Opportunities",
+            "prob": 0.02013429102492596
+          },
+          {
+            "token": " Long",
+            "prob": 0.017768453701562957
+          },
+          {
+            "token": " Next",
+            "prob": 0.012404379813627398
+          }
+        ]
+      },
+      {
+        "token": " Planning",
+        "prob": 0.803151124367832,
+        "top": [
+          {
+            "token": " Planning",
+            "prob": 0.803151124367832
+          },
+          {
+            "token": " Plans",
+            "prob": 0.08465151328279369
+          },
+          {
+            "token": " Goals",
+            "prob": 0.07588112608959474
+          },
+          {
+            "token": " Opportunities",
+            "prob": 0.027056248732390514
+          },
+          {
+            "token": " Outlook",
+            "prob": 0.0064264208283895405
+          }
+        ]
+      },
+      {
+        "token": ":",
+        "prob": 0.9999976607241555,
+        "top": [
+          {
+            "token": ":",
+            "prob": 0.9999976607241555
+          },
+          {
+            "token": ":**",
+            "prob": 0.000002295920036667989
+          },
+          {
+            "token": "**",
+            "prob": 2.5109943663977424e-8
+          },
+          {
+            "token": "**\n",
+            "prob": 4.79231661207492e-9
+          },
+          {
+            "token": " :",
+            "prob": 3.0397841894686194e-10
+          }
+        ]
+      },
+      {
+        "token": "**\n",
+        "prob": 1,
+        "top": [
+          {
+            "token": "**\n",
+            "prob": 1
+          },
+          {
+            "token": "**\n\n",
+            "prob": 3.8891115722610075e-8
+          },
+          {
+            "token": " **\n",
+            "prob": 1.0969742895385153e-8
+          },
+          {
+            "token": "***\n",
+            "prob": 3.6744036116318696e-9
+          },
+          {
+            "token": "*\n",
+            "prob": 2.1600704500895966e-9
+          }
+        ]
+      },
+      {
+        "token": "  ",
+        "prob": 0.9999797803764172,
+        "top": [
+          {
+            "token": "  ",
+            "prob": 0.9999797803764172
+          },
+          {
+            "token": "   ",
+            "prob": 0.000019525875424520323
+          },
+          {
+            "token": " ",
+            "prob": 5.714893282234798e-7
+          },
+          {
+            "token": "    ",
+            "prob": 2.2862427809357458e-8
+          },
+          {
+            "token": "  ",
+            "prob": 1.0304903563881069e-8
+          }
+        ]
+      },
+      {
+        "token": " -",
+        "prob": 0.9999996871837232,
+        "top": [
+          {
+            "token": " -",
+            "prob": 0.9999996871837232
+          },
+          {
+            "token": " –",
+            "prob": 2.6995785033630146e-7
+          },
+          {
+            "token": " ",
+            "prob": 7.194133030325383e-9
+          },
+          {
+            "token": " *",
+            "prob": 5.602796437537268e-9
+          },
+          {
+            "token": " —",
+            "prob": 3.5061404196803905e-9
+          }
+        ]
+      },
+      {
+        "token": " Outline",
+        "prob": 0.4306641541760138,
+        "top": [
+          {
+            "token": " Outline",
+            "prob": 0.4306641541760138
+          },
+          {
+            "token": " Present",
+            "prob": 0.23783532016499817
+          },
+          {
+            "token": " Share",
+            "prob": 0.1355144805443961
+          },
+          {
+            "token": " Introdu",
+            "prob": 0.07030398635356966
+          },
+          {
+            "token": " Explore",
+            "prob": 0.05561503075800428
+          }
+        ]
+      },
+      {
+        "token": " any",
+        "prob": 0.72481199973554,
+        "top": [
+          {
+            "token": " any",
+            "prob": 0.72481199973554
+          },
+          {
+            "token": " upcoming",
+            "prob": 0.14272395358303733
+          },
+          {
+            "token": " strategic",
+            "prob": 0.06433072594884545
+          },
+          {
+            "token": " key",
+            "prob": 0.04491008456665321
+          },
+          {
+            "token": " the",
+            "prob": 0.0115338608605581
+          }
+        ]
+      },
+      {
+        "token": " strategic",
+        "prob": 0.42437564977249265,
+        "top": [
+          {
+            "token": " strategic",
+            "prob": 0.42437564977249265
+          },
+          {
+            "token": " upcoming",
+            "prob": 0.36870395403366885
+          },
+          {
+            "token": " new",
+            "prob": 0.20361766199988726
+          },
+          {
+            "token": " proposed",
+            "prob": 0.0013935703198745069
+          },
+          {
+            "token": " long",
+            "prob": 0.0008585537678942222
+          }
+        ]
+      },
+      {
+        "token": " initiatives",
+        "prob": 0.9993103208686649,
+        "top": [
+          {
+            "token": " initiatives",
+            "prob": 0.9993103208686649
+          },
+          {
+            "token": " plans",
+            "prob": 0.00041073390617693843
+          },
+          {
+            "token": " priorities",
+            "prob": 0.00013127850402719574
+          },
+          {
+            "token": " goals",
+            "prob": 0.00010223980173682261
+          },
+          {
+            "token": " objectives",
+            "prob": 0.00001450068734539191
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.6176566918460777,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.6176566918460777
+          },
+          {
+            "token": " that",
+            "prob": 0.2698342248210789
+          },
+          {
+            "token": " the",
+            "prob": 0.037677299894511435
+          },
+          {
+            "token": " on",
+            "prob": 0.02630299440194691
+          },
+          {
+            "token": " being",
+            "prob": 0.01752157166322654
+          }
+        ]
+      },
+      {
+        "token": " future",
+        "prob": 0.24990464980397673,
+        "top": [
+          {
+            "token": " future",
+            "prob": 0.24990464980397673
+          },
+          {
+            "token": " long",
+            "prob": 0.22754077300356973
+          },
+          {
+            "token": " upcoming",
+            "prob": 0.16909394437056474
+          },
+          {
+            "token": " plans",
+            "prob": 0.1162164550743662
+          },
+          {
+            "token": " goals",
+            "prob": 0.1041757570443361
+          }
+        ]
+      },
+      {
+        "token": " plans",
+        "prob": 0.7451281149006779,
+        "top": [
+          {
+            "token": " plans",
+            "prob": 0.7451281149006779
+          },
+          {
+            "token": " projects",
+            "prob": 0.1356979106518506
+          },
+          {
+            "token": " planning",
+            "prob": 0.09039430694238351
+          },
+          {
+            "token": " goals",
+            "prob": 0.018364717361929545
+          },
+          {
+            "token": " opportunities",
+            "prob": 0.008950248427051277
+          }
+        ]
+      },
+      {
+        "token": " that",
+        "prob": 0.9645337085380751,
+        "top": [
+          {
+            "token": " that",
+            "prob": 0.9645337085380751
+          },
+          {
+            "token": " relevant",
+            "prob": 0.011229226381596367
+          },
+          {
+            "token": " the",
+            "prob": 0.007962713851179122
+          },
+          {
+            "token": " for",
+            "prob": 0.007364306455243246
+          },
+          {
+            "token": ",",
+            "prob": 0.0033716251815204155
+          }
+        ]
+      },
+      {
+        "token": " are",
+        "prob": 0.4542291030767513,
+        "top": [
+          {
+            "token": " are",
+            "prob": 0.4542291030767513
+          },
+          {
+            "token": " the",
+            "prob": 0.1724059211547385
+          },
+          {
+            "token": " align",
+            "prob": 0.14746659905983747
+          },
+          {
+            "token": " could",
+            "prob": 0.07300126013224276
+          },
+          {
+            "token": " may",
+            "prob": 0.04787539523772073
+          }
+        ]
+      },
+      {
+        "token": " on",
+        "prob": 0.4841903687006146,
+        "top": [
+          {
+            "token": " on",
+            "prob": 0.4841903687006146
+          },
+          {
+            "token": " relevant",
+            "prob": 0.2148581608715193
+          },
+          {
+            "token": " in",
+            "prob": 0.12242248981786534
+          },
+          {
+            "token": " crucial",
+            "prob": 0.039128577936762866
+          },
+          {
+            "token": " being",
+            "prob": 0.03618801886765291
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.999946881372343,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.999946881372343
+          },
+          {
+            "token": " your",
+            "prob": 0.000053075060750382246
+          },
+          {
+            "token": " horizon",
+            "prob": 3.378738240558573e-8
+          },
+          {
+            "token": " track",
+            "prob": 5.8256753414903044e-9
+          },
+          {
+            "token": " or",
+            "prob": 4.6446333331509755e-9
+          }
+        ]
+      },
+      {
+        "token": " horizon",
+        "prob": 0.9895730053479761,
+        "top": [
+          {
+            "token": " horizon",
+            "prob": 0.9895730053479761
+          },
+          {
+            "token": " agenda",
+            "prob": 0.010167012843750375
+          },
+          {
+            "token": " radar",
+            "prob": 0.00010947034860078445
+          },
+          {
+            "token": " organization's",
+            "prob": 0.00009075410656740935
+          },
+          {
+            "token": " roadmap",
+            "prob": 0.000018437815089474925
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9133959629691798,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9133959629691798
+          },
+          {
+            "token": " for",
+            "prob": 0.07266934057618549
+          },
+          {
+            "token": ",",
+            "prob": 0.013234070071226015
+          },
+          {
+            "token": " and",
+            "prob": 0.0006798008239752668
+          },
+          {
+            "token": " to",
+            "prob": 0.000009696837964713633
+          }
+        ]
+      },
+      {
+        "token": " This",
+        "prob": 0.41937942679247425,
+        "top": [
+          {
+            "token": " This",
+            "prob": 0.41937942679247425
+          },
+          {
+            "token": " Encourage",
+            "prob": 0.22447763107641505
+          },
+          {
+            "token": " Engage",
+            "prob": 0.16944460569715636
+          },
+          {
+            "token": " Discuss",
+            "prob": 0.13196359160417082
+          },
+          {
+            "token": " Share",
+            "prob": 0.03134410036860117
+          }
+        ]
+      },
+      {
+        "token": " could",
+        "prob": 0.6609927730863705,
+        "top": [
+          {
+            "token": " could",
+            "prob": 0.6609927730863705
+          },
+          {
+            "token": " might",
+            "prob": 0.25884847370475156
+          },
+          {
+            "token": " can",
+            "prob": 0.04160073547854915
+          },
+          {
+            "token": " may",
+            "prob": 0.02261792756449207
+          },
+          {
+            "token": " is",
+            "prob": 0.009727849427873175
+          }
+        ]
+      },
+      {
+        "token": " involve",
+        "prob": 0.9555595535449616,
+        "top": [
+          {
+            "token": " involve",
+            "prob": 0.9555595535449616
+          },
+          {
+            "token": " include",
+            "prob": 0.0316914586258674
+          },
+          {
+            "token": " be",
+            "prob": 0.00826720895857736
+          },
+          {
+            "token": " encompass",
+            "prob": 0.0017601903598010312
+          },
+          {
+            "token": " relate",
+            "prob": 0.0009421620064524554
+          }
+        ]
+      },
+      {
+        "token": " new",
+        "prob": 0.4663709780082045,
+        "top": [
+          {
+            "token": " new",
+            "prob": 0.4663709780082045
+          },
+          {
+            "token": " exploring",
+            "prob": 0.2496303959084701
+          },
+          {
+            "token": " upcoming",
+            "prob": 0.11077280349371063
+          },
+          {
+            "token": " discussing",
+            "prob": 0.05570006357700748
+          },
+          {
+            "token": " introducing",
+            "prob": 0.052325367323781916
+          }
+        ]
+      },
+      {
+        "token": " opportunities",
+        "prob": 0.7806694709423394,
+        "top": [
+          {
+            "token": " opportunities",
+            "prob": 0.7806694709423394
+          },
+          {
+            "token": " projects",
+            "prob": 0.10900588401261231
+          },
+          {
+            "token": " business",
+            "prob": 0.056551507641803826
+          },
+          {
+            "token": " market",
+            "prob": 0.03594632532030003
+          },
+          {
+            "token": " project",
+            "prob": 0.012040510779643673
+          }
+        ]
+      },
+      {
+        "token": " for",
+        "prob": 0.7104222770730606,
+        "top": [
+          {
+            "token": " for",
+            "prob": 0.7104222770730606
+          },
+          {
+            "token": ",",
+            "prob": 0.2870365557159509
+          },
+          {
+            "token": " or",
+            "prob": 0.000806226707421269
+          },
+          {
+            "token": " the",
+            "prob": 0.0005898480596235919
+          },
+          {
+            "token": " in",
+            "prob": 0.0005807033130739798
+          }
+        ]
+      },
+      {
+        "token": " growth",
+        "prob": 0.9858826776240674,
+        "top": [
+          {
+            "token": " growth",
+            "prob": 0.9858826776240674
+          },
+          {
+            "token": " innovation",
+            "prob": 0.006438447408642882
+          },
+          {
+            "token": " the",
+            "prob": 0.00442507587601977
+          },
+          {
+            "token": " collaboration",
+            "prob": 0.0017328846115211073
+          },
+          {
+            "token": " business",
+            "prob": 0.0012287991914802466
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9991535674615759,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9991535674615759
+          },
+          {
+            "token": " or",
+            "prob": 0.000842639051729727
+          },
+          {
+            "token": " and",
+            "prob": 0.0000036945220485637444
+          },
+          {
+            "token": " within",
+            "prob": 3.795804512596675e-8
+          },
+          {
+            "token": " such",
+            "prob": 2.0476829408605485e-8
+          }
+        ]
+      },
+      {
+        "token": " potential",
+        "prob": 0.5632324022108853,
+        "top": [
+          {
+            "token": " potential",
+            "prob": 0.5632324022108853
+          },
+          {
+            "token": " upcoming",
+            "prob": 0.16136878498050658
+          },
+          {
+            "token": " market",
+            "prob": 0.0824191204862183
+          },
+          {
+            "token": " innovation",
+            "prob": 0.06221321610410107
+          },
+          {
+            "token": " areas",
+            "prob": 0.04209556769460872
+          }
+        ]
+      },
+      {
+        "token": " partnerships",
+        "prob": 0.6394858564555718,
+        "top": [
+          {
+            "token": " partnerships",
+            "prob": 0.6394858564555718
+          },
+          {
+            "token": " collaborations",
+            "prob": 0.32155369187470045
+          },
+          {
+            "token": " market",
+            "prob": 0.013481112789396784
+          },
+          {
+            "token": " areas",
+            "prob": 0.011176235047884134
+          },
+          {
+            "token": " risks",
+            "prob": 0.007444977568868404
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9987730258399806,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9987730258399806
+          },
+          {
+            "token": " or",
+            "prob": 0.0012255655651628107
+          },
+          {
+            "token": "/c",
+            "prob": 5.404223470910338e-7
+          },
+          {
+            "token": " to",
+            "prob": 5.362167470204273e-7
+          },
+          {
+            "token": " and",
+            "prob": 1.4659350116794346e-7
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.9992665218050917,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.9992665218050917
+          },
+          {
+            "token": " market",
+            "prob": 0.0006563221203723693
+          },
+          {
+            "token": " innovation",
+            "prob": 0.000022990697610864527
+          },
+          {
+            "token": " upcoming",
+            "prob": 0.00001695227736155178
+          },
+          {
+            "token": " and",
+            "prob": 0.00001330599495829451
+          }
+        ]
+      },
+      {
+        "token": " market",
+        "prob": 0.26166605117991976,
+        "top": [
+          {
+            "token": " market",
+            "prob": 0.26166605117991976
+          },
+          {
+            "token": " innovations",
+            "prob": 0.14450571788859295
+          },
+          {
+            "token": " areas",
+            "prob": 0.1357505590357832
+          },
+          {
+            "token": " upcoming",
+            "prob": 0.1357505590357832
+          },
+          {
+            "token": " innovation",
+            "prob": 0.08628829503028344
+          }
+        ]
+      },
+      {
+        "token": " trends",
+        "prob": 0.45380964732109835,
+        "top": [
+          {
+            "token": " trends",
+            "prob": 0.45380964732109835
+          },
+          {
+            "token": " expansion",
+            "prob": 0.45380964732109835
+          },
+          {
+            "token": " expansions",
+            "prob": 0.08797501301003013
+          },
+          {
+            "token": " developments",
+            "prob": 0.0013358303312864226
+          },
+          {
+            "token": " changes",
+            "prob": 0.0011974305700126631
+          }
+        ]
+      },
+      {
+        "token": " that",
+        "prob": 0.8171576536197929,
+        "top": [
+          {
+            "token": " that",
+            "prob": 0.8171576536197929
+          },
+          {
+            "token": " to",
+            "prob": 0.1376318033554989
+          },
+          {
+            "token": " impacting",
+            "prob": 0.024676025556748922
+          },
+          {
+            "token": " affecting",
+            "prob": 0.006960190945169594
+          },
+          {
+            "token": ".",
+            "prob": 0.006142346950509515
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.3614044259606094,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.3614044259606094
+          },
+          {
+            "token": " could",
+            "prob": 0.2644091264032713
+          },
+          {
+            "token": " may",
+            "prob": 0.24838938727033255
+          },
+          {
+            "token": " might",
+            "prob": 0.10354410164421801
+          },
+          {
+            "token": " need",
+            "prob": 0.0057509948843672085
+          }
+        ]
+      },
+      {
+        "token": " team",
+        "prob": 0.9345619276114977,
+        "top": [
+          {
+            "token": " team",
+            "prob": 0.9345619276114977
+          },
+          {
+            "token": " organization",
+            "prob": 0.06359773020562155
+          },
+          {
+            "token": " company",
+            "prob": 0.001804128737091447
+          },
+          {
+            "token": " group",
+            "prob": 0.00002916102507833214
+          },
+          {
+            "token": " business",
+            "prob": 0.000005742146298845895
+          }
+        ]
+      },
+      {
+        "token": " should",
+        "prob": 0.9926508832631797,
+        "top": [
+          {
+            "token": " should",
+            "prob": 0.9926508832631797
+          },
+          {
+            "token": " needs",
+            "prob": 0.007231916556884459
+          },
+          {
+            "token": " or",
+            "prob": 0.00009392615487760784
+          },
+          {
+            "token": " might",
+            "prob": 0.000006594651140042591
+          },
+          {
+            "token": " may",
+            "prob": 0.0000036704761218534424
+          }
+        ]
+      },
+      {
+        "token": " be",
+        "prob": 0.9853034666861746,
+        "top": [
+          {
+            "token": " be",
+            "prob": 0.9853034666861746
+          },
+          {
+            "token": " consider",
+            "prob": 0.009509815590169604
+          },
+          {
+            "token": " prepare",
+            "prob": 0.0029460034385127886
+          },
+          {
+            "token": " focus",
+            "prob": 0.001209037375104711
+          },
+          {
+            "token": " keep",
+            "prob": 0.0005892377569180398
+          }
+        ]
+      },
+      {
+        "token": " aware",
+        "prob": 0.9981910356573513,
+        "top": [
+          {
+            "token": " aware",
+            "prob": 0.9981910356573513
+          },
+          {
+            "token": " prepared",
+            "prob": 0.0015243524978063433
+          },
+          {
+            "token": " mindful",
+            "prob": 0.00017923531123603903
+          },
+          {
+            "token": " considering",
+            "prob": 0.000036987297039458314
+          },
+          {
+            "token": " preparing",
+            "prob": 0.000035293525391233546
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.999999448776502,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.999999448776502
+          },
+          {
+            "token": ".",
+            "prob": 2.4579918545460105e-7
+          },
+          {
+            "token": " about",
+            "prob": 1.490847421106071e-7
+          },
+          {
+            "token": " and",
+            "prob": 7.042271285737118e-8
+          },
+          {
+            "token": " to",
+            "prob": 6.34880011604368e-9
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9997395325260451,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9997395325260451
+          },
+          {
+            "token": " and",
+            "prob": 0.00024536581143757235
+          },
+          {
+            "token": " moving",
+            "prob": 0.000006538777392013711
+          },
+          {
+            "token": " to",
+            "prob": 0.000004783871734200193
+          },
+          {
+            "token": " or",
+            "prob": 0.0000012479475038951008
+          }
+        ]
+      },
+      {
+        "token": " Encourage",
+        "prob": 0.8576743675768563,
+        "top": [
+          {
+            "token": " Encourage",
+            "prob": 0.8576743675768563
+          },
+          {
+            "token": " Encour",
+            "prob": 0.07263700065344784
+          },
+          {
+            "token": " Eng",
+            "prob": 0.03431128960011599
+          },
+          {
+            "token": " Engage",
+            "prob": 0.02433034758284226
+          },
+          {
+            "token": " Invite",
+            "prob": 0.004943011106787893
+          }
+        ]
+      },
+      {
+        "token": " input",
+        "prob": 0.44039081179234874,
+        "top": [
+          {
+            "token": " input",
+            "prob": 0.44039081179234874
+          },
+          {
+            "token": " feedback",
+            "prob": 0.3221968199562078
+          },
+          {
+            "token": " brainstorming",
+            "prob": 0.06053898882810642
+          },
+          {
+            "token": " open",
+            "prob": 0.05342547012640734
+          },
+          {
+            "token": " team",
+            "prob": 0.04569722623182481
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.94093199708737,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.94093199708737
+          },
+          {
+            "token": " from",
+            "prob": 0.05563128947311318
+          },
+          {
+            "token": " on",
+            "prob": 0.0018450304903190609
+          },
+          {
+            "token": " or",
+            "prob": 0.0015536714435024003
+          },
+          {
+            "token": " for",
+            "prob": 0.00001866221856025589
+          }
+        ]
+      },
+      {
+        "token": " collaboration",
+        "prob": 0.4932035533793467,
+        "top": [
+          {
+            "token": " collaboration",
+            "prob": 0.4932035533793467
+          },
+          {
+            "token": " feedback",
+            "prob": 0.2519037112811799
+          },
+          {
+            "token": " discussion",
+            "prob": 0.13911444176018967
+          },
+          {
+            "token": " ideas",
+            "prob": 0.07217162162894243
+          },
+          {
+            "token": " brainstorming",
+            "prob": 0.031529446427788356
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.5196548241763012,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.5196548241763012
+          },
+          {
+            "token": " from",
+            "prob": 0.3627775336747282
+          },
+          {
+            "token": " on",
+            "prob": 0.10723682133821871
+          },
+          {
+            "token": " in",
+            "prob": 0.006145159337458688
+          },
+          {
+            "token": " for",
+            "prob": 0.002813458958090937
+          }
+        ]
+      },
+      {
+        "token": " refine",
+        "prob": 0.5259746568560482,
+        "top": [
+          {
+            "token": " refine",
+            "prob": 0.5259746568560482
+          },
+          {
+            "token": " foster",
+            "prob": 0.16550525905676644
+          },
+          {
+            "token": " align",
+            "prob": 0.1554778023222547
+          },
+          {
+            "token": " ensure",
+            "prob": 0.08066082125567214
+          },
+          {
+            "token": " develop",
+            "prob": 0.02787563392122456
+          }
+        ]
+      },
+      {
+        "token": " these",
+        "prob": 0.7951447627829639,
+        "top": [
+          {
+            "token": " these",
+            "prob": 0.7951447627829639
+          },
+          {
+            "token": " strategies",
+            "prob": 0.16408739132434774
+          },
+          {
+            "token": " and",
+            "prob": 0.028514113060928267
+          },
+          {
+            "token": " strategic",
+            "prob": 0.005192806997342754
+          },
+          {
+            "token": " plans",
+            "prob": 0.004172537643175414
+          }
+        ]
+      },
+      {
+        "token": " plans",
+        "prob": 0.5468398110079924,
+        "top": [
+          {
+            "token": " plans",
+            "prob": 0.5468398110079924
+          },
+          {
+            "token": " strategies",
+            "prob": 0.2749683414558698
+          },
+          {
+            "token": " initiatives",
+            "prob": 0.15667223830630245
+          },
+          {
+            "token": " ideas",
+            "prob": 0.017037311457587898
+          },
+          {
+            "token": " strategic",
+            "prob": 0.0039839776534877185
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9883055814035042,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9883055814035042
+          },
+          {
+            "token": ",",
+            "prob": 0.009101977579023828
+          },
+          {
+            "token": " for",
+            "prob": 0.0012127211346451808
+          },
+          {
+            "token": " further",
+            "prob": 0.00041260758556982093
+          },
+          {
+            "token": " to",
+            "prob": 0.0003474504223295768
+          }
+        ]
+      },
+      {
+        "token": " ensure",
+        "prob": 0.5523641811210587,
+        "top": [
+          {
+            "token": " ensure",
+            "prob": 0.5523641811210587
+          },
+          {
+            "token": " align",
+            "prob": 0.32983171740858774
+          },
+          {
+            "token": " foster",
+            "prob": 0.02279878985318788
+          },
+          {
+            "token": " prepare",
+            "prob": 0.01720942945861136
+          },
+          {
+            "token": " drive",
+            "prob": 0.016679950977662367
+          }
+        ]
+      },
+      {
+        "token": " they",
+        "prob": 0.6248826795912514,
+        "top": [
+          {
+            "token": " they",
+            "prob": 0.6248826795912514
+          },
+          {
+            "token": " alignment",
+            "prob": 0.14612156605462046
+          },
+          {
+            "token": " collective",
+            "prob": 0.08069598325561037
+          },
+          {
+            "token": " the",
+            "prob": 0.0341688291551349
+          },
+          {
+            "token": " everyone",
+            "prob": 0.029226148357410265
+          }
+        ]
+      },
+      {
+        "token": " align",
+        "prob": 0.9838763934881477,
+        "top": [
+          {
+            "token": " align",
+            "prob": 0.9838763934881477
+          },
+          {
+            "token": " are",
+            "prob": 0.01517463641364094
+          },
+          {
+            "token": " support",
+            "prob": 0.0005274244625180179
+          },
+          {
+            "token": " meet",
+            "prob": 0.0001333537243325652
+          },
+          {
+            "token": " resonate",
+            "prob": 0.000125274230612839
+          }
+        ]
+      },
+      {
+        "token": " with",
+        "prob": 0.9999511724842978,
+        "top": [
+          {
+            "token": " with",
+            "prob": 0.9999511724842978
+          },
+          {
+            "token": " well",
+            "prob": 0.000044693895244177714
+          },
+          {
+            "token": " closely",
+            "prob": 0.000003726471921802242
+          },
+          {
+            "token": " effectively",
+            "prob": 1.400454761569798e-7
+          },
+          {
+            "token": " cohes",
+            "prob": 5.929892904445273e-8
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.7494261495307182,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.7494261495307182
+          },
+          {
+            "token": " overall",
+            "prob": 0.18080747293462635
+          },
+          {
+            "token": " organizational",
+            "prob": 0.05514317027283003
+          },
+          {
+            "token": " broader",
+            "prob": 0.0070106673688322815
+          },
+          {
+            "token": " overarching",
+            "prob": 0.003110964786792527
+          }
+        ]
+      },
+      {
+        "token": " overall",
+        "prob": 0.40697238620296683,
+        "top": [
+          {
+            "token": " overall",
+            "prob": 0.40697238620296683
+          },
+          {
+            "token": " organization's",
+            "prob": 0.37638792839158086
+          },
+          {
+            "token": " organization",
+            "prob": 0.1363186740071831
+          },
+          {
+            "token": " team's",
+            "prob": 0.033406327761435345
+          },
+          {
+            "token": " broader",
+            "prob": 0.02026196201571984
+          }
+        ]
+      },
+      {
+        "token": " vision",
+        "prob": 0.4044342965624373,
+        "top": [
+          {
+            "token": " vision",
+            "prob": 0.4044342965624373
+          },
+          {
+            "token": " organizational",
+            "prob": 0.3569119927417174
+          },
+          {
+            "token": " goals",
+            "prob": 0.14196978204535396
+          },
+          {
+            "token": " business",
+            "prob": 0.037035030405482186
+          },
+          {
+            "token": " objectives",
+            "prob": 0.031186622363238214
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.644402244780511,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.644402244780511
+          },
+          {
+            "token": " of",
+            "prob": 0.2996748743534714
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.05372874434867554
+          },
+          {
+            "token": " for",
+            "prob": 0.0018384965308602375
+          },
+          {
+            "token": ".",
+            "prob": 0.00030485260996780574
+          }
+        ]
+      },
+      {
+        "token": " goals",
+        "prob": 0.8457618431100836,
+        "top": [
+          {
+            "token": " goals",
+            "prob": 0.8457618431100836
+          },
+          {
+            "token": " objectives",
+            "prob": 0.12376230803259841
+          },
+          {
+            "token": " mission",
+            "prob": 0.028491701098727628
+          },
+          {
+            "token": " strategy",
+            "prob": 0.0010707535114452087
+          },
+          {
+            "token": " priorities",
+            "prob": 0.00044635647135890457
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.8873202448613473,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.8873202448613473
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.10933931237063298
+          },
+          {
+            "token": ".",
+            "prob": 0.003301761138788656
+          },
+          {
+            "token": ".\n",
+            "prob": 0.000018733920416181153
+          },
+          {
+            "token": " for",
+            "prob": 0.000016276312120408056
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9911525365933661,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9911525365933661
+          },
+          {
+            "token": " your",
+            "prob": 0.008847354297271612
+          },
+          {
+            "token": " both",
+            "prob": 1.3321503041053765e-8
+          },
+          {
+            "token": "the",
+            "prob": 7.356832694276069e-9
+          },
+          {
+            "token": " everyone",
+            "prob": 2.4642302814035368e-9
+          }
+        ]
+      },
+      {
+        "token": " organization",
+        "prob": 0.9944585512438947,
+        "top": [
+          {
+            "token": " organization",
+            "prob": 0.9944585512438947
+          },
+          {
+            "token": " team",
+            "prob": 0.004533857936839894
+          },
+          {
+            "token": " company",
+            "prob": 0.0009356144673063965
+          },
+          {
+            "token": " department",
+            "prob": 0.00005445929259516975
+          },
+          {
+            "token": " group",
+            "prob": 0.000011595052490858665
+          }
+        ]
+      },
+      {
+        "token": ".\n\n",
+        "prob": 0.9714432032105625,
+        "top": [
+          {
+            "token": ".\n\n",
+            "prob": 0.9714432032105625
+          },
+          {
+            "token": ".",
+            "prob": 0.028432500983532272
+          },
+          {
+            "token": ".\n",
+            "prob": 0.0000948373133189816
+          },
+          {
+            "token": " or",
+            "prob": 0.00001700339333760958
+          },
+          {
+            "token": ".\n\n\n",
+            "prob": 0.00001168624994400491
+          }
+        ]
+      },
+      {
+        "token": "Tail",
+        "prob": 0.33169414978443645,
+        "top": [
+          {
+            "token": "Tail",
+            "prob": 0.33169414978443645
+          },
+          {
+            "token": "Feel",
+            "prob": 0.20756889501449044
+          },
+          {
+            "token": "These",
+            "prob": 0.15668122209803603
+          },
+          {
+            "token": "Adjust",
+            "prob": 0.12989331087585065
+          },
+          {
+            "token": "Make",
+            "prob": 0.08652759911306977
+          }
+        ]
+      },
+      {
+        "token": "or",
+        "prob": 0.9830711506764728,
+        "top": [
+          {
+            "token": "or",
+            "prob": 0.9830711506764728
+          },
+          {
+            "token": "oring",
+            "prob": 0.016914676004107013
+          },
+          {
+            "token": "ored",
+            "prob": 0.000010767818601380172
+          },
+          {
+            "token": "ore",
+            "prob": 9.262944879754423e-7
+          },
+          {
+            "token": "ors",
+            "prob": 3.0545950164775916e-7
+          }
+        ]
+      },
+      {
+        "token": " these",
+        "prob": 0.9987695731345588,
+        "top": [
+          {
+            "token": " these",
+            "prob": 0.9987695731345588
+          },
+          {
+            "token": " each",
+            "prob": 0.0008163999456980571
+          },
+          {
+            "token": " the",
+            "prob": 0.0002489879158145519
+          },
+          {
+            "token": " your",
+            "prob": 0.00012325795622904152
+          },
+          {
+            "token": " and",
+            "prob": 0.00003116449183266999
+          }
+        ]
+      },
+      {
+        "token": " points",
+        "prob": 0.8576831349376532,
+        "top": [
+          {
+            "token": " points",
+            "prob": 0.8576831349376532
+          },
+          {
+            "token": " talking",
+            "prob": 0.14001291871330454
+          },
+          {
+            "token": " to",
+            "prob": 0.0013304067131875465
+          },
+          {
+            "token": " topics",
+            "prob": 0.000581211648621112
+          },
+          {
+            "token": " suggestions",
+            "prob": 0.00032097555701429757
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.8656696730954822,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.8656696730954822
+          },
+          {
+            "token": " based",
+            "prob": 0.07564137755056845
+          },
+          {
+            "token": " according",
+            "prob": 0.04177313608600751
+          },
+          {
+            "token": " as",
+            "prob": 0.014436409537463706
+          },
+          {
+            "token": " further",
+            "prob": 0.0017789146934327014
+          }
+        ]
+      },
+      {
+        "token": " fit",
+        "prob": 0.6144942163941203,
+        "top": [
+          {
+            "token": " fit",
+            "prob": 0.6144942163941203
+          },
+          {
+            "token": " the",
+            "prob": 0.1653888746576785
+          },
+          {
+            "token": " suit",
+            "prob": 0.13498648148577205
+          },
+          {
+            "token": " your",
+            "prob": 0.06682315393522086
+          },
+          {
+            "token": " align",
+            "prob": 0.008234228191462353
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9822467432386606,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9822467432386606
+          },
+          {
+            "token": " your",
+            "prob": 0.017711557884433078
+          },
+          {
+            "token": " specific",
+            "prob": 0.000020738102179345938
+          },
+          {
+            "token": " with",
+            "prob": 0.00001026610501289967
+          },
+          {
+            "token": " more",
+            "prob": 0.0000032052343033796205
+          }
+        ]
+      },
+      {
+        "token": " specific",
+        "prob": 0.9301100154904571,
+        "top": [
+          {
+            "token": " specific",
+            "prob": 0.9301100154904571
+          },
+          {
+            "token": " context",
+            "prob": 0.060396307697414824
+          },
+          {
+            "token": " specifics",
+            "prob": 0.008837930419650631
+          },
+          {
+            "token": " particular",
+            "prob": 0.00024299916637965342
+          },
+          {
+            "token": " agenda",
+            "prob": 0.00015445966785839906
+          }
+        ]
+      },
+      {
+        "token": " context",
+        "prob": 0.9907470280929463,
+        "top": [
+          {
+            "token": " context",
+            "prob": 0.9907470280929463
+          },
+          {
+            "token": " focus",
+            "prob": 0.004112718883320905
+          },
+          {
+            "token": " agenda",
+            "prob": 0.0027828047962033947
+          },
+          {
+            "token": " objectives",
+            "prob": 0.0004989294073787549
+          },
+          {
+            "token": " nature",
+            "prob": 0.0004835789632890762
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.872230422959483,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.872230422959483
+          },
+          {
+            "token": " of",
+            "prob": 0.12763551911177168
+          },
+          {
+            "token": " or",
+            "prob": 0.00011638852804221339
+          },
+          {
+            "token": ",",
+            "prob": 0.000017299610280339188
+          },
+          {
+            "token": " in",
+            "prob": 4.529183407905465e-8
+          }
+        ]
+      },
+      {
+        "token": " objectives",
+        "prob": 0.7582904070422372,
+        "top": [
+          {
+            "token": " objectives",
+            "prob": 0.7582904070422372
+          },
+          {
+            "token": " goals",
+            "prob": 0.1917258457330513
+          },
+          {
+            "token": " priorities",
+            "prob": 0.018114110612529426
+          },
+          {
+            "token": " purpose",
+            "prob": 0.01151402924728662
+          },
+          {
+            "token": " audience",
+            "prob": 0.0065604961085534335
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.999988958915327,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.999988958915327
+          },
+          {
+            "token": " you",
+            "prob": 0.0000060488859456541025
+          },
+          {
+            "token": " for",
+            "prob": 0.000004157334459077456
+          },
+          {
+            "token": " relevant",
+            "prob": 5.2854576349842e-7
+          },
+          {
+            "token": " your",
+            "prob": 7.265733822678875e-8
+          }
+        ]
+      },
+      {
+        "token": " your",
+        "prob": 0.9999807339864315,
+        "top": [
+          {
+            "token": " your",
+            "prob": 0.9999807339864315
+          },
+          {
+            "token": " the",
+            "prob": 0.00001805849993529445
+          },
+          {
+            "token": " tomorrow",
+            "prob": 9.276196264414363e-7
+          },
+          {
+            "token": " our",
+            "prob": 4.9547621790070765e-8
+          },
+          {
+            "token": "your",
+            "prob": 1.880615600779844e-8
+          }
+        ]
+      },
+      {
+        "token": " meeting",
+        "prob": 0.9998451030330144,
+        "top": [
+          {
+            "token": " meeting",
+            "prob": 0.9998451030330144
+          },
+          {
+            "token": " upcoming",
+            "prob": 0.0001420218704116078
+          },
+          {
+            "token": " particular",
+            "prob": 0.000004859721164588497
+          },
+          {
+            "token": " organization",
+            "prob": 0.000004784378171377149
+          },
+          {
+            "token": " team",
+            "prob": 0.0000015411726115090401
+          }
+        ]
+      },
+      {
+        "token": " for",
+        "prob": 0.5920190455357278,
+        "top": [
+          {
+            "token": " for",
+            "prob": 0.5920190455357278
+          },
+          {
+            "token": " to",
+            "prob": 0.15933977398146795
+          },
+          {
+            "token": ".",
+            "prob": 0.14508051519007933
+          },
+          {
+            "token": ",",
+            "prob": 0.09664445823144166
+          },
+          {
+            "token": "!",
+            "prob": 0.006374391446182735
+          }
+        ]
+      },
+      {
+        "token": " maximum",
+        "prob": 0.7264235010875967,
+        "top": [
+          {
+            "token": " maximum",
+            "prob": 0.7264235010875967
+          },
+          {
+            "token": " the",
+            "prob": 0.15466449757917283
+          },
+          {
+            "token": " a",
+            "prob": 0.08278593991539997
+          },
+          {
+            "token": " more",
+            "prob": 0.011559507276401907
+          },
+          {
+            "token": " greater",
+            "prob": 0.00973408106290866
+          }
+        ]
+      },
+      {
+        "token": " impact",
+        "prob": 0.7329683456709927,
+        "top": [
+          {
+            "token": " impact",
+            "prob": 0.7329683456709927
+          },
+          {
+            "token": " effectiveness",
+            "prob": 0.24551364990902363
+          },
+          {
+            "token": " relevance",
+            "prob": 0.019840544501913276
+          },
+          {
+            "token": " engagement",
+            "prob": 0.0013501659976764189
+          },
+          {
+            "token": " effect",
+            "prob": 0.00026174161768588065
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9850913689275419,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9850913689275419
+          },
+          {
+            "token": "!",
+            "prob": 0.013619252703907622
+          },
+          {
+            "token": " and",
+            "prob": 0.0010835410542322842
+          },
+          {
+            "token": ".\n",
+            "prob": 0.00019125626566299301
+          },
+          {
+            "token": "!\n",
+            "prob": 0.000011850430947607137
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T16:42:52.934Z"
+}

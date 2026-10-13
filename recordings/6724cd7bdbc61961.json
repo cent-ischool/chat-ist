@@ -1,0 +1,243 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Bob is Jill's mother"
+      },
+      {
+        "role": "assistant",
+        "content": "."
+      },
+      {
+        "role": "user",
+        "content": "who is Bob's child?"
+      },
+      {
+        "role": "assistant",
+        "content": "Jill is Bob's child."
+      },
+      {
+        "role": "user",
+        "content": "who is jills mother?"
+      },
+      {
+        "role": "assistant",
+        "content": "Bob is Jill's mother."
+      },
+      {
+        "role": "user",
+        "content": "how many \"r\"s in strawberry"
+      },
+      {
+        "role": "assistant",
+        "content": "There are 3 \"r\"s in the word \"strawberry\"."
+      },
+      {
+        "role": "user",
+        "content": "9.11 or 9.9 which is larger?"
+      },
+      {
+        "role": "assistant",
+        "content": "9.11 is larger than 9.9."
+      },
+      {
+        "role": "user",
+        "content": " Sally has 3 brothers and each brother has 2 sisters, so how many sisters does Sally have"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "Sally has 2 sisters.",
+    "tokens": [
+      {
+        "token": "S",
+        "prob": 0.9741671930129782,
+        "top": [
+          {
+            "token": "S",
+            "prob": 0.9741671930129782
+          },
+          {
+            "token": "In",
+            "prob": 0.006117691252235267
+          },
+          {
+            "token": "Each",
+            "prob": 0.0059920001963411785
+          },
+          {
+            "token": "If",
+            "prob": 0.0031477243997129305
+          },
+          {
+            "token": "Since",
+            "prob": 0.002333548986686548
+          }
+        ]
+      },
+      {
+        "token": "ally",
+        "prob": 0.9999982567412194,
+        "top": [
+          {
+            "token": "ally",
+            "prob": 0.9999982567412194
+          },
+          {
+            "token": "all",
+            "prob": 8.609339918289556e-7
+          },
+          {
+            "token": "aly",
+            "prob": 1.469239104740175e-7
+          },
+          {
+            "token": "In",
+            "prob": 7.47986500192375e-8
+          },
+          {
+            "token": "Al",
+            "prob": 5.7579743871047586e-8
+          }
+        ]
+      },
+      {
+        "token": " has",
+        "prob": 0.807960013441988,
+        "top": [
+          {
+            "token": " has",
+            "prob": 0.807960013441988
+          },
+          {
+            "token": " is",
+            "prob": 0.15131453430187636
+          },
+          {
+            "token": " would",
+            "prob": 0.020819733834559803
+          },
+          {
+            "token": " also",
+            "prob": 0.01241610821263202
+          },
+          {
+            "token": " herself",
+            "prob": 0.0034300789519773572
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9772803150672305,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9772803150672305
+          },
+          {
+            "token": " two",
+            "prob": 0.021090341333686913
+          },
+          {
+            "token": " a",
+            "prob": 0.0005093424387188019
+          },
+          {
+            "token": " only",
+            "prob": 0.00034443540111477245
+          },
+          {
+            "token": " one",
+            "prob": 0.00018804185254316642
+          }
+        ]
+      },
+      {
+        "token": "2",
+        "prob": 0.9921465120540676,
+        "top": [
+          {
+            "token": "2",
+            "prob": 0.9921465120540676
+          },
+          {
+            "token": "3",
+            "prob": 0.005904393170392929
+          },
+          {
+            "token": "1",
+            "prob": 0.0007769348960302258
+          },
+          {
+            "token": "4",
+            "prob": 0.0006965928250795018
+          },
+          {
+            "token": "5",
+            "prob": 0.00020433658444478158
+          }
+        ]
+      },
+      {
+        "token": " sisters",
+        "prob": 0.9998535615431577,
+        "top": [
+          {
+            "token": " sisters",
+            "prob": 0.9998535615431577
+          },
+          {
+            "token": " sister",
+            "prob": 0.00007459388683677812
+          },
+          {
+            "token": " other",
+            "prob": 0.00001769297305063403
+          },
+          {
+            "token": " brothers",
+            "prob": 0.000014687055945717521
+          },
+          {
+            "token": " siblings",
+            "prob": 0.000013093901113770134
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.862865182228292,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.862865182228292
+          },
+          {
+            "token": ",",
+            "prob": 0.06297244684017667
+          },
+          {
+            "token": " (",
+            "prob": 0.03341361591317435
+          },
+          {
+            "token": " -",
+            "prob": 0.014665589200981629
+          },
+          {
+            "token": " as",
+            "prob": 0.006523667246799503
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T15:15:29.923Z"
+}

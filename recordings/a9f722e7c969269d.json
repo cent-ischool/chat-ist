@@ -1,0 +1,73 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Complete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "beach",
+    "tokens": [
+      {
+        "token": "be",
+        "prob": 0.8161636862859593,
+        "top": [
+          {
+            "token": "be",
+            "prob": 0.8161636862859593
+          },
+          {
+            "token": "It's",
+            "prob": 0.1213119127596166
+          },
+          {
+            "token": "park",
+            "prob": 0.06099946051959114
+          },
+          {
+            "token": "Sure",
+            "prob": 0.0007678698857323502
+          },
+          {
+            "token": "\"It's",
+            "prob": 0.0005115116182322223
+          }
+        ]
+      },
+      {
+        "token": "ach",
+        "prob": 1,
+        "top": [
+          {
+            "token": "ach",
+            "prob": 1
+          },
+          {
+            "token": " ach",
+            "prob": 1.4166087866431964e-9
+          },
+          {
+            "token": "ac",
+            "prob": 1.0693124126838808e-9
+          },
+          {
+            "token": "a",
+            "prob": 1.0203450321865548e-9
+          },
+          {
+            "token": "ech",
+            "prob": 4.2534309088621987e-10
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T14:46:05.040Z"
+}

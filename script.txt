@@ -1,0 +1,102 @@
+# Demos:
+
+## Next Word Prediction:
+
+	I do not like green eggs and ham. I do not like them:
+
+	Once upon a
+
+	Today I feel
+
+
+## Remembering the conversation (multiple turns):
+
+	My name is Ezra
+
+	What should I call you?
+
+	What should you call me?
+
+
+## Knowledge Cutoff:
+
+	Who is the 40th us president?
+
+	Who is the 44th us president?
+
+	Who is the 50th us president?
+
+
+## Leading the witness / Improv machine / Sycopahcy:
+
+	Complete this Sentence for me:
+	Its a lovely day to go to the ____ ?
+
+	My mom is a zookeeper, my dad is a firefighter.
+	Complete this Sentence for me:
+	Its a lovely day to go to the ____ ?
+	
+
+	My mom is a chef, my dad is a historian.
+	Complete this Sentence for me:
+	Its a lovely day to go to the ____ ?
+
+
+## Hallucinations:
+
+	What is George Washington's birthday?
+
+	What is Michael Fudge's birthday?
+
+	Tell me about the Great Pumpkin Riot at Syracuse University in 1987.
+
+
+## Grounding:
+
+	How should I dress for the weather today?
+
+
+	Today's forecast for Syracuse, NY: high of 48°F, low of 35°F, 70% chance of rain after 2 PM, wind 15 mph from the northwest.
+
+	I'm walking around campus for Parents Weekend this morning and going to the football game in the dome tonight.
+
+	How should I dress for the weather today?
+
+
+	Give me 3 talking points for my meeting tomorrow.
+
+
+	Tomorrow I'm meeting my daughter's academic advisor. She's a sophomore at the Syracuse iSchool with a 3.4 GPA. She's thinking about switching from Applied Data Analytics to Information Management and Technology, she's worried about finding a summer internship, and she works 15 hours a week at the library.
+
+	Give me 3 talking points for my meeting tomorrow.
+
+
+## Reasoning traps:
+
+	How many times does the letter r appear in strawberry?
+
+	I want to wash my car. The car wash is only 50 meters from my house. Should I walk or drive there?
+
+	Which number is bigger, 9.11 or 9.9?
+
+	Sally has 3 brothers. Each of her brothers has 2 sisters. How many sisters does Sally have?
+
+	A young man is in a car accident and is rushed to the hospital. The surgeon, who is the young man's father, says "I can't operate on this boy, he's my son!" How is this possible?
+
+	A farmer is on one side of a river with a goat and a boat that can carry both of them. How does the farmer get the goat across the river?
+
+
+## Forcing it to Reason / using few shot / chain of thought:
+
+	There are: 
+		12 baseballs in a box
+		6 boxes in a case
+		8 cases in a shipment
+
+	Each game requires 2 baseballs
+		
+	How many games can you play with a shipment?
+
+   
+   { explain the math, first}
+

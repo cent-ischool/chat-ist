@@ -1,0 +1,437 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-4-31b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Add to this list, only reply with next items in the list\n\nNew York Knicks\nNew York Redbulls\nNew York Giants\nNew York Liberty\nNew York Rangers"
+      }
+    ],
+    "temperature": 1,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "New York Jets\nNew York Islanders\nNew York City FC\nNew York Empire",
+    "tokens": [
+      {
+        "token": "New",
+        "prob": 0.9999997615814777,
+        "top": [
+          {
+            "token": "New",
+            "prob": 0.9999997615814777
+          },
+          {
+            "token": " New",
+            "prob": 2.037748763016618e-7
+          },
+          {
+            "token": "Brooklyn",
+            "prob": 5.484526391933337e-8
+          },
+          {
+            "token": "NY",
+            "prob": 3.911382284409895e-9
+          },
+          {
+            "token": "Y",
+            "prob": 3.850741922767617e-9
+          }
+        ]
+      },
+      {
+        "token": " York",
+        "prob": 0.9999997615814777,
+        "top": [
+          {
+            "token": " York",
+            "prob": 0.9999997615814777
+          },
+          {
+            "token": " Yorkers",
+            "prob": 2.1024338523818466e-7
+          },
+          {
+            "token": " Jersey",
+            "prob": 4.691164021834418e-8
+          },
+          {
+            "token": "York",
+            "prob": 4.5468320783416276e-8
+          },
+          {
+            "token": " Yorker",
+            "prob": 2.9356554312963414e-8
+          }
+        ]
+      },
+      {
+        "token": " Jets",
+        "prob": 0.9642550303506344,
+        "top": [
+          {
+            "token": " Jets",
+            "prob": 0.9642550303506344
+          },
+          {
+            "token": " Mets",
+            "prob": 0.017660948708935892
+          },
+          {
+            "token": " Islanders",
+            "prob": 0.0121381807009289
+          },
+          {
+            "token": " Yankees",
+            "prob": 0.005059946522211914
+          },
+          {
+            "token": " City",
+            "prob": 0.000501002551302891
+          }
+        ]
+      },
+      {
+        "token": "\n",
+        "prob": 0.9999991655356624,
+        "top": [
+          {
+            "token": "\n",
+            "prob": 0.9999991655356624
+          },
+          {
+            "token": " ",
+            "prob": 7.811481958691221e-7
+          },
+          {
+            "token": "-",
+            "prob": 6.412060973312742e-8
+          },
+          {
+            "token": "  ",
+            "prob": 2.510999155743982e-8
+          },
+          {
+            "token": "/",
+            "prob": 1.0467401794744656e-8
+          }
+        ]
+      },
+      {
+        "token": "New",
+        "prob": 0.9999994039539004,
+        "top": [
+          {
+            "token": "New",
+            "prob": 0.9999994039539004
+          },
+          {
+            "token": " New",
+            "prob": 2.3090696564496431e-7
+          },
+          {
+            "token": "Brooklyn",
+            "prob": 2.037746819668886e-7
+          },
+          {
+            "token": "S",
+            "prob": 1.0907283138550802e-7
+          },
+          {
+            "token": "B",
+            "prob": 3.326533410710676e-8
+          }
+        ]
+      },
+      {
+        "token": " York",
+        "prob": 0.9999984502816872,
+        "top": [
+          {
+            "token": " York",
+            "prob": 0.9999984502816872
+          },
+          {
+            "token": " Yorkers",
+            "prob": 8.315271330899149e-7
+          },
+          {
+            "token": " Jersey",
+            "prob": 3.466320801173418e-7
+          },
+          {
+            "token": " Yorker",
+            "prob": 2.7852670113907915e-7
+          },
+          {
+            "token": " New",
+            "prob": 5.315775115378353e-8
+          }
+        ]
+      },
+      {
+        "token": " Islanders",
+        "prob": 0.8028371723957519,
+        "top": [
+          {
+            "token": " Islanders",
+            "prob": 0.8028371723957519
+          },
+          {
+            "token": " Mets",
+            "prob": 0.1791371975271854
+          },
+          {
+            "token": " Yankees",
+            "prob": 0.01010622671649691
+          },
+          {
+            "token": " City",
+            "prob": 0.007870737280704946
+          },
+          {
+            "token": " Empire",
+            "prob": 0.00002076786872442091
+          }
+        ]
+      },
+      {
+        "token": "\n",
+        "prob": 0.9999967813595916,
+        "top": [
+          {
+            "token": "\n",
+            "prob": 0.9999967813595916
+          },
+          {
+            "token": "-",
+            "prob": 0.0000027264699038522107
+          },
+          {
+            "token": " ",
+            "prob": 5.368737561613567e-7
+          },
+          {
+            "token": "<turn|>",
+            "prob": 2.8453239549131867e-8
+          },
+          {
+            "token": " Rangers",
+            "prob": 2.3588564092792483e-8
+          }
+        ]
+      },
+      {
+        "token": "New",
+        "prob": 0.999995112442896,
+        "top": [
+          {
+            "token": "New",
+            "prob": 0.999995112442896
+          },
+          {
+            "token": "Brooklyn",
+            "prob": 0.0000035008499770326357
+          },
+          {
+            "token": " New",
+            "prob": 0.0000010030103115077365
+          },
+          {
+            "token": "NYC",
+            "prob": 2.5360072174960893e-7
+          },
+          {
+            "token": "뉴",
+            "prob": 9.329440282540231e-8
+          }
+        ]
+      },
+      {
+        "token": " York",
+        "prob": 0.9999972581939645,
+        "top": [
+          {
+            "token": " York",
+            "prob": 0.9999972581939645
+          },
+          {
+            "token": "York",
+            "prob": 7.811467059485997e-7
+          },
+          {
+            "token": " Yorker",
+            "prob": 7.338194195418315e-7
+          },
+          {
+            "token": " Jersey",
+            "prob": 3.689875766739391e-7
+          },
+          {
+            "token": " Yorkers",
+            "prob": 3.2563039350694714e-7
+          }
+        ]
+      },
+      {
+        "token": " City",
+        "prob": 0.9758332435770544,
+        "top": [
+          {
+            "token": " City",
+            "prob": 0.9758332435770544
+          },
+          {
+            "token": " Mets",
+            "prob": 0.022949396168454195
+          },
+          {
+            "token": " Yankees",
+            "prob": 0.0011425831560400238
+          },
+          {
+            "token": " Islanders",
+            "prob": 0.00003909704561429431
+          },
+          {
+            "token": " CITY",
+            "prob": 0.00001734920882346038
+          }
+        ]
+      },
+      {
+        "token": " FC",
+        "prob": 0.9999930859092101,
+        "top": [
+          {
+            "token": " FC",
+            "prob": 0.9999930859092101
+          },
+          {
+            "token": "FC",
+            "prob": 0.000006962258245244699
+          },
+          {
+            "token": " Fc",
+            "prob": 6.7582109830509546e-9
+          },
+          {
+            "token": " FCS",
+            "prob": 4.867756763929694e-9
+          },
+          {
+            "token": " fc",
+            "prob": 2.312877875211028e-9
+          }
+        ]
+      },
+      {
+        "token": "\n",
+        "prob": 0.9999611392834032,
+        "top": [
+          {
+            "token": "\n",
+            "prob": 0.9999611392834032
+          },
+          {
+            "token": "<turn|>",
+            "prob": 0.000035356118376279385
+          },
+          {
+            "token": "_",
+            "prob": 0.0000019946557066282437
+          },
+          {
+            "token": " ",
+            "prob": 3.4661918796672413e-7
+          },
+          {
+            "token": "\n\n",
+            "prob": 2.2379416794234795e-7
+          }
+        ]
+      },
+      {
+        "token": "New",
+        "prob": 0.9971932494717755,
+        "top": [
+          {
+            "token": "New",
+            "prob": 0.9971932494717755
+          },
+          {
+            "token": "Brooklyn",
+            "prob": 0.002800911222293834
+          },
+          {
+            "token": "NY",
+            "prob": 0.000002117423627831447
+          },
+          {
+            "token": " Brooklyn",
+            "prob": 0.0000018686197930206889
+          },
+          {
+            "token": " New",
+            "prob": 4.438361038162595e-7
+          }
+        ]
+      },
+      {
+        "token": " York",
+        "prob": 0.9999983310727032,
+        "top": [
+          {
+            "token": " York",
+            "prob": 0.9999983310727032
+          },
+          {
+            "token": " Yorkers",
+            "prob": 8.851560256140678e-7
+          },
+          {
+            "token": " Yorker",
+            "prob": 4.7378987873237787e-7
+          },
+          {
+            "token": " Jersey",
+            "prob": 2.3823651234966232e-7
+          },
+          {
+            "token": "York",
+            "prob": 1.742975558207526e-7
+          }
+        ]
+      },
+      {
+        "token": " Empire",
+        "prob": 0.08471606131147287,
+        "top": [
+          {
+            "token": " Empire",
+            "prob": 0.08471606131147287
+          },
+          {
+            "token": " Mets",
+            "prob": 0.709318833540818
+          },
+          {
+            "token": " Yankees",
+            "prob": 0.158270420207434
+          },
+          {
+            "token": " Empires",
+            "prob": 0.02141957470016292
+          },
+          {
+            "token": " Guardians",
+            "prob": 0.015670895616029273
+          }
+        ]
+      }
+    ],
+    "provider": "CoreWeave"
+  },
+  "savedAt": "2026-10-13T14:44:51.316Z"
+}

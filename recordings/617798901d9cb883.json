@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "openai/gpt-4o-mini",
+    "prompt": "On the weekend I like to",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "On",
+    "tokens": [
+      {
+        "token": "On",
+        "prob": 0.7506417814403792,
+        "top": [
+          {
+            "token": "On",
+            "prob": 0.7506417814403792
+          },
+          {
+            "token": "It",
+            "prob": 0.08965138674972017
+          },
+          {
+            "token": "sp",
+            "prob": 0.0791170711190417
+          },
+          {
+            "token": "That",
+            "prob": 0.061616436941825704
+          },
+          {
+            "token": "What",
+            "prob": 0.008338877945552867
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T16:07:13.461Z"
+}

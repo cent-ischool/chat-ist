@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "qwen/qwen3.7-flash",
+    "prompt": "Happy birthday to",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "Happy",
+    "tokens": [
+      {
+        "token": "Happy",
+        "prob": 0.48739198581254767,
+        "top": [
+          {
+            "token": "Happy",
+            "prob": 0.48739198581254767
+          },
+          {
+            "token": "...",
+            "prob": 0.1582330107647294
+          },
+          {
+            "token": "It",
+            "prob": 0.07474398182476709
+          },
+          {
+            "token": "You",
+            "prob": 0.05137073736230971
+          },
+          {
+            "token": "Who",
+            "prob": 0.045334516605725066
+          }
+        ]
+      }
+    ],
+    "provider": "Alibaba"
+  },
+  "savedAt": "2026-10-13T16:07:10.875Z"
+}

@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "deepseek/deepseek-v4-flash",
+    "prompt": "My favorite food is",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "It",
+    "tokens": [
+      {
+        "token": "It",
+        "prob": 0.5268855113801847,
+        "top": [
+          {
+            "token": "It",
+            "prob": 0.5268855113801847
+          },
+          {
+            "token": "Your",
+            "prob": 0.31957221681045167
+          },
+          {
+            "token": "Since",
+            "prob": 0.04900799161432602
+          },
+          {
+            "token": "That",
+            "prob": 0.03816746224599395
+          },
+          {
+            "token": "My",
+            "prob": 0.023149736055619742
+          }
+        ]
+      }
+    ],
+    "provider": "DigitalOcean"
+  },
+  "savedAt": "2026-10-13T16:07:12.023Z"
+}

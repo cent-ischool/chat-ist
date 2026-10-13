@@ -1,0 +1,20 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My mom is a chef, my dad is a historian.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 1,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "...museum! This fits well with your dad being a historian, and it's also a nice, dry destination for a day out, making it a pleasant choice despite the implied contrast with the physical weather.",
+    "tokens": null,
+    "provider": "Cloudflare"
+  },
+  "savedAt": "2026-10-13T14:46:33.050Z"
+}

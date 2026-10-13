@@ -1,0 +1,99 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Add to this list, only reply with next items in the list\n\nNew York Knicks\nNew York Redbulls\nNew York Giants\nNew York Liberty\nNew York Rangers"
+      }
+    ],
+    "temperature": 0.7,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "New York Mets",
+    "tokens": [
+      {
+        "token": "New",
+        "prob": 0.935947831158148,
+        "top": [
+          {
+            "token": "New",
+            "prob": 0.935947831158148
+          },
+          {
+            "token": "\n",
+            "prob": 0.040099187769477525
+          },
+          {
+            "token": "Bro",
+            "prob": 0.010310095687072227
+          },
+          {
+            "token": " New",
+            "prob": 0.004505659525860001
+          },
+          {
+            "token": "Buff",
+            "prob": 0.003132871759573504
+          }
+        ]
+      },
+      {
+        "token": " York",
+        "prob": 0.9989334603581264,
+        "top": [
+          {
+            "token": " York",
+            "prob": 0.9989334603581264
+          },
+          {
+            "token": " Jersey",
+            "prob": 0.0010489884081608552
+          },
+          {
+            "token": " England",
+            "prob": 0.00001019884580958197
+          },
+          {
+            "token": "York",
+            "prob": 0.000001520269402992768
+          },
+          {
+            "token": " Y",
+            "prob": 0.0000011807484982879005
+          }
+        ]
+      },
+      {
+        "token": " Mets",
+        "prob": 0.1257342658872131,
+        "top": [
+          {
+            "token": " Yankees",
+            "prob": 0.4674376070573401
+          },
+          {
+            "token": " Jets",
+            "prob": 0.20877607768739875
+          },
+          {
+            "token": " Islanders",
+            "prob": 0.19740901190710014
+          },
+          {
+            "token": " Mets",
+            "prob": 0.1257342658872131
+          },
+          {
+            "token": " Cosmos",
+            "prob": 0.00030216691336695876
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T14:37:58.781Z"
+}

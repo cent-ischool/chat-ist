@@ -1,0 +1,94 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "google/gemma-3-27b-it",
+    "prompt": "I do not like green eggs and ham. I do not like them",
+    "temperature": 0,
+    "max_tokens": 6
+  },
+  "response": {
+    "text": "That's perfectly okay!",
+    "tokens": [
+      {
+        "token": " perfectly",
+        "prob": 0.9999971389852362,
+        "top": [
+          {
+            "token": " perfectly",
+            "prob": 0.9999971389852362
+          },
+          {
+            "token": " okay",
+            "prob": 0.0000013709551640442868
+          },
+          {
+            "token": " absolutely",
+            "prob": 8.315263400842229e-7
+          },
+          {
+            "token": " totally",
+            "prob": 3.059014453095186e-7
+          },
+          {
+            "token": " completely",
+            "prob": 3.059014453095186e-7
+          }
+        ]
+      },
+      {
+        "token": " okay",
+        "prob": 0.9890069963426578,
+        "top": [
+          {
+            "token": " okay",
+            "prob": 0.9890069963426578
+          },
+          {
+            "token": " alright",
+            "prob": 0.010986873477314309
+          },
+          {
+            "token": " fine",
+            "prob": 0.000006076667997094323
+          },
+          {
+            "token": " ok",
+            "prob": 4.548501529812404e-10
+          },
+          {
+            "token": " OK",
+            "prob": 3.7336374181545275e-11
+          }
+        ]
+      },
+      {
+        "token": "!",
+        "prob": 1,
+        "top": [
+          {
+            "token": "!",
+            "prob": 1
+          },
+          {
+            "token": " to",
+            "prob": 1.9555681087850496e-8
+          },
+          {
+            "token": " not",
+            "prob": 7.991959892953932e-11
+          },
+          {
+            "token": "!!",
+            "prob": 3.775134544279098e-11
+          },
+          {
+            "token": " with",
+            "prob": 3.97896253583724e-12
+          }
+        ]
+      }
+    ],
+    "provider": "NextBit"
+  },
+  "savedAt": "2026-10-13T14:02:08.898Z"
+}

@@ -1,0 +1,20 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-4-31b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many r's are in the word strawberry?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "There are 3 r's in strawberry.",
+    "tokens": null,
+    "provider": "Venice"
+  },
+  "savedAt": "2026-10-13T15:14:15.601Z"
+}

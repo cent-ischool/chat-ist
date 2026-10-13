@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "meta-llama/llama-3.1-8b-instruct",
+    "prompt": "I do not like green eggs and ham. I do not like them",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "You",
+    "tokens": [
+      {
+        "token": "You",
+        "prob": 0.5731298979442595,
+        "top": [
+          {
+            "token": "You",
+            "prob": 0.5731298979442595
+          },
+          {
+            "token": "A",
+            "prob": 0.21084270657437998
+          },
+          {
+            "token": "I",
+            "prob": 0.0533093783536715
+          },
+          {
+            "token": "\"I",
+            "prob": 0.04151738560688916
+          },
+          {
+            "token": "Sam",
+            "prob": 0.02853445401104554
+          }
+        ]
+      }
+    ],
+    "provider": "Novita"
+  },
+  "savedAt": "2026-10-13T14:44:45.805Z"
+}

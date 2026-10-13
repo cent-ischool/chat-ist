@@ -1,0 +1,55 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-4-31b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Complete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      },
+      {
+        "role": "assistant",
+        "content": "beach"
+      },
+      {
+        "role": "user",
+        "content": "Complete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 0.7,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "park",
+    "tokens": [
+      {
+        "token": "park",
+        "prob": 0.9997947637384105,
+        "top": [
+          {
+            "token": "park",
+            "prob": 0.9997947637384105
+          },
+          {
+            "token": "**",
+            "prob": 0.00007483648384347516
+          },
+          {
+            "token": "Park",
+            "prob": 0.00006604296519218895
+          },
+          {
+            "token": "Since",
+            "prob": 0.00003119648780062912
+          },
+          {
+            "token": "Depending",
+            "prob": 0.00001777522294072624
+          }
+        ]
+      }
+    ],
+    "provider": "CoreWeave"
+  },
+  "savedAt": "2026-10-13T14:10:08.487Z"
+}

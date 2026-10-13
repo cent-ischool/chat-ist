@@ -1,0 +1,20 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "messages": [
+      {
+        "role": "user",
+        "content": "A farmer is on one side of a river with a goat and a boat that can carry both of them. How does the farmer get the goat across the river?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "Here's a classic solution:\n\n1. The farmer takes the goat across the river first and leaves it on the other side.\n2. The farmer returns to the original side of the river alone.\n3. The farmer picks up the goat again and takes it back to the original side of the river.\n4. The farmer leaves the goat on the original side of the river and goes back to the other side alone.\n5. The farmer picks up the goat again and takes it across the river to its final destination.\n\nThis solution ensures that the goat is never left alone on either side of the river, and the farmer is able to get the goat across safely.",
+    "tokens": null,
+    "provider": "Cloudflare"
+  },
+  "savedAt": "2026-10-13T15:14:41.122Z"
+}

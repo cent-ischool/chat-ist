@@ -1,0 +1,20 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My name is Ezra"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 200
+  },
+  "response": {
+    "text": "Hello Ezra! It's nice to meet you. Is there something I can help you with, or would you like to chat?",
+    "tokens": null,
+    "provider": "Cloudflare"
+  },
+  "savedAt": "2026-10-13T14:45:01.785Z"
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-4-31b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Count the r's in strawberry. Reply with just the number."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "3",
+    "tokens": [
+      {
+        "token": "3",
+        "prob": 0.9999996423722521,
+        "top": [
+          {
+            "token": "3",
+            "prob": 0.9999996423722521
+          },
+          {
+            "token": " ",
+            "prob": 1.1253517471925912e-7
+          },
+          {
+            "token": "{",
+            "prob": 4.8400775530246366e-8
+          },
+          {
+            "token": "#",
+            "prob": 7.194133030325383e-9
+          },
+          {
+            "token": "-",
+            "prob": 5.964145762203144e-9
+          }
+        ]
+      }
+    ],
+    "provider": "CoreWeave"
+  },
+  "savedAt": "2026-10-13T15:18:33.042Z"
+}

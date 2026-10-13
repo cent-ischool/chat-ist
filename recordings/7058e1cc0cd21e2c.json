@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "google/gemma-3-27b-it",
+    "prompt": "Happy birthday to",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "Please",
+    "tokens": [
+      {
+        "token": "Please",
+        "prob": 0.9786725963591574,
+        "top": [
+          {
+            "token": "Please",
+            "prob": 0.9786725963591574
+          },
+          {
+            "token": "Okay",
+            "prob": 0.01792501089368781
+          },
+          {
+            "token": "Happy",
+            "prob": 0.0018892822484576658
+          },
+          {
+            "token": "To",
+            "prob": 0.0014713744945417345
+          },
+          {
+            "token": "That",
+            "prob": 0.000034603427921842676
+          }
+        ]
+      }
+    ],
+    "provider": "NextBit"
+  },
+  "savedAt": "2026-10-13T16:07:10.562Z"
+}

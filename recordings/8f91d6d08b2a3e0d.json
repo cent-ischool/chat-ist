@@ -1,0 +1,141 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "qwen/qwen3.7-flash",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I do not like green eggs and ham. I do not like them"
+      },
+      {
+        "role": "assistant",
+        "content": " Sam-I-Am."
+      },
+      {
+        "role": "user",
+        "content": "I do not like green eggs and ham. I do not like them"
+      },
+      {
+        "role": "assistant",
+        "content": "Sam-I-Am."
+      },
+      {
+        "role": "user",
+        "content": "I do not like green eggs and ham. I do not like them"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "Sam-I-Am.",
+    "tokens": [
+      {
+        "token": "Sam",
+        "prob": 0.8479386662648827,
+        "top": [
+          {
+            "token": "Sam",
+            "prob": 0.8479386662648827
+          },
+          {
+            "token": "In",
+            "prob": 0.022596798705678107
+          },
+          {
+            "token": "**",
+            "prob": 0.019941604866088525
+          },
+          {
+            "token": "You",
+            "prob": 0.01759840452688902
+          },
+          {
+            "token": "Would",
+            "prob": 0.015530537485410282
+          }
+        ]
+      },
+      {
+        "token": "-I",
+        "prob": 0.9982720719913991,
+        "top": [
+          {
+            "token": "-I",
+            "prob": 0.9982720719913991
+          },
+          {
+            "token": " I",
+            "prob": 0.0005521286438574625
+          },
+          {
+            "token": "—I",
+            "prob": 0.0002955333075586271
+          },
+          {
+            "token": "-i",
+            "prob": 0.00023016157135034114
+          },
+          {
+            "token": "-",
+            "prob": 0.00023016157135034114
+          }
+        ]
+      },
+      {
+        "token": "-Am",
+        "prob": 0.9990596086225503,
+        "top": [
+          {
+            "token": "-Am",
+            "prob": 0.9990596086225503
+          },
+          {
+            "token": "-am",
+            "prob": 0.0008039762735641234
+          },
+          {
+            "token": "-",
+            "prob": 0.00006599435984058796
+          },
+          {
+            "token": "-A",
+            "prob": 0.00001146810015498666
+          },
+          {
+            "token": " Am",
+            "prob": 0.000006955754352654612
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9747463933310512,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9747463933310512
+          },
+          {
+            "token": "!",
+            "prob": 0.015755306938271863
+          },
+          {
+            "token": "?",
+            "prob": 0.0031024038825713737
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 0.0031024038825713737
+          },
+          {
+            "token": ",",
+            "prob": 0.0005738870132759088
+          }
+        ]
+      }
+    ],
+    "provider": "Alibaba"
+  },
+  "savedAt": "2026-10-13T15:36:24.559Z"
+}

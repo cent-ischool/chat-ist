@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "openai/gpt-3.5-turbo",
+    "prompt": "Once upon a",
+    "temperature": 1.5,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": " time",
+    "tokens": [
+      {
+        "token": " time",
+        "prob": 0.9775956795697015,
+        "top": [
+          {
+            "token": " time",
+            "prob": 0.9775956795697015
+          },
+          {
+            "token": "time",
+            "prob": 0.02215787312107731
+          },
+          {
+            "token": "Time",
+            "prob": 0.00005522261480965336
+          },
+          {
+            "token": "\n\n",
+            "prob": 0.000042972464837512646
+          },
+          {
+            "token": " ",
+            "prob": 0.00002941696527144045
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T16:09:08.344Z"
+}

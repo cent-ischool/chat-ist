@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "openai/gpt-3.5-turbo",
+    "prompt": "Add to this list:\n\nNew York Knicks\nNew York Redbulls\nNew York Giants\nNew York Yankees",
+    "temperature": 1.5,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "\n",
+    "tokens": [
+      {
+        "token": "\n",
+        "prob": 0.5356114433046817,
+        "top": [
+          {
+            "token": "\n",
+            "prob": 0.5356114433046817
+          },
+          {
+            "token": "New",
+            "prob": 0.40822393289869885
+          },
+          {
+            "token": "-",
+            "prob": 0.044595460841044716
+          },
+          {
+            "token": "Bro",
+            "prob": 0.004771378605551647
+          },
+          {
+            "token": "\n\n",
+            "prob": 0.004007518729017134
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T14:18:54.386Z"
+}

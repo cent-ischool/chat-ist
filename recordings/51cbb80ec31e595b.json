@@ -1,0 +1,47 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Count the r's in strawberry. Reply with just the number."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "2",
+    "tokens": [
+      {
+        "token": "2",
+        "prob": 0.7914447312164785,
+        "top": [
+          {
+            "token": "2",
+            "prob": 0.7914447312164785
+          },
+          {
+            "token": "3",
+            "prob": 0.19608136075330948
+          },
+          {
+            "token": "1",
+            "prob": 0.006589694431866862
+          },
+          {
+            "token": "4",
+            "prob": 0.004910325726336488
+          },
+          {
+            "token": "Three",
+            "prob": 0.0004665844150629649
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T15:18:32.820Z"
+}

@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "openai/gpt-3.5-turbo",
+    "prompt": "The best ice cream flavor is",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": " subjective",
+    "tokens": [
+      {
+        "token": " subjective",
+        "prob": 0.9176325140500518,
+        "top": [
+          {
+            "token": " subjective",
+            "prob": 0.9176325140500518
+          },
+          {
+            "token": "a",
+            "prob": 0.028107579666334558
+          },
+          {
+            "token": "subject",
+            "prob": 0.025507593164141
+          },
+          {
+            "token": " a",
+            "prob": 0.011754337001316407
+          },
+          {
+            "token": "str",
+            "prob": 0.0032063428192196618
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T16:07:34.112Z"
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-3-27b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Count the r's in strawberry. Reply with just the number."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "3",
+    "tokens": [
+      {
+        "token": "<end_of_turn>",
+        "prob": 0.9399120613327909,
+        "top": [
+          {
+            "token": "<end_of_turn>",
+            "prob": 0.9399120613327909
+          },
+          {
+            "token": "\n",
+            "prob": 0.0600865628789153
+          },
+          {
+            "token": " ",
+            "prob": 0.0000012885811825004059
+          },
+          {
+            "token": "\n\n\n\n",
+            "prob": 1.7096626662690068e-9
+          },
+          {
+            "token": ".",
+            "prob": 1.0369628248582005e-9
+          }
+        ]
+      }
+    ],
+    "provider": "NextBit"
+  },
+  "savedAt": "2026-10-13T15:18:32.717Z"
+}

@@ -1,0 +1,461 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o",
+    "messages": [
+      {
+        "role": "user",
+        "content": "my name is carlo"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello, Carlo! How can I assist you today?"
+      },
+      {
+        "role": "user",
+        "content": "pick a random word"
+      },
+      {
+        "role": "assistant",
+        "content": "Sure! The random word is \"serendipity.\""
+      },
+      {
+        "role": "user",
+        "content": "what is the weather"
+      },
+      {
+        "role": "assistant",
+        "content": "I'm unable to provide real-time weather updates. For current weather conditions, please check a reliable weather website or app. If you have any other questions or need assistance, feel free to ask!"
+      },
+      {
+        "role": "user",
+        "content": "what is my name and the random word?"
+      }
+    ],
+    "temperature": 0.7,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "Your name is Carlo, and the random word is \"serendipity.\"",
+    "tokens": [
+      {
+        "token": "Your",
+        "prob": 0.9999808531879747,
+        "top": [
+          {
+            "token": "Your",
+            "prob": 0.9999808531879747
+          },
+          {
+            "token": "You",
+            "prob": 0.00001473891809005279
+          },
+          {
+            "token": "You're",
+            "prob": 0.0000015534705375723988
+          },
+          {
+            "token": "You've",
+            "prob": 9.422275099979263e-7
+          },
+          {
+            "token": "Based",
+            "prob": 7.338075226178049e-7
+          }
+        ]
+      },
+      {
+        "token": " name",
+        "prob": 1,
+        "top": [
+          {
+            "token": " name",
+            "prob": 1
+          },
+          {
+            "token": " Name",
+            "prob": 2.5398396012961594e-10
+          },
+          {
+            "token": " names",
+            "prob": 2.3859584989085823e-10
+          },
+          {
+            "token": " username",
+            "prob": 1.8581863473258776e-10
+          },
+          {
+            "token": " provided",
+            "prob": 4.8473687062702556e-11
+          }
+        ]
+      },
+      {
+        "token": " is",
+        "prob": 0.9999982567411922,
+        "top": [
+          {
+            "token": " is",
+            "prob": 0.9999982567411922
+          },
+          {
+            "token": ",",
+            "prob": 0.0000016536891665502549
+          },
+          {
+            "token": " that",
+            "prob": 4.9444410711567335e-9
+          },
+          {
+            "token": " was",
+            "prob": 2.1940824251802136e-9
+          },
+          {
+            "token": " you",
+            "prob": 8.071578164593799e-10
+          }
+        ]
+      },
+      {
+        "token": " Carlo",
+        "prob": 0.9999984951481292,
+        "top": [
+          {
+            "token": " Carlo",
+            "prob": 0.9999984951481292
+          },
+          {
+            "token": " \"",
+            "prob": 0.000001370956471489639
+          },
+          {
+            "token": " Carlos",
+            "prob": 4.139929822488149e-8
+          },
+          {
+            "token": " Carla",
+            "prob": 2.9989551047989332e-9
+          },
+          {
+            "token": " **",
+            "prob": 2.0611496911037635e-9
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.993305242963736,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.993305242963736
+          },
+          {
+            "token": " and",
+            "prob": 0.006692838498627189
+          },
+          {
+            "token": ".",
+            "prob": 0.0000018613329597405913
+          },
+          {
+            "token": ";",
+            "prob": 3.707278891411031e-9
+          },
+          {
+            "token": " as",
+            "prob": 1.0621531856877882e-9
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 1,
+        "top": [
+          {
+            "token": " and",
+            "prob": 1
+          },
+          {
+            "token": " as",
+            "prob": 3.2241867372567335e-8
+          },
+          {
+            "token": " according",
+            "prob": 9.146313756209837e-10
+          },
+          {
+            "token": " based",
+            "prob": 8.071593559922058e-10
+          },
+          {
+            "token": " the",
+            "prob": 4.3204126993085624e-10
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 1,
+        "top": [
+          {
+            "token": " the",
+            "prob": 1
+          },
+          {
+            "token": " earlier",
+            "prob": 2.215948977336598e-8
+          },
+          {
+            "token": " your",
+            "prob": 1.522997974471263e-8
+          },
+          {
+            "token": " I",
+            "prob": 1.522997974471263e-8
+          },
+          {
+            "token": " a",
+            "prob": 2.1940866100643185e-9
+          }
+        ]
+      },
+      {
+        "token": " random",
+        "prob": 0.9999951574562983,
+        "top": [
+          {
+            "token": " random",
+            "prob": 0.9999951574562983
+          },
+          {
+            "token": " randomly",
+            "prob": 0.00000478509457496562
+          },
+          {
+            "token": " randomized",
+            "prob": 5.602764378170615e-9
+          },
+          {
+            "token": " chosen",
+            "prob": 3.3982483745062656e-9
+          },
+          {
+            "token": " previously",
+            "prob": 1.1744032131891006e-9
+          }
+        ]
+      },
+      {
+        "token": " word",
+        "prob": 1,
+        "top": [
+          {
+            "token": " word",
+            "prob": 1
+          },
+          {
+            "token": " chosen",
+            "prob": 9.736200313009565e-10
+          },
+          {
+            "token": "-word",
+            "prob": 3.3647407934131505e-10
+          },
+          {
+            "token": " selected",
+            "prob": 1.917171513758312e-10
+          },
+          {
+            "token": "word",
+            "prob": 9.056076989672867e-11
+          }
+        ]
+      },
+      {
+        "token": " is",
+        "prob": 0.8153065604493935,
+        "top": [
+          {
+            "token": " is",
+            "prob": 0.8153065604493935
+          },
+          {
+            "token": " I",
+            "prob": 0.18191948340313868
+          },
+          {
+            "token": " chosen",
+            "prob": 0.0017834756469724085
+          },
+          {
+            "token": " we",
+            "prob": 0.0006561040243510862
+          },
+          {
+            "token": " selected",
+            "prob": 0.00014639659602748716
+          }
+        ]
+      },
+      {
+        "token": " \"",
+        "prob": 0.9999484309392331,
+        "top": [
+          {
+            "token": " \"",
+            "prob": 0.9999484309392331
+          },
+          {
+            "token": " “",
+            "prob": 0.00005144221091925853
+          },
+          {
+            "token": " ser",
+            "prob": 1.6211394165107036e-8
+          },
+          {
+            "token": " '",
+            "prob": 1.1860509338206702e-8
+          },
+          {
+            "token": " **",
+            "prob": 9.23697396022109e-9
+          }
+        ]
+      },
+      {
+        "token": "ser",
+        "prob": 1,
+        "top": [
+          {
+            "token": "ser",
+            "prob": 1
+          },
+          {
+            "token": "Ser",
+            "prob": 7.194133030325383e-9
+          },
+          {
+            "token": "se",
+            "prob": 8.592166619174109e-10
+          },
+          {
+            "token": "sur",
+            "prob": 9.056076989672867e-11
+          },
+          {
+            "token": "s",
+            "prob": 5.4927883509546835e-11
+          }
+        ]
+      },
+      {
+        "token": "end",
+        "prob": 1,
+        "top": [
+          {
+            "token": "end",
+            "prob": 1
+          },
+          {
+            "token": "en",
+            "prob": 1.3176514270095466e-10
+          },
+          {
+            "token": "ind",
+            "prob": 1.026187963170189e-10
+          },
+          {
+            "token": "ed",
+            "prob": 1.783247290814639e-11
+          },
+          {
+            "token": "pend",
+            "prob": 1.57371021068629e-11
+          }
+        ]
+      },
+      {
+        "token": "ip",
+        "prob": 1,
+        "top": [
+          {
+            "token": "ip",
+            "prob": 1
+          },
+          {
+            "token": "ity",
+            "prob": 1.4166087866431964e-9
+          },
+          {
+            "token": "ipit",
+            "prob": 1.6918979226151304e-10
+          },
+          {
+            "token": "<|end|>",
+            "prob": 4.8473687062702556e-11
+          },
+          {
+            "token": "ib",
+            "prob": 3.775134544279098e-11
+          }
+        ]
+      },
+      {
+        "token": "ity",
+        "prob": 1,
+        "top": [
+          {
+            "token": "ity",
+            "prob": 1
+          },
+          {
+            "token": "ty",
+            "prob": 1.2256067444099483e-11
+          },
+          {
+            "token": "<|end|>",
+            "prob": 1.291780004785996e-12
+          },
+          {
+            "token": "itya",
+            "prob": 4.1937956583795446e-13
+          },
+          {
+            "token": "itty",
+            "prob": 2.2447770550209742e-13
+          }
+        ]
+      },
+      {
+        "token": ".\"",
+        "prob": 0.99999158136958,
+        "top": [
+          {
+            "token": ".\"",
+            "prob": 0.99999158136958
+          },
+          {
+            "token": ".\"\n",
+            "prob": 0.000006962244965803618
+          },
+          {
+            "token": "\".",
+            "prob": 9.422373944097135e-7
+          },
+          {
+            "token": ".”",
+            "prob": 3.05899694932416e-7
+          },
+          {
+            "token": ".\"\n\n",
+            "prob": 1.855375437732516e-7
+          }
+        ]
+      }
+    ],
+    "provider": "Azure"
+  },
+  "savedAt": "2026-10-13T14:35:58.474Z"
+}

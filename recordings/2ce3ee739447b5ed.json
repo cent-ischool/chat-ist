@@ -1,0 +1,47 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-3-27b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many e's are in the word excellence? Reply with just the number."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "3",
+    "tokens": [
+      {
+        "token": "<end_of_turn>",
+        "prob": 0.946581382862109,
+        "top": [
+          {
+            "token": "<end_of_turn>",
+            "prob": 0.946581382862109
+          },
+          {
+            "token": "\n",
+            "prob": 0.05340247092814182
+          },
+          {
+            "token": " ",
+            "prob": 0.000013951852511030576
+          },
+          {
+            "token": "\n\n\n\n",
+            "prob": 0.0000011452377941687838
+          },
+          {
+            "token": ".",
+            "prob": 8.919120909016171e-7
+          }
+        ]
+      }
+    ],
+    "provider": "NextBit"
+  },
+  "savedAt": "2026-10-13T15:18:36.963Z"
+}

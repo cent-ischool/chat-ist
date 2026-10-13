@@ -1,0 +1,73 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My mom is a zookeeper, my dad is a firefighter.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "zoo",
+    "tokens": [
+      {
+        "token": "z",
+        "prob": 0.7290980941042843,
+        "top": [
+          {
+            "token": "z",
+            "prob": 0.7290980941042843
+          },
+          {
+            "token": "It's",
+            "prob": 0.25196954402538174
+          },
+          {
+            "token": "park",
+            "prob": 0.01178477239586946
+          },
+          {
+            "token": "\"It's",
+            "prob": 0.0026295381520031478
+          },
+          {
+            "token": "It",
+            "prob": 0.0019848795320729657
+          }
+        ]
+      },
+      {
+        "token": "oo",
+        "prob": 0.9999989719621736,
+        "top": [
+          {
+            "token": "oo",
+            "prob": 0.9999989719621736
+          },
+          {
+            "token": "ookeeper",
+            "prob": 5.453293277533808e-7
+          },
+          {
+            "token": "ool",
+            "prob": 1.4677339741976287e-7
+          },
+          {
+            "token": "ebra",
+            "prob": 7.380222864541188e-8
+          },
+          {
+            "token": "ooo",
+            "prob": 7.04225785368342e-8
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T14:46:15.421Z"
+}

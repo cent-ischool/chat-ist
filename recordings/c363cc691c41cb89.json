@@ -1,0 +1,411 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-4-31b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "A farmer is on one side of a river with a goat and a boat that can carry both of them. How does the farmer get the goat across the river?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "The farmer simply puts the goat in the boat and rows across the river.",
+    "tokens": [
+      {
+        "token": "The",
+        "prob": 0.9839166843009317,
+        "top": [
+          {
+            "token": "The",
+            "prob": 0.9839166843009317
+          },
+          {
+            "token": "He",
+            "prob": 0.015903534579073828
+          },
+          {
+            "token": "Since",
+            "prob": 0.00013759246822121898
+          },
+          {
+            "token": "They",
+            "prob": 0.000027093563412920064
+          },
+          {
+            "token": " The",
+            "prob": 0.000004422902643545954
+          }
+        ]
+      },
+      {
+        "token": " farmer",
+        "prob": 0.9999996423722521,
+        "top": [
+          {
+            "token": " farmer",
+            "prob": 0.9999996423722521
+          },
+          {
+            "token": " boat",
+            "prob": 3.059023205018258e-7
+          },
+          {
+            "token": " answer",
+            "prob": 1.4307241918567688e-8
+          },
+          {
+            "token": " किसान",
+            "prob": 7.901209404604079e-9
+          },
+          {
+            "token": " farmers",
+            "prob": 5.964145762203144e-9
+          }
+        ]
+      },
+      {
+        "token": " simply",
+        "prob": 0.7131635766685431,
+        "top": [
+          {
+            "token": " simply",
+            "prob": 0.7131635766685431
+          },
+          {
+            "token": " puts",
+            "prob": 0.26235823368641953
+          },
+          {
+            "token": " and",
+            "prob": 0.0190051667041796
+          },
+          {
+            "token": " takes",
+            "prob": 0.003742338321011885
+          },
+          {
+            "token": " gets",
+            "prob": 0.0012149593696062122
+          }
+        ]
+      },
+      {
+        "token": " puts",
+        "prob": 0.9568917730602217,
+        "top": [
+          {
+            "token": " puts",
+            "prob": 0.9568917730602217
+          },
+          {
+            "token": " takes",
+            "prob": 0.042042889691243715
+          },
+          {
+            "token": " **",
+            "prob": 0.0005997096127661538
+          },
+          {
+            "token": " gets",
+            "prob": 0.0002832828975077765
+          },
+          {
+            "token": " put",
+            "prob": 0.00010421395402858779
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9999998807907247,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9999998807907247
+          },
+          {
+            "token": " **",
+            "prob": 1.6373771305908126e-7
+          },
+          {
+            "token": " THE",
+            "prob": 4.993718107117558e-8
+          },
+          {
+            "token": "**",
+            "prob": 3.2241867372567335e-8
+          },
+          {
+            "token": " any",
+            "prob": 1.1142491209772546e-8
+          }
+        ]
+      },
+      {
+        "token": " goat",
+        "prob": 0.9999592320834669,
+        "top": [
+          {
+            "token": " goat",
+            "prob": 0.9999592320834669
+          },
+          {
+            "token": " **",
+            "prob": 0.0000400636544290992
+          },
+          {
+            "token": " boat",
+            "prob": 6.475686615468927e-7
+          },
+          {
+            "token": " 갖고",
+            "prob": 5.65839730032953e-8
+          },
+          {
+            "token": " goal",
+            "prob": 4.9935180911338466e-8
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.9999966621509202,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.9999966621509202
+          },
+          {
+            "token": " into",
+            "prob": 0.0000016536875894701216
+          },
+          {
+            "token": " and",
+            "prob": 8.315263400842229e-7
+          },
+          {
+            "token": " (",
+            "prob": 4.450839766446488e-7
+          },
+          {
+            "token": " In",
+            "prob": 3.466317495433874e-7
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9999996423722521,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9999996423722521
+          },
+          {
+            "token": " boat",
+            "prob": 1.3574333187024555e-7
+          },
+          {
+            "token": " THE",
+            "prob": 7.734421907141565e-8
+          },
+          {
+            "token": " its",
+            "prob": 7.265816972879501e-8
+          },
+          {
+            "token": " a",
+            "prob": 3.8891115722610075e-8
+          }
+        ]
+      },
+      {
+        "token": " boat",
+        "prob": 1,
+        "top": [
+          {
+            "token": " boat",
+            "prob": 1
+          },
+          {
+            "token": " Boat",
+            "prob": 5.3157852544244216e-8
+          },
+          {
+            "token": " BOAT",
+            "prob": 3.094158060394598e-9
+          },
+          {
+            "token": "Boat",
+            "prob": 1.7907613004453186e-9
+          },
+          {
+            "token": " boats",
+            "prob": 1.5803413009113557e-9
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9945768189370249,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9945768189370249
+          },
+          {
+            "token": ",",
+            "prob": 0.00460580483239965
+          },
+          {
+            "token": " with",
+            "prob": 0.0008003688684892037
+          },
+          {
+            "token": "s",
+            "prob": 0.0000078465402880792
+          },
+          {
+            "token": " и",
+            "prob": 0.000005392843015598261
+          }
+        ]
+      },
+      {
+        "token": " rows",
+        "prob": 0.9998144255866991,
+        "top": [
+          {
+            "token": " rows",
+            "prob": 0.9998144255866991
+          },
+          {
+            "token": " sails",
+            "prob": 0.0001233868561322137
+          },
+          {
+            "token": " paddles",
+            "prob": 0.00001669859512232832
+          },
+          {
+            "token": " row",
+            "prob": 0.00001669859512232832
+          },
+          {
+            "token": " Rows",
+            "prob": 0.000015686878388548616
+          }
+        ]
+      },
+      {
+        "token": " across",
+        "prob": 0.9999934435319415,
+        "top": [
+          {
+            "token": " across",
+            "prob": 0.9999934435319415
+          },
+          {
+            "token": " it",
+            "prob": 0.000006144171336422507
+          },
+          {
+            "token": "across",
+            "prob": 2.6995604817923813e-7
+          },
+          {
+            "token": " Across",
+            "prob": 5.6585915693187436e-8
+          },
+          {
+            "token": "Across",
+            "prob": 5.3157548373442334e-8
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9735807125078251,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9735807125078251
+          },
+          {
+            "token": ".",
+            "prob": 0.022896421549379944
+          },
+          {
+            "token": " to",
+            "prob": 0.0035112808047271476
+          },
+          {
+            "token": "!",
+            "prob": 0.000007680895573786689
+          },
+          {
+            "token": " together",
+            "prob": 0.0000016100031757841554
+          }
+        ]
+      },
+      {
+        "token": " river",
+        "prob": 1,
+        "top": [
+          {
+            "token": " river",
+            "prob": 1
+          },
+          {
+            "token": " rive",
+            "prob": 6.5503326652576046e-9
+          },
+          {
+            "token": " bridge",
+            "prob": 5.515933130022035e-9
+          },
+          {
+            "token": " driver",
+            "prob": 3.6744036116318696e-9
+          },
+          {
+            "token": " नदी",
+            "prob": 3.61743726377138e-9
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9984605207010815,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9984605207010815
+          },
+          {
+            "token": " together",
+            "prob": 0.0015011246864529574
+          },
+          {
+            "token": " with",
+            "prob": 0.00002749404457385148
+          },
+          {
+            "token": "!",
+            "prob": 0.000006134750568891549
+          },
+          {
+            "token": " to",
+            "prob": 0.000002256848611010011
+          }
+        ]
+      }
+    ],
+    "provider": "CoreWeave"
+  },
+  "savedAt": "2026-10-13T15:14:40.767Z"
+}

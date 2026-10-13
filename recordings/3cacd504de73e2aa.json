@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "openai/gpt-4o",
+    "prompt": "I do not like green eggs and ham. I do not like them in a house, I do not like them with a mouse. I do not like them here or there, I do not like them anywhere. I do not like green eggs and ham, I do",
+    "temperature": 1.5,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "not",
+    "tokens": [
+      {
+        "token": "not",
+        "prob": 0.9692222941923382,
+        "top": [
+          {
+            "token": "not",
+            "prob": 0.9692222941923382
+          },
+          {
+            "token": "The",
+            "prob": 0.005247458346442743
+          },
+          {
+            "token": "under",
+            "prob": 0.004777865195346258
+          },
+          {
+            "token": "I",
+            "prob": 0.0044883889768701345
+          },
+          {
+            "token": "This",
+            "prob": 0.0030848216228464244
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T14:15:36.302Z"
+}

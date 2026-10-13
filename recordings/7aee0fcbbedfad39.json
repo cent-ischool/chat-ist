@@ -1,0 +1,99 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which is bigger: 3.11 or 3.9? Reply with just the number."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "3.9",
+    "tokens": [
+      {
+        "token": "3",
+        "prob": 1,
+        "top": [
+          {
+            "token": "3",
+            "prob": 1
+          },
+          {
+            "token": "4",
+            "prob": 4.5990553786523166e-10
+          },
+          {
+            "token": "Three",
+            "prob": 1.162823303022097e-10
+          },
+          {
+            "token": " ",
+            "prob": 1.783247290814639e-11
+          },
+          {
+            "token": "The",
+            "prob": 9.545034922840628e-12
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 1,
+        "top": [
+          {
+            "token": ".",
+            "prob": 1
+          },
+          {
+            "token": ".\n\n",
+            "prob": 1.463778514125909e-12
+          },
+          {
+            "token": " .",
+            "prob": 1.1399918530443554e-12
+          },
+          {
+            "token": ",",
+            "prob": 6.914400106940203e-13
+          },
+          {
+            "token": "..",
+            "prob": 6.101936677605324e-13
+          }
+        ]
+      },
+      {
+        "token": "9",
+        "prob": 1,
+        "top": [
+          {
+            "token": "9",
+            "prob": 1
+          },
+          {
+            "token": "91",
+            "prob": 2.335593038799337e-9
+          },
+          {
+            "token": "90",
+            "prob": 5.905303998944039e-10
+          },
+          {
+            "token": " nine",
+            "prob": 6.224144622907783e-11
+          },
+          {
+            "token": " Nine",
+            "prob": 5.4927883509546835e-11
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T15:18:40.755Z"
+}

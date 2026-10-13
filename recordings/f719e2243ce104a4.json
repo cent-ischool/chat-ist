@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "prompt": "Once upon a",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "...",
+    "tokens": [
+      {
+        "token": "...",
+        "prob": 0.966367368551694,
+        "top": [
+          {
+            "token": "...",
+            "prob": 0.966367368551694
+          },
+          {
+            "token": "time",
+            "prob": 0.02272678353176085
+          },
+          {
+            "token": "a",
+            "prob": 0.0027143272163533995
+          },
+          {
+            "token": "Once",
+            "prob": 0.0012821573901999697
+          },
+          {
+            "token": "once",
+            "prob": 0.0009985451795085252
+          }
+        ]
+      }
+    ],
+    "provider": "Parasail"
+  },
+  "savedAt": "2026-10-13T16:07:04.392Z"
+}

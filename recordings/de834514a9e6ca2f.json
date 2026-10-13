@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "openai/gpt-3.5-turbo",
+    "prompt": "My favorite food is",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "pizza",
+    "tokens": [
+      {
+        "token": "pizza",
+        "prob": 0.42806976258026247,
+        "top": [
+          {
+            "token": "pizza",
+            "prob": 0.42806976258026247
+          },
+          {
+            "token": " sushi",
+            "prob": 0.32265843243897174
+          },
+          {
+            "token": " pizza",
+            "prob": 0.12963630540453452
+          },
+          {
+            "token": "s",
+            "prob": 0.06923609142051994
+          },
+          {
+            "token": "probably",
+            "prob": 0.01014207161909449
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T16:07:12.149Z"
+}

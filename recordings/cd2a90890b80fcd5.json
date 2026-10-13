@@ -1,0 +1,47 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Complete this:\nAll is fair in love and ?"
+      }
+    ],
+    "temperature": 0.7,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "war",
+    "tokens": [
+      {
+        "token": "war",
+        "prob": 0.9178445667162493,
+        "top": [
+          {
+            "token": "war",
+            "prob": 0.9178445667162493
+          },
+          {
+            "token": " war",
+            "prob": 0.042563636224185006
+          },
+          {
+            "token": "War",
+            "prob": 0.01322188986213418
+          },
+          {
+            "token": "\n",
+            "prob": 0.009549800640955577
+          },
+          {
+            "token": "\n\n",
+            "prob": 0.00780367579908512
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T14:14:43.452Z"
+}

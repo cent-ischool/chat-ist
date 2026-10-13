@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "openai/gpt-3.5-turbo",
+    "prompt": "I do not like green eggs and ham. I do not like them Sam",
+    "temperature": 0.7,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "I",
+    "tokens": [
+      {
+        "token": "I",
+        "prob": 0.6398195407288069,
+        "top": [
+          {
+            "token": "I",
+            "prob": 0.6398195407288069
+          },
+          {
+            "token": " I",
+            "prob": 0.1880232036684356
+          },
+          {
+            "token": ".",
+            "prob": 0.05195683506625269
+          },
+          {
+            "token": "-I",
+            "prob": 0.04684607742766772
+          },
+          {
+            "token": "\n",
+            "prob": 0.020631397769026102
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T14:05:37.566Z"
+}

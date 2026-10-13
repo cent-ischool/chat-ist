@@ -1,0 +1,47 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "messages": [
+      {
+        "role": "user",
+        "content": "There are:\n12 baseballs in a box\n6 boxes in a case\n8 cases in a shipment\n\nEach game requires 2 baseballs.\n\nHow many games can you play with a shipment? Reply with only the number, nothing else."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 600
+  },
+  "response": {
+    "text": "384",
+    "tokens": [
+      {
+        "token": "<|eot_id|>",
+        "prob": 0.9975145993503386,
+        "top": [
+          {
+            "token": "<|eot_id|>",
+            "prob": 0.9975145993503386
+          },
+          {
+            "token": ".",
+            "prob": 0.0010307293576326975
+          },
+          {
+            "token": "0",
+            "prob": 0.000802732830859031
+          },
+          {
+            "token": " games",
+            "prob": 0.0003791841400849165
+          },
+          {
+            "token": "8",
+            "prob": 0.00006190013877885497
+          }
+        ]
+      }
+    ],
+    "provider": "Parasail"
+  },
+  "savedAt": "2026-10-13T14:50:19.968Z"
+}

@@ -1,0 +1,99 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My mom is a chef, my dad is a historian.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 0.7,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "museum.",
+    "tokens": [
+      {
+        "token": "m",
+        "prob": 0.9430670066313329,
+        "top": [
+          {
+            "token": "m",
+            "prob": 0.9430670066313329
+          },
+          {
+            "token": "restaurant",
+            "prob": 0.02747067518999267
+          },
+          {
+            "token": "It",
+            "prob": 0.007230377725393513
+          },
+          {
+            "token": "M",
+            "prob": 0.006919016110671297
+          },
+          {
+            "token": "library",
+            "prob": 0.0020517862987627627
+          }
+        ]
+      },
+      {
+        "token": "useum",
+        "prob": 0.9995617977986418,
+        "top": [
+          {
+            "token": "useum",
+            "prob": 0.9995617977986418
+          },
+          {
+            "token": "use",
+            "prob": 0.0003736737378372426
+          },
+          {
+            "token": "uese",
+            "prob": 0.00004094671379875418
+          },
+          {
+            "token": "ues",
+            "prob": 0.000010483342385548113
+          },
+          {
+            "token": "ese",
+            "prob": 0.0000034045084160140317
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.21945343723888877,
+        "top": [
+          {
+            "token": "<|end|>",
+            "prob": 0.5071717020011847
+          },
+          {
+            "token": ".",
+            "prob": 0.21945343723888877
+          },
+          {
+            "token": " and",
+            "prob": 0.13319641974878024
+          },
+          {
+            "token": " or",
+            "prob": 0.07566242568163024
+          },
+          {
+            "token": "!",
+            "prob": 0.03152539397452139
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T14:05:27.414Z"
+}

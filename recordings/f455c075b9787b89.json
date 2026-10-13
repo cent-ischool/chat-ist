@@ -1,0 +1,20 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-4-31b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is George Washington's birthday?"
+      }
+    ],
+    "temperature": 1,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "Depending on which calendar is used, George Washington has two birthdays:\n\n*   **February 22, 1732:** This is his birthday according to the **Old Style** (Julian) calendar, which was used in England and the colonies at the time. This is the date most commonly celebrated today.\n*   **February 23, 1732:** This is his birthday according to the **New Style** (Gregorian) calendar. \n\nThe calendar changed in 1752, which shifted the dates forward by 11 days.",
+    "tokens": null,
+    "provider": "Venice"
+  },
+  "savedAt": "2026-10-13T14:46:56.789Z"
+}

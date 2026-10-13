@@ -1,0 +1,20 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-4-31b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "A young man is in a car accident and is rushed to the hospital. The surgeon, who is the young man's father, says \"I can't operate on this boy, he's my son!\" How is this possible?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "The answer is that the young man has **two fathers**. He is the child of a same-sex couple.",
+    "tokens": null,
+    "provider": "Venice"
+  },
+  "savedAt": "2026-10-13T15:14:38.089Z"
+}

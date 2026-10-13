@@ -1,0 +1,203 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "qwen/qwen3.7-flash",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Add to this list, only reply with next items in the list\n\nNew York Knicks\nNew York Redbulls\nNew York Giants\nNew York Liberty\nNew York Rangers"
+      }
+    ],
+    "temperature": 1,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "New York Mets\nNew York Yankees",
+    "tokens": [
+      {
+        "token": "New",
+        "prob": 0.9210792833803687,
+        "top": [
+          {
+            "token": "New",
+            "prob": 0.9210792833803687
+          },
+          {
+            "token": "Bro",
+            "prob": 0.06672276297721953
+          },
+          {
+            "token": "Los",
+            "prob": 0.002283127397635748
+          },
+          {
+            "token": "Philadelphia",
+            "prob": 0.0020148528566195758
+          },
+          {
+            "token": "Boston",
+            "prob": 0.0015691689825089825
+          }
+        ]
+      },
+      {
+        "token": " York",
+        "prob": 0.9983700897376494,
+        "top": [
+          {
+            "token": " York",
+            "prob": 0.9983700897376494
+          },
+          {
+            "token": " Jersey",
+            "prob": 0.0010981467860329552
+          },
+          {
+            "token": " Yorkers",
+            "prob": 0.00011574387489394405
+          },
+          {
+            "token": " England",
+            "prob": 0.00009014142040312235
+          },
+          {
+            "token": " Yankees",
+            "prob": 0.00005819967525339307
+          }
+        ]
+      },
+      {
+        "token": " Mets",
+        "prob": 0.42427908536738573,
+        "top": [
+          {
+            "token": " Yankees",
+            "prob": 0.4807711892526611
+          },
+          {
+            "token": " Mets",
+            "prob": 0.42427908536738573
+          },
+          {
+            "token": " Jets",
+            "prob": 0.07372865857697916
+          },
+          {
+            "token": " Islanders",
+            "prob": 0.012812119746233152
+          },
+          {
+            "token": " Nets",
+            "prob": 0.002226412572262251
+          }
+        ]
+      },
+      {
+        "token": "\n",
+        "prob": 0.9021889599750694,
+        "top": [
+          {
+            "token": "\n",
+            "prob": 0.9021889599750694
+          },
+          {
+            "token": "<|im_end|>",
+            "prob": 0.09509001962355056
+          },
+          {
+            "token": "  \n",
+            "prob": 0.001741634046109635
+          },
+          {
+            "token": "\n\n",
+            "prob": 0.00044035404825814526
+          },
+          {
+            "token": " (",
+            "prob": 0.00038861108362840067
+          }
+        ]
+      },
+      {
+        "token": "New",
+        "prob": 0.9148940770283505,
+        "top": [
+          {
+            "token": "New",
+            "prob": 0.9148940770283505
+          },
+          {
+            "token": "Bro",
+            "prob": 0.0750990734585681
+          },
+          {
+            "token": "NY",
+            "prob": 0.0015586319161676814
+          },
+          {
+            "token": "Boston",
+            "prob": 0.0006916387202059278
+          },
+          {
+            "token": "Net",
+            "prob": 0.0006497344485090433
+          }
+        ]
+      },
+      {
+        "token": " York",
+        "prob": 0.9858774018058198,
+        "top": [
+          {
+            "token": " York",
+            "prob": 0.9858774018058198
+          },
+          {
+            "token": " Jersey",
+            "prob": 0.012410367105772917
+          },
+          {
+            "token": " England",
+            "prob": 0.0005122370259426018
+          },
+          {
+            "token": " Yorkers",
+            "prob": 0.0002135321611885455
+          },
+          {
+            "token": " YORK",
+            "prob": 0.00015622346640829343
+          }
+        ]
+      },
+      {
+        "token": " Yankees",
+        "prob": 0.754214742659955,
+        "top": [
+          {
+            "token": " Yankees",
+            "prob": 0.754214742659955
+          },
+          {
+            "token": " Jets",
+            "prob": 0.21608614163475096
+          },
+          {
+            "token": " Islanders",
+            "prob": 0.022775309051839367
+          },
+          {
+            "token": " Liberty",
+            "prob": 0.002255060975762121
+          },
+          {
+            "token": " Nets",
+            "prob": 0.0008295905715708965
+          }
+        ]
+      }
+    ],
+    "provider": "Alibaba"
+  },
+  "savedAt": "2026-10-13T14:44:49.917Z"
+}

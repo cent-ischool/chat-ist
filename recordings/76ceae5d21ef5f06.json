@@ -1,0 +1,99 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My mom is a zookeeper, my dad is a firefighter.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 1,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "zoo!",
+    "tokens": [
+      {
+        "token": "z",
+        "prob": 0.8404879500525678,
+        "top": [
+          {
+            "token": "z",
+            "prob": 0.8404879500525678
+          },
+          {
+            "token": "It's",
+            "prob": 0.14605490115044015
+          },
+          {
+            "token": "park",
+            "prob": 0.00727164448219095
+          },
+          {
+            "token": "Given",
+            "prob": 0.0012636223370399915
+          },
+          {
+            "token": "be",
+            "prob": 0.000984110065593264
+          }
+        ]
+      },
+      {
+        "token": "oo",
+        "prob": 0.9999983759447105,
+        "top": [
+          {
+            "token": "oo",
+            "prob": 0.9999983759447105
+          },
+          {
+            "token": "ool",
+            "prob": 6.47593982395546e-7
+          },
+          {
+            "token": "ookeeper",
+            "prob": 5.043467006019808e-7
+          },
+          {
+            "token": "ooo",
+            "prob": 1.1253496007565217e-7
+          },
+          {
+            "token": " oo",
+            "prob": 4.691155074157667e-8
+          }
+        ]
+      },
+      {
+        "token": "!",
+        "prob": 0.4319840233434371,
+        "top": [
+          {
+            "token": "!",
+            "prob": 0.4319840233434371
+          },
+          {
+            "token": "<|end|>",
+            "prob": 0.4319840233434371
+          },
+          {
+            "token": ".",
+            "prob": 0.12376549485485906
+          },
+          {
+            "token": "?",
+            "prob": 0.007912061490878227
+          },
+          {
+            "token": ",",
+            "prob": 0.0037373932115210818
+          }
+        ]
+      }
+    ],
+    "provider": "Azure"
+  },
+  "savedAt": "2026-10-13T14:46:17.731Z"
+}

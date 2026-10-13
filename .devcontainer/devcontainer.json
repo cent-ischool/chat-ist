@@ -1,0 +1,18 @@
+{
+  "name": "ChatIST",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "containerEnv": {
+    "HOST": "0.0.0.0",
+    "PORT": "3000"
+  },
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": { "label": "ChatIST", "onAutoForward": "openBrowser" }
+  },
+  "postAttachCommand": "npm start",
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint"]
+    }
+  }
+}

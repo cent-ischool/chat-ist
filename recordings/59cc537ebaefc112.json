@@ -1,0 +1,28 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-4-31b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is George Washington's birthday?"
+      },
+      {
+        "role": "assistant",
+        "content": "Depending on which calendar you use, George Washington has two birth dates:\n\n*   **February 22, 1732** (Old Style/Julian calendar)\n*   **February 22, 1731** (New Style/Gregorian calendar)\n\nAt the time of his birth, Great Britain and its colonies changed the new year from March 25 to January 1. Because of this calendar shift, he was born in 1731 by modern reckoning, but it was recorded as 1732 at the time. \n\nRegardless of the year, he is celebrated on **February 22**."
+      },
+      {
+        "role": "user",
+        "content": "When is brad pitts birthday?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "Brad Pitt's birthday is **December 18, 1963**.",
+    "tokens": null,
+    "provider": "Venice"
+  },
+  "savedAt": "2026-10-13T14:26:21.606Z"
+}

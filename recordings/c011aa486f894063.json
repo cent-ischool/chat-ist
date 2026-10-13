@@ -1,0 +1,255 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My mom is a chef, my dad is a historian.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 1,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "museum or try a new recipe at home.",
+    "tokens": [
+      {
+        "token": "museum",
+        "prob": 0.7040842282040709,
+        "top": [
+          {
+            "token": "museum",
+            "prob": 0.7040842282040709
+          },
+          {
+            "token": "It's",
+            "prob": 0.2590181201286813
+          },
+          {
+            "token": "market",
+            "prob": 0.010043222422051426
+          },
+          {
+            "token": "be",
+            "prob": 0.010043222422051426
+          },
+          {
+            "token": "farm",
+            "prob": 0.0028774313998515505
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.17161421685292588,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.22035701630411858
+          },
+          {
+            "token": " and",
+            "prob": 0.17161421685292588
+          },
+          {
+            "token": " or",
+            "prob": 0.17161421685292588
+          },
+          {
+            "token": " restaurant",
+            "prob": 0.17161421685292588
+          },
+          {
+            "token": "<|end|>",
+            "prob": 0.08106481601616555
+          }
+        ]
+      },
+      {
+        "token": " try",
+        "prob": 0.21683060775026122,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.24570126774974832
+          },
+          {
+            "token": " farmer",
+            "prob": 0.24570126774974832
+          },
+          {
+            "token": " try",
+            "prob": 0.21683060775026122
+          },
+          {
+            "token": " a",
+            "prob": 0.14902535202048522
+          },
+          {
+            "token": " farmers",
+            "prob": 0.06212300922656015
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.7747161844003658,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.7747161844003658
+          },
+          {
+            "token": " out",
+            "prob": 0.2219598964210079
+          },
+          {
+            "token": " new",
+            "prob": 0.0016946847219827933
+          },
+          {
+            "token": " cooking",
+            "prob": 0.0007064496959240588
+          },
+          {
+            "token": " some",
+            "prob": 0.0005501835763862128
+          }
+        ]
+      },
+      {
+        "token": " new",
+        "prob": 0.9998278213276119,
+        "top": [
+          {
+            "token": " new",
+            "prob": 0.9998278213276119
+          },
+          {
+            "token": " delicious",
+            "prob": 0.00013981749190744927
+          },
+          {
+            "token": " delightful",
+            "prob": 0.000008938233216929377
+          },
+          {
+            "token": " cooking",
+            "prob": 0.000005421312489729549
+          },
+          {
+            "token": " recipe",
+            "prob": 0.000005421312489729549
+          }
+        ]
+      },
+      {
+        "token": " recipe",
+        "prob": 0.52633267632877,
+        "top": [
+          {
+            "token": " recipe",
+            "prob": 0.52633267632877
+          },
+          {
+            "token": " restaurant",
+            "prob": 0.4644869565892
+          },
+          {
+            "token": " dish",
+            "prob": 0.008507374858335864
+          },
+          {
+            "token": " café",
+            "prob": 0.00013750890748221017
+          },
+          {
+            "token": " cafe",
+            "prob": 0.00012135118493084218
+          }
+        ]
+      },
+      {
+        "token": " at",
+        "prob": 0.2784683898583738,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.45911675757711673
+          },
+          {
+            "token": " at",
+            "prob": 0.2784683898583738
+          },
+          {
+            "token": "!",
+            "prob": 0.16889961620991426
+          },
+          {
+            "token": " together",
+            "prob": 0.04839055023198556
+          },
+          {
+            "token": " in",
+            "prob": 0.037686598413926506
+          }
+        ]
+      },
+      {
+        "token": " home",
+        "prob": 0.9918018628180544,
+        "top": [
+          {
+            "token": " home",
+            "prob": 0.9918018628180544
+          },
+          {
+            "token": " the",
+            "prob": 0.006682707115615942
+          },
+          {
+            "token": " a",
+            "prob": 0.0014911135089324366
+          },
+          {
+            "token": " brunch",
+            "prob": 0.000006093840099813016
+          },
+          {
+            "token": " our",
+            "prob": 0.000004458348657324967
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.8069220778279291,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.8069220778279291
+          },
+          {
+            "token": "!",
+            "prob": 0.18004864708718168
+          },
+          {
+            "token": "?",
+            "prob": 0.005436998678902046
+          },
+          {
+            "token": " with",
+            "prob": 0.004234338828687107
+          },
+          {
+            "token": " together",
+            "prob": 0.0015577262020279525
+          }
+        ]
+      }
+    ],
+    "provider": "Azure"
+  },
+  "savedAt": "2026-10-13T14:46:34.645Z"
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Bob is Jill's mother"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": ".",
+    "tokens": [
+      {
+        "token": ".",
+        "prob": 0.39026101284905723,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.39026101284905723
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.1078544118181855
+          },
+          {
+            "token": "Incorrect",
+            "prob": 0.07302514099011209
+          },
+          {
+            "token": "That",
+            "prob": 0.0720849495922941
+          },
+          {
+            "token": "False",
+            "prob": 0.0682525624886938
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T15:13:00.210Z"
+}

@@ -1,0 +1,8185 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "messages": [
+      {
+        "role": "user",
+        "content": "There are:\n12 baseballs in a box\n6 boxes in a case\n8 cases in a shipment\n2 baseballs in every box are damaged and can't be used.\n\nEach game requires 2 baseballs.\n\nHow many games can you play with a shipment? Explain the math first."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 600
+  },
+  "response": {
+    "text": "To find out how many games can be played with a shipment, we need to calculate the total number of baseballs in the shipment and then divide that by 2, since each game requires 2 baseballs.\n\nFirst, let's calculate the total number of baseballs in the shipment:\n\nNumber of cases in a shipment = 8\nNumber of boxes in a case = 6\nNumber of baseballs in a box = 12\n\nTotal number of baseballs in a shipment = Number of cases in a shipment * Number of boxes in a case * Number of baseballs in a box\n= 8 * 6 * 12\n= 576\n\nHowever, we need to subtract the number of damaged baseballs (2 per box) from the total number of baseballs in the shipment. Since there are 6 boxes in a case, the total number of damaged baseballs is:\n\nNumber of damaged baseballs = 2 * 6 * 8\n= 96\n\nNow, subtract the number of damaged baseballs from the total number of baseballs:\n\nTotal usable baseballs = Total number of baseballs in a shipment - Number of damaged baseballs\n= 576 - 96\n= 480\n\nSince each game requires 2 baseballs, we can divide the total number of usable baseballs by 2 to find out how many games can be played:\n\nNumber of games = Total usable baseballs / 2\n= 480 / 2\n= 240\n\nTherefore, with a shipment, you can play 240 games.",
+    "tokens": [
+      {
+        "token": " how",
+        "prob": 0.9626656710850172,
+        "top": [
+          {
+            "token": " how",
+            "prob": 0.9626656710850172
+          },
+          {
+            "token": " the",
+            "prob": 0.03732659435343754
+          },
+          {
+            "token": " if",
+            "prob": 0.0000021759423036220847
+          },
+          {
+            "token": " How",
+            "prob": 0.0000010278423649253065
+          },
+          {
+            "token": " total",
+            "prob": 5.501643725422569e-7
+          }
+        ]
+      },
+      {
+        "token": " many",
+        "prob": 0.999995112442896,
+        "top": [
+          {
+            "token": " many",
+            "prob": 0.999995112442896
+          },
+          {
+            "token": " much",
+            "prob": 0.0000037266354020539563
+          },
+          {
+            "token": " to",
+            "prob": 5.043452576565602e-7
+          },
+          {
+            "token": "many",
+            "prob": 2.699565630800286e-7
+          },
+          {
+            "token": " Many",
+            "prob": 1.44497335592293e-7
+          }
+        ]
+      },
+      {
+        "token": " games",
+        "prob": 0.9141551951561793,
+        "top": [
+          {
+            "token": " games",
+            "prob": 0.9141551951561793
+          },
+          {
+            "token": " baseball",
+            "prob": 0.0850296874060135
+          },
+          {
+            "token": " balls",
+            "prob": 0.0000878609542638941
+          },
+          {
+            "token": " bases",
+            "prob": 0.0000878609542638941
+          },
+          {
+            "token": " usable",
+            "prob": 0.000060385891889918364
+          }
+        ]
+      },
+      {
+        "token": " can",
+        "prob": 0.9725637037056545,
+        "top": [
+          {
+            "token": " can",
+            "prob": 0.9725637037056545
+          },
+          {
+            "token": " you",
+            "prob": 0.022872507546249622
+          },
+          {
+            "token": " we",
+            "prob": 0.004503863777052583
+          },
+          {
+            "token": " that",
+            "prob": 0.000038966056635434616
+          },
+          {
+            "token": " the",
+            "prob": 0.0000036244078544987354
+          }
+        ]
+      },
+      {
+        "token": " be",
+        "prob": 0.9999589936855495,
+        "top": [
+          {
+            "token": " be",
+            "prob": 0.9999589936855495
+          },
+          {
+            "token": " play",
+            "prob": 0.00002429983475138051
+          },
+          {
+            "token": " you",
+            "prob": 0.000011478429173685923
+          },
+          {
+            "token": " we",
+            "prob": 0.000003288625018680965
+          },
+          {
+            "token": "'t",
+            "prob": 0.0000010676602265311742
+          }
+        ]
+      },
+      {
+        "token": " played",
+        "prob": 0.9999955892755635,
+        "top": [
+          {
+            "token": " played",
+            "prob": 0.9999955892755635
+          },
+          {
+            "token": " play",
+            "prob": 0.000002902306569341241
+          },
+          {
+            "token": "played",
+            "prob": 5.043452576565602e-7
+          },
+          {
+            "token": " held",
+            "prob": 1.44497335592293e-7
+          },
+          {
+            "token": " Played",
+            "prob": 1.275184510919254e-7
+          }
+        ]
+      },
+      {
+        "token": " with",
+        "prob": 0.7032819677456847,
+        "top": [
+          {
+            "token": " with",
+            "prob": 0.7032819677456847
+          },
+          {
+            "token": ",",
+            "prob": 0.2931715414779417
+          },
+          {
+            "token": " from",
+            "prob": 0.003256841639389616
+          },
+          {
+            "token": " in",
+            "prob": 0.00014309563493181094
+          },
+          {
+            "token": " using",
+            "prob": 0.00011144299253899424
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.5919332688469366,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.5919332688469366
+          },
+          {
+            "token": " the",
+            "prob": 0.4068293894381938
+          },
+          {
+            "token": " this",
+            "prob": 0.001008428994173532
+          },
+          {
+            "token": " each",
+            "prob": 0.0001985714425671906
+          },
+          {
+            "token": " one",
+            "prob": 0.00002371597679880401
+          }
+        ]
+      },
+      {
+        "token": " shipment",
+        "prob": 0.999878063767645,
+        "top": [
+          {
+            "token": " shipment",
+            "prob": 0.999878063767645
+          },
+          {
+            "token": "shipment",
+            "prob": 0.000058287548117361516
+          },
+          {
+            "token": " single",
+            "prob": 0.000024297865030311563
+          },
+          {
+            "token": " shipments",
+            "prob": 0.000008938685009010147
+          },
+          {
+            "token": " shipping",
+            "prob": 0.000008938685009010147
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9977388366502932,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9977388366502932
+          },
+          {
+            "token": " of",
+            "prob": 0.002182545231167289
+          },
+          {
+            "token": ":\n\n",
+            "prob": 0.000058162832572169156
+          },
+          {
+            "token": " using",
+            "prob": 0.0000037182254880626003
+          },
+          {
+            "token": " (",
+            "prob": 0.0000025554965140727552
+          }
+        ]
+      },
+      {
+        "token": " we",
+        "prob": 0.8931994872077097,
+        "top": [
+          {
+            "token": " we",
+            "prob": 0.8931994872077097
+          },
+          {
+            "token": " let",
+            "prob": 0.10667746760114676
+          },
+          {
+            "token": " first",
+            "prob": 0.00009727723564380887
+          },
+          {
+            "token": " you",
+            "prob": 0.00001161810899772123
+          },
+          {
+            "token": " follow",
+            "prob": 0.000002937517982999324
+          }
+        ]
+      },
+      {
+        "token": " need",
+        "prob": 0.9194709075085148,
+        "top": [
+          {
+            "token": " need",
+            "prob": 0.9194709075085148
+          },
+          {
+            "token": " first",
+            "prob": 0.05877980374142927
+          },
+          {
+            "token": "'ll",
+            "prob": 0.021623881352564055
+          },
+          {
+            "token": " will",
+            "prob": 0.0000607370468870291
+          },
+          {
+            "token": " start",
+            "prob": 0.000022343910867203955
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.9999992847447459,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.9999992847447459
+          },
+          {
+            "token": " a",
+            "prob": 2.3823673954981372e-7
+          },
+          {
+            "token": " calculate",
+            "prob": 1.1253517471925912e-7
+          },
+          {
+            "token": " the",
+            "prob": 7.734421907141565e-8
+          },
+          {
+            "token": " two",
+            "prob": 5.6586239481320604e-8
+          }
+        ]
+      },
+      {
+        "token": " calculate",
+        "prob": 0.7276183660281876,
+        "top": [
+          {
+            "token": " calculate",
+            "prob": 0.7276183660281876
+          },
+          {
+            "token": " first",
+            "prob": 0.12644110902344882
+          },
+          {
+            "token": " follow",
+            "prob": 0.07669040927078942
+          },
+          {
+            "token": " determine",
+            "prob": 0.046515084528643766
+          },
+          {
+            "token": " find",
+            "prob": 0.011760857975052618
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9979849019664241,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9979849019664241
+          },
+          {
+            "token": " how",
+            "prob": 0.0015004097805053223
+          },
+          {
+            "token": ":\n\n",
+            "prob": 0.0002300952921432001
+          },
+          {
+            "token": " two",
+            "prob": 0.00017919839370216791
+          },
+          {
+            "token": " a",
+            "prob": 0.0000399845662851061
+          }
+        ]
+      },
+      {
+        "token": " total",
+        "prob": 0.9952592174110874,
+        "top": [
+          {
+            "token": " total",
+            "prob": 0.9952592174110874
+          },
+          {
+            "token": " number",
+            "prob": 0.004608964078170633
+          },
+          {
+            "token": " following",
+            "prob": 0.00008441612170692094
+          },
+          {
+            "token": " available",
+            "prob": 0.000027405902196974625
+          },
+          {
+            "token": " maximum",
+            "prob": 0.000004762431698585499
+          }
+        ]
+      },
+      {
+        "token": " number",
+        "prob": 0.9999785427891018,
+        "top": [
+          {
+            "token": " number",
+            "prob": 0.9999785427891018
+          },
+          {
+            "token": " amount",
+            "prob": 0.000006962158650053971
+          },
+          {
+            "token": " usable",
+            "prob": 0.000003288690881162031
+          },
+          {
+            "token": " available",
+            "prob": 0.000002561235033528778
+          },
+          {
+            "token": " baseball",
+            "prob": 0.000001994691849742128
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999966621509202,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999966621509202
+          },
+          {
+            "token": " available",
+            "prob": 9.422427859507568e-7
+          },
+          {
+            "token": " and",
+            "prob": 9.422427859507568e-7
+          },
+          {
+            "token": " usable",
+            "prob": 5.714991385721822e-7
+          },
+          {
+            "token": " or",
+            "prob": 1.3574294350601344e-7
+          }
+        ]
+      },
+      {
+        "token": " baseball",
+        "prob": 0.531455405788484,
+        "top": [
+          {
+            "token": " baseball",
+            "prob": 0.531455405788484
+          },
+          {
+            "token": " usable",
+            "prob": 0.36526360255393064
+          },
+          {
+            "token": " und",
+            "prob": 0.06347330418131966
+          },
+          {
+            "token": " good",
+            "prob": 0.029982665887211803
+          },
+          {
+            "token": " intact",
+            "prob": 0.0019167277034447619
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 0.999917394786764,
+        "top": [
+          {
+            "token": "s",
+            "prob": 0.999917394786764
+          },
+          {
+            "token": " that",
+            "prob": 0.00005144059199392749
+          },
+          {
+            "token": " available",
+            "prob": 0.000009515552719097175
+          },
+          {
+            "token": " in",
+            "prob": 0.000006539937365605772
+          },
+          {
+            "token": " balls",
+            "prob": 0.000002260141875985975
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.3342777665573937,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.3342777665573937
+          },
+          {
+            "token": " that",
+            "prob": 0.2603357863582585
+          },
+          {
+            "token": " available",
+            "prob": 0.1789259948496481
+          },
+          {
+            "token": " and",
+            "prob": 0.15790163624668171
+          },
+          {
+            "token": " first",
+            "prob": 0.058088765702485626
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.8402643718991727,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.8402643718991727
+          },
+          {
+            "token": " a",
+            "prob": 0.1460160621490659
+          },
+          {
+            "token": " one",
+            "prob": 0.004409301963272796
+          },
+          {
+            "token": " each",
+            "prob": 0.0034339678217951363
+          },
+          {
+            "token": " it",
+            "prob": 0.0034339678217951363
+          }
+        ]
+      },
+      {
+        "token": " shipment",
+        "prob": 0.9995998553786518,
+        "top": [
+          {
+            "token": " shipment",
+            "prob": 0.9995998553786518
+          },
+          {
+            "token": " case",
+            "prob": 0.0001233603830255445
+          },
+          {
+            "token": " entire",
+            "prob": 0.00006603005484090275
+          },
+          {
+            "token": " ship",
+            "prob": 0.00005142425841634287
+          },
+          {
+            "token": "shipment",
+            "prob": 0.000045381748770132396
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.6883919535929699,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.6883919535929699
+          },
+          {
+            "token": " that",
+            "prob": 0.09316372279380498
+          },
+          {
+            "token": ",",
+            "prob": 0.09316372279380498
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.06403042784843628
+          },
+          {
+            "token": ".",
+            "prob": 0.03427301827883614
+          }
+        ]
+      },
+      {
+        "token": " then",
+        "prob": 0.6459003933123975,
+        "top": [
+          {
+            "token": " then",
+            "prob": 0.6459003933123975
+          },
+          {
+            "token": " subtract",
+            "prob": 0.34572557750879646
+          },
+          {
+            "token": " the",
+            "prob": 0.0033893742989565224
+          },
+          {
+            "token": " divide",
+            "prob": 0.0014129014157094446
+          },
+          {
+            "token": " how",
+            "prob": 0.0014129014157094446
+          }
+        ]
+      },
+      {
+        "token": " divide",
+        "prob": 0.5406395689419411,
+        "top": [
+          {
+            "token": " divide",
+            "prob": 0.5406395689419411
+          },
+          {
+            "token": " subtract",
+            "prob": 0.3715757794239688
+          },
+          {
+            "token": " determine",
+            "prob": 0.07316761355280728
+          },
+          {
+            "token": " find",
+            "prob": 0.006005962025863041
+          },
+          {
+            "token": " see",
+            "prob": 0.0017207369301699062
+          }
+        ]
+      },
+      {
+        "token": " that",
+        "prob": 0.523668690701504,
+        "top": [
+          {
+            "token": " that",
+            "prob": 0.523668690701504
+          },
+          {
+            "token": " it",
+            "prob": 0.2473635594610526
+          },
+          {
+            "token": " by",
+            "prob": 0.2182975750366793
+          },
+          {
+            "token": " them",
+            "prob": 0.00846431756168346
+          },
+          {
+            "token": " the",
+            "prob": 0.0018886445330855975
+          }
+        ]
+      },
+      {
+        "token": " by",
+        "prob": 0.6223428607155909,
+        "top": [
+          {
+            "token": " by",
+            "prob": 0.6223428607155909
+          },
+          {
+            "token": " number",
+            "prob": 0.3774700146277916
+          },
+          {
+            "token": " total",
+            "prob": 0.00008702943659270064
+          },
+          {
+            "token": " amount",
+            "prob": 0.00005278602159098952
+          },
+          {
+            "token": " into",
+            "prob": 0.000017137112151545868
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.7057295211879998,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.7057295211879998
+          },
+          {
+            "token": " the",
+            "prob": 0.29419182478157657
+          },
+          {
+            "token": " two",
+            "prob": 0.00006782883625424597
+          },
+          {
+            "token": " how",
+            "prob": 0.000007149106744131197
+          },
+          {
+            "token": " twice",
+            "prob": 0.0000012423284710758505
+          }
+        ]
+      },
+      {
+        "token": "2",
+        "prob": 0.9998059649340285,
+        "top": [
+          {
+            "token": "2",
+            "prob": 0.9998059649340285
+          },
+          {
+            "token": "4",
+            "prob": 0.00017952544667341612
+          },
+          {
+            "token": "3",
+            "prob": 0.000008938045687300681
+          },
+          {
+            "token": "1",
+            "prob": 0.0000032881232526089946
+          },
+          {
+            "token": "6",
+            "prob": 0.0000012096329446726222
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.39036670901232,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.39036670901232
+          },
+          {
+            "token": " (",
+            "prob": 0.39036670901232
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.18439617664100438
+          },
+          {
+            "token": " since",
+            "prob": 0.032043254591945576
+          },
+          {
+            "token": " to",
+            "prob": 0.0018077567212142556
+          }
+        ]
+      },
+      {
+        "token": " since",
+        "prob": 0.8654651114629436,
+        "top": [
+          {
+            "token": " since",
+            "prob": 0.8654651114629436
+          },
+          {
+            "token": " as",
+            "prob": 0.1327233576519839
+          },
+          {
+            "token": " because",
+            "prob": 0.0011482820367397335
+          },
+          {
+            "token": " assuming",
+            "prob": 0.0003727925964508257
+          },
+          {
+            "token": " the",
+            "prob": 0.00015540307467768632
+          }
+        ]
+      },
+      {
+        "token": " each",
+        "prob": 0.9900238839732326,
+        "top": [
+          {
+            "token": " each",
+            "prob": 0.9900238839732326
+          },
+          {
+            "token": " ",
+            "prob": 0.007558927393007039
+          },
+          {
+            "token": " every",
+            "prob": 0.0019111961467653258
+          },
+          {
+            "token": " two",
+            "prob": 0.0003321160911307063
+          },
+          {
+            "token": " a",
+            "prob": 0.00005771312283913025
+          }
+        ]
+      },
+      {
+        "token": " game",
+        "prob": 0.9999819997211749,
+        "top": [
+          {
+            "token": " game",
+            "prob": 0.9999819997211749
+          },
+          {
+            "token": " team",
+            "prob": 0.000013007061966414663
+          },
+          {
+            "token": " games",
+            "prob": 0.0000029022678196266544
+          },
+          {
+            "token": " baseball",
+            "prob": 0.000001067684663614114
+          },
+          {
+            "token": " gameplay",
+            "prob": 1.2751674854828768e-7
+          }
+        ]
+      },
+      {
+        "token": " requires",
+        "prob": 0.9996645384165465,
+        "top": [
+          {
+            "token": " requires",
+            "prob": 0.9996645384165465
+          },
+          {
+            "token": " needs",
+            "prob": 0.00029594536648567594
+          },
+          {
+            "token": " uses",
+            "prob": 0.0000189191543134645
+          },
+          {
+            "token": " required",
+            "prob": 0.000004783511329583989
+          },
+          {
+            "token": " require",
+            "prob": 0.0000032876560517982246
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9996430955916169,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9996430955916169
+          },
+          {
+            "token": " two",
+            "prob": 0.00026116538973245014
+          },
+          {
+            "token": " exactly",
+            "prob": 0.00008478798816524496
+          },
+          {
+            "token": " a",
+            "prob": 0.00000422134536355669
+          },
+          {
+            "token": " at",
+            "prob": 0.0000022595233495693696
+          }
+        ]
+      },
+      {
+        "token": "2",
+        "prob": 0.9999934435319415,
+        "top": [
+          {
+            "token": "2",
+            "prob": 0.9999934435319415
+          },
+          {
+            "token": "4",
+            "prob": 0.000002902301033636053
+          },
+          {
+            "token": "1",
+            "prob": 0.000002902301033636053
+          },
+          {
+            "token": "3",
+            "prob": 5.714969584801392e-7
+          },
+          {
+            "token": "6",
+            "prob": 9.931137485569145e-8
+          }
+        ]
+      },
+      {
+        "token": " baseball",
+        "prob": 0.9998842611792573,
+        "top": [
+          {
+            "token": " baseball",
+            "prob": 0.9998842611792573
+          },
+          {
+            "token": " balls",
+            "prob": 0.0000848084482454889
+          },
+          {
+            "token": " bases",
+            "prob": 0.000011477575364160848
+          },
+          {
+            "token": " Baseball",
+            "prob": 0.000006961501357525949
+          },
+          {
+            "token": " base",
+            "prob": 0.000004222364010970607
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 0.9999988079084972,
+        "top": [
+          {
+            "token": "s",
+            "prob": 0.9999988079084972
+          },
+          {
+            "token": "b",
+            "prob": 2.6995759288455584e-7
+          },
+          {
+            "token": "balls",
+            "prob": 1.8553895931777327e-7
+          },
+          {
+            "token": ".\n\n",
+            "prob": 6.825590357542018e-8
+          },
+          {
+            "token": " usable",
+            "prob": 6.412048743288674e-8
+          }
+        ]
+      },
+      {
+        "token": ".\n\n",
+        "prob": 0.9894778286359139,
+        "top": [
+          {
+            "token": ".\n\n",
+            "prob": 0.9894778286359139
+          },
+          {
+            "token": ".",
+            "prob": 0.008560658574474207
+          },
+          {
+            "token": " and",
+            "prob": 0.0009022867754884563
+          },
+          {
+            "token": ",",
+            "prob": 0.0005472645931869982
+          },
+          {
+            "token": " that",
+            "prob": 0.0002585094893209561
+          }
+        ]
+      },
+      {
+        "token": "First",
+        "prob": 0.40457833242018854,
+        "top": [
+          {
+            "token": "First",
+            "prob": 0.40457833242018854
+          },
+          {
+            "token": "1",
+            "prob": 0.16865335082336552
+          },
+          {
+            "token": "Here",
+            "prob": 0.1488360597121332
+          },
+          {
+            "token": "Step",
+            "prob": 0.13134736168885344
+          },
+          {
+            "token": "Let",
+            "prob": 0.06204410045259092
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9999227583468039,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9999227583468039
+          },
+          {
+            "token": "ly",
+            "prob": 0.00006605140551775956
+          },
+          {
+            "token": " step",
+            "prob": 0.000005421829531031874
+          },
+          {
+            "token": ":",
+            "prob": 0.000004222525084447292
+          },
+          {
+            "token": ":\n",
+            "prob": 3.2560617187109244e-7
+          }
+        ]
+      },
+      {
+        "token": " let",
+        "prob": 0.8807813233949473,
+        "top": [
+          {
+            "token": " let",
+            "prob": 0.8807813233949473
+          },
+          {
+            "token": " we",
+            "prob": 0.10519432000936016
+          },
+          {
+            "token": " calculate",
+            "prob": 0.012563669883517061
+          },
+          {
+            "token": " find",
+            "prob": 0.0013242010633739466
+          },
+          {
+            "token": " there",
+            "prob": 0.00009592484903582763
+          }
+        ]
+      },
+      {
+        "token": "'s",
+        "prob": 0.9999997615814777,
+        "top": [
+          {
+            "token": "'s",
+            "prob": 0.9999997615814777
+          },
+          {
+            "token": "'",
+            "prob": 6.023573837886479e-8
+          },
+          {
+            "token": "'t",
+            "prob": 2.3588654076195056e-8
+          },
+          {
+            "token": "'S",
+            "prob": 1.186112015134383e-8
+          },
+          {
+            "token": " me",
+            "prob": 1.186112015134383e-8
+          }
+        ]
+      },
+      {
+        "token": " calculate",
+        "prob": 0.6171392132905917,
+        "top": [
+          {
+            "token": " calculate",
+            "prob": 0.6171392132905917
+          },
+          {
+            "token": " find",
+            "prob": 0.3743138541716782
+          },
+          {
+            "token": " start",
+            "prob": 0.004711915477922652
+          },
+          {
+            "token": " break",
+            "prob": 0.0017334168328652546
+          },
+          {
+            "token": " determine",
+            "prob": 0.0010513704551947465
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9998158555572949,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9998158555572949
+          },
+          {
+            "token": " how",
+            "prob": 0.00015843216154403462
+          },
+          {
+            "token": ":\n\n",
+            "prob": 0.00001669862697240127
+          },
+          {
+            "token": " total",
+            "prob": 0.000003725967310610786
+          },
+          {
+            "token": ":\n",
+            "prob": 0.0000032881546107454737
+          }
+        ]
+      },
+      {
+        "token": " total",
+        "prob": 0.9525071947532979,
+        "top": [
+          {
+            "token": " total",
+            "prob": 0.9525071947532979
+          },
+          {
+            "token": " number",
+            "prob": 0.04742253905943746
+          },
+          {
+            "token": " initial",
+            "prob": 0.00005552609778932055
+          },
+          {
+            "token": " damage",
+            "prob": 0.0000014797203846955964
+          },
+          {
+            "token": "total",
+            "prob": 0.000001152407394327651
+          }
+        ]
+      },
+      {
+        "token": " number",
+        "prob": 0.9999777083605178,
+        "top": [
+          {
+            "token": " number",
+            "prob": 0.9999777083605178
+          },
+          {
+            "token": " boxes",
+            "prob": 0.000005422129437581337
+          },
+          {
+            "token": " numbers",
+            "prob": 0.000005422129437581337
+          },
+          {
+            "token": " baseball",
+            "prob": 0.000003288687744823498
+          },
+          {
+            "token": " capacity",
+            "prob": 9.42224814267253e-7
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999972581939645,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999972581939645
+          },
+          {
+            "token": " baseball",
+            "prob": 8.315263400842229e-7
+          },
+          {
+            "token": " in",
+            "prob": 4.450839766446488e-7
+          },
+          {
+            "token": ":\n\n",
+            "prob": 8.233233559423349e-8
+          },
+          {
+            "token": " or",
+            "prob": 6.412048743288674e-8
+          }
+        ]
+      },
+      {
+        "token": " baseball",
+        "prob": 0.9005090195084405,
+        "top": [
+          {
+            "token": " baseball",
+            "prob": 0.9005090195084405
+          },
+          {
+            "token": " boxes",
+            "prob": 0.09491296368166069
+          },
+          {
+            "token": " cases",
+            "prob": 0.0017383915686528396
+          },
+          {
+            "token": " bases",
+            "prob": 0.0007246694203007131
+          },
+          {
+            "token": " balls",
+            "prob": 0.00026659085425380374
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 0.9999560137072835,
+        "top": [
+          {
+            "token": "s",
+            "prob": 0.9999560137072835
+          },
+          {
+            "token": " in",
+            "prob": 0.000024299765229095075
+          },
+          {
+            "token": " boxes",
+            "prob": 0.000013006727049201517
+          },
+          {
+            "token": " that",
+            "prob": 0.0000012098140727839996
+          },
+          {
+            "token": " balls",
+            "prob": 7.337893276953071e-7
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.953652201995263,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.953652201995263
+          },
+          {
+            "token": ":\n\n",
+            "prob": 0.03263218314666861
+          },
+          {
+            "token": ":\n",
+            "prob": 0.009349277003540808
+          },
+          {
+            "token": " per",
+            "prob": 0.0014337580649020527
+          },
+          {
+            "token": " that",
+            "prob": 0.0009854065463872717
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.64750925094078,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.64750925094078
+          },
+          {
+            "token": " a",
+            "prob": 0.2699220221519947
+          },
+          {
+            "token": " one",
+            "prob": 0.05315079122038441
+          },
+          {
+            "token": " each",
+            "prob": 0.02215654617564018
+          },
+          {
+            "token": " ",
+            "prob": 0.004943793696506674
+          }
+        ]
+      },
+      {
+        "token": " shipment",
+        "prob": 0.9930399900916254,
+        "top": [
+          {
+            "token": " shipment",
+            "prob": 0.9930399900916254
+          },
+          {
+            "token": " case",
+            "prob": 0.0040583279147533334
+          },
+          {
+            "token": " cases",
+            "prob": 0.0007052316455617086
+          },
+          {
+            "token": " boxes",
+            "prob": 0.0004277446152327692
+          },
+          {
+            "token": " box",
+            "prob": 0.0003774832980401584
+          }
+        ]
+      },
+      {
+        "token": ":\n\n",
+        "prob": 0.6345772091269233,
+        "top": [
+          {
+            "token": ":\n\n",
+            "prob": 0.6345772091269233
+          },
+          {
+            "token": ":\n",
+            "prob": 0.3396647034628709
+          },
+          {
+            "token": ".",
+            "prob": 0.014923825530262523
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.00905175774430637
+          },
+          {
+            "token": ":",
+            "prob": 0.0010810782954337763
+          }
+        ]
+      },
+      {
+        "token": "Number",
+        "prob": 0.3889244112588334,
+        "top": [
+          {
+            "token": "Number",
+            "prob": 0.3889244112588334
+          },
+          {
+            "token": "-",
+            "prob": 0.23589457973916778
+          },
+          {
+            "token": "There",
+            "prob": 0.20817623595631043
+          },
+          {
+            "token": "1",
+            "prob": 0.0765837573487818
+          },
+          {
+            "token": "12",
+            "prob": 0.04099233135986066
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999995231630692,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999995231630692
+          },
+          {
+            "token": "_of",
+            "prob": 1.4449802461092448e-7
+          },
+          {
+            "token": " boxes",
+            "prob": 1.1253517471925912e-7
+          },
+          {
+            "token": " in",
+            "prob": 6.82560337633487e-8
+          },
+          {
+            "token": " ",
+            "prob": 3.6534822137210456e-8
+          }
+        ]
+      },
+      {
+        "token": " cases",
+        "prob": 0.686591537849224,
+        "top": [
+          {
+            "token": " cases",
+            "prob": 0.686591537849224
+          },
+          {
+            "token": " boxes",
+            "prob": 0.286213952221681
+          },
+          {
+            "token": " baseball",
+            "prob": 0.02349387187425732
+          },
+          {
+            "token": " bases",
+            "prob": 0.0009109562708243017
+          },
+          {
+            "token": " balls",
+            "prob": 0.0002957442009786706
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.9567041777446383,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.9567041777446383
+          },
+          {
+            "token": ":",
+            "prob": 0.025495304559385545
+          },
+          {
+            "token": " =",
+            "prob": 0.017522649483176278
+          },
+          {
+            "token": " per",
+            "prob": 0.0001946590524494386
+          },
+          {
+            "token": " shipped",
+            "prob": 0.000029851932534448847
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.9146227527199166,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.9146227527199166
+          },
+          {
+            "token": " the",
+            "prob": 0.07507680292347457
+          },
+          {
+            "token": " shipment",
+            "prob": 0.010160542810609675
+          },
+          {
+            "token": "shipment",
+            "prob": 0.00004152379635759726
+          },
+          {
+            "token": " each",
+            "prob": 0.000032338765119394295
+          }
+        ]
+      },
+      {
+        "token": " shipment",
+        "prob": 0.999964238492877,
+        "top": [
+          {
+            "token": " shipment",
+            "prob": 0.999964238492877
+          },
+          {
+            "token": "shipment",
+            "prob": 0.000027535477717122882
+          },
+          {
+            "token": " ship",
+            "prob": 0.0000032886438363981025
+          },
+          {
+            "token": " shipments",
+            "prob": 0.0000015534453521923572
+          },
+          {
+            "token": " shipping",
+            "prob": 0.0000015534453521923572
+          }
+        ]
+      },
+      {
+        "token": " =",
+        "prob": 0.53102309275931,
+        "top": [
+          {
+            "token": " =",
+            "prob": 0.53102309275931
+          },
+          {
+            "token": ":",
+            "prob": 0.4686262345609834
+          },
+          {
+            "token": " *",
+            "prob": 0.00012243260665756314
+          },
+          {
+            "token": " (",
+            "prob": 0.00009535060993838346
+          },
+          {
+            "token": " is",
+            "prob": 0.000045040438918347335
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9999861719135179,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9999861719135179
+          },
+          {
+            "token": " Number",
+            "prob": 0.000011478746631885576
+          },
+          {
+            "token": " number",
+            "prob": 9.422329014824104e-7
+          },
+          {
+            "token": " Total",
+            "prob": 5.04340928845068e-7
+          },
+          {
+            "token": " \n",
+            "prob": 4.4068819232975844e-8
+          }
+        ]
+      },
+      {
+        "token": "8",
+        "prob": 0.9997896398662023,
+        "top": [
+          {
+            "token": "8",
+            "prob": 0.9997896398662023
+          },
+          {
+            "token": "2",
+            "prob": 0.00007483605562690487
+          },
+          {
+            "token": "4",
+            "prob": 0.00003119630929340477
+          },
+          {
+            "token": "3",
+            "prob": 0.000027530646323500734
+          },
+          {
+            "token": "9",
+            "prob": 0.000010127958784578074
+          }
+        ]
+      },
+      {
+        "token": "\n",
+        "prob": 0.9660972587843101,
+        "top": [
+          {
+            "token": "\n",
+            "prob": 0.9660972587843101
+          },
+          {
+            "token": " cases",
+            "prob": 0.03305802845439642
+          },
+          {
+            "token": " \n",
+            "prob": 0.0004161392636536928
+          },
+          {
+            "token": "\n\n",
+            "prob": 0.00032408958440025373
+          },
+          {
+            "token": "  \n",
+            "prob": 0.000023476970751285915
+          }
+        ]
+      },
+      {
+        "token": "Number",
+        "prob": 0.9963793003705074,
+        "top": [
+          {
+            "token": "Number",
+            "prob": 0.9963793003705074
+          },
+          {
+            "token": "Each",
+            "prob": 0.0014979956462560647
+          },
+          {
+            "token": "Base",
+            "prob": 0.0009085802875703436
+          },
+          {
+            "token": "Cases",
+            "prob": 0.00029497297280691153
+          },
+          {
+            "token": "Boxes",
+            "prob": 0.00022972518220692293
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999980926550052,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999980926550052
+          },
+          {
+            "token": " boxes",
+            "prob": 0.0000012098648396679127
+          },
+          {
+            "token": " baseball",
+            "prob": 1.0571681151826062e-7
+          },
+          {
+            "token": " or",
+            "prob": 7.265803114446649e-8
+          },
+          {
+            "token": "_of",
+            "prob": 4.691155074157667e-8
+          }
+        ]
+      },
+      {
+        "token": " boxes",
+        "prob": 0.8604838996625774,
+        "top": [
+          {
+            "token": " boxes",
+            "prob": 0.8604838996625774
+          },
+          {
+            "token": " baseball",
+            "prob": 0.10277013862545145
+          },
+          {
+            "token": " cases",
+            "prob": 0.033364579075512456
+          },
+          {
+            "token": " balls",
+            "prob": 0.0014659372962137188
+          },
+          {
+            "token": " bases",
+            "prob": 0.000539288193323478
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.9740051887928965,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.9740051887928965
+          },
+          {
+            "token": " per",
+            "prob": 0.025956360919461748
+          },
+          {
+            "token": " of",
+            "prob": 0.00003039177403049823
+          },
+          {
+            "token": " (",
+            "prob": 0.0000011784169626332701
+          },
+          {
+            "token": " inside",
+            "prob": 0.0000010399493194770077
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.9394273412343718,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.9394273412343718
+          },
+          {
+            "token": " each",
+            "prob": 0.060055584263808894
+          },
+          {
+            "token": " one",
+            "prob": 0.00027811253022055703
+          },
+          {
+            "token": " every",
+            "prob": 0.0001488629102148862
+          },
+          {
+            "token": " ",
+            "prob": 0.00004264993785113269
+          }
+        ]
+      },
+      {
+        "token": " case",
+        "prob": 0.9998513681076482,
+        "top": [
+          {
+            "token": " case",
+            "prob": 0.9998513681076482
+          },
+          {
+            "token": " shipment",
+            "prob": 0.00007484069477026344
+          },
+          {
+            "token": " box",
+            "prob": 0.000045393175972359714
+          },
+          {
+            "token": " single",
+            "prob": 0.000006961268996227227
+          },
+          {
+            "token": " cases",
+            "prob": 0.000004222223076718802
+          }
+        ]
+      },
+      {
+        "token": " =",
+        "prob": 0.999819311370447,
+        "top": [
+          {
+            "token": " =",
+            "prob": 0.999819311370447
+          },
+          {
+            "token": ":",
+            "prob": 0.00005828415738839488
+          },
+          {
+            "token": " (",
+            "prob": 0.00004005807649640943
+          },
+          {
+            "token": " on",
+            "prob": 0.000027531486504970832
+          },
+          {
+            "token": " ≈",
+            "prob": 0.000014736542795901988
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9999772315450165,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9999772315450165
+          },
+          {
+            "token": " Number",
+            "prob": 0.000008939571610785764
+          },
+          {
+            "token": " number",
+            "prob": 0.0000044950988994356315
+          },
+          {
+            "token": " -",
+            "prob": 0.0000016536544711347456
+          },
+          {
+            "token": " (",
+            "prob": 0.0000013709277079799143
+          }
+        ]
+      },
+      {
+        "token": "6",
+        "prob": 0.9999724634116024,
+        "top": [
+          {
+            "token": "6",
+            "prob": 0.9999724634116024
+          },
+          {
+            "token": "8",
+            "prob": 0.0000069621121727858665
+          },
+          {
+            "token": "4",
+            "prob": 0.0000032886689268551154
+          },
+          {
+            "token": "3",
+            "prob": 0.000002902240141575845
+          },
+          {
+            "token": "1",
+            "prob": 0.000002902240141575845
+          }
+        ]
+      },
+      {
+        "token": "\n",
+        "prob": 0.9974932486555811,
+        "top": [
+          {
+            "token": "\n",
+            "prob": 0.9974932486555811
+          },
+          {
+            "token": "\n\n",
+            "prob": 0.0021820072459332114
+          },
+          {
+            "token": " (",
+            "prob": 0.0002953025686527124
+          },
+          {
+            "token": ",",
+            "prob": 0.00001887806162281483
+          },
+          {
+            "token": " \n",
+            "prob": 0.0000032805152128970425
+          }
+        ]
+      },
+      {
+        "token": "Number",
+        "prob": 0.9956818930172059,
+        "top": [
+          {
+            "token": "Number",
+            "prob": 0.9956818930172059
+          },
+          {
+            "token": "Total",
+            "prob": 0.0035909901841136606
+          },
+          {
+            "token": "So",
+            "prob": 0.00015777702212774468
+          },
+          {
+            "token": "Each",
+            "prob": 0.00012287686838376193
+          },
+          {
+            "token": "Base",
+            "prob": 0.00012287686838376193
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999971389852362,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999971389852362
+          },
+          {
+            "token": " in",
+            "prob": 7.338194195418315e-7
+          },
+          {
+            "token": " boxes",
+            "prob": 6.47593364802092e-7
+          },
+          {
+            "token": " baseball",
+            "prob": 1.275186943143007e-7
+          },
+          {
+            "token": " (",
+            "prob": 1.1979272719177258e-7
+          }
+        ]
+      },
+      {
+        "token": " baseball",
+        "prob": 0.9558413482499818,
+        "top": [
+          {
+            "token": " baseball",
+            "prob": 0.9558413482499818
+          },
+          {
+            "token": " boxes",
+            "prob": 0.03270709039210569
+          },
+          {
+            "token": " balls",
+            "prob": 0.005015795958534249
+          },
+          {
+            "token": " base",
+            "prob": 0.002369294246185137
+          },
+          {
+            "token": " bases",
+            "prob": 0.0011191753554995942
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 0.9999730594272631,
+        "top": [
+          {
+            "token": "s",
+            "prob": 0.9999730594272631
+          },
+          {
+            "token": " boxes",
+            "prob": 0.000016701254812673777
+          },
+          {
+            "token": " in",
+            "prob": 0.000002561220378066289
+          },
+          {
+            "token": " per",
+            "prob": 0.000001760299306465921
+          },
+          {
+            "token": "balls",
+            "prob": 0.0000013709224783157102
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.9625067254905046,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.9625067254905046
+          },
+          {
+            "token": " per",
+            "prob": 0.03732043650874633
+          },
+          {
+            "token": " (",
+            "prob": 0.00007204535667022163
+          },
+          {
+            "token": " boxes",
+            "prob": 0.000014186571872616996
+          },
+          {
+            "token": " that",
+            "prob": 0.000012519605735878243
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.988232428231381,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.988232428231381
+          },
+          {
+            "token": " each",
+            "prob": 0.010978269254143577
+          },
+          {
+            "token": " the",
+            "prob": 0.00029256110544236376
+          },
+          {
+            "token": " every",
+            "prob": 0.00025818426936961126
+          },
+          {
+            "token": " box",
+            "prob": 0.00008382016008395708
+          }
+        ]
+      },
+      {
+        "token": " box",
+        "prob": 0.9973058761423838,
+        "top": [
+          {
+            "token": " box",
+            "prob": 0.9973058761423838
+          },
+          {
+            "token": " case",
+            "prob": 0.0024720736537083136
+          },
+          {
+            "token": " boxing",
+            "prob": 0.00003995734912326177
+          },
+          {
+            "token": " boxed",
+            "prob": 0.00001665670125652218
+          },
+          {
+            "token": " row",
+            "prob": 0.000010102800001754647
+          }
+        ]
+      },
+      {
+        "token": " =",
+        "prob": 0.9929894437548469,
+        "top": [
+          {
+            "token": " =",
+            "prob": 0.9929894437548469
+          },
+          {
+            "token": " (",
+            "prob": 0.0035812790872780725
+          },
+          {
+            "token": " that",
+            "prob": 0.0010260536374002511
+          },
+          {
+            "token": ",",
+            "prob": 0.0009054891568913792
+          },
+          {
+            "token": " on",
+            "prob": 0.0003774640387387301
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9964027337169546,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9964027337169546
+          },
+          {
+            "token": " ?\n\n",
+            "prob": 0.0016974911107075813
+          },
+          {
+            "token": " (",
+            "prob": 0.00042919296631345504
+          },
+          {
+            "token": " ?",
+            "prob": 0.00026031869300212194
+          },
+          {
+            "token": " unknown",
+            "prob": 0.0001789142467692369
+          }
+        ]
+      },
+      {
+        "token": "12",
+        "prob": 0.9966790465609443,
+        "top": [
+          {
+            "token": "12",
+            "prob": 0.9966790465609443
+          },
+          {
+            "token": "10",
+            "prob": 0.002470520514284229
+          },
+          {
+            "token": "6",
+            "prob": 0.00029506159818478816
+          },
+          {
+            "token": "11",
+            "prob": 0.0001393772299808028
+          },
+          {
+            "token": "8",
+            "prob": 0.0001229999737488793
+          }
+        ]
+      },
+      {
+        "token": "\n\n",
+        "prob": 0.5525830997255207,
+        "top": [
+          {
+            "token": "\n\n",
+            "prob": 0.5525830997255207
+          },
+          {
+            "token": "\n",
+            "prob": 0.37978444008243295
+          },
+          {
+            "token": " -",
+            "prob": 0.05139822864026774
+          },
+          {
+            "token": " (",
+            "prob": 0.014725839055553514
+          },
+          {
+            "token": ",",
+            "prob": 0.0010667362033097876
+          }
+        ]
+      },
+      {
+        "token": "Total",
+        "prob": 0.6650052818826261,
+        "top": [
+          {
+            "token": "Total",
+            "prob": 0.6650052818826261
+          },
+          {
+            "token": "So",
+            "prob": 0.1483827350460221
+          },
+          {
+            "token": "Number",
+            "prob": 0.07009103268447009
+          },
+          {
+            "token": "To",
+            "prob": 0.07009103268447009
+          },
+          {
+            "token": "Since",
+            "prob": 0.025785049935092157
+          }
+        ]
+      },
+      {
+        "token": " number",
+        "prob": 0.865070531833537,
+        "top": [
+          {
+            "token": " number",
+            "prob": 0.865070531833537
+          },
+          {
+            "token": " baseball",
+            "prob": 0.11707457067897993
+          },
+          {
+            "token": " boxes",
+            "prob": 0.01584432018264458
+          },
+          {
+            "token": " numbers",
+            "prob": 0.00042223683077567713
+          },
+          {
+            "token": " base",
+            "prob": 0.00025609958352534304
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999997615814777,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999997615814777
+          },
+          {
+            "token": "_of",
+            "prob": 4.406940761911853e-8
+          },
+          {
+            "token": " baseball",
+            "prob": 2.8453348089834e-8
+          },
+          {
+            "token": " in",
+            "prob": 1.9555681087850496e-8
+          },
+          {
+            "token": " (",
+            "prob": 1.4307241918567688e-8
+          }
+        ]
+      },
+      {
+        "token": " baseball",
+        "prob": 0.7499382343477448,
+        "top": [
+          {
+            "token": " baseball",
+            "prob": 0.7499382343477448
+          },
+          {
+            "token": " boxes",
+            "prob": 0.24346929814735963
+          },
+          {
+            "token": " cases",
+            "prob": 0.0016404830312606183
+          },
+          {
+            "token": " bases",
+            "prob": 0.0011274863994239382
+          },
+          {
+            "token": " balls",
+            "prob": 0.0008780872907737219
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 0.999960304883893,
+        "top": [
+          {
+            "token": "s",
+            "prob": 0.999960304883893
+          },
+          {
+            "token": " in",
+            "prob": 0.00002753534641804648
+          },
+          {
+            "token": " boxes",
+            "prob": 0.000006143966256001205
+          },
+          {
+            "token": " per",
+            "prob": 0.0000017602758040914878
+          },
+          {
+            "token": " balls",
+            "prob": 5.043274616691396e-7
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.9301604177251659,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.9301604177251659
+          },
+          {
+            "token": " per",
+            "prob": 0.03606623442857447
+          },
+          {
+            "token": " =",
+            "prob": 0.03182834017110687
+          },
+          {
+            "token": ":\n",
+            "prob": 0.0010891059096388876
+          },
+          {
+            "token": " (",
+            "prob": 0.000312034067400322
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.7827387434416656,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.7827387434416656
+          },
+          {
+            "token": " the",
+            "prob": 0.10593217427948523
+          },
+          {
+            "token": " one",
+            "prob": 0.07280604766130698
+          },
+          {
+            "token": " each",
+            "prob": 0.030350076072902174
+          },
+          {
+            "token": " ",
+            "prob": 0.005274051145777279
+          }
+        ]
+      },
+      {
+        "token": " shipment",
+        "prob": 0.5272423360153946,
+        "top": [
+          {
+            "token": " shipment",
+            "prob": 0.5272423360153946
+          },
+          {
+            "token": " case",
+            "prob": 0.41061674415718613
+          },
+          {
+            "token": " box",
+            "prob": 0.05557093337220852
+          },
+          {
+            "token": " single",
+            "prob": 0.0035525317627352142
+          },
+          {
+            "token": " ship",
+            "prob": 0.000544798390689814
+          }
+        ]
+      },
+      {
+        "token": " =",
+        "prob": 0.7367270194311236,
+        "top": [
+          {
+            "token": " =",
+            "prob": 0.7367270194311236
+          },
+          {
+            "token": ":\n",
+            "prob": 0.23918025175600402
+          },
+          {
+            "token": " (",
+            "prob": 0.009274025896380865
+          },
+          {
+            "token": " =\n",
+            "prob": 0.005624981045123933
+          },
+          {
+            "token": ":",
+            "prob": 0.003865989165716117
+          }
+        ]
+      },
+      {
+        "token": " Number",
+        "prob": 0.7602861991689062,
+        "top": [
+          {
+            "token": " Number",
+            "prob": 0.7602861991689062
+          },
+          {
+            "token": " ",
+            "prob": 0.16964277632345026
+          },
+          {
+            "token": " \n",
+            "prob": 0.048603474963334156
+          },
+          {
+            "token": " (",
+            "prob": 0.015779238069036212
+          },
+          {
+            "token": " Total",
+            "prob": 0.0039896161754819845
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999986886995842,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999986886995842
+          },
+          {
+            "token": "_of",
+            "prob": 5.715002286213223e-7
+          },
+          {
+            "token": " in",
+            "prob": 1.6373755690670415e-7
+          },
+          {
+            "token": "-of",
+            "prob": 8.233233559423349e-8
+          },
+          {
+            "token": " cases",
+            "prob": 5.6586131551737026e-8
+          }
+        ]
+      },
+      {
+        "token": " cases",
+        "prob": 0.8643095247755826,
+        "top": [
+          {
+            "token": " cases",
+            "prob": 0.8643095247755826
+          },
+          {
+            "token": " boxes",
+            "prob": 0.13254614469007436
+          },
+          {
+            "token": " baseball",
+            "prob": 0.0014724546625194
+          },
+          {
+            "token": " bases",
+            "prob": 0.0002558742532579905
+          },
+          {
+            "token": " case",
+            "prob": 0.00010666425799685606
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.6230053317854422,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.6230053317854422
+          },
+          {
+            "token": " *",
+            "prob": 0.2942868809147614
+          },
+          {
+            "token": " x",
+            "prob": 0.06566427104030105
+          },
+          {
+            "token": " ×",
+            "prob": 0.016602527748643035
+          },
+          {
+            "token": " per",
+            "prob": 0.00016276553238299136
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.9998500572049204,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.9998500572049204
+          },
+          {
+            "token": " shipment",
+            "prob": 0.00007484062339664905
+          },
+          {
+            "token": " the",
+            "prob": 0.00006604661833504298
+          },
+          {
+            "token": " an",
+            "prob": 0.000005421436575145172
+          },
+          {
+            "token": " shipping",
+            "prob": 8.314042262332704e-7
+          }
+        ]
+      },
+      {
+        "token": " shipment",
+        "prob": 0.9999778275635193,
+        "top": [
+          {
+            "token": " shipment",
+            "prob": 0.9999778275635193
+          },
+          {
+            "token": "shipment",
+            "prob": 0.000014738875921730212
+          },
+          {
+            "token": " shipping",
+            "prob": 0.000003288687744823498
+          },
+          {
+            "token": " shipments",
+            "prob": 0.0000015534660930638978
+          },
+          {
+            "token": " ship",
+            "prob": 9.42224814267253e-7
+          }
+        ]
+      },
+      {
+        "token": " *",
+        "prob": 0.9273471519913885,
+        "top": [
+          {
+            "token": " *",
+            "prob": 0.9273471519913885
+          },
+          {
+            "token": " x",
+            "prob": 0.05928332002294104
+          },
+          {
+            "token": " ×",
+            "prob": 0.01322789984462616
+          },
+          {
+            "token": "\n",
+            "prob": 0.000047707255946536916
+          },
+          {
+            "token": " ",
+            "prob": 0.00001755051865743497
+          }
+        ]
+      },
+      {
+        "token": " Number",
+        "prob": 0.9944314451758133,
+        "top": [
+          {
+            "token": " Number",
+            "prob": 0.9944314451758133
+          },
+          {
+            "token": " (",
+            "prob": 0.005218296663775467
+          },
+          {
+            "token": " number",
+            "prob": 0.00009557648288240539
+          },
+          {
+            "token": " ",
+            "prob": 0.00006568869198962611
+          },
+          {
+            "token": " Box",
+            "prob": 0.000039842205688127896
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999979734461775,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999979734461775
+          },
+          {
+            "token": " boxes",
+            "prob": 0.000001370956471489639
+          },
+          {
+            "token": " in",
+            "prob": 1.4449774900307763e-7
+          },
+          {
+            "token": "_of",
+            "prob": 8.76423150298272e-8
+          },
+          {
+            "token": " number",
+            "prob": 6.825590357542018e-8
+          }
+        ]
+      },
+      {
+        "token": " boxes",
+        "prob": 0.9991181527690137,
+        "top": [
+          {
+            "token": " boxes",
+            "prob": 0.9991181527690137
+          },
+          {
+            "token": " baseball",
+            "prob": 0.0006261740760628282
+          },
+          {
+            "token": " balls",
+            "prob": 0.00005139949817193835
+          },
+          {
+            "token": " boxing",
+            "prob": 0.00005139949817193835
+          },
+          {
+            "token": " box",
+            "prob": 0.00002427940376409661
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.9964037987977993,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.9964037987977993
+          },
+          {
+            "token": " per",
+            "prob": 0.003593593850241378
+          },
+          {
+            "token": " of",
+            "prob": 5.349444209255639e-7
+          },
+          {
+            "token": " (",
+            "prob": 5.025337768966651e-7
+          },
+          {
+            "token": " *",
+            "prob": 1.053368020655903e-7
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.9996498857333799,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.9996498857333799
+          },
+          {
+            "token": " each",
+            "prob": 0.0003353452370391312
+          },
+          {
+            "token": " the",
+            "prob": 0.000003725349077383754
+          },
+          {
+            "token": " case",
+            "prob": 0.0000029013047786808034
+          },
+          {
+            "token": " an",
+            "prob": 0.000002560392480639694
+          }
+        ]
+      },
+      {
+        "token": " case",
+        "prob": 0.997996181320499,
+        "top": [
+          {
+            "token": " case",
+            "prob": 0.997996181320499
+          },
+          {
+            "token": " shipment",
+            "prob": 0.0017002056682321933
+          },
+          {
+            "token": " box",
+            "prob": 0.00023009792538991293
+          },
+          {
+            "token": " ship",
+            "prob": 0.00001298123665832708
+          },
+          {
+            "token": " set",
+            "prob": 0.0000047755300875796075
+          }
+        ]
+      },
+      {
+        "token": " *",
+        "prob": 0.9657341203011255,
+        "top": [
+          {
+            "token": " *",
+            "prob": 0.9657341203011255
+          },
+          {
+            "token": "\n",
+            "prob": 0.033045601431569496
+          },
+          {
+            "token": " =",
+            "prob": 0.00053413239990186
+          },
+          {
+            "token": " \n",
+            "prob": 0.0003239678313662305
+          },
+          {
+            "token": " per",
+            "prob": 0.0001051769557977805
+          }
+        ]
+      },
+      {
+        "token": " Number",
+        "prob": 0.9993401354810728,
+        "top": [
+          {
+            "token": " Number",
+            "prob": 0.9993401354810728
+          },
+          {
+            "token": " (",
+            "prob": 0.0003352413148496003
+          },
+          {
+            "token": " ",
+            "prob": 0.00009604824481012776
+          },
+          {
+            "token": " Average",
+            "prob": 0.00006601292890469145
+          },
+          {
+            "token": " Total",
+            "prob": 0.000045369978297785106
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999945164027223,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999945164027223
+          },
+          {
+            "token": " baseball",
+            "prob": 0.000001370951241715711
+          },
+          {
+            "token": " in",
+            "prob": 0.0000012098602244086199
+          },
+          {
+            "token": " (",
+            "prob": 3.466307578234156e-7
+          },
+          {
+            "token": " ",
+            "prob": 2.873669914925502e-7
+          }
+        ]
+      },
+      {
+        "token": " baseball",
+        "prob": 0.9998606637548391,
+        "top": [
+          {
+            "token": " baseball",
+            "prob": 0.9998606637548391
+          },
+          {
+            "token": " bases",
+            "prob": 0.00003321067370905877
+          },
+          {
+            "token": " balls",
+            "prob": 0.00003119854070712587
+          },
+          {
+            "token": " base",
+            "prob": 0.00002144242254193133
+          },
+          {
+            "token": " boxes",
+            "prob": 0.000016699375466604064
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 0.9999983310727032,
+        "top": [
+          {
+            "token": "s",
+            "prob": 0.9999983310727032
+          },
+          {
+            "token": "b",
+            "prob": 6.08358246461776e-7
+          },
+          {
+            "token": " to",
+            "prob": 1.6373740075447596e-7
+          },
+          {
+            "token": "d",
+            "prob": 1.1979284143507426e-7
+          },
+          {
+            "token": "balls",
+            "prob": 8.76423150298272e-8
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.9968236569049002,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.9968236569049002
+          },
+          {
+            "token": " per",
+            "prob": 0.0031726710050749133
+          },
+          {
+            "token": " (",
+            "prob": 7.314906068444508e-7
+          },
+          {
+            "token": " of",
+            "prob": 4.7228583240496415e-7
+          },
+          {
+            "token": " is",
+            "prob": 4.4367148034295927e-7
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.999545780608395,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.999545780608395
+          },
+          {
+            "token": " each",
+            "prob": 0.00029591037135351264
+          },
+          {
+            "token": " the",
+            "prob": 0.0000960680321768434
+          },
+          {
+            "token": " box",
+            "prob": 0.00005142151213798552
+          },
+          {
+            "token": " every",
+            "prob": 0.0000019938283986596665
+          }
+        ]
+      },
+      {
+        "token": " box",
+        "prob": 0.9999743706604208,
+        "top": [
+          {
+            "token": " box",
+            "prob": 0.9999743706604208
+          },
+          {
+            "token": " case",
+            "prob": 0.000013006962730785783
+          },
+          {
+            "token": " boxing",
+            "prob": 0.000001994682338332874
+          },
+          {
+            "token": " ball",
+            "prob": 0.000001067676517857654
+          },
+          {
+            "token": " boxed",
+            "prob": 8.315073081744917e-7
+          }
+        ]
+      },
+      {
+        "token": "\n",
+        "prob": 0.9946353110187872,
+        "top": [
+          {
+            "token": "\n",
+            "prob": 0.9946353110187872
+          },
+          {
+            "token": "\n\n",
+            "prob": 0.002793725693421085
+          },
+          {
+            "token": " =",
+            "prob": 0.001027754246882049
+          },
+          {
+            "token": " \n",
+            "prob": 0.0009069899394915718
+          },
+          {
+            "token": " (",
+            "prob": 0.00025985709227775673
+          }
+        ]
+      },
+      {
+        "token": "=",
+        "prob": 0.8920594800582067,
+        "top": [
+          {
+            "token": "=",
+            "prob": 0.8920594800582067
+          },
+          {
+            "token": "Total",
+            "prob": 0.10654130522346135
+          },
+          {
+            "token": "                               ",
+            "prob": 0.000150473656863157
+          },
+          {
+            "token": " Total",
+            "prob": 0.0001327925361023133
+          },
+          {
+            "token": " =",
+            "prob": 0.00011008887910583978
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9999954700677164,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9999954700677164
+          },
+          {
+            "token": " Number",
+            "prob": 0.0000019947241888728423
+          },
+          {
+            "token": " (",
+            "prob": 0.0000013709525491573226
+          },
+          {
+            "token": "  ",
+            "prob": 3.466310883964243e-7
+          },
+          {
+            "token": " $",
+            "prob": 1.1253474543245463e-7
+          }
+        ]
+      },
+      {
+        "token": "8",
+        "prob": 0.9999641192914955,
+        "top": [
+          {
+            "token": "8",
+            "prob": 0.9999641192914955
+          },
+          {
+            "token": "6",
+            "prob": 0.00001892482057324234
+          },
+          {
+            "token": " ",
+            "prob": 0.0000069620524167542074
+          },
+          {
+            "token": "12",
+            "prob": 0.0000025611959524818274
+          },
+          {
+            "token": "2",
+            "prob": 0.0000015534438707121293
+          }
+        ]
+      },
+      {
+        "token": " *",
+        "prob": 0.9874274568909773,
+        "top": [
+          {
+            "token": " *",
+            "prob": 0.9874274568909773
+          },
+          {
+            "token": " cases",
+            "prob": 0.012429875406080128
+          },
+          {
+            "token": " boxes",
+            "prob": 0.00002399530439046246
+          },
+          {
+            "token": " x",
+            "prob": 0.000021175781801157666
+          },
+          {
+            "token": " cas",
+            "prob": 0.000012843760905786935
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9999909401759619,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9999909401759619
+          },
+          {
+            "token": " (",
+            "prob": 0.00000893969949329812
+          },
+          {
+            "token": " *",
+            "prob": 3.0288142527675796e-8
+          },
+          {
+            "token": " x",
+            "prob": 2.358842911833223e-8
+          },
+          {
+            "token": "6",
+            "prob": 1.3440281774008495e-8
+          }
+        ]
+      },
+      {
+        "token": "6",
+        "prob": 0.9997771283082456,
+        "top": [
+          {
+            "token": "6",
+            "prob": 0.9997771283082456
+          },
+          {
+            "token": "12",
+            "prob": 0.0002034229681181514
+          },
+          {
+            "token": "3",
+            "prob": 0.0000029016727997002097
+          },
+          {
+            "token": "2",
+            "prob": 0.0000029016727997002097
+          },
+          {
+            "token": "1",
+            "prob": 0.0000029016727997002097
+          }
+        ]
+      },
+      {
+        "token": " *",
+        "prob": 0.9999977350285647,
+        "top": [
+          {
+            "token": " *",
+            "prob": 0.9999977350285647
+          },
+          {
+            "token": " =",
+            "prob": 6.47593982395546e-7
+          },
+          {
+            "token": " ",
+            "prob": 4.4508440111000834e-7
+          },
+          {
+            "token": "\n",
+            "prob": 1.6373740075447596e-7
+          },
+          {
+            "token": "*",
+            "prob": 1.6373740075447596e-7
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9999966621509202,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9999966621509202
+          },
+          {
+            "token": " (",
+            "prob": 0.000002902312105056987
+          },
+          {
+            "token": "12",
+            "prob": 9.329458077052369e-8
+          },
+          {
+            "token": " -",
+            "prob": 4.139921926206193e-8
+          },
+          {
+            "token": " *",
+            "prob": 3.889096736506024e-8
+          }
+        ]
+      },
+      {
+        "token": "12",
+        "prob": 0.9996497665949279,
+        "top": [
+          {
+            "token": "12",
+            "prob": 0.9996497665949279
+          },
+          {
+            "token": "10",
+            "prob": 0.00015840587359829285
+          },
+          {
+            "token": "11",
+            "prob": 0.00009607801901592857
+          },
+          {
+            "token": "9",
+            "prob": 0.00001891888367472691
+          },
+          {
+            "token": "6",
+            "prob": 0.000016695856243304763
+          }
+        ]
+      },
+      {
+        "token": "\n",
+        "prob": 0.9978092133591662,
+        "top": [
+          {
+            "token": "\n",
+            "prob": 0.9978092133591662
+          },
+          {
+            "token": "\n\n",
+            "prob": 0.0013238740239203818
+          },
+          {
+            "token": " (",
+            "prob": 0.0007086187012228075
+          },
+          {
+            "token": " \n",
+            "prob": 0.00009590106690754616
+          },
+          {
+            "token": " =",
+            "prob": 0.00003528003090169318
+          }
+        ]
+      },
+      {
+        "token": "=",
+        "prob": 0.9999923706636761,
+        "top": [
+          {
+            "token": "=",
+            "prob": 0.9999923706636761
+          },
+          {
+            "token": "However",
+            "prob": 0.000001136556331176669
+          },
+          {
+            "token": "-",
+            "prob": 0.000001136556331176669
+          },
+          {
+            "token": "(",
+            "prob": 0.0000010676958641307217
+          },
+          {
+            "token": "Total",
+            "prob": 8.851509607251527e-7
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9999980926550052,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9999980926550052
+          },
+          {
+            "token": " (",
+            "prob": 2.5360144730813174e-7
+          },
+          {
+            "token": "576",
+            "prob": 2.1024298423113373e-7
+          },
+          {
+            "token": "288",
+            "prob": 1.275188159256623e-7
+          },
+          {
+            "token": " Total",
+            "prob": 6.412048743288674e-8
+          }
+        ]
+      },
+      {
+        "token": "576",
+        "prob": 0.9928875441398897,
+        "top": [
+          {
+            "token": "576",
+            "prob": 0.9928875441398897
+          },
+          {
+            "token": "8",
+            "prob": 0.0026198511509929407
+          },
+          {
+            "token": "384",
+            "prob": 0.0006222691912920221
+          },
+          {
+            "token": "768",
+            "prob": 0.0005491506338890306
+          },
+          {
+            "token": "480",
+            "prob": 0.00042767894369693534
+          }
+        ]
+      },
+      {
+        "token": "\n\n",
+        "prob": 0.9379823676005521,
+        "top": [
+          {
+            "token": "\n\n",
+            "prob": 0.9379823676005521
+          },
+          {
+            "token": " baseball",
+            "prob": 0.05996320169593952
+          },
+          {
+            "token": " (",
+            "prob": 0.0007548254922246461
+          },
+          {
+            "token": " \n\n",
+            "prob": 0.00045782480376692787
+          },
+          {
+            "token": " boxes",
+            "prob": 0.00016842433296420265
+          }
+        ]
+      },
+      {
+        "token": "However",
+        "prob": 0.5114471577626962,
+        "top": [
+          {
+            "token": "However",
+            "prob": 0.5114471577626962
+          },
+          {
+            "token": "Now",
+            "prob": 0.35151214819841603
+          },
+          {
+            "token": "Since",
+            "prob": 0.08887618947094565
+          },
+          {
+            "token": "Next",
+            "prob": 0.04198213924114787
+          },
+          {
+            "token": "Number",
+            "prob": 0.0016278238040530748
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9999828341569776,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9999828341569776
+          },
+          {
+            "token": " we",
+            "prob": 0.000006962185208632192
+          },
+          {
+            "token": " this",
+            "prob": 0.000005422155292370903
+          },
+          {
+            "token": " since",
+            "prob": 8.851425193080308e-7
+          },
+          {
+            "token": " there",
+            "prob": 7.811355316352626e-7
+          }
+        ]
+      },
+      {
+        "token": " we",
+        "prob": 0.4149154500466148,
+        "top": [
+          {
+            "token": " we",
+            "prob": 0.4149154500466148
+          },
+          {
+            "token": " ",
+            "prob": 0.32313647740472795
+          },
+          {
+            "token": " not",
+            "prob": 0.10490704217703584
+          },
+          {
+            "token": " since",
+            "prob": 0.04955457787142266
+          },
+          {
+            "token": " there",
+            "prob": 0.04373176148041762
+          }
+        ]
+      },
+      {
+        "token": " need",
+        "prob": 0.5044895190736881,
+        "top": [
+          {
+            "token": " need",
+            "prob": 0.5044895190736881
+          },
+          {
+            "token": " know",
+            "prob": 0.3059883790602013
+          },
+          {
+            "token": " also",
+            "prob": 0.08766713838422183
+          },
+          {
+            "token": " have",
+            "prob": 0.06025268431376017
+          },
+          {
+            "token": " are",
+            "prob": 0.025117055674085648
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.9999948740268748,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.9999948740268748
+          },
+          {
+            "token": " subtract",
+            "prob": 0.0000010676989188374615
+          },
+          {
+            "token": " account",
+            "prob": 6.47592129616951e-7
+          },
+          {
+            "token": " take",
+            "prob": 6.47592129616951e-7
+          },
+          {
+            "token": " only",
+            "prob": 6.47592129616951e-7
+          }
+        ]
+      },
+      {
+        "token": " subtract",
+        "prob": 0.6947086707454388,
+        "top": [
+          {
+            "token": " subtract",
+            "prob": 0.6947086707454388
+          },
+          {
+            "token": " account",
+            "prob": 0.15501045695993257
+          },
+          {
+            "token": " remove",
+            "prob": 0.05702516708007916
+          },
+          {
+            "token": " exclude",
+            "prob": 0.050324533317538896
+          },
+          {
+            "token": " consider",
+            "prob": 0.034587512209303554
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9946810712020516,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9946810712020516
+          },
+          {
+            "token": " ",
+            "prob": 0.005219608150927662
+          },
+          {
+            "token": " half",
+            "prob": 0.00002738998980851003
+          },
+          {
+            "token": " a",
+            "prob": 0.000011417846470549252
+          },
+          {
+            "token": " out",
+            "prob": 0.000007847363466089843
+          }
+        ]
+      },
+      {
+        "token": " number",
+        "prob": 0.7210653964988262,
+        "top": [
+          {
+            "token": " number",
+            "prob": 0.7210653964988262
+          },
+          {
+            "token": " damaged",
+            "prob": 0.26526514301756987
+          },
+          {
+            "token": " total",
+            "prob": 0.005505402404301928
+          },
+          {
+            "token": " baseball",
+            "prob": 0.003339195352264767
+          },
+          {
+            "token": " ",
+            "prob": 0.0026005679551721964
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999990463265931,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999990463265931
+          },
+          {
+            "token": " ",
+            "prob": 3.4663241069161144e-7
+          },
+          {
+            "token": " damaged",
+            "prob": 1.3574320241537807e-7
+          },
+          {
+            "token": " and",
+            "prob": 8.233249263085099e-8
+          },
+          {
+            "token": " that",
+            "prob": 7.734421907141565e-8
+          }
+        ]
+      },
+      {
+        "token": " damaged",
+        "prob": 0.9674774461299714,
+        "top": [
+          {
+            "token": " damaged",
+            "prob": 0.9674774461299714
+          },
+          {
+            "token": " baseball",
+            "prob": 0.029215287175561388
+          },
+          {
+            "token": " defective",
+            "prob": 0.0011327998868891672
+          },
+          {
+            "token": " bad",
+            "prob": 0.0005350967775152473
+          },
+          {
+            "token": " damage",
+            "prob": 0.00019685110348494878
+          }
+        ]
+      },
+      {
+        "token": " baseball",
+        "prob": 0.9984918961078636,
+        "top": [
+          {
+            "token": " baseball",
+            "prob": 0.9984918961078636
+          },
+          {
+            "token": " balls",
+            "prob": 0.0008035194314208844
+          },
+          {
+            "token": " (",
+            "prob": 0.00048735917083162915
+          },
+          {
+            "token": " or",
+            "prob": 0.00006595685997177007
+          },
+          {
+            "token": " bases",
+            "prob": 0.00005136725419494553
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 0.9999969005680498,
+        "top": [
+          {
+            "token": "s",
+            "prob": 0.9999969005680498
+          },
+          {
+            "token": " in",
+            "prob": 0.000001994727993510925
+          },
+          {
+            "token": " that",
+            "prob": 2.5360120545506016e-7
+          },
+          {
+            "token": " (",
+            "prob": 1.8553860543063036e-7
+          },
+          {
+            "token": ",",
+            "prob": 1.275186943143007e-7
+          }
+        ]
+      },
+      {
+        "token": " (",
+        "prob": 0.2611930937941451,
+        "top": [
+          {
+            "token": " (",
+            "prob": 0.2611930937941451
+          },
+          {
+            "token": " from",
+            "prob": 0.20341738597972311
+          },
+          {
+            "token": ".",
+            "prob": 0.17951521305896076
+          },
+          {
+            "token": ",",
+            "prob": 0.1398065885035487
+          },
+          {
+            "token": " in",
+            "prob": 0.12337886660739295
+          }
+        ]
+      },
+      {
+        "token": "2",
+        "prob": 0.9525455923936732,
+        "top": [
+          {
+            "token": "2",
+            "prob": 0.9525455923936732
+          },
+          {
+            "token": "i",
+            "prob": 0.017446480120439825
+          },
+          {
+            "token": "which",
+            "prob": 0.008241133671956804
+          },
+          {
+            "token": "1",
+            "prob": 0.00641820135711608
+          },
+          {
+            "token": "dam",
+            "prob": 0.003435415626932475
+          }
+        ]
+      },
+      {
+        "token": " per",
+        "prob": 0.6006234483386468,
+        "top": [
+          {
+            "token": " per",
+            "prob": 0.6006234483386468
+          },
+          {
+            "token": " baseball",
+            "prob": 0.11826976937928264
+          },
+          {
+            "token": " in",
+            "prob": 0.11826976937928264
+          },
+          {
+            "token": " for",
+            "prob": 0.08128554449946178
+          },
+          {
+            "token": " *",
+            "prob": 0.029903280685778404
+          }
+        ]
+      },
+      {
+        "token": " box",
+        "prob": 0.9996255846633859,
+        "top": [
+          {
+            "token": " box",
+            "prob": 0.9996255846633859
+          },
+          {
+            "token": " case",
+            "prob": 0.00020339212457432904
+          },
+          {
+            "token": " every",
+            "prob": 0.000045382917329199425
+          },
+          {
+            "token": " ",
+            "prob": 0.00002143737221212439
+          },
+          {
+            "token": " each",
+            "prob": 0.00001669544226579565
+          }
+        ]
+      },
+      {
+        "token": ")",
+        "prob": 0.7863006175004311,
+        "top": [
+          {
+            "token": ")",
+            "prob": 0.7863006175004311
+          },
+          {
+            "token": ").",
+            "prob": 0.12058311051741037
+          },
+          {
+            "token": "),",
+            "prob": 0.030488184924101113
+          },
+          {
+            "token": ",",
+            "prob": 0.030488184924101113
+          },
+          {
+            "token": "):\n",
+            "prob": 0.0087350112283155
+          }
+        ]
+      },
+      {
+        "token": " from",
+        "prob": 0.6375083198265702,
+        "top": [
+          {
+            "token": " from",
+            "prob": 0.6375083198265702
+          },
+          {
+            "token": " since",
+            "prob": 0.18264919711196276
+          },
+          {
+            "token": " that",
+            "prob": 0.06719288456396148
+          },
+          {
+            "token": " and",
+            "prob": 0.04618094917185013
+          },
+          {
+            "token": " to",
+            "prob": 0.021814335762614864
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9685160443538903,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9685160443538903
+          },
+          {
+            "token": " each",
+            "prob": 0.025810076799408305
+          },
+          {
+            "token": " this",
+            "prob": 0.004485119895527809
+          },
+          {
+            "token": " all",
+            "prob": 0.0004727281590556211
+          },
+          {
+            "token": " these",
+            "prob": 0.00019706241514282937
+          }
+        ]
+      },
+      {
+        "token": " total",
+        "prob": 0.9969049225040003,
+        "top": [
+          {
+            "token": " total",
+            "prob": 0.9969049225040003
+          },
+          {
+            "token": " shipment",
+            "prob": 0.0021807205737805688
+          },
+          {
+            "token": " boxes",
+            "prob": 0.00022984636706183817
+          },
+          {
+            "token": " calculation",
+            "prob": 0.00020283870700239415
+          },
+          {
+            "token": " box",
+            "prob": 0.00006585208670410464
+          }
+        ]
+      },
+      {
+        "token": " number",
+        "prob": 0.5195354647022463,
+        "top": [
+          {
+            "token": " number",
+            "prob": 0.5195354647022463
+          },
+          {
+            "token": ".",
+            "prob": 0.191126416423408
+          },
+          {
+            "token": ":\n\n",
+            "prob": 0.14884940277618156
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.05475863511200461
+          },
+          {
+            "token": ":\n",
+            "prob": 0.037635022833707656
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9871109454022001,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9871109454022001
+          },
+          {
+            "token": ".",
+            "prob": 0.005869576280045891
+          },
+          {
+            "token": ":\n\n",
+            "prob": 0.0031417577844585444
+          },
+          {
+            "token": ",",
+            "prob": 0.0016816617597699382
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.001155788098042638
+          }
+        ]
+      },
+      {
+        "token": " baseball",
+        "prob": 0.9950111893695228,
+        "top": [
+          {
+            "token": " baseball",
+            "prob": 0.9950111893695228
+          },
+          {
+            "token": " boxes",
+            "prob": 0.0031669032284425535
+          },
+          {
+            "token": " balls",
+            "prob": 0.000800718532232162
+          },
+          {
+            "token": " bases",
+            "prob": 0.0002294097004193651
+          },
+          {
+            "token": " base",
+            "prob": 0.0000956321910506581
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 0.9999022579399389,
+        "top": [
+          {
+            "token": "s",
+            "prob": 0.9999022579399389
+          },
+          {
+            "token": " in",
+            "prob": 0.00006605008270889654
+          },
+          {
+            "token": ".",
+            "prob": 0.000010129108243927613
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.000008938906651210209
+          },
+          {
+            "token": ":\n\n",
+            "prob": 0.0000017601750831837145
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.4310538663329564,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.4310538663329564
+          },
+          {
+            "token": ".",
+            "prob": 0.20361542888538475
+          },
+          {
+            "token": ":\n\n",
+            "prob": 0.1585758554613576
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.13994270126935057
+          },
+          {
+            "token": ",",
+            "prob": 0.027556351739547916
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.701681087369576,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.701681087369576
+          },
+          {
+            "token": " each",
+            "prob": 0.1565662087318612
+          },
+          {
+            "token": " a",
+            "prob": 0.13816919425528074
+          },
+          {
+            "token": " one",
+            "prob": 0.0013545632785327438
+          },
+          {
+            "token": " all",
+            "prob": 0.0013545632785327438
+          }
+        ]
+      },
+      {
+        "token": " shipment",
+        "prob": 0.9945803568386243,
+        "top": [
+          {
+            "token": " shipment",
+            "prob": 0.9945803568386243
+          },
+          {
+            "token": " box",
+            "prob": 0.0019199915133315355
+          },
+          {
+            "token": " boxes",
+            "prob": 0.0014952908940730515
+          },
+          {
+            "token": " case",
+            "prob": 0.0007063254049783171
+          },
+          {
+            "token": "shipment",
+            "prob": 0.0002293103948277872
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.39835075206701975,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.39835075206701975
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.3102358961383779
+          },
+          {
+            "token": ":\n\n",
+            "prob": 0.2416119588494277
+          },
+          {
+            "token": ",",
+            "prob": 0.022473412939567363
+          },
+          {
+            "token": ":\n",
+            "prob": 0.017502307422746343
+          }
+        ]
+      },
+      {
+        "token": " Since",
+        "prob": 0.5164106336696755,
+        "top": [
+          {
+            "token": " Since",
+            "prob": 0.5164106336696755
+          },
+          {
+            "token": " There",
+            "prob": 0.31321888232228734
+          },
+          {
+            "token": " \n\n",
+            "prob": 0.11522680112917111
+          },
+          {
+            "token": " We",
+            "prob": 0.020023415623396268
+          },
+          {
+            "token": " \n",
+            "prob": 0.007366202949878546
+          }
+        ]
+      },
+      {
+        "token": " there",
+        "prob": 0.8159730847014043,
+        "top": [
+          {
+            "token": " there",
+            "prob": 0.8159730847014043
+          },
+          {
+            "token": " each",
+            "prob": 0.06697914953485323
+          },
+          {
+            "token": " we",
+            "prob": 0.05910889200225842
+          },
+          {
+            "token": " ",
+            "prob": 0.04603405137784196
+          },
+          {
+            "token": " the",
+            "prob": 0.006230031381749022
+          }
+        ]
+      },
+      {
+        "token": " are",
+        "prob": 0.974936487723957,
+        "top": [
+          {
+            "token": " are",
+            "prob": 0.974936487723957
+          },
+          {
+            "token": " is",
+            "prob": 0.02023416036708365
+          },
+          {
+            "token": "'s",
+            "prob": 0.003516169839396832
+          },
+          {
+            "token": " ",
+            "prob": 0.0010073995255623167
+          },
+          {
+            "token": " were",
+            "prob": 0.00008269238866949905
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9895329206598714,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9895329206598714
+          },
+          {
+            "token": ":\n\n",
+            "prob": 0.002779393986334694
+          },
+          {
+            "token": " multiple",
+            "prob": 0.002164594213021413
+          },
+          {
+            "token": ":\n",
+            "prob": 0.0014877023955425991
+          },
+          {
+            "token": " a",
+            "prob": 0.0007963097094492555
+          }
+        ]
+      },
+      {
+        "token": "6",
+        "prob": 0.412715948395898,
+        "top": [
+          {
+            "token": "6",
+            "prob": 0.412715948395898
+          },
+          {
+            "token": "8",
+            "prob": 0.28365524651854884
+          },
+          {
+            "token": "12",
+            "prob": 0.1518297124584248
+          },
+          {
+            "token": "2",
+            "prob": 0.09208937566138783
+          },
+          {
+            "token": "576",
+            "prob": 0.04929189076793638
+          }
+        ]
+      },
+      {
+        "token": " boxes",
+        "prob": 0.9981120772010811,
+        "top": [
+          {
+            "token": " boxes",
+            "prob": 0.9981120772010811
+          },
+          {
+            "token": " cases",
+            "prob": 0.001168669092228956
+          },
+          {
+            "token": " *",
+            "prob": 0.00006593176710221767
+          },
+          {
+            "token": " sets",
+            "prob": 0.000058184580249636016
+          },
+          {
+            "token": " non",
+            "prob": 0.000058184580249636016
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.8793270787162603,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.8793270787162603
+          },
+          {
+            "token": " per",
+            "prob": 0.10502063213388023
+          },
+          {
+            "token": " of",
+            "prob": 0.011069095828985572
+          },
+          {
+            "token": " with",
+            "prob": 0.0016975008238574185
+          },
+          {
+            "token": ",",
+            "prob": 0.0008018426124405612
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.9392231874494243,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.9392231874494243
+          },
+          {
+            "token": " each",
+            "prob": 0.04676116730423832
+          },
+          {
+            "token": " the",
+            "prob": 0.011823074640561742
+          },
+          {
+            "token": " every",
+            "prob": 0.001412064898361268
+          },
+          {
+            "token": " ",
+            "prob": 0.00024538008579618956
+          }
+        ]
+      },
+      {
+        "token": " case",
+        "prob": 0.9981853572131345,
+        "top": [
+          {
+            "token": " case",
+            "prob": 0.9981853572131345
+          },
+          {
+            "token": " box",
+            "prob": 0.0011687549141667134
+          },
+          {
+            "token": " shipment",
+            "prob": 0.00033485372959194423
+          },
+          {
+            "token": " set",
+            "prob": 0.00004531752433716189
+          },
+          {
+            "token": " single",
+            "prob": 0.00002425672281365338
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.6010872724550008,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.6010872724550008
+          },
+          {
+            "token": " and",
+            "prob": 0.3645778816375335
+          },
+          {
+            "token": ":\n\n",
+            "prob": 0.023306684216359706
+          },
+          {
+            "token": ":\n",
+            "prob": 0.005200424181725223
+          },
+          {
+            "token": " (",
+            "prob": 0.002167859327578931
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.30951408929987145,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.30951408929987145
+          },
+          {
+            "token": " we",
+            "prob": 0.30951408929987145
+          },
+          {
+            "token": " there",
+            "prob": 0.24104981511837265
+          },
+          {
+            "token": " and",
+            "prob": 0.12902466838449864
+          },
+          {
+            "token": " that",
+            "prob": 0.00303437008367261
+          }
+        ]
+      },
+      {
+        "token": " total",
+        "prob": 0.5299795269446216,
+        "top": [
+          {
+            "token": " total",
+            "prob": 0.5299795269446216
+          },
+          {
+            "token": " number",
+            "prob": 0.4677052909618777
+          },
+          {
+            "token": " damaged",
+            "prob": 0.0010231012918694203
+          },
+          {
+            "token": " damage",
+            "prob": 0.0003321522003803734
+          },
+          {
+            "token": " correct",
+            "prob": 0.0001568975898790197
+          }
+        ]
+      },
+      {
+        "token": " number",
+        "prob": 0.9990387866621026,
+        "top": [
+          {
+            "token": " number",
+            "prob": 0.9990387866621026
+          },
+          {
+            "token": " damaged",
+            "prob": 0.000911005356838066
+          },
+          {
+            "token": " damage",
+            "prob": 0.00003532352788541788
+          },
+          {
+            "token": " numbers",
+            "prob": 0.0000028995317378657775
+          },
+          {
+            "token": "number",
+            "prob": 9.413401328819684e-7
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999958276922101,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999958276922101
+          },
+          {
+            "token": " damaged",
+            "prob": 0.0000013709538566001813
+          },
+          {
+            "token": " ",
+            "prob": 3.927848561899291e-7
+          },
+          {
+            "token": " for",
+            "prob": 2.699568205307921e-7
+          },
+          {
+            "token": " to",
+            "prob": 2.3823605795000956e-7
+          }
+        ]
+      },
+      {
+        "token": " damaged",
+        "prob": 0.9933093832019015,
+        "top": [
+          {
+            "token": " damaged",
+            "prob": 0.9933093832019015
+          },
+          {
+            "token": " boxes",
+            "prob": 0.004599935885526775
+          },
+          {
+            "token": " baseball",
+            "prob": 0.00015740115035703346
+          },
+          {
+            "token": " bad",
+            "prob": 0.00013890602765333421
+          },
+          {
+            "token": " damage",
+            "prob": 0.00012258413915439758
+          }
+        ]
+      },
+      {
+        "token": " baseball",
+        "prob": 0.935775618965978,
+        "top": [
+          {
+            "token": " baseball",
+            "prob": 0.935775618965978
+          },
+          {
+            "token": " boxes",
+            "prob": 0.05982213433558754
+          },
+          {
+            "token": " balls",
+            "prob": 0.001594205880777606
+          },
+          {
+            "token": " bases",
+            "prob": 0.001594205880777606
+          },
+          {
+            "token": " cases",
+            "prob": 0.00035571541348747586
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 0.9999163220796634,
+        "top": [
+          {
+            "token": "s",
+            "prob": 0.9999163220796634
+          },
+          {
+            "token": " is",
+            "prob": 0.000058289771653276064
+          },
+          {
+            "token": " in",
+            "prob": 0.000018923918188990865
+          },
+          {
+            "token": " per",
+            "prob": 0.000002902076846448833
+          },
+          {
+            "token": " (",
+            "prob": 3.689576668983628e-7
+          }
+        ]
+      },
+      {
+        "token": " is",
+        "prob": 0.7755259229118941,
+        "top": [
+          {
+            "token": " is",
+            "prob": 0.7755259229118941
+          },
+          {
+            "token": " in",
+            "prob": 0.17304323369276997
+          },
+          {
+            "token": " would",
+            "prob": 0.023418855043990383
+          },
+          {
+            "token": " per",
+            "prob": 0.012535209805125453
+          },
+          {
+            "token": " can",
+            "prob": 0.004611445978076336
+          }
+        ]
+      },
+      {
+        "token": ":\n\n",
+        "prob": 0.8070849724004566,
+        "top": [
+          {
+            "token": ":\n\n",
+            "prob": 0.8070849724004566
+          },
+          {
+            "token": ":\n",
+            "prob": 0.18008498841120285
+          },
+          {
+            "token": " ",
+            "prob": 0.010159699828742548
+          },
+          {
+            "token": " (",
+            "prob": 0.0009449992901041533
+          },
+          {
+            "token": ":",
+            "prob": 0.0008339589464615569
+          }
+        ]
+      },
+      {
+        "token": "Number",
+        "prob": 0.7398612369151054,
+        "top": [
+          {
+            "token": "Number",
+            "prob": 0.7398612369151054
+          },
+          {
+            "token": "6",
+            "prob": 0.11346139207555071
+          },
+          {
+            "token": "2",
+            "prob": 0.08836382099681059
+          },
+          {
+            "token": "Total",
+            "prob": 0.04174011351128751
+          },
+          {
+            "token": "Dam",
+            "prob": 0.007253345854257842
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999985694905718,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999985694905718
+          },
+          {
+            "token": " damaged",
+            "prob": 4.4508482557577276e-7
+          },
+          {
+            "token": " ",
+            "prob": 2.1024318473456359e-7
+          },
+          {
+            "token": "_of",
+            "prob": 1.6373755690670415e-7
+          },
+          {
+            "token": " in",
+            "prob": 1.1979295567848492e-7
+          }
+        ]
+      },
+      {
+        "token": " damaged",
+        "prob": 0.6604393020784756,
+        "top": [
+          {
+            "token": " damaged",
+            "prob": 0.6604393020784756
+          },
+          {
+            "token": " boxes",
+            "prob": 0.16698521614418482
+          },
+          {
+            "token": " cases",
+            "prob": 0.16698521614418482
+          },
+          {
+            "token": " damage",
+            "prob": 0.0006824302492797336
+          },
+          {
+            "token": " damages",
+            "prob": 0.0002844792520044577
+          }
+        ]
+      },
+      {
+        "token": " baseball",
+        "prob": 0.9104373838526812,
+        "top": [
+          {
+            "token": " baseball",
+            "prob": 0.9104373838526812
+          },
+          {
+            "token": " boxes",
+            "prob": 0.08468387200301392
+          },
+          {
+            "token": " balls",
+            "prob": 0.0017575576920036927
+          },
+          {
+            "token": " bases",
+            "prob": 0.001368787306825647
+          },
+          {
+            "token": " cases",
+            "prob": 0.0009407528409264361
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 0.9999853374722015,
+        "top": [
+          {
+            "token": "s",
+            "prob": 0.9999853374722015
+          },
+          {
+            "token": " in",
+            "prob": 0.000006962205127632345
+          },
+          {
+            "token": " boxes",
+            "prob": 0.000004785048940965243
+          },
+          {
+            "token": " per",
+            "prob": 0.0000017603211303802955
+          },
+          {
+            "token": " cases",
+            "prob": 2.1024037770394584e-7
+          }
+        ]
+      },
+      {
+        "token": " =",
+        "prob": 0.46163703331079947,
+        "top": [
+          {
+            "token": " =",
+            "prob": 0.46163703331079947
+          },
+          {
+            "token": " per",
+            "prob": 0.3172781647761305
+          },
+          {
+            "token": " in",
+            "prob": 0.21806188104510998
+          },
+          {
+            "token": " (",
+            "prob": 0.0024224486816527323
+          },
+          {
+            "token": " /",
+            "prob": 0.00010643501768404617
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.5198237829675999,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.5198237829675999
+          },
+          {
+            "token": " Number",
+            "prob": 0.45874287835871386
+          },
+          {
+            "token": " (",
+            "prob": 0.020155755396657673
+          },
+          {
+            "token": " Total",
+            "prob": 0.0006896920228238334
+          },
+          {
+            "token": " number",
+            "prob": 0.00013580841158921026
+          }
+        ]
+      },
+      {
+        "token": "2",
+        "prob": 0.8126037034214124,
+        "top": [
+          {
+            "token": "2",
+            "prob": 0.8126037034214124
+          },
+          {
+            "token": "6",
+            "prob": 0.10997396055535553
+          },
+          {
+            "token": "8",
+            "prob": 0.07558392403587713
+          },
+          {
+            "token": "12",
+            "prob": 0.000740998540833661
+          },
+          {
+            "token": "576",
+            "prob": 0.0002725981291107414
+          }
+        ]
+      },
+      {
+        "token": " *",
+        "prob": 0.861873511911978,
+        "top": [
+          {
+            "token": " *",
+            "prob": 0.861873511911978
+          },
+          {
+            "token": " per",
+            "prob": 0.06243390314547227
+          },
+          {
+            "token": " (",
+            "prob": 0.06243390314547227
+          },
+          {
+            "token": " boxes",
+            "prob": 0.008449509965759733
+          },
+          {
+            "token": " baseball",
+            "prob": 0.0018853405118357234
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.527016242347244,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.527016242347244
+          },
+          {
+            "token": " Number",
+            "prob": 0.3622126131139656
+          },
+          {
+            "token": " (",
+            "prob": 0.10377565114041533
+          },
+          {
+            "token": " number",
+            "prob": 0.006634155422740175
+          },
+          {
+            "token": " Total",
+            "prob": 0.00005739669064767792
+          }
+        ]
+      },
+      {
+        "token": "6",
+        "prob": 0.9098242727004983,
+        "top": [
+          {
+            "token": "6",
+            "prob": 0.9098242727004983
+          },
+          {
+            "token": "8",
+            "prob": 0.08462683369150956
+          },
+          {
+            "token": "576",
+            "prob": 0.003281338437695166
+          },
+          {
+            "token": "12",
+            "prob": 0.0012071369507536713
+          },
+          {
+            "token": "3",
+            "prob": 0.00023769947251770207
+          }
+        ]
+      },
+      {
+        "token": " *",
+        "prob": 0.4999753233336937,
+        "top": [
+          {
+            "token": " *",
+            "prob": 0.4999753233336937
+          },
+          {
+            "token": "\n",
+            "prob": 0.2361716199387111
+          },
+          {
+            "token": " (",
+            "prob": 0.20842072307429885
+          },
+          {
+            "token": " =",
+            "prob": 0.05269701137943872
+          },
+          {
+            "token": " ",
+            "prob": 0.0014043281204035702
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.955288169283058,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.955288169283058
+          },
+          {
+            "token": " (",
+            "prob": 0.022466223547519103
+          },
+          {
+            "token": " Number",
+            "prob": 0.017496716663006943
+          },
+          {
+            "token": " number",
+            "prob": 0.00390404519108844
+          },
+          {
+            "token": " x",
+            "prob": 0.00015137625962369802
+          }
+        ]
+      },
+      {
+        "token": "8",
+        "prob": 0.8665924518337191,
+        "top": [
+          {
+            "token": "8",
+            "prob": 0.8665924518337191
+          },
+          {
+            "token": "12",
+            "prob": 0.05539939703051412
+          },
+          {
+            "token": "2",
+            "prob": 0.029653160393643695
+          },
+          {
+            "token": "1",
+            "prob": 0.026168822199234762
+          },
+          {
+            "token": "6",
+            "prob": 0.015872192992404468
+          }
+        ]
+      },
+      {
+        "token": "\n",
+        "prob": 0.5076724052488045,
+        "top": [
+          {
+            "token": "\n",
+            "prob": 0.5076724052488045
+          },
+          {
+            "token": " (",
+            "prob": 0.44801932515974147
+          },
+          {
+            "token": " =",
+            "prob": 0.019684595351547346
+          },
+          {
+            "token": " ",
+            "prob": 0.017371594426371657
+          },
+          {
+            "token": " *",
+            "prob": 0.004392226913247797
+          }
+        ]
+      },
+      {
+        "token": "=",
+        "prob": 0.9977707601684905,
+        "top": [
+          {
+            "token": "=",
+            "prob": 0.9977707601684905
+          },
+          {
+            "token": "However",
+            "prob": 0.0015000878620335181
+          },
+          {
+            "token": "Since",
+            "prob": 0.00020301481568811097
+          },
+          {
+            "token": "(",
+            "prob": 0.00017915994602354045
+          },
+          {
+            "token": "-",
+            "prob": 0.00003314125762275159
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9999727018181879,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9999727018181879
+          },
+          {
+            "token": " (",
+            "prob": 0.000011478582428272343
+          },
+          {
+            "token": " -",
+            "prob": 0.000003726550107114814
+          },
+          {
+            "token": " Number",
+            "prob": 0.000002902240141575845
+          },
+          {
+            "token": " two",
+            "prob": 4.7377767917599756e-7
+          }
+        ]
+      },
+      {
+        "token": "96",
+        "prob": 0.9883499094484962,
+        "top": [
+          {
+            "token": "96",
+            "prob": 0.9883499094484962
+          },
+          {
+            "token": "2",
+            "prob": 0.010979578043830254
+          },
+          {
+            "token": "192",
+            "prob": 0.00017746826566831153
+          },
+          {
+            "token": "64",
+            "prob": 0.00015661519475934502
+          },
+          {
+            "token": "384",
+            "prob": 0.00007397977965533444
+          }
+        ]
+      },
+      {
+        "token": "\n\n",
+        "prob": 0.9753340226251186,
+        "top": [
+          {
+            "token": "\n\n",
+            "prob": 0.9753340226251186
+          },
+          {
+            "token": " (",
+            "prob": 0.02024241143052769
+          },
+          {
+            "token": "\n",
+            "prob": 0.003104274333789975
+          },
+          {
+            "token": " *",
+            "prob": 0.0006926572292432175
+          },
+          {
+            "token": ",",
+            "prob": 0.00019844971338624494
+          }
+        ]
+      },
+      {
+        "token": "Now",
+        "prob": 0.6371095937657739,
+        "top": [
+          {
+            "token": "Now",
+            "prob": 0.6371095937657739
+          },
+          {
+            "token": "Total",
+            "prob": 0.18253496561947274
+          },
+          {
+            "token": "Sub",
+            "prob": 0.0760918944300805
+          },
+          {
+            "token": "So",
+            "prob": 0.05926042696753337
+          },
+          {
+            "token": "But",
+            "prob": 0.019239043831718997
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9904965038235262,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9904965038235262
+          },
+          {
+            "token": " subtract",
+            "prob": 0.005889706334209157
+          },
+          {
+            "token": " we",
+            "prob": 0.0035722874684015553
+          },
+          {
+            "token": " that",
+            "prob": 0.00001874564421760225
+          },
+          {
+            "token": " let",
+            "prob": 0.000014599122395846585
+          }
+        ]
+      },
+      {
+        "token": " subtract",
+        "prob": 0.6556817910457671,
+        "top": [
+          {
+            "token": " subtract",
+            "prob": 0.6556817910457671
+          },
+          {
+            "token": " let",
+            "prob": 0.2412118508762072
+          },
+          {
+            "token": " we",
+            "prob": 0.10055207131338718
+          },
+          {
+            "token": " the",
+            "prob": 0.0016252728605028028
+          },
+          {
+            "token": " calculate",
+            "prob": 0.0001941110694137991
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9851830426634388,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9851830426634388
+          },
+          {
+            "token": "ing",
+            "prob": 0.01240162379078497
+          },
+          {
+            "token": " these",
+            "prob": 0.0019018506052591048
+          },
+          {
+            "token": " this",
+            "prob": 0.00037449658866968075
+          },
+          {
+            "token": " ",
+            "prob": 0.000044727239190580734
+          }
+        ]
+      },
+      {
+        "token": " number",
+        "prob": 0.6842219190238447,
+        "top": [
+          {
+            "token": " number",
+            "prob": 0.6842219190238447
+          },
+          {
+            "token": " damaged",
+            "prob": 0.25171117720774383
+          },
+          {
+            "token": " total",
+            "prob": 0.06364255230474286
+          },
+          {
+            "token": " damage",
+            "prob": 0.00015775415266550038
+          },
+          {
+            "token": " destroyed",
+            "prob": 0.000024192382851667593
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999992847447459,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999992847447459
+          },
+          {
+            "token": " damaged",
+            "prob": 2.6995759288455584e-7
+          },
+          {
+            "token": " ",
+            "prob": 1.275189375371399e-7
+          },
+          {
+            "token": " and",
+            "prob": 9.931194312156244e-8
+          },
+          {
+            "token": " or",
+            "prob": 5.3157852544244216e-8
+          }
+        ]
+      },
+      {
+        "token": " damaged",
+        "prob": 0.9999430212054865,
+        "top": [
+          {
+            "token": " damaged",
+            "prob": 0.9999430212054865
+          },
+          {
+            "token": " destroyed",
+            "prob": 0.000008939264700219846
+          },
+          {
+            "token": " damage",
+            "prob": 0.0000054219381159702
+          },
+          {
+            "token": " damaging",
+            "prob": 0.000004222609650482289
+          },
+          {
+            "token": " damages",
+            "prob": 0.000004222609650482289
+          }
+        ]
+      },
+      {
+        "token": " baseball",
+        "prob": 0.999964238492877,
+        "top": [
+          {
+            "token": " baseball",
+            "prob": 0.999964238492877
+          },
+          {
+            "token": " balls",
+            "prob": 0.000013006838687314361
+          },
+          {
+            "token": " basketball",
+            "prob": 0.000008939460780754803
+          },
+          {
+            "token": " bases",
+            "prob": 0.00000614399555278515
+          },
+          {
+            "token": " base",
+            "prob": 0.0000017602841977606208
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 0.9999995231630692,
+        "top": [
+          {
+            "token": "s",
+            "prob": 0.9999995231630692
+          },
+          {
+            "token": " from",
+            "prob": 7.734421907141565e-8
+          },
+          {
+            "token": " to",
+            "prob": 7.734421907141565e-8
+          },
+          {
+            "token": " is",
+            "prob": 2.8453348089834e-8
+          },
+          {
+            "token": " balls",
+            "prob": 2.510999155743982e-8
+          }
+        ]
+      },
+      {
+        "token": " from",
+        "prob": 0.9999197785820156,
+        "top": [
+          {
+            "token": " from",
+            "prob": 0.9999197785820156
+          },
+          {
+            "token": ":\n\n",
+            "prob": 0.00004006208794491641
+          },
+          {
+            "token": " (",
+            "prob": 0.000018923990378147525
+          },
+          {
+            "token": " and",
+            "prob": 0.000007888692849411237
+          },
+          {
+            "token": ":\n",
+            "prob": 0.000004784734078223732
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9999893904859,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9999893904859
+          },
+          {
+            "token": " total",
+            "prob": 0.000008939682442190776
+          },
+          {
+            "token": " ",
+            "prob": 5.714947783964125e-7
+          },
+          {
+            "token": " a",
+            "prob": 2.3823446755805012e-7
+          },
+          {
+            "token": " this",
+            "prob": 1.444965087742721e-7
+          }
+        ]
+      },
+      {
+        "token": " total",
+        "prob": 0.9998997550400364,
+        "top": [
+          {
+            "token": " total",
+            "prob": 0.9998997550400364
+          },
+          {
+            "token": " initial",
+            "prob": 0.00007484433491485593
+          },
+          {
+            "token": " original",
+            "prob": 0.000018923611388147247
+          },
+          {
+            "token": " Total",
+            "prob": 0.000001994533966220785
+          },
+          {
+            "token": " previous",
+            "prob": 6.475303733636132e-7
+          }
+        ]
+      },
+      {
+        "token": " number",
+        "prob": 0.9440067245488959,
+        "top": [
+          {
+            "token": " number",
+            "prob": 0.9440067245488959
+          },
+          {
+            "token": ":\n\n",
+            "prob": 0.053257216850241734
+          },
+          {
+            "token": ":\n",
+            "prob": 0.0026515206964051407
+          },
+          {
+            "token": ":",
+            "prob": 0.000042857840426754305
+          },
+          {
+            "token": " count",
+            "prob": 0.000003517985772453401
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9966990598582293,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9966990598582293
+          },
+          {
+            "token": ":\n\n",
+            "prob": 0.003172274663807546
+          },
+          {
+            "token": ":\n",
+            "prob": 0.00012300243711377986
+          },
+          {
+            "token": ":",
+            "prob": 0.0000012058734620288657
+          },
+          {
+            "token": ".\n\n",
+            "prob": 6.454575518987109e-7
+          }
+        ]
+      },
+      {
+        "token": " baseball",
+        "prob": 0.9993602556715925,
+        "top": [
+          {
+            "token": " baseball",
+            "prob": 0.9993602556715925
+          },
+          {
+            "token": " balls",
+            "prob": 0.00017944533882962292
+          },
+          {
+            "token": " base",
+            "prob": 0.00009605016840301818
+          },
+          {
+            "token": " basketball",
+            "prob": 0.00008476397610839232
+          },
+          {
+            "token": " bases",
+            "prob": 0.000058257372006992154
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 0.9999980926550052,
+        "top": [
+          {
+            "token": "s",
+            "prob": 0.9999980926550052
+          },
+          {
+            "token": " in",
+            "prob": 4.181181004572545e-7
+          },
+          {
+            "token": " balls",
+            "prob": 3.0590173704000945e-7
+          },
+          {
+            "token": "balls",
+            "prob": 2.3823651234966232e-7
+          },
+          {
+            "token": ":\n\n",
+            "prob": 2.1024298423113373e-7
+          }
+        ]
+      },
+      {
+        "token": ":\n\n",
+        "prob": 0.5202758177844249,
+        "top": [
+          {
+            "token": ":\n\n",
+            "prob": 0.5202758177844249
+          },
+          {
+            "token": " in",
+            "prob": 0.45914179768442226
+          },
+          {
+            "token": ":\n",
+            "prob": 0.020173283891013805
+          },
+          {
+            "token": ":",
+            "prob": 0.0001540248497669111
+          },
+          {
+            "token": " to",
+            "prob": 0.00011995467361092587
+          }
+        ]
+      },
+      {
+        "token": "Total",
+        "prob": 0.7990651142206583,
+        "top": [
+          {
+            "token": "Total",
+            "prob": 0.7990651142206583
+          },
+          {
+            "token": "576",
+            "prob": 0.17829553753232075
+          },
+          {
+            "token": "Correct",
+            "prob": 0.007833759197907322
+          },
+          {
+            "token": "Number",
+            "prob": 0.004193109138945652
+          },
+          {
+            "token": "Effective",
+            "prob": 0.0025432492522917786
+          }
+        ]
+      },
+      {
+        "token": " usable",
+        "prob": 0.7806825464107863,
+        "top": [
+          {
+            "token": " usable",
+            "prob": 0.7806825464107863
+          },
+          {
+            "token": " number",
+            "prob": 0.17419381381865226
+          },
+          {
+            "token": " playable",
+            "prob": 0.012618557549892806
+          },
+          {
+            "token": " baseball",
+            "prob": 0.012618557549892806
+          },
+          {
+            "token": " good",
+            "prob": 0.009827342501088104
+          }
+        ]
+      },
+      {
+        "token": " baseball",
+        "prob": 0.9996880074504653,
+        "top": [
+          {
+            "token": " baseball",
+            "prob": 0.9996880074504653
+          },
+          {
+            "token": " balls",
+            "prob": 0.00009608168417139969
+          },
+          {
+            "token": " number",
+            "prob": 0.0000748284908715055
+          },
+          {
+            "token": " base",
+            "prob": 0.00006603591141918326
+          },
+          {
+            "token": " bases",
+            "prob": 0.00001891960538663061
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 0.9999990463265931,
+        "top": [
+          {
+            "token": "s",
+            "prob": 0.9999990463265931
+          },
+          {
+            "token": " in",
+            "prob": 3.059020287707785e-7
+          },
+          {
+            "token": " =",
+            "prob": 1.8553895931777327e-7
+          },
+          {
+            "token": "balls",
+            "prob": 1.6373755690670415e-7
+          },
+          {
+            "token": " balls",
+            "prob": 9.329493666178467e-8
+          }
+        ]
+      },
+      {
+        "token": " =",
+        "prob": 0.9239169628206816,
+        "top": [
+          {
+            "token": " =",
+            "prob": 0.9239169628206816
+          },
+          {
+            "token": " in",
+            "prob": 0.07583972601203227
+          },
+          {
+            "token": " (",
+            "prob": 0.00012920205854234158
+          },
+          {
+            "token": " per",
+            "prob": 0.00006103073100068867
+          },
+          {
+            "token": " for",
+            "prob": 0.0000198137774040573
+          }
+        ]
+      },
+      {
+        "token": " Total",
+        "prob": 0.9668286997030735,
+        "top": [
+          {
+            "token": " Total",
+            "prob": 0.9668286997030735
+          },
+          {
+            "token": " ",
+            "prob": 0.03308306216114212
+          },
+          {
+            "token": " Number",
+            "prob": 0.0000266230195022276
+          },
+          {
+            "token": " total",
+            "prob": 0.000020734028436060142
+          },
+          {
+            "token": "Total",
+            "prob": 0.0000097940615367759
+          }
+        ]
+      },
+      {
+        "token": " number",
+        "prob": 0.9522933126338953,
+        "top": [
+          {
+            "token": " number",
+            "prob": 0.9522933126338953
+          },
+          {
+            "token": " baseball",
+            "prob": 0.04741188961301751
+          },
+          {
+            "token": " base",
+            "prob": 0.000055513602095607254
+          },
+          {
+            "token": " basketball",
+            "prob": 0.000043234036783173316
+          },
+          {
+            "token": " numbers",
+            "prob": 0.000023141512289203918
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999997615814777,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999997615814777
+          },
+          {
+            "token": " in",
+            "prob": 6.82560337633487e-8
+          },
+          {
+            "token": "_of",
+            "prob": 3.028843137928935e-8
+          },
+          {
+            "token": " ",
+            "prob": 1.186112015134383e-8
+          },
+          {
+            "token": " (",
+            "prob": 1.1142491209772546e-8
+          }
+        ]
+      },
+      {
+        "token": " baseball",
+        "prob": 0.9999252613624905,
+        "top": [
+          {
+            "token": " baseball",
+            "prob": 0.9999252613624905
+          },
+          {
+            "token": " basketball",
+            "prob": 0.000021443813124981258
+          },
+          {
+            "token": " base",
+            "prob": 0.000018924098662398855
+          },
+          {
+            "token": " balls",
+            "prob": 0.00000696178684059653
+          },
+          {
+            "token": " bases",
+            "prob": 0.000006143755323280634
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 0.9999996423722521,
+        "top": [
+          {
+            "token": "s",
+            "prob": 0.9999996423722521
+          },
+          {
+            "token": " in",
+            "prob": 1.855391362615978e-7
+          },
+          {
+            "token": " balls",
+            "prob": 1.9555681087850496e-8
+          },
+          {
+            "token": "\n",
+            "prob": 1.4307241918567688e-8
+          },
+          {
+            "token": "balls",
+            "prob": 1.186112015134383e-8
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.4998885507847165,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.4998885507847165
+          },
+          {
+            "token": " -",
+            "prob": 0.4998885507847165
+          },
+          {
+            "token": " *",
+            "prob": 0.0000897601122694015
+          },
+          {
+            "token": " =",
+            "prob": 0.000025716702731892736
+          },
+          {
+            "token": " +",
+            "prob": 0.00001767481407348438
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.9936059905197842,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.9936059905197842
+          },
+          {
+            "token": " the",
+            "prob": 0.005213966369905848
+          },
+          {
+            "token": " shipment",
+            "prob": 0.001163393151125619
+          },
+          {
+            "token": " shipping",
+            "prob": 0.0000053875791380119044
+          },
+          {
+            "token": "shipment",
+            "prob": 0.0000025449121850420904
+          }
+        ]
+      },
+      {
+        "token": " shipment",
+        "prob": 0.999960304883893,
+        "top": [
+          {
+            "token": " shipment",
+            "prob": 0.999960304883893
+          },
+          {
+            "token": "shipment",
+            "prob": 0.000035356084658073444
+          },
+          {
+            "token": " shipments",
+            "prob": 0.000002260238872833922
+          },
+          {
+            "token": " shipping",
+            "prob": 0.0000012878452895299496
+          },
+          {
+            "token": " ship",
+            "prob": 1.4449223695653213e-7
+          }
+        ]
+      },
+      {
+        "token": " -",
+        "prob": 0.9999356311290551,
+        "top": [
+          {
+            "token": " -",
+            "prob": 0.9999356311290551
+          },
+          {
+            "token": " *",
+            "prob": 0.000024299278578666336
+          },
+          {
+            "token": " +",
+            "prob": 0.0000114781664562982
+          },
+          {
+            "token": " –",
+            "prob": 0.000010129446345033564
+          },
+          {
+            "token": "\n",
+            "prob": 0.000004784811651178576
+          }
+        ]
+      },
+      {
+        "token": " Number",
+        "prob": 0.9658795658474749,
+        "top": [
+          {
+            "token": " Number",
+            "prob": 0.9658795658474749
+          },
+          {
+            "token": " Total",
+            "prob": 0.033050581135866515
+          },
+          {
+            "token": " ",
+            "prob": 0.000605342509147341
+          },
+          {
+            "token": " number",
+            "prob": 0.00015305462831836136
+          },
+          {
+            "token": " Dam",
+            "prob": 0.00011919906438704265
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999995231630692,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999995231630692
+          },
+          {
+            "token": " damaged",
+            "prob": 2.1024338523818466e-7
+          },
+          {
+            "token": " ",
+            "prob": 4.993718107117558e-8
+          },
+          {
+            "token": "_of",
+            "prob": 4.139937718785167e-8
+          },
+          {
+            "token": " number",
+            "prob": 2.3588654076195056e-8
+          }
+        ]
+      },
+      {
+        "token": " damaged",
+        "prob": 0.9999606624830781,
+        "top": [
+          {
+            "token": " damaged",
+            "prob": 0.9999606624830781
+          },
+          {
+            "token": " destroyed",
+            "prob": 0.000006143972115346818
+          },
+          {
+            "token": " damage",
+            "prob": 0.000005422036361359692
+          },
+          {
+            "token": " baseball",
+            "prob": 0.000004784930294600978
+          },
+          {
+            "token": " damaging",
+            "prob": 0.00000328863129124138
+          }
+        ]
+      },
+      {
+        "token": " baseball",
+        "prob": 0.9999834301824576,
+        "top": [
+          {
+            "token": " baseball",
+            "prob": 0.9999834301824576
+          },
+          {
+            "token": " basketball",
+            "prob": 0.000007889196922847203
+          },
+          {
+            "token": " base",
+            "prob": 0.0000025612472464782448
+          },
+          {
+            "token": " bases",
+            "prob": 0.0000019947013611967364
+          },
+          {
+            "token": " balls",
+            "prob": 0.0000013709368599402755
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 0.9999997615814777,
+        "top": [
+          {
+            "token": "s",
+            "prob": 0.9999997615814777
+          },
+          {
+            "token": "\n",
+            "prob": 1.855391362615978e-7
+          },
+          {
+            "token": "\n\n",
+            "prob": 9.237449661970594e-9
+          },
+          {
+            "token": " s",
+            "prob": 4.099093439508832e-9
+          },
+          {
+            "token": "sand",
+            "prob": 3.850741922767617e-9
+          }
+        ]
+      },
+      {
+        "token": "\n",
+        "prob": 0.9999725826157975,
+        "top": [
+          {
+            "token": "\n",
+            "prob": 0.9999725826157975
+          },
+          {
+            "token": " \n",
+            "prob": 0.000014738791585446983
+          },
+          {
+            "token": " (",
+            "prob": 0.0000032886689268551154
+          },
+          {
+            "token": " -",
+            "prob": 0.0000025612179354973605
+          },
+          {
+            "token": " in",
+            "prob": 0.0000022602668949205327
+          }
+        ]
+      },
+      {
+        "token": "=",
+        "prob": 0.9999827149515604,
+        "top": [
+          {
+            "token": "=",
+            "prob": 0.9999827149515604
+          },
+          {
+            "token": "Total",
+            "prob": 0.000006144106881838195
+          },
+          {
+            "token": "-",
+            "prob": 0.000003288703426546071
+          },
+          {
+            "token": "However",
+            "prob": 0.0000019946994589021867
+          },
+          {
+            "token": " =",
+            "prob": 0.0000014593532991842492
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9999938011552557,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9999938011552557
+          },
+          {
+            "token": " Total",
+            "prob": 0.0000017603362394025924
+          },
+          {
+            "token": " (",
+            "prob": 0.0000017603362394025924
+          },
+          {
+            "token": " -",
+            "prob": 0.0000012098602244086199
+          },
+          {
+            "token": "576",
+            "prob": 4.7378807137087025e-7
+          }
+        ]
+      },
+      {
+        "token": "576",
+        "prob": 0.9995332751566155,
+        "top": [
+          {
+            "token": "576",
+            "prob": 0.9995332751566155
+          },
+          {
+            "token": "96",
+            "prob": 0.0000902463594187765
+          },
+          {
+            "token": "560",
+            "prob": 0.000025856014872648263
+          },
+          {
+            "token": "596",
+            "prob": 0.000021435389209530904
+          },
+          {
+            "token": "8",
+            "prob": 0.000018916664583106283
+          }
+        ]
+      },
+      {
+        "token": " -",
+        "prob": 0.9999862911193472,
+        "top": [
+          {
+            "token": " -",
+            "prob": 0.9999862911193472
+          },
+          {
+            "token": " (",
+            "prob": 0.000006144130319790621
+          },
+          {
+            "token": " *",
+            "prob": 0.000004222794896286642
+          },
+          {
+            "token": "-",
+            "prob": 6.47586571312971e-7
+          },
+          {
+            "token": " –",
+            "prob": 5.04340928845068e-7
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9999856950894335,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9999856950894335
+          },
+          {
+            "token": " (",
+            "prob": 0.000013007111584513018
+          },
+          {
+            "token": " (-",
+            "prob": 8.315168240749066e-7
+          },
+          {
+            "token": "96",
+            "prob": 2.3823355876741153e-7
+          },
+          {
+            "token": " \n",
+            "prob": 3.028802698780169e-8
+          }
+        ]
+      },
+      {
+        "token": "96",
+        "prob": 0.9998580418976274,
+        "top": [
+          {
+            "token": "96",
+            "prob": 0.9998580418976274
+          },
+          {
+            "token": "48",
+            "prob": 0.000031198451447512614
+          },
+          {
+            "token": "64",
+            "prob": 0.000011477268883925317
+          },
+          {
+            "token": "0",
+            "prob": 0.000011477268883925317
+          },
+          {
+            "token": "192",
+            "prob": 0.000010128654240194648
+          }
+        ]
+      },
+      {
+        "token": "\n",
+        "prob": 0.9997886865966393,
+        "top": [
+          {
+            "token": "\n",
+            "prob": 0.9997886865966393
+          },
+          {
+            "token": " (",
+            "prob": 0.00017952219373554247
+          },
+          {
+            "token": " *",
+            "prob": 0.000014736079025741298
+          },
+          {
+            "token": " =",
+            "prob": 0.000005421100517047921
+          },
+          {
+            "token": " +",
+            "prob": 0.000004221957327785718
+          }
+        ]
+      },
+      {
+        "token": "=",
+        "prob": 0.9999960661089133,
+        "top": [
+          {
+            "token": "=",
+            "prob": 0.9999960661089133
+          },
+          {
+            "token": " =",
+            "prob": 0.000001760339596980714
+          },
+          {
+            "token": "-",
+            "prob": 3.6898722478013197e-7
+          },
+          {
+            "token": "Total",
+            "prob": 2.8736753960211123e-7
+          },
+          {
+            "token": "*",
+            "prob": 2.2380206487142718e-7
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9999997615814777,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9999997615814777
+          },
+          {
+            "token": "480",
+            "prob": 1.1253517471925912e-7
+          },
+          {
+            "token": " (",
+            "prob": 4.691164021834418e-8
+          },
+          {
+            "token": " -",
+            "prob": 2.215948977336598e-8
+          },
+          {
+            "token": " **",
+            "prob": 4.944450501938644e-9
+          }
+        ]
+      },
+      {
+        "token": "480",
+        "prob": 0.9999958276922101,
+        "top": [
+          {
+            "token": "480",
+            "prob": 0.9999958276922101
+          },
+          {
+            "token": "48",
+            "prob": 0.0000019947260911909763
+          },
+          {
+            "token": "580",
+            "prob": 0.0000012098625320360655
+          },
+          {
+            "token": "484",
+            "prob": 1.4449747339575647e-7
+          },
+          {
+            "token": "481",
+            "prob": 1.1253474543245463e-7
+          }
+        ]
+      },
+      {
+        "token": "\n\n",
+        "prob": 0.9999742514560126,
+        "top": [
+          {
+            "token": "\n\n",
+            "prob": 0.9999742514560126
+          },
+          {
+            "token": " (",
+            "prob": 0.000008939546034502815
+          },
+          {
+            "token": " \n\n",
+            "prob": 0.000006144054146772135
+          },
+          {
+            "token": "\n",
+            "prob": 0.0000032886751994992792
+          },
+          {
+            "token": " baseball",
+            "prob": 0.0000012098359945861764
+          }
+        ]
+      },
+      {
+        "token": "Since",
+        "prob": 0.4135088714732799,
+        "top": [
+          {
+            "token": "Since",
+            "prob": 0.4135088714732799
+          },
+          {
+            "token": "Finally",
+            "prob": 0.32204103291036335
+          },
+          {
+            "token": "Now",
+            "prob": 0.19532776014566056
+          },
+          {
+            "token": "Each",
+            "prob": 0.06341364683436397
+          },
+          {
+            "token": "Next",
+            "prob": 0.0021698956699524726
+          }
+        ]
+      },
+      {
+        "token": " each",
+        "prob": 0.9993526360732865,
+        "top": [
+          {
+            "token": " each",
+            "prob": 0.9993526360732865
+          },
+          {
+            "token": " ",
+            "prob": 0.00043046370574596646
+          },
+          {
+            "token": " every",
+            "prob": 0.00012332991657043276
+          },
+          {
+            "token": " we",
+            "prob": 0.000040039361713690413
+          },
+          {
+            "token": " the",
+            "prob": 0.000012998877571803036
+          }
+        ]
+      },
+      {
+        "token": " game",
+        "prob": 0.9999941587791524,
+        "top": [
+          {
+            "token": " game",
+            "prob": 0.9999941587791524
+          },
+          {
+            "token": " team",
+            "prob": 0.0000022603164733094454
+          },
+          {
+            "token": " games",
+            "prob": 0.0000017603362394025924
+          },
+          {
+            "token": " baseball",
+            "prob": 0.0000010676979006009105
+          },
+          {
+            "token": " gameplay",
+            "prob": 8.764198070156538e-8
+          }
+        ]
+      },
+      {
+        "token": " requires",
+        "prob": 0.9999257381277472,
+        "top": [
+          {
+            "token": " requires",
+            "prob": 0.9999257381277472
+          },
+          {
+            "token": " needs",
+            "prob": 0.00004006231718267827
+          },
+          {
+            "token": " uses",
+            "prob": 0.000014738102857196754
+          },
+          {
+            "token": " required",
+            "prob": 0.0000037263759693424063
+          },
+          {
+            "token": " require",
+            "prob": 0.000003288515250810343
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9999883176260755,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9999883176260755
+          },
+          {
+            "token": " two",
+            "prob": 0.000006144142038800363
+          },
+          {
+            "token": " exactly",
+            "prob": 0.000002902287194419277
+          },
+          {
+            "token": " at",
+            "prob": 0.0000012098533015526915
+          },
+          {
+            "token": " only",
+            "prob": 5.714942333767803e-7
+          }
+        ]
+      },
+      {
+        "token": "2",
+        "prob": 0.9999918938339075,
+        "top": [
+          {
+            "token": "2",
+            "prob": 0.9999918938339075
+          },
+          {
+            "token": "4",
+            "prob": 0.000004222819059381988
+          },
+          {
+            "token": "1",
+            "prob": 0.000002902298265787419
+          },
+          {
+            "token": "3",
+            "prob": 4.45081854323923e-7
+          },
+          {
+            "token": "6",
+            "prob": 2.3823514915330412e-7
+          }
+        ]
+      },
+      {
+        "token": " baseball",
+        "prob": 0.9999661457096376,
+        "top": [
+          {
+            "token": " baseball",
+            "prob": 0.9999661457096376
+          },
+          {
+            "token": " balls",
+            "prob": 0.000008939477831439362
+          },
+          {
+            "token": " Baseball",
+            "prob": 0.000006962072335374439
+          },
+          {
+            "token": " bases",
+            "prob": 0.000004784957674270078
+          },
+          {
+            "token": " basketball",
+            "prob": 0.000004784957674270078
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 0.9999982118638471,
+        "top": [
+          {
+            "token": "s",
+            "prob": 0.9999982118638471
+          },
+          {
+            "token": ",",
+            "prob": 0.0000017603429545652396
+          },
+          {
+            "token": " per",
+            "prob": 1.1142469957177438e-8
+          },
+          {
+            "token": "balls",
+            "prob": 4.09908562111602e-9
+          },
+          {
+            "token": " balls",
+            "prob": 3.850734578067279e-9
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9923398524910428,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9923398524910428
+          },
+          {
+            "token": ":\n\n",
+            "prob": 0.00757660949163288
+          },
+          {
+            "token": ":\n",
+            "prob": 0.00004505216686235864
+          },
+          {
+            "token": " (",
+            "prob": 0.000010052497207031867
+          },
+          {
+            "token": " and",
+            "prob": 0.000007828892696659529
+          }
+        ]
+      },
+      {
+        "token": " we",
+        "prob": 0.6846643311148246,
+        "top": [
+          {
+            "token": " we",
+            "prob": 0.6846643311148246
+          },
+          {
+            "token": " the",
+            "prob": 0.28541054736446353
+          },
+          {
+            "token": " divide",
+            "prob": 0.026547316278441455
+          },
+          {
+            "token": " let",
+            "prob": 0.0027980665499462874
+          },
+          {
+            "token": " you",
+            "prob": 0.00033418155281804857
+          }
+        ]
+      },
+      {
+        "token": " can",
+        "prob": 0.955875001835637,
+        "top": [
+          {
+            "token": " can",
+            "prob": 0.955875001835637
+          },
+          {
+            "token": " divide",
+            "prob": 0.04199821729020457
+          },
+          {
+            "token": " need",
+            "prob": 0.0011192143136785516
+          },
+          {
+            "token": "'ll",
+            "prob": 0.0008716449839175809
+          },
+          {
+            "token": " now",
+            "prob": 0.00009187074920552826
+          }
+        ]
+      },
+      {
+        "token": " divide",
+        "prob": 0.45307585644500925,
+        "top": [
+          {
+            "token": " divide",
+            "prob": 0.45307585644500925
+          },
+          {
+            "token": " calculate",
+            "prob": 0.1888701165852365
+          },
+          {
+            "token": " now",
+            "prob": 0.1888701165852365
+          },
+          {
+            "token": " play",
+            "prob": 0.16667729287726263
+          },
+          {
+            "token": " find",
+            "prob": 0.0014420413071600554
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.999937061454891,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.999937061454891
+          },
+          {
+            "token": " this",
+            "prob": 0.00003535527543077754
+          },
+          {
+            "token": " by",
+            "prob": 0.000021444058531351363
+          },
+          {
+            "token": " ",
+            "prob": 0.000002561127562084565
+          },
+          {
+            "token": " that",
+            "prob": 0.0000017602355150367816
+          }
+        ]
+      },
+      {
+        "token": " total",
+        "prob": 0.9958251500023012,
+        "top": [
+          {
+            "token": " total",
+            "prob": 0.9958251500023012
+          },
+          {
+            "token": " number",
+            "prob": 0.004069709047327529
+          },
+          {
+            "token": " usable",
+            "prob": 0.00007453932129306543
+          },
+          {
+            "token": " Total",
+            "prob": 0.000016631970697476955
+          },
+          {
+            "token": " maximum",
+            "prob": 0.000001752996814449721
+          }
+        ]
+      },
+      {
+        "token": " number",
+        "prob": 0.6217031793030197,
+        "top": [
+          {
+            "token": " number",
+            "prob": 0.6217031793030197
+          },
+          {
+            "token": " usable",
+            "prob": 0.37708203948810215
+          },
+          {
+            "token": " playable",
+            "prob": 0.0003034504551364582
+          },
+          {
+            "token": "usable",
+            "prob": 0.00026779408674581004
+          },
+          {
+            "token": " unus",
+            "prob": 0.00012649696960054656
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999992847447459,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999992847447459
+          },
+          {
+            "token": " usable",
+            "prob": 4.4508482557577276e-7
+          },
+          {
+            "token": " by",
+            "prob": 1.6373755690670415e-7
+          },
+          {
+            "token": "able",
+            "prob": 1.7257827987960214e-8
+          },
+          {
+            "token": " or",
+            "prob": 1.7257827987960214e-8
+          }
+        ]
+      },
+      {
+        "token": " usable",
+        "prob": 0.9946699844804106,
+        "top": [
+          {
+            "token": " usable",
+            "prob": 0.9946699844804106
+          },
+          {
+            "token": "usable",
+            "prob": 0.0016945392722684687
+          },
+          {
+            "token": " baseball",
+            "prob": 0.00102779002271796
+          },
+          {
+            "token": " playable",
+            "prob": 0.0009070215115559507
+          },
+          {
+            "token": " reusable",
+            "prob": 0.0003336745668016801
+          }
+        ]
+      },
+      {
+        "token": " baseball",
+        "prob": 0.9999865295319578,
+        "top": [
+          {
+            "token": " baseball",
+            "prob": 0.9999865295319578
+          },
+          {
+            "token": " base",
+            "prob": 0.000003288715971977968
+          },
+          {
+            "token": " basketball",
+            "prob": 0.000002561254574275878
+          },
+          {
+            "token": " balls",
+            "prob": 0.000002260299228529089
+          },
+          {
+            "token": " bases",
+            "prob": 0.0000019947070680912716
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 0.9999982118638471,
+        "top": [
+          {
+            "token": "s",
+            "prob": 0.9999982118638471
+          },
+          {
+            "token": " by",
+            "prob": 0.0000015534972048904392
+          },
+          {
+            "token": " in",
+            "prob": 6.412048743288674e-8
+          },
+          {
+            "token": " balls",
+            "prob": 4.9937085823652366e-8
+          },
+          {
+            "token": "balls",
+            "prob": 1.7257795071296986e-8
+          }
+        ]
+      },
+      {
+        "token": " by",
+        "prob": 0.9999703177676235,
+        "top": [
+          {
+            "token": " by",
+            "prob": 0.9999703177676235
+          },
+          {
+            "token": " (",
+            "prob": 0.000018924946910471302
+          },
+          {
+            "token": " into",
+            "prob": 0.0000022602625838076723
+          },
+          {
+            "token": " per",
+            "prob": 0.0000019946747292381254
+          },
+          {
+            "token": " to",
+            "prob": 0.0000019946747292381254
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9999994039539004,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9999994039539004
+          },
+          {
+            "token": " the",
+            "prob": 2.6995759288455584e-7
+          },
+          {
+            "token": ":\n\n",
+            "prob": 1.6373755690670415e-7
+          },
+          {
+            "token": " two",
+            "prob": 1.6212229047677827e-8
+          },
+          {
+            "token": " -",
+            "prob": 1.186112015134383e-8
+          }
+        ]
+      },
+      {
+        "token": "2",
+        "prob": 0.9999800924450729,
+        "top": [
+          {
+            "token": "2",
+            "prob": 0.9999800924450729
+          },
+          {
+            "token": "4",
+            "prob": 0.000016701366305950292
+          },
+          {
+            "token": "3",
+            "prob": 0.0000019946937520294216
+          },
+          {
+            "token": "1",
+            "prob": 9.422266114201782e-7
+          },
+          {
+            "token": "6",
+            "prob": 2.1023917470229675e-7
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.7310230661122357,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.7310230661122357
+          },
+          {
+            "token": ":\n\n",
+            "prob": 0.26892835704480356
+          },
+          {
+            "token": " and",
+            "prob": 0.000012209324154579175
+          },
+          {
+            "token": ":\n",
+            "prob": 0.000007405329434122297
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.000007405329434122297
+          }
+        ]
+      },
+      {
+        "token": " find",
+        "prob": 0.8518189265721126,
+        "top": [
+          {
+            "token": " find",
+            "prob": 0.8518189265721126
+          },
+          {
+            "token": " get",
+            "prob": 0.1480239317704327
+          },
+          {
+            "token": " determine",
+            "prob": 0.00009277055004984302
+          },
+          {
+            "token": " calculate",
+            "prob": 0.000056268182923635167
+          },
+          {
+            "token": " see",
+            "prob": 0.000003597104588295782
+          }
+        ]
+      },
+      {
+        "token": " out",
+        "prob": 0.7548866200372195,
+        "top": [
+          {
+            "token": " out",
+            "prob": 0.7548866200372195
+          },
+          {
+            "token": " the",
+            "prob": 0.24507578916323255
+          },
+          {
+            "token": " how",
+            "prob": 0.000030244747916112232
+          },
+          {
+            "token": " our",
+            "prob": 0.00000463818231390861
+          },
+          {
+            "token": ":\n\n",
+            "prob": 8.059952311300096e-7
+          }
+        ]
+      },
+      {
+        "token": " how",
+        "prob": 0.962664121843939,
+        "top": [
+          {
+            "token": " how",
+            "prob": 0.962664121843939
+          },
+          {
+            "token": " the",
+            "prob": 0.0373265409573542
+          },
+          {
+            "token": ":\n\n",
+            "prob": 0.0000035875155171486253
+          },
+          {
+            "token": " How",
+            "prob": 0.0000010278404044734467
+          },
+          {
+            "token": " if",
+            "prob": 6.234167186045796e-7
+          }
+        ]
+      },
+      {
+        "token": " many",
+        "prob": 0.9999991655356624,
+        "top": [
+          {
+            "token": " many",
+            "prob": 0.9999991655356624
+          },
+          {
+            "token": " much",
+            "prob": 3.059020287707785e-7
+          },
+          {
+            "token": "many",
+            "prob": 1.6373755690670415e-7
+          },
+          {
+            "token": " Many",
+            "prob": 1.4449788680693535e-7
+          },
+          {
+            "token": "Many",
+            "prob": 6.82560337633487e-8
+          }
+        ]
+      },
+      {
+        "token": " games",
+        "prob": 0.9999977350285647,
+        "top": [
+          {
+            "token": " games",
+            "prob": 0.9999977350285647
+          },
+          {
+            "token": " game",
+            "prob": 0.000001067701973552941
+          },
+          {
+            "token": " teams",
+            "prob": 6.47593982395546e-7
+          },
+          {
+            "token": "games",
+            "prob": 6.023562348842112e-8
+          },
+          {
+            "token": " Games",
+            "prob": 4.691155074157667e-8
+          }
+        ]
+      },
+      {
+        "token": " can",
+        "prob": 0.9995684103053505,
+        "top": [
+          {
+            "token": " can",
+            "prob": 0.9995684103053505
+          },
+          {
+            "token": " we",
+            "prob": 0.0003799649533101989
+          },
+          {
+            "token": " that",
+            "prob": 0.000045380320572134325
+          },
+          {
+            "token": ":\n\n",
+            "prob": 0.0000022593531228804343
+          },
+          {
+            "token": " could",
+            "prob": 0.000001067242846079677
+          }
+        ]
+      },
+      {
+        "token": " be",
+        "prob": 0.9999980926550052,
+        "top": [
+          {
+            "token": " be",
+            "prob": 0.9999980926550052
+          },
+          {
+            "token": " play",
+            "prob": 0.000001370956471489639
+          },
+          {
+            "token": " actually",
+            "prob": 1.4449774900307763e-7
+          },
+          {
+            "token": "'t",
+            "prob": 7.734407154916583e-8
+          },
+          {
+            "token": " been",
+            "prob": 4.139929822488149e-8
+          }
+        ]
+      },
+      {
+        "token": " played",
+        "prob": 0.999994397195003,
+        "top": [
+          {
+            "token": " played",
+            "prob": 0.999994397195003
+          },
+          {
+            "token": " play",
+            "prob": 0.000002902303801487327
+          },
+          {
+            "token": "played",
+            "prob": 5.714975035023703e-7
+          },
+          {
+            "token": " made",
+            "prob": 3.466307578234156e-7
+          },
+          {
+            "token": " playing",
+            "prob": 2.3823560355122348e-7
+          }
+        ]
+      },
+      {
+        "token": ":\n\n",
+        "prob": 0.9931610873116601,
+        "top": [
+          {
+            "token": ":\n\n",
+            "prob": 0.9931610873116601
+          },
+          {
+            "token": " with",
+            "prob": 0.006691865194207881
+          },
+          {
+            "token": ":\n",
+            "prob": 0.0000397912849649704
+          },
+          {
+            "token": ":",
+            "prob": 0.0000397912849649704
+          },
+          {
+            "token": " in",
+            "prob": 0.000027348123545740566
+          }
+        ]
+      },
+      {
+        "token": "Number",
+        "prob": 0.9872378048257073,
+        "top": [
+          {
+            "token": "Number",
+            "prob": 0.9872378048257073
+          },
+          {
+            "token": "Total",
+            "prob": 0.012427487043902157
+          },
+          {
+            "token": "Games",
+            "prob": 0.00022761747352697788
+          },
+          {
+            "token": " Number",
+            "prob": 0.0000186839800012373
+          },
+          {
+            "token": "number",
+            "prob": 0.00001648855447904444
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999998807907247,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999998807907247
+          },
+          {
+            "token": " games",
+            "prob": 6.82560337633487e-8
+          },
+          {
+            "token": "_of",
+            "prob": 2.510999155743982e-8
+          },
+          {
+            "token": " của",
+            "prob": 2.4862258480890196e-9
+          },
+          {
+            "token": "of",
+            "prob": 2.335593038799337e-9
+          }
+        ]
+      },
+      {
+        "token": " games",
+        "prob": 0.9999661457096376,
+        "top": [
+          {
+            "token": " games",
+            "prob": 0.9999661457096376
+          },
+          {
+            "token": " playable",
+            "prob": 0.000018924874717665766
+          },
+          {
+            "token": " usable",
+            "prob": 0.000004222710326541733
+          },
+          {
+            "token": " baseball",
+            "prob": 0.0000019946671201724033
+          },
+          {
+            "token": " game",
+            "prob": 0.0000017602875552394807
+          }
+        ]
+      },
+      {
+        "token": " =",
+        "prob": 0.9912527219791405,
+        "top": [
+          {
+            "token": " =",
+            "prob": 0.9912527219791405
+          },
+          {
+            "token": " that",
+            "prob": 0.00857601672333464
+          },
+          {
+            "token": " played",
+            "prob": 0.000050994835173449285
+          },
+          {
+            "token": " per",
+            "prob": 0.000039714817565679523
+          },
+          {
+            "token": " can",
+            "prob": 0.000027295568322030918
+          }
+        ]
+      },
+      {
+        "token": " Total",
+        "prob": 0.9998889092831814,
+        "top": [
+          {
+            "token": " Total",
+            "prob": 0.9998889092831814
+          },
+          {
+            "token": " Number",
+            "prob": 0.000051439169344029623
+          },
+          {
+            "token": " ",
+            "prob": 0.00004006086536567287
+          },
+          {
+            "token": " total",
+            "prob": 0.000005421648560967146
+          },
+          {
+            "token": " (",
+            "prob": 0.000004222384144819169
+          }
+        ]
+      },
+      {
+        "token": " usable",
+        "prob": 0.9958139197619601,
+        "top": [
+          {
+            "token": " usable",
+            "prob": 0.9958139197619601
+          },
+          {
+            "token": " number",
+            "prob": 0.0031694578324897326
+          },
+          {
+            "token": " reusable",
+            "prob": 0.00022959464583657694
+          },
+          {
+            "token": " playable",
+            "prob": 0.0002026165638007863
+          },
+          {
+            "token": " useful",
+            "prob": 0.00012289315811079781
+          }
+        ]
+      },
+      {
+        "token": " baseball",
+        "prob": 0.9999933243243502,
+        "top": [
+          {
+            "token": " baseball",
+            "prob": 0.9999933243243502
+          },
+          {
+            "token": " basketball",
+            "prob": 0.000002260314317704706
+          },
+          {
+            "token": " base",
+            "prob": 0.000001994720384242016
+          },
+          {
+            "token": " Baseball",
+            "prob": 0.0000013709499342753462
+          },
+          {
+            "token": " bases",
+            "prob": 2.6995604817923813e-7
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 1,
+        "top": [
+          {
+            "token": "s",
+            "prob": 1
+          },
+          {
+            "token": "\n",
+            "prob": 1.8370862266141198e-8
+          },
+          {
+            "token": "\n\n",
+            "prob": 1.522997974471263e-8
+          },
+          {
+            "token": " balls",
+            "prob": 2.4862258480890196e-9
+          },
+          {
+            "token": "ls",
+            "prob": 2.061153622438558e-9
+          }
+        ]
+      },
+      {
+        "token": " /",
+        "prob": 0.9987250154113391,
+        "top": [
+          {
+            "token": " /",
+            "prob": 0.9987250154113391
+          },
+          {
+            "token": "",
+            "prob": 0.00048747282326191363
+          },
+          {
+            "token": " *",
+            "prob": 0.00048747282326191363
+          },
+          {
+            "token": " //",
+            "prob": 0.00013966330220351793
+          },
+          {
+            "token": "\n",
+            "prob": 0.00013966330220351793
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9995656708715253,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9995656708715253
+          },
+          {
+            "token": " Number",
+            "prob": 0.00043055546723222595
+          },
+          {
+            "token": " number",
+            "prob": 0.0000010672397926777698
+          },
+          {
+            "token": " (",
+            "prob": 8.31167186262411e-7
+          },
+          {
+            "token": " Baseball",
+            "prob": 2.3813338585696782e-7
+          }
+        ]
+      },
+      {
+        "token": "2",
+        "prob": 0.999991059383269,
+        "top": [
+          {
+            "token": "2",
+            "prob": 0.999991059383269
+          },
+          {
+            "token": "4",
+            "prob": 0.000006962244965803618
+          },
+          {
+            "token": "1",
+            "prob": 0.0000012098567629757041
+          },
+          {
+            "token": "3",
+            "prob": 4.450814298609922e-7
+          },
+          {
+            "token": "6",
+            "prob": 1.444967843797534e-7
+          }
+        ]
+      },
+      {
+        "token": "\n",
+        "prob": 0.9999692449491794,
+        "top": [
+          {
+            "token": "\n",
+            "prob": 0.9999692449491794
+          },
+          {
+            "token": " baseball",
+            "prob": 0.000010129784457425044
+          },
+          {
+            "token": " (",
+            "prob": 0.000010129784457425044
+          },
+          {
+            "token": "\n\n",
+            "prob": 0.0000037265394453846877
+          },
+          {
+            "token": " *",
+            "prob": 0.0000015534527596146896
+          }
+        ]
+      },
+      {
+        "token": "=",
+        "prob": 0.9999895096921129,
+        "top": [
+          {
+            "token": "=",
+            "prob": 0.9999895096921129
+          },
+          {
+            "token": "However",
+            "prob": 0.00000478506719451317
+          },
+          {
+            "token": " =",
+            "prob": 0.0000012878833638270191
+          },
+          {
+            "token": "Since",
+            "prob": 7.811407462949275e-7
+          },
+          {
+            "token": "-",
+            "prob": 2.535992706387909e-7
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9999979734461775,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9999979734461775
+          },
+          {
+            "token": " (",
+            "prob": 0.0000015534972048904392
+          },
+          {
+            "token": "480",
+            "prob": 1.0571681151826062e-7
+          },
+          {
+            "token": " -",
+            "prob": 7.734407154916583e-8
+          },
+          {
+            "token": "  ",
+            "prob": 1.18610975280741e-8
+          }
+        ]
+      },
+      {
+        "token": "480",
+        "prob": 0.9999828341569776,
+        "top": [
+          {
+            "token": "480",
+            "prob": 0.9999828341569776
+          },
+          {
+            "token": "240",
+            "prob": 0.000004785035250849994
+          },
+          {
+            "token": "420",
+            "prob": 0.0000025612448038836927
+          },
+          {
+            "token": "960",
+            "prob": 0.0000012878747663067103
+          },
+          {
+            "token": "481",
+            "prob": 5.714909632699021e-7
+          }
+        ]
+      },
+      {
+        "token": " /",
+        "prob": 0.9999060719005844,
+        "top": [
+          {
+            "token": " /",
+            "prob": 0.9999060719005844
+          },
+          {
+            "token": "/",
+            "prob": 0.00007484483455636322
+          },
+          {
+            "token": "",
+            "prob": 0.00000696165405631674
+          },
+          {
+            "token": " *",
+            "prob": 0.0000061436381415650075
+          },
+          {
+            "token": " //",
+            "prob": 0.0000022601181662784932
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 1,
+        "top": [
+          {
+            "token": " ",
+            "prob": 1
+          },
+          {
+            "token": "2",
+            "prob": 1.3440409951135022e-8
+          },
+          {
+            "token": " (",
+            "prob": 7.194133030325383e-9
+          },
+          {
+            "token": " /",
+            "prob": 5.602796437537268e-9
+          },
+          {
+            "token": " -",
+            "prob": 5.602796437537268e-9
+          }
+        ]
+      },
+      {
+        "token": "2",
+        "prob": 0.9999952316511552,
+        "top": [
+          {
+            "token": "2",
+            "prob": 0.9999952316511552
+          },
+          {
+            "token": "1",
+            "prob": 0.0000019947241888728423
+          },
+          {
+            "token": "4",
+            "prob": 0.0000010676989188374615
+          },
+          {
+            "token": "3",
+            "prob": 8.315247540751075e-7
+          },
+          {
+            "token": "6",
+            "prob": 3.927844816012785e-7
+          }
+        ]
+      },
+      {
+        "token": "\n",
+        "prob": 0.9999964237340748,
+        "top": [
+          {
+            "token": "\n",
+            "prob": 0.9999964237340748
+          },
+          {
+            "token": "<|eot_id|>",
+            "prob": 0.000002260320784525092
+          },
+          {
+            "token": " (",
+            "prob": 5.043457386379083e-7
+          },
+          {
+            "token": "\n\n",
+            "prob": 4.4508355217969405e-7
+          },
+          {
+            "token": " \n",
+            "prob": 1.8553842848731202e-7
+          }
+        ]
+      },
+      {
+        "token": "=",
+        "prob": 0.9999966621509202,
+        "top": [
+          {
+            "token": "=",
+            "prob": 0.9999966621509202
+          },
+          {
+            "token": " =",
+            "prob": 0.0000010677009553134769
+          },
+          {
+            "token": "-",
+            "prob": 4.450839766446488e-7
+          },
+          {
+            "token": "However",
+            "prob": 2.873678136572838e-7
+          },
+          {
+            "token": "*",
+            "prob": 2.1024278372789506e-7
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9999998807907247,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9999998807907247
+          },
+          {
+            "token": "240",
+            "prob": 2.3588654076195056e-8
+          },
+          {
+            "token": " Number",
+            "prob": 1.8370862266141198e-8
+          },
+          {
+            "token": " **",
+            "prob": 1.3440409951135022e-8
+          },
+          {
+            "token": " *",
+            "prob": 5.602796437537268e-9
+          }
+        ]
+      },
+      {
+        "token": "240",
+        "prob": 0.999998927117538,
+        "top": [
+          {
+            "token": "240",
+            "prob": 0.999998927117538
+          },
+          {
+            "token": "120",
+            "prob": 4.4508482557577276e-7
+          },
+          {
+            "token": "24",
+            "prob": 4.4508482557577276e-7
+          },
+          {
+            "token": "239",
+            "prob": 4.691155074157667e-8
+          },
+          {
+            "token": "480",
+            "prob": 4.691155074157667e-8
+          }
+        ]
+      },
+      {
+        "token": "\n\n",
+        "prob": 0.9321007006274258,
+        "top": [
+          {
+            "token": "\n\n",
+            "prob": 0.9321007006274258
+          },
+          {
+            "token": "<|eot_id|>",
+            "prob": 0.05258552394175082
+          },
+          {
+            "token": " games",
+            "prob": 0.015066004854717981
+          },
+          {
+            "token": " \n\n",
+            "prob": 0.00013034648193175575
+          },
+          {
+            "token": " game",
+            "prob": 0.00006976944412121633
+          }
+        ]
+      },
+      {
+        "token": "Therefore",
+        "prob": 0.6494840909745023,
+        "top": [
+          {
+            "token": "Therefore",
+            "prob": 0.6494840909745023
+          },
+          {
+            "token": "So",
+            "prob": 0.347643771974778
+          },
+          {
+            "token": "However",
+            "prob": 0.0008617229619377239
+          },
+          {
+            "token": "You",
+            "prob": 0.0005226613965936122
+          },
+          {
+            "token": "The",
+            "prob": 0.0005226613965936122
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 1,
+        "top": [
+          {
+            "token": ",",
+            "prob": 1
+          },
+          {
+            "token": ":",
+            "prob": 7.194133030325383e-9
+          },
+          {
+            "token": ".",
+            "prob": 6.758262544305561e-9
+          },
+          {
+            "token": " (",
+            "prob": 3.398267819495071e-9
+          },
+          {
+            "token": ".,",
+            "prob": 2.061153622438558e-9
+          }
+        ]
+      },
+      {
+        "token": " with",
+        "prob": 0.7391372184996539,
+        "top": [
+          {
+            "token": " with",
+            "prob": 0.7391372184996539
+          },
+          {
+            "token": " you",
+            "prob": 0.11335037377117975
+          },
+          {
+            "token": " ",
+            "prob": 0.1000313537598723
+          },
+          {
+            "token": " a",
+            "prob": 0.02529188705244772
+          },
+          {
+            "token": " the",
+            "prob": 0.011947038650883512
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.8656037979406568,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.8656037979406568
+          },
+          {
+            "token": " the",
+            "prob": 0.09123397859719498
+          },
+          {
+            "token": " this",
+            "prob": 0.03803198058133251
+          },
+          {
+            "token": " ",
+            "prob": 0.0045422712469287965
+          },
+          {
+            "token": " an",
+            "prob": 0.00025625740833073166
+          }
+        ]
+      },
+      {
+        "token": " shipment",
+        "prob": 0.9995606684503158,
+        "top": [
+          {
+            "token": " shipment",
+            "prob": 0.9995606684503158
+          },
+          {
+            "token": " ",
+            "prob": 0.00020337893505251804
+          },
+          {
+            "token": " single",
+            "prob": 0.00008478095362605686
+          },
+          {
+            "token": "shipment",
+            "prob": 0.00005142224773387845
+          },
+          {
+            "token": " total",
+            "prob": 0.000031189169841935765
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.5894179781811788,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.5894179781811788
+          },
+          {
+            "token": " of",
+            "prob": 0.40510065713057536
+          },
+          {
+            "token": " containing",
+            "prob": 0.004500261529466747
+          },
+          {
+            "token": " that",
+            "prob": 0.0006090441687292141
+          },
+          {
+            "token": " consisting",
+            "prob": 0.0001977276921081544
+          }
+        ]
+      },
+      {
+        "token": " you",
+        "prob": 0.9353689915376868,
+        "top": [
+          {
+            "token": " you",
+            "prob": 0.9353689915376868
+          },
+          {
+            "token": " ",
+            "prob": 0.046569279930866764
+          },
+          {
+            "token": " we",
+            "prob": 0.017131876592165567
+          },
+          {
+            "token": " it",
+            "prob": 0.00040290311973106125
+          },
+          {
+            "token": " a",
+            "prob": 0.0002769109945825938
+          }
+        ]
+      },
+      {
+        "token": " can",
+        "prob": 0.9999963045256735,
+        "top": [
+          {
+            "token": " can",
+            "prob": 0.9999963045256735
+          },
+          {
+            "token": " could",
+            "prob": 0.000002260320784525092
+          },
+          {
+            "token": " would",
+            "prob": 8.31525547079287e-7
+          },
+          {
+            "token": " cannot",
+            "prob": 3.0590115357930596e-7
+          },
+          {
+            "token": " will",
+            "prob": 7.734392402719739e-8
+          }
+        ]
+      },
+      {
+        "token": " play",
+        "prob": 0.9999721058045592,
+        "top": [
+          {
+            "token": " play",
+            "prob": 0.9999721058045592
+          },
+          {
+            "token": " potentially",
+            "prob": 0.000003726550107114814
+          },
+          {
+            "token": " plan",
+            "prob": 0.0000032886689268551154
+          },
+          {
+            "token": " theoretically",
+            "prob": 0.0000022602668949205327
+          },
+          {
+            "token": " have",
+            "prob": 0.0000017602976277144838
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9960850566091366,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9960850566091366
+          },
+          {
+            "token": " a",
+            "prob": 0.0014975535598109493
+          },
+          {
+            "token": " **",
+            "prob": 0.0013215863779876974
+          },
+          {
+            "token": " up",
+            "prob": 0.0007073942125929331
+          },
+          {
+            "token": " approximately",
+            "prob": 0.0002948857801703782
+          }
+        ]
+      },
+      {
+        "token": "240",
+        "prob": 0.9999717481958249,
+        "top": [
+          {
+            "token": "240",
+            "prob": 0.9999717481958249
+          },
+          {
+            "token": "120",
+            "prob": 0.000016701222957588625
+          },
+          {
+            "token": "480",
+            "prob": 0.000004784980490780672
+          },
+          {
+            "token": "2",
+            "prob": 0.0000015534557225935123
+          },
+          {
+            "token": "24",
+            "prob": 8.851323897137486e-7
+          }
+        ]
+      },
+      {
+        "token": " games",
+        "prob": 0.9888970516713247,
+        "top": [
+          {
+            "token": " games",
+            "prob": 0.9888970516713247
+          },
+          {
+            "token": " baseball",
+            "prob": 0.010985652869882508
+          },
+          {
+            "token": " basketball",
+            "prob": 0.0000212073091342571
+          },
+          {
+            "token": " different",
+            "prob": 0.00001871538462313589
+          },
+          {
+            "token": "/",
+            "prob": 0.000017581476790552315
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9651856504048193,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9651856504048193
+          },
+          {
+            "token": " with",
+            "prob": 0.017677993413938407
+          },
+          {
+            "token": " of",
+            "prob": 0.010722245007751652
+          },
+          {
+            "token": " using",
+            "prob": 0.0030719746278310743
+          },
+          {
+            "token": ",",
+            "prob": 0.0012805895477587957
+          }
+        ]
+      },
+      {
+        "token": "<|eot_id|>",
+        "prob": 0.9999853374722015,
+        "top": [
+          {
+            "token": "<|eot_id|>",
+            "prob": 0.9999853374722015
+          },
+          {
+            "token": " \n\n",
+            "prob": 0.000005422170805303821
+          },
+          {
+            "token": " The",
+            "prob": 0.0000025612521316743374
+          },
+          {
+            "token": " However",
+            "prob": 0.000002260297072940795
+          },
+          {
+            "token": "<|eom_id|>",
+            "prob": 7.33811021693085e-7
+          }
+        ]
+      }
+    ],
+    "provider": "Parasail"
+  },
+  "savedAt": "2026-10-13T14:50:30.358Z"
+}

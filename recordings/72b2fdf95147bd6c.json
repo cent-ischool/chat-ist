@@ -1,0 +1,47 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-3-27b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which is bigger: 3.11 or 3.9? Reply with just the number."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "3.9\n",
+    "tokens": [
+      {
+        "token": "<end_of_turn>",
+        "prob": 1,
+        "top": [
+          {
+            "token": "<end_of_turn>",
+            "prob": 1
+          },
+          {
+            "token": " ",
+            "prob": 7.582560427911907e-10
+          },
+          {
+            "token": ".",
+            "prob": 1.493094676197164e-10
+          },
+          {
+            "token": "$",
+            "prob": 5.15999712815652e-11
+          },
+          {
+            "token": "<start_of_image>",
+            "prob": 3.5464107047741826e-11
+          }
+        ]
+      }
+    ],
+    "provider": "NextBit"
+  },
+  "savedAt": "2026-10-13T15:18:40.878Z"
+}

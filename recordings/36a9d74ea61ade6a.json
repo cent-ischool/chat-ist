@@ -1,0 +1,255 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "A young man is in a car accident and is rushed to the hospital. The surgeon, who is the young man's father, says \"I can't operate on this boy, he's my son!\" How is this possible?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "The surgeon is the young man's mother.",
+    "tokens": [
+      {
+        "token": "The",
+        "prob": 0.9997131993651673,
+        "top": [
+          {
+            "token": "The",
+            "prob": 0.9997131993651673
+          },
+          {
+            "token": "This",
+            "prob": 0.00016576175688183992
+          },
+          {
+            "token": " The",
+            "prob": 0.00003278717910280874
+          },
+          {
+            "token": "In",
+            "prob": 0.00002253505412511615
+          },
+          {
+            "token": "Because",
+            "prob": 0.000021661371476456395
+          }
+        ]
+      },
+      {
+        "token": " surgeon",
+        "prob": 0.9892664293200762,
+        "top": [
+          {
+            "token": " surgeon",
+            "prob": 0.9892664293200762
+          },
+          {
+            "token": " young",
+            "prob": 0.009751846766108385
+          },
+          {
+            "token": " answer",
+            "prob": 0.0007164479200065703
+          },
+          {
+            "token": " father",
+            "prob": 0.00006116083648513297
+          },
+          {
+            "token": " reason",
+            "prob": 0.00006083288764623106
+          }
+        ]
+      },
+      {
+        "token": " is",
+        "prob": 0.9815063770869241,
+        "top": [
+          {
+            "token": " is",
+            "prob": 0.9815063770869241
+          },
+          {
+            "token": " who",
+            "prob": 0.012228671029343175
+          },
+          {
+            "token": " could",
+            "prob": 0.0027968094322324572
+          },
+          {
+            "token": " in",
+            "prob": 0.0017818138797018402
+          },
+          {
+            "token": " can",
+            "prob": 0.0012435957466212784
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9961734111222897,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9961734111222897
+          },
+          {
+            "token": " his",
+            "prob": 0.003043246821858289
+          },
+          {
+            "token": " actually",
+            "prob": 0.0004495798850693834
+          },
+          {
+            "token": " also",
+            "prob": 0.0001591436984589447
+          },
+          {
+            "token": " not",
+            "prob": 0.0000932267369750021
+          }
+        ]
+      },
+      {
+        "token": " young",
+        "prob": 0.6718626830760666,
+        "top": [
+          {
+            "token": " young",
+            "prob": 0.6718626830760666
+          },
+          {
+            "token": " boy",
+            "prob": 0.32797227552792485
+          },
+          {
+            "token": " biological",
+            "prob": 0.00007561347877470332
+          },
+          {
+            "token": " patient",
+            "prob": 0.00003335172709456702
+          },
+          {
+            "token": " father",
+            "prob": 0.000018364997772190542
+          }
+        ]
+      },
+      {
+        "token": " man",
+        "prob": 0.9999956342685299,
+        "top": [
+          {
+            "token": " man",
+            "prob": 0.9999956342685299
+          },
+          {
+            "token": " boy",
+            "prob": 0.0000031688779237740174
+          },
+          {
+            "token": " mans",
+            "prob": 4.7637760947144026e-7
+          },
+          {
+            "token": "'s",
+            "prob": 2.3839544702192062e-7
+          },
+          {
+            "token": " ma",
+            "prob": 1.4988762354345264e-7
+          }
+        ]
+      },
+      {
+        "token": "'s",
+        "prob": 0.9989706990939596,
+        "top": [
+          {
+            "token": "'s",
+            "prob": 0.9989706990939596
+          },
+          {
+            "token": "’s",
+            "prob": 0.001028007619511978
+          },
+          {
+            "token": "´s",
+            "prob": 6.305470884701736e-7
+          },
+          {
+            "token": "'",
+            "prob": 3.1383765720730314e-7
+          },
+          {
+            "token": "`s",
+            "prob": 8.078980945335752e-8
+          }
+        ]
+      },
+      {
+        "token": " mother",
+        "prob": 0.956667138204511,
+        "top": [
+          {
+            "token": " mother",
+            "prob": 0.956667138204511
+          },
+          {
+            "token": " other",
+            "prob": 0.031173911619194156
+          },
+          {
+            "token": " father",
+            "prob": 0.010099670292244387
+          },
+          {
+            "token": " biological",
+            "prob": 0.0015028634860215812
+          },
+          {
+            "token": " step",
+            "prob": 0.00017007424176195576
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9924517012826208,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9924517012826208
+          },
+          {
+            "token": ",",
+            "prob": 0.007375323598176536
+          },
+          {
+            "token": " -",
+            "prob": 0.00007945013228289417
+          },
+          {
+            "token": ";",
+            "prob": 0.00001749680963895597
+          },
+          {
+            "token": "<|end|>",
+            "prob": 0.000016197073179183363
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T15:14:37.865Z"
+}

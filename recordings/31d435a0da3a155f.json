@@ -1,0 +1,3869 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-4-31b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "List 3 peer-reviewed research papers about how Parents Weekend visits affect college students' grades. Include the authors, year, journal and DOI."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "Based on the available academic literature, there are no widely cited, peer-reviewed research papers specifically dedicated to the isolated variable of \"Parents Weekend\" visits and their direct effect on college students' grades. \n\nAcademic research in this area typically focuses on broader categories such as **parental involvement in higher education**, **student transition to college**, and **family support systems**. \n\nIf you are looking for research on how parental support and visits generally influence academic performance, I recommend searching databases like ERIC, PsycINFO, or Google Scholar using the following keywords:\n*   \"Parental involvement and college GPA\"\n*   \"Family support and academic achievement in higher education\"\n*   \"Parental expectations and undergraduate performance\"",
+    "tokens": [
+      {
+        "token": "Based",
+        "prob": 0.9285316047092473,
+        "top": [
+          {
+            "token": "Based",
+            "prob": 0.9285316047092473
+          },
+          {
+            "token": "A",
+            "prob": 0.05238417166728299
+          },
+          {
+            "token": "After",
+            "prob": 0.017006646527605796
+          },
+          {
+            "token": "Ext",
+            "prob": 0.0007472198996401682
+          },
+          {
+            "token": "Searching",
+            "prob": 0.00045321177867915893
+          }
+        ]
+      },
+      {
+        "token": " on",
+        "prob": 0.9999874831811497,
+        "top": [
+          {
+            "token": " on",
+            "prob": 0.9999874831811497
+          },
+          {
+            "token": "な",
+            "prob": 0.000006962218406997441
+          },
+          {
+            "token": " up",
+            "prob": 0.000002726443902332978
+          },
+          {
+            "token": " of",
+            "prob": 7.338124213278687e-7
+          },
+          {
+            "token": " than",
+            "prob": 6.475871888999462e-7
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.8575099258764237,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.8575099258764237
+          },
+          {
+            "token": " my",
+            "prob": 0.09038088124147682
+          },
+          {
+            "token": " a",
+            "prob": 0.03767635669464544
+          },
+          {
+            "token": " current",
+            "prob": 0.008406729498764863
+          },
+          {
+            "token": " available",
+            "prob": 0.005098939188911508
+          }
+        ]
+      },
+      {
+        "token": " available",
+        "prob": 0.9600925503775332,
+        "top": [
+          {
+            "token": " available",
+            "prob": 0.9600925503775332
+          },
+          {
+            "token": " current",
+            "prob": 0.025585596872193445
+          },
+          {
+            "token": " academic",
+            "prob": 0.010665663586822687
+          },
+          {
+            "token": " existing",
+            "prob": 0.000601715564814547
+          },
+          {
+            "token": " information",
+            "prob": 0.00046861655306382183
+          }
+        ]
+      },
+      {
+        "token": " academic",
+        "prob": 0.9826691187231364,
+        "top": [
+          {
+            "token": " academic",
+            "prob": 0.9826691187231364
+          },
+          {
+            "token": " scholarly",
+            "prob": 0.008501754223291516
+          },
+          {
+            "token": " scientific",
+            "prob": 0.004015944334707576
+          },
+          {
+            "token": " peer",
+            "prob": 0.0031276205926414327
+          },
+          {
+            "token": " research",
+            "prob": 0.0011505873158172255
+          }
+        ]
+      },
+      {
+        "token": " literature",
+        "prob": 0.9899284324882116,
+        "top": [
+          {
+            "token": " literature",
+            "prob": 0.9899284324882116
+          },
+          {
+            "token": " databases",
+            "prob": 0.00970491543419788
+          },
+          {
+            "token": " research",
+            "prob": 0.00025862735937014366
+          },
+          {
+            "token": " database",
+            "prob": 0.00002725912312809576
+          },
+          {
+            "token": " literatura",
+            "prob": 0.00002122942643800082
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.8979773427900116,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.8979773427900116
+          },
+          {
+            "token": " and",
+            "prob": 0.09464611348868515
+          },
+          {
+            "token": " in",
+            "prob": 0.002225863773973108
+          },
+          {
+            "token": " across",
+            "prob": 0.001964317886106526
+          },
+          {
+            "token": " through",
+            "prob": 0.001964317886106526
+          }
+        ]
+      },
+      {
+        "token": " there",
+        "prob": 0.9999934435319415,
+        "top": [
+          {
+            "token": " there",
+            "prob": 0.9999934435319415
+          },
+          {
+            "token": " it",
+            "prob": 0.0000032887379265989447
+          },
+          {
+            "token": " research",
+            "prob": 0.0000012098590705965475
+          },
+          {
+            "token": " I",
+            "prob": 9.422391915866334e-7
+          },
+          {
+            "token": " specifically",
+            "prob": 5.714969584801392e-7
+          }
+        ]
+      },
+      {
+        "token": " are",
+        "prob": 0.5926546245663316,
+        "top": [
+          {
+            "token": " are",
+            "prob": 0.5926546245663316
+          },
+          {
+            "token": " is",
+            "prob": 0.4073251694903284
+          },
+          {
+            "token": " isn",
+            "prob": 0.000006003645029292369
+          },
+          {
+            "token": "'",
+            "prob": 0.0000052981981425679176
+          },
+          {
+            "token": " appear",
+            "prob": 0.0000018310082833919753
+          }
+        ]
+      },
+      {
+        "token": " no",
+        "prob": 0.9998631664550408,
+        "top": [
+          {
+            "token": " no",
+            "prob": 0.9998631664550408
+          },
+          {
+            "token": " very",
+            "prob": 0.00008480666891209898
+          },
+          {
+            "token": " currently",
+            "prob": 0.000045393738749827144
+          },
+          {
+            "token": " **",
+            "prob": 0.000002260021174610599
+          },
+          {
+            "token": " No",
+            "prob": 0.000002260021174610599
+          }
+        ]
+      },
+      {
+        "token": " widely",
+        "prob": 0.5545166205147327,
+        "top": [
+          {
+            "token": " widely",
+            "prob": 0.5545166205147327
+          },
+          {
+            "token": " specific",
+            "prob": 0.4318579782829829
+          },
+          {
+            "token": " peer",
+            "prob": 0.010156323757692523
+          },
+          {
+            "token": " prominent",
+            "prob": 0.0022661821465732356
+          },
+          {
+            "token": " wide",
+            "prob": 0.0005056535852903985
+          }
+        ]
+      },
+      {
+        "token": " cited",
+        "prob": 0.584822341628891,
+        "top": [
+          {
+            "token": " cited",
+            "prob": 0.584822341628891
+          },
+          {
+            "token": " recognized",
+            "prob": 0.401942125398968
+          },
+          {
+            "token": " indexed",
+            "prob": 0.009452773880815465
+          },
+          {
+            "token": " published",
+            "prob": 0.002109198949873249
+          },
+          {
+            "token": " known",
+            "prob": 0.0016426457938146714
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9842916649822512,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9842916649822512
+          },
+          {
+            "token": " or",
+            "prob": 0.01404016819155169
+          },
+          {
+            "token": " peer",
+            "prob": 0.0014798228401077013
+          },
+          {
+            "token": " a",
+            "prob": 0.00015597217983628745
+          },
+          {
+            "token": "-",
+            "prob": 0.000021108539135175857
+          }
+        ]
+      },
+      {
+        "token": " peer",
+        "prob": 0.9999969005680498,
+        "top": [
+          {
+            "token": " peer",
+            "prob": 0.9999969005680498
+          },
+          {
+            "token": " specific",
+            "prob": 0.000001873873533863877
+          },
+          {
+            "token": " a",
+            "prob": 6.083576662864178e-7
+          },
+          {
+            "token": " Peer",
+            "prob": 1.8553860543063036e-7
+          },
+          {
+            "token": " single",
+            "prob": 1.5381690644857672e-7
+          }
+        ]
+      },
+      {
+        "token": "-",
+        "prob": 0.9999998807907247,
+        "top": [
+          {
+            "token": "-",
+            "prob": 0.9999998807907247
+          },
+          {
+            "token": " reviewed",
+            "prob": 7.734421907141565e-8
+          },
+          {
+            "token": "reviewed",
+            "prob": 1.9555681087850496e-8
+          },
+          {
+            "token": " review",
+            "prob": 1.174409933197416e-9
+          },
+          {
+            "token": "Reviewed",
+            "prob": 9.146313756209837e-10
+          }
+        ]
+      },
+      {
+        "token": "reviewed",
+        "prob": 0.9998272955702814,
+        "top": [
+          {
+            "token": "reviewed",
+            "prob": 0.9998272955702814
+          },
+          {
+            "token": "review",
+            "prob": 0.0001686520881369385
+          },
+          {
+            "token": " reviewed",
+            "prob": 0.0000014591264619306293
+          },
+          {
+            "token": "referenced",
+            "prob": 0.0000010028419736851252
+          },
+          {
+            "token": "indexed",
+            "prob": 3.689249448625501e-7
+          }
+        ]
+      },
+      {
+        "token": " research",
+        "prob": 0.9995281539481159,
+        "top": [
+          {
+            "token": " research",
+            "prob": 0.9995281539481159
+          },
+          {
+            "token": " empirical",
+            "prob": 0.00017947546066178488
+          },
+          {
+            "token": " papers",
+            "prob": 0.00012335155991891565
+          },
+          {
+            "token": " studies",
+            "prob": 0.00009606629145793083
+          },
+          {
+            "token": " longitudinal",
+            "prob": 0.0000660253321722446
+          }
+        ]
+      },
+      {
+        "token": " papers",
+        "prob": 0.9999980926550052,
+        "top": [
+          {
+            "token": " papers",
+            "prob": 0.9999980926550052
+          },
+          {
+            "token": " studies",
+            "prob": 0.0000018738753209297906
+          },
+          {
+            "token": " pap",
+            "prob": 4.139929822488149e-8
+          },
+          {
+            "token": "Papers",
+            "prob": 3.889104154376441e-8
+          },
+          {
+            "token": " paper",
+            "prob": 2.5109943663977424e-8
+          }
+        ]
+      },
+      {
+        "token": " specifically",
+        "prob": 0.6785757187371948,
+        "top": [
+          {
+            "token": " specifically",
+            "prob": 0.6785757187371948
+          },
+          {
+            "token": " that",
+            "prob": 0.3205364730336451
+          },
+          {
+            "token": " focusing",
+            "prob": 0.00048190709633758077
+          },
+          {
+            "token": " Specifically",
+            "prob": 0.00022763679383841512
+          },
+          {
+            "token": " focused",
+            "prob": 0.00006521903337658009
+          }
+        ]
+      },
+      {
+        "token": " dedicated",
+        "prob": 0.4025668260798755,
+        "top": [
+          {
+            "token": " dedicated",
+            "prob": 0.4025668260798755
+          },
+          {
+            "token": " focused",
+            "prob": 0.2766798470702039
+          },
+          {
+            "token": " isolating",
+            "prob": 0.13069430557346334
+          },
+          {
+            "token": " focusing",
+            "prob": 0.10178482752358672
+          },
+          {
+            "token": " isolated",
+            "prob": 0.06173561858661766
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.9995275584739887,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.9995275584739887
+          },
+          {
+            "token": " solely",
+            "prob": 0.000379949372028544
+          },
+          {
+            "token": " exclusively",
+            "prob": 0.0000847781238036551
+          },
+          {
+            "token": " as",
+            "prob": 0.000002900947870554541
+          },
+          {
+            "token": " only",
+            "prob": 0.000001370310745295236
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9886251525008487,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9886251525008487
+          },
+          {
+            "token": " measuring",
+            "prob": 0.004578243817905136
+          },
+          {
+            "token": " how",
+            "prob": 0.004040285988578355
+          },
+          {
+            "token": " a",
+            "prob": 0.001311688815025332
+          },
+          {
+            "token": " quantifying",
+            "prob": 0.00048254334826235054
+          }
+        ]
+      },
+      {
+        "token": " isolated",
+        "prob": 0.307546676908142,
+        "top": [
+          {
+            "token": " isolated",
+            "prob": 0.307546676908142
+          },
+          {
+            "token": " causal",
+            "prob": 0.307546676908142
+          },
+          {
+            "token": " direct",
+            "prob": 0.21137353376675708
+          },
+          {
+            "token": " singular",
+            "prob": 0.06055953135346527
+          },
+          {
+            "token": " narrow",
+            "prob": 0.05344359884140779
+          }
+        ]
+      },
+      {
+        "token": " variable",
+        "prob": 0.7193265094575813,
+        "top": [
+          {
+            "token": " variable",
+            "prob": 0.7193265094575813
+          },
+          {
+            "token": " effect",
+            "prob": 0.12500020790218425
+          },
+          {
+            "token": " impact",
+            "prob": 0.0973502597983095
+          },
+          {
+            "token": " causal",
+            "prob": 0.040581625915750805
+          },
+          {
+            "token": " correlation",
+            "prob": 0.014929142304329606
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999998807907247,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999998807907247
+          },
+          {
+            "token": "-",
+            "prob": 8.764248219443636e-8
+          },
+          {
+            "token": " revolving",
+            "prob": 1.8370862266141198e-8
+          },
+          {
+            "token": "'",
+            "prob": 1.4307241918567688e-8
+          },
+          {
+            "token": ":",
+            "prob": 4.6448813899558095e-9
+          }
+        ]
+      },
+      {
+        "token": " \"",
+        "prob": 0.9998806857355593,
+        "top": [
+          {
+            "token": " \"",
+            "prob": 0.9998806857355593
+          },
+          {
+            "token": " \"**",
+            "prob": 0.00005828771487961289
+          },
+          {
+            "token": " “",
+            "prob": 0.000031199165531569196
+          },
+          {
+            "token": " **",
+            "prob": 0.00001300574715577404
+          },
+          {
+            "token": " how",
+            "prob": 0.000008938710582829678
+          }
+        ]
+      },
+      {
+        "token": "Parents",
+        "prob": 0.9999983310727032,
+        "top": [
+          {
+            "token": "Parents",
+            "prob": 0.9999983310727032
+          },
+          {
+            "token": " Parents",
+            "prob": 0.0000012098648396679127
+          },
+          {
+            "token": "Parent",
+            "prob": 3.6898792856808184e-7
+          },
+          {
+            "token": "parents",
+            "prob": 4.4069323563474324e-8
+          },
+          {
+            "token": "College",
+            "prob": 3.6174303640639408e-9
+          }
+        ]
+      },
+      {
+        "token": " Weekend",
+        "prob": 0.9999877215940446,
+        "top": [
+          {
+            "token": " Weekend",
+            "prob": 0.9999877215940446
+          },
+          {
+            "token": " Week",
+            "prob": 0.000011478757578876643
+          },
+          {
+            "token": "'",
+            "prob": 6.083518645632674e-7
+          },
+          {
+            "token": " Wellness",
+            "prob": 6.825525263950225e-8
+          },
+          {
+            "token": " {",
+            "prob": 6.214711474687872e-8
+          }
+        ]
+      },
+      {
+        "token": "\"",
+        "prob": 0.5926610890707997,
+        "top": [
+          {
+            "token": "\"",
+            "prob": 0.5926610890707997
+          },
+          {
+            "token": " visits",
+            "prob": 0.4073296124749421
+          },
+          {
+            "token": " visit",
+            "prob": 0.000006803098932548186
+          },
+          {
+            "token": " visitors",
+            "prob": 9.206993209231062e-7
+          },
+          {
+            "token": " visitas",
+            "prob": 5.2459865980341e-7
+          }
+        ]
+      },
+      {
+        "token": " visits",
+        "prob": 0.7283672642296698,
+        "top": [
+          {
+            "token": " visits",
+            "prob": 0.7283672642296698
+          },
+          {
+            "token": " and",
+            "prob": 0.26795135011795557
+          },
+          {
+            "token": " as",
+            "prob": 0.002976670620877721
+          },
+          {
+            "token": " (",
+            "prob": 0.0005861411984881404
+          },
+          {
+            "token": " visit",
+            "prob": 0.00002272716064891378
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9996321362971164,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9996321362971164
+          },
+          {
+            "token": " as",
+            "prob": 0.0002959357706344165
+          },
+          {
+            "token": " on",
+            "prob": 0.000035344487503167486
+          },
+          {
+            "token": " in",
+            "prob": 0.00002429188732528851
+          },
+          {
+            "token": " (",
+            "prob": 0.000007886421156945937
+          }
+        ]
+      },
+      {
+        "token": " their",
+        "prob": 0.9984973632272478,
+        "top": [
+          {
+            "token": " their",
+            "prob": 0.9984973632272478
+          },
+          {
+            "token": " its",
+            "prob": 0.0015011798034510807
+          },
+          {
+            "token": " ihre",
+            "prob": 4.174905430050447e-7
+          },
+          {
+            "token": "st",
+            "prob": 2.532208144726353e-7
+          },
+          {
+            "token": " leur",
+            "prob": 1.740359509537601e-7
+          }
+        ]
+      },
+      {
+        "token": " direct",
+        "prob": 0.9995978304482779,
+        "top": [
+          {
+            "token": " direct",
+            "prob": 0.9995978304482779
+          },
+          {
+            "token": " causal",
+            "prob": 0.000123360147734511
+          },
+          {
+            "token": " correlation",
+            "prob": 0.00009607297965544135
+          },
+          {
+            "token": " quantitative",
+            "prob": 0.00006602992889868803
+          },
+          {
+            "token": " effect",
+            "prob": 0.00001891789136581141
+          }
+        ]
+      },
+      {
+        "token": " effect",
+        "prob": 0.5466479626567071,
+        "top": [
+          {
+            "token": " effect",
+            "prob": 0.5466479626567071
+          },
+          {
+            "token": " correlation",
+            "prob": 0.17747060985291502
+          },
+          {
+            "token": " impact",
+            "prob": 0.17747060985291502
+          },
+          {
+            "token": " causal",
+            "prob": 0.08383118018906702
+          },
+          {
+            "token": " quantitative",
+            "prob": 0.01001220429618669
+          }
+        ]
+      },
+      {
+        "token": " on",
+        "prob": 0.9999979734461775,
+        "top": [
+          {
+            "token": " on",
+            "prob": 0.9999979734461775
+          },
+          {
+            "token": "on",
+            "prob": 0.0000017603429545652396
+          },
+          {
+            "token": " On",
+            "prob": 1.6373740075447596e-7
+          },
+          {
+            "token": "On",
+            "prob": 7.734407154916583e-8
+          },
+          {
+            "token": " auf",
+            "prob": 3.889104154376441e-8
+          }
+        ]
+      },
+      {
+        "token": " college",
+        "prob": 0.9702376757308169,
+        "top": [
+          {
+            "token": " college",
+            "prob": 0.9702376757308169
+          },
+          {
+            "token": " student",
+            "prob": 0.015682429872737116
+          },
+          {
+            "token": " students",
+            "prob": 0.01077836591692349
+          },
+          {
+            "token": " collegiate",
+            "prob": 0.0014586932041946933
+          },
+          {
+            "token": " grades",
+            "prob": 0.0007807822082481947
+          }
+        ]
+      },
+      {
+        "token": " students",
+        "prob": 0.9737960128525744,
+        "top": [
+          {
+            "token": " students",
+            "prob": 0.9737960128525744
+          },
+          {
+            "token": " student",
+            "prob": 0.013890451312697656
+          },
+          {
+            "token": " grades",
+            "prob": 0.01225828025895781
+          },
+          {
+            "token": "学生的",
+            "prob": 0.00002088345886966323
+          },
+          {
+            "token": " öğrenc",
+            "prob": 0.0000162640541209332
+          }
+        ]
+      },
+      {
+        "token": "'",
+        "prob": 0.9999998807907247,
+        "top": [
+          {
+            "token": "'",
+            "prob": 0.9999998807907247
+          },
+          {
+            "token": " me",
+            "prob": 2.3588654076195056e-8
+          },
+          {
+            "token": "'.",
+            "prob": 6.34880011604368e-9
+          },
+          {
+            "token": "\"",
+            "prob": 4.944450501938644e-9
+          },
+          {
+            "token": "\\'",
+            "prob": 3.850741922767617e-9
+          }
+        ]
+      },
+      {
+        "token": " grades",
+        "prob": 0.9998450519346057,
+        "top": [
+          {
+            "token": " grades",
+            "prob": 0.9998450519346057
+          },
+          {
+            "token": " GPA",
+            "prob": 0.00009609680441568883
+          },
+          {
+            "token": " GP",
+            "prob": 0.00002429707718659054
+          },
+          {
+            "token": " grade",
+            "prob": 0.000020142984474360276
+          },
+          {
+            "token": " numerical",
+            "prob": 0.000006961229163640482
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9999785427891018,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9999785427891018
+          },
+          {
+            "token": " (",
+            "prob": 0.000018925109345290668
+          },
+          {
+            "token": "s",
+            "prob": 0.0000010029940503716094
+          },
+          {
+            "token": " across",
+            "prob": 7.811325518453695e-7
+          },
+          {
+            "token": "st",
+            "prob": 2.5359661029052323e-7
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.5928869317510581,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.5928869317510581
+          },
+          {
+            "token": "\n\n",
+            "prob": 0.31734950603931245
+          },
+          {
+            "token": " Academic",
+            "prob": 0.07081024610557689
+          },
+          {
+            "token": " Most",
+            "prob": 0.012304972768728146
+          },
+          {
+            "token": " Research",
+            "prob": 0.004526746505789526
+          }
+        ]
+      },
+      {
+        "token": "\n\n",
+        "prob": 1,
+        "top": [
+          {
+            "token": "\n\n",
+            "prob": 1
+          },
+          {
+            "token": "<turn|>",
+            "prob": 2.8453348089834e-8
+          },
+          {
+            "token": " Regardless",
+            "prob": 4.099093439508832e-9
+          },
+          {
+            "token": "1",
+            "prob": 2.1940866100643185e-9
+          },
+          {
+            "token": "🎓",
+            "prob": 1.936274637384096e-9
+          }
+        ]
+      },
+      {
+        "token": "Academic",
+        "prob": 0.8030413743996068,
+        "top": [
+          {
+            "token": "Academic",
+            "prob": 0.8030413743996068
+          },
+          {
+            "token": "Research",
+            "prob": 0.09590960498137922
+          },
+          {
+            "token": "Most",
+            "prob": 0.08463992932417924
+          },
+          {
+            "token": "While",
+            "prob": 0.014708217798741569
+          },
+          {
+            "token": "Educational",
+            "prob": 0.0010654597237476921
+          }
+        ]
+      },
+      {
+        "token": " research",
+        "prob": 0.9998609021111264,
+        "top": [
+          {
+            "token": " research",
+            "prob": 0.9998609021111264
+          },
+          {
+            "token": " studies",
+            "prob": 0.00009609827074774418
+          },
+          {
+            "token": " Research",
+            "prob": 0.00002429744793339473
+          },
+          {
+            "token": " a",
+            "prob": 0.000006143356914566396
+          },
+          {
+            "token": " study",
+            "prob": 0.000005093021765550445
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.7684564334466275,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.7684564334466275
+          },
+          {
+            "token": " on",
+            "prob": 0.1513180346121577
+          },
+          {
+            "token": " typically",
+            "prob": 0.04912577329265316
+          },
+          {
+            "token": " regarding",
+            "prob": 0.023205372180987185
+          },
+          {
+            "token": " into",
+            "prob": 0.004569408709894989
+          }
+        ]
+      },
+      {
+        "token": " this",
+        "prob": 0.9981006763923289,
+        "top": [
+          {
+            "token": " this",
+            "prob": 0.9981006763923289
+          },
+          {
+            "token": " educational",
+            "prob": 0.0007088255235846167
+          },
+          {
+            "token": " higher",
+            "prob": 0.0007088255235846167
+          },
+          {
+            "token": " education",
+            "prob": 0.00023012206488904523
+          },
+          {
+            "token": " student",
+            "prob": 0.00012317546518625011
+          }
+        ]
+      },
+      {
+        "token": " area",
+        "prob": 0.7310004959729139,
+        "top": [
+          {
+            "token": " area",
+            "prob": 0.7310004959729139
+          },
+          {
+            "token": " field",
+            "prob": 0.26892005395456275
+          },
+          {
+            "token": " domain",
+            "prob": 0.00006200217203271625
+          },
+          {
+            "token": "领域",
+            "prob": 0.000006534980853399605
+          },
+          {
+            "token": " área",
+            "prob": 0.00000508944820598425
+          }
+        ]
+      },
+      {
+        "token": " typically",
+        "prob": 0.9296472714550857,
+        "top": [
+          {
+            "token": " typically",
+            "prob": 0.9296472714550857
+          },
+          {
+            "token": " generally",
+            "prob": 0.06734341695253789
+          },
+          {
+            "token": " tends",
+            "prob": 0.0026111882675717377
+          },
+          {
+            "token": " usually",
+            "prob": 0.00027521708735333395
+          },
+          {
+            "token": " is",
+            "prob": 0.00008934990646843834
+          }
+        ]
+      },
+      {
+        "token": " focuses",
+        "prob": 0.9596885663590026,
+        "top": [
+          {
+            "token": " focuses",
+            "prob": 0.9596885663590026
+          },
+          {
+            "token": " falls",
+            "prob": 0.037211161707773166
+          },
+          {
+            "token": " examines",
+            "prob": 0.002378830548152206
+          },
+          {
+            "token": " looks",
+            "prob": 0.00036480547984158454
+          },
+          {
+            "token": " explores",
+            "prob": 0.00015207354911655032
+          }
+        ]
+      },
+      {
+        "token": " on",
+        "prob": 0.9959081444679642,
+        "top": [
+          {
+            "token": " on",
+            "prob": 0.9959081444679642
+          },
+          {
+            "token": " more",
+            "prob": 0.004070048664484211
+          },
+          {
+            "token": " broader",
+            "prob": 0.00001663336656657825
+          },
+          {
+            "token": " instead",
+            "prob": 0.0000014534073729390705
+          },
+          {
+            "token": "更",
+            "prob": 7.308191227695527e-7
+          }
+        ]
+      },
+      {
+        "token": " broader",
+        "prob": 0.9911014102056597,
+        "top": [
+          {
+            "token": " broader",
+            "prob": 0.9911014102056597
+          },
+          {
+            "token": " more",
+            "prob": 0.005200823437684234
+          },
+          {
+            "token": " the",
+            "prob": 0.0035744701896051815
+          },
+          {
+            "token": " \"",
+            "prob": 0.000039708758027758435
+          },
+          {
+            "token": " a",
+            "prob": 0.000039708758027758435
+          }
+        ]
+      },
+      {
+        "token": " categories",
+        "prob": 0.5047730076770554,
+        "top": [
+          {
+            "token": " categories",
+            "prob": 0.5047730076770554
+          },
+          {
+            "token": " themes",
+            "prob": 0.44546061578331153
+          },
+          {
+            "token": " concepts",
+            "prob": 0.03656563403357424
+          },
+          {
+            "token": " constructs",
+            "prob": 0.005607522931820055
+          },
+          {
+            "token": " topics",
+            "prob": 0.005607522931820055
+          }
+        ]
+      },
+      {
+        "token": " such",
+        "prob": 0.7751367372055773,
+        "top": [
+          {
+            "token": " such",
+            "prob": 0.7751367372055773
+          },
+          {
+            "token": ",",
+            "prob": 0.22208040005046606
+          },
+          {
+            "token": "—",
+            "prob": 0.0024670901012720185
+          },
+          {
+            "token": ":",
+            "prob": 0.0002600293835983221
+          },
+          {
+            "token": " of",
+            "prob": 0.00004518633140086893
+          }
+        ]
+      },
+      {
+        "token": " as",
+        "prob": 0.9999973774024795,
+        "top": [
+          {
+            "token": " as",
+            "prob": 0.9999973774024795
+          },
+          {
+            "token": " such",
+            "prob": 0.000001873873533863877
+          },
+          {
+            "token": " a",
+            "prob": 2.699570779818012e-7
+          },
+          {
+            "token": " than",
+            "prob": 1.7429738959772947e-7
+          },
+          {
+            "token": "-",
+            "prob": 1.1253496007565217e-7
+          }
+        ]
+      },
+      {
+        "token": " **",
+        "prob": 0.651162186655203,
+        "top": [
+          {
+            "token": " **",
+            "prob": 0.651162186655203
+          },
+          {
+            "token": " \"",
+            "prob": 0.3485419918392524
+          },
+          {
+            "token": " \"**",
+            "prob": 0.00011692286826992638
+          },
+          {
+            "token": ":",
+            "prob": 0.0000625843014966985
+          },
+          {
+            "token": " parental",
+            "prob": 0.00005523045222125689
+          }
+        ]
+      },
+      {
+        "token": "parent",
+        "prob": 0.9862774175362862,
+        "top": [
+          {
+            "token": "parent",
+            "prob": 0.9862774175362862
+          },
+          {
+            "token": "helicopter",
+            "prob": 0.005864618844313224
+          },
+          {
+            "token": "Parent",
+            "prob": 0.00403068965589198
+          },
+          {
+            "token": "famil",
+            "prob": 0.001482807858145055
+          },
+          {
+            "token": "\"",
+            "prob": 0.001019117943410101
+          }
+        ]
+      },
+      {
+        "token": "al",
+        "prob": 0.9999949932351057,
+        "top": [
+          {
+            "token": "al",
+            "prob": 0.9999949932351057
+          },
+          {
+            "token": "-",
+            "prob": 0.0000037266354020539563
+          },
+          {
+            "token": "ing",
+            "prob": 5.714980485251211e-7
+          },
+          {
+            "token": "s",
+            "prob": 2.699565630800286e-7
+          },
+          {
+            "token": "ally",
+            "prob": 1.1979249870549604e-7
+          }
+        ]
+      },
+      {
+        "token": " involvement",
+        "prob": 0.9999738938465109,
+        "top": [
+          {
+            "token": " involvement",
+            "prob": 0.9999738938465109
+          },
+          {
+            "token": " involved",
+            "prob": 0.000013006962730785783
+          },
+          {
+            "token": " involve",
+            "prob": 0.000009516097218969371
+          },
+          {
+            "token": " support",
+            "prob": 9.422212199716861e-7
+          },
+          {
+            "token": " Involvement",
+            "prob": 4.73778582836068e-7
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.9656619687297183,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.9656619687297183
+          },
+          {
+            "token": "**,",
+            "prob": 0.03304313549506985
+          },
+          {
+            "token": " during",
+            "prob": 0.0005340924144130235
+          },
+          {
+            "token": "**",
+            "prob": 0.00047133490141342135
+          },
+          {
+            "token": "/",
+            "prob": 0.00022264284256718386
+          }
+        ]
+      },
+      {
+        "token": " higher",
+        "prob": 0.9874849941847219,
+        "top": [
+          {
+            "token": " higher",
+            "prob": 0.9874849941847219
+          },
+          {
+            "token": " college",
+            "prob": 0.012430604451714788
+          },
+          {
+            "token": " emerging",
+            "prob": 0.000030812373149478604
+          },
+          {
+            "token": " adolescence",
+            "prob": 0.000028945545832903397
+          },
+          {
+            "token": " transition",
+            "prob": 0.000007318580108739058
+          }
+        ]
+      },
+      {
+        "token": " education",
+        "prob": 0.9999996423722521,
+        "top": [
+          {
+            "token": " education",
+            "prob": 0.9999996423722521
+          },
+          {
+            "token": "education",
+            "prob": 2.382369667501818e-7
+          },
+          {
+            "token": "Education",
+            "prob": 1.024644426015979e-7
+          },
+          {
+            "token": "-",
+            "prob": 5.3157852544244216e-8
+          },
+          {
+            "token": " a",
+            "prob": 1.8370862266141198e-8
+          }
+        ]
+      },
+      {
+        "token": "**,",
+        "prob": 0.9994954034270155,
+        "top": [
+          {
+            "token": "**,",
+            "prob": 0.9994954034270155
+          },
+          {
+            "token": "**",
+            "prob": 0.00048784906464459696
+          },
+          {
+            "token": " (",
+            "prob": 0.000010124984319002354
+          },
+          {
+            "token": ",",
+            "prob": 0.000006141113418584566
+          },
+          {
+            "token": " a",
+            "prob": 4.688793484375782e-8
+          }
+        ]
+      },
+      {
+        "token": " **",
+        "prob": 0.9999986886995842,
+        "top": [
+          {
+            "token": " **",
+            "prob": 0.9999986886995842
+          },
+          {
+            "token": "**",
+            "prob": 5.043471815847051e-7
+          },
+          {
+            "token": " the",
+            "prob": 3.6898828046256017e-7
+          },
+          {
+            "token": "**,",
+            "prob": 3.2563101459822534e-7
+          },
+          {
+            "token": "**.",
+            "prob": 4.691155074157667e-8
+          }
+        ]
+      },
+      {
+        "token": "student",
+        "prob": 0.8610930162255568,
+        "top": [
+          {
+            "token": "student",
+            "prob": 0.8610930162255568
+          },
+          {
+            "token": "helicopter",
+            "prob": 0.132052881114963
+          },
+          {
+            "token": "family",
+            "prob": 0.003519090082378828
+          },
+          {
+            "token": "the",
+            "prob": 0.002418632884718608
+          },
+          {
+            "token": "famil",
+            "prob": 0.00037090936584607576
+          }
+        ]
+      },
+      {
+        "token": " transition",
+        "prob": 0.6841328551761051,
+        "top": [
+          {
+            "token": " transition",
+            "prob": 0.6841328551761051
+          },
+          {
+            "token": " adjustment",
+            "prob": 0.08170801758246805
+          },
+          {
+            "token": " autonomy",
+            "prob": 0.07210707243285572
+          },
+          {
+            "token": " mental",
+            "prob": 0.038596134596732654
+          },
+          {
+            "token": " transitions",
+            "prob": 0.03005869984746473
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.8372139177162573,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.8372139177162573
+          },
+          {
+            "token": "/",
+            "prob": 0.14548595532151157
+          },
+          {
+            "token": " and",
+            "prob": 0.00930060595931885
+          },
+          {
+            "token": "**,",
+            "prob": 0.006392206762099271
+          },
+          {
+            "token": " (",
+            "prob": 0.0006737336359643688
+          }
+        ]
+      },
+      {
+        "token": " college",
+        "prob": 0.9997174346340454,
+        "top": [
+          {
+            "token": " college",
+            "prob": 0.9997174346340454
+          },
+          {
+            "token": " university",
+            "prob": 0.0002611848176595426
+          },
+          {
+            "token": " campus",
+            "prob": 0.00001078038490554003
+          },
+          {
+            "token": " adulthood",
+            "prob": 0.0000034998785586562804
+          },
+          {
+            "token": " collegiate",
+            "prob": 0.0000030886319874364054
+          }
+        ]
+      },
+      {
+        "token": "**,",
+        "prob": 0.9995686485046938,
+        "top": [
+          {
+            "token": "**,",
+            "prob": 0.9995686485046938
+          },
+          {
+            "token": " (",
+            "prob": 0.00043055669906306076
+          },
+          {
+            "token": "**",
+            "prob": 4.179387021325784e-7
+          },
+          {
+            "token": "/",
+            "prob": 8.229700996959268e-8
+          },
+          {
+            "token": "\\\",",
+            "prob": 5.313494321628905e-8
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.592640388775055,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.592640388775055
+          },
+          {
+            "token": " or",
+            "prob": 0.4073153853836089
+          },
+          {
+            "token": " **",
+            "prob": 0.00003914774993246657
+          },
+          {
+            "token": "-",
+            "prob": 0.000001720032090288536
+          },
+          {
+            "token": "**",
+            "prob": 0.0000010432521984496058
+          }
+        ]
+      },
+      {
+        "token": " **",
+        "prob": 0.999735901989869,
+        "top": [
+          {
+            "token": " **",
+            "prob": 0.999735901989869
+          },
+          {
+            "token": " the",
+            "prob": 0.00026118955032221623
+          },
+          {
+            "token": "**",
+            "prob": 0.0000013705969709897418
+          },
+          {
+            "token": "-",
+            "prob": 4.449676883857002e-7
+          },
+          {
+            "token": " a",
+            "prob": 3.2554531519923734e-7
+          }
+        ]
+      },
+      {
+        "token": "family",
+        "prob": 0.6540220055491973,
+        "top": [
+          {
+            "token": "family",
+            "prob": 0.6540220055491973
+          },
+          {
+            "token": "academic",
+            "prob": 0.11365199316893249
+          },
+          {
+            "token": "famil",
+            "prob": 0.07811179641823211
+          },
+          {
+            "token": "emotional",
+            "prob": 0.053685400225353994
+          },
+          {
+            "token": "helicopter",
+            "prob": 0.03689740000248824
+          }
+        ]
+      },
+      {
+        "token": " support",
+        "prob": 0.9966804676816216,
+        "top": [
+          {
+            "token": " support",
+            "prob": 0.9966804676816216
+          },
+          {
+            "token": " influence",
+            "prob": 0.0013223762313342665
+          },
+          {
+            "token": " dynamics",
+            "prob": 0.0011669929282039804
+          },
+          {
+            "token": " cohesion",
+            "prob": 0.00029506187957759023
+          },
+          {
+            "token": " supportive",
+            "prob": 0.00015793524316419922
+          }
+        ]
+      },
+      {
+        "token": " systems",
+        "prob": 0.9999187058723578,
+        "top": [
+          {
+            "token": " systems",
+            "prob": 0.9999187058723578
+          },
+          {
+            "token": "**.",
+            "prob": 0.00004006204973875029
+          },
+          {
+            "token": " structures",
+            "prob": 0.000027534217271833745
+          },
+          {
+            "token": "**,",
+            "prob": 0.0000030892535608112885
+          },
+          {
+            "token": " mechanisms",
+            "prob": 0.000002726256698714394
+          }
+        ]
+      },
+      {
+        "token": "**.",
+        "prob": 0.9315421676135861,
+        "top": [
+          {
+            "token": "**.",
+            "prob": 0.9315421676135861
+          },
+          {
+            "token": "**,",
+            "prob": 0.06748069030016939
+          },
+          {
+            "token": "**",
+            "prob": 0.0009625603507823534
+          },
+          {
+            "token": ".**",
+            "prob": 0.000012116840834814102
+          },
+          {
+            "token": "].",
+            "prob": 6.032619830454152e-7
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.2883754141135383,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.2883754141135383
+          },
+          {
+            "token": " While",
+            "prob": 0.2544904097367475
+          },
+          {
+            "token": "\n\n",
+            "prob": 0.22458699833016427
+          },
+          {
+            "token": " These",
+            "prob": 0.10608738619167171
+          },
+          {
+            "token": " Because",
+            "prob": 0.02682309184468432
+          }
+        ]
+      },
+      {
+        "token": "\n\n",
+        "prob": 0.9999998807907247,
+        "top": [
+          {
+            "token": "\n\n",
+            "prob": 0.9999998807907247
+          },
+          {
+            "token": "1",
+            "prob": 6.82560337633487e-8
+          },
+          {
+            "token": "<turn|>",
+            "prob": 7.194133030325383e-9
+          },
+          {
+            "token": "💡",
+            "prob": 1.8189616875530459e-9
+          },
+          {
+            "token": "2",
+            "prob": 1.4166087866431964e-9
+          }
+        ]
+      },
+      {
+        "token": "If",
+        "prob": 0.8233237733263146,
+        "top": [
+          {
+            "token": "If",
+            "prob": 0.8233237733263146
+          },
+          {
+            "token": "While",
+            "prob": 0.12626078431680135
+          },
+          {
+            "token": "Because",
+            "prob": 0.046448746776332886
+          },
+          {
+            "token": "Since",
+            "prob": 0.0018010137904236568
+          },
+          {
+            "token": "To",
+            "prob": 0.0012378174691128703
+          }
+        ]
+      },
+      {
+        "token": " you",
+        "prob": 0.9999998807907247,
+        "top": [
+          {
+            "token": " you",
+            "prob": 0.9999998807907247
+          },
+          {
+            "token": " motherhood",
+            "prob": 8.764248219443636e-8
+          },
+          {
+            "token": " l",
+            "prob": 4.406940761911853e-8
+          },
+          {
+            "token": " the",
+            "prob": 2.510999155743982e-8
+          },
+          {
+            "token": " your",
+            "prob": 7.194133030325383e-9
+          }
+        ]
+      },
+      {
+        "token": " are",
+        "prob": 0.9989817983896577,
+        "top": [
+          {
+            "token": " are",
+            "prob": 0.9989817983896577
+          },
+          {
+            "token": " would",
+            "prob": 0.0007094514273020545
+          },
+          {
+            "token": " wish",
+            "prob": 0.00029574335484893485
+          },
+          {
+            "token": "'",
+            "prob": 0.000007881293449949586
+          },
+          {
+            "token": " have",
+            "prob": 0.0000015519186960054148
+          }
+        ]
+      },
+      {
+        "token": " looking",
+        "prob": 0.6488747555390411,
+        "top": [
+          {
+            "token": " looking",
+            "prob": 0.6488747555390411
+          },
+          {
+            "token": " conducting",
+            "prob": 0.1859057189425738
+          },
+          {
+            "token": " interested",
+            "prob": 0.12777100749515874
+          },
+          {
+            "token": " researching",
+            "prob": 0.03660700654702228
+          },
+          {
+            "token": " searching",
+            "prob": 0.0005916971522117474
+          }
+        ]
+      },
+      {
+        "token": " for",
+        "prob": 0.9994395537713286,
+        "top": [
+          {
+            "token": " for",
+            "prob": 0.9994395537713286
+          },
+          {
+            "token": " to",
+            "prob": 0.0005527743092240515
+          },
+          {
+            "token": " into",
+            "prob": 0.000005419208640297305
+          },
+          {
+            "token": " For",
+            "prob": 0.000001458560218537665
+          },
+          {
+            "token": "'",
+            "prob": 2.1012552210235136e-7
+          }
+        ]
+      },
+      {
+        "token": " research",
+        "prob": 0.7313420418605217,
+        "top": [
+          {
+            "token": " research",
+            "prob": 0.7313420418605217
+          },
+          {
+            "token": " general",
+            "prob": 0.11215492789686773
+          },
+          {
+            "token": " data",
+            "prob": 0.052978236663560475
+          },
+          {
+            "token": " related",
+            "prob": 0.019489604098039043
+          },
+          {
+            "token": " the",
+            "prob": 0.019489604098039043
+          }
+        ]
+      },
+      {
+        "token": " on",
+        "prob": 0.9231154883186028,
+        "top": [
+          {
+            "token": " on",
+            "prob": 0.9231154883186028
+          },
+          {
+            "token": " regarding",
+            "prob": 0.07577393754025089
+          },
+          {
+            "token": " related",
+            "prob": 0.0008417724098236357
+          },
+          {
+            "token": "-",
+            "prob": 0.00010053537751026639
+          },
+          {
+            "token": " and",
+            "prob": 0.000025419324213773353
+          }
+        ]
+      },
+      {
+        "token": " how",
+        "prob": 0.887819896666403,
+        "top": [
+          {
+            "token": " how",
+            "prob": 0.887819896666403
+          },
+          {
+            "token": " the",
+            "prob": 0.09357552935642542
+          },
+          {
+            "token": " related",
+            "prob": 0.0076811453671248
+          },
+          {
+            "token": " these",
+            "prob": 0.005982082026802087
+          },
+          {
+            "token": " family",
+            "prob": 0.0028257354652144843
+          }
+        ]
+      },
+      {
+        "token": " parental",
+        "prob": 0.5808911379696676,
+        "top": [
+          {
+            "token": " parental",
+            "prob": 0.5808911379696676
+          },
+          {
+            "token": " family",
+            "prob": 0.39924025127123997
+          },
+          {
+            "token": " familial",
+            "prob": 0.01754139241989697
+          },
+          {
+            "token": " parent",
+            "prob": 0.0014398851726485115
+          },
+          {
+            "token": " general",
+            "prob": 0.00032128180916841194
+          }
+        ]
+      },
+      {
+        "token": " support",
+        "prob": 0.8760534686326537,
+        "top": [
+          {
+            "token": " support",
+            "prob": 0.8760534686326537
+          },
+          {
+            "token": " involvement",
+            "prob": 0.06346110798191582
+          },
+          {
+            "token": " presence",
+            "prob": 0.026454525644377336
+          },
+          {
+            "token": " influence",
+            "prob": 0.023346036940507745
+          },
+          {
+            "token": " engagement",
+            "prob": 0.006688751571130666
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.7083352258057929,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.7083352258057929
+          },
+          {
+            "token": " generally",
+            "prob": 0.13947948007637212
+          },
+          {
+            "token": " affects",
+            "prob": 0.05814369083707627
+          },
+          {
+            "token": " influences",
+            "prob": 0.0399615353416594
+          },
+          {
+            "token": " impacts",
+            "prob": 0.02746513480434904
+          }
+        ]
+      },
+      {
+        "token": " visits",
+        "prob": 0.4380569158644494,
+        "top": [
+          {
+            "token": " visits",
+            "prob": 0.4380569158644494
+          },
+          {
+            "token": " involvement",
+            "prob": 0.265694950170946
+          },
+          {
+            "token": " visitation",
+            "prob": 0.1826092906813928
+          },
+          {
+            "token": " presence",
+            "prob": 0.04617085374207981
+          },
+          {
+            "token": " interaction",
+            "prob": 0.02180956701925582
+          }
+        ]
+      },
+      {
+        "token": " generally",
+        "prob": 0.8678495750750947,
+        "top": [
+          {
+            "token": " generally",
+            "prob": 0.8678495750750947
+          },
+          {
+            "token": " influence",
+            "prob": 0.09147066270812433
+          },
+          {
+            "token": " correlate",
+            "prob": 0.018011641425894565
+          },
+          {
+            "token": " impact",
+            "prob": 0.015895217768816337
+          },
+          {
+            "token": " affect",
+            "prob": 0.004018940435895947
+          }
+        ]
+      },
+      {
+        "token": " influence",
+        "prob": 0.36202375376845264,
+        "top": [
+          {
+            "token": " influence",
+            "prob": 0.36202375376845264
+          },
+          {
+            "token": " correlate",
+            "prob": 0.2819443829253203
+          },
+          {
+            "token": " impact",
+            "prob": 0.2819443829253203
+          },
+          {
+            "token": " affect",
+            "prob": 0.05551813413795987
+          },
+          {
+            "token": " relate",
+            "prob": 0.0180240992310205
+          }
+        ]
+      },
+      {
+        "token": " academic",
+        "prob": 0.9980384515678595,
+        "top": [
+          {
+            "token": " academic",
+            "prob": 0.9980384515678595
+          },
+          {
+            "token": " student",
+            "prob": 0.001700277823953562
+          },
+          {
+            "token": " undergraduate",
+            "prob": 0.0002301075808856868
+          },
+          {
+            "token": " collegiate",
+            "prob": 0.000011456381861519471
+          },
+          {
+            "token": " college",
+            "prob": 0.000008922239164916404
+          }
+        ]
+      },
+      {
+        "token": " performance",
+        "prob": 0.9689163051312027,
+        "top": [
+          {
+            "token": " performance",
+            "prob": 0.9689163051312027
+          },
+          {
+            "token": " success",
+            "prob": 0.020109215019601747
+          },
+          {
+            "token": " achievement",
+            "prob": 0.00838276798722058
+          },
+          {
+            "token": " outcomes",
+            "prob": 0.002401703239304737
+          },
+          {
+            "token": " outcome",
+            "prob": 0.00010552347580845481
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9996734732154302,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9996734732154302
+          },
+          {
+            "token": " and",
+            "prob": 0.00020340201727701835
+          },
+          {
+            "token": " in",
+            "prob": 0.00005142808383419138
+          },
+          {
+            "token": " (",
+            "prob": 0.00004005223196193011
+          },
+          {
+            "token": " during",
+            "prob": 0.000021438414895316667
+          }
+        ]
+      },
+      {
+        "token": " I",
+        "prob": 0.9939956962280752,
+        "top": [
+          {
+            "token": " I",
+            "prob": 0.9939956962280752
+          },
+          {
+            "token": " you",
+            "prob": 0.005910514158417196
+          },
+          {
+            "token": " it",
+            "prob": 0.00007440239295207574
+          },
+          {
+            "token": " the",
+            "prob": 0.000008886098636413266
+          },
+          {
+            "token": " these",
+            "prob": 0.000006107320323085915
+          }
+        ]
+      },
+      {
+        "token": " recommend",
+        "prob": 0.8509190939224885,
+        "top": [
+          {
+            "token": " recommend",
+            "prob": 0.8509190939224885
+          },
+          {
+            "token": " can",
+            "prob": 0.14786756650819052
+          },
+          {
+            "token": " suggest",
+            "prob": 0.0006043010915574494
+          },
+          {
+            "token": " would",
+            "prob": 0.0006043010915574494
+          },
+          {
+            "token": " recommends",
+            "prob": 0.0000026289185651871225
+          }
+        ]
+      },
+      {
+        "token": " searching",
+        "prob": 0.9999860527077029,
+        "top": [
+          {
+            "token": " searching",
+            "prob": 0.9999860527077029
+          },
+          {
+            "token": " Searching",
+            "prob": 0.000005422170805303821
+          },
+          {
+            "token": " exploring",
+            "prob": 0.000003966944903978474
+          },
+          {
+            "token": " using",
+            "prob": 0.000002260297072940795
+          },
+          {
+            "token": "searching",
+            "prob": 6.475859537265848e-7
+          }
+        ]
+      },
+      {
+        "token": " databases",
+        "prob": 0.6956820641683347,
+        "top": [
+          {
+            "token": " databases",
+            "prob": 0.6956820641683347
+          },
+          {
+            "token": " academic",
+            "prob": 0.22585488516719904
+          },
+          {
+            "token": " for",
+            "prob": 0.057105057876202035
+          },
+          {
+            "token": " scholarly",
+            "prob": 0.01636087300651066
+          },
+          {
+            "token": " database",
+            "prob": 0.0036506042141108467
+          }
+        ]
+      },
+      {
+        "token": " like",
+        "prob": 0.9316289629845049,
+        "top": [
+          {
+            "token": " like",
+            "prob": 0.9316289629845049
+          },
+          {
+            "token": " (",
+            "prob": 0.04638307867498111
+          },
+          {
+            "token": " such",
+            "prob": 0.021909814979216097
+          },
+          {
+            "token": " for",
+            "prob": 0.00006973412174501664
+          },
+          {
+            "token": " likes",
+            "prob": 0.000004187859522367946
+          }
+        ]
+      },
+      {
+        "token": " ERIC",
+        "prob": 0.9523263942897799,
+        "top": [
+          {
+            "token": " ERIC",
+            "prob": 0.9523263942897799
+          },
+          {
+            "token": " Ps",
+            "prob": 0.028757765700086653
+          },
+          {
+            "token": " JSTOR",
+            "prob": 0.01744246244332729
+          },
+          {
+            "token": " PubMed",
+            "prob": 0.000676317663874578
+          },
+          {
+            "token": " Google",
+            "prob": 0.000676317663874578
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9324497575458977,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9324497575458977
+          },
+          {
+            "token": " or",
+            "prob": 0.06754642834741009
+          },
+          {
+            "token": " (",
+            "prob": 0.0000027062690300199717
+          },
+          {
+            "token": "-",
+            "prob": 2.0868505960182815e-7
+          },
+          {
+            "token": " не",
+            "prob": 1.7300599093912787e-7
+          }
+        ]
+      },
+      {
+        "token": " Ps",
+        "prob": 0.9819092698585917,
+        "top": [
+          {
+            "token": " Ps",
+            "prob": 0.9819092698585917
+          },
+          {
+            "token": " JSTOR",
+            "prob": 0.017984298857571916
+          },
+          {
+            "token": " Google",
+            "prob": 0.00006486150928680869
+          },
+          {
+            "token": " PubMed",
+            "prob": 0.000022415537807706634
+          },
+          {
+            "token": "Ps",
+            "prob": 0.000015405958813570463
+          }
+        ]
+      },
+      {
+        "token": "yc",
+        "prob": 0.9999963045256735,
+        "top": [
+          {
+            "token": "yc",
+            "prob": 0.9999963045256735
+          },
+          {
+            "token": "YC",
+            "prob": 0.000002902309337197794
+          },
+          {
+            "token": "yk",
+            "prob": 7.338187197174319e-7
+          },
+          {
+            "token": "uc",
+            "prob": 4.993699057631083e-8
+          },
+          {
+            "token": "ych",
+            "prob": 4.012549919016365e-8
+          }
+        ]
+      },
+      {
+        "token": "INFO",
+        "prob": 0.999586395708182,
+        "top": [
+          {
+            "token": "INFO",
+            "prob": 0.999586395708182
+          },
+          {
+            "token": "Info",
+            "prob": 0.00040447772350904313
+          },
+          {
+            "token": " INFO",
+            "prob": 0.000008394667336091587
+          },
+          {
+            "token": "info",
+            "prob": 2.3813838214664816e-7
+          },
+          {
+            "token": "INET",
+            "prob": 2.2371030694582868e-7
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9999998807907247,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9999998807907247
+          },
+          {
+            "token": " or",
+            "prob": 9.329493666178467e-8
+          },
+          {
+            "token": "-",
+            "prob": 4.139937718785167e-8
+          },
+          {
+            "token": "任务",
+            "prob": 1.936274637384096e-9
+          },
+          {
+            "token": "传递",
+            "prob": 1.174409933197416e-9
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.9999996423722521,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.9999996423722521
+          },
+          {
+            "token": " and",
+            "prob": 1.3574333187024555e-7
+          },
+          {
+            "token": " یا",
+            "prob": 1.2751905914873347e-7
+          },
+          {
+            "token": " или",
+            "prob": 7.734421907141565e-8
+          },
+          {
+            "token": "或",
+            "prob": 2.3588654076195056e-8
+          }
+        ]
+      },
+      {
+        "token": " Google",
+        "prob": 0.9833146364149836,
+        "top": [
+          {
+            "token": " Google",
+            "prob": 0.9833146364149836
+          },
+          {
+            "token": " JSTOR",
+            "prob": 0.015893800478508264
+          },
+          {
+            "token": " PubMed",
+            "prob": 0.0007913057310486797
+          },
+          {
+            "token": " google",
+            "prob": 2.654536265900311e-7
+          },
+          {
+            "token": "Google",
+            "prob": 2.046956619687573e-8
+          }
+        ]
+      },
+      {
+        "token": " Scholar",
+        "prob": 0.9999998807907247,
+        "top": [
+          {
+            "token": " Scholar",
+            "prob": 0.9999998807907247
+          },
+          {
+            "token": " scholar",
+            "prob": 1.1253517471925912e-7
+          },
+          {
+            "token": "Scholar",
+            "prob": 1.0467401794744656e-8
+          },
+          {
+            "token": " Scalar",
+            "prob": 5.263340161707315e-9
+          },
+          {
+            "token": " Scheduler",
+            "prob": 3.9729775927959076e-9
+          }
+        ]
+      },
+      {
+        "token": " using",
+        "prob": 0.9399006887073132,
+        "top": [
+          {
+            "token": " using",
+            "prob": 0.9399006887073132
+          },
+          {
+            "token": " for",
+            "prob": 0.06008584659553745
+          },
+          {
+            "token": " Using",
+            "prob": 0.00001078902438557562
+          },
+          {
+            "token": " menggunakan",
+            "prob": 8.856170518431854e-7
+          },
+          {
+            "token": " with",
+            "prob": 7.342023235350819e-7
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9027933743412655,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9027933743412655
+          },
+          {
+            "token": " these",
+            "prob": 0.09515372443096022
+          },
+          {
+            "token": " keywords",
+            "prob": 0.0013572949825956737
+          },
+          {
+            "token": " terms",
+            "prob": 0.0005658047277443385
+          },
+          {
+            "token": " These",
+            "prob": 0.00005262803774411816
+          }
+        ]
+      },
+      {
+        "token": " following",
+        "prob": 0.9999995231630692,
+        "top": [
+          {
+            "token": " following",
+            "prob": 0.9999995231630692
+          },
+          {
+            "token": " follow",
+            "prob": 4.450852500419419e-7
+          },
+          {
+            "token": " FOLLOWING",
+            "prob": 5.6586239481320604e-8
+          },
+          {
+            "token": " Following",
+            "prob": 5.3157852544244216e-8
+          },
+          {
+            "token": " keywords",
+            "prob": 1.571343119795212e-8
+          }
+        ]
+      },
+      {
+        "token": " keywords",
+        "prob": 0.48087860467285487,
+        "top": [
+          {
+            "token": " keywords",
+            "prob": 0.48087860467285487
+          },
+          {
+            "token": " search",
+            "prob": 0.3745086338815039
+          },
+          {
+            "token": " terms",
+            "prob": 0.12158513754255637
+          },
+          {
+            "token": " broader",
+            "prob": 0.0186456847366748
+          },
+          {
+            "token": " refined",
+            "prob": 0.0010519175512476975
+          }
+        ]
+      },
+      {
+        "token": ":",
+        "prob": 0.9999413524701386,
+        "top": [
+          {
+            "token": ":",
+            "prob": 0.9999413524701386
+          },
+          {
+            "token": " instead",
+            "prob": 0.00004006296669679357
+          },
+          {
+            "token": " and",
+            "prob": 0.000008939256175076759
+          },
+          {
+            "token": "/",
+            "prob": 0.000003726436383566076
+          },
+          {
+            "token": " combined",
+            "prob": 0.000002902151573587034
+          }
+        ]
+      },
+      {
+        "token": "\n",
+        "prob": 0.9470738339545907,
+        "top": [
+          {
+            "token": "\n",
+            "prob": 0.9470738339545907
+          },
+          {
+            "token": "\n\n",
+            "prob": 0.028599150308150162
+          },
+          {
+            "token": " ",
+            "prob": 0.015308025698087077
+          },
+          {
+            "token": " *\"",
+            "prob": 0.007230999328276258
+          },
+          {
+            "token": " \"",
+            "prob": 0.0011089096622435056
+          }
+        ]
+      },
+      {
+        "token": "*",
+        "prob": 0.999651434359985,
+        "top": [
+          {
+            "token": "*",
+            "prob": 0.999651434359985
+          },
+          {
+            "token": "-",
+            "prob": 0.00026116738227384726
+          },
+          {
+            "token": "1",
+            "prob": 0.00008478863504872585
+          },
+          {
+            "token": "*\"",
+            "prob": 0.0000014588690513239818
+          },
+          {
+            "token": " *",
+            "prob": 8.312385289759003e-7
+          }
+        ]
+      },
+      {
+        "token": "   ",
+        "prob": 0.609279345249499,
+        "top": [
+          {
+            "token": "   ",
+            "prob": 0.609279345249499
+          },
+          {
+            "token": " \"",
+            "prob": 0.3695466142368072
+          },
+          {
+            "token": " *\"",
+            "prob": 0.020848393341932305
+          },
+          {
+            "token": " *",
+            "prob": 0.00026244247834328755
+          },
+          {
+            "token": "  ",
+            "prob": 0.00004560566439062111
+          }
+        ]
+      },
+      {
+        "token": "\"",
+        "prob": 0.9769387890979464,
+        "top": [
+          {
+            "token": "\"",
+            "prob": 0.9769387890979464
+          },
+          {
+            "token": "*\"",
+            "prob": 0.017893260143900348
+          },
+          {
+            "token": "*",
+            "prob": 0.005126504862694705
+          },
+          {
+            "token": "\"*",
+            "prob": 0.000030483297657021355
+          },
+          {
+            "token": "**",
+            "prob": 0.0000060025172073921584
+          }
+        ]
+      },
+      {
+        "token": "Parent",
+        "prob": 0.9999007085246283,
+        "top": [
+          {
+            "token": "Parent",
+            "prob": 0.9999007085246283
+          },
+          {
+            "token": " Parental",
+            "prob": 0.00003535399419210463
+          },
+          {
+            "token": "parent",
+            "prob": 0.00001670004436215032
+          },
+          {
+            "token": "College",
+            "prob": 0.00001473773742262299
+          },
+          {
+            "token": "Family",
+            "prob": 0.000011477761445439533
+          }
+        ]
+      },
+      {
+        "token": "al",
+        "prob": 0.9999982118638471,
+        "top": [
+          {
+            "token": "al",
+            "prob": 0.9999982118638471
+          },
+          {
+            "token": "ally",
+            "prob": 6.08358246461776e-7
+          },
+          {
+            "token": "s",
+            "prob": 5.714996835964924e-7
+          },
+          {
+            "token": " involvement",
+            "prob": 1.3574307296063404e-7
+          },
+          {
+            "token": "ive",
+            "prob": 9.931175369924415e-8
+          }
+        ]
+      },
+      {
+        "token": " involvement",
+        "prob": 0.999199078719327,
+        "top": [
+          {
+            "token": " involvement",
+            "prob": 0.999199078719327
+          },
+          {
+            "token": " support",
+            "prob": 0.0007096057055923381
+          },
+          {
+            "token": " Involvement",
+            "prob": 0.000027514399107213062
+          },
+          {
+            "token": " academic",
+            "prob": 0.000021428235570436695
+          },
+          {
+            "token": " psychological",
+            "prob": 0.000008391417619138937
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.4418948627022012,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.4418948627022012
+          },
+          {
+            "token": " in",
+            "prob": 0.34414806510770524
+          },
+          {
+            "token": " higher",
+            "prob": 0.162564035147417
+          },
+          {
+            "token": " AND",
+            "prob": 0.03201075648883136
+          },
+          {
+            "token": " +",
+            "prob": 0.006303291684769308
+          }
+        ]
+      },
+      {
+        "token": " college",
+        "prob": 0.5909073476860355,
+        "top": [
+          {
+            "token": " college",
+            "prob": 0.5909073476860355
+          },
+          {
+            "token": " academic",
+            "prob": 0.19183951697192303
+          },
+          {
+            "token": " undergraduate",
+            "prob": 0.1026842939007846
+          },
+          {
+            "token": " collegiate",
+            "prob": 0.06228117252176882
+          },
+          {
+            "token": " GPA",
+            "prob": 0.04850462593055882
+          }
+        ]
+      },
+      {
+        "token": " GPA",
+        "prob": 0.9964584811279417,
+        "top": [
+          {
+            "token": " GPA",
+            "prob": 0.9964584811279417
+          },
+          {
+            "token": " academic",
+            "prob": 0.003171509350969968
+          },
+          {
+            "token": " CG",
+            "prob": 0.00020274780960458333
+          },
+          {
+            "token": " persistence",
+            "prob": 0.00008451786139716028
+          },
+          {
+            "token": " GP",
+            "prob": 0.00006582257663962889
+          }
+        ]
+      },
+      {
+        "token": "\"",
+        "prob": 1,
+        "top": [
+          {
+            "token": "\"",
+            "prob": 1
+          },
+          {
+            "token": ".\"",
+            "prob": 2.1940866100643185e-9
+          },
+          {
+            "token": "/",
+            "prob": 1.7629981198155879e-9
+          },
+          {
+            "token": "”",
+            "prob": 1.8581863473258776e-10
+          },
+          {
+            "token": " university",
+            "prob": 1.493094676197164e-10
+          }
+        ]
+      },
+      {
+        "token": "\n",
+        "prob": 0.999985933501902,
+        "top": [
+          {
+            "token": "\n",
+            "prob": 0.999985933501902
+          },
+          {
+            "token": " ",
+            "prob": 0.000013845998208240408
+          },
+          {
+            "token": "-",
+            "prob": 8.764131204886782e-8
+          },
+          {
+            "token": "'",
+            "prob": 4.9936514342328183e-8
+          },
+          {
+            "token": " (",
+            "prob": 1.9555419993082388e-8
+          }
+        ]
+      },
+      {
+        "token": "*",
+        "prob": 0.9999986886995842,
+        "top": [
+          {
+            "token": "*",
+            "prob": 0.9999986886995842
+          },
+          {
+            "token": "    ",
+            "prob": 0.0000010677029917933763
+          },
+          {
+            "token": " *",
+            "prob": 1.1979295567848492e-7
+          },
+          {
+            "token": "  ",
+            "prob": 2.5109943663977424e-8
+          },
+          {
+            "token": ")",
+            "prob": 1.7257795071296986e-8
+          }
+        ]
+      },
+      {
+        "token": "   ",
+        "prob": 0.9999933243243502,
+        "top": [
+          {
+            "token": "   ",
+            "prob": 0.9999933243243502
+          },
+          {
+            "token": "    ",
+            "prob": 0.000006540436342263698
+          },
+          {
+            "token": "  ",
+            "prob": 1.27518207870014e-7
+          },
+          {
+            "token": "     ",
+            "prob": 5.6585915693187436e-8
+          },
+          {
+            "token": " \"",
+            "prob": 2.510984787732669e-8
+          }
+        ]
+      },
+      {
+        "token": "\"",
+        "prob": 0.9999997615814777,
+        "top": [
+          {
+            "token": "\"",
+            "prob": 0.9999997615814777
+          },
+          {
+            "token": "\"*",
+            "prob": 1.7429788826727445e-7
+          },
+          {
+            "token": "\"...",
+            "prob": 4.691164021834418e-8
+          },
+          {
+            "token": "\"(",
+            "prob": 6.34880011604368e-9
+          },
+          {
+            "token": "“",
+            "prob": 4.944450501938644e-9
+          }
+        ]
+      },
+      {
+        "token": "Family",
+        "prob": 0.9959802736388094,
+        "top": [
+          {
+            "token": "Family",
+            "prob": 0.9959802736388094
+          },
+          {
+            "token": "Parent",
+            "prob": 0.0016967716827457088
+          },
+          {
+            "token": "Famil",
+            "prob": 0.0006242074184440192
+          },
+          {
+            "token": "College",
+            "prob": 0.0005508611133471734
+          },
+          {
+            "token": "Psych",
+            "prob": 0.00020265057517253804
+          }
+        ]
+      },
+      {
+        "token": " support",
+        "prob": 0.9990962573830688,
+        "top": [
+          {
+            "token": " support",
+            "prob": 0.9990962573830688
+          },
+          {
+            "token": " influence",
+            "prob": 0.0006261603413923798
+          },
+          {
+            "token": " transition",
+            "prob": 0.00010881035175603081
+          },
+          {
+            "token": " Support",
+            "prob": 0.000035325549171725345
+          },
+          {
+            "token": " academic",
+            "prob": 0.000027511565357367117
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.8500521568046645,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.8500521568046645
+          },
+          {
+            "token": " systems",
+            "prob": 0.14771691322534913
+          },
+          {
+            "token": " system",
+            "prob": 0.0008783569779733584
+          },
+          {
+            "token": " during",
+            "prob": 0.0005327504373133761
+          },
+          {
+            "token": " higher",
+            "prob": 0.00015263555581964625
+          }
+        ]
+      },
+      {
+        "token": " academic",
+        "prob": 0.9298055465129647,
+        "top": [
+          {
+            "token": " academic",
+            "prob": 0.9298055465129647
+          },
+          {
+            "token": " undergraduate",
+            "prob": 0.059440474612314886
+          },
+          {
+            "token": " student",
+            "prob": 0.01032920813662286
+          },
+          {
+            "token": " college",
+            "prob": 0.0001669560998163425
+          },
+          {
+            "token": " adolescent",
+            "prob": 0.00007886447732933048
+          }
+        ]
+      },
+      {
+        "token": " achievement",
+        "prob": 0.9119023538775481,
+        "top": [
+          {
+            "token": " achievement",
+            "prob": 0.9119023538775481
+          },
+          {
+            "token": " persistence",
+            "prob": 0.08482012407241146
+          },
+          {
+            "token": " success",
+            "prob": 0.0013709899432814158
+          },
+          {
+            "token": " adjustment",
+            "prob": 0.0007338380355259801
+          },
+          {
+            "token": " attainment",
+            "prob": 0.0004450952678097956
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.9995735318946571,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.9995735318946571
+          },
+          {
+            "token": " higher",
+            "prob": 0.00033531965320391397
+          },
+          {
+            "token": "\"",
+            "prob": 0.00007481992792030528
+          },
+          {
+            "token": " transition",
+            "prob": 0.000011474007565558354
+          },
+          {
+            "token": " high",
+            "prob": 8.311743202582103e-7
+          }
+        ]
+      },
+      {
+        "token": " higher",
+        "prob": 0.994900968245737,
+        "top": [
+          {
+            "token": " higher",
+            "prob": 0.994900968245737
+          },
+          {
+            "token": " undergraduates",
+            "prob": 0.002176336824768188
+          },
+          {
+            "token": " undergraduate",
+            "prob": 0.0016949328233565996
+          },
+          {
+            "token": " university",
+            "prob": 0.0007065531199638286
+          },
+          {
+            "token": " first",
+            "prob": 0.0003781906323163884
+          }
+        ]
+      },
+      {
+        "token": " education",
+        "prob": 0.9999995231630692,
+        "top": [
+          {
+            "token": " education",
+            "prob": 0.9999995231630692
+          },
+          {
+            "token": "education",
+            "prob": 2.382369667501818e-7
+          },
+          {
+            "token": " ed",
+            "prob": 1.4449802461092448e-7
+          },
+          {
+            "token": "Education",
+            "prob": 9.329493666178467e-8
+          },
+          {
+            "token": " educação",
+            "prob": 4.406940761911853e-8
+          }
+        ]
+      },
+      {
+        "token": "\"",
+        "prob": 1,
+        "top": [
+          {
+            "token": "\"",
+            "prob": 1
+          },
+          {
+            "token": ".\"",
+            "prob": 2.8172629737368306e-9
+          },
+          {
+            "token": "]",
+            "prob": 2.5398396012961594e-10
+          },
+          {
+            "token": "-",
+            "prob": 1.8874485244233235e-10
+          },
+          {
+            "token": " \"",
+            "prob": 1.1095737470879944e-10
+          }
+        ]
+      },
+      {
+        "token": "\n",
+        "prob": 0.9999831917733143,
+        "top": [
+          {
+            "token": "\n",
+            "prob": 0.9999831917733143
+          },
+          {
+            "token": " ",
+            "prob": 0.000016701414089010932
+          },
+          {
+            "token": "-",
+            "prob": 1.3574100170151952e-7
+          },
+          {
+            "token": " /",
+            "prob": 3.0287911448368335e-8
+          },
+          {
+            "token": "'",
+            "prob": 2.5109560519566853e-8
+          }
+        ]
+      },
+      {
+        "token": "*",
+        "prob": 0.9999995231630692,
+        "top": [
+          {
+            "token": "*",
+            "prob": 0.9999995231630692
+          },
+          {
+            "token": "    ",
+            "prob": 2.382369667501818e-7
+          },
+          {
+            "token": " *",
+            "prob": 6.023573837886479e-8
+          },
+          {
+            "token": "  ",
+            "prob": 3.2241867372567335e-8
+          },
+          {
+            "token": "H",
+            "prob": 1.8370862266141198e-8
+          }
+        ]
+      },
+      {
+        "token": "   ",
+        "prob": 0.9999996423722521,
+        "top": [
+          {
+            "token": "   ",
+            "prob": 0.9999996423722521
+          },
+          {
+            "token": "    ",
+            "prob": 3.927863545481039e-7
+          },
+          {
+            "token": "  ",
+            "prob": 4.406940761911853e-8
+          },
+          {
+            "token": " \"",
+            "prob": 2.215948977336598e-8
+          },
+          {
+            "token": "�",
+            "prob": 7.123156315552983e-10
+          }
+        ]
+      },
+      {
+        "token": "\"",
+        "prob": 0.9999996423722521,
+        "top": [
+          {
+            "token": "\"",
+            "prob": 0.9999996423722521
+          },
+          {
+            "token": "\"*",
+            "prob": 1.197930699220045e-7
+          },
+          {
+            "token": "=\"",
+            "prob": 3.1249889399070745e-8
+          },
+          {
+            "token": ")\"",
+            "prob": 2.6729446876368918e-8
+          },
+          {
+            "token": "\"...",
+            "prob": 2.215948977336598e-8
+          }
+        ]
+      },
+      {
+        "token": "Parent",
+        "prob": 0.3164539501417807,
+        "top": [
+          {
+            "token": "Parent",
+            "prob": 0.3164539501417807
+          },
+          {
+            "token": "Student",
+            "prob": 0.2174954071634987
+          },
+          {
+            "token": "Impact",
+            "prob": 0.16938559341336684
+          },
+          {
+            "token": "Psych",
+            "prob": 0.10273755571882529
+          },
+          {
+            "token": "The",
+            "prob": 0.0906655747009756
+          }
+        ]
+      },
+      {
+        "token": "al",
+        "prob": 0.6790392698507941,
+        "top": [
+          {
+            "token": "al",
+            "prob": 0.6790392698507941
+          },
+          {
+            "token": "-",
+            "prob": 0.3207554199566818
+          },
+          {
+            "token": "s",
+            "prob": 0.0001774048094182452
+          },
+          {
+            "token": "es",
+            "prob": 0.000004172161221532022
+          },
+          {
+            "token": "ly",
+            "prob": 0.0000032492824264292877
+          }
+        ]
+      },
+      {
+        "token": " expectations",
+        "prob": 0.3599759608394548,
+        "top": [
+          {
+            "token": " expectations",
+            "prob": 0.3599759608394548
+          },
+          {
+            "token": " visitation",
+            "prob": 0.19268124703142267
+          },
+          {
+            "token": " influence",
+            "prob": 0.13242775530877166
+          },
+          {
+            "token": " visits",
+            "prob": 0.11686708387622169
+          },
+          {
+            "token": " psychological",
+            "prob": 0.03794118713339058
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.998256509757715,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.998256509757715
+          },
+          {
+            "token": " vs",
+            "prob": 0.0017006491905894735
+          },
+          {
+            "token": " versus",
+            "prob": 0.000010112429734353346
+          },
+          {
+            "token": " undergraduate",
+            "prob": 0.000006950164538948094
+          },
+          {
+            "token": " student",
+            "prob": 0.000003720154999559386
+          }
+        ]
+      },
+      {
+        "token": " undergraduate",
+        "prob": 0.529233188514958,
+        "top": [
+          {
+            "token": " undergraduate",
+            "prob": 0.529233188514958
+          },
+          {
+            "token": " college",
+            "prob": 0.28327812938886826
+          },
+          {
+            "token": " student",
+            "prob": 0.171816870700391
+          },
+          {
+            "token": " collegiate",
+            "prob": 0.01098388244434346
+          },
+          {
+            "token": " university",
+            "prob": 0.0035659445367301657
+          }
+        ]
+      },
+      {
+        "token": " performance",
+        "prob": 0.9384760961869831,
+        "top": [
+          {
+            "token": " performance",
+            "prob": 0.9384760961869831
+          },
+          {
+            "token": " success",
+            "prob": 0.04672397878427864
+          },
+          {
+            "token": " student",
+            "prob": 0.005580382144970691
+          },
+          {
+            "token": " persistence",
+            "prob": 0.005580382144970691
+          },
+          {
+            "token": " academic",
+            "prob": 0.0033846728638376733
+          }
+        ]
+      },
+      {
+        "token": "\"",
+        "prob": 1,
+        "top": [
+          {
+            "token": "\"",
+            "prob": 1
+          },
+          {
+            "token": ".\"",
+            "prob": 3.6534822137210456e-8
+          },
+          {
+            "token": ")\"",
+            "prob": 1.2501528663867426e-9
+          },
+          {
+            "token": " perspekt",
+            "prob": 4.058652126475693e-10
+          },
+          {
+            "token": " balance",
+            "prob": 3.471549131547318e-10
+          }
+        ]
+      },
+      {
+        "token": "",
+        "prob": 0.9952582724294654,
+        "top": [
+          {
+            "token": "<turn|>",
+            "prob": 0.9952582724294654
+          },
+          {
+            "token": "\n\n",
+            "prob": 0.002466998343760243
+          },
+          {
+            "token": "\n",
+            "prob": 0.0021771183970497416
+          },
+          {
+            "token": " ",
+            "prob": 0.00009565590650147365
+          },
+          {
+            "token": " phosphorus",
+            "prob": 2.8600598127595067e-7
+          }
+        ]
+      }
+    ],
+    "provider": "CoreWeave"
+  },
+  "savedAt": "2026-10-13T16:42:22.096Z"
+}

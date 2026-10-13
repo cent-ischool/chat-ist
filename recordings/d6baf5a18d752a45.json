@@ -1,0 +1,427 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-4-31b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My mom is a zookeeper, my dad is a firefighter.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's a lovely day to go to the **zoo**?"
+      },
+      {
+        "role": "user",
+        "content": "My mom is a zookeeper, my dad is a firefighter.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      },
+      {
+        "role": "assistant",
+        "content": "It's a lovely day to go to the **fire station**?"
+      },
+      {
+        "role": "user",
+        "content": "My mom is a zookeeper, my dad is a firefighter.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 0.7,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "It's a lovely day to go to the **park**?",
+    "tokens": [
+      {
+        "token": "It",
+        "prob": 0.8511670558776454,
+        "top": [
+          {
+            "token": "It",
+            "prob": 0.8511670558776454
+          },
+          {
+            "token": "Since",
+            "prob": 0.14791065363092332
+          },
+          {
+            "token": "Depending",
+            "prob": 0.0008795091055186147
+          },
+          {
+            "token": "Given",
+            "prob": 0.000018253620434922198
+          },
+          {
+            "token": "Because",
+            "prob": 0.000009178496766974542
+          }
+        ]
+      },
+      {
+        "token": "'",
+        "prob": 0.9999986886995842,
+        "top": [
+          {
+            "token": "'",
+            "prob": 0.9999986886995842
+          },
+          {
+            "token": " sounds",
+            "prob": 3.059020287707785e-7
+          },
+          {
+            "token": " depends",
+            "prob": 3.059020287707785e-7
+          },
+          {
+            "token": "’",
+            "prob": 2.8736836176841304e-7
+          },
+          {
+            "token": " me",
+            "prob": 1.0571681151826062e-7
+          }
+        ]
+      },
+      {
+        "token": "s",
+        "prob": 0.9999992847447459,
+        "top": [
+          {
+            "token": "s",
+            "prob": 0.9999992847447459
+          },
+          {
+            "token": "t",
+            "prob": 5.36874780167758e-7
+          },
+          {
+            "token": "ts",
+            "prob": 1.4307241918567688e-8
+          },
+          {
+            "token": "ll",
+            "prob": 4.792325752702175e-9
+          },
+          {
+            "token": "ve",
+            "prob": 2.061153622438558e-9
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 1,
+        "top": [
+          {
+            "token": " a",
+            "prob": 1
+          },
+          {
+            "token": " lovely",
+            "prob": 2.335593038799337e-9
+          },
+          {
+            "token": " its",
+            "prob": 6.903999835404016e-10
+          },
+          {
+            "token": " such",
+            "prob": 4.187487574823511e-10
+          },
+          {
+            "token": " any",
+            "prob": 2.5398396012961594e-10
+          }
+        ]
+      },
+      {
+        "token": " lovely",
+        "prob": 1,
+        "top": [
+          {
+            "token": " lovely",
+            "prob": 1
+          },
+          {
+            "token": " love",
+            "prob": 4.004735832632875e-8
+          },
+          {
+            "token": "Lovely",
+            "prob": 3.61743726377138e-9
+          },
+          {
+            "token": " loved",
+            "prob": 2.861628410059298e-9
+          },
+          {
+            "token": ".\\",
+            "prob": 2.7735853597511714e-9
+          }
+        ]
+      },
+      {
+        "token": " day",
+        "prob": 1,
+        "top": [
+          {
+            "token": " day",
+            "prob": 1
+          },
+          {
+            "token": " день",
+            "prob": 2.3588654076195056e-8
+          },
+          {
+            "token": " día",
+            "prob": 3.1275752519564184e-9
+          },
+          {
+            "token": " dzień",
+            "prob": 6.796963239041179e-10
+          },
+          {
+            "token": " दिन",
+            "prob": 4.895668966831769e-10
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 1,
+        "top": [
+          {
+            "token": " to",
+            "prob": 1
+          },
+          {
+            "token": " To",
+            "prob": 5.263340161707315e-9
+          },
+          {
+            "token": " go",
+            "prob": 4.745045067647817e-10
+          },
+          {
+            "token": " for",
+            "prob": 4.745045067647817e-10
+          },
+          {
+            "token": " {",
+            "prob": 2.9693733281871395e-10
+          }
+        ]
+      },
+      {
+        "token": " go",
+        "prob": 1,
+        "top": [
+          {
+            "token": " go",
+            "prob": 1
+          },
+          {
+            "token": " го",
+            "prob": 3.5061404196803905e-9
+          },
+          {
+            "token": " the",
+            "prob": 2.906692500344293e-9
+          },
+          {
+            "token": "ご",
+            "prob": 1.2116897062778954e-9
+          },
+          {
+            "token": "고",
+            "prob": 1.2116897062778954e-9
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 1,
+        "top": [
+          {
+            "token": " to",
+            "prob": 1
+          },
+          {
+            "token": " back",
+            "prob": 3.2241867372567335e-8
+          },
+          {
+            "token": " {",
+            "prob": 6.758262544305561e-9
+          },
+          {
+            "token": " To",
+            "prob": 4.099093439508832e-9
+          },
+          {
+            "token": "...",
+            "prob": 3.61743726377138e-9
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9999991655356624,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9999991655356624
+          },
+          {
+            "token": " any",
+            "prob": 7.33820819192633e-7
+          },
+          {
+            "token": " THE",
+            "prob": 1.0571701315726883e-7
+          },
+          {
+            "token": " be",
+            "prob": 1.7257827987960214e-8
+          },
+          {
+            "token": " **",
+            "prob": 7.194133030325383e-9
+          }
+        ]
+      },
+      {
+        "token": " **",
+        "prob": 0.9999998807907247,
+        "top": [
+          {
+            "token": " **",
+            "prob": 0.9999998807907247
+          },
+          {
+            "token": "**",
+            "prob": 6.412060973312742e-8
+          },
+          {
+            "token": " __",
+            "prob": 5.6586239481320604e-8
+          },
+          {
+            "token": "...",
+            "prob": 3.028843137928935e-8
+          },
+          {
+            "token": " \\",
+            "prob": 9.237449661970594e-9
+          }
+        ]
+      },
+      {
+        "token": "park",
+        "prob": 0.9970549311723842,
+        "top": [
+          {
+            "token": "park",
+            "prob": 0.9970549311723842
+          },
+          {
+            "token": "beach",
+            "prob": 0.002181049190696025
+          },
+          {
+            "token": "zoo",
+            "prob": 0.0006248810553224467
+          },
+          {
+            "token": "circ",
+            "prob": 0.000045266210238248485
+          },
+          {
+            "token": "fire",
+            "prob": 0.000042523669201871725
+          }
+        ]
+      },
+      {
+        "token": "**",
+        "prob": 0.9999827149515604,
+        "top": [
+          {
+            "token": "**",
+            "prob": 0.9999827149515604
+          },
+          {
+            "token": "**.",
+            "prob": 0.00001473894620233487
+          },
+          {
+            "token": "?",
+            "prob": 0.0000015534735005851304
+          },
+          {
+            "token": "**,",
+            "prob": 0.0000010029978764975686
+          },
+          {
+            "token": " with",
+            "prob": 9.237291091998765e-9
+          }
+        ]
+      },
+      {
+        "token": "?",
+        "prob": 0.9999032114269176,
+        "top": [
+          {
+            "token": "?",
+            "prob": 0.9999032114269176
+          },
+          {
+            "token": "!",
+            "prob": 0.00009610239492660868
+          },
+          {
+            "token": " ?",
+            "prob": 6.083008117852828e-7
+          },
+          {
+            "token": " (",
+            "prob": 6.022987924562694e-8
+          },
+          {
+            "token": ".",
+            "prob": 2.3353658555494595e-9
+          }
+        ]
+      },
+      {
+        "token": "",
+        "prob": 0.9997227960667769,
+        "top": [
+          {
+            "token": "<turn|>",
+            "prob": 0.9997227960667769
+          },
+          {
+            "token": " (",
+            "prob": 0.0002611860630887741
+          },
+          {
+            "token": "\n\n",
+            "prob": 0.000006960372818152226
+          },
+          {
+            "token": " ",
+            "prob": 0.000003287847313902829
+          },
+          {
+            "token": "_",
+            "prob": 0.0000021227937733412645
+          }
+        ]
+      }
+    ],
+    "provider": "CoreWeave"
+  },
+  "savedAt": "2026-10-13T14:11:31.899Z"
+}

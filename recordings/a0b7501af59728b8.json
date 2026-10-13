@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "google/gemma-4-31b-it",
+    "prompt": "Happy birthday to",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "Since",
+    "tokens": [
+      {
+        "token": "Since",
+        "prob": 0.941449516998861,
+        "top": [
+          {
+            "token": "Since",
+            "prob": 0.941449516998861
+          },
+          {
+            "token": "Depending",
+            "prob": 0.0468720165314587
+          },
+          {
+            "token": "It",
+            "prob": 0.007188054827370764
+          },
+          {
+            "token": "Who",
+            "prob": 0.0018174248771747807
+          },
+          {
+            "token": "...",
+            "prob": 0.0018174248771747807
+          }
+        ]
+      }
+    ],
+    "provider": "CoreWeave"
+  },
+  "savedAt": "2026-10-13T16:07:10.937Z"
+}

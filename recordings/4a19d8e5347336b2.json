@@ -1,0 +1,177 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "meta-llama/llama-3.1-8b-instruct",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Who is the 40th US president?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "The 40th US president is Ronald Reagan.",
+    "tokens": [
+      {
+        "token": " president",
+        "prob": 0.7772884460461984,
+        "top": [
+          {
+            "token": " president",
+            "prob": 0.7772884460461984
+          },
+          {
+            "token": " President",
+            "prob": 0.22269685506247158
+          },
+          {
+            "token": " presidents",
+            "prob": 0.000004214651763725148
+          },
+          {
+            "token": " presidency",
+            "prob": 0.0000015504837355714412
+          },
+          {
+            "token": " presidential",
+            "prob": 0.0000015504837355714412
+          }
+        ]
+      },
+      {
+        "token": " is",
+        "prob": 0.5421864653592133,
+        "top": [
+          {
+            "token": " is",
+            "prob": 0.5421864653592133
+          },
+          {
+            "token": " was",
+            "prob": 0.4222552437924725
+          },
+          {
+            "token": " of",
+            "prob": 0.03466081697374754
+          },
+          {
+            "token": ",",
+            "prob": 0.0004944100007905466
+          },
+          {
+            "token": " ",
+            "prob": 0.00018188327480039867
+          }
+        ]
+      },
+      {
+        "token": " Ronald",
+        "prob": 0.9839296103317574,
+        "top": [
+          {
+            "token": " Ronald",
+            "prob": 0.9839296103317574
+          },
+          {
+            "token": " Richard",
+            "prob": 0.0075123945239911364
+          },
+          {
+            "token": " ",
+            "prob": 0.004556497606657919
+          },
+          {
+            "token": " none",
+            "prob": 0.0006166548941639973
+          },
+          {
+            "token": " Ronnie",
+            "prob": 0.0005112248631304068
+          }
+        ]
+      },
+      {
+        "token": " Reagan",
+        "prob": 0.9846851937856852,
+        "top": [
+          {
+            "token": " Reagan",
+            "prob": 0.9846851937856852
+          },
+          {
+            "token": " Wilson",
+            "prob": 0.014045779616939631
+          },
+          {
+            "token": " W",
+            "prob": 0.0010174728628077484
+          },
+          {
+            "token": " Reg",
+            "prob": 0.00015603451714149672
+          },
+          {
+            "token": " Re",
+            "prob": 0.00003072501816000965
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9238666992806174,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9238666992806174
+          },
+          {
+            "token": ",",
+            "prob": 0.05212099724948971
+          },
+          {
+            "token": " (",
+            "prob": 0.00905727122861363
+          },
+          {
+            "token": "<|eot_id|>",
+            "prob": 0.00905727122861363
+          },
+          {
+            "token": " who",
+            "prob": 0.0022900367965366297
+          }
+        ]
+      },
+      {
+        "token": "<|eot_id|>",
+        "prob": 0.6159422353078243,
+        "top": [
+          {
+            "token": "<|eot_id|>",
+            "prob": 0.6159422353078243
+          },
+          {
+            "token": " He",
+            "prob": 0.3735878503261288
+          },
+          {
+            "token": " ",
+            "prob": 0.0053289451178718285
+          },
+          {
+            "token": " Ronald",
+            "prob": 0.002517215435075176
+          },
+          {
+            "token": " His",
+            "prob": 0.0009260318075635847
+          }
+        ]
+      }
+    ],
+    "provider": "CoreWeave"
+  },
+  "savedAt": "2026-10-13T14:45:19.082Z"
+}

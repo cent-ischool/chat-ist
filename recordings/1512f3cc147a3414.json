@@ -1,0 +1,6157 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tell me about the Great Pumpkin Riot at Syracuse University in 1987."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "The Great Pumpkin Riot at Syracuse University in 1987 was a chaotic and destructive event that occurred on Halloween night. The riot was sparked by a tradition at the university where students would gather in the streets near the campus and throw pumpkins at each other. However, in 1987, the event quickly escalated into a full-blown riot.\n\nThe riot began when a group of students started throwing pumpkins at passing cars and police officers. The situation quickly spiraled out of control as more students joined in, setting fires, smashing windows, and causing widespread destruction. Police were called in to try and disperse the crowd, but they were met with resistance and violence.\n\nThe Great Pumpkin Riot resulted in numerous injuries, arrests, and thousands of dollars in property damage. The university was forced to take action to prevent future incidents, including increasing security measures and cracking down on student behavior.\n\nThe Great Pumpkin Riot at Syracuse University in 1987 serves as a cautionary tale of the dangers of mob mentality and the consequences of unchecked behavior. It remains a notorious event in the history of the university and serves as a reminder of the importance of responsible and respectful behavior, especially in large gatherings.",
+    "tokens": [
+      {
+        "token": "The",
+        "prob": 0.9954425172865489,
+        "top": [
+          {
+            "token": "The",
+            "prob": 0.9954425172865489
+          },
+          {
+            "token": "In",
+            "prob": 0.002166331705850108
+          },
+          {
+            "token": "On",
+            "prob": 0.0021057329029983106
+          },
+          {
+            "token": " The",
+            "prob": 0.00013109320489532078
+          },
+          {
+            "token": "\n",
+            "prob": 0.00007601377379151325
+          }
+        ]
+      },
+      {
+        "token": " Great",
+        "prob": 0.9998299666273127,
+        "top": [
+          {
+            "token": " Great",
+            "prob": 0.9998299666273127
+          },
+          {
+            "token": " \"",
+            "prob": 0.00014461073669403305
+          },
+          {
+            "token": " ",
+            "prob": 0.00001271112453856139
+          },
+          {
+            "token": " great",
+            "prob": 0.0000031161415629577617
+          },
+          {
+            "token": " Syracuse",
+            "prob": 0.0000025015425409161316
+          }
+        ]
+      },
+      {
+        "token": " Pumpkin",
+        "prob": 0.9999967070975216,
+        "top": [
+          {
+            "token": " Pumpkin",
+            "prob": 0.9999967070975216
+          },
+          {
+            "token": " Pump",
+            "prob": 0.000002709387400776806
+          },
+          {
+            "token": " Halloween",
+            "prob": 1.4688321818695833e-7
+          },
+          {
+            "token": " Syracuse",
+            "prob": 1.3495425065219166e-7
+          },
+          {
+            "token": " pumpkin",
+            "prob": 1.0422685659517472e-7
+          }
+        ]
+      },
+      {
+        "token": " Riot",
+        "prob": 0.9996498178880735,
+        "top": [
+          {
+            "token": " Riot",
+            "prob": 0.9996498178880735
+          },
+          {
+            "token": " Ri",
+            "prob": 0.00029679467149979963
+          },
+          {
+            "token": " riot",
+            "prob": 0.00005184355146855298
+          },
+          {
+            "token": " RI",
+            "prob": 8.14948431451572e-7
+          },
+          {
+            "token": " ",
+            "prob": 1.9331671164887676e-7
+          }
+        ]
+      },
+      {
+        "token": " at",
+        "prob": 0.9902846835988139,
+        "top": [
+          {
+            "token": " at",
+            "prob": 0.9902846835988139
+          },
+          {
+            "token": " of",
+            "prob": 0.004268053971517193
+          },
+          {
+            "token": " occurred",
+            "prob": 0.0018926297781947448
+          },
+          {
+            "token": " was",
+            "prob": 0.0014877201968563547
+          },
+          {
+            "token": ",",
+            "prob": 0.0012786966014080787
+          }
+        ]
+      },
+      {
+        "token": " Syracuse",
+        "prob": 0.999999091165773,
+        "top": [
+          {
+            "token": " Syracuse",
+            "prob": 0.999999091165773
+          },
+          {
+            "token": " Sy",
+            "prob": 5.869319219964685e-7
+          },
+          {
+            "token": " ",
+            "prob": 1.1790247939269385e-7
+          },
+          {
+            "token": " the",
+            "prob": 8.123034115725692e-8
+          },
+          {
+            "token": " S",
+            "prob": 4.022114437992881e-8
+          }
+        ]
+      },
+      {
+        "token": " University",
+        "prob": 0.9999974223173222,
+        "top": [
+          {
+            "token": " University",
+            "prob": 0.9999974223173222
+          },
+          {
+            "token": " Un",
+            "prob": 0.0000011360195821565727
+          },
+          {
+            "token": " Univers",
+            "prob": 2.736300022126362e-7
+          },
+          {
+            "token": "University",
+            "prob": 2.702944274618246e-7
+          },
+          {
+            "token": " was",
+            "prob": 2.3264131269845973e-7
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.9749333639368966,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.9749333639368966
+          },
+          {
+            "token": " occurred",
+            "prob": 0.014384563881873688
+          },
+          {
+            "token": " took",
+            "prob": 0.009890166483208165
+          },
+          {
+            "token": " was",
+            "prob": 0.0005424149277791941
+          },
+          {
+            "token": ",",
+            "prob": 0.00015241644708949276
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9999801379802525,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9999801379802525
+          },
+          {
+            "token": " October",
+            "prob": 0.00001820828222655785
+          },
+          {
+            "token": " November",
+            "prob": 4.768880832010717e-7
+          },
+          {
+            "token": "198",
+            "prob": 2.0401159632243003e-7
+          },
+          {
+            "token": " the",
+            "prob": 1.7267130858836486e-7
+          }
+        ]
+      },
+      {
+        "token": "198",
+        "prob": 0.9999978991308068,
+        "top": [
+          {
+            "token": "198",
+            "prob": 0.9999978991308068
+          },
+          {
+            "token": " ",
+            "prob": 8.772932692153523e-7
+          },
+          {
+            "token": "199",
+            "prob": 4.462743230070487e-7
+          },
+          {
+            "token": "197",
+            "prob": 1.9630799657371413e-7
+          },
+          {
+            "token": "189",
+            "prob": 7.061212252741683e-8
+          }
+        ]
+      },
+      {
+        "token": "7",
+        "prob": 0.999995276659155,
+        "top": [
+          {
+            "token": "7",
+            "prob": 0.999995276659155
+          },
+          {
+            "token": "6",
+            "prob": 0.0000014094429536043134
+          },
+          {
+            "token": "9",
+            "prob": 0.0000011058757532591172
+          },
+          {
+            "token": "8",
+            "prob": 6.403502785999086e-7
+          },
+          {
+            "token": "3",
+            "prob": 4.201769100290417e-7
+          }
+        ]
+      },
+      {
+        "token": " was",
+        "prob": 0.995797255055247,
+        "top": [
+          {
+            "token": " was",
+            "prob": 0.995797255055247
+          },
+          {
+            "token": " is",
+            "prob": 0.002307509210606001
+          },
+          {
+            "token": " occurred",
+            "prob": 0.0008684293697500226
+          },
+          {
+            "token": " started",
+            "prob": 0.0002895637725684247
+          },
+          {
+            "token": " refers",
+            "prob": 0.00017118888849733944
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.9928559012688274,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.9928559012688274
+          },
+          {
+            "token": " an",
+            "prob": 0.0065881546002144725
+          },
+          {
+            "token": " the",
+            "prob": 0.0002577032058867855
+          },
+          {
+            "token": " sparked",
+            "prob": 0.00023711625729344357
+          },
+          {
+            "token": " one",
+            "prob": 0.00003338559628327356
+          }
+        ]
+      },
+      {
+        "token": " chaotic",
+        "prob": 0.7566398714367143,
+        "top": [
+          {
+            "token": " chaotic",
+            "prob": 0.7566398714367143
+          },
+          {
+            "token": " large",
+            "prob": 0.14834414507413232
+          },
+          {
+            "token": " massive",
+            "prob": 0.020391103014563
+          },
+          {
+            "token": " wild",
+            "prob": 0.015573392965769652
+          },
+          {
+            "token": " notorious",
+            "prob": 0.01305182902319675
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.7592437020901002,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.7592437020901002
+          },
+          {
+            "token": " event",
+            "prob": 0.2341169036802556
+          },
+          {
+            "token": " incident",
+            "prob": 0.002569944437393404
+          },
+          {
+            "token": " Halloween",
+            "prob": 0.0017900632939607598
+          },
+          {
+            "token": " disturbance",
+            "prob": 0.0006671777872266166
+          }
+        ]
+      },
+      {
+        "token": " destructive",
+        "prob": 0.9978329384756344,
+        "top": [
+          {
+            "token": " destructive",
+            "prob": 0.9978329384756344
+          },
+          {
+            "token": " violent",
+            "prob": 0.0012220322835068355
+          },
+          {
+            "token": " wild",
+            "prob": 0.0001838178934411774
+          },
+          {
+            "token": " infamous",
+            "prob": 0.0001811752070775139
+          },
+          {
+            "token": " unr",
+            "prob": 0.00017611224685341138
+          }
+        ]
+      },
+      {
+        "token": " event",
+        "prob": 0.9956085151928441,
+        "top": [
+          {
+            "token": " event",
+            "prob": 0.9956085151928441
+          },
+          {
+            "token": " incident",
+            "prob": 0.0020406252969098933
+          },
+          {
+            "token": " Halloween",
+            "prob": 0.0010835072995509353
+          },
+          {
+            "token": " student",
+            "prob": 0.00035894492266726235
+          },
+          {
+            "token": " night",
+            "prob": 0.00016297251353443752
+          }
+        ]
+      },
+      {
+        "token": " that",
+        "prob": 0.9995701384169756,
+        "top": [
+          {
+            "token": " that",
+            "prob": 0.9995701384169756
+          },
+          {
+            "token": " sparked",
+            "prob": 0.00010342643199283077
+          },
+          {
+            "token": " in",
+            "prob": 0.00009041684223590543
+          },
+          {
+            "token": " fueled",
+            "prob": 0.000057861461470423344
+          },
+          {
+            "token": " which",
+            "prob": 0.00005343700897935202
+          }
+        ]
+      },
+      {
+        "token": " occurred",
+        "prob": 0.7777119247842428,
+        "top": [
+          {
+            "token": " occurred",
+            "prob": 0.7777119247842428
+          },
+          {
+            "token": " took",
+            "prob": 0.2082240948813608
+          },
+          {
+            "token": " unfolded",
+            "prob": 0.004701014229667152
+          },
+          {
+            "token": " began",
+            "prob": 0.0019692067151414363
+          },
+          {
+            "token": " resulted",
+            "prob": 0.001920672296125695
+          }
+        ]
+      },
+      {
+        "token": " on",
+        "prob": 0.9673823408480933,
+        "top": [
+          {
+            "token": " on",
+            "prob": 0.9673823408480933
+          },
+          {
+            "token": " in",
+            "prob": 0.010647284455968855
+          },
+          {
+            "token": " during",
+            "prob": 0.01047481996954406
+          },
+          {
+            "token": " following",
+            "prob": 0.005258456691194382
+          },
+          {
+            "token": " after",
+            "prob": 0.004974183711123533
+          }
+        ]
+      },
+      {
+        "token": " Halloween",
+        "prob": 0.5203795915318954,
+        "top": [
+          {
+            "token": " Halloween",
+            "prob": 0.5203795915318954
+          },
+          {
+            "token": " the",
+            "prob": 0.28979288523522917
+          },
+          {
+            "token": " October",
+            "prob": 0.18169881960432227
+          },
+          {
+            "token": " campus",
+            "prob": 0.005829570220195236
+          },
+          {
+            "token": " November",
+            "prob": 0.002063078488107331
+          }
+        ]
+      },
+      {
+        "token": " night",
+        "prob": 0.9993615114206382,
+        "top": [
+          {
+            "token": " night",
+            "prob": 0.9993615114206382
+          },
+          {
+            "token": ".",
+            "prob": 0.0005068231154305004
+          },
+          {
+            "token": " evening",
+            "prob": 0.00006890598628822765
+          },
+          {
+            "token": " weekend",
+            "prob": 0.00001715813762166995
+          },
+          {
+            "token": ",",
+            "prob": 0.0000153490956649821
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9897112401654005,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9897112401654005
+          },
+          {
+            "token": " on",
+            "prob": 0.004088110484111011
+          },
+          {
+            "token": ",",
+            "prob": 0.003279304243405056
+          },
+          {
+            "token": " in",
+            "prob": 0.001986428452941135
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.0002482483255690768
+          }
+        ]
+      },
+      {
+        "token": " The",
+        "prob": 0.6927592380484471,
+        "top": [
+          {
+            "token": " The",
+            "prob": 0.6927592380484471
+          },
+          {
+            "token": " It",
+            "prob": 0.24940829162443837
+          },
+          {
+            "token": " Students",
+            "prob": 0.01641234144540064
+          },
+          {
+            "token": " Thousands",
+            "prob": 0.016067414532677154
+          },
+          {
+            "token": " What",
+            "prob": 0.009567575972608442
+          }
+        ]
+      },
+      {
+        "token": " riot",
+        "prob": 0.8529382548362078,
+        "top": [
+          {
+            "token": " riot",
+            "prob": 0.8529382548362078
+          },
+          {
+            "token": " tradition",
+            "prob": 0.08512800620095416
+          },
+          {
+            "token": " incident",
+            "prob": 0.04256942527235784
+          },
+          {
+            "token": " origins",
+            "prob": 0.004502360788968169
+          },
+          {
+            "token": " chaos",
+            "prob": 0.0030254361986319193
+          }
+        ]
+      },
+      {
+        "token": " was",
+        "prob": 0.5655445537824082,
+        "top": [
+          {
+            "token": " was",
+            "prob": 0.5655445537824082
+          },
+          {
+            "token": " began",
+            "prob": 0.3056988536532403
+          },
+          {
+            "token": " started",
+            "prob": 0.11848353182563678
+          },
+          {
+            "token": " broke",
+            "prob": 0.0030997649281353694
+          },
+          {
+            "token": " reportedly",
+            "prob": 0.0021798504618839375
+          }
+        ]
+      },
+      {
+        "token": " sparked",
+        "prob": 0.9828872011620808,
+        "top": [
+          {
+            "token": " sparked",
+            "prob": 0.9828872011620808
+          },
+          {
+            "token": " triggered",
+            "prob": 0.007881791919596549
+          },
+          {
+            "token": " fueled",
+            "prob": 0.0032203613668269513
+          },
+          {
+            "token": " reportedly",
+            "prob": 0.0016097530449190236
+          },
+          {
+            "token": " the",
+            "prob": 0.0008190290538124029
+          }
+        ]
+      },
+      {
+        "token": " by",
+        "prob": 0.8399283990533912,
+        "top": [
+          {
+            "token": " by",
+            "prob": 0.8399283990533912
+          },
+          {
+            "token": " when",
+            "prob": 0.15310535496801017
+          },
+          {
+            "token": " after",
+            "prob": 0.006877633185215606
+          },
+          {
+            "token": " during",
+            "prob": 0.000043597619836734805
+          },
+          {
+            "token": " in",
+            "prob": 0.000014333429810447805
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.92704813425653,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.92704813425653
+          },
+          {
+            "token": " the",
+            "prob": 0.031478462410580534
+          },
+          {
+            "token": " an",
+            "prob": 0.025574922434836854
+          },
+          {
+            "token": " students",
+            "prob": 0.008368337836866756
+          },
+          {
+            "token": " thousands",
+            "prob": 0.00449846073324667
+          }
+        ]
+      },
+      {
+        "token": " tradition",
+        "prob": 0.7115374482637313,
+        "top": [
+          {
+            "token": " tradition",
+            "prob": 0.7115374482637313
+          },
+          {
+            "token": " large",
+            "prob": 0.13239265670109812
+          },
+          {
+            "token": " combination",
+            "prob": 0.08455515801488189
+          },
+          {
+            "token": " group",
+            "prob": 0.018574303234695666
+          },
+          {
+            "token": " traditional",
+            "prob": 0.015742896993095248
+          }
+        ]
+      },
+      {
+        "token": " at",
+        "prob": 0.2343144645981134,
+        "top": [
+          {
+            "token": " at",
+            "prob": 0.2343144645981134
+          },
+          {
+            "token": " known",
+            "prob": 0.19796245252152952
+          },
+          {
+            "token": " where",
+            "prob": 0.1816688781060987
+          },
+          {
+            "token": " in",
+            "prob": 0.15024726631128377
+          },
+          {
+            "token": " among",
+            "prob": 0.12526409630507693
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9044467800140391,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9044467800140391
+          },
+          {
+            "token": " Syracuse",
+            "prob": 0.09502010292793958
+          },
+          {
+            "token": " SU",
+            "prob": 0.00046410209389265015
+          },
+          {
+            "token": " a",
+            "prob": 0.00004502309399261785
+          },
+          {
+            "token": " an",
+            "prob": 0.000004187385518719733
+          }
+        ]
+      },
+      {
+        "token": " university",
+        "prob": 0.9878035263294244,
+        "top": [
+          {
+            "token": " university",
+            "prob": 0.9878035263294244
+          },
+          {
+            "token": " University",
+            "prob": 0.009996982315293588
+          },
+          {
+            "token": " school",
+            "prob": 0.0017824732728175324
+          },
+          {
+            "token": " college",
+            "prob": 0.00015812764046958954
+          },
+          {
+            "token": " campus",
+            "prob": 0.000135172069802219
+          }
+        ]
+      },
+      {
+        "token": " where",
+        "prob": 0.8804683475148343,
+        "top": [
+          {
+            "token": " where",
+            "prob": 0.8804683475148343
+          },
+          {
+            "token": " known",
+            "prob": 0.08145576229725243
+          },
+          {
+            "token": " in",
+            "prob": 0.027906155144176537
+          },
+          {
+            "token": "'s",
+            "prob": 0.003329090950818211
+          },
+          {
+            "token": ",",
+            "prob": 0.0029299761380399297
+          }
+        ]
+      },
+      {
+        "token": " students",
+        "prob": 0.999570972458647,
+        "top": [
+          {
+            "token": " students",
+            "prob": 0.999570972458647
+          },
+          {
+            "token": " hundreds",
+            "prob": 0.00010731930590014783
+          },
+          {
+            "token": " large",
+            "prob": 0.00010698541940827191
+          },
+          {
+            "token": " fraternity",
+            "prob": 0.00008824107503614754
+          },
+          {
+            "token": " pump",
+            "prob": 0.000018761005832848343
+          }
+        ]
+      },
+      {
+        "token": " would",
+        "prob": 0.9950949950188382,
+        "top": [
+          {
+            "token": " would",
+            "prob": 0.9950949950188382
+          },
+          {
+            "token": " gathered",
+            "prob": 0.0043258371354440205
+          },
+          {
+            "token": " congreg",
+            "prob": 0.00010266800787773156
+          },
+          {
+            "token": " threw",
+            "prob": 0.00007908372156562683
+          },
+          {
+            "token": " in",
+            "prob": 0.00006871569003657146
+          }
+        ]
+      },
+      {
+        "token": " gather",
+        "prob": 0.7250250594254862,
+        "top": [
+          {
+            "token": " gather",
+            "prob": 0.7250250594254862
+          },
+          {
+            "token": " steal",
+            "prob": 0.21259319968835508
+          },
+          {
+            "token": " throw",
+            "prob": 0.030504880249145744
+          },
+          {
+            "token": " carve",
+            "prob": 0.005973041603475436
+          },
+          {
+            "token": " con",
+            "prob": 0.005392436259414159
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.6632494600910337,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.6632494600910337
+          },
+          {
+            "token": " on",
+            "prob": 0.152037724717305
+          },
+          {
+            "token": " at",
+            "prob": 0.11706960576633316
+          },
+          {
+            "token": " to",
+            "prob": 0.05091500017099845
+          },
+          {
+            "token": " and",
+            "prob": 0.006828474385291555
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.7138825542631564,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.7138825542631564
+          },
+          {
+            "token": " a",
+            "prob": 0.20859262328670025
+          },
+          {
+            "token": " Thor",
+            "prob": 0.020316518593711197
+          },
+          {
+            "token": " an",
+            "prob": 0.017734283356547056
+          },
+          {
+            "token": " large",
+            "prob": 0.010302867751738654
+          }
+        ]
+      },
+      {
+        "token": " streets",
+        "prob": 0.569255205267594,
+        "top": [
+          {
+            "token": " streets",
+            "prob": 0.569255205267594
+          },
+          {
+            "token": " quad",
+            "prob": 0.12444298746105388
+          },
+          {
+            "token": " Quad",
+            "prob": 0.0628877052126049
+          },
+          {
+            "token": " campus",
+            "prob": 0.04884862247352279
+          },
+          {
+            "token": " courtyard",
+            "prob": 0.043523415428440834
+          }
+        ]
+      },
+      {
+        "token": " near",
+        "prob": 0.44686325428356155,
+        "top": [
+          {
+            "token": " near",
+            "prob": 0.44686325428356155
+          },
+          {
+            "token": " and",
+            "prob": 0.2810643871867792
+          },
+          {
+            "token": " to",
+            "prob": 0.15117411907906256
+          },
+          {
+            "token": " of",
+            "prob": 0.05604019936340167
+          },
+          {
+            "token": " surrounding",
+            "prob": 0.02153301371346049
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.7226832918701178,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.7226832918701178
+          },
+          {
+            "token": " campus",
+            "prob": 0.1293107314666325
+          },
+          {
+            "token": " Marshall",
+            "prob": 0.07911152604257071
+          },
+          {
+            "token": " fraternity",
+            "prob": 0.025950593466943797
+          },
+          {
+            "token": " a",
+            "prob": 0.013525689173783743
+          }
+        ]
+      },
+      {
+        "token": " campus",
+        "prob": 0.9629530329235707,
+        "top": [
+          {
+            "token": " campus",
+            "prob": 0.9629530329235707
+          },
+          {
+            "token": " university",
+            "prob": 0.027452781128557216
+          },
+          {
+            "token": " fraternity",
+            "prob": 0.0022694208776850326
+          },
+          {
+            "token": " school",
+            "prob": 0.0018805443428141274
+          },
+          {
+            "token": " main",
+            "prob": 0.0013747704599740857
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.5613606332358271,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.5613606332358271
+          },
+          {
+            "token": " to",
+            "prob": 0.41188634472812213
+          },
+          {
+            "token": " bars",
+            "prob": 0.0067696560389703935
+          },
+          {
+            "token": " dressed",
+            "prob": 0.0051050654841209115
+          },
+          {
+            "token": " on",
+            "prob": 0.004097616974421067
+          }
+        ]
+      },
+      {
+        "token": " throw",
+        "prob": 0.4966867864005113,
+        "top": [
+          {
+            "token": " throw",
+            "prob": 0.4966867864005113
+          },
+          {
+            "token": " set",
+            "prob": 0.17559227338036024
+          },
+          {
+            "token": " smash",
+            "prob": 0.08288824700931736
+          },
+          {
+            "token": " light",
+            "prob": 0.06700380970091643
+          },
+          {
+            "token": " attempt",
+            "prob": 0.05080453280161845
+          }
+        ]
+      },
+      {
+        "token": " pump",
+        "prob": 0.9985219451006797,
+        "top": [
+          {
+            "token": " pump",
+            "prob": 0.9985219451006797
+          },
+          {
+            "token": " eggs",
+            "prob": 0.00028045283312299447
+          },
+          {
+            "token": " pumpkin",
+            "prob": 0.00012550838360375733
+          },
+          {
+            "token": " rotten",
+            "prob": 0.00011691013444021116
+          },
+          {
+            "token": " smashed",
+            "prob": 0.00010976245799150217
+          }
+        ]
+      },
+      {
+        "token": "kins",
+        "prob": 0.9999996871837189,
+        "top": [
+          {
+            "token": "kins",
+            "prob": 0.9999996871837189
+          },
+          {
+            "token": "-",
+            "prob": 6.635411888160062e-8
+          },
+          {
+            "token": "inks",
+            "prob": 3.9344485959338184e-8
+          },
+          {
+            "token": "ins",
+            "prob": 3.111714137454126e-8
+          },
+          {
+            "token": "k",
+            "prob": 2.5067265633268126e-8
+          }
+        ]
+      },
+      {
+        "token": " at",
+        "prob": 0.9170204133126482,
+        "top": [
+          {
+            "token": " at",
+            "prob": 0.9170204133126482
+          },
+          {
+            "token": " off",
+            "prob": 0.07483955676711893
+          },
+          {
+            "token": " and",
+            "prob": 0.0045393338807291775
+          },
+          {
+            "token": " from",
+            "prob": 0.0013465264532118886
+          },
+          {
+            "token": ",",
+            "prob": 0.0005865462707343137
+          }
+        ]
+      },
+      {
+        "token": " each",
+        "prob": 0.6511712855092243,
+        "top": [
+          {
+            "token": " each",
+            "prob": 0.6511712855092243
+          },
+          {
+            "token": " passing",
+            "prob": 0.3282649244878721
+          },
+          {
+            "token": " cars",
+            "prob": 0.013521895750023057
+          },
+          {
+            "token": " one",
+            "prob": 0.006065641326300071
+          },
+          {
+            "token": " buildings",
+            "prob": 0.0002683957466631366
+          }
+        ]
+      },
+      {
+        "token": " other",
+        "prob": 0.9999993295729247,
+        "top": [
+          {
+            "token": " other",
+            "prob": 0.9999993295729247
+          },
+          {
+            "token": " others",
+            "prob": 1.3480588259386665e-7
+          },
+          {
+            "token": " another",
+            "prob": 1.3139129252824272e-7
+          },
+          {
+            "token": " o",
+            "prob": 1.288246061480677e-7
+          },
+          {
+            "token": "other",
+            "prob": 1.0182837895698272e-7
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.6505798544457473,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.6505798544457473
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.10587215475453185
+          },
+          {
+            "token": " and",
+            "prob": 0.07785289457147156
+          },
+          {
+            "token": " in",
+            "prob": 0.06791460987750776
+          },
+          {
+            "token": " on",
+            "prob": 0.04825042707215215
+          }
+        ]
+      },
+      {
+        "token": " However",
+        "prob": 0.5082918949818525,
+        "top": [
+          {
+            "token": " However",
+            "prob": 0.5082918949818525
+          },
+          {
+            "token": " \n\n",
+            "prob": 0.39487477091723966
+          },
+          {
+            "token": " The",
+            "prob": 0.05612299260851869
+          },
+          {
+            "token": " What",
+            "prob": 0.025723713711724796
+          },
+          {
+            "token": " As",
+            "prob": 0.004925344783531604
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9999995679800934,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9999995679800934
+          },
+          {
+            "token": " in",
+            "prob": 2.380721637975886e-7
+          },
+          {
+            "token": " on",
+            "prob": 8.458000041461685e-8
+          },
+          {
+            "token": ".",
+            "prob": 2.0741734644704685e-8
+          },
+          {
+            "token": ",\n\n",
+            "prob": 1.418962178158019e-8
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.6356751986735989,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.6356751986735989
+          },
+          {
+            "token": " the",
+            "prob": 0.21577490956362758
+          },
+          {
+            "token": " on",
+            "prob": 0.09717133678959398
+          },
+          {
+            "token": " this",
+            "prob": 0.020450120583644035
+          },
+          {
+            "token": " things",
+            "prob": 0.01835096164743368
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9999651187283657,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9999651187283657
+          },
+          {
+            "token": " the",
+            "prob": 0.00002863771507372081
+          },
+          {
+            "token": " this",
+            "prob": 0.000005951852751921529
+          },
+          {
+            "token": " that",
+            "prob": 1.0501181177715537e-7
+          },
+          {
+            "token": " October",
+            "prob": 5.990253572998861e-8
+          }
+        ]
+      },
+      {
+        "token": "198",
+        "prob": 0.9999996871837189,
+        "top": [
+          {
+            "token": "198",
+            "prob": 0.9999996871837189
+          },
+          {
+            "token": " ",
+            "prob": 1.0092784311822795e-7
+          },
+          {
+            "token": "197",
+            "prob": 3.537788250720715e-8
+          },
+          {
+            "token": "987",
+            "prob": 3.240036982050991e-8
+          },
+          {
+            "token": "87",
+            "prob": 2.04457254654597e-8
+          }
+        ]
+      },
+      {
+        "token": "7",
+        "prob": 0.9999841908319662,
+        "top": [
+          {
+            "token": "7",
+            "prob": 0.9999841908319662
+          },
+          {
+            "token": "6",
+            "prob": 0.000013675030217082312
+          },
+          {
+            "token": "5",
+            "prob": 8.239780052919918e-7
+          },
+          {
+            "token": "4",
+            "prob": 4.0292757733316757e-7
+          },
+          {
+            "token": "8",
+            "prob": 2.1588521123252315e-7
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.970344903564434,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.970344903564434
+          },
+          {
+            "token": " the",
+            "prob": 0.029284110904508647
+          },
+          {
+            "token": " things",
+            "prob": 0.00035813698682171994
+          },
+          {
+            "token": " this",
+            "prob": 0.000011837655065779607
+          },
+          {
+            "token": " what",
+            "prob": 3.6180136181241417e-7
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9923252532270359,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9923252532270359
+          },
+          {
+            "token": " things",
+            "prob": 0.00648363739314433
+          },
+          {
+            "token": " this",
+            "prob": 0.0006233537395958873
+          },
+          {
+            "token": " what",
+            "prob": 0.0005183639273160576
+          },
+          {
+            "token": " tensions",
+            "prob": 0.000029570065766706815
+          }
+        ]
+      },
+      {
+        "token": " event",
+        "prob": 0.6814891286934528,
+        "top": [
+          {
+            "token": " event",
+            "prob": 0.6814891286934528
+          },
+          {
+            "token": " festivities",
+            "prob": 0.1798664766046545
+          },
+          {
+            "token": " situation",
+            "prob": 0.056987667169804065
+          },
+          {
+            "token": " pumpkin",
+            "prob": 0.03899586360061905
+          },
+          {
+            "token": " gathering",
+            "prob": 0.018884307364114627
+          }
+        ]
+      },
+      {
+        "token": " quickly",
+        "prob": 0.4865318801032296,
+        "top": [
+          {
+            "token": " quickly",
+            "prob": 0.4865318801032296
+          },
+          {
+            "token": " escalated",
+            "prob": 0.44645141391783205
+          },
+          {
+            "token": " spir",
+            "prob": 0.05603406890093372
+          },
+          {
+            "token": " took",
+            "prob": 0.003568635389863723
+          },
+          {
+            "token": " turned",
+            "prob": 0.0029973416494429414
+          }
+        ]
+      },
+      {
+        "token": " escalated",
+        "prob": 0.8026887252302489,
+        "top": [
+          {
+            "token": " escalated",
+            "prob": 0.8026887252302489
+          },
+          {
+            "token": " spir",
+            "prob": 0.15935740008605115
+          },
+          {
+            "token": " got",
+            "prob": 0.018520004625631775
+          },
+          {
+            "token": " turned",
+            "prob": 0.010079492145490147
+          },
+          {
+            "token": " descended",
+            "prob": 0.004685289838486947
+          }
+        ]
+      },
+      {
+        "token": " into",
+        "prob": 0.9581904070604509,
+        "top": [
+          {
+            "token": " into",
+            "prob": 0.9581904070604509
+          },
+          {
+            "token": " out",
+            "prob": 0.03397918662158423
+          },
+          {
+            "token": " as",
+            "prob": 0.005408583772331587
+          },
+          {
+            "token": " when",
+            "prob": 0.0009413778105195094
+          },
+          {
+            "token": " and",
+            "prob": 0.0008348167652574193
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.715308064243094,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.715308064243094
+          },
+          {
+            "token": " violence",
+            "prob": 0.27722717016539783
+          },
+          {
+            "token": " may",
+            "prob": 0.0022242944828633313
+          },
+          {
+            "token": " widespread",
+            "prob": 0.0017763751919413237
+          },
+          {
+            "token": " chaos",
+            "prob": 0.000898730541310606
+          }
+        ]
+      },
+      {
+        "token": " full",
+        "prob": 0.972312228855915,
+        "top": [
+          {
+            "token": " full",
+            "prob": 0.972312228855915
+          },
+          {
+            "token": " violent",
+            "prob": 0.023731189105314767
+          },
+          {
+            "token": " riot",
+            "prob": 0.002879294442762376
+          },
+          {
+            "token": " large",
+            "prob": 0.0007041627848889422
+          },
+          {
+            "token": " dangerous",
+            "prob": 0.00018029629086237985
+          }
+        ]
+      },
+      {
+        "token": "-bl",
+        "prob": 0.7302489321666386,
+        "top": [
+          {
+            "token": "-bl",
+            "prob": 0.7302489321666386
+          },
+          {
+            "token": "-scale",
+            "prob": 0.21589247417268137
+          },
+          {
+            "token": "-f",
+            "prob": 0.05156574930749947
+          },
+          {
+            "token": "-on",
+            "prob": 0.002203335346710842
+          },
+          {
+            "token": " blown",
+            "prob": 0.00004637857273019028
+          }
+        ]
+      },
+      {
+        "token": "own",
+        "prob": 1,
+        "top": [
+          {
+            "token": "own",
+            "prob": 1
+          },
+          {
+            "token": "ow",
+            "prob": 2.977445853758881e-9
+          },
+          {
+            "token": "ows",
+            "prob": 1.717373067412273e-9
+          },
+          {
+            "token": " own",
+            "prob": 1.6401731851244908e-9
+          },
+          {
+            "token": "owns",
+            "prob": 1.418915485129438e-9
+          }
+        ]
+      },
+      {
+        "token": " riot",
+        "prob": 0.9999572515937392,
+        "top": [
+          {
+            "token": " riot",
+            "prob": 0.9999572515937392
+          },
+          {
+            "token": " melee",
+            "prob": 0.00002287862475776956
+          },
+          {
+            "token": " disturbance",
+            "prob": 0.000013651133493009509
+          },
+          {
+            "token": " rampage",
+            "prob": 0.0000013683348436019702
+          },
+          {
+            "token": " confrontation",
+            "prob": 0.0000010940260965483988
+          }
+        ]
+      },
+      {
+        "token": ".\n\n",
+        "prob": 0.5547172469566691,
+        "top": [
+          {
+            "token": ".\n\n",
+            "prob": 0.5547172469566691
+          },
+          {
+            "token": " as",
+            "prob": 0.2363335557510202
+          },
+          {
+            "token": " with",
+            "prob": 0.14627951518513932
+          },
+          {
+            "token": ",",
+            "prob": 0.04595678410754846
+          },
+          {
+            "token": " when",
+            "prob": 0.00905761263247939
+          }
+        ]
+      },
+      {
+        "token": "The",
+        "prob": 0.3954101098135629,
+        "top": [
+          {
+            "token": "The",
+            "prob": 0.3954101098135629
+          },
+          {
+            "token": "Thousands",
+            "prob": 0.17507169556769023
+          },
+          {
+            "token": "As",
+            "prob": 0.13957506808270748
+          },
+          {
+            "token": "Hundreds",
+            "prob": 0.11773727733895958
+          },
+          {
+            "token": "Students",
+            "prob": 0.10969296973887563
+          }
+        ]
+      },
+      {
+        "token": " riot",
+        "prob": 0.6280034430281916,
+        "top": [
+          {
+            "token": " riot",
+            "prob": 0.6280034430281916
+          },
+          {
+            "token": " chaos",
+            "prob": 0.27570464860376265
+          },
+          {
+            "token": " students",
+            "prob": 0.017327483437900564
+          },
+          {
+            "token": " crowd",
+            "prob": 0.01645415417857559
+          },
+          {
+            "token": " may",
+            "prob": 0.012290634861314405
+          }
+        ]
+      },
+      {
+        "token": " began",
+        "prob": 0.9205284607434154,
+        "top": [
+          {
+            "token": " began",
+            "prob": 0.9205284607434154
+          },
+          {
+            "token": " started",
+            "prob": 0.05021365888256043
+          },
+          {
+            "token": " reportedly",
+            "prob": 0.010394598320763076
+          },
+          {
+            "token": "ing",
+            "prob": 0.01005459334136544
+          },
+          {
+            "token": "ers",
+            "prob": 0.004553482291274407
+          }
+        ]
+      },
+      {
+        "token": " when",
+        "prob": 0.991310300595595,
+        "top": [
+          {
+            "token": " when",
+            "prob": 0.991310300595595
+          },
+          {
+            "token": " with",
+            "prob": 0.006720289802533112
+          },
+          {
+            "token": " after",
+            "prob": 0.0015506139960569675
+          },
+          {
+            "token": " as",
+            "prob": 0.00034774329793472525
+          },
+          {
+            "token": " in",
+            "prob": 0.000040082569257946994
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.6043294637361729,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.6043294637361729
+          },
+          {
+            "token": " students",
+            "prob": 0.27751302776408926
+          },
+          {
+            "token": " some",
+            "prob": 0.04949787696120041
+          },
+          {
+            "token": " police",
+            "prob": 0.03595765797912815
+          },
+          {
+            "token": " the",
+            "prob": 0.005701733657200111
+          }
+        ]
+      },
+      {
+        "token": " group",
+        "prob": 0.7600067227630716,
+        "top": [
+          {
+            "token": " group",
+            "prob": 0.7600067227630716
+          },
+          {
+            "token": " large",
+            "prob": 0.07402855365501246
+          },
+          {
+            "token": " car",
+            "prob": 0.043777223861953964
+          },
+          {
+            "token": " crowd",
+            "prob": 0.03935618253270978
+          },
+          {
+            "token": " small",
+            "prob": 0.027260088669121052
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999996871837189,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999996871837189
+          },
+          {
+            "token": " started",
+            "prob": 5.584275736308639e-8
+          },
+          {
+            "token": " students",
+            "prob": 3.1947177537801105e-8
+          },
+          {
+            "token": " gathered",
+            "prob": 1.443658828138069e-8
+          },
+          {
+            "token": " known",
+            "prob": 1.0119455286301643e-8
+          }
+        ]
+      },
+      {
+        "token": " students",
+        "prob": 0.995310940129113,
+        "top": [
+          {
+            "token": " students",
+            "prob": 0.995310940129113
+          },
+          {
+            "token": " intoxicated",
+            "prob": 0.0009366096107031208
+          },
+          {
+            "token": " around",
+            "prob": 0.0007834565139546159
+          },
+          {
+            "token": " revel",
+            "prob": 0.0007058957459508326
+          },
+          {
+            "token": " approximately",
+            "prob": 0.0004457976983461166
+          }
+        ]
+      },
+      {
+        "token": " started",
+        "prob": 0.7917657350501676,
+        "top": [
+          {
+            "token": " started",
+            "prob": 0.7917657350501676
+          },
+          {
+            "token": " began",
+            "prob": 0.12570301223370356
+          },
+          {
+            "token": " set",
+            "prob": 0.0426049685448346
+          },
+          {
+            "token": " decided",
+            "prob": 0.007130525818071672
+          },
+          {
+            "token": " overturned",
+            "prob": 0.006187550435058395
+          }
+        ]
+      },
+      {
+        "token": " throwing",
+        "prob": 0.7776514989152624,
+        "top": [
+          {
+            "token": " throwing",
+            "prob": 0.7776514989152624
+          },
+          {
+            "token": " setting",
+            "prob": 0.07746577911078012
+          },
+          {
+            "token": " smashing",
+            "prob": 0.07661936709916616
+          },
+          {
+            "token": " to",
+            "prob": 0.015978407490888375
+          },
+          {
+            "token": " lighting",
+            "prob": 0.013428196048409608
+          }
+        ]
+      },
+      {
+        "token": " pump",
+        "prob": 0.9950676069981598,
+        "top": [
+          {
+            "token": " pump",
+            "prob": 0.9950676069981598
+          },
+          {
+            "token": " rocks",
+            "prob": 0.0010947853087559492
+          },
+          {
+            "token": " bottles",
+            "prob": 0.0008101687489166683
+          },
+          {
+            "token": " not",
+            "prob": 0.0004935092280875572
+          },
+          {
+            "token": " beer",
+            "prob": 0.000474518192638081
+          }
+        ]
+      },
+      {
+        "token": "kins",
+        "prob": 0.9999993295729247,
+        "top": [
+          {
+            "token": "kins",
+            "prob": 0.9999993295729247
+          },
+          {
+            "token": "inks",
+            "prob": 1.8788401612590115e-7
+          },
+          {
+            "token": "-",
+            "prob": 8.295214182236198e-8
+          },
+          {
+            "token": "skins",
+            "prob": 6.732036808144093e-8
+          },
+          {
+            "token": "k",
+            "prob": 5.819205520687999e-8
+          }
+        ]
+      },
+      {
+        "token": " at",
+        "prob": 0.9157381752925771,
+        "top": [
+          {
+            "token": " at",
+            "prob": 0.9157381752925771
+          },
+          {
+            "token": " not",
+            "prob": 0.04237508955039915
+          },
+          {
+            "token": " and",
+            "prob": 0.034482656206582224
+          },
+          {
+            "token": " through",
+            "prob": 0.003519576884021931
+          },
+          {
+            "token": " from",
+            "prob": 0.001619143456695414
+          }
+        ]
+      },
+      {
+        "token": " passing",
+        "prob": 0.8168683299190891,
+        "top": [
+          {
+            "token": " passing",
+            "prob": 0.8168683299190891
+          },
+          {
+            "token": " police",
+            "prob": 0.0948961541003888
+          },
+          {
+            "token": " cars",
+            "prob": 0.07539792682770642
+          },
+          {
+            "token": " each",
+            "prob": 0.005760221788890064
+          },
+          {
+            "token": " the",
+            "prob": 0.0014161551790366146
+          }
+        ]
+      },
+      {
+        "token": " cars",
+        "prob": 0.9914366065302753,
+        "top": [
+          {
+            "token": " cars",
+            "prob": 0.9914366065302753
+          },
+          {
+            "token": " vehicles",
+            "prob": 0.00811594202776975
+          },
+          {
+            "token": " police",
+            "prob": 0.0004095422849708587
+          },
+          {
+            "token": " motorists",
+            "prob": 0.000012700731090188765
+          },
+          {
+            "token": " car",
+            "prob": 0.000009114983135749297
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.7901755839912469,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.7901755839912469
+          },
+          {
+            "token": ",",
+            "prob": 0.20893764934895856
+          },
+          {
+            "token": ".",
+            "prob": 0.0008352750384368508
+          },
+          {
+            "token": " on",
+            "prob": 0.00004735446239529009
+          },
+          {
+            "token": " in",
+            "prob": 0.000001012303632484826
+          }
+        ]
+      },
+      {
+        "token": " police",
+        "prob": 0.5358433221841349,
+        "top": [
+          {
+            "token": " police",
+            "prob": 0.5358433221841349
+          },
+          {
+            "token": " buildings",
+            "prob": 0.25349225720180174
+          },
+          {
+            "token": " setting",
+            "prob": 0.06935170133041554
+          },
+          {
+            "token": " storefront",
+            "prob": 0.031235303544348243
+          },
+          {
+            "token": " pedestrians",
+            "prob": 0.02395917353166222
+          }
+        ]
+      },
+      {
+        "token": " officers",
+        "prob": 0.9960947647422738,
+        "top": [
+          {
+            "token": " officers",
+            "prob": 0.9960947647422738
+          },
+          {
+            "token": " vehicles",
+            "prob": 0.003730673494863866
+          },
+          {
+            "token": " cars",
+            "prob": 0.0000907461055309193
+          },
+          {
+            "token": ".",
+            "prob": 0.00003681022124986972
+          },
+          {
+            "token": ",",
+            "prob": 0.000018289306740958724
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.7736519372579658,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.7736519372579658
+          },
+          {
+            "token": ",",
+            "prob": 0.16571202272501842
+          },
+          {
+            "token": " who",
+            "prob": 0.05346329154111333
+          },
+          {
+            "token": " in",
+            "prob": 0.0036134365736628688
+          },
+          {
+            "token": " attempting",
+            "prob": 0.002585521630714421
+          }
+        ]
+      },
+      {
+        "token": " The",
+        "prob": 0.7320232816454789,
+        "top": [
+          {
+            "token": " The",
+            "prob": 0.7320232816454789
+          },
+          {
+            "token": " As",
+            "prob": 0.2338411126552587
+          },
+          {
+            "token": " This",
+            "prob": 0.02775193254370322
+          },
+          {
+            "token": " Soon",
+            "prob": 0.0018165056426081955
+          },
+          {
+            "token": " Things",
+            "prob": 0.0017977825323453995
+          }
+        ]
+      },
+      {
+        "token": " situation",
+        "prob": 0.7900621466259494,
+        "top": [
+          {
+            "token": " situation",
+            "prob": 0.7900621466259494
+          },
+          {
+            "token": " chaos",
+            "prob": 0.08821008324482732
+          },
+          {
+            "token": " violence",
+            "prob": 0.05928518710802991
+          },
+          {
+            "token": " crowd",
+            "prob": 0.03062048345542116
+          },
+          {
+            "token": " police",
+            "prob": 0.024005339361065366
+          }
+        ]
+      },
+      {
+        "token": " quickly",
+        "prob": 0.9752017561564427,
+        "top": [
+          {
+            "token": " quickly",
+            "prob": 0.9752017561564427
+          },
+          {
+            "token": " soon",
+            "prob": 0.008557144764667523
+          },
+          {
+            "token": " rapidly",
+            "prob": 0.005083264020506422
+          },
+          {
+            "token": " spir",
+            "prob": 0.004081651471654512
+          },
+          {
+            "token": " escalated",
+            "prob": 0.003031479181101208
+          }
+        ]
+      },
+      {
+        "token": " spir",
+        "prob": 0.8973823262761227,
+        "top": [
+          {
+            "token": " spir",
+            "prob": 0.8973823262761227
+          },
+          {
+            "token": " got",
+            "prob": 0.05001317041199252
+          },
+          {
+            "token": " dev",
+            "prob": 0.022166558493340992
+          },
+          {
+            "token": " deterior",
+            "prob": 0.012986828856547967
+          },
+          {
+            "token": " escalated",
+            "prob": 0.008122610388944839
+          }
+        ]
+      },
+      {
+        "token": "aled",
+        "prob": 0.999988005296937,
+        "top": [
+          {
+            "token": "aled",
+            "prob": 0.999988005296937
+          },
+          {
+            "token": "alled",
+            "prob": 0.000011967893924880493
+          },
+          {
+            "token": "aling",
+            "prob": 1.844080777831582e-10
+          },
+          {
+            "token": "als",
+            "prob": 1.0389712313375831e-11
+          },
+          {
+            "token": "ale",
+            "prob": 7.222333614080526e-12
+          }
+        ]
+      },
+      {
+        "token": " out",
+        "prob": 0.999999091165773,
+        "top": [
+          {
+            "token": " out",
+            "prob": 0.999999091165773
+          },
+          {
+            "token": " as",
+            "prob": 6.646129472159362e-7
+          },
+          {
+            "token": " into",
+            "prob": 7.803815212766263e-8
+          },
+          {
+            "token": ",",
+            "prob": 2.7989035297024327e-8
+          },
+          {
+            "token": " and",
+            "prob": 3.758270345043054e-9
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999998063873687,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999998063873687
+          },
+          {
+            "token": " control",
+            "prob": 9.700144127968125e-8
+          },
+          {
+            "token": "-of",
+            "prob": 3.5505188365614744e-8
+          },
+          {
+            "token": " o",
+            "prob": 1.6140374034382303e-8
+          },
+          {
+            "token": " ",
+            "prob": 8.75819503028309e-9
+          }
+        ]
+      },
+      {
+        "token": " control",
+        "prob": 0.9999996871837189,
+        "top": [
+          {
+            "token": " control",
+            "prob": 0.9999996871837189
+          },
+          {
+            "token": " hand",
+            "prob": 2.1805467562162598e-7
+          },
+          {
+            "token": " the",
+            "prob": 3.0978887681573733e-9
+          },
+          {
+            "token": " contro",
+            "prob": 1.2462173420135857e-9
+          },
+          {
+            "token": "control",
+            "prob": 8.752076004980805e-10
+          }
+        ]
+      },
+      {
+        "token": " as",
+        "prob": 0.6539446069273079,
+        "top": [
+          {
+            "token": " as",
+            "prob": 0.6539446069273079
+          },
+          {
+            "token": ",",
+            "prob": 0.34564200748603924
+          },
+          {
+            "token": " with",
+            "prob": 0.00036814119916635235
+          },
+          {
+            "token": " and",
+            "prob": 0.0000428536386731258
+          },
+          {
+            "token": " when",
+            "prob": 0.0000023884594056769764
+          }
+        ]
+      },
+      {
+        "token": " more",
+        "prob": 0.9801633113170996,
+        "top": [
+          {
+            "token": " more",
+            "prob": 0.9801633113170996
+          },
+          {
+            "token": " students",
+            "prob": 0.011072596576614413
+          },
+          {
+            "token": " the",
+            "prob": 0.005797441380814873
+          },
+          {
+            "token": " hundreds",
+            "prob": 0.0023096460298987482
+          },
+          {
+            "token": " crowds",
+            "prob": 0.00014706277816555431
+          }
+        ]
+      },
+      {
+        "token": " students",
+        "prob": 0.8597177167097053,
+        "top": [
+          {
+            "token": " students",
+            "prob": 0.8597177167097053
+          },
+          {
+            "token": " and",
+            "prob": 0.13939319474952178
+          },
+          {
+            "token": " people",
+            "prob": 0.0008529381686742124
+          },
+          {
+            "token": " participants",
+            "prob": 0.000016373694578790548
+          },
+          {
+            "token": " individuals",
+            "prob": 0.000009008896219575157
+          }
+        ]
+      },
+      {
+        "token": " joined",
+        "prob": 0.9991540402259009,
+        "top": [
+          {
+            "token": " joined",
+            "prob": 0.9991540402259009
+          },
+          {
+            "token": " began",
+            "prob": 0.00046199966129985525
+          },
+          {
+            "token": " poured",
+            "prob": 0.00015500347840100872
+          },
+          {
+            "token": " became",
+            "prob": 0.00010388032942163347
+          },
+          {
+            "token": " and",
+            "prob": 0.00003817544691198035
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.9999657147257535,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.9999657147257535
+          },
+          {
+            "token": " the",
+            "prob": 0.00003413787794396859
+          },
+          {
+            "token": ",",
+            "prob": 1.3339635869191383e-7
+          },
+          {
+            "token": " and",
+            "prob": 4.850742295963088e-8
+          },
+          {
+            "token": " into",
+            "prob": 1.6052681863886305e-9
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.8948529731608155,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.8948529731608155
+          },
+          {
+            "token": " and",
+            "prob": 0.05924752926530506
+          },
+          {
+            "token": " the",
+            "prob": 0.044616733488379384
+          },
+          {
+            "token": " on",
+            "prob": 0.0012456194781531452
+          },
+          {
+            "token": " throwing",
+            "prob": 0.00002494572732326912
+          }
+        ]
+      },
+      {
+        "token": " setting",
+        "prob": 0.41423803774103113,
+        "top": [
+          {
+            "token": " setting",
+            "prob": 0.41423803774103113
+          },
+          {
+            "token": " smashing",
+            "prob": 0.3059647438023063
+          },
+          {
+            "token": " flipping",
+            "prob": 0.06623694434675685
+          },
+          {
+            "token": " throwing",
+            "prob": 0.050445607619828345
+          },
+          {
+            "token": " vandal",
+            "prob": 0.05015357404574566
+          }
+        ]
+      },
+      {
+        "token": " fires",
+        "prob": 0.9293321677361617,
+        "top": [
+          {
+            "token": " fires",
+            "prob": 0.9293321677361617
+          },
+          {
+            "token": " bon",
+            "prob": 0.03783624777482187
+          },
+          {
+            "token": " cars",
+            "prob": 0.020125286897554846
+          },
+          {
+            "token": " fire",
+            "prob": 0.0077524837739544
+          },
+          {
+            "token": " dumpsters",
+            "prob": 0.0015505467008698546
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9672955521652099,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9672955521652099
+          },
+          {
+            "token": " and",
+            "prob": 0.031633354275694
+          },
+          {
+            "token": " in",
+            "prob": 0.000967489486293002
+          },
+          {
+            "token": " to",
+            "prob": 0.00009619982686830513
+          },
+          {
+            "token": " on",
+            "prob": 0.000006957766780338452
+          }
+        ]
+      },
+      {
+        "token": " smashing",
+        "prob": 0.3259585998516444,
+        "top": [
+          {
+            "token": " smashing",
+            "prob": 0.3259585998516444
+          },
+          {
+            "token": " breaking",
+            "prob": 0.286579699003373
+          },
+          {
+            "token": " vandal",
+            "prob": 0.1314040961870605
+          },
+          {
+            "token": " destroying",
+            "prob": 0.09831467254971749
+          },
+          {
+            "token": " flipping",
+            "prob": 0.05471597306632588
+          }
+        ]
+      },
+      {
+        "token": " windows",
+        "prob": 0.9261483796217925,
+        "top": [
+          {
+            "token": " windows",
+            "prob": 0.9261483796217925
+          },
+          {
+            "token": " car",
+            "prob": 0.06251040225554565
+          },
+          {
+            "token": " cars",
+            "prob": 0.005163820843280185
+          },
+          {
+            "token": " storefront",
+            "prob": 0.00468309623092888
+          },
+          {
+            "token": " store",
+            "prob": 0.0011493990941474504
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9998732274763156,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9998732274763156
+          },
+          {
+            "token": " and",
+            "prob": 0.00012521015404388152
+          },
+          {
+            "token": " of",
+            "prob": 0.000001425575451707057
+          },
+          {
+            "token": ",and",
+            "prob": 3.753421199553314e-8
+          },
+          {
+            "token": " in",
+            "prob": 6.695507887256284e-9
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9994846308983014,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9994846308983014
+          },
+          {
+            "token": " overturn",
+            "prob": 0.00021880382628017473
+          },
+          {
+            "token": " lo",
+            "prob": 0.00021584759025601913
+          },
+          {
+            "token": " flipping",
+            "prob": 0.00006118576460476006
+          },
+          {
+            "token": " vandal",
+            "prob": 0.000012076537950922995
+          }
+        ]
+      },
+      {
+        "token": " causing",
+        "prob": 0.4440190553570532,
+        "top": [
+          {
+            "token": " causing",
+            "prob": 0.4440190553570532
+          },
+          {
+            "token": " lo",
+            "prob": 0.3920203606918908
+          },
+          {
+            "token": " vandal",
+            "prob": 0.07621581438207686
+          },
+          {
+            "token": " overturn",
+            "prob": 0.056861328990623884
+          },
+          {
+            "token": " engaging",
+            "prob": 0.007395883628237418
+          }
+        ]
+      },
+      {
+        "token": " widespread",
+        "prob": 0.6554616778229788,
+        "top": [
+          {
+            "token": " widespread",
+            "prob": 0.6554616778229788
+          },
+          {
+            "token": " general",
+            "prob": 0.2116904527233956
+          },
+          {
+            "token": " extensive",
+            "prob": 0.0662623775912905
+          },
+          {
+            "token": " may",
+            "prob": 0.01967143491158691
+          },
+          {
+            "token": " significant",
+            "prob": 0.01545944709570858
+          }
+        ]
+      },
+      {
+        "token": " destruction",
+        "prob": 0.48883478968377425,
+        "top": [
+          {
+            "token": " destruction",
+            "prob": 0.48883478968377425
+          },
+          {
+            "token": " damage",
+            "prob": 0.37484551420928547
+          },
+          {
+            "token": " property",
+            "prob": 0.07384948822162397
+          },
+          {
+            "token": " vandalism",
+            "prob": 0.031143653327911972
+          },
+          {
+            "token": " chaos",
+            "prob": 0.018409185996597164
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.6365122088138344,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.6365122088138344
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.13067351741992875
+          },
+          {
+            "token": " throughout",
+            "prob": 0.12050890841847506
+          },
+          {
+            "token": " in",
+            "prob": 0.09407824964206055
+          },
+          {
+            "token": " to",
+            "prob": 0.013391627242015192
+          }
+        ]
+      },
+      {
+        "token": " Police",
+        "prob": 0.48564440492355887,
+        "top": [
+          {
+            "token": " Police",
+            "prob": 0.48564440492355887
+          },
+          {
+            "token": " The",
+            "prob": 0.4851222587085441
+          },
+          {
+            "token": " Riot",
+            "prob": 0.019079500357856993
+          },
+          {
+            "token": " Law",
+            "prob": 0.0022495974272417705
+          },
+          {
+            "token": " Over",
+            "prob": 0.001567802533895541
+          }
+        ]
+      },
+      {
+        "token": " were",
+        "prob": 0.8487336872744748,
+        "top": [
+          {
+            "token": " were",
+            "prob": 0.8487336872744748
+          },
+          {
+            "token": " officers",
+            "prob": 0.07824626361742434
+          },
+          {
+            "token": " responded",
+            "prob": 0.027293429047322522
+          },
+          {
+            "token": " had",
+            "prob": 0.01589990252941839
+          },
+          {
+            "token": " in",
+            "prob": 0.010424588338402102
+          }
+        ]
+      },
+      {
+        "token": " called",
+        "prob": 0.9967027315684608,
+        "top": [
+          {
+            "token": " called",
+            "prob": 0.9967027315684608
+          },
+          {
+            "token": " eventually",
+            "prob": 0.0023841490756540016
+          },
+          {
+            "token": " unable",
+            "prob": 0.00035751279723834336
+          },
+          {
+            "token": " brought",
+            "prob": 0.0003043771501513777
+          },
+          {
+            "token": " forced",
+            "prob": 0.00010950503806939176
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.8759568475909678,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.8759568475909678
+          },
+          {
+            "token": " to",
+            "prob": 0.12403444124093572
+          },
+          {
+            "token": " onto",
+            "prob": 0.000005430795140632502
+          },
+          {
+            "token": " into",
+            "prob": 0.0000029910471933168558
+          },
+          {
+            "token": " and",
+            "prob": 5.936761270096989e-8
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.9999558212119114,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.9999558212119114
+          },
+          {
+            "token": " and",
+            "prob": 0.0000388623361008376
+          },
+          {
+            "token": ",",
+            "prob": 0.0000032605978168361916
+          },
+          {
+            "token": " from",
+            "prob": 0.0000015651200932739857
+          },
+          {
+            "token": " with",
+            "prob": 1.6258351967203578e-7
+          }
+        ]
+      },
+      {
+        "token": " try",
+        "prob": 0.5658159105845831,
+        "top": [
+          {
+            "token": " try",
+            "prob": 0.5658159105845831
+          },
+          {
+            "token": " dis",
+            "prob": 0.31201940424924857
+          },
+          {
+            "token": " break",
+            "prob": 0.046985482874238184
+          },
+          {
+            "token": " restore",
+            "prob": 0.03824952259362122
+          },
+          {
+            "token": " control",
+            "prob": 0.017173523715457183
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.5726667039507303,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.5726667039507303
+          },
+          {
+            "token": " to",
+            "prob": 0.42733317529251835
+          },
+          {
+            "token": " qu",
+            "prob": 2.867580789885159e-8
+          },
+          {
+            "token": " the",
+            "prob": 2.0047086609723758e-8
+          },
+          {
+            "token": " ",
+            "prob": 1.4549488479427373e-8
+          }
+        ]
+      },
+      {
+        "token": " dis",
+        "prob": 0.4420281328270362,
+        "top": [
+          {
+            "token": " dis",
+            "prob": 0.4420281328270362
+          },
+          {
+            "token": " control",
+            "prob": 0.3352027521287329
+          },
+          {
+            "token": " restore",
+            "prob": 0.08781657630291986
+          },
+          {
+            "token": " qu",
+            "prob": 0.05113413504468547
+          },
+          {
+            "token": " contain",
+            "prob": 0.04695930985566081
+          }
+        ]
+      },
+      {
+        "token": "perse",
+        "prob": 0.9999956342685299,
+        "top": [
+          {
+            "token": "perse",
+            "prob": 0.9999956342685299
+          },
+          {
+            "token": "burse",
+            "prob": 0.0000029255267734738707
+          },
+          {
+            "token": "band",
+            "prob": 0.0000012782584402951064
+          },
+          {
+            "token": "per",
+            "prob": 2.6547798811064562e-8
+          },
+          {
+            "token": "pe",
+            "prob": 7.101953144180566e-9
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 1,
+        "top": [
+          {
+            "token": " the",
+            "prob": 1
+          },
+          {
+            "token": " crowds",
+            "prob": 1.06293584413798e-8
+          },
+          {
+            "token": " to",
+            "prob": 5.010681014748028e-9
+          },
+          {
+            "token": " and",
+            "prob": 4.133869267156559e-9
+          },
+          {
+            "token": " of",
+            "prob": 1.7692095005134051e-9
+          }
+        ]
+      },
+      {
+        "token": " crowd",
+        "prob": 0.9353903034042136,
+        "top": [
+          {
+            "token": " crowd",
+            "prob": 0.9353903034042136
+          },
+          {
+            "token": " crowds",
+            "prob": 0.057544662129073915
+          },
+          {
+            "token": " unr",
+            "prob": 0.00439999752745555
+          },
+          {
+            "token": " riot",
+            "prob": 0.0024383499949563363
+          },
+          {
+            "token": " mob",
+            "prob": 0.00005539246412987705
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9993009140045603,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9993009140045603
+          },
+          {
+            "token": " but",
+            "prob": 0.0006799619617239473
+          },
+          {
+            "token": " and",
+            "prob": 0.000011369809556389753
+          },
+          {
+            "token": " using",
+            "prob": 0.000006121863587693944
+          },
+          {
+            "token": " with",
+            "prob": 0.0000014216391799865471
+          }
+        ]
+      },
+      {
+        "token": " but",
+        "prob": 0.9902147699876319,
+        "top": [
+          {
+            "token": " but",
+            "prob": 0.9902147699876319
+          },
+          {
+            "token": " leading",
+            "prob": 0.007185192269229003
+          },
+          {
+            "token": " resulting",
+            "prob": 0.002002141342363587
+          },
+          {
+            "token": " and",
+            "prob": 0.00033948459077250267
+          },
+          {
+            "token": " which",
+            "prob": 0.0001698577900699403
+          }
+        ]
+      },
+      {
+        "token": " they",
+        "prob": 0.5618797949247536,
+        "top": [
+          {
+            "token": " they",
+            "prob": 0.5618797949247536
+          },
+          {
+            "token": " their",
+            "prob": 0.25571516261189536
+          },
+          {
+            "token": " the",
+            "prob": 0.09295084257834377
+          },
+          {
+            "token": " were",
+            "prob": 0.08610397511768172
+          },
+          {
+            "token": " struggled",
+            "prob": 0.0013656292056949118
+          }
+        ]
+      },
+      {
+        "token": " were",
+        "prob": 0.9593697437969568,
+        "top": [
+          {
+            "token": " were",
+            "prob": 0.9593697437969568
+          },
+          {
+            "token": " faced",
+            "prob": 0.0246747604972868
+          },
+          {
+            "token": " struggled",
+            "prob": 0.015023141500828894
+          },
+          {
+            "token": " met",
+            "prob": 0.0005441704679462885
+          },
+          {
+            "token": " encountered",
+            "prob": 0.0002907249287099263
+          }
+        ]
+      },
+      {
+        "token": " met",
+        "prob": 0.9966874524320397,
+        "top": [
+          {
+            "token": " met",
+            "prob": 0.9966874524320397
+          },
+          {
+            "token": " overwhelmed",
+            "prob": 0.0013774573214921583
+          },
+          {
+            "token": " quickly",
+            "prob": 0.0009013691255125084
+          },
+          {
+            "token": " outnumber",
+            "prob": 0.0005235104322306474
+          },
+          {
+            "token": " unable",
+            "prob": 0.00032740192938280325
+          }
+        ]
+      },
+      {
+        "token": " with",
+        "prob": 0.9999996871837189,
+        "top": [
+          {
+            "token": " with",
+            "prob": 0.9999996871837189
+          },
+          {
+            "token": " by",
+            "prob": 2.0543975685056656e-7
+          },
+          {
+            "token": " w",
+            "prob": 1.7992822528180574e-9
+          },
+          {
+            "token": " resistance",
+            "prob": 1.1000260231641092e-9
+          },
+          {
+            "token": " wit",
+            "prob": 6.82275896204493e-10
+          }
+        ]
+      },
+      {
+        "token": " resistance",
+        "prob": 0.9605672890063683,
+        "top": [
+          {
+            "token": " resistance",
+            "prob": 0.9605672890063683
+          },
+          {
+            "token": " violence",
+            "prob": 0.017863166921858308
+          },
+          {
+            "token": " violent",
+            "prob": 0.010421002896745014
+          },
+          {
+            "token": " fierce",
+            "prob": 0.003418934589428791
+          },
+          {
+            "token": " a",
+            "prob": 0.003341659630653267
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9342231506168253,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9342231506168253
+          },
+          {
+            "token": " from",
+            "prob": 0.05738435349559569
+          },
+          {
+            "token": " as",
+            "prob": 0.00674503904909274
+          },
+          {
+            "token": ",",
+            "prob": 0.0008120903138778706
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.0007660378323135686
+          }
+        ]
+      },
+      {
+        "token": " violence",
+        "prob": 0.9718717798088391,
+        "top": [
+          {
+            "token": " violence",
+            "prob": 0.9718717798088391
+          },
+          {
+            "token": " hostility",
+            "prob": 0.008115328485744634
+          },
+          {
+            "token": " faced",
+            "prob": 0.006117411068392176
+          },
+          {
+            "token": " the",
+            "prob": 0.004311465540783932
+          },
+          {
+            "token": " aggression",
+            "prob": 0.0021232210078649875
+          }
+        ]
+      },
+      {
+        "token": ".\n\n",
+        "prob": 0.7971341863977979,
+        "top": [
+          {
+            "token": ".\n\n",
+            "prob": 0.7971341863977979
+          },
+          {
+            "token": " from",
+            "prob": 0.19728121121731895
+          },
+          {
+            "token": ".",
+            "prob": 0.005428185841668959
+          },
+          {
+            "token": ",",
+            "prob": 0.00010905785900595657
+          },
+          {
+            "token": " as",
+            "prob": 0.00003771468563391229
+          }
+        ]
+      },
+      {
+        "token": "The",
+        "prob": 0.6630549177662849,
+        "top": [
+          {
+            "token": "The",
+            "prob": 0.6630549177662849
+          },
+          {
+            "token": "In",
+            "prob": 0.2584868905136257
+          },
+          {
+            "token": "By",
+            "prob": 0.051707533107846905
+          },
+          {
+            "token": "Ultimately",
+            "prob": 0.005773487278524555
+          },
+          {
+            "token": "Several",
+            "prob": 0.005371606248556301
+          }
+        ]
+      },
+      {
+        "token": " Great",
+        "prob": 0.48575441583954,
+        "top": [
+          {
+            "token": " Great",
+            "prob": 0.48575441583954
+          },
+          {
+            "token": " riot",
+            "prob": 0.4816140075336959
+          },
+          {
+            "token": " chaos",
+            "prob": 0.02684882555371851
+          },
+          {
+            "token": " aftermath",
+            "prob": 0.002168145684532081
+          },
+          {
+            "token": " riots",
+            "prob": 0.0010409349284464804
+          }
+        ]
+      },
+      {
+        "token": " Pumpkin",
+        "prob": 0.9999967070975216,
+        "top": [
+          {
+            "token": " Pumpkin",
+            "prob": 0.9999967070975216
+          },
+          {
+            "token": " Pump",
+            "prob": 0.0000031212375005187924
+          },
+          {
+            "token": " pumpkin",
+            "prob": 9.841338654668392e-8
+          },
+          {
+            "token": " Punk",
+            "prob": 1.3246585709789512e-8
+          },
+          {
+            "token": " P",
+            "prob": 9.037140761648557e-9
+          }
+        ]
+      },
+      {
+        "token": " Riot",
+        "prob": 0.9999870516788303,
+        "top": [
+          {
+            "token": " Riot",
+            "prob": 0.9999870516788303
+          },
+          {
+            "token": " Ri",
+            "prob": 0.000007025508226162875
+          },
+          {
+            "token": " riot",
+            "prob": 0.000005657677984574183
+          },
+          {
+            "token": " Raid",
+            "prob": 7.655212160061e-8
+          },
+          {
+            "token": " Ride",
+            "prob": 3.285769082286379e-8
+          }
+        ]
+      },
+      {
+        "token": " resulted",
+        "prob": 0.7784219730712176,
+        "top": [
+          {
+            "token": " resulted",
+            "prob": 0.7784219730712176
+          },
+          {
+            "token": " caused",
+            "prob": 0.12150895684861475
+          },
+          {
+            "token": " at",
+            "prob": 0.05045421942004529
+          },
+          {
+            "token": " of",
+            "prob": 0.0278574094366144
+          },
+          {
+            "token": " ultimately",
+            "prob": 0.00797422351453574
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 1,
+        "top": [
+          {
+            "token": " in",
+            "prob": 1
+          },
+          {
+            "token": " ",
+            "prob": 1.2781872164180725e-9
+          },
+          {
+            "token": " not",
+            "prob": 1.0727643664252506e-9
+          },
+          {
+            "token": " on",
+            "prob": 8.738608180819442e-10
+          },
+          {
+            "token": " i",
+            "prob": 7.072753947953827e-10
+          }
+        ]
+      },
+      {
+        "token": " numerous",
+        "prob": 0.4792885318381741,
+        "top": [
+          {
+            "token": " numerous",
+            "prob": 0.4792885318381741
+          },
+          {
+            "token": " dozens",
+            "prob": 0.27166276947583645
+          },
+          {
+            "token": " over",
+            "prob": 0.09139917745141506
+          },
+          {
+            "token": " multiple",
+            "prob": 0.07918574371205697
+          },
+          {
+            "token": " several",
+            "prob": 0.043185939985731364
+          }
+        ]
+      },
+      {
+        "token": " injuries",
+        "prob": 0.8960482831633388,
+        "top": [
+          {
+            "token": " injuries",
+            "prob": 0.8960482831633388
+          },
+          {
+            "token": " arrests",
+            "prob": 0.10393384375394825
+          },
+          {
+            "token": " students",
+            "prob": 0.000012901977032579648
+          },
+          {
+            "token": " arrest",
+            "prob": 8.299179470653881e-7
+          },
+          {
+            "token": " people",
+            "prob": 7.869823623699732e-7
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9446558450048264,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9446558450048264
+          },
+          {
+            "token": " and",
+            "prob": 0.05276988029479763
+          },
+          {
+            "token": " to",
+            "prob": 0.0024792142591368365
+          },
+          {
+            "token": " among",
+            "prob": 0.00009086178974456264
+          },
+          {
+            "token": " as",
+            "prob": 0.0000034810659625638012
+          }
+        ]
+      },
+      {
+        "token": " arrests",
+        "prob": 0.9668608563221905,
+        "top": [
+          {
+            "token": " arrests",
+            "prob": 0.9668608563221905
+          },
+          {
+            "token": " including",
+            "prob": 0.01704437571090412
+          },
+          {
+            "token": " both",
+            "prob": 0.006288431521607868
+          },
+          {
+            "token": " property",
+            "prob": 0.0026838901189476195
+          },
+          {
+            "token": " several",
+            "prob": 0.0015891034336446752
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9999980183344636,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9999980183344636
+          },
+          {
+            "token": " and",
+            "prob": 0.0000018455061168762555
+          },
+          {
+            "token": " of",
+            "prob": 2.1964463171387766e-8
+          },
+          {
+            "token": ",and",
+            "prob": 1.0603761927174731e-8
+          },
+          {
+            "token": " ,",
+            "prob": 9.795841216458723e-10
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9999957534720165,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9999957534720165
+          },
+          {
+            "token": " property",
+            "prob": 0.000003502950305914971
+          },
+          {
+            "token": " thousands",
+            "prob": 1.8176212686138406e-7
+          },
+          {
+            "token": " damage",
+            "prob": 1.1298983251790089e-7
+          },
+          {
+            "token": " vandalism",
+            "prob": 1.1163792667224088e-7
+          }
+        ]
+      },
+      {
+        "token": " thousands",
+        "prob": 0.4553193036000307,
+        "top": [
+          {
+            "token": " thousands",
+            "prob": 0.4553193036000307
+          },
+          {
+            "token": " extensive",
+            "prob": 0.244759300082318
+          },
+          {
+            "token": " significant",
+            "prob": 0.21596718589312744
+          },
+          {
+            "token": " property",
+            "prob": 0.03150920984034755
+          },
+          {
+            "token": " hundreds",
+            "prob": 0.012237693000670322
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999998063873687,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999998063873687
+          },
+          {
+            "token": " in",
+            "prob": 1.1830130911055625e-7
+          },
+          {
+            "token": " ",
+            "prob": 9.759760263393374e-9
+          },
+          {
+            "token": " o",
+            "prob": 3.3931844184443006e-9
+          },
+          {
+            "token": ",",
+            "prob": 2.0526401384044284e-9
+          }
+        ]
+      },
+      {
+        "token": " dollars",
+        "prob": 0.9999994487765019,
+        "top": [
+          {
+            "token": " dollars",
+            "prob": 0.9999994487765019
+          },
+          {
+            "token": " dollar",
+            "prob": 1.928373016876279e-7
+          },
+          {
+            "token": " ",
+            "prob": 6.669218882187206e-8
+          },
+          {
+            "token": " pounds",
+            "prob": 3.70505366807068e-8
+          },
+          {
+            "token": " damage",
+            "prob": 1.724947722026284e-8
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.8138429806917273,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.8138429806917273
+          },
+          {
+            "token": " worth",
+            "prob": 0.1852783852172628
+          },
+          {
+            "token": " of",
+            "prob": 0.0005357703179596349
+          },
+          {
+            "token": "'",
+            "prob": 0.00024863117114553397
+          },
+          {
+            "token": "’",
+            "prob": 0.00008988149297736511
+          }
+        ]
+      },
+      {
+        "token": " property",
+        "prob": 0.8929941402475603,
+        "top": [
+          {
+            "token": " property",
+            "prob": 0.8929941402475603
+          },
+          {
+            "token": " damages",
+            "prob": 0.07327403221841519
+          },
+          {
+            "token": " damage",
+            "prob": 0.03371986329428794
+          },
+          {
+            "token": " damaged",
+            "prob": 0.000011644634988863454
+          },
+          {
+            "token": " vandalism",
+            "prob": 9.061754402352771e-8
+          }
+        ]
+      },
+      {
+        "token": " damage",
+        "prob": 0.9999521260689932,
+        "top": [
+          {
+            "token": " damage",
+            "prob": 0.9999521260689932
+          },
+          {
+            "token": " damages",
+            "prob": 0.000047851121620270475
+          },
+          {
+            "token": " damaged",
+            "prob": 2.751597752721442e-8
+          },
+          {
+            "token": " destruction",
+            "prob": 1.7335264496144206e-8
+          },
+          {
+            "token": "damage",
+            "prob": 5.23039518781769e-9
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9999825220097418,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9999825220097418
+          },
+          {
+            "token": " to",
+            "prob": 0.000015112490056331334
+          },
+          {
+            "token": ",",
+            "prob": 0.000001609248915387889
+          },
+          {
+            "token": " on",
+            "prob": 2.4295757435022746e-7
+          },
+          {
+            "token": " for",
+            "prob": 1.6961036518135144e-7
+          }
+        ]
+      },
+      {
+        "token": " The",
+        "prob": 0.7546619713921796,
+        "top": [
+          {
+            "token": " The",
+            "prob": 0.7546619713921796
+          },
+          {
+            "token": " It",
+            "prob": 0.18182983532588665
+          },
+          {
+            "token": " In",
+            "prob": 0.04879529913323413
+          },
+          {
+            "token": " Syracuse",
+            "prob": 0.0068511661522021325
+          },
+          {
+            "token": " Many",
+            "prob": 0.0036367396473174344
+          }
+        ]
+      },
+      {
+        "token": " university",
+        "prob": 0.6535729254659737,
+        "top": [
+          {
+            "token": " university",
+            "prob": 0.6535729254659737
+          },
+          {
+            "token": " event",
+            "prob": 0.22362169868276488
+          },
+          {
+            "token": " incident",
+            "prob": 0.09771135534733927
+          },
+          {
+            "token": " aftermath",
+            "prob": 0.009677909129919966
+          },
+          {
+            "token": " chaos",
+            "prob": 0.00589296801952042
+          }
+        ]
+      },
+      {
+        "token": " was",
+        "prob": 0.4727687266808408,
+        "top": [
+          {
+            "token": " was",
+            "prob": 0.4727687266808408
+          },
+          {
+            "token": " condemned",
+            "prob": 0.22007268518303347
+          },
+          {
+            "token": " and",
+            "prob": 0.11809563696807358
+          },
+          {
+            "token": " faced",
+            "prob": 0.05196170884595861
+          },
+          {
+            "token": " administration",
+            "prob": 0.045638081060366445
+          }
+        ]
+      },
+      {
+        "token": " forced",
+        "prob": 0.5602704306177039,
+        "top": [
+          {
+            "token": " forced",
+            "prob": 0.5602704306177039
+          },
+          {
+            "token": " left",
+            "prob": 0.15477700118819282
+          },
+          {
+            "token": " heavily",
+            "prob": 0.13064342677393778
+          },
+          {
+            "token": " criticized",
+            "prob": 0.07309028654916387
+          },
+          {
+            "token": " widely",
+            "prob": 0.05948526167828181
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 1,
+        "top": [
+          {
+            "token": " to",
+            "prob": 1
+          },
+          {
+            "token": " the",
+            "prob": 2.3111465513040938e-8
+          },
+          {
+            "token": " ",
+            "prob": 6.954304615242128e-9
+          },
+          {
+            "token": " t",
+            "prob": 3.895308331147536e-9
+          },
+          {
+            "token": " into",
+            "prob": 1.3837951551362593e-9
+          }
+        ]
+      },
+      {
+        "token": " take",
+        "prob": 0.6575032315745595,
+        "top": [
+          {
+            "token": " take",
+            "prob": 0.6575032315745595
+          },
+          {
+            "token": " implement",
+            "prob": 0.0687190792479262
+          },
+          {
+            "token": " crack",
+            "prob": 0.067727024398974
+          },
+          {
+            "token": " issue",
+            "prob": 0.05750308387547806
+          },
+          {
+            "token": " address",
+            "prob": 0.04294412185948104
+          }
+        ]
+      },
+      {
+        "token": " action",
+        "prob": 0.5570261178158682,
+        "top": [
+          {
+            "token": " action",
+            "prob": 0.5570261178158682
+          },
+          {
+            "token": " disciplinary",
+            "prob": 0.36010986987392124
+          },
+          {
+            "token": " measures",
+            "prob": 0.025092376602321952
+          },
+          {
+            "token": " strict",
+            "prob": 0.016938373664578066
+          },
+          {
+            "token": " swift",
+            "prob": 0.01690577499067452
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.8960468494872327,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.8960468494872327
+          },
+          {
+            "token": " in",
+            "prob": 0.053935094987964796
+          },
+          {
+            "token": " and",
+            "prob": 0.01799418911770367
+          },
+          {
+            "token": " against",
+            "prob": 0.01505083210420053
+          },
+          {
+            "token": ",",
+            "prob": 0.014694275247412774
+          }
+        ]
+      },
+      {
+        "token": " prevent",
+        "prob": 0.6695939868896806,
+        "top": [
+          {
+            "token": " prevent",
+            "prob": 0.6695939868896806
+          },
+          {
+            "token": " address",
+            "prob": 0.3099644083092443
+          },
+          {
+            "token": " try",
+            "prob": 0.009799998954395045
+          },
+          {
+            "token": " crack",
+            "prob": 0.006241460933782143
+          },
+          {
+            "token": " ensure",
+            "prob": 0.001934554909286224
+          }
+        ]
+      },
+      {
+        "token": " future",
+        "prob": 0.5440575757232766,
+        "top": [
+          {
+            "token": " future",
+            "prob": 0.5440575757232766
+          },
+          {
+            "token": " similar",
+            "prob": 0.3145341889018781
+          },
+          {
+            "token": " a",
+            "prob": 0.10723309027910015
+          },
+          {
+            "token": " further",
+            "prob": 0.018925236179013188
+          },
+          {
+            "token": " any",
+            "prob": 0.008784281920108203
+          }
+        ]
+      },
+      {
+        "token": " incidents",
+        "prob": 0.915005831960139,
+        "top": [
+          {
+            "token": " incidents",
+            "prob": 0.915005831960139
+          },
+          {
+            "token": " riots",
+            "prob": 0.07386459198627258
+          },
+          {
+            "token": " similar",
+            "prob": 0.0029464005681644396
+          },
+          {
+            "token": " occurrences",
+            "prob": 0.002472671831041249
+          },
+          {
+            "token": " events",
+            "prob": 0.001964359187655083
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9611103022330661,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9611103022330661
+          },
+          {
+            "token": " by",
+            "prob": 0.023947012546587473
+          },
+          {
+            "token": " and",
+            "prob": 0.007008487951425811
+          },
+          {
+            "token": " from",
+            "prob": 0.004196166116416295
+          },
+          {
+            "token": " of",
+            "prob": 0.002246439636129553
+          }
+        ]
+      },
+      {
+        "token": " including",
+        "prob": 0.7778043613394368,
+        "top": [
+          {
+            "token": " including",
+            "prob": 0.7778043613394368
+          },
+          {
+            "token": " implementing",
+            "prob": 0.1599875626831511
+          },
+          {
+            "token": " such",
+            "prob": 0.018660598688888433
+          },
+          {
+            "token": " instit",
+            "prob": 0.01404959091494912
+          },
+          {
+            "token": " cracking",
+            "prob": 0.01186343853936005
+          }
+        ]
+      },
+      {
+        "token": " increasing",
+        "prob": 0.39523407288919304,
+        "top": [
+          {
+            "token": " increasing",
+            "prob": 0.39523407288919304
+          },
+          {
+            "token": " implementing",
+            "prob": 0.3120018068511001
+          },
+          {
+            "token": " banning",
+            "prob": 0.12163709480597416
+          },
+          {
+            "token": " increased",
+            "prob": 0.06636266199586136
+          },
+          {
+            "token": " cracking",
+            "prob": 0.046163654021689024
+          }
+        ]
+      },
+      {
+        "token": " security",
+        "prob": 0.8863094349244671,
+        "top": [
+          {
+            "token": " security",
+            "prob": 0.8863094349244671
+          },
+          {
+            "token": " police",
+            "prob": 0.11079972351766501
+          },
+          {
+            "token": " campus",
+            "prob": 0.0025856302249033744
+          },
+          {
+            "token": " patrols",
+            "prob": 0.0001430224424225974
+          },
+          {
+            "token": " the",
+            "prob": 0.00005986497191107725
+          }
+        ]
+      },
+      {
+        "token": " measures",
+        "prob": 0.9505443057895813,
+        "top": [
+          {
+            "token": " measures",
+            "prob": 0.9505443057895813
+          },
+          {
+            "token": " and",
+            "prob": 0.04437249870440166
+          },
+          {
+            "token": " on",
+            "prob": 0.0017234772017054622
+          },
+          {
+            "token": " presence",
+            "prob": 0.001491448475545113
+          },
+          {
+            "token": " patrols",
+            "prob": 0.0008280632645802131
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9884347190173812,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9884347190173812
+          },
+          {
+            "token": " during",
+            "prob": 0.009376244211859149
+          },
+          {
+            "token": " on",
+            "prob": 0.0016508185882543696
+          },
+          {
+            "token": ",",
+            "prob": 0.0004291771874278393
+          },
+          {
+            "token": " around",
+            "prob": 0.00008913780633133709
+          }
+        ]
+      },
+      {
+        "token": " cracking",
+        "prob": 0.9441452992347708,
+        "top": [
+          {
+            "token": " cracking",
+            "prob": 0.9441452992347708
+          },
+          {
+            "token": " implementing",
+            "prob": 0.044735925397001955
+          },
+          {
+            "token": " banning",
+            "prob": 0.0038033257410366285
+          },
+          {
+            "token": " enforcing",
+            "prob": 0.0033074757295719014
+          },
+          {
+            "token": " imposing",
+            "prob": 0.0009955955073361021
+          }
+        ]
+      },
+      {
+        "token": " down",
+        "prob": 0.9999998063873687,
+        "top": [
+          {
+            "token": " down",
+            "prob": 0.9999998063873687
+          },
+          {
+            "token": "-down",
+            "prob": 4.4432573460064156e-8
+          },
+          {
+            "token": " dow",
+            "prob": 2.9082419099508342e-8
+          },
+          {
+            "token": " downs",
+            "prob": 2.165459856939036e-8
+          },
+          {
+            "token": " on",
+            "prob": 9.077064405191731e-9
+          }
+        ]
+      },
+      {
+        "token": " on",
+        "prob": 1,
+        "top": [
+          {
+            "token": " on",
+            "prob": 1
+          },
+          {
+            "token": " harsh",
+            "prob": 1.779315507417428e-8
+          },
+          {
+            "token": " more",
+            "prob": 8.601123523091136e-9
+          },
+          {
+            "token": " harder",
+            "prob": 1.8318544912911758e-9
+          },
+          {
+            "token": " hard",
+            "prob": 1.623570663377875e-9
+          }
+        ]
+      },
+      {
+        "token": " student",
+        "prob": 0.4124825405675565,
+        "top": [
+          {
+            "token": " student",
+            "prob": 0.4124825405675565
+          },
+          {
+            "token": " unr",
+            "prob": 0.37920607051019173
+          },
+          {
+            "token": " disruptive",
+            "prob": 0.11045843308178846
+          },
+          {
+            "token": " destructive",
+            "prob": 0.026372444048382515
+          },
+          {
+            "token": " the",
+            "prob": 0.016578352515236535
+          }
+        ]
+      },
+      {
+        "token": " behavior",
+        "prob": 0.8355297284098377,
+        "top": [
+          {
+            "token": " behavior",
+            "prob": 0.8355297284098377
+          },
+          {
+            "token": " misconduct",
+            "prob": 0.15258557389804134
+          },
+          {
+            "token": " conduct",
+            "prob": 0.004294556450534221
+          },
+          {
+            "token": " gatherings",
+            "prob": 0.0027439011330423007
+          },
+          {
+            "token": " mis",
+            "prob": 0.00187236301772845
+          }
+        ]
+      },
+      {
+        "token": ".\n\n",
+        "prob": 0.877678215215751,
+        "top": [
+          {
+            "token": ".\n\n",
+            "prob": 0.877678215215751
+          },
+          {
+            "token": " during",
+            "prob": 0.0847852661085726
+          },
+          {
+            "token": ".",
+            "prob": 0.03562381514621611
+          },
+          {
+            "token": " on",
+            "prob": 0.0017007221908203894
+          },
+          {
+            "token": " around",
+            "prob": 0.00012837421559463042
+          }
+        ]
+      },
+      {
+        "token": "The",
+        "prob": 0.9564998116669184,
+        "top": [
+          {
+            "token": "The",
+            "prob": 0.9564998116669184
+          },
+          {
+            "token": "Overall",
+            "prob": 0.040762831721141084
+          },
+          {
+            "token": "In",
+            "prob": 0.00215456528429619
+          },
+          {
+            "token": "Despite",
+            "prob": 0.00026200342022355633
+          },
+          {
+            "token": "Ultimately",
+            "prob": 0.00015290327898013226
+          }
+        ]
+      },
+      {
+        "token": " Great",
+        "prob": 0.6939840510051476,
+        "top": [
+          {
+            "token": " Great",
+            "prob": 0.6939840510051476
+          },
+          {
+            "token": " event",
+            "prob": 0.19041276800946066
+          },
+          {
+            "token": " riot",
+            "prob": 0.09481507152749259
+          },
+          {
+            "token": " events",
+            "prob": 0.01131575473450052
+          },
+          {
+            "token": " incident",
+            "prob": 0.007211992597903168
+          }
+        ]
+      },
+      {
+        "token": " Pumpkin",
+        "prob": 0.9999981375378344,
+        "top": [
+          {
+            "token": " Pumpkin",
+            "prob": 0.9999981375378344
+          },
+          {
+            "token": " Pump",
+            "prob": 0.0000015887698824453241
+          },
+          {
+            "token": " pumpkin",
+            "prob": 1.5249469932921302e-7
+          },
+          {
+            "token": " Punk",
+            "prob": 4.134154129525161e-8
+          },
+          {
+            "token": " P",
+            "prob": 2.7736960474472278e-8
+          }
+        ]
+      },
+      {
+        "token": " Riot",
+        "prob": 0.9999950382530095,
+        "top": [
+          {
+            "token": " Riot",
+            "prob": 0.9999950382530095
+          },
+          {
+            "token": " Ri",
+            "prob": 0.0000031202607060574424
+          },
+          {
+            "token": " riot",
+            "prob": 0.0000016973268256632575
+          },
+          {
+            "token": " Raid",
+            "prob": 5.5442687910827636e-8
+          },
+          {
+            "token": " Ride",
+            "prob": 1.5396047751151583e-8
+          }
+        ]
+      },
+      {
+        "token": " at",
+        "prob": 0.6138378706619297,
+        "top": [
+          {
+            "token": " at",
+            "prob": 0.6138378706619297
+          },
+          {
+            "token": " of",
+            "prob": 0.158569388361909
+          },
+          {
+            "token": " remains",
+            "prob": 0.10057659524743882
+          },
+          {
+            "token": " serves",
+            "prob": 0.07860991047713342
+          },
+          {
+            "token": " served",
+            "prob": 0.015877513754480096
+          }
+        ]
+      },
+      {
+        "token": " Syracuse",
+        "prob": 0.9999993295729247,
+        "top": [
+          {
+            "token": " Syracuse",
+            "prob": 0.9999993295729247
+          },
+          {
+            "token": " SU",
+            "prob": 4.240383235787777e-7
+          },
+          {
+            "token": " ",
+            "prob": 6.275798600627552e-8
+          },
+          {
+            "token": " Sy",
+            "prob": 4.810517871681384e-8
+          },
+          {
+            "token": " S",
+            "prob": 1.4396265561569062e-8
+          }
+        ]
+      },
+      {
+        "token": " University",
+        "prob": 0.9999988527586581,
+        "top": [
+          {
+            "token": " University",
+            "prob": 0.9999988527586581
+          },
+          {
+            "token": " became",
+            "prob": 3.6512502783658543e-7
+          },
+          {
+            "token": " remains",
+            "prob": 2.1431305865410922e-7
+          },
+          {
+            "token": " in",
+            "prob": 2.0661452041213972e-7
+          },
+          {
+            "token": " was",
+            "prob": 8.116635686154841e-8
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.9809414560758112,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.9809414560758112
+          },
+          {
+            "token": " serves",
+            "prob": 0.01262275173594607
+          },
+          {
+            "token": " remains",
+            "prob": 0.003989479131841566
+          },
+          {
+            "token": " is",
+            "prob": 0.001007421684168525
+          },
+          {
+            "token": " served",
+            "prob": 0.0007169022920085592
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.99999861435166,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.99999861435166
+          },
+          {
+            "token": "198",
+            "prob": 0.0000013199166068374748
+          },
+          {
+            "token": " in",
+            "prob": 1.8185013793463365e-8
+          },
+          {
+            "token": " the",
+            "prob": 8.81470929575991e-9
+          },
+          {
+            "token": "197",
+            "prob": 6.847179645777508e-9
+          }
+        ]
+      },
+      {
+        "token": "198",
+        "prob": 0.9999995679800934,
+        "top": [
+          {
+            "token": "198",
+            "prob": 0.9999995679800934
+          },
+          {
+            "token": " ",
+            "prob": 5.9398670083210103e-8
+          },
+          {
+            "token": "987",
+            "prob": 5.390352296692319e-8
+          },
+          {
+            "token": "199",
+            "prob": 5.319050148790631e-8
+          },
+          {
+            "token": "1",
+            "prob": 3.6666144530528186e-8
+          }
+        ]
+      },
+      {
+        "token": "7",
+        "prob": 0.9999977799274644,
+        "top": [
+          {
+            "token": "7",
+            "prob": 0.9999977799274644
+          },
+          {
+            "token": "9",
+            "prob": 6.451983809986761e-7
+          },
+          {
+            "token": "6",
+            "prob": 5.365720433074854e-7
+          },
+          {
+            "token": "8",
+            "prob": 4.227731881215731e-7
+          },
+          {
+            "token": "87",
+            "prob": 1.436513002568925e-7
+          }
+        ]
+      },
+      {
+        "token": " serves",
+        "prob": 0.5427931667454403,
+        "top": [
+          {
+            "token": " serves",
+            "prob": 0.5427931667454403
+          },
+          {
+            "token": " remains",
+            "prob": 0.32726733626355703
+          },
+          {
+            "token": " served",
+            "prob": 0.06028371970565467
+          },
+          {
+            "token": " was",
+            "prob": 0.03321673379733361
+          },
+          {
+            "token": " is",
+            "prob": 0.023675805908585583
+          }
+        ]
+      },
+      {
+        "token": " as",
+        "prob": 0.9999992103693117,
+        "top": [
+          {
+            "token": " as",
+            "prob": 0.9999992103693117
+          },
+          {
+            "token": " a",
+            "prob": 6.627473435557135e-7
+          },
+          {
+            "token": " an",
+            "prob": 3.749013519662887e-8
+          },
+          {
+            "token": " to",
+            "prob": 6.783653607334742e-9
+          },
+          {
+            "token": " both",
+            "prob": 6.06325531743753e-9
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.9999891973193493,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.9999891973193493
+          },
+          {
+            "token": " an",
+            "prob": 0.000010524002049930458
+          },
+          {
+            "token": " reminder",
+            "prob": 1.3457408119224196e-7
+          },
+          {
+            "token": " both",
+            "prob": 6.838926288536427e-8
+          },
+          {
+            "token": " caution",
+            "prob": 1.0164912478365715e-8
+          }
+        ]
+      },
+      {
+        "token": " caution",
+        "prob": 0.7937478717806964,
+        "top": [
+          {
+            "token": " caution",
+            "prob": 0.7937478717806964
+          },
+          {
+            "token": " reminder",
+            "prob": 0.16174636804175918
+          },
+          {
+            "token": " stark",
+            "prob": 0.03857702835509784
+          },
+          {
+            "token": " dark",
+            "prob": 0.0022999207802725037
+          },
+          {
+            "token": " sober",
+            "prob": 0.001210591737085995
+          }
+        ]
+      },
+      {
+        "token": "ary",
+        "prob": 1,
+        "top": [
+          {
+            "token": "ary",
+            "prob": 1
+          },
+          {
+            "token": " to",
+            "prob": 1.4619278690487388e-11
+          },
+          {
+            "token": " of",
+            "prob": 4.475938793261912e-12
+          },
+          {
+            "token": "ARY",
+            "prob": 2.8313768589216173e-12
+          },
+          {
+            "token": "ar",
+            "prob": 2.7390992238460114e-12
+          }
+        ]
+      },
+      {
+        "token": " tale",
+        "prob": 0.9984527723927118,
+        "top": [
+          {
+            "token": " tale",
+            "prob": 0.9984527723927118
+          },
+          {
+            "token": " reminder",
+            "prob": 0.0013041699424557155
+          },
+          {
+            "token": " example",
+            "prob": 0.00024189495410287997
+          },
+          {
+            "token": " lesson",
+            "prob": 6.932404002527922e-7
+          },
+          {
+            "token": " and",
+            "prob": 2.0336488669890322e-7
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.6851115412735084,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.6851115412735084
+          },
+          {
+            "token": " about",
+            "prob": 0.31485133624115486
+          },
+          {
+            "token": " and",
+            "prob": 0.000011312966638237817
+          },
+          {
+            "token": " on",
+            "prob": 0.000010216402919160264
+          },
+          {
+            "token": " for",
+            "prob": 0.00000944026977835163
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.7188777956730869,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.7188777956730869
+          },
+          {
+            "token": " how",
+            "prob": 0.27025924877883406
+          },
+          {
+            "token": " what",
+            "prob": 0.010815608031817983
+          },
+          {
+            "token": " mob",
+            "prob": 0.000028669749943328577
+          },
+          {
+            "token": " unchecked",
+            "prob": 0.000010518520472937254
+          }
+        ]
+      },
+      {
+        "token": " dangers",
+        "prob": 0.8470840980023179,
+        "top": [
+          {
+            "token": " dangers",
+            "prob": 0.8470840980023179
+          },
+          {
+            "token": " potential",
+            "prob": 0.10496781496033923
+          },
+          {
+            "token": " consequences",
+            "prob": 0.037325340986218196
+          },
+          {
+            "token": " destructive",
+            "prob": 0.0059068741270522675
+          },
+          {
+            "token": " dangerous",
+            "prob": 0.003739572421101839
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9998072065270506,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9998072065270506
+          },
+          {
+            "token": " that",
+            "prob": 0.00014620906623792352
+          },
+          {
+            "token": " and",
+            "prob": 0.00004586707585113191
+          },
+          {
+            "token": " associated",
+            "prob": 4.4312098515503433e-7
+          },
+          {
+            "token": " inherent",
+            "prob": 5.8032304924482296e-8
+          }
+        ]
+      },
+      {
+        "token": " mob",
+        "prob": 0.9020917406984704,
+        "top": [
+          {
+            "token": " mob",
+            "prob": 0.9020917406984704
+          },
+          {
+            "token": " unchecked",
+            "prob": 0.057747830349016135
+          },
+          {
+            "token": " unr",
+            "prob": 0.014100838715475824
+          },
+          {
+            "token": " mass",
+            "prob": 0.009595966740366633
+          },
+          {
+            "token": " large",
+            "prob": 0.008943878027652355
+          }
+        ]
+      },
+      {
+        "token": " mentality",
+        "prob": 0.9780436265674954,
+        "top": [
+          {
+            "token": " mentality",
+            "prob": 0.9780436265674954
+          },
+          {
+            "token": " behavior",
+            "prob": 0.02184216506513028
+          },
+          {
+            "token": " violence",
+            "prob": 0.00007643193131186641
+          },
+          {
+            "token": " mental",
+            "prob": 0.000026024998528630918
+          },
+          {
+            "token": " psychology",
+            "prob": 0.000005474733276879982
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9996866322899207,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9996866322899207
+          },
+          {
+            "token": ",",
+            "prob": 0.0003133361443746874
+          },
+          {
+            "token": " during",
+            "prob": 5.362197309855434e-9
+          },
+          {
+            "token": ".",
+            "prob": 4.546300552886901e-9
+          },
+          {
+            "token": " in",
+            "prob": 2.522841478046575e-9
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9026658846129267,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9026658846129267
+          },
+          {
+            "token": " unr",
+            "prob": 0.04950597052571442
+          },
+          {
+            "token": " unchecked",
+            "prob": 0.019502082972785235
+          },
+          {
+            "token": " destructive",
+            "prob": 0.007908493266395403
+          },
+          {
+            "token": " reckless",
+            "prob": 0.007846560469171465
+          }
+        ]
+      },
+      {
+        "token": " consequences",
+        "prob": 0.46641690448268724,
+        "top": [
+          {
+            "token": " consequences",
+            "prob": 0.46641690448268724
+          },
+          {
+            "token": " potential",
+            "prob": 0.46057694367599755
+          },
+          {
+            "token": " destructive",
+            "prob": 0.04975237389666762
+          },
+          {
+            "token": " importance",
+            "prob": 0.016824771239624073
+          },
+          {
+            "token": " need",
+            "prob": 0.004067055523295023
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9998445071102727,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9998445071102727
+          },
+          {
+            "token": " that",
+            "prob": 0.00015516678302856173
+          },
+          {
+            "token": " when",
+            "prob": 2.202703899554157e-7
+          },
+          {
+            "token": " it",
+            "prob": 1.7635235715437133e-9
+          },
+          {
+            "token": "of",
+            "prob": 3.8608097062634975e-10
+          }
+        ]
+      },
+      {
+        "token": " unchecked",
+        "prob": 0.8113347564966323,
+        "top": [
+          {
+            "token": " unchecked",
+            "prob": 0.8113347564966323
+          },
+          {
+            "token": " unr",
+            "prob": 0.09174144856889112
+          },
+          {
+            "token": " destructive",
+            "prob": 0.03150642139866705
+          },
+          {
+            "token": " reckless",
+            "prob": 0.020324622437125343
+          },
+          {
+            "token": " irresponsible",
+            "prob": 0.018700649932068013
+          }
+        ]
+      },
+      {
+        "token": " behavior",
+        "prob": 0.7234678866535322,
+        "top": [
+          {
+            "token": " behavior",
+            "prob": 0.7234678866535322
+          },
+          {
+            "token": " destructive",
+            "prob": 0.07642331952483626
+          },
+          {
+            "token": " student",
+            "prob": 0.061662550096009225
+          },
+          {
+            "token": " chaos",
+            "prob": 0.05211835963874657
+          },
+          {
+            "token": " violence",
+            "prob": 0.01529624355514663
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9054796732550765,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9054796732550765
+          },
+          {
+            "token": " in",
+            "prob": 0.07042873017438132
+          },
+          {
+            "token": " during",
+            "prob": 0.0235725895903899
+          },
+          {
+            "token": ",",
+            "prob": 0.0002854479092445479
+          },
+          {
+            "token": " among",
+            "prob": 0.0000860388172648399
+          }
+        ]
+      },
+      {
+        "token": " It",
+        "prob": 0.8450732153447963,
+        "top": [
+          {
+            "token": " It",
+            "prob": 0.8450732153447963
+          },
+          {
+            "token": "<|end|>",
+            "prob": 0.14596036014417574
+          },
+          {
+            "token": " The",
+            "prob": 0.008595632960371614
+          },
+          {
+            "token": " Despite",
+            "prob": 0.00018968438473284616
+          },
+          {
+            "token": " Since",
+            "prob": 0.00007165368316905861
+          }
+        ]
+      },
+      {
+        "token": " remains",
+        "prob": 0.7964649863365274,
+        "top": [
+          {
+            "token": " remains",
+            "prob": 0.7964649863365274
+          },
+          {
+            "token": " also",
+            "prob": 0.1325569254209655
+          },
+          {
+            "token": " is",
+            "prob": 0.04372830827458471
+          },
+          {
+            "token": " was",
+            "prob": 0.021027303901134223
+          },
+          {
+            "token": " stands",
+            "prob": 0.002278611529062176
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.9774085367916618,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.9774085367916618
+          },
+          {
+            "token": " one",
+            "prob": 0.015164278737020304
+          },
+          {
+            "token": " as",
+            "prob": 0.006514563955253464
+          },
+          {
+            "token": " an",
+            "prob": 0.0007896675688405004
+          },
+          {
+            "token": " infamous",
+            "prob": 0.00007381762749007993
+          }
+        ]
+      },
+      {
+        "token": " notorious",
+        "prob": 0.5124105088986404,
+        "top": [
+          {
+            "token": " notorious",
+            "prob": 0.5124105088986404
+          },
+          {
+            "token": " dark",
+            "prob": 0.34037419262744567
+          },
+          {
+            "token": " notable",
+            "prob": 0.03854604416238091
+          },
+          {
+            "token": " significant",
+            "prob": 0.03109645044226257
+          },
+          {
+            "token": " memorable",
+            "prob": 0.025242977014195336
+          }
+        ]
+      },
+      {
+        "token": " event",
+        "prob": 0.8976334400051085,
+        "top": [
+          {
+            "token": " event",
+            "prob": 0.8976334400051085
+          },
+          {
+            "token": " and",
+            "prob": 0.08740907226925052
+          },
+          {
+            "token": " incident",
+            "prob": 0.00782472255041893
+          },
+          {
+            "token": " chapter",
+            "prob": 0.004689853188995181
+          },
+          {
+            "token": " moment",
+            "prob": 0.0019095883188972897
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.9999980183344636,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.9999980183344636
+          },
+          {
+            "token": " that",
+            "prob": 0.0000016820908244196122
+          },
+          {
+            "token": " at",
+            "prob": 8.508304988461482e-8
+          },
+          {
+            "token": " remembered",
+            "prob": 3.8905430286914347e-8
+          },
+          {
+            "token": " et",
+            "prob": 1.6788394379515707e-8
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9999075470290394,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9999075470290394
+          },
+          {
+            "token": " Syracuse",
+            "prob": 0.00005483921597294015
+          },
+          {
+            "token": " university",
+            "prob": 0.000035275954562366126
+          },
+          {
+            "token": " both",
+            "prob": 0.0000015507040567548382
+          },
+          {
+            "token": " campus",
+            "prob": 3.9236217809461163e-7
+          }
+        ]
+      },
+      {
+        "token": " history",
+        "prob": 0.6282072318031283,
+        "top": [
+          {
+            "token": " history",
+            "prob": 0.6282072318031283
+          },
+          {
+            "token": " university",
+            "prob": 0.3666663399168667
+          },
+          {
+            "token": " school",
+            "prob": 0.005087778437404914
+          },
+          {
+            "token": " University",
+            "prob": 0.000017958428480579204
+          },
+          {
+            "token": " campus",
+            "prob": 0.00000769294409892226
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999998063873687,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999998063873687
+          },
+          {
+            "token": " and",
+            "prob": 1.3526108002830825e-7
+          },
+          {
+            "token": " the",
+            "prob": 2.7351676827345855e-8
+          },
+          {
+            "token": " Syracuse",
+            "prob": 5.0785400926253186e-9
+          },
+          {
+            "token": " ",
+            "prob": 1.2585670815407264e-9
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9998254376677772,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9998254376677772
+          },
+          {
+            "token": " Syracuse",
+            "prob": 0.0001215374636394491
+          },
+          {
+            "token": " both",
+            "prob": 0.0000526674995231372
+          },
+          {
+            "token": " not",
+            "prob": 1.9201660198211114e-7
+          },
+          {
+            "token": " campus",
+            "prob": 2.9649279854800007e-8
+          }
+        ]
+      },
+      {
+        "token": " university",
+        "prob": 0.9998847814881626,
+        "top": [
+          {
+            "token": " university",
+            "prob": 0.9998847814881626
+          },
+          {
+            "token": " school",
+            "prob": 0.00009299117144650149
+          },
+          {
+            "token": " University",
+            "prob": 0.000019445225375789477
+          },
+          {
+            "token": " campus",
+            "prob": 0.0000017036867135683228
+          },
+          {
+            "token": " institution",
+            "prob": 5.648034739640998e-7
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9281750894651659,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9281750894651659
+          },
+          {
+            "token": ".",
+            "prob": 0.06451462736748946
+          },
+          {
+            "token": ",",
+            "prob": 0.007256697815277028
+          },
+          {
+            "token": "'s",
+            "prob": 0.00002038979555820053
+          },
+          {
+            "token": " that",
+            "prob": 0.000016213278353599314
+          }
+        ]
+      },
+      {
+        "token": " serves",
+        "prob": 0.663515575984576,
+        "top": [
+          {
+            "token": " serves",
+            "prob": 0.663515575984576
+          },
+          {
+            "token": " a",
+            "prob": 0.2815703081684867
+          },
+          {
+            "token": " is",
+            "prob": 0.03162302450913025
+          },
+          {
+            "token": " has",
+            "prob": 0.009694199131917724
+          },
+          {
+            "token": " continues",
+            "prob": 0.004669674079470784
+          }
+        ]
+      },
+      {
+        "token": " as",
+        "prob": 0.9999984951481323,
+        "top": [
+          {
+            "token": " as",
+            "prob": 0.9999984951481323
+          },
+          {
+            "token": " to",
+            "prob": 9.24656980593415e-7
+          },
+          {
+            "token": " a",
+            "prob": 5.240624396955461e-7
+          },
+          {
+            "token": " an",
+            "prob": 2.5654470295202497e-8
+          },
+          {
+            "token": " ",
+            "prob": 8.173939061409034e-10
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.9999967070975216,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.9999967070975216
+          },
+          {
+            "token": " an",
+            "prob": 0.0000024691243113568033
+          },
+          {
+            "token": " reminder",
+            "prob": 7.203871940273987e-7
+          },
+          {
+            "token": " both",
+            "prob": 1.7554387697897168e-9
+          },
+          {
+            "token": " as",
+            "prob": 1.0033815415013656e-9
+          }
+        ]
+      },
+      {
+        "token": " reminder",
+        "prob": 0.9893815816875668,
+        "top": [
+          {
+            "token": " reminder",
+            "prob": 0.9893815816875668
+          },
+          {
+            "token": " stark",
+            "prob": 0.008860465289492294
+          },
+          {
+            "token": " lesson",
+            "prob": 0.0008916200223979181
+          },
+          {
+            "token": " warning",
+            "prob": 0.00029703056856400604
+          },
+          {
+            "token": " sober",
+            "prob": 0.0002545915657104174
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9993879470808498,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9993879470808498
+          },
+          {
+            "token": " to",
+            "prob": 0.000583457468039853
+          },
+          {
+            "token": " that",
+            "prob": 0.0000166002965218378
+          },
+          {
+            "token": " for",
+            "prob": 0.000012023475831321061
+          },
+          {
+            "token": " about",
+            "prob": 2.200179255783188e-9
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9994716518250796,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9994716518250796
+          },
+          {
+            "token": " how",
+            "prob": 0.00033296705726818774
+          },
+          {
+            "token": " what",
+            "prob": 0.00019463549598305302
+          },
+          {
+            "token": " why",
+            "prob": 4.877772452288333e-7
+          },
+          {
+            "token": " both",
+            "prob": 1.331490046657237e-7
+          }
+        ]
+      },
+      {
+        "token": " importance",
+        "prob": 0.6158030442097362,
+        "top": [
+          {
+            "token": " importance",
+            "prob": 0.6158030442097362
+          },
+          {
+            "token": " potential",
+            "prob": 0.18571263000226196
+          },
+          {
+            "token": " need",
+            "prob": 0.15946284987988213
+          },
+          {
+            "token": " destructive",
+            "prob": 0.020812392009243355
+          },
+          {
+            "token": " power",
+            "prob": 0.015972336849536747
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 1,
+        "top": [
+          {
+            "token": " of",
+            "prob": 1
+          },
+          {
+            "token": " for",
+            "prob": 3.442234222861996e-8
+          },
+          {
+            "token": " to",
+            "prob": 4.534481921170115e-9
+          },
+          {
+            "token": " and",
+            "prob": 4.438479385080319e-9
+          },
+          {
+            "token": "<|end|>",
+            "prob": 1.145851280228062e-9
+          }
+        ]
+      },
+      {
+        "token": " responsible",
+        "prob": 0.5112289735507403,
+        "top": [
+          {
+            "token": " responsible",
+            "prob": 0.5112289735507403
+          },
+          {
+            "token": " maintaining",
+            "prob": 0.4312474602194986
+          },
+          {
+            "token": " peaceful",
+            "prob": 0.035892809357442004
+          },
+          {
+            "token": " responsibility",
+            "prob": 0.008043274520802049
+          },
+          {
+            "token": " respecting",
+            "prob": 0.002775432744438305
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9447464881369881,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9447464881369881
+          },
+          {
+            "token": " behavior",
+            "prob": 0.045952344896621006
+          },
+          {
+            "token": " conduct",
+            "prob": 0.005285873998062783
+          },
+          {
+            "token": " decision",
+            "prob": 0.0016601173273248179
+          },
+          {
+            "token": " actions",
+            "prob": 0.0013095692665464937
+          }
+        ]
+      },
+      {
+        "token": " respectful",
+        "prob": 0.9527520857894197,
+        "top": [
+          {
+            "token": " respectful",
+            "prob": 0.9527520857894197
+          },
+          {
+            "token": " peaceful",
+            "prob": 0.03619410929678398
+          },
+          {
+            "token": " safe",
+            "prob": 0.009905194128329558
+          },
+          {
+            "token": " civil",
+            "prob": 0.0002524046510926705
+          },
+          {
+            "token": " consider",
+            "prob": 0.00018671241734759698
+          }
+        ]
+      },
+      {
+        "token": " behavior",
+        "prob": 0.922665951519716,
+        "top": [
+          {
+            "token": " behavior",
+            "prob": 0.922665951519716
+          },
+          {
+            "token": " conduct",
+            "prob": 0.07405431266934977
+          },
+          {
+            "token": " actions",
+            "prob": 0.0018457418418491715
+          },
+          {
+            "token": " student",
+            "prob": 0.0008612061941809415
+          },
+          {
+            "token": " community",
+            "prob": 0.0002668198090139448
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.39875403731756787,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.39875403731756787
+          },
+          {
+            "token": " in",
+            "prob": 0.32428244471158907
+          },
+          {
+            "token": ".",
+            "prob": 0.26177977031918837
+          },
+          {
+            "token": " during",
+            "prob": 0.009468810375522666
+          },
+          {
+            "token": " on",
+            "prob": 0.0032654131016999575
+          }
+        ]
+      },
+      {
+        "token": " especially",
+        "prob": 0.8858391155709506,
+        "top": [
+          {
+            "token": " especially",
+            "prob": 0.8858391155709506
+          },
+          {
+            "token": " even",
+            "prob": 0.07722827751225539
+          },
+          {
+            "token": " particularly",
+            "prob": 0.036776971652342366
+          },
+          {
+            "token": " both",
+            "prob": 0.00015489036715240467
+          },
+          {
+            "token": " regardless",
+            "prob": 2.566244768980101e-7
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.5908290848102505,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.5908290848102505
+          },
+          {
+            "token": " during",
+            "prob": 0.4090321580463516
+          },
+          {
+            "token": " when",
+            "prob": 0.00010489895546995654
+          },
+          {
+            "token": " on",
+            "prob": 0.000030271526703849957
+          },
+          {
+            "token": " within",
+            "prob": 0.0000026393417737987564
+          }
+        ]
+      },
+      {
+        "token": " large",
+        "prob": 0.9413556940658478,
+        "top": [
+          {
+            "token": " large",
+            "prob": 0.9413556940658478
+          },
+          {
+            "token": " times",
+            "prob": 0.029414774407397162
+          },
+          {
+            "token": " a",
+            "prob": 0.020291171276985893
+          },
+          {
+            "token": " high",
+            "prob": 0.0037150691026608005
+          },
+          {
+            "token": " the",
+            "prob": 0.003313364965817242
+          }
+        ]
+      },
+      {
+        "token": " gatherings",
+        "prob": 0.7179386925501103,
+        "top": [
+          {
+            "token": " gatherings",
+            "prob": 0.7179386925501103
+          },
+          {
+            "token": " crowds",
+            "prob": 0.1869379005312155
+          },
+          {
+            "token": " group",
+            "prob": 0.07211497922703662
+          },
+          {
+            "token": " groups",
+            "prob": 0.007296526981459644
+          },
+          {
+            "token": " social",
+            "prob": 0.006884431644688552
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9978909872991574,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9978909872991574
+          },
+          {
+            "token": " and",
+            "prob": 0.0017626569105114523
+          },
+          {
+            "token": " or",
+            "prob": 0.0002518655864141168
+          },
+          {
+            "token": " of",
+            "prob": 0.00008617943343528826
+          },
+          {
+            "token": " like",
+            "prob": 0.0000029738563887883766
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T16:44:07.496Z"
+}

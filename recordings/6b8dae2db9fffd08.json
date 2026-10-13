@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "openai/gpt-3.5-turbo",
+    "prompt": "My favorite color is",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "blue",
+    "tokens": [
+      {
+        "token": "blue",
+        "prob": 0.632177101625333,
+        "top": [
+          {
+            "token": "blue",
+            "prob": 0.632177101625333
+          },
+          {
+            "token": " blue",
+            "prob": 0.3186847848472115
+          },
+          {
+            "token": "purple",
+            "prob": 0.016895893073297547
+          },
+          {
+            "token": "green",
+            "prob": 0.007832884860422822
+          },
+          {
+            "token": " purple",
+            "prob": 0.005055679571681746
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T16:07:30.841Z"
+}

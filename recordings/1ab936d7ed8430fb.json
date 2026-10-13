@@ -1,0 +1,20 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-4-31b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I want to wash my car. The car wash is only 50 meters from my house. Should I walk or drive there?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "You should **drive** there.\n\nSince the goal is to wash the car, the car needs to be at the car wash. If you walk there, you will have a clean car at the car wash, but you will still be at your house!",
+    "tokens": null,
+    "provider": "Venice"
+  },
+  "savedAt": "2026-10-13T15:14:19.114Z"
+}

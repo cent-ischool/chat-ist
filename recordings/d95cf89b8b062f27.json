@@ -1,0 +1,1927 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Today's forecast for Syracuse, NY: high of 48°F, low of 35°F, 70% chance of rain after 2 PM, wind 15 mph from the northwest.\n\nI'm walking around campus for Parents Weekend this morning and going to the football game in the dome tonight.\n\nHow should I dress for the weather today?"
+      },
+      {
+        "role": "assistant",
+        "content": "It is recommended to dress in layers for the weather in Syracuse today. Start with a light jacket or sweater, and bring a waterproof jacket or umbrella in case of rain later in the day. Wear comfortable shoes for walking around campus, and consider bringing a hat and gloves for the cooler temperatures. Enjoy Parents Weekend and the football game!"
+      },
+      {
+        "role": "user",
+        "content": "Why did Nikola Tesla invent the internet"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "Nikola Tesla did not invent the internet. The internet as we know it today was developed through a series of technological advancements and collaborations over several decades. The internet was created as a way to connect computers and share information globally. While Tesla made significant contributions to the field of electrical engineering and technology, his work was not directly related to the invention of the internet.",
+    "tokens": [
+      {
+        "token": "N",
+        "prob": 0.9788165990359979,
+        "top": [
+          {
+            "token": "N",
+            "prob": 0.9788165990359979
+          },
+          {
+            "token": "It",
+            "prob": 0.011541079247054867
+          },
+          {
+            "token": "While",
+            "prob": 0.0073265591022800905
+          },
+          {
+            "token": "Although",
+            "prob": 0.0011514819661583371
+          },
+          {
+            "token": "There",
+            "prob": 0.0004362229901764543
+          }
+        ]
+      },
+      {
+        "token": "ik",
+        "prob": 0.9999998063873687,
+        "top": [
+          {
+            "token": "ik",
+            "prob": 0.9999998063873687
+          },
+          {
+            "token": "okia",
+            "prob": 3.1208479506553854e-8
+          },
+          {
+            "token": "iko",
+            "prob": 2.0758044056894714e-8
+          },
+          {
+            "token": "ok",
+            "prob": 1.4465779663078525e-8
+          },
+          {
+            "token": "і",
+            "prob": 6.582053883271632e-9
+          }
+        ]
+      },
+      {
+        "token": "ola",
+        "prob": 0.9999961110815618,
+        "top": [
+          {
+            "token": "ola",
+            "prob": 0.9999961110815618
+          },
+          {
+            "token": "ol",
+            "prob": 0.00000192397730794056
+          },
+          {
+            "token": "olas",
+            "prob": 7.937518151015611e-7
+          },
+          {
+            "token": "oa",
+            "prob": 3.209841795249315e-7
+          },
+          {
+            "token": "olo",
+            "prob": 2.636514160600255e-7
+          }
+        ]
+      },
+      {
+        "token": " Tesla",
+        "prob": 0.999977753956447,
+        "top": [
+          {
+            "token": " Tesla",
+            "prob": 0.999977753956447
+          },
+          {
+            "token": " T",
+            "prob": 0.000011591667928105258
+          },
+          {
+            "token": "Tesla",
+            "prob": 0.000005446828746630385
+          },
+          {
+            "token": " Tes",
+            "prob": 0.0000013242437714336097
+          },
+          {
+            "token": " ",
+            "prob": 8.49365701128229e-7
+          }
+        ]
+      },
+      {
+        "token": " did",
+        "prob": 0.9867288644747191,
+        "top": [
+          {
+            "token": " did",
+            "prob": 0.9867288644747191
+          },
+          {
+            "token": ",",
+            "prob": 0.0064760080507528656
+          },
+          {
+            "token": " is",
+            "prob": 0.004880056408817375
+          },
+          {
+            "token": " was",
+            "prob": 0.0013398096866417816
+          },
+          {
+            "token": " actually",
+            "prob": 0.0003083228838223932
+          }
+        ]
+      },
+      {
+        "token": " not",
+        "prob": 0.9999967070975216,
+        "top": [
+          {
+            "token": " not",
+            "prob": 0.9999967070975216
+          },
+          {
+            "token": " NOT",
+            "prob": 0.0000014195764577959202
+          },
+          {
+            "token": " indeed",
+            "prob": 7.581693950135254e-7
+          },
+          {
+            "token": " invent",
+            "prob": 2.2194549571835606e-7
+          },
+          {
+            "token": " contribute",
+            "prob": 1.710260419386701e-7
+          }
+        ]
+      },
+      {
+        "token": " invent",
+        "prob": 0.9621899063024323,
+        "top": [
+          {
+            "token": " invent",
+            "prob": 0.9621899063024323
+          },
+          {
+            "token": " actually",
+            "prob": 0.024805794596975128
+          },
+          {
+            "token": " specifically",
+            "prob": 0.006692889398176147
+          },
+          {
+            "token": " directly",
+            "prob": 0.005569488836945545
+          },
+          {
+            "token": " technically",
+            "prob": 0.0006109700609958564
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9999989719621284,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9999989719621284
+          },
+          {
+            "token": " or",
+            "prob": 7.018171057394071e-7
+          },
+          {
+            "token": " what",
+            "prob": 1.0568593692383073e-7
+          },
+          {
+            "token": " internet",
+            "prob": 1.0321413770666861e-7
+          },
+          {
+            "token": ",",
+            "prob": 3.506192686126077e-8
+          }
+        ]
+      },
+      {
+        "token": " internet",
+        "prob": 0.9979257676992074,
+        "top": [
+          {
+            "token": " internet",
+            "prob": 0.9979257676992074
+          },
+          {
+            "token": " Internet",
+            "prob": 0.0016881888687459174
+          },
+          {
+            "token": " modern",
+            "prob": 0.00038235513823507407
+          },
+          {
+            "token": " actual",
+            "prob": 0.0000011667586947893067
+          },
+          {
+            "token": " current",
+            "prob": 8.638791073335598e-7
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9924765960548318,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9924765960548318
+          },
+          {
+            "token": " as",
+            "prob": 0.0032651309821957095
+          },
+          {
+            "token": ",",
+            "prob": 0.003158256955276755
+          },
+          {
+            "token": ";",
+            "prob": 0.0010477610759904834
+          },
+          {
+            "token": " in",
+            "prob": 0.000019297876384472583
+          }
+        ]
+      },
+      {
+        "token": " The",
+        "prob": 0.9703287377530022,
+        "top": [
+          {
+            "token": " The",
+            "prob": 0.9703287377530022
+          },
+          {
+            "token": " While",
+            "prob": 0.021887786320362257
+          },
+          {
+            "token": " He",
+            "prob": 0.0027089423419303
+          },
+          {
+            "token": " Although",
+            "prob": 0.0027062978096125197
+          },
+          {
+            "token": " Tesla",
+            "prob": 0.0020077692481821115
+          }
+        ]
+      },
+      {
+        "token": " internet",
+        "prob": 0.9851898344985103,
+        "top": [
+          {
+            "token": " internet",
+            "prob": 0.9851898344985103
+          },
+          {
+            "token": " development",
+            "prob": 0.0070175803489278855
+          },
+          {
+            "token": " modern",
+            "prob": 0.002526914463953434
+          },
+          {
+            "token": " concept",
+            "prob": 0.0020277237915286464
+          },
+          {
+            "token": " invention",
+            "prob": 0.0014334135233391382
+          }
+        ]
+      },
+      {
+        "token": " as",
+        "prob": 0.5998223505642217,
+        "top": [
+          {
+            "token": " as",
+            "prob": 0.5998223505642217
+          },
+          {
+            "token": " was",
+            "prob": 0.34687916061070095
+          },
+          {
+            "token": " is",
+            "prob": 0.02865030185287291
+          },
+          {
+            "token": ",",
+            "prob": 0.02341886698683764
+          },
+          {
+            "token": " we",
+            "prob": 0.000553777819218745
+          }
+        ]
+      },
+      {
+        "token": " we",
+        "prob": 0.9999629731405111,
+        "top": [
+          {
+            "token": " we",
+            "prob": 0.9999629731405111
+          },
+          {
+            "token": " it",
+            "prob": 0.0000350204633564174
+          },
+          {
+            "token": " a",
+            "prob": 0.0000015157881852467498
+          },
+          {
+            "token": " the",
+            "prob": 9.552555821280544e-8
+          },
+          {
+            "token": " known",
+            "prob": 9.219905093347688e-8
+          }
+        ]
+      },
+      {
+        "token": " know",
+        "prob": 0.9999679795226665,
+        "top": [
+          {
+            "token": " know",
+            "prob": 0.9999679795226665
+          },
+          {
+            "token": " use",
+            "prob": 0.000015787927377951104
+          },
+          {
+            "token": " now",
+            "prob": 0.000008761696564687068
+          },
+          {
+            "token": " currently",
+            "prob": 0.000005444560614828649
+          },
+          {
+            "token": " known",
+            "prob": 8.11936257891216e-7
+          }
+        ]
+      },
+      {
+        "token": " it",
+        "prob": 0.9998781068795701,
+        "top": [
+          {
+            "token": " it",
+            "prob": 0.9998781068795701
+          },
+          {
+            "token": " today",
+            "prob": 0.00012059376196608211
+          },
+          {
+            "token": " was",
+            "prob": 6.392610097538016e-7
+          },
+          {
+            "token": " is",
+            "prob": 1.9852773969668774e-7
+          },
+          {
+            "token": " and",
+            "prob": 1.728708591680602e-7
+          }
+        ]
+      },
+      {
+        "token": " today",
+        "prob": 0.9985968253713925,
+        "top": [
+          {
+            "token": " today",
+            "prob": 0.9985968253713925
+          },
+          {
+            "token": " was",
+            "prob": 0.0013539134882461265
+          },
+          {
+            "token": " is",
+            "prob": 0.00003239553348727266
+          },
+          {
+            "token": " now",
+            "prob": 0.00000684971166004624
+          },
+          {
+            "token": ",",
+            "prob": 0.0000037573073027534485
+          }
+        ]
+      },
+      {
+        "token": " was",
+        "prob": 0.8224870015945083,
+        "top": [
+          {
+            "token": " was",
+            "prob": 0.8224870015945083
+          },
+          {
+            "token": " is",
+            "prob": 0.17229809358828085
+          },
+          {
+            "token": " evolved",
+            "prob": 0.00228922121509752
+          },
+          {
+            "token": " has",
+            "prob": 0.0017196044251248503
+          },
+          {
+            "token": ",",
+            "prob": 0.0006037069257838618
+          }
+        ]
+      },
+      {
+        "token": " developed",
+        "prob": 0.7490285190661581,
+        "top": [
+          {
+            "token": " developed",
+            "prob": 0.7490285190661581
+          },
+          {
+            "token": " actually",
+            "prob": 0.16728776596385667
+          },
+          {
+            "token": " created",
+            "prob": 0.05438710465518262
+          },
+          {
+            "token": " not",
+            "prob": 0.019037996138199655
+          },
+          {
+            "token": " the",
+            "prob": 0.0037854769101137863
+          }
+        ]
+      },
+      {
+        "token": " through",
+        "prob": 0.4665530714497077,
+        "top": [
+          {
+            "token": " through",
+            "prob": 0.4665530714497077
+          },
+          {
+            "token": " over",
+            "prob": 0.28757430498959796
+          },
+          {
+            "token": " by",
+            "prob": 0.1493778017480442
+          },
+          {
+            "token": " much",
+            "prob": 0.056021272181037814
+          },
+          {
+            "token": " in",
+            "prob": 0.0268284872208815
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.6518960775631668,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.6518960775631668
+          },
+          {
+            "token": " the",
+            "prob": 0.32803909028530187
+          },
+          {
+            "token": " various",
+            "prob": 0.0042400382014623605
+          },
+          {
+            "token": " collaboration",
+            "prob": 0.003880990012629474
+          },
+          {
+            "token": " advancements",
+            "prob": 0.0033810982372489942
+          }
+        ]
+      },
+      {
+        "token": " series",
+        "prob": 0.904225466357397,
+        "top": [
+          {
+            "token": " series",
+            "prob": 0.904225466357397
+          },
+          {
+            "token": " combination",
+            "prob": 0.066738251812572
+          },
+          {
+            "token": " collaborative",
+            "prob": 0.01389024616375991
+          },
+          {
+            "token": " collaboration",
+            "prob": 0.013690611130883799
+          },
+          {
+            "token": " process",
+            "prob": 0.0005124983840652993
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999998063873687,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999998063873687
+          },
+          {
+            "token": " ",
+            "prob": 9.143093119827021e-8
+          },
+          {
+            "token": " o",
+            "prob": 2.3795153605962654e-9
+          },
+          {
+            "token": "of",
+            "prob": 8.975341016684398e-10
+          },
+          {
+            "token": " advancements",
+            "prob": 8.8365888893874e-10
+          }
+        ]
+      },
+      {
+        "token": " technological",
+        "prob": 0.5541162925021283,
+        "top": [
+          {
+            "token": " technological",
+            "prob": 0.5541162925021283
+          },
+          {
+            "token": " advancements",
+            "prob": 0.3003899244802561
+          },
+          {
+            "token": " contributions",
+            "prob": 0.048444009074692394
+          },
+          {
+            "token": " innovations",
+            "prob": 0.03546484339854135
+          },
+          {
+            "token": " collaborations",
+            "prob": 0.0167493387349635
+          }
+        ]
+      },
+      {
+        "token": " advancements",
+        "prob": 0.9631853386930298,
+        "top": [
+          {
+            "token": " advancements",
+            "prob": 0.9631853386930298
+          },
+          {
+            "token": " advances",
+            "prob": 0.027033171310316254
+          },
+          {
+            "token": " innovations",
+            "prob": 0.00710695426757849
+          },
+          {
+            "token": " developments",
+            "prob": 0.0015447101367316728
+          },
+          {
+            "token": " breakthrough",
+            "prob": 0.0006045227223182882
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.8611124664760632,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.8611124664760632
+          },
+          {
+            "token": " over",
+            "prob": 0.06735960318664651
+          },
+          {
+            "token": " by",
+            "prob": 0.028108057499250445
+          },
+          {
+            "token": ",",
+            "prob": 0.015154087218688153
+          },
+          {
+            "token": " in",
+            "prob": 0.014568814906551224
+          }
+        ]
+      },
+      {
+        "token": " collaborations",
+        "prob": 0.6449563621864414,
+        "top": [
+          {
+            "token": " collaborations",
+            "prob": 0.6449563621864414
+          },
+          {
+            "token": " contributions",
+            "prob": 0.17312274974289188
+          },
+          {
+            "token": " innovations",
+            "prob": 0.10486095966609787
+          },
+          {
+            "token": " the",
+            "prob": 0.04020449796257679
+          },
+          {
+            "token": " collaboration",
+            "prob": 0.014409758907884738
+          }
+        ]
+      },
+      {
+        "token": " over",
+        "prob": 0.5718806289660787,
+        "top": [
+          {
+            "token": " over",
+            "prob": 0.5718806289660787
+          },
+          {
+            "token": " by",
+            "prob": 0.31690380671606316
+          },
+          {
+            "token": " among",
+            "prob": 0.04503404138377323
+          },
+          {
+            "token": " between",
+            "prob": 0.027217694067153665
+          },
+          {
+            "token": " starting",
+            "prob": 0.022350349957308994
+          }
+        ]
+      },
+      {
+        "token": " several",
+        "prob": 0.8346520896997456,
+        "top": [
+          {
+            "token": " several",
+            "prob": 0.8346520896997456
+          },
+          {
+            "token": " many",
+            "prob": 0.1116371945571068
+          },
+          {
+            "token": " the",
+            "prob": 0.038364604587506686
+          },
+          {
+            "token": " time",
+            "prob": 0.009566658486066852
+          },
+          {
+            "token": " decades",
+            "prob": 0.0038684804408158227
+          }
+        ]
+      },
+      {
+        "token": " decades",
+        "prob": 0.999722375444831,
+        "top": [
+          {
+            "token": " decades",
+            "prob": 0.999722375444831
+          },
+          {
+            "token": " years",
+            "prob": 0.00027712690940553177
+          },
+          {
+            "token": " dec",
+            "prob": 1.4133003611919702e-7
+          },
+          {
+            "token": " centuries",
+            "prob": 8.444233175550808e-8
+          },
+          {
+            "token": " generations",
+            "prob": 3.6262198569181253e-8
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.7802300319658452,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.7802300319658452
+          },
+          {
+            "token": ",",
+            "prob": 0.18005684002907157
+          },
+          {
+            "token": " by",
+            "prob": 0.031391042420454866
+          },
+          {
+            "token": " starting",
+            "prob": 0.005553671713304269
+          },
+          {
+            "token": " in",
+            "prob": 0.0007827090614904834
+          }
+        ]
+      },
+      {
+        "token": " The",
+        "prob": 0.8289688085058438,
+        "top": [
+          {
+            "token": " The",
+            "prob": 0.8289688085058438
+          },
+          {
+            "token": " It",
+            "prob": 0.08484779285127342
+          },
+          {
+            "token": " While",
+            "prob": 0.031309459708149835
+          },
+          {
+            "token": " In",
+            "prob": 0.009769900472808093
+          },
+          {
+            "token": " Tim",
+            "prob": 0.00844634394898805
+          }
+        ]
+      },
+      {
+        "token": " internet",
+        "prob": 0.4389660077492545,
+        "top": [
+          {
+            "token": " internet",
+            "prob": 0.4389660077492545
+          },
+          {
+            "token": " precursor",
+            "prob": 0.20962748592381597
+          },
+          {
+            "token": " creation",
+            "prob": 0.08400566852291537
+          },
+          {
+            "token": " concept",
+            "prob": 0.05566538942265079
+          },
+          {
+            "token": " origins",
+            "prob": 0.038739927207735725
+          }
+        ]
+      },
+      {
+        "token": " was",
+        "prob": 0.44999246536107657,
+        "top": [
+          {
+            "token": " was",
+            "prob": 0.44999246536107657
+          },
+          {
+            "token": " is",
+            "prob": 0.2819807987221483
+          },
+          {
+            "token": "'s",
+            "prob": 0.10885021675339283
+          },
+          {
+            "token": " as",
+            "prob": 0.07182713137506117
+          },
+          {
+            "token": " evolved",
+            "prob": 0.013911052651908966
+          }
+        ]
+      },
+      {
+        "token": " created",
+        "prob": 0.8133766927709611,
+        "top": [
+          {
+            "token": " created",
+            "prob": 0.8133766927709611
+          },
+          {
+            "token": " developed",
+            "prob": 0.03684821872683267
+          },
+          {
+            "token": " originally",
+            "prob": 0.03641489808592851
+          },
+          {
+            "token": " a",
+            "prob": 0.020352392630997973
+          },
+          {
+            "token": " primarily",
+            "prob": 0.018233465675400417
+          }
+        ]
+      },
+      {
+        "token": " as",
+        "prob": 0.496871419319755,
+        "top": [
+          {
+            "token": " as",
+            "prob": 0.496871419319755
+          },
+          {
+            "token": " by",
+            "prob": 0.1969907117170691
+          },
+          {
+            "token": " through",
+            "prob": 0.13862406197099506
+          },
+          {
+            "token": " in",
+            "prob": 0.10981765175847764
+          },
+          {
+            "token": " primarily",
+            "prob": 0.03348355018513737
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.9997336930659882,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.9997336930659882
+          },
+          {
+            "token": " an",
+            "prob": 0.00021556329052673835
+          },
+          {
+            "token": " part",
+            "prob": 0.00004873997610605991
+          },
+          {
+            "token": " the",
+            "prob": 0.0000014179633166079566
+          },
+          {
+            "token": " we",
+            "prob": 1.2960519097641604e-7
+          }
+        ]
+      },
+      {
+        "token": " way",
+        "prob": 0.26115993018246236,
+        "top": [
+          {
+            "token": " way",
+            "prob": 0.26115993018246236
+          },
+          {
+            "token": " network",
+            "prob": 0.19813733056439942
+          },
+          {
+            "token": " communication",
+            "prob": 0.15624523294235004
+          },
+          {
+            "token": " means",
+            "prob": 0.12267806654605896
+          },
+          {
+            "token": " decentralized",
+            "prob": 0.1116638567025005
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.9845529447845515,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.9845529447845515
+          },
+          {
+            "token": " for",
+            "prob": 0.015407847830208892
+          },
+          {
+            "token": " of",
+            "prob": 0.00003920622589213752
+          },
+          {
+            "token": " ",
+            "prob": 2.1473850303732644e-9
+          },
+          {
+            "token": " connect",
+            "prob": 1.9029757343021637e-9
+          }
+        ]
+      },
+      {
+        "token": " connect",
+        "prob": 0.7257307142319218,
+        "top": [
+          {
+            "token": " connect",
+            "prob": 0.7257307142319218
+          },
+          {
+            "token": " facilitate",
+            "prob": 0.15697304127533931
+          },
+          {
+            "token": " share",
+            "prob": 0.08501267635694623
+          },
+          {
+            "token": " allow",
+            "prob": 0.01236181491436995
+          },
+          {
+            "token": " exchange",
+            "prob": 0.0051412322031807785
+          }
+        ]
+      },
+      {
+        "token": " computers",
+        "prob": 0.7837100117713541,
+        "top": [
+          {
+            "token": " computers",
+            "prob": 0.7837100117713541
+          },
+          {
+            "token": " computer",
+            "prob": 0.09902746926611439
+          },
+          {
+            "token": " and",
+            "prob": 0.05670423384775104
+          },
+          {
+            "token": " multiple",
+            "prob": 0.02360279126508747
+          },
+          {
+            "token": " different",
+            "prob": 0.015826228240975636
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9851772241493352,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9851772241493352
+          },
+          {
+            "token": " globally",
+            "prob": 0.007729287453482155
+          },
+          {
+            "token": " across",
+            "prob": 0.0024123820913435393
+          },
+          {
+            "token": " around",
+            "prob": 0.0013726998293825433
+          },
+          {
+            "token": " together",
+            "prob": 0.0009890051688653122
+          }
+        ]
+      },
+      {
+        "token": " share",
+        "prob": 0.7548734573043563,
+        "top": [
+          {
+            "token": " share",
+            "prob": 0.7548734573043563
+          },
+          {
+            "token": " facilitate",
+            "prob": 0.08925644928827774
+          },
+          {
+            "token": " allow",
+            "prob": 0.08776042677924836
+          },
+          {
+            "token": " enable",
+            "prob": 0.044078241866242596
+          },
+          {
+            "token": " information",
+            "prob": 0.011193724166592662
+          }
+        ]
+      },
+      {
+        "token": " information",
+        "prob": 0.9999500997050611,
+        "top": [
+          {
+            "token": " information",
+            "prob": 0.9999500997050611
+          },
+          {
+            "token": " data",
+            "prob": 0.000036252362731051756
+          },
+          {
+            "token": " resources",
+            "prob": 0.000010835172526818007
+          },
+          {
+            "token": " digital",
+            "prob": 0.0000017498683525024715
+          },
+          {
+            "token": " and",
+            "prob": 3.343511663640964e-7
+          }
+        ]
+      },
+      {
+        "token": " globally",
+        "prob": 0.7826188133086063,
+        "top": [
+          {
+            "token": " globally",
+            "prob": 0.7826188133086063
+          },
+          {
+            "token": " across",
+            "prob": 0.1514839348877913
+          },
+          {
+            "token": " electronically",
+            "prob": 0.019230317670329105
+          },
+          {
+            "token": " on",
+            "prob": 0.012345372283717057
+          },
+          {
+            "token": " worldwide",
+            "prob": 0.007578944022866585
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.8855828882369967,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.8855828882369967
+          },
+          {
+            "token": ",",
+            "prob": 0.10969742336385503
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.0020275496175358337
+          },
+          {
+            "token": " through",
+            "prob": 0.001905775055242695
+          },
+          {
+            "token": " in",
+            "prob": 0.00037509189825624546
+          }
+        ]
+      },
+      {
+        "token": " While",
+        "prob": 0.682899674267085,
+        "top": [
+          {
+            "token": " While",
+            "prob": 0.682899674267085
+          },
+          {
+            "token": " Nikola",
+            "prob": 0.11526461429290037
+          },
+          {
+            "token": " Tesla",
+            "prob": 0.11388284892288852
+          },
+          {
+            "token": " It",
+            "prob": 0.04036609819058436
+          },
+          {
+            "token": " Although",
+            "prob": 0.02717557193038532
+          }
+        ]
+      },
+      {
+        "token": " Tesla",
+        "prob": 0.8252262812107122,
+        "top": [
+          {
+            "token": " Tesla",
+            "prob": 0.8252262812107122
+          },
+          {
+            "token": " Nikola",
+            "prob": 0.17470097165652154
+          },
+          {
+            "token": " many",
+            "prob": 0.000024340279191256296
+          },
+          {
+            "token": " some",
+            "prob": 0.000019515451920560675
+          },
+          {
+            "token": " the",
+            "prob": 0.000005661764303062507
+          }
+        ]
+      },
+      {
+        "token": " made",
+        "prob": 0.7147664021137472,
+        "top": [
+          {
+            "token": " made",
+            "prob": 0.7147664021137472
+          },
+          {
+            "token": " was",
+            "prob": 0.26374651699110135
+          },
+          {
+            "token": " did",
+            "prob": 0.015105691283205467
+          },
+          {
+            "token": " contributed",
+            "prob": 0.002220432016507638
+          },
+          {
+            "token": "'s",
+            "prob": 0.0018024116594861739
+          }
+        ]
+      },
+      {
+        "token": " significant",
+        "prob": 0.8571634200985856,
+        "top": [
+          {
+            "token": " significant",
+            "prob": 0.8571634200985856
+          },
+          {
+            "token": " many",
+            "prob": 0.09319371455143935
+          },
+          {
+            "token": " important",
+            "prob": 0.0264567091176781
+          },
+          {
+            "token": " numerous",
+            "prob": 0.01644778600813197
+          },
+          {
+            "token": " groundbreaking",
+            "prob": 0.0023981540102049987
+          }
+        ]
+      },
+      {
+        "token": " contributions",
+        "prob": 0.9998594016848696,
+        "top": [
+          {
+            "token": " contributions",
+            "prob": 0.9998594016848696
+          },
+          {
+            "token": " advancements",
+            "prob": 0.00007342008662798499
+          },
+          {
+            "token": " inventions",
+            "prob": 0.000021953565374359357
+          },
+          {
+            "token": " innovations",
+            "prob": 0.000014549440771992766
+          },
+          {
+            "token": " technological",
+            "prob": 0.000012027269836418667
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.997138010522865,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.997138010522865
+          },
+          {
+            "token": " in",
+            "prob": 0.0028541220394422443
+          },
+          {
+            "token": " and",
+            "prob": 0.000007054237908276865
+          },
+          {
+            "token": " towards",
+            "prob": 5.25844129433049e-7
+          },
+          {
+            "token": " as",
+            "prob": 1.919290623721553e-7
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.7595193727727911,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.7595193727727911
+          },
+          {
+            "token": " electrical",
+            "prob": 0.16023296363545464
+          },
+          {
+            "token": " technology",
+            "prob": 0.03079581422573315
+          },
+          {
+            "token": " various",
+            "prob": 0.020246219382908305
+          },
+          {
+            "token": " science",
+            "prob": 0.011115492756278083
+          }
+        ]
+      },
+      {
+        "token": " field",
+        "prob": 0.6140122499348845,
+        "top": [
+          {
+            "token": " field",
+            "prob": 0.6140122499348845
+          },
+          {
+            "token": " fields",
+            "prob": 0.27807027763253594
+          },
+          {
+            "token": " development",
+            "prob": 0.10739842089946071
+          },
+          {
+            "token": " world",
+            "prob": 0.0002836192183248084
+          },
+          {
+            "token": " advancement",
+            "prob": 0.00008769339280690498
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 1,
+        "top": [
+          {
+            "token": " of",
+            "prob": 1
+          },
+          {
+            "token": " electrical",
+            "prob": 3.1207792927557065e-8
+          },
+          {
+            "token": ",",
+            "prob": 1.8520252016844267e-8
+          },
+          {
+            "token": " electricity",
+            "prob": 1.1587927656797297e-8
+          },
+          {
+            "token": " ",
+            "prob": 1.004402406194818e-8
+          }
+        ]
+      },
+      {
+        "token": " electrical",
+        "prob": 0.9412328655167465,
+        "top": [
+          {
+            "token": " electrical",
+            "prob": 0.9412328655167465
+          },
+          {
+            "token": " electricity",
+            "prob": 0.048503190485312486
+          },
+          {
+            "token": " technology",
+            "prob": 0.0037590613263302096
+          },
+          {
+            "token": " electrom",
+            "prob": 0.0034472057625602897
+          },
+          {
+            "token": " science",
+            "prob": 0.0009622666141598806
+          }
+        ]
+      },
+      {
+        "token": " engineering",
+        "prob": 0.9975247945852243,
+        "top": [
+          {
+            "token": " engineering",
+            "prob": 0.9975247945852243
+          },
+          {
+            "token": " and",
+            "prob": 0.002288097254569883
+          },
+          {
+            "token": " technology",
+            "prob": 0.00010045677725896662
+          },
+          {
+            "token": " power",
+            "prob": 0.0000470403412469861
+          },
+          {
+            "token": " energy",
+            "prob": 0.000016791529418282216
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.944191097057381,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.944191097057381
+          },
+          {
+            "token": ",",
+            "prob": 0.05561758782271506
+          },
+          {
+            "token": " with",
+            "prob": 0.00018542056289619032
+          },
+          {
+            "token": " during",
+            "prob": 0.00000224440074754152
+          },
+          {
+            "token": " (",
+            "prob": 0.0000012851411516598432
+          }
+        ]
+      },
+      {
+        "token": " technology",
+        "prob": 0.6462294193070425,
+        "top": [
+          {
+            "token": " technology",
+            "prob": 0.6462294193070425
+          },
+          {
+            "token": " wireless",
+            "prob": 0.0940953922607905
+          },
+          {
+            "token": " is",
+            "prob": 0.05607450646231356
+          },
+          {
+            "token": " pioneered",
+            "prob": 0.049922808324644866
+          },
+          {
+            "token": " was",
+            "prob": 0.041086536098219675
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9976154255255296,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9976154255255296
+          },
+          {
+            "token": " (",
+            "prob": 0.000849167330320825
+          },
+          {
+            "token": " with",
+            "prob": 0.0008329145517421563
+          },
+          {
+            "token": " during",
+            "prob": 0.00038765763185670126
+          },
+          {
+            "token": " in",
+            "prob": 0.00028141686010318045
+          }
+        ]
+      },
+      {
+        "token": " his",
+        "prob": 0.7031971046581352,
+        "top": [
+          {
+            "token": " his",
+            "prob": 0.7031971046581352
+          },
+          {
+            "token": " he",
+            "prob": 0.25857830763970674
+          },
+          {
+            "token": " the",
+            "prob": 0.026606679119378703
+          },
+          {
+            "token": " including",
+            "prob": 0.00883544859270272
+          },
+          {
+            "token": " such",
+            "prob": 0.0019822989935233274
+          }
+        ]
+      },
+      {
+        "token": " work",
+        "prob": 0.9884862039689669,
+        "top": [
+          {
+            "token": " work",
+            "prob": 0.9884862039689669
+          },
+          {
+            "token": " inventions",
+            "prob": 0.01043658351089348
+          },
+          {
+            "token": " focus",
+            "prob": 0.0005456017194256574
+          },
+          {
+            "token": " specific",
+            "prob": 0.00025916646000180533
+          },
+          {
+            "token": " innovations",
+            "prob": 0.00009006571386601257
+          }
+        ]
+      },
+      {
+        "token": " was",
+        "prob": 0.8140755776937666,
+        "top": [
+          {
+            "token": " was",
+            "prob": 0.8140755776937666
+          },
+          {
+            "token": " focused",
+            "prob": 0.10655560685513306
+          },
+          {
+            "token": " did",
+            "prob": 0.05780965359702881
+          },
+          {
+            "token": " primarily",
+            "prob": 0.014659011693111396
+          },
+          {
+            "token": " and",
+            "prob": 0.0017213328077515639
+          }
+        ]
+      },
+      {
+        "token": " not",
+        "prob": 0.8674830033787806,
+        "top": [
+          {
+            "token": " not",
+            "prob": 0.8674830033787806
+          },
+          {
+            "token": " focused",
+            "prob": 0.09395800987230263
+          },
+          {
+            "token": " more",
+            "prob": 0.03374559124412898
+          },
+          {
+            "token": " primarily",
+            "prob": 0.0034475136117801492
+          },
+          {
+            "token": " mainly",
+            "prob": 0.0005745525465609893
+          }
+        ]
+      },
+      {
+        "token": " directly",
+        "prob": 0.9901442969299064,
+        "top": [
+          {
+            "token": " directly",
+            "prob": 0.9901442969299064
+          },
+          {
+            "token": " specifically",
+            "prob": 0.009199381734105245
+          },
+          {
+            "token": " related",
+            "prob": 0.00047455406756950004
+          },
+          {
+            "token": " connected",
+            "prob": 0.00003682148690112892
+          },
+          {
+            "token": " a",
+            "prob": 0.000035203748132218165
+          }
+        ]
+      },
+      {
+        "token": " related",
+        "prob": 0.9810761446598548,
+        "top": [
+          {
+            "token": " related",
+            "prob": 0.9810761446598548
+          },
+          {
+            "token": " linked",
+            "prob": 0.009353914127666323
+          },
+          {
+            "token": " tied",
+            "prob": 0.003017659645038105
+          },
+          {
+            "token": " connected",
+            "prob": 0.002952257048454755
+          },
+          {
+            "token": " responsible",
+            "prob": 0.002609614942866882
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.9999995679800934,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.9999995679800934
+          },
+          {
+            "token": " or",
+            "prob": 1.7434634981605588e-7
+          },
+          {
+            "token": " the",
+            "prob": 9.133077779176911e-8
+          },
+          {
+            "token": " ",
+            "prob": 7.334137640649792e-9
+          },
+          {
+            "token": " specifically",
+            "prob": 3.6787456457636828e-9
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9997827784660145,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9997827784660145
+          },
+          {
+            "token": " invent",
+            "prob": 0.00018878570918382653
+          },
+          {
+            "token": " creating",
+            "prob": 0.000012883746529059065
+          },
+          {
+            "token": " or",
+            "prob": 0.000012423297717442099
+          },
+          {
+            "token": " what",
+            "prob": 8.911460553123588e-7
+          }
+        ]
+      },
+      {
+        "token": " invention",
+        "prob": 0.4016867592289338,
+        "top": [
+          {
+            "token": " invention",
+            "prob": 0.4016867592289338
+          },
+          {
+            "token": " development",
+            "prob": 0.32258590697552697
+          },
+          {
+            "token": " creation",
+            "prob": 0.2751728866841152
+          },
+          {
+            "token": " internet",
+            "prob": 0.00047299511368565646
+          },
+          {
+            "token": " invent",
+            "prob": 0.000016189688997535027
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9998125696772581,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9998125696772581
+          },
+          {
+            "token": " or",
+            "prob": 0.00018438695357916762
+          },
+          {
+            "token": " and",
+            "prob": 0.0000029501102955188404
+          },
+          {
+            "token": " the",
+            "prob": 2.4018319146289164e-8
+          },
+          {
+            "token": "of",
+            "prob": 3.6828460519152452e-9
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9999993295729247,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9999993295729247
+          },
+          {
+            "token": " internet",
+            "prob": 2.5912247773888054e-7
+          },
+          {
+            "token": " modern",
+            "prob": 2.148445701055696e-7
+          },
+          {
+            "token": " today",
+            "prob": 6.97693524673046e-8
+          },
+          {
+            "token": " what",
+            "prob": 2.5830238407832838e-8
+          }
+        ]
+      },
+      {
+        "token": " internet",
+        "prob": 0.9920583954983859,
+        "top": [
+          {
+            "token": " internet",
+            "prob": 0.9920583954983859
+          },
+          {
+            "token": " modern",
+            "prob": 0.007932759670726245
+          },
+          {
+            "token": " Internet",
+            "prob": 0.000005407163010337913
+          },
+          {
+            "token": " specific",
+            "prob": 0.000001865689253913241
+          },
+          {
+            "token": " current",
+            "prob": 6.699009307812699e-7
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9994614094419937,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9994614094419937
+          },
+          {
+            "token": " as",
+            "prob": 0.0002877786355314892
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.00014092214263319397
+          },
+          {
+            "token": ".\n",
+            "prob": 0.00010042885415637975
+          },
+          {
+            "token": " in",
+            "prob": 0.0000035921307782079986
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T15:10:05.799Z"
+}

@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "openai/gpt-3.5-turbo",
+    "prompt": "For dinner tonight I'm making",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": " a",
+    "tokens": [
+      {
+        "token": " a",
+        "prob": 0.30716654089434237,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.30716654089434237
+          },
+          {
+            "token": " grilled",
+            "prob": 0.20969684216704976
+          },
+          {
+            "token": "a",
+            "prob": 0.12756268348757208
+          },
+          {
+            "token": " roasted",
+            "prob": 0.06242717510070062
+          },
+          {
+            "token": "gr",
+            "prob": 0.04504306260570762
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T16:07:31.982Z"
+}

@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "openai/gpt-3.5-turbo",
+    "prompt": "Today I feel",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "content",
+    "tokens": [
+      {
+        "token": "content",
+        "prob": 0.23585452111138572,
+        "top": [
+          {
+            "token": "content",
+            "prob": 0.23585452111138572
+          },
+          {
+            "token": " grateful",
+            "prob": 0.1786762982351276
+          },
+          {
+            "token": "happy",
+            "prob": 0.17168192284389286
+          },
+          {
+            "token": " content",
+            "prob": 0.16565817506835098
+          },
+          {
+            "token": " happy",
+            "prob": 0.0491486893043941
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T16:08:06.590Z"
+}

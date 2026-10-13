@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "openai/gpt-4o",
+    "prompt": "Once upon a",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "Once",
+    "tokens": [
+      {
+        "token": "Once",
+        "prob": 0.6037496958903124,
+        "top": [
+          {
+            "token": "Once",
+            "prob": 0.6037496958903124
+          },
+          {
+            "token": "time",
+            "prob": 0.259669523968
+          },
+          {
+            "token": "Sure",
+            "prob": 0.09258802011457039
+          },
+          {
+            "token": "Certainly",
+            "prob": 0.02199158237603951
+          },
+          {
+            "token": "...",
+            "prob": 0.015114575187104481
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T16:07:04.782Z"
+}

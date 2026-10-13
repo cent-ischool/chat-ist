@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "deepseek/deepseek-v4-flash",
+    "prompt": "Once upon a",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "Here",
+    "tokens": [
+      {
+        "token": "Here",
+        "prob": 0.32889510790776877,
+        "top": [
+          {
+            "token": "Here",
+            "prob": 0.32889510790776877
+          },
+          {
+            "token": "...",
+            "prob": 0.22604608151180938
+          },
+          {
+            "token": "…",
+            "prob": 0.17604486529161978
+          },
+          {
+            "token": "Once",
+            "prob": 0.1553590483357768
+          },
+          {
+            "token": "\"",
+            "prob": 0.039280918985827876
+          }
+        ]
+      }
+    ],
+    "provider": "DigitalOcean"
+  },
+  "savedAt": "2026-10-13T16:07:05.016Z"
+}

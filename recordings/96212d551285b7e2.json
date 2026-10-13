@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "openai/gpt-4o",
+    "prompt": "The best thing about college is",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "The",
+    "tokens": [
+      {
+        "token": "The",
+        "prob": 0.6451702556655081,
+        "top": [
+          {
+            "token": "The",
+            "prob": 0.6451702556655081
+          },
+          {
+            "token": "the",
+            "prob": 0.30475685868221725
+          },
+          {
+            "token": "that",
+            "prob": 0.04124435578805821
+          },
+          {
+            "token": "different",
+            "prob": 0.002053435561408559
+          },
+          {
+            "token": "College",
+            "prob": 0.0012454716257385152
+          }
+        ]
+      }
+    ],
+    "provider": "Azure"
+  },
+  "savedAt": "2026-10-13T16:07:21.895Z"
+}

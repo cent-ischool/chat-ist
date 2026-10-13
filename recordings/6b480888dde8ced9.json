@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "google/gemma-4-31b-it",
+    "prompt": "The best thing about college is",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "Because",
+    "tokens": [
+      {
+        "token": "Because",
+        "prob": 0.5436755979238725,
+        "top": [
+          {
+            "token": "Because",
+            "prob": 0.5436755979238725
+          },
+          {
+            "token": "Depending",
+            "prob": 0.42341498139992617
+          },
+          {
+            "token": "Since",
+            "prob": 0.016417578530737456
+          },
+          {
+            "token": "The",
+            "prob": 0.016417578530737456
+          },
+          {
+            "token": "There",
+            "prob": 0.00003822951653503773
+          }
+        ]
+      }
+    ],
+    "provider": "CoreWeave"
+  },
+  "savedAt": "2026-10-13T16:07:21.578Z"
+}

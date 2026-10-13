@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "google/gemma-4-31b-it",
+    "prompt": "New York Knicks\nNew York Redbulls\nNew York Giants\n",
+    "temperature": 1.5,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "You",
+    "tokens": [
+      {
+        "token": "You",
+        "prob": 0.5812500207039478,
+        "top": [
+          {
+            "token": "You",
+            "prob": 0.5812500207039478
+          },
+          {
+            "token": "It",
+            "prob": 0.39948690752685395
+          },
+          {
+            "token": "These",
+            "prob": 0.013669688636161508
+          },
+          {
+            "token": "New",
+            "prob": 0.001440774582253552
+          },
+          {
+            "token": "This",
+            "prob": 0.001440774582253552
+          }
+        ]
+      }
+    ],
+    "provider": "CoreWeave"
+  },
+  "savedAt": "2026-10-13T14:17:38.007Z"
+}

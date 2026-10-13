@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "prompt": "The best thing about college is",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "There",
+    "tokens": [
+      {
+        "token": "There",
+        "prob": 0.47582246302921294,
+        "top": [
+          {
+            "token": "There",
+            "prob": 0.47582246302921294
+          },
+          {
+            "token": "The",
+            "prob": 0.3705709068101156
+          },
+          {
+            "token": "That",
+            "prob": 0.04425837807761193
+          },
+          {
+            "token": "Many",
+            "prob": 0.030418308749420076
+          },
+          {
+            "token": "A",
+            "prob": 0.030418308749420076
+          }
+        ]
+      }
+    ],
+    "provider": "Parasail"
+  },
+  "savedAt": "2026-10-13T16:07:21.314Z"
+}

@@ -1,0 +1,99 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Who is the 44th US president?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "Barack Obama",
+    "tokens": [
+      {
+        "token": "Bar",
+        "prob": 0.9888833329293094,
+        "top": [
+          {
+            "token": "Bar",
+            "prob": 0.9888833329293094
+          },
+          {
+            "token": "The",
+            "prob": 0.010836849085436154
+          },
+          {
+            "token": "44",
+            "prob": 0.00014053738769489785
+          },
+          {
+            "token": " Barack",
+            "prob": 0.0001094218458575039
+          },
+          {
+            "token": "Obama",
+            "prob": 0.000020730966693877846
+          }
+        ]
+      },
+      {
+        "token": "ack",
+        "prob": 0.9999744163342675,
+        "top": [
+          {
+            "token": "ack",
+            "prob": 0.9999744163342675
+          },
+          {
+            "token": "ak",
+            "prob": 0.000023632657739118606
+          },
+          {
+            "token": "ck",
+            "prob": 5.517576096834032e-7
+          },
+          {
+            "token": "ac",
+            "prob": 3.396381672447562e-7
+          },
+          {
+            "token": "ach",
+            "prob": 2.793478660650244e-7
+          }
+        ]
+      },
+      {
+        "token": " Obama",
+        "prob": 0.999694378111887,
+        "top": [
+          {
+            "token": " Obama",
+            "prob": 0.999694378111887
+          },
+          {
+            "token": " H",
+            "prob": 0.000297987505556682
+          },
+          {
+            "token": " Hussein",
+            "prob": 0.000006156429962290451
+          },
+          {
+            "token": " Ob",
+            "prob": 5.759355931214762e-7
+          },
+          {
+            "token": "Obama",
+            "prob": 4.308589769655634e-7
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T14:45:25.501Z"
+}

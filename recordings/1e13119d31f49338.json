@@ -1,0 +1,36 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My name is Ezra"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello Ezra! It's nice to meet you. Is there something I can help you with, or would you like to chat?"
+      },
+      {
+        "role": "user",
+        "content": "What should I call you?"
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have a personal name, but I'm often referred to as a conversational AI or a chatbot. You can call me \"Assistant\" or \"AI\" if you like. Or, if you'd like to get a bit more creative, I can suggest some names like \"Lumina\" or \"Nova\" - just let me know!"
+      },
+      {
+        "role": "user",
+        "content": "What should you call me?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 200
+  },
+  "response": {
+    "text": "You're the one in charge, Ezra! You can call me whatever you like. If you'd like, I can respond to nicknames like Ez or \"Ezzy\" too.",
+    "tokens": null,
+    "provider": "Cloudflare"
+  },
+  "savedAt": "2026-10-13T14:45:03.207Z"
+}

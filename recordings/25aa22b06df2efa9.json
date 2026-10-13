@@ -1,0 +1,73 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My mom is a zookeeper, my dad is a firefighter.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 1,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "zoo",
+    "tokens": [
+      {
+        "token": "z",
+        "prob": 0.978193722790305,
+        "top": [
+          {
+            "token": "z",
+            "prob": 0.978193722790305
+          },
+          {
+            "token": "It",
+            "prob": 0.00829121299726615
+          },
+          {
+            "token": "Z",
+            "prob": 0.00718026491760715
+          },
+          {
+            "token": "fire",
+            "prob": 0.0013656860170515371
+          },
+          {
+            "token": "zo",
+            "prob": 0.0010297224284504846
+          }
+        ]
+      },
+      {
+        "token": "oo",
+        "prob": 0.999232357988,
+        "top": [
+          {
+            "token": "oo",
+            "prob": 0.999232357988
+          },
+          {
+            "token": "ookeeper",
+            "prob": 0.0007422087649422523
+          },
+          {
+            "token": " oo",
+            "prob": 0.000008449840436735928
+          },
+          {
+            "token": "oon",
+            "prob": 0.0000042897718854195
+          },
+          {
+            "token": "oooo",
+            "prob": 0.000001987223737657626
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T14:46:16.331Z"
+}

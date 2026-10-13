@@ -1,0 +1,411 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-4-31b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My name is franklin."
+      }
+    ],
+    "temperature": 0.7,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "Nice to meet you, Franklin! How can I help you today?",
+    "tokens": [
+      {
+        "token": "Nice",
+        "prob": 0.5913162972191135,
+        "top": [
+          {
+            "token": "Nice",
+            "prob": 0.5913162972191135
+          },
+          {
+            "token": "Hello",
+            "prob": 0.40640535145307266
+          },
+          {
+            "token": "It",
+            "prob": 0.001660886178743444
+          },
+          {
+            "token": "Hi",
+            "prob": 0.0006110058792855105
+          },
+          {
+            "token": " nice",
+            "prob": 0.0000024970413761976477
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 1,
+        "top": [
+          {
+            "token": " to",
+            "prob": 1
+          },
+          {
+            "token": " To",
+            "prob": 2.646573638909117e-9
+          },
+          {
+            "token": "-",
+            "prob": 1.3307807990689665e-9
+          },
+          {
+            "token": " το",
+            "prob": 1.0693124126838808e-9
+          },
+          {
+            "token": " meeting",
+            "prob": 9.146313756209837e-10
+          }
+        ]
+      },
+      {
+        "token": " meet",
+        "prob": 0.9999996423722521,
+        "top": [
+          {
+            "token": " meet",
+            "prob": 0.9999996423722521
+          },
+          {
+            "token": " meeting",
+            "prob": 3.689886323573741e-7
+          },
+          {
+            "token": " meets",
+            "prob": 8.41079362995072e-9
+          },
+          {
+            "token": " meat",
+            "prob": 2.646573638909117e-9
+          },
+          {
+            "token": " mee",
+            "prob": 1.0203450321865548e-9
+          }
+        ]
+      },
+      {
+        "token": " you",
+        "prob": 1,
+        "top": [
+          {
+            "token": " you",
+            "prob": 1
+          },
+          {
+            "token": " afterlife",
+            "prob": 8.953243214184171e-9
+          },
+          {
+            "token": " the",
+            "prob": 5.515933130022035e-9
+          },
+          {
+            "token": " pacemaker",
+            "prob": 2.505725559092765e-9
+          },
+          {
+            "token": " its",
+            "prob": 1.8048064153982564e-9
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9999998807907247,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9999998807907247
+          },
+          {
+            "token": "-",
+            "prob": 6.412060973312742e-8
+          },
+          {
+            "token": " and",
+            "prob": 1.3440409951135022e-8
+          },
+          {
+            "token": "Referensi",
+            "prob": 5.964145762203144e-9
+          },
+          {
+            "token": " a",
+            "prob": 1.174409933197416e-9
+          }
+        ]
+      },
+      {
+        "token": " Franklin",
+        "prob": 1,
+        "top": [
+          {
+            "token": " Franklin",
+            "prob": 1
+          },
+          {
+            "token": " **",
+            "prob": 1.6918979226151304e-10
+          },
+          {
+            "token": " Frank",
+            "prob": 1.2281861791766866e-10
+          },
+          {
+            "token": " {",
+            "prob": 7.566635545902763e-11
+          },
+          {
+            "token": "-",
+            "prob": 5.904422509114229e-11
+          }
+        ]
+      },
+      {
+        "token": "!",
+        "prob": 1,
+        "top": [
+          {
+            "token": "!",
+            "prob": 1
+          },
+          {
+            "token": ".",
+            "prob": 1.917171513758312e-10
+          },
+          {
+            "token": " waves",
+            "prob": 1.5647497858135657e-10
+          },
+          {
+            "token": " hải",
+            "prob": 1.218628358502418e-10
+          },
+          {
+            "token": "!</",
+            "prob": 1.1095737470879944e-10
+          }
+        ]
+      },
+      {
+        "token": " How",
+        "prob": 0.9999815229018083,
+        "top": [
+          {
+            "token": " How",
+            "prob": 0.9999815229018083
+          },
+          {
+            "token": " Is",
+            "prob": 0.000016701398161308863
+          },
+          {
+            "token": "How",
+            "prob": 5.714904182539082e-7
+          },
+          {
+            "token": " What",
+            "prob": 3.4662646040299175e-7
+          },
+          {
+            "token": " I",
+            "prob": 3.0589677765950214e-7
+          }
+        ]
+      },
+      {
+        "token": " can",
+        "prob": 0.9990791225497895,
+        "top": [
+          {
+            "token": " can",
+            "prob": 0.9990791225497895
+          },
+          {
+            "token": " are",
+            "prob": 0.0009110422816888288
+          },
+          {
+            "token": " is",
+            "prob": 0.000005089040513527059
+          },
+          {
+            "token": " center",
+            "prob": 0.000002558930271774859
+          },
+          {
+            "token": " يمكن",
+            "prob": 0.0000011355184247851403
+          }
+        ]
+      },
+      {
+        "token": " I",
+        "prob": 1,
+        "top": [
+          {
+            "token": " I",
+            "prob": 1
+          },
+          {
+            "token": " i",
+            "prob": 2.9989608248573072e-9
+          },
+          {
+            "token": " আই",
+            "prob": 1.9977385922287566e-9
+          },
+          {
+            "token": " the",
+            "prob": 1.036413128411301e-9
+          },
+          {
+            "token": " help",
+            "prob": 4.3204126993085624e-10
+          }
+        ]
+      },
+      {
+        "token": " help",
+        "prob": 0.9999992847447459,
+        "top": [
+          {
+            "token": " help",
+            "prob": 0.9999992847447459
+          },
+          {
+            "token": " HELP",
+            "prob": 3.4663241069161144e-7
+          },
+          {
+            "token": " Help",
+            "prob": 2.1024318473456359e-7
+          },
+          {
+            "token": " actually",
+            "prob": 3.6534822137210456e-8
+          },
+          {
+            "token": " helpful",
+            "prob": 2.8453348089834e-8
+          }
+        ]
+      },
+      {
+        "token": " you",
+        "prob": 1,
+        "top": [
+          {
+            "token": " you",
+            "prob": 1
+          },
+          {
+            "token": " l",
+            "prob": 3.432128916326245e-8
+          },
+          {
+            "token": " epithelium",
+            "prob": 2.3588654076195056e-8
+          },
+          {
+            "token": " check",
+            "prob": 2.1477713947384977e-8
+          },
+          {
+            "token": " motherhood",
+            "prob": 1.895401603316521e-8
+          }
+        ]
+      },
+      {
+        "token": " today",
+        "prob": 0.9999966621509202,
+        "top": [
+          {
+            "token": " today",
+            "prob": 0.9999966621509202
+          },
+          {
+            "token": " tonight",
+            "prob": 0.0000027264699038522107
+          },
+          {
+            "token": " 오늘은",
+            "prob": 2.699570779818012e-7
+          },
+          {
+            "token": " tomorrow",
+            "prob": 8.233217855791552e-8
+          },
+          {
+            "token": "今日は",
+            "prob": 7.734392402719739e-8
+          }
+        ]
+      },
+      {
+        "token": "?",
+        "prob": 1,
+        "top": [
+          {
+            "token": "?",
+            "prob": 1
+          },
+          {
+            "token": " surface",
+            "prob": 2.335593038799337e-9
+          },
+          {
+            "token": " stories",
+            "prob": 1.036413128411301e-9
+          },
+          {
+            "token": " islands",
+            "prob": 5.998299005435201e-10
+          },
+          {
+            "token": " circles",
+            "prob": 5.72361689546262e-10
+          }
+        ]
+      },
+      {
+        "token": "",
+        "prob": 0.9999997615814777,
+        "top": [
+          {
+            "token": "<turn|>",
+            "prob": 0.9999997615814777
+          },
+          {
+            "token": "🌻",
+            "prob": 1.1610742462835527e-7
+          },
+          {
+            "token": "of",
+            "prob": 1.0571701315726883e-7
+          },
+          {
+            "token": " cabin",
+            "prob": 2.8453348089834e-8
+          },
+          {
+            "token": " Sunflower",
+            "prob": 1.522997974471263e-8
+          }
+        ]
+      }
+    ],
+    "provider": "CoreWeave"
+  },
+  "savedAt": "2026-10-13T14:12:12.873Z"
+}

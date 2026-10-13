@@ -1,0 +1,333 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-4-31b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "who is the current us president?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "The current president of the United States is Joe Biden.",
+    "tokens": [
+      {
+        "token": "The",
+        "prob": 0.9931875445669418,
+        "top": [
+          {
+            "token": "The",
+            "prob": 0.9931875445669418
+          },
+          {
+            "token": "As",
+            "prob": 0.0066920438886727066
+          },
+          {
+            "token": "Joe",
+            "prob": 0.00009545687935731646
+          },
+          {
+            "token": "Depending",
+            "prob": 0.000016587918355394272
+          },
+          {
+            "token": "Assuming",
+            "prob": 0.00000238971621515426
+          }
+        ]
+      },
+      {
+        "token": " current",
+        "prob": 0.9999965429424904,
+        "top": [
+          {
+            "token": " current",
+            "prob": 0.9999965429424904
+          },
+          {
+            "token": " President",
+            "prob": 0.000002902309337197794
+          },
+          {
+            "token": " currents",
+            "prob": 2.102425832248476e-7
+          },
+          {
+            "token": " president",
+            "prob": 1.6373708845046634e-7
+          },
+          {
+            "token": " rest",
+            "prob": 8.233217855791552e-8
+          }
+        ]
+      },
+      {
+        "token": " president",
+        "prob": 0.9977423967181347,
+        "top": [
+          {
+            "token": " president",
+            "prob": 0.9977423967181347
+          },
+          {
+            "token": " U",
+            "prob": 0.0015000449447894661
+          },
+          {
+            "token": " President",
+            "prob": 0.0005518356960211958
+          },
+          {
+            "token": " US",
+            "prob": 0.00020300900747073142
+          },
+          {
+            "token": " президент",
+            "prob": 0.000001756372056124808
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999998807907247,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999998807907247
+          },
+          {
+            "token": " is",
+            "prob": 6.82560337633487e-8
+          },
+          {
+            "token": "-",
+            "prob": 1.522997974471263e-8
+          },
+          {
+            "token": "'",
+            "prob": 1.4307241918567688e-8
+          },
+          {
+            "token": " revolving",
+            "prob": 3.1923771805723365e-9
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9999991655356624,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9999991655356624
+          },
+          {
+            "token": " any",
+            "prob": 6.083588266376875e-7
+          },
+          {
+            "token": " THE",
+            "prob": 9.329493666178467e-8
+          },
+          {
+            "token": " its",
+            "prob": 4.139937718785167e-8
+          },
+          {
+            "token": " those",
+            "prob": 1.522997974471263e-8
+          }
+        ]
+      },
+      {
+        "token": " United",
+        "prob": 1,
+        "top": [
+          {
+            "token": " United",
+            "prob": 1
+          },
+          {
+            "token": "United",
+            "prob": 3.6534822137210456e-8
+          },
+          {
+            "token": " Estados",
+            "prob": 1.895401603316521e-8
+          },
+          {
+            "token": " the",
+            "prob": 1.3867054361168895e-8
+          },
+          {
+            "token": " UNITED",
+            "prob": 5.430416513266784e-9
+          }
+        ]
+      },
+      {
+        "token": " States",
+        "prob": 0.9999431404007152,
+        "top": [
+          {
+            "token": " States",
+            "prob": 0.9999431404007152
+          },
+          {
+            "token": " states",
+            "prob": 0.00005144191656540869
+          },
+          {
+            "token": " Kingdom",
+            "prob": 0.0000018737716739239247
+          },
+          {
+            "token": " State",
+            "prob": 0.0000017602455872140075
+          },
+          {
+            "token": "States",
+            "prob": 6.6811386559464e-7
+          }
+        ]
+      },
+      {
+        "token": " is",
+        "prob": 1,
+        "top": [
+          {
+            "token": " is",
+            "prob": 1
+          },
+          {
+            "token": " depends",
+            "prob": 3.2241867372567335e-8
+          },
+          {
+            "token": " (",
+            "prob": 3.2241867372567335e-8
+          },
+          {
+            "token": " as",
+            "prob": 4.944450501938644e-9
+          },
+          {
+            "token": " ",
+            "prob": 4.6448813899558095e-9
+          }
+        ]
+      },
+      {
+        "token": " Joe",
+        "prob": 0.9991918186774176,
+        "top": [
+          {
+            "token": " Joe",
+            "prob": 0.9991918186774176
+          },
+          {
+            "token": " **",
+            "prob": 0.0007096002917511008
+          },
+          {
+            "token": "Joe",
+            "prob": 0.00009603395646891822
+          },
+          {
+            "token": " joe",
+            "prob": 8.308565205188356e-7
+          },
+          {
+            "token": " Donald",
+            "prob": 5.364412881459919e-7
+          }
+        ]
+      },
+      {
+        "token": " Biden",
+        "prob": 0.9999998807907247,
+        "top": [
+          {
+            "token": " Biden",
+            "prob": 0.9999998807907247
+          },
+          {
+            "token": "Biden",
+            "prob": 9.04245532209672e-8
+          },
+          {
+            "token": " bidder",
+            "prob": 1.1142491209772546e-8
+          },
+          {
+            "token": " BID",
+            "prob": 4.944450501938644e-9
+          },
+          {
+            "token": "\\",
+            "prob": 1.519799376415342e-9
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 1,
+        "top": [
+          {
+            "token": ".",
+            "prob": 1
+          },
+          {
+            "token": "**.",
+            "prob": 1.2626096677664469e-8
+          },
+          {
+            "token": ",",
+            "prob": 2.646573638909117e-9
+          },
+          {
+            "token": "*.",
+            "prob": 1.7087563700445755e-9
+          },
+          {
+            "token": " (",
+            "prob": 1.5079722038360346e-9
+          }
+        ]
+      },
+      {
+        "token": "",
+        "prob": 0.9999998807907247,
+        "top": [
+          {
+            "token": "<turn|>",
+            "prob": 0.9999998807907247
+          },
+          {
+            "token": "**",
+            "prob": 6.82560337633487e-8
+          },
+          {
+            "token": " Depending",
+            "prob": 2.510999155743982e-8
+          },
+          {
+            "token": " those",
+            "prob": 1.7257827987960214e-8
+          },
+          {
+            "token": "of",
+            "prob": 1.6212229047677827e-8
+          }
+        ]
+      }
+    ],
+    "provider": "CoreWeave"
+  },
+  "savedAt": "2026-10-13T16:43:16.609Z"
+}

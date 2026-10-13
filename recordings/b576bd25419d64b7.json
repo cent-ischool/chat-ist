@@ -1,0 +1,99 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which is larger, 9.11 or 9.9? Reply with just the number."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "9.9",
+    "tokens": [
+      {
+        "token": "9",
+        "prob": 1,
+        "top": [
+          {
+            "token": "9",
+            "prob": 1
+          },
+          {
+            "token": "10",
+            "prob": 3.160881454313692e-10
+          },
+          {
+            "token": " ",
+            "prob": 9.3435477318993e-11
+          },
+          {
+            "token": "09",
+            "prob": 5.4927883509546835e-11
+          },
+          {
+            "token": "11",
+            "prob": 2.8496210568585866e-11
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 1,
+        "top": [
+          {
+            "token": ".",
+            "prob": 1
+          },
+          {
+            "token": ".​",
+            "prob": 8.19870266313388e-10
+          },
+          {
+            "token": "​.",
+            "prob": 7.349269569157389e-10
+          },
+          {
+            "token": "\\.",
+            "prob": 5.21141248788854e-10
+          },
+          {
+            "token": ",",
+            "prob": 3.581747930283181e-10
+          }
+        ]
+      },
+      {
+        "token": "9",
+        "prob": 1,
+        "top": [
+          {
+            "token": "9",
+            "prob": 1
+          },
+          {
+            "token": "９",
+            "prob": 1.1142491209772546e-8
+          },
+          {
+            "token": "91",
+            "prob": 8.543244357017938e-9
+          },
+          {
+            "token": "९",
+            "prob": 8.28039636107427e-9
+          },
+          {
+            "token": "৯",
+            "prob": 7.194133030325383e-9
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T15:18:41.760Z"
+}

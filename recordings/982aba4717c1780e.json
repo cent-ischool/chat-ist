@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "qwen/qwen3.7-flash",
+    "prompt": "On the weekend I like to",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "That",
+    "tokens": [
+      {
+        "token": "That",
+        "prob": 0.2768160006082697,
+        "top": [
+          {
+            "token": "That",
+            "prob": 0.2768160006082697
+          },
+          {
+            "token": "On",
+            "prob": 0.14816892792249614
+          },
+          {
+            "token": "...",
+            "prob": 0.14816892792249614
+          },
+          {
+            "token": "Rel",
+            "prob": 0.06999003736261825
+          },
+          {
+            "token": "It",
+            "prob": 0.06176599118429071
+          }
+        ]
+      }
+    ],
+    "provider": "Alibaba"
+  },
+  "savedAt": "2026-10-13T16:07:13.643Z"
+}

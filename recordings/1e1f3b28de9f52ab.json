@@ -1,0 +1,47 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-4-31b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many e's are in the word excellence? Reply with just the number."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "4",
+    "tokens": [
+      {
+        "token": "4",
+        "prob": 0.982012263351964,
+        "top": [
+          {
+            "token": "4",
+            "prob": 0.982012263351964
+          },
+          {
+            "token": "3",
+            "prob": 0.017986185584564048
+          },
+          {
+            "token": " ",
+            "prob": 7.670979922848384e-7
+          },
+          {
+            "token": "5",
+            "prob": 2.1301541919628736e-7
+          },
+          {
+            "token": "s",
+            "prob": 8.879795318446077e-8
+          }
+        ]
+      }
+    ],
+    "provider": "CoreWeave"
+  },
+  "savedAt": "2026-10-13T15:18:37.955Z"
+}

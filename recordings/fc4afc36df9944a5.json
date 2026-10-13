@@ -1,0 +1,203 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "meta-llama/llama-3.1-8b-instruct",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Add to this list, only reply with next items in the list\n\nNew York Knicks\nNew York Redbulls\nNew York Giants\nNew York Liberty\nNew York Rangers"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "New York Jets \nNew York Islanders",
+    "tokens": [
+      {
+        "token": "New",
+        "prob": 0.940653210190078,
+        "top": [
+          {
+            "token": "New",
+            "prob": 0.940653210190078
+          },
+          {
+            "token": "Is",
+            "prob": 0.004936095763257
+          },
+          {
+            "token": "Met",
+            "prob": 0.003611324806376124
+          },
+          {
+            "token": "Atlanta",
+            "prob": 0.003611324806376124
+          },
+          {
+            "token": "NY",
+            "prob": 0.0033925256971720765
+          }
+        ]
+      },
+      {
+        "token": " York",
+        "prob": 0.98340964251353,
+        "top": [
+          {
+            "token": " York",
+            "prob": 0.98340964251353
+          },
+          {
+            "token": " Jersey",
+            "prob": 0.01589533904016647
+          },
+          {
+            "token": " England",
+            "prob": 0.000479997647623655
+          },
+          {
+            "token": "York",
+            "prob": 0.00009451714088764635
+          },
+          {
+            "token": "ark",
+            "prob": 0.000021089624783032233
+          }
+        ]
+      },
+      {
+        "token": " Jets",
+        "prob": 0.8884133077985378,
+        "top": [
+          {
+            "token": " Jets",
+            "prob": 0.8884133077985378
+          },
+          {
+            "token": " Mets",
+            "prob": 0.07292539699804768
+          },
+          {
+            "token": " Yankees",
+            "prob": 0.02367541006850337
+          },
+          {
+            "token": " Islanders",
+            "prob": 0.009869381610916867
+          },
+          {
+            "token": " Titans",
+            "prob": 0.0009179954893645476
+          }
+        ]
+      },
+      {
+        "token": " \n",
+        "prob": 0.44338473120813643,
+        "top": [
+          {
+            "token": " \n",
+            "prob": 0.44338473120813643
+          },
+          {
+            "token": "<|eot_id|>",
+            "prob": 0.2689264335261796
+          },
+          {
+            "token": "\n",
+            "prob": 0.2689264335261796
+          },
+          {
+            "token": " \n\n",
+            "prob": 0.010427410668032006
+          },
+          {
+            "token": ",",
+            "prob": 0.002987503175222289
+          }
+        ]
+      },
+      {
+        "token": "New",
+        "prob": 0.8413609924646559,
+        "top": [
+          {
+            "token": "New",
+            "prob": 0.8413609924646559
+          },
+          {
+            "token": "Bro",
+            "prob": 0.01359933020077124
+          },
+          {
+            "token": "Met",
+            "prob": 0.01277538843611831
+          },
+          {
+            "token": "Atlanta",
+            "prob": 0.01277538843611831
+          },
+          {
+            "token": "Is",
+            "prob": 0.0060346661954966295
+          }
+        ]
+      },
+      {
+        "token": " York",
+        "prob": 0.9850482943283287,
+        "top": [
+          {
+            "token": " York",
+            "prob": 0.9850482943283287
+          },
+          {
+            "token": " Jersey",
+            "prob": 0.014050957777072916
+          },
+          {
+            "token": "York",
+            "prob": 0.00025735239140087235
+          },
+          {
+            "token": "ark",
+            "prob": 0.00025735239140087235
+          },
+          {
+            "token": " England",
+            "prob": 0.00015609211573499497
+          }
+        ]
+      },
+      {
+        "token": " Islanders",
+        "prob": 0.4844068959230369,
+        "top": [
+          {
+            "token": " Islanders",
+            "prob": 0.4844068959230369
+          },
+          {
+            "token": " Mets",
+            "prob": 0.3772564698700496
+          },
+          {
+            "token": " Yankees",
+            "prob": 0.08417728650442034
+          },
+          {
+            "token": " Cosmos",
+            "prob": 0.03096709311857455
+          },
+          {
+            "token": " Met",
+            "prob": 0.004748957538482813
+          }
+        ]
+      }
+    ],
+    "provider": "Novita"
+  },
+  "savedAt": "2026-10-13T14:44:47.023Z"
+}

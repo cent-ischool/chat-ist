@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "qwen/qwen3.7-flash",
+    "prompt": "The quick brown fox jumps over the lazy",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "dog",
+    "tokens": [
+      {
+        "token": "dog",
+        "prob": 0.6795712038792584,
+        "top": [
+          {
+            "token": "dog",
+            "prob": 0.6795712038792584
+          },
+          {
+            "token": "...",
+            "prob": 0.11809177851169246
+          },
+          {
+            "token": "The",
+            "prob": 0.11809177851169246
+          },
+          {
+            "token": "This",
+            "prob": 0.018109956460568632
+          },
+          {
+            "token": "Dog",
+            "prob": 0.010984243839395759
+          }
+        ]
+      }
+    ],
+    "provider": "Alibaba"
+  },
+  "savedAt": "2026-10-13T16:07:07.754Z"
+}

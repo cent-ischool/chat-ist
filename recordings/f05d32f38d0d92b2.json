@@ -1,0 +1,73 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My mom is a chef, my dad is a historian.\nComplete this sentence for me:\nIt's a lovely day to go to the ____ ?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "museum",
+    "tokens": [
+      {
+        "token": "m",
+        "prob": 0.9426611338270169,
+        "top": [
+          {
+            "token": "m",
+            "prob": 0.9426611338270169
+          },
+          {
+            "token": "restaurant",
+            "prob": 0.0293307096770538
+          },
+          {
+            "token": "It",
+            "prob": 0.007630082661470199
+          },
+          {
+            "token": "M",
+            "prob": 0.007085102066107985
+          },
+          {
+            "token": "market",
+            "prob": 0.0014031561315269534
+          }
+        ]
+      },
+      {
+        "token": "useum",
+        "prob": 0.999548218284107,
+        "top": [
+          {
+            "token": "useum",
+            "prob": 0.999548218284107
+          },
+          {
+            "token": "use",
+            "prob": 0.0003805882027635467
+          },
+          {
+            "token": "uese",
+            "prob": 0.0000454218632250649
+          },
+          {
+            "token": "ues",
+            "prob": 0.000011841449642276578
+          },
+          {
+            "token": "ese",
+            "prob": 0.0000035485588310030833
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T14:53:06.353Z"
+}

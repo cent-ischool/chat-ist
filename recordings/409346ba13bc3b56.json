@@ -1,0 +1,172 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "meta-llama/llama-3.1-8b-instruct",
+    "prompt": "I do not like green eggs and ham. I do not like them",
+    "temperature": 0,
+    "max_tokens": 6
+  },
+  "response": {
+    "text": "You're quoting Dr. Se",
+    "tokens": [
+      {
+        "token": "You",
+        "prob": 0.5731298979442595,
+        "top": [
+          {
+            "token": "You",
+            "prob": 0.5731298979442595
+          },
+          {
+            "token": "A",
+            "prob": 0.21084270657437998
+          },
+          {
+            "token": "I",
+            "prob": 0.0533093783536715
+          },
+          {
+            "token": "\"I",
+            "prob": 0.04151738560688916
+          },
+          {
+            "token": "Sam",
+            "prob": 0.02853445401104554
+          }
+        ]
+      },
+      {
+        "token": "'re",
+        "prob": 0.4518525448038971,
+        "top": [
+          {
+            "token": "'re",
+            "prob": 0.4518525448038971
+          },
+          {
+            "token": " don",
+            "prob": 0.3519031157260821
+          },
+          {
+            "token": " do",
+            "prob": 0.12945790612721456
+          },
+          {
+            "token": " can",
+            "prob": 0.017520226570092425
+          },
+          {
+            "token": " are",
+            "prob": 0.010626554579872967
+          }
+        ]
+      },
+      {
+        "token": " quoting",
+        "prob": 0.8142772901358706,
+        "top": [
+          {
+            "token": " quoting",
+            "prob": 0.8142772901358706
+          },
+          {
+            "token": " referencing",
+            "prob": 0.0757395839606157
+          },
+          {
+            "token": " a",
+            "prob": 0.02786303582198884
+          },
+          {
+            "token": " referring",
+            "prob": 0.009629207518800323
+          },
+          {
+            "token": " familiar",
+            "prob": 0.00904580332770276
+          }
+        ]
+      },
+      {
+        "token": " Dr",
+        "prob": 0.7707338343292958,
+        "top": [
+          {
+            "token": " Dr",
+            "prob": 0.7707338343292958
+          },
+          {
+            "token": " a",
+            "prob": 0.07168941178100459
+          },
+          {
+            "token": " Sam",
+            "prob": 0.05583177003297477
+          },
+          {
+            "token": " the",
+            "prob": 0.04927136411991567
+          },
+          {
+            "token": " one",
+            "prob": 0.043481826221943354
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9999938011170572,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9999938011170572
+          },
+          {
+            "token": ".Se",
+            "prob": 0.0000025612716725518865
+          },
+          {
+            "token": " Se",
+            "prob": 0.0000025612716725518865
+          },
+          {
+            "token": "acula",
+            "prob": 3.92783732425049e-7
+          },
+          {
+            "token": "infeld",
+            "prob": 7.734377650551034e-8
+          }
+        ]
+      },
+      {
+        "token": " Se",
+        "prob": 0.9999760389324709,
+        "top": [
+          {
+            "token": " Se",
+            "prob": 0.9999760389324709
+          },
+          {
+            "token": " Su",
+            "prob": 0.000011478626215672864
+          },
+          {
+            "token": "-Se",
+            "prob": 0.000003726564322802432
+          },
+          {
+            "token": "Se",
+            "prob": 0.000003726564322802432
+          },
+          {
+            "token": ".Se",
+            "prob": 0.0000013709264005619932
+          }
+        ]
+      }
+    ],
+    "provider": "Novita"
+  },
+  "savedAt": "2026-10-13T14:02:04.594Z"
+}

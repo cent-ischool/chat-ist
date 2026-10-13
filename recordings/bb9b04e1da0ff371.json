@@ -1,0 +1,7535 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tomorrow I'm meeting my daughter's academic advisor. She's a sophomore at the Syracuse iSchool with a 3.4 GPA. She's thinking about switching from Applied Data Analytics to Information Management and Technology, she's worried about finding a summer internship, and she works 15 hours a week at the library.\n\nGive me 3 talking points for my meeting tomorrow."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "Here are three talking points you can discuss during your meeting with your daughter's academic advisor:\n\n1. **Exploring the Transition to Information Management and Technology**: Discuss your daughter's interest in switching from Applied Data Analytics to Information Management and Technology. Ask the advisor about the potential benefits of this transition, including how it aligns with her career goals, the skills she would gain, and any differences in job prospects or internship opportunities between the two programs. It may also be helpful to inquire about any specific courses or projects that could enhance her resume in this new path.\n\n2. **Internship Opportunities and Resources**: Address your daughter's concerns about finding a summer internship. Ask the advisor about resources available through the iSchool, such as career services, job fairs, or networking events that could help her secure an internship. Inquire about any specific companies or organizations that have a history of hiring students from her program, and whether there are any recommended strategies for applying or standing out as a candidate.\n\n3. **Balancing Work and Academic Commitments**: Since your daughter is working 15 hours a week at the library, discuss how she can effectively balance her job with her academic responsibilities and internship search. Ask the advisor for advice on time management strategies, course load recommendations, or any support services available to help students manage their commitments. This could also include discussing the possibility of flexible work hours or opportunities for professional development within her current job that could enhance her resume.",
+    "tokens": [
+      {
+        "token": "Here",
+        "prob": 0.8747278772180084,
+        "top": [
+          {
+            "token": "Here",
+            "prob": 0.8747278772180084
+          },
+          {
+            "token": "Certainly",
+            "prob": 0.06336507300833272
+          },
+          {
+            "token": "That",
+            "prob": 0.01815439737028348
+          },
+          {
+            "token": "Sure",
+            "prob": 0.012477322675506854
+          },
+          {
+            "token": "Absolutely",
+            "prob": 0.011011198613683337
+          }
+        ]
+      },
+      {
+        "token": " are",
+        "prob": 0.9999998063873693,
+        "top": [
+          {
+            "token": " are",
+            "prob": 0.9999998063873693
+          },
+          {
+            "token": " you",
+            "prob": 7.734421907141565e-8
+          },
+          {
+            "token": "’s",
+            "prob": 4.139937718785167e-8
+          },
+          {
+            "token": " Are",
+            "prob": 3.6534822137210456e-8
+          },
+          {
+            "token": "are",
+            "prob": 1.3440409951135022e-8
+          }
+        ]
+      },
+      {
+        "token": " three",
+        "prob": 0.999999448776502,
+        "top": [
+          {
+            "token": " three",
+            "prob": 0.999999448776502
+          },
+          {
+            "token": " ",
+            "prob": 2.6995759288455584e-7
+          },
+          {
+            "token": " три",
+            "prob": 7.734421907141565e-8
+          },
+          {
+            "token": " some",
+            "prob": 4.691164021834418e-8
+          },
+          {
+            "token": "three",
+            "prob": 2.215948977336598e-8
+          }
+        ]
+      },
+      {
+        "token": " talking",
+        "prob": 0.8277268728648811,
+        "top": [
+          {
+            "token": " talking",
+            "prob": 0.8277268728648811
+          },
+          {
+            "token": " effective",
+            "prob": 0.07699058540197166
+          },
+          {
+            "token": " focused",
+            "prob": 0.04669715055551971
+          },
+          {
+            "token": " key",
+            "prob": 0.02205817203073901
+          },
+          {
+            "token": " thoughtful",
+            "prob": 0.008114747999931806
+          }
+        ]
+      },
+      {
+        "token": " points",
+        "prob": 1,
+        "top": [
+          {
+            "token": " points",
+            "prob": 1
+          },
+          {
+            "token": " point",
+            "prob": 2.335593038799337e-9
+          },
+          {
+            "token": " puntos",
+            "prob": 1.8189616875530459e-9
+          },
+          {
+            "token": "points",
+            "prob": 8.592166619174109e-10
+          },
+          {
+            "token": "_points",
+            "prob": 5.905303998944039e-10
+          }
+        ]
+      },
+      {
+        "token": " you",
+        "prob": 0.550973305316123,
+        "top": [
+          {
+            "token": " you",
+            "prob": 0.550973305316123
+          },
+          {
+            "token": " for",
+            "prob": 0.260261376397286
+          },
+          {
+            "token": " to",
+            "prob": 0.12293876918041768
+          },
+          {
+            "token": " that",
+            "prob": 0.06580438121187679
+          },
+          {
+            "token": " tailored",
+            "prob": 0.000017191949501781587
+          }
+        ]
+      },
+      {
+        "token": " can",
+        "prob": 0.9217289796856974,
+        "top": [
+          {
+            "token": " can",
+            "prob": 0.9217289796856974
+          },
+          {
+            "token": " might",
+            "prob": 0.04589018099298528
+          },
+          {
+            "token": " could",
+            "prob": 0.03153982939825603
+          },
+          {
+            "token": " may",
+            "prob": 0.0008405081839989143
+          },
+          {
+            "token": " should",
+            "prob": 2.1958995555180088e-7
+          }
+        ]
+      },
+      {
+        "token": " discuss",
+        "prob": 0.520617235232071,
+        "top": [
+          {
+            "token": " discuss",
+            "prob": 0.520617235232071
+          },
+          {
+            "token": " use",
+            "prob": 0.2459221540460283
+          },
+          {
+            "token": " bring",
+            "prob": 0.13163264347914427
+          },
+          {
+            "token": " consider",
+            "prob": 0.07983923408912325
+          },
+          {
+            "token": " focus",
+            "prob": 0.008414995368897756
+          }
+        ]
+      },
+      {
+        "token": " during",
+        "prob": 0.6834639828816844,
+        "top": [
+          {
+            "token": " during",
+            "prob": 0.6834639828816844
+          },
+          {
+            "token": " with",
+            "prob": 0.251432333096787
+          },
+          {
+            "token": " in",
+            "prob": 0.063572049472436
+          },
+          {
+            "token": " at",
+            "prob": 0.0014950713030383875
+          },
+          {
+            "token": " when",
+            "prob": 0.00002738319915668413
+          }
+        ]
+      },
+      {
+        "token": " your",
+        "prob": 0.9947782705796432,
+        "top": [
+          {
+            "token": " your",
+            "prob": 0.9947782705796432
+          },
+          {
+            "token": " the",
+            "prob": 0.0052201184010052535
+          },
+          {
+            "token": " tomorrow",
+            "prob": 0.0000012035492334555063
+          },
+          {
+            "token": " her",
+            "prob": 2.3699289575044737e-7
+          },
+          {
+            "token": " meeting",
+            "prob": 8.718481405027647e-8
+          }
+        ]
+      },
+      {
+        "token": " meeting",
+        "prob": 0.999999448776502,
+        "top": [
+          {
+            "token": " meeting",
+            "prob": 0.999999448776502
+          },
+          {
+            "token": " upcoming",
+            "prob": 3.9278597995802437e-7
+          },
+          {
+            "token": " meet",
+            "prob": 2.510999155743982e-8
+          },
+          {
+            "token": " meetings",
+            "prob": 1.3440409951135022e-8
+          },
+          {
+            "token": "meeting",
+            "prob": 9.237449661970594e-9
+          }
+        ]
+      },
+      {
+        "token": " with",
+        "prob": 0.9998692942470765,
+        "top": [
+          {
+            "token": " with",
+            "prob": 0.9998692942470765
+          },
+          {
+            "token": ":\n\n",
+            "prob": 0.00012339368123175988
+          },
+          {
+            "token": " about",
+            "prob": 0.0000032883302218363897
+          },
+          {
+            "token": " regarding",
+            "prob": 0.000001760116331982314
+          },
+          {
+            "token": " tomorrow",
+            "prob": 0.000001370779977644595
+          }
+        ]
+      },
+      {
+        "token": " your",
+        "prob": 0.9889943269059306,
+        "top": [
+          {
+            "token": " your",
+            "prob": 0.9889943269059306
+          },
+          {
+            "token": " the",
+            "prob": 0.010986732026587658
+          },
+          {
+            "token": " her",
+            "prob": 0.000018717223096738207
+          },
+          {
+            "token": "your",
+            "prob": 3.6132740745795086e-8
+          },
+          {
+            "token": " academic",
+            "prob": 2.1915615081772642e-8
+          }
+        ]
+      },
+      {
+        "token": " daughter's",
+        "prob": 0.9525739986305993,
+        "top": [
+          {
+            "token": " daughter's",
+            "prob": 0.9525739986305993
+          },
+          {
+            "token": " daughter",
+            "prob": 0.04742586326176888
+          },
+          {
+            "token": " child's",
+            "prob": 7.367606897677728e-8
+          },
+          {
+            "token": " daughters",
+            "prob": 2.110854717564893e-8
+          },
+          {
+            "token": "daughter",
+            "prob": 1.1298591115198341e-8
+          }
+        ]
+      },
+      {
+        "token": " academic",
+        "prob": 0.9999992103693378,
+        "top": [
+          {
+            "token": " academic",
+            "prob": 0.9999992103693378
+          },
+          {
+            "token": " advisor",
+            "prob": 7.33820819192633e-7
+          },
+          {
+            "token": " Academic",
+            "prob": 1.3440409951135022e-8
+          },
+          {
+            "token": "academic",
+            "prob": 1.0467401794744656e-8
+          },
+          {
+            "token": "Academic",
+            "prob": 2.7894680928689246e-10
+          }
+        ]
+      },
+      {
+        "token": " advisor",
+        "prob": 0.9999996871837232,
+        "top": [
+          {
+            "token": " advisor",
+            "prob": 0.9999996871837232
+          },
+          {
+            "token": " adviser",
+            "prob": 2.1024338523818466e-7
+          },
+          {
+            "token": " advisory",
+            "prob": 2.646573638909117e-9
+          },
+          {
+            "token": " Advisor",
+            "prob": 2.335593038799337e-9
+          },
+          {
+            "token": "advisor",
+            "prob": 1.8189616875530459e-9
+          }
+        ]
+      },
+      {
+        "token": ":\n\n",
+        "prob": 0.9980937684379747,
+        "top": [
+          {
+            "token": ":\n\n",
+            "prob": 0.9980937684379747
+          },
+          {
+            "token": ":",
+            "prob": 0.0008031991835932678
+          },
+          {
+            "token": " regarding",
+            "prob": 0.00037940442951834923
+          },
+          {
+            "token": " that",
+            "prob": 0.00037940442951834923
+          },
+          {
+            "token": " to",
+            "prob": 0.00026076047239345423
+          }
+        ]
+      },
+      {
+        "token": "1",
+        "prob": 0.9990871652884928,
+        "top": [
+          {
+            "token": "1",
+            "prob": 0.9990871652884928
+          },
+          {
+            "token": "###",
+            "prob": 0.0009110496668385758
+          },
+          {
+            "token": "**",
+            "prob": 0.0000017587387590252133
+          },
+          {
+            "token": "####",
+            "prob": 8.144576266560873e-9
+          },
+          {
+            "token": "---\n\n",
+            "prob": 5.597679948302692e-9
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 1,
+        "top": [
+          {
+            "token": ".",
+            "prob": 1
+          },
+          {
+            "token": " **",
+            "prob": 5.602796437537268e-9
+          },
+          {
+            "token": ")",
+            "prob": 1.2501528663867426e-9
+          },
+          {
+            "token": "**",
+            "prob": 2.7894680928689246e-10
+          },
+          {
+            "token": "️⃣",
+            "prob": 1.493094676197164e-10
+          }
+        ]
+      },
+      {
+        "token": " **",
+        "prob": 0.9999998063873693,
+        "top": [
+          {
+            "token": " **",
+            "prob": 0.9999998063873693
+          },
+          {
+            "token": " ***",
+            "prob": 6.023573837886479e-8
+          },
+          {
+            "token": " ###",
+            "prob": 2.215948977336598e-8
+          },
+          {
+            "token": " ",
+            "prob": 2.646573638909117e-9
+          },
+          {
+            "token": " Transition",
+            "prob": 1.026187963170189e-10
+          }
+        ]
+      },
+      {
+        "token": "Expl",
+        "prob": 0.4333283673225904,
+        "top": [
+          {
+            "token": "Expl",
+            "prob": 0.4333283673225904
+          },
+          {
+            "token": "Program",
+            "prob": 0.33747647179788676
+          },
+          {
+            "token": "Transition",
+            "prob": 0.04567247934104323
+          },
+          {
+            "token": "Academic",
+            "prob": 0.04567247934104323
+          },
+          {
+            "token": "Degree",
+            "prob": 0.031390205386901175
+          }
+        ]
+      },
+      {
+        "token": "oring",
+        "prob": 0.7057721971746725,
+        "top": [
+          {
+            "token": "oring",
+            "prob": 0.7057721971746725
+          },
+          {
+            "token": "oration",
+            "prob": 0.2942096060109129
+          },
+          {
+            "token": "aining",
+            "prob": 0.000013357092263764448
+          },
+          {
+            "token": "or",
+            "prob": 0.0000043364129601642525
+          },
+          {
+            "token": "ored",
+            "prob": 2.1589728851898892e-7
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.7712787293287487,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.7712787293287487
+          },
+          {
+            "token": " Major",
+            "prob": 0.10438121595567258
+          },
+          {
+            "token": " Program",
+            "prob": 0.05587123876298252
+          },
+          {
+            "token": " Degree",
+            "prob": 0.02639170445184021
+          },
+          {
+            "token": " Academic",
+            "prob": 0.018138735518769745
+          }
+        ]
+      },
+      {
+        "token": " Transition",
+        "prob": 0.32749594618294553,
+        "top": [
+          {
+            "token": " Transition",
+            "prob": 0.32749594618294553
+          },
+          {
+            "token": " Major",
+            "prob": 0.2550540993399886
+          },
+          {
+            "token": " Switch",
+            "prob": 0.15469813113509484
+          },
+          {
+            "token": " Program",
+            "prob": 0.10632236697815059
+          },
+          {
+            "token": " Degree",
+            "prob": 0.03911381294794705
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.5080179667781928,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.5080179667781928
+          },
+          {
+            "token": " Between",
+            "prob": 0.21177339566412684
+          },
+          {
+            "token": " from",
+            "prob": 0.14554958437311294
+          },
+          {
+            "token": "**",
+            "prob": 0.08828028543072378
+          },
+          {
+            "token": " between",
+            "prob": 0.03247650207071009
+          }
+        ]
+      },
+      {
+        "token": " Information",
+        "prob": 0.9999638075352227,
+        "top": [
+          {
+            "token": " Information",
+            "prob": 0.9999638075352227
+          },
+          {
+            "token": " IM",
+            "prob": 0.000027535451457257516
+          },
+          {
+            "token": " IT",
+            "prob": 0.0000032886407001044353
+          },
+          {
+            "token": " a",
+            "prob": 0.0000029022152315557995
+          },
+          {
+            "token": " Info",
+            "prob": 0.0000013709094042424787
+          }
+        ]
+      },
+      {
+        "token": " Management",
+        "prob": 1,
+        "top": [
+          {
+            "token": " Management",
+            "prob": 1
+          },
+          {
+            "token": " management",
+            "prob": 1.186112015134383e-8
+          },
+          {
+            "token": " Man",
+            "prob": 7.194133030325383e-9
+          },
+          {
+            "token": "Management",
+            "prob": 6.34880011604368e-9
+          },
+          {
+            "token": " Manage",
+            "prob": 1.4166087866431964e-9
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.999989435724597,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.999989435724597
+          },
+          {
+            "token": " &",
+            "prob": 0.000010129987330277146
+          },
+          {
+            "token": "**",
+            "prob": 2.102411797088695e-7
+          },
+          {
+            "token": " Technology",
+            "prob": 9.931080659307211e-8
+          },
+          {
+            "token": ":",
+            "prob": 2.5109704198035704e-8
+          }
+        ]
+      },
+      {
+        "token": " Technology",
+        "prob": 0.9999998063873693,
+        "top": [
+          {
+            "token": " Technology",
+            "prob": 0.9999998063873693
+          },
+          {
+            "token": " Tech",
+            "prob": 6.82560337633487e-8
+          },
+          {
+            "token": "Technology",
+            "prob": 5.602796437537268e-9
+          },
+          {
+            "token": " Technologies",
+            "prob": 4.363462252943702e-9
+          },
+          {
+            "token": " technology",
+            "prob": 2.061153622438558e-9
+          }
+        ]
+      },
+      {
+        "token": "**",
+        "prob": 0.8748593396359147,
+        "top": [
+          {
+            "token": "**",
+            "prob": 0.8748593396359147
+          },
+          {
+            "token": ":",
+            "prob": 0.049356181402831115
+          },
+          {
+            "token": " (",
+            "prob": 0.049356181402831115
+          },
+          {
+            "token": ":**",
+            "prob": 0.026418460163921804
+          },
+          {
+            "token": "**\n",
+            "prob": 0.000008862410297652566
+          }
+        ]
+      },
+      {
+        "token": ":",
+        "prob": 0.8518034284488287,
+        "top": [
+          {
+            "token": ":",
+            "prob": 0.8518034284488287
+          },
+          {
+            "token": ":\n",
+            "prob": 0.14802124962891577
+          },
+          {
+            "token": "  \n",
+            "prob": 0.00017331506463454067
+          },
+          {
+            "token": " \n",
+            "prob": 7.082990560039946e-7
+          },
+          {
+            "token": ":\n\n",
+            "prob": 5.516238594646478e-7
+          }
+        ]
+      },
+      {
+        "token": " Discuss",
+        "prob": 0.8793071361847121,
+        "top": [
+          {
+            "token": " Discuss",
+            "prob": 0.8793071361847121
+          },
+          {
+            "token": " Ask",
+            "prob": 0.043778121243854586
+          },
+          {
+            "token": " \n",
+            "prob": 0.03409443510610886
+          },
+          {
+            "token": " In",
+            "prob": 0.018249436039443838
+          },
+          {
+            "token": " Engage",
+            "prob": 0.004614180031877553
+          }
+        ]
+      },
+      {
+        "token": " your",
+        "prob": 0.9042340524526509,
+        "top": [
+          {
+            "token": " your",
+            "prob": 0.9042340524526509
+          },
+          {
+            "token": " the",
+            "prob": 0.09530557221143256
+          },
+          {
+            "token": " how",
+            "prob": 0.0001623644594696882
+          },
+          {
+            "token": " why",
+            "prob": 0.00009847902271603511
+          },
+          {
+            "token": " with",
+            "prob": 0.000086907432516459
+          }
+        ]
+      },
+      {
+        "token": " daughter's",
+        "prob": 0.9046502362990437,
+        "top": [
+          {
+            "token": " daughter's",
+            "prob": 0.9046502362990437
+          },
+          {
+            "token": " daughter",
+            "prob": 0.0953494369576698
+          },
+          {
+            "token": " concerns",
+            "prob": 8.984261899942427e-8
+          },
+          {
+            "token": " daughters",
+            "prob": 6.99695020299375e-8
+          },
+          {
+            "token": " child's",
+            "prob": 3.3051252470887006e-8
+          }
+        ]
+      },
+      {
+        "token": " interest",
+        "prob": 0.8498519315139492,
+        "top": [
+          {
+            "token": " interest",
+            "prob": 0.8498519315139492
+          },
+          {
+            "token": " reasons",
+            "prob": 0.061563074772849766
+          },
+          {
+            "token": " motivations",
+            "prob": 0.017638116231884014
+          },
+          {
+            "token": " interests",
+            "prob": 0.01556558294206472
+          },
+          {
+            "token": " considerations",
+            "prob": 0.012122488184242905
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.999968694721959,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.999968694721959
+          },
+          {
+            "token": " and",
+            "prob": 0.000031201903005200916
+          },
+          {
+            "token": " to",
+            "prob": 4.13981137984019e-8
+          },
+          {
+            "token": " or",
+            "prob": 1.343999978863292e-8
+          },
+          {
+            "token": ",",
+            "prob": 1.186075818420617e-8
+          }
+        ]
+      },
+      {
+        "token": " switching",
+        "prob": 0.9920656697836013,
+        "top": [
+          {
+            "token": " switching",
+            "prob": 0.9920656697836013
+          },
+          {
+            "token": " potentially",
+            "prob": 0.0027865081070263084
+          },
+          {
+            "token": " transitioning",
+            "prob": 0.002170134695786907
+          },
+          {
+            "token": " shifting",
+            "prob": 0.002170134695786907
+          },
+          {
+            "token": " changing",
+            "prob": 0.0004273248583661439
+          }
+        ]
+      },
+      {
+        "token": " from",
+        "prob": 0.6236866118186831,
+        "top": [
+          {
+            "token": " from",
+            "prob": 0.6236866118186831
+          },
+          {
+            "token": " majors",
+            "prob": 0.3338353768411676
+          },
+          {
+            "token": " her",
+            "prob": 0.03987095472156746
+          },
+          {
+            "token": " to",
+            "prob": 0.0015459643162365748
+          },
+          {
+            "token": " programs",
+            "prob": 0.0008274950683481731
+          }
+        ]
+      },
+      {
+        "token": " Applied",
+        "prob": 0.9999195855518133,
+        "top": [
+          {
+            "token": " Applied",
+            "prob": 0.9999195855518133
+          },
+          {
+            "token": " the",
+            "prob": 0.00006605121654344287
+          },
+          {
+            "token": " her",
+            "prob": 0.000010129282123086871
+          },
+          {
+            "token": " **",
+            "prob": 0.0000013708492651115192
+          },
+          {
+            "token": " an",
+            "prob": 8.314621091346685e-7
+          }
+        ]
+      },
+      {
+        "token": " Data",
+        "prob": 1,
+        "top": [
+          {
+            "token": " Data",
+            "prob": 1
+          },
+          {
+            "token": "Data",
+            "prob": 7.194133030325383e-9
+          },
+          {
+            "token": "\tData",
+            "prob": 1.3176514270095466e-10
+          },
+          {
+            "token": " data",
+            "prob": 9.056076989672867e-11
+          },
+          {
+            "token": " Analytics",
+            "prob": 6.224144622907783e-11
+          }
+        ]
+      },
+      {
+        "token": " Analytics",
+        "prob": 0.9999996871837232,
+        "top": [
+          {
+            "token": " Analytics",
+            "prob": 0.9999996871837232
+          },
+          {
+            "token": "Analytics",
+            "prob": 2.1024338523818466e-7
+          },
+          {
+            "token": " analytics",
+            "prob": 1.186112015134383e-8
+          },
+          {
+            "token": " Analysis",
+            "prob": 9.736200313009565e-10
+          },
+          {
+            "token": " An",
+            "prob": 6.691586091292783e-10
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.9999884821053749,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.9999884821053749
+          },
+          {
+            "token": " (",
+            "prob": 0.00001147876852587815
+          },
+          {
+            "token": ".",
+            "prob": 3.6534404031744556e-8
+          },
+          {
+            "token": " and",
+            "prob": 1.3440256138729877e-8
+          },
+          {
+            "token": ",",
+            "prob": 1.186098441237271e-8
+          }
+        ]
+      },
+      {
+        "token": " Information",
+        "prob": 0.9997023586845241,
+        "top": [
+          {
+            "token": " Information",
+            "prob": 0.9997023586845241
+          },
+          {
+            "token": " the",
+            "prob": 0.00029595665612081035
+          },
+          {
+            "token": " a",
+            "prob": 4.44952836234612e-7
+          },
+          {
+            "token": " IM",
+            "prob": 3.926694997732758e-7
+          },
+          {
+            "token": " an",
+            "prob": 1.8548393797444097e-7
+          }
+        ]
+      },
+      {
+        "token": " Management",
+        "prob": 1,
+        "top": [
+          {
+            "token": " Management",
+            "prob": 1
+          },
+          {
+            "token": " management",
+            "prob": 2.9989608248573072e-9
+          },
+          {
+            "token": "Management",
+            "prob": 1.103256032343554e-9
+          },
+          {
+            "token": " Man",
+            "prob": 5.21141248788854e-10
+          },
+          {
+            "token": " and",
+            "prob": 4.5990553786523166e-10
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9999996871837232,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9999996871837232
+          },
+          {
+            "token": " &",
+            "prob": 2.1024338523818466e-7
+          },
+          {
+            "token": " Technology",
+            "prob": 6.34880011604368e-9
+          },
+          {
+            "token": ".",
+            "prob": 3.398267819495071e-9
+          },
+          {
+            "token": "and",
+            "prob": 6.691586091292783e-10
+          }
+        ]
+      },
+      {
+        "token": " Technology",
+        "prob": 1,
+        "top": [
+          {
+            "token": " Technology",
+            "prob": 1
+          },
+          {
+            "token": " Tech",
+            "prob": 5.3157852544244216e-8
+          },
+          {
+            "token": "Technology",
+            "prob": 6.34880011604368e-9
+          },
+          {
+            "token": " technology",
+            "prob": 4.944450501938644e-9
+          },
+          {
+            "token": " Technologies",
+            "prob": 2.9989608248573072e-9
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9461380133909061,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9461380133909061
+          },
+          {
+            "token": " (",
+            "prob": 0.053377458130218505
+          },
+          {
+            "token": ",",
+            "prob": 0.0004618053883569863
+          },
+          {
+            "token": " and",
+            "prob": 0.000010860626937064442
+          },
+          {
+            "token": " at",
+            "prob": 0.000006587303221030493
+          }
+        ]
+      },
+      {
+        "token": " Ask",
+        "prob": 0.7968353830623308,
+        "top": [
+          {
+            "token": " Ask",
+            "prob": 0.7968353830623308
+          },
+          {
+            "token": " In",
+            "prob": 0.12219867831760638
+          },
+          {
+            "token": " You",
+            "prob": 0.02726621066293397
+          },
+          {
+            "token": " Seek",
+            "prob": 0.024062346455258295
+          },
+          {
+            "token": " It",
+            "prob": 0.012879645937160417
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.588187184049376,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.588187184049376
+          },
+          {
+            "token": " for",
+            "prob": 0.21638198546965973
+          },
+          {
+            "token": " about",
+            "prob": 0.19095643195207965
+          },
+          {
+            "token": " how",
+            "prob": 0.00396317336299534
+          },
+          {
+            "token": " what",
+            "prob": 0.00019731478317714624
+          }
+        ]
+      },
+      {
+        "token": " advisor",
+        "prob": 0.9971664572855717,
+        "top": [
+          {
+            "token": " advisor",
+            "prob": 0.9971664572855717
+          },
+          {
+            "token": " academic",
+            "prob": 0.002800835095351179
+          },
+          {
+            "token": " adviser",
+            "prob": 0.00003111448221498155
+          },
+          {
+            "token": " advisory",
+            "prob": 7.317424851732515e-7
+          },
+          {
+            "token": " advisors",
+            "prob": 3.050356502538926e-7
+          }
+        ]
+      },
+      {
+        "token": " about",
+        "prob": 0.5347611195722128,
+        "top": [
+          {
+            "token": " about",
+            "prob": 0.5347611195722128
+          },
+          {
+            "token": " for",
+            "prob": 0.3675356061030676
+          },
+          {
+            "token": " to",
+            "prob": 0.09292755409095213
+          },
+          {
+            "token": " how",
+            "prob": 0.003603192295616167
+          },
+          {
+            "token": " what",
+            "prob": 0.0010323318767037118
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9716457347894903,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9716457347894903
+          },
+          {
+            "token": " how",
+            "prob": 0.025893481811090142
+          },
+          {
+            "token": " potential",
+            "prob": 0.0021254659120806597
+          },
+          {
+            "token": " what",
+            "prob": 0.00017446894966154309
+          },
+          {
+            "token": " any",
+            "prob": 0.00004998619098119113
+          }
+        ]
+      },
+      {
+        "token": " potential",
+        "prob": 0.3753995318453485,
+        "top": [
+          {
+            "token": " potential",
+            "prob": 0.3753995318453485
+          },
+          {
+            "token": " differences",
+            "prob": 0.2276913121345128
+          },
+          {
+            "token": " key",
+            "prob": 0.15648979770389942
+          },
+          {
+            "token": " curriculum",
+            "prob": 0.12187437699448261
+          },
+          {
+            "token": " implications",
+            "prob": 0.01649390332983402
+          }
+        ]
+      },
+      {
+        "token": " benefits",
+        "prob": 0.7701231294397549,
+        "top": [
+          {
+            "token": " benefits",
+            "prob": 0.7701231294397549
+          },
+          {
+            "token": " career",
+            "prob": 0.10422482253137007
+          },
+          {
+            "token": " advantages",
+            "prob": 0.043447370021061034
+          },
+          {
+            "token": " implications",
+            "prob": 0.043447370021061034
+          },
+          {
+            "token": " impacts",
+            "prob": 0.015983398014455398
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.5294034313952962,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.5294034313952962
+          },
+          {
+            "token": " and",
+            "prob": 0.4671968884240053
+          },
+          {
+            "token": ",",
+            "prob": 0.002451624414173458
+          },
+          {
+            "token": " or",
+            "prob": 0.0007959259150973818
+          },
+          {
+            "token": " this",
+            "prob": 0.00013831118496087622
+          }
+        ]
+      },
+      {
+        "token": " this",
+        "prob": 0.973934536322381,
+        "top": [
+          {
+            "token": " this",
+            "prob": 0.973934536322381
+          },
+          {
+            "token": " making",
+            "prob": 0.013892431875398684
+          },
+          {
+            "token": " the",
+            "prob": 0.010819436823326641
+          },
+          {
+            "token": " such",
+            "prob": 0.0008881134567541272
+          },
+          {
+            "token": " each",
+            "prob": 0.00017487990854084273
+          }
+        ]
+      },
+      {
+        "token": " transition",
+        "prob": 0.5214663821930857,
+        "top": [
+          {
+            "token": " transition",
+            "prob": 0.5214663821930857
+          },
+          {
+            "token": " switch",
+            "prob": 0.27912085729419983
+          },
+          {
+            "token": " change",
+            "prob": 0.13184735715817789
+          },
+          {
+            "token": " shift",
+            "prob": 0.06228028158882184
+          },
+          {
+            "token": " major",
+            "prob": 0.0018807010943934807
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.8987094561534752,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.8987094561534752
+          },
+          {
+            "token": " in",
+            "prob": 0.08359299540756134
+          },
+          {
+            "token": " and",
+            "prob": 0.009983761948145365
+          },
+          {
+            "token": " regarding",
+            "prob": 0.0036728207662724277
+          },
+          {
+            "token": "—",
+            "prob": 0.0011923903239353284
+          }
+        ]
+      },
+      {
+        "token": " including",
+        "prob": 0.5776093808305813,
+        "top": [
+          {
+            "token": " including",
+            "prob": 0.5776093808305813
+          },
+          {
+            "token": " such",
+            "prob": 0.30917202230934643
+          },
+          {
+            "token": " how",
+            "prob": 0.08857926744659347
+          },
+          {
+            "token": " the",
+            "prob": 0.013584067383725962
+          },
+          {
+            "token": " any",
+            "prob": 0.004410100992888716
+          }
+        ]
+      },
+      {
+        "token": " how",
+        "prob": 0.9341859022330956,
+        "top": [
+          {
+            "token": " how",
+            "prob": 0.9341859022330956
+          },
+          {
+            "token": " the",
+            "prob": 0.017110209473070667
+          },
+          {
+            "token": " career",
+            "prob": 0.017110209473070667
+          },
+          {
+            "token": " course",
+            "prob": 0.0062944942992795554
+          },
+          {
+            "token": " job",
+            "prob": 0.004902157089317412
+          }
+        ]
+      },
+      {
+        "token": " it",
+        "prob": 0.763441870516018,
+        "top": [
+          {
+            "token": " it",
+            "prob": 0.763441870516018
+          },
+          {
+            "token": " the",
+            "prob": 0.2187297515081006
+          },
+          {
+            "token": " this",
+            "prob": 0.006605065384773364
+          },
+          {
+            "token": " well",
+            "prob": 0.0045395906246681
+          },
+          {
+            "token": " her",
+            "prob": 0.003535436733315124
+          }
+        ]
+      },
+      {
+        "token": " aligns",
+        "prob": 0.8912574123889442,
+        "top": [
+          {
+            "token": " aligns",
+            "prob": 0.8912574123889442
+          },
+          {
+            "token": " might",
+            "prob": 0.05697617506458252
+          },
+          {
+            "token": " may",
+            "prob": 0.05028129801561173
+          },
+          {
+            "token": " could",
+            "prob": 0.00118250306997208
+          },
+          {
+            "token": " fits",
+            "prob": 0.00014122985163127395
+          }
+        ]
+      },
+      {
+        "token": " with",
+        "prob": 0.9999291211297546,
+        "top": [
+          {
+            "token": " with",
+            "prob": 0.9999291211297546
+          },
+          {
+            "token": " better",
+            "prob": 0.0000514412297463091
+          },
+          {
+            "token": " more",
+            "prob": 0.000018924170852243967
+          },
+          {
+            "token": " her",
+            "prob": 3.4660827959840946e-7
+          },
+          {
+            "token": " not",
+            "prob": 3.653224389639422e-8
+          }
+        ]
+      },
+      {
+        "token": " her",
+        "prob": 0.9652078139175886,
+        "top": [
+          {
+            "token": " her",
+            "prob": 0.9652078139175886
+          },
+          {
+            "token": " your",
+            "prob": 0.020032249386884516
+          },
+          {
+            "token": " career",
+            "prob": 0.009462564586530945
+          },
+          {
+            "token": " job",
+            "prob": 0.00211138355160751
+          },
+          {
+            "token": " industry",
+            "prob": 0.0014511312784354473
+          }
+        ]
+      },
+      {
+        "token": " career",
+        "prob": 0.9908583162654651,
+        "top": [
+          {
+            "token": " career",
+            "prob": 0.9908583162654651
+          },
+          {
+            "token": " long",
+            "prob": 0.004049410825355935
+          },
+          {
+            "token": " strengths",
+            "prob": 0.002456091819350615
+          },
+          {
+            "token": " skills",
+            "prob": 0.001314651215799416
+          },
+          {
+            "token": " interests",
+            "prob": 0.0009035456859684554
+          }
+        ]
+      },
+      {
+        "token": " goals",
+        "prob": 0.9782030811380891,
+        "top": [
+          {
+            "token": " goals",
+            "prob": 0.9782030811380891
+          },
+          {
+            "token": " aspirations",
+            "prob": 0.01581118017865207
+          },
+          {
+            "token": " interests",
+            "prob": 0.005816608128383509
+          },
+          {
+            "token": " ambitions",
+            "prob": 0.0000940167588352819
+          },
+          {
+            "token": " objectives",
+            "prob": 0.00007322032540275297
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.7696208629352654,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.7696208629352654
+          },
+          {
+            "token": " and",
+            "prob": 0.22050006899463243
+          },
+          {
+            "token": ".",
+            "prob": 0.009688099205196492
+          },
+          {
+            "token": " or",
+            "prob": 0.00013819331319651253
+          },
+          {
+            "token": " in",
+            "prob": 0.00004486480010167299
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.7717258196358494,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.7717258196358494
+          },
+          {
+            "token": " job",
+            "prob": 0.0921695053271766
+          },
+          {
+            "token": " any",
+            "prob": 0.0559036308714795
+          },
+          {
+            "token": " skill",
+            "prob": 0.012473789083214643
+          },
+          {
+            "token": " course",
+            "prob": 0.009714596705875104
+          }
+        ]
+      },
+      {
+        "token": " skills",
+        "prob": 0.5111089207899489,
+        "top": [
+          {
+            "token": " skills",
+            "prob": 0.5111089207899489
+          },
+          {
+            "token": " skill",
+            "prob": 0.1880264529506951
+          },
+          {
+            "token": " types",
+            "prob": 0.08881740740444044
+          },
+          {
+            "token": " curriculum",
+            "prob": 0.08881740740444044
+          },
+          {
+            "token": " differences",
+            "prob": 0.03702460383322395
+          }
+        ]
+      },
+      {
+        "token": " she",
+        "prob": 0.7943412783859579,
+        "top": [
+          {
+            "token": " she",
+            "prob": 0.7943412783859579
+          },
+          {
+            "token": " she'll",
+            "prob": 0.09487054376282167
+          },
+          {
+            "token": " and",
+            "prob": 0.057541893495760485
+          },
+          {
+            "token": " that",
+            "prob": 0.014548865624587569
+          },
+          {
+            "token": " gained",
+            "prob": 0.008824333065351552
+          }
+        ]
+      },
+      {
+        "token": " would",
+        "prob": 0.6983685255177143,
+        "top": [
+          {
+            "token": " would",
+            "prob": 0.6983685255177143
+          },
+          {
+            "token": " will",
+            "prob": 0.25691543055585725
+          },
+          {
+            "token": " might",
+            "prob": 0.018610891367816407
+          },
+          {
+            "token": " may",
+            "prob": 0.009961692299549154
+          },
+          {
+            "token": " can",
+            "prob": 0.007758173763605264
+          }
+        ]
+      },
+      {
+        "token": " gain",
+        "prob": 0.6547284813812791,
+        "top": [
+          {
+            "token": " gain",
+            "prob": 0.6547284813812791
+          },
+          {
+            "token": " acquire",
+            "prob": 0.24086115502779373
+          },
+          {
+            "token": " develop",
+            "prob": 0.10040586754698441
+          },
+          {
+            "token": " learn",
+            "prob": 0.0023613191124396775
+          },
+          {
+            "token": " be",
+            "prob": 0.001115408169064603
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9857669365495044,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9857669365495044
+          },
+          {
+            "token": " in",
+            "prob": 0.010950883341824497
+          },
+          {
+            "token": " from",
+            "prob": 0.002768816917851837
+          },
+          {
+            "token": " that",
+            "prob": 0.0004246118266368455
+          },
+          {
+            "token": " through",
+            "prob": 0.00005746493442209041
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.9970503119630406,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.9970503119630406
+          },
+          {
+            "token": " job",
+            "prob": 0.0010302497749421996
+          },
+          {
+            "token": " any",
+            "prob": 0.0007080796247945858
+          },
+          {
+            "token": " the",
+            "prob": 0.00048665553465165304
+          },
+          {
+            "token": " potential",
+            "prob": 0.0002951713617363646
+          }
+        ]
+      },
+      {
+        "token": " any",
+        "prob": 0.3981281472283174,
+        "top": [
+          {
+            "token": " any",
+            "prob": 0.3981281472283174
+          },
+          {
+            "token": " the",
+            "prob": 0.2736291908653651
+          },
+          {
+            "token": " how",
+            "prob": 0.21310262811714123
+          },
+          {
+            "token": " job",
+            "prob": 0.04196239549296266
+          },
+          {
+            "token": " whether",
+            "prob": 0.022460851755642032
+          }
+        ]
+      },
+      {
+        "token": " differences",
+        "prob": 0.20385985744789395,
+        "top": [
+          {
+            "token": " differences",
+            "prob": 0.20385985744789395
+          },
+          {
+            "token": " specific",
+            "prob": 0.15876621661724477
+          },
+          {
+            "token": " opportunities",
+            "prob": 0.08498143190710189
+          },
+          {
+            "token": " implications",
+            "prob": 0.08498143190710189
+          },
+          {
+            "token": " relevant",
+            "prob": 0.07499585043522113
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.9997232096631302,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.9997232096631302
+          },
+          {
+            "token": " between",
+            "prob": 0.0002034121044496818
+          },
+          {
+            "token": " she",
+            "prob": 0.000045387375441986634
+          },
+          {
+            "token": " or",
+            "prob": 0.000011475725661390177
+          },
+          {
+            "token": " regarding",
+            "prob": 0.00000614251331080774
+          }
+        ]
+      },
+      {
+        "token": " job",
+        "prob": 0.731099082064024,
+        "top": [
+          {
+            "token": " job",
+            "prob": 0.731099082064024
+          },
+          {
+            "token": " internship",
+            "prob": 0.09894351019140099
+          },
+          {
+            "token": " coursework",
+            "prob": 0.0680028137604952
+          },
+          {
+            "token": " course",
+            "prob": 0.06001227251067411
+          },
+          {
+            "token": " the",
+            "prob": 0.017193803944789057
+          }
+        ]
+      },
+      {
+        "token": " prospects",
+        "prob": 0.7347251671824679,
+        "top": [
+          {
+            "token": " prospects",
+            "prob": 0.7347251671824679
+          },
+          {
+            "token": " market",
+            "prob": 0.127676089653585
+          },
+          {
+            "token": " opportunities",
+            "prob": 0.127676089653585
+          },
+          {
+            "token": " outlook",
+            "prob": 0.0049505380550692885
+          },
+          {
+            "token": " placement",
+            "prob": 0.0038554829139127514
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.5824062748697831,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.5824062748697831
+          },
+          {
+            "token": " between",
+            "prob": 0.24278307048665257
+          },
+          {
+            "token": ".",
+            "prob": 0.0695585142908716
+          },
+          {
+            "token": " for",
+            "prob": 0.02558914736604163
+          },
+          {
+            "token": " and",
+            "prob": 0.0199288480068028
+          }
+        ]
+      },
+      {
+        "token": " internship",
+        "prob": 0.8530917751201951,
+        "top": [
+          {
+            "token": " internship",
+            "prob": 0.8530917751201951
+          },
+          {
+            "token": " internships",
+            "prob": 0.11545342217388635
+          },
+          {
+            "token": " industry",
+            "prob": 0.022734126768317004
+          },
+          {
+            "token": " industries",
+            "prob": 0.002715203593536926
+          },
+          {
+            "token": " opportunities",
+            "prob": 0.0016468542268420648
+          }
+        ]
+      },
+      {
+        "token": " opportunities",
+        "prob": 0.9766933964726198,
+        "top": [
+          {
+            "token": " opportunities",
+            "prob": 0.9766933964726198
+          },
+          {
+            "token": " availability",
+            "prob": 0.022969627975954986
+          },
+          {
+            "token": " requirements",
+            "prob": 0.00015476813589069549
+          },
+          {
+            "token": " experiences",
+            "prob": 0.00006451695770927316
+          },
+          {
+            "token": " possibilities",
+            "prob": 0.000039131512922057524
+          }
+        ]
+      },
+      {
+        "token": " between",
+        "prob": 0.506158387386038,
+        "top": [
+          {
+            "token": " between",
+            "prob": 0.506158387386038
+          },
+          {
+            "token": ".",
+            "prob": 0.21099822021943423
+          },
+          {
+            "token": " in",
+            "prob": 0.1450168146007937
+          },
+          {
+            "token": " within",
+            "prob": 0.08795714422924404
+          },
+          {
+            "token": " associated",
+            "prob": 0.017319784486998453
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.997520405898646,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.997520405898646
+          },
+          {
+            "token": " these",
+            "prob": 0.001925666974327286
+          },
+          {
+            "token": " both",
+            "prob": 0.000551712825300016
+          },
+          {
+            "token": " those",
+            "prob": 0.0000012068674806104933
+          },
+          {
+            "token": " programs",
+            "prob": 2.6928853422655143e-7
+          }
+        ]
+      },
+      {
+        "token": " two",
+        "prob": 0.9999856212549841,
+        "top": [
+          {
+            "token": " two",
+            "prob": 0.9999856212549841
+          },
+          {
+            "token": " programs",
+            "prob": 0.000010129948687515881
+          },
+          {
+            "token": " majors",
+            "prob": 0.000002260297072940795
+          },
+          {
+            "token": " fields",
+            "prob": 0.0000015534779451148246
+          },
+          {
+            "token": "两个",
+            "prob": 9.931042775313232e-8
+          }
+        ]
+      },
+      {
+        "token": " programs",
+        "prob": 0.5967892848934808,
+        "top": [
+          {
+            "token": " programs",
+            "prob": 0.5967892848934808
+          },
+          {
+            "token": " fields",
+            "prob": 0.24877877179481842
+          },
+          {
+            "token": " majors",
+            "prob": 0.1331616807760944
+          },
+          {
+            "token": " paths",
+            "prob": 0.006629731285430009
+          },
+          {
+            "token": " tracks",
+            "prob": 0.005850717324360171
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.8519331847476868,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.8519331847476868
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.14804378465785348
+          },
+          {
+            "token": ",",
+            "prob": 0.000012556817044554353
+          },
+          {
+            "token": " at",
+            "prob": 0.0000035975883165606177
+          },
+          {
+            "token": ".\n",
+            "prob": 0.0000024725838794757745
+          }
+        ]
+      },
+      {
+        "token": " It",
+        "prob": 0.4414193576118359,
+        "top": [
+          {
+            "token": " It",
+            "prob": 0.4414193576118359
+          },
+          {
+            "token": " Additionally",
+            "prob": 0.1623890969213545
+          },
+          {
+            "token": " In",
+            "prob": 0.12646875584460915
+          },
+          {
+            "token": " This",
+            "prob": 0.059739610227763085
+          },
+          {
+            "token": " Understanding",
+            "prob": 0.059739610227763085
+          }
+        ]
+      },
+      {
+        "token": " may",
+        "prob": 0.40509186812532016,
+        "top": [
+          {
+            "token": " may",
+            "prob": 0.40509186812532016
+          },
+          {
+            "token": " might",
+            "prob": 0.35749229757460044
+          },
+          {
+            "token": " would",
+            "prob": 0.168867404236779
+          },
+          {
+            "token": " could",
+            "prob": 0.048381321347165974
+          },
+          {
+            "token": "’s",
+            "prob": 0.01779849770382342
+          }
+        ]
+      },
+      {
+        "token": " also",
+        "prob": 0.9625247577271419,
+        "top": [
+          {
+            "token": " also",
+            "prob": 0.9625247577271419
+          },
+          {
+            "token": " be",
+            "prob": 0.03732113055026435
+          },
+          {
+            "token": " help",
+            "prob": 0.00015252293038400908
+          },
+          {
+            "token": " benefit",
+            "prob": 4.284055213946236e-7
+          },
+          {
+            "token": " helpful",
+            "prob": 2.5984108351601574e-7
+          }
+        ]
+      },
+      {
+        "token": " be",
+        "prob": 0.9980631280096423,
+        "top": [
+          {
+            "token": " be",
+            "prob": 0.9980631280096423
+          },
+          {
+            "token": " help",
+            "prob": 0.0019267149593273887
+          },
+          {
+            "token": " benefit",
+            "prob": 0.000006132311372895117
+          },
+          {
+            "token": " helpful",
+            "prob": 0.000001368303618714125
+          },
+          {
+            "token": " provide",
+            "prob": 6.463408634750471e-7
+          }
+        ]
+      },
+      {
+        "token": " helpful",
+        "prob": 0.8236395509385483,
+        "top": [
+          {
+            "token": " helpful",
+            "prob": 0.8236395509385483
+          },
+          {
+            "token": " useful",
+            "prob": 0.06760845845749076
+          },
+          {
+            "token": " beneficial",
+            "prob": 0.052653520388944344
+          },
+          {
+            "token": " valuable",
+            "prob": 0.02818339853994013
+          },
+          {
+            "token": " worthwhile",
+            "prob": 0.015085486163008378
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.9999844292354182,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.9999844292354182
+          },
+          {
+            "token": " for",
+            "prob": 0.000014738974314670568
+          },
+          {
+            "token": " if",
+            "prob": 6.475853361407876e-7
+          },
+          {
+            "token": " in",
+            "prob": 6.825499226687326e-8
+          },
+          {
+            "token": " inquire",
+            "prob": 1.1860939166394204e-8
+          }
+        ]
+      },
+      {
+        "token": " inquire",
+        "prob": 0.7460043893940522,
+        "top": [
+          {
+            "token": " inquire",
+            "prob": 0.7460043893940522
+          },
+          {
+            "token": " understand",
+            "prob": 0.11440347499220668
+          },
+          {
+            "token": " explore",
+            "prob": 0.05404037510366156
+          },
+          {
+            "token": " ask",
+            "prob": 0.03277714436274202
+          },
+          {
+            "token": " discuss",
+            "prob": 0.02252737990989654
+          }
+        ]
+      },
+      {
+        "token": " about",
+        "prob": 0.9895428838502976,
+        "top": [
+          {
+            "token": " about",
+            "prob": 0.9895428838502976
+          },
+          {
+            "token": " if",
+            "prob": 0.008561221914543652
+          },
+          {
+            "token": " whether",
+            "prob": 0.0011586353926562607
+          },
+          {
+            "token": " how",
+            "prob": 0.0007027478890742078
+          },
+          {
+            "token": " what",
+            "prob": 0.000024046710411614802
+          }
+        ]
+      },
+      {
+        "token": " any",
+        "prob": 0.5189455430978369,
+        "top": [
+          {
+            "token": " any",
+            "prob": 0.5189455430978369
+          },
+          {
+            "token": " the",
+            "prob": 0.27777154927858544
+          },
+          {
+            "token": " how",
+            "prob": 0.07023164624565577
+          },
+          {
+            "token": " specific",
+            "prob": 0.04259764673008189
+          },
+          {
+            "token": " resources",
+            "prob": 0.020121703540768338
+          }
+        ]
+      },
+      {
+        "token": " specific",
+        "prob": 0.3214538903503791,
+        "top": [
+          {
+            "token": " specific",
+            "prob": 0.3214538903503791
+          },
+          {
+            "token": " resources",
+            "prob": 0.17206186855193076
+          },
+          {
+            "token": " support",
+            "prob": 0.09209809253370072
+          },
+          {
+            "token": " recommended",
+            "prob": 0.09209809253370072
+          },
+          {
+            "token": " prerequisites",
+            "prob": 0.08127628139494034
+          }
+        ]
+      },
+      {
+        "token": " courses",
+        "prob": 0.7532122902312128,
+        "top": [
+          {
+            "token": " courses",
+            "prob": 0.7532122902312128
+          },
+          {
+            "token": " coursework",
+            "prob": 0.10193619863573891
+          },
+          {
+            "token": " resources",
+            "prob": 0.054562515299561146
+          },
+          {
+            "token": " prerequisites",
+            "prob": 0.022745040326514577
+          },
+          {
+            "token": " steps",
+            "prob": 0.01563242236208178
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.9097517907447759,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.9097517907447759
+          },
+          {
+            "token": " she",
+            "prob": 0.03997170255466726
+          },
+          {
+            "token": " that",
+            "prob": 0.03527490369552662
+          },
+          {
+            "token": ",",
+            "prob": 0.012976911858886778
+          },
+          {
+            "token": " in",
+            "prob": 0.0009400443421126547
+          }
+        ]
+      },
+      {
+        "token": " projects",
+        "prob": 0.5583233089695085,
+        "top": [
+          {
+            "token": " projects",
+            "prob": 0.5583233089695085
+          },
+          {
+            "token": " experiences",
+            "prob": 0.26373325677288323
+          },
+          {
+            "token": " extracurricular",
+            "prob": 0.12457876934496771
+          },
+          {
+            "token": " resources",
+            "prob": 0.03569241500427245
+          },
+          {
+            "token": " faculty",
+            "prob": 0.0033199117503174237
+          }
+        ]
+      },
+      {
+        "token": " that",
+        "prob": 0.5592757237385606,
+        "top": [
+          {
+            "token": " that",
+            "prob": 0.5592757237385606
+          },
+          {
+            "token": " in",
+            "prob": 0.1815702544677807
+          },
+          {
+            "token": " within",
+            "prob": 0.1815702544677807
+          },
+          {
+            "token": " she",
+            "prob": 0.07568974299097976
+          },
+          {
+            "token": " related",
+            "prob": 0.000952793023900139
+          }
+        ]
+      },
+      {
+        "token": " could",
+        "prob": 0.5017886179246694,
+        "top": [
+          {
+            "token": " could",
+            "prob": 0.5017886179246694
+          },
+          {
+            "token": " would",
+            "prob": 0.3043501633254564
+          },
+          {
+            "token": " might",
+            "prob": 0.1119641680046061
+          },
+          {
+            "token": " can",
+            "prob": 0.052888128070851595
+          },
+          {
+            "token": " may",
+            "prob": 0.009190580767789011
+          }
+        ]
+      },
+      {
+        "token": " enhance",
+        "prob": 0.4759606306315331,
+        "top": [
+          {
+            "token": " enhance",
+            "prob": 0.4759606306315331
+          },
+          {
+            "token": " help",
+            "prob": 0.22482786893107104
+          },
+          {
+            "token": " enrich",
+            "prob": 0.03447847038574032
+          },
+          {
+            "token": " facilitate",
+            "prob": 0.03042714332127053
+          },
+          {
+            "token": " strengthen",
+            "prob": 0.03042714332127053
+          }
+        ]
+      },
+      {
+        "token": " her",
+        "prob": 0.9999798995778466,
+        "top": [
+          {
+            "token": " her",
+            "prob": 0.9999798995778466
+          },
+          {
+            "token": " your",
+            "prob": 0.000004785021560773912
+          },
+          {
+            "token": " both",
+            "prob": 0.0000022602841394542027
+          },
+          {
+            "token": " the",
+            "prob": 0.0000015534690560681523
+          },
+          {
+            "token": " this",
+            "prob": 0.0000015534690560681523
+          }
+        ]
+      },
+      {
+        "token": " resume",
+        "prob": 0.30223804135410015,
+        "top": [
+          {
+            "token": " resume",
+            "prob": 0.30223804135410015
+          },
+          {
+            "token": " learning",
+            "prob": 0.20772496546545552
+          },
+          {
+            "token": " experience",
+            "prob": 0.12599156034254674
+          },
+          {
+            "token": " understanding",
+            "prob": 0.07641774421278894
+          },
+          {
+            "token": " skill",
+            "prob": 0.07641774421278894
+          }
+        ]
+      },
+      {
+        "token": " in",
+        "prob": 0.6456573007599562,
+        "top": [
+          {
+            "token": " in",
+            "prob": 0.6456573007599562
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.14406561691957195
+          },
+          {
+            "token": " and",
+            "prob": 0.09901475395122909
+          },
+          {
+            "token": " within",
+            "prob": 0.0680517788328058
+          },
+          {
+            "token": " for",
+            "prob": 0.01518440068910582
+          }
+        ]
+      },
+      {
+        "token": " this",
+        "prob": 0.6026532908326635,
+        "top": [
+          {
+            "token": " this",
+            "prob": 0.6026532908326635
+          },
+          {
+            "token": " the",
+            "prob": 0.2846732574886534
+          },
+          {
+            "token": " her",
+            "prob": 0.06351918953341844
+          },
+          {
+            "token": " either",
+            "prob": 0.020621661606626956
+          },
+          {
+            "token": " IM",
+            "prob": 0.008596385456927019
+          }
+        ]
+      },
+      {
+        "token": " new",
+        "prob": 0.6135168781588609,
+        "top": [
+          {
+            "token": " new",
+            "prob": 0.6135168781588609
+          },
+          {
+            "token": " field",
+            "prob": 0.37211679685452925
+          },
+          {
+            "token": " area",
+            "prob": 0.01273313885738893
+          },
+          {
+            "token": " major",
+            "prob": 0.000384507476246196
+          },
+          {
+            "token": " track",
+            "prob": 0.00026426786603898493
+          }
+        ]
+      },
+      {
+        "token": " path",
+        "prob": 0.3547423237391205,
+        "top": [
+          {
+            "token": " path",
+            "prob": 0.3547423237391205
+          },
+          {
+            "token": " field",
+            "prob": 0.27627359951659686
+          },
+          {
+            "token": " track",
+            "prob": 0.13050240781700653
+          },
+          {
+            "token": " direction",
+            "prob": 0.07915371150733609
+          },
+          {
+            "token": " focus",
+            "prob": 0.06985290523329875
+          }
+        ]
+      },
+      {
+        "token": ".\n\n",
+        "prob": 0.9981185909118431,
+        "top": [
+          {
+            "token": ".\n\n",
+            "prob": 0.9981185909118431
+          },
+          {
+            "token": ".",
+            "prob": 0.0015006108357440233
+          },
+          {
+            "token": ",",
+            "prob": 0.000179222320866229
+          },
+          {
+            "token": " and",
+            "prob": 0.000179222320866229
+          },
+          {
+            "token": ".\n",
+            "prob": 0.000007874479215732529
+          }
+        ]
+      },
+      {
+        "token": "2",
+        "prob": 0.9999974223173038,
+        "top": [
+          {
+            "token": "2",
+            "prob": 0.9999974223173038
+          },
+          {
+            "token": "1",
+            "prob": 0.0000015534957233607605
+          },
+          {
+            "token": "   \n",
+            "prob": 6.47593364802092e-7
+          },
+          {
+            "token": "  \n",
+            "prob": 1.8553860543063036e-7
+          },
+          {
+            "token": "3",
+            "prob": 3.6534752452633856e-8
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 1,
+        "top": [
+          {
+            "token": ".",
+            "prob": 1
+          },
+          {
+            "token": ".A",
+            "prob": 1.6918979226151304e-10
+          },
+          {
+            "token": ":",
+            "prob": 6.224144622907783e-11
+          },
+          {
+            "token": "**",
+            "prob": 6.224144622907783e-11
+          },
+          {
+            "token": ",",
+            "prob": 5.4927883509546835e-11
+          }
+        ]
+      },
+      {
+        "token": " **",
+        "prob": 1,
+        "top": [
+          {
+            "token": " **",
+            "prob": 1
+          },
+          {
+            "token": " ",
+            "prob": 1.7257827987960214e-8
+          },
+          {
+            "token": " ***",
+            "prob": 8.152020714470167e-9
+          },
+          {
+            "token": " *",
+            "prob": 7.582560427911907e-10
+          },
+          {
+            "token": "**",
+            "prob": 6.691586091292783e-10
+          }
+        ]
+      },
+      {
+        "token": "Intern",
+        "prob": 0.36315310715486926,
+        "top": [
+          {
+            "token": "Intern",
+            "prob": 0.36315310715486926
+          },
+          {
+            "token": "Summer",
+            "prob": 0.32048149222814376
+          },
+          {
+            "token": "Strategies",
+            "prob": 0.28282392422702596
+          },
+          {
+            "token": "Navig",
+            "prob": 0.009677701346898073
+          },
+          {
+            "token": "Finding",
+            "prob": 0.007537001387295409
+          }
+        ]
+      },
+      {
+        "token": "ship",
+        "prob": 0.99982043200072,
+        "top": [
+          {
+            "token": "ship",
+            "prob": 0.99982043200072
+          },
+          {
+            "token": "ships",
+            "prob": 0.0001795280148238994
+          },
+          {
+            "token": "SHIP",
+            "prob": 8.150559263403374e-9
+          },
+          {
+            "token": " Internship",
+            "prob": 7.192843304285658e-9
+          },
+          {
+            "token": "ment",
+            "prob": 2.646099175214359e-9
+          }
+        ]
+      },
+      {
+        "token": " Opportunities",
+        "prob": 0.8393415366857871,
+        "top": [
+          {
+            "token": " Opportunities",
+            "prob": 0.8393415366857871
+          },
+          {
+            "token": " Search",
+            "prob": 0.06080170061033734
+          },
+          {
+            "token": " Strategies",
+            "prob": 0.06080170061033734
+          },
+          {
+            "token": " Guidance",
+            "prob": 0.013566693194481455
+          },
+          {
+            "token": " Preparation",
+            "prob": 0.00822861537336773
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.969329131531155,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.969329131531155
+          },
+          {
+            "token": "**",
+            "prob": 0.02583174656960019
+          },
+          {
+            "token": " for",
+            "prob": 0.0039614256942500335
+          },
+          {
+            "token": " &",
+            "prob": 0.000473124829232332
+          },
+          {
+            "token": " Support",
+            "prob": 0.0001740529807772333
+          }
+        ]
+      },
+      {
+        "token": " Resources",
+        "prob": 0.4569425343621921,
+        "top": [
+          {
+            "token": " Resources",
+            "prob": 0.4569425343621921
+          },
+          {
+            "token": " Support",
+            "prob": 0.24458371369379472
+          },
+          {
+            "token": " Strategies",
+            "prob": 0.11553316569413313
+          },
+          {
+            "token": " Career",
+            "prob": 0.10195766087086533
+          },
+          {
+            "token": " Networking",
+            "prob": 0.04250227643232535
+          }
+        ]
+      },
+      {
+        "token": "**",
+        "prob": 0.9998992035778881,
+        "top": [
+          {
+            "token": "**",
+            "prob": 0.9998992035778881
+          },
+          {
+            "token": " Available",
+            "prob": 0.00004006124741767856
+          },
+          {
+            "token": " for",
+            "prob": 0.00003535392675977645
+          },
+          {
+            "token": " at",
+            "prob": 0.000016700012509373914
+          },
+          {
+            "token": " on",
+            "prob": 0.000004784633691560806
+          }
+        ]
+      },
+      {
+        "token": ":",
+        "prob": 0.9999995679801056,
+        "top": [
+          {
+            "token": ":",
+            "prob": 0.9999995679801056
+          },
+          {
+            "token": ":\n",
+            "prob": 3.059023205018258e-7
+          },
+          {
+            "token": " :",
+            "prob": 1.0467401794744656e-8
+          },
+          {
+            "token": ":**",
+            "prob": 1.4166087866431964e-9
+          },
+          {
+            "token": "::",
+            "prob": 3.160881454313692e-10
+          }
+        ]
+      },
+      {
+        "token": " Address",
+        "prob": 0.6961292100183831,
+        "top": [
+          {
+            "token": " Address",
+            "prob": 0.6961292100183831
+          },
+          {
+            "token": " Since",
+            "prob": 0.15532741285716625
+          },
+          {
+            "token": " Express",
+            "prob": 0.07337147455751998
+          },
+          {
+            "token": " Bring",
+            "prob": 0.030585781070838074
+          },
+          {
+            "token": " Given",
+            "prob": 0.023820230248819244
+          }
+        ]
+      },
+      {
+        "token": " your",
+        "prob": 0.9739297961051455,
+        "top": [
+          {
+            "token": " your",
+            "prob": 0.9739297961051455
+          },
+          {
+            "token": " her",
+            "prob": 0.0259543497418079
+          },
+          {
+            "token": " the",
+            "prob": 0.00008260702563916915
+          },
+          {
+            "token": " concerns",
+            "prob": 0.000018432118860253263
+          },
+          {
+            "token": " any",
+            "prob": 0.000008706716445730475
+          }
+        ]
+      },
+      {
+        "token": " daughter's",
+        "prob": 0.939878724663451,
+        "top": [
+          {
+            "token": " daughter's",
+            "prob": 0.939878724663451
+          },
+          {
+            "token": " daughter",
+            "prob": 0.06008444270488588
+          },
+          {
+            "token": " concerns",
+            "prob": 0.000033231774072186816
+          },
+          {
+            "token": " concern",
+            "prob": 0.00000240730163960635
+          },
+          {
+            "token": " daughters",
+            "prob": 6.08661173538173e-7
+          }
+        ]
+      },
+      {
+        "token": " concerns",
+        "prob": 0.9511882019195804,
+        "top": [
+          {
+            "token": " concerns",
+            "prob": 0.9511882019195804
+          },
+          {
+            "token": " concern",
+            "prob": 0.04735687168683953
+          },
+          {
+            "token": " worries",
+            "prob": 0.0012620181840164303
+          },
+          {
+            "token": " anxiety",
+            "prob": 0.0000806781233081435
+          },
+          {
+            "token": " worry",
+            "prob": 0.00004893375535446546
+          }
+        ]
+      },
+      {
+        "token": " about",
+        "prob": 0.9625456338066026,
+        "top": [
+          {
+            "token": " about",
+            "prob": 0.9625456338066026
+          },
+          {
+            "token": " regarding",
+            "prob": 0.037321940281681704
+          },
+          {
+            "token": " around",
+            "prob": 0.00008164143234436274
+          },
+          {
+            "token": " over",
+            "prob": 0.000030034204507280282
+          },
+          {
+            "token": " related",
+            "prob": 0.00001252011915034222
+          }
+        ]
+      },
+      {
+        "token": " finding",
+        "prob": 0.8352229225371013,
+        "top": [
+          {
+            "token": " finding",
+            "prob": 0.8352229225371013
+          },
+          {
+            "token": " securing",
+            "prob": 0.1644651521978885
+          },
+          {
+            "token": " summer",
+            "prob": 0.0001499728062514332
+          },
+          {
+            "token": " obtaining",
+            "prob": 0.00008027465851314389
+          },
+          {
+            "token": " her",
+            "prob": 0.000026061365952641115
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.9987977534662711,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.9987977534662711
+          },
+          {
+            "token": " summer",
+            "prob": 0.0011694718291775747
+          },
+          {
+            "token": " an",
+            "prob": 0.00001890276059546067
+          },
+          {
+            "token": " suitable",
+            "prob": 0.000004217775998912568
+          },
+          {
+            "token": " relevant",
+            "prob": 0.000003722174254835989
+          }
+        ]
+      },
+      {
+        "token": " summer",
+        "prob": 0.9994639113750687,
+        "top": [
+          {
+            "token": " summer",
+            "prob": 0.9994639113750687
+          },
+          {
+            "token": " suitable",
+            "prob": 0.00043051153423686976
+          },
+          {
+            "token": " meaningful",
+            "prob": 0.00005826342820473636
+          },
+          {
+            "token": " relevant",
+            "prob": 0.000035338555546138395
+          },
+          {
+            "token": " quality",
+            "prob": 0.000006140920153095067
+          }
+        ]
+      },
+      {
+        "token": " internship",
+        "prob": 0.9999998063873693,
+        "top": [
+          {
+            "token": " internship",
+            "prob": 0.9999998063873693
+          },
+          {
+            "token": " internships",
+            "prob": 6.023573837886479e-8
+          },
+          {
+            "token": " intern",
+            "prob": 4.691164021834418e-8
+          },
+          {
+            "token": " Internship",
+            "prob": 1.2501528663867426e-9
+          },
+          {
+            "token": "intern",
+            "prob": 9.056076989672867e-11
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9842011035423058,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9842011035423058
+          },
+          {
+            "token": ",",
+            "prob": 0.0075144688976812365
+          },
+          {
+            "token": " by",
+            "prob": 0.0075144688976812365
+          },
+          {
+            "token": " in",
+            "prob": 0.0005443463011894681
+          },
+          {
+            "token": " and",
+            "prob": 0.00013763223314237533
+          }
+        ]
+      },
+      {
+        "token": " Ask",
+        "prob": 0.6474237696357646,
+        "top": [
+          {
+            "token": " Ask",
+            "prob": 0.6474237696357646
+          },
+          {
+            "token": " Request",
+            "prob": 0.16369435935061988
+          },
+          {
+            "token": " In",
+            "prob": 0.14445976509749175
+          },
+          {
+            "token": " Seek",
+            "prob": 0.036525152971435715
+          },
+          {
+            "token": " You",
+            "prob": 0.0020606076341461222
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9836846402644565,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9836846402644565
+          },
+          {
+            "token": " about",
+            "prob": 0.009643704805338021
+          },
+          {
+            "token": " for",
+            "prob": 0.00516190321032068
+          },
+          {
+            "token": " what",
+            "prob": 0.0011517762899895475
+          },
+          {
+            "token": " if",
+            "prob": 0.00029121465161844766
+          }
+        ]
+      },
+      {
+        "token": " advisor",
+        "prob": 0.9967755727356098,
+        "top": [
+          {
+            "token": " advisor",
+            "prob": 0.9967755727356098
+          },
+          {
+            "token": " academic",
+            "prob": 0.0031725182111642393
+          },
+          {
+            "token": " adviser",
+            "prob": 0.00004525352026604145
+          },
+          {
+            "token": " advisory",
+            "prob": 0.0000042092330725302545
+          },
+          {
+            "token": " advisors",
+            "prob": 6.455067982804536e-7
+          }
+        ]
+      },
+      {
+        "token": " about",
+        "prob": 0.5231035396096372,
+        "top": [
+          {
+            "token": " about",
+            "prob": 0.5231035396096372
+          },
+          {
+            "token": " for",
+            "prob": 0.4073934462754091
+          },
+          {
+            "token": " what",
+            "prob": 0.03344088848367001
+          },
+          {
+            "token": " if",
+            "prob": 0.026043790137685725
+          },
+          {
+            "token": " to",
+            "prob": 0.009580974961838146
+          }
+        ]
+      },
+      {
+        "token": " resources",
+        "prob": 0.650698564312079,
+        "top": [
+          {
+            "token": " resources",
+            "prob": 0.650698564312079
+          },
+          {
+            "token": " available",
+            "prob": 0.1645223717976921
+          },
+          {
+            "token": " the",
+            "prob": 0.09978786270394135
+          },
+          {
+            "token": " specific",
+            "prob": 0.028589701333105257
+          },
+          {
+            "token": " internship",
+            "prob": 0.028589701333105257
+          }
+        ]
+      },
+      {
+        "token": " available",
+        "prob": 0.8724796287586902,
+        "top": [
+          {
+            "token": " available",
+            "prob": 0.8724796287586902
+          },
+          {
+            "token": " the",
+            "prob": 0.07161749019322058
+          },
+          {
+            "token": " and",
+            "prob": 0.03382970695853503
+          },
+          {
+            "token": " that",
+            "prob": 0.007548427931432373
+          },
+          {
+            "token": " or",
+            "prob": 0.005187953588999786
+          }
+        ]
+      },
+      {
+        "token": " through",
+        "prob": 0.6651863107216816,
+        "top": [
+          {
+            "token": " through",
+            "prob": 0.6651863107216816
+          },
+          {
+            "token": " at",
+            "prob": 0.1905790631477959
+          },
+          {
+            "token": " to",
+            "prob": 0.11559204489844828
+          },
+          {
+            "token": " for",
+            "prob": 0.025792071490075258
+          },
+          {
+            "token": " within",
+            "prob": 0.0021171421527703266
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9889483839436016,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9889483839436016
+          },
+          {
+            "token": " Syracuse",
+            "prob": 0.01098622386677824
+          },
+          {
+            "token": " both",
+            "prob": 0.00003085804181676435
+          },
+          {
+            "token": " i",
+            "prob": 0.000021208401305145633
+          },
+          {
+            "token": " her",
+            "prob": 0.0000036854675290747235
+          }
+        ]
+      },
+      {
+        "token": " i",
+        "prob": 0.8257798372712245,
+        "top": [
+          {
+            "token": " i",
+            "prob": 0.8257798372712245
+          },
+          {
+            "token": " Syracuse",
+            "prob": 0.12663745088820896
+          },
+          {
+            "token": " university",
+            "prob": 0.04111316089082888
+          },
+          {
+            "token": " school",
+            "prob": 0.005564059947337329
+          },
+          {
+            "token": " college",
+            "prob": 0.0004030591507091261
+          }
+        ]
+      },
+      {
+        "token": "School",
+        "prob": 0.9999998063873693,
+        "top": [
+          {
+            "token": "School",
+            "prob": 0.9999998063873693
+          },
+          {
+            "token": " School",
+            "prob": 1.6373771305908126e-7
+          },
+          {
+            "token": "Schools",
+            "prob": 9.237449661970594e-9
+          },
+          {
+            "token": " school",
+            "prob": 6.34880011604368e-9
+          },
+          {
+            "token": "-school",
+            "prob": 1.6052280551856116e-9
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.6598900507542866,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.6598900507542866
+          },
+          {
+            "token": " for",
+            "prob": 0.24275997587127052
+          },
+          {
+            "token": " or",
+            "prob": 0.05416707229378555
+          },
+          {
+            "token": " to",
+            "prob": 0.02899354449466307
+          },
+          {
+            "token": " that",
+            "prob": 0.007330717818756661
+          }
+        ]
+      },
+      {
+        "token": " such",
+        "prob": 0.9731399262811209,
+        "top": [
+          {
+            "token": " such",
+            "prob": 0.9731399262811209
+          },
+          {
+            "token": " including",
+            "prob": 0.02593330052075032
+          },
+          {
+            "token": " like",
+            "prob": 0.0008873887454310249
+          },
+          {
+            "token": " networking",
+            "prob": 0.000011170575751820794
+          },
+          {
+            "token": " the",
+            "prob": 0.0000024924923564539407
+          }
+        ]
+      },
+      {
+        "token": " as",
+        "prob": 1,
+        "top": [
+          {
+            "token": " as",
+            "prob": 1
+          },
+          {
+            "token": " a",
+            "prob": 6.34880011604368e-9
+          },
+          {
+            "token": "as",
+            "prob": 3.850741922767617e-9
+          },
+          {
+            "token": " the",
+            "prob": 3.850741922767617e-9
+          },
+          {
+            "token": " internships",
+            "prob": 9.146313756209837e-10
+          }
+        ]
+      },
+      {
+        "token": " career",
+        "prob": 0.5110500972920057,
+        "top": [
+          {
+            "token": " career",
+            "prob": 0.5110500972920057
+          },
+          {
+            "token": " job",
+            "prob": 0.3099675526567257
+          },
+          {
+            "token": " internship",
+            "prob": 0.16591367502957433
+          },
+          {
+            "token": " networking",
+            "prob": 0.003901916108526633
+          },
+          {
+            "token": " internships",
+            "prob": 0.0023666317514480103
+          }
+        ]
+      },
+      {
+        "token": " services",
+        "prob": 0.7051604463252568,
+        "top": [
+          {
+            "token": " services",
+            "prob": 0.7051604463252568
+          },
+          {
+            "token": " fairs",
+            "prob": 0.2594140231991998
+          },
+          {
+            "token": " counseling",
+            "prob": 0.0309825868006921
+          },
+          {
+            "token": " workshops",
+            "prob": 0.002543205594899636
+          },
+          {
+            "token": " centers",
+            "prob": 0.0008256579713837264
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9980859270404946,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9980859270404946
+          },
+          {
+            "token": " or",
+            "prob": 0.0017003589014511578
+          },
+          {
+            "token": " support",
+            "prob": 0.00009592768499075812
+          },
+          {
+            "token": " and",
+            "prob": 0.00005134638970267289
+          },
+          {
+            "token": " workshops",
+            "prob": 0.00003114315962022415
+          }
+        ]
+      },
+      {
+        "token": " job",
+        "prob": 0.4593400595411141,
+        "top": [
+          {
+            "token": " job",
+            "prob": 0.4593400595411141
+          },
+          {
+            "token": " internship",
+            "prob": 0.27860382934591227
+          },
+          {
+            "token": " networking",
+            "prob": 0.21697688046128852
+          },
+          {
+            "token": " workshops",
+            "prob": 0.025914189789532548
+          },
+          {
+            "token": " mentorship",
+            "prob": 0.005782237317855203
+          }
+        ]
+      },
+      {
+        "token": " fairs",
+        "prob": 0.6764422428291538,
+        "top": [
+          {
+            "token": " fairs",
+            "prob": 0.6764422428291538
+          },
+          {
+            "token": " boards",
+            "prob": 0.31952868085091085
+          },
+          {
+            "token": " placement",
+            "prob": 0.002439631583924739
+          },
+          {
+            "token": " postings",
+            "prob": 0.0008974903037584337
+          },
+          {
+            "token": " portals",
+            "prob": 0.00022692108564096152
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9999903893438189,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9999903893438189
+          },
+          {
+            "token": " or",
+            "prob": 0.0000047850717579110314
+          },
+          {
+            "token": " specific",
+            "prob": 0.000002260307850902821
+          },
+          {
+            "token": " specifically",
+            "prob": 0.0000015534853526925723
+          },
+          {
+            "token": " and",
+            "prob": 3.92782608663384e-7
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.510044596737722,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.510044596737722
+          },
+          {
+            "token": " networking",
+            "prob": 0.2730071994582254
+          },
+          {
+            "token": " and",
+            "prob": 0.11380633255292921
+          },
+          {
+            "token": " alumni",
+            "prob": 0.06091614013678815
+          },
+          {
+            "token": " internship",
+            "prob": 0.017452770516461616
+          }
+        ]
+      },
+      {
+        "token": " networking",
+        "prob": 0.6375509935219066,
+        "top": [
+          {
+            "token": " networking",
+            "prob": 0.6375509935219066
+          },
+          {
+            "token": " connections",
+            "prob": 0.11078976020042691
+          },
+          {
+            "token": " alumni",
+            "prob": 0.07614461438557617
+          },
+          {
+            "token": " internship",
+            "prob": 0.0671973863437694
+          },
+          {
+            "token": " partnerships",
+            "prob": 0.04618404319684759
+          }
+        ]
+      },
+      {
+        "token": " events",
+        "prob": 0.9465398546505552,
+        "top": [
+          {
+            "token": " events",
+            "prob": 0.9465398546505552
+          },
+          {
+            "token": " opportunities",
+            "prob": 0.053400128265539346
+          },
+          {
+            "token": " programs",
+            "prob": 0.000015808826557373048
+          },
+          {
+            "token": " workshops",
+            "prob": 0.000013951240470378806
+          },
+          {
+            "token": " connections",
+            "prob": 0.000008461855086308447
+          }
+        ]
+      },
+      {
+        "token": " that",
+        "prob": 0.6138477107223592,
+        "top": [
+          {
+            "token": " that",
+            "prob": 0.6138477107223592
+          },
+          {
+            "token": ".",
+            "prob": 0.2558898040928618
+          },
+          {
+            "token": " specifically",
+            "prob": 0.06469906692466466
+          },
+          {
+            "token": ",",
+            "prob": 0.034630914985941764
+          },
+          {
+            "token": " tailored",
+            "prob": 0.014436313164354408
+          }
+        ]
+      },
+      {
+        "token": " could",
+        "prob": 0.5352501984051066,
+        "top": [
+          {
+            "token": " could",
+            "prob": 0.5352501984051066
+          },
+          {
+            "token": " can",
+            "prob": 0.25283429107456434
+          },
+          {
+            "token": " might",
+            "prob": 0.03877339432500081
+          },
+          {
+            "token": " focus",
+            "prob": 0.03877339432500081
+          },
+          {
+            "token": " specifically",
+            "prob": 0.03421740039450434
+          }
+        ]
+      },
+      {
+        "token": " help",
+        "prob": 0.816176383289984,
+        "top": [
+          {
+            "token": " help",
+            "prob": 0.816176383289984
+          },
+          {
+            "token": " assist",
+            "prob": 0.08602436046819696
+          },
+          {
+            "token": " connect",
+            "prob": 0.052176412106132886
+          },
+          {
+            "token": " aid",
+            "prob": 0.019194629327935045
+          },
+          {
+            "token": " facilitate",
+            "prob": 0.019194629327935045
+          }
+        ]
+      },
+      {
+        "token": " her",
+        "prob": 0.8579049687580984,
+        "top": [
+          {
+            "token": " her",
+            "prob": 0.8579049687580984
+          },
+          {
+            "token": " students",
+            "prob": 0.09042252249707568
+          },
+          {
+            "token": " connect",
+            "prob": 0.029355895033441506
+          },
+          {
+            "token": " your",
+            "prob": 0.009530461481880154
+          },
+          {
+            "token": " identify",
+            "prob": 0.007422330865120125
+          }
+        ]
+      },
+      {
+        "token": " secure",
+        "prob": 0.7010833921813375,
+        "top": [
+          {
+            "token": " secure",
+            "prob": 0.7010833921813375
+          },
+          {
+            "token": " connect",
+            "prob": 0.17726164678735862
+          },
+          {
+            "token": " identify",
+            "prob": 0.06521090778751663
+          },
+          {
+            "token": " find",
+            "prob": 0.03080345171270142
+          },
+          {
+            "token": " in",
+            "prob": 0.012840792155509179
+          }
+        ]
+      },
+      {
+        "token": " an",
+        "prob": 0.9344724987465052,
+        "top": [
+          {
+            "token": " an",
+            "prob": 0.9344724987465052
+          },
+          {
+            "token": " a",
+            "prob": 0.04105785523261028
+          },
+          {
+            "token": " relevant",
+            "prob": 0.017115464536577984
+          },
+          {
+            "token": " internships",
+            "prob": 0.0038189763430614173
+          },
+          {
+            "token": " internship",
+            "prob": 0.002316326240783982
+          }
+        ]
+      },
+      {
+        "token": " internship",
+        "prob": 0.9988657850090893,
+        "top": [
+          {
+            "token": " internship",
+            "prob": 0.9988657850090893
+          },
+          {
+            "token": " opportunity",
+            "prob": 0.001032125642797492
+          },
+          {
+            "token": " appropriate",
+            "prob": 0.00004534843585861012
+          },
+          {
+            "token": " intern",
+            "prob": 0.00003116749377556281
+          },
+          {
+            "token": " impactful",
+            "prob": 0.000006137243411262364
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.8533254674617896,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.8533254674617896
+          },
+          {
+            "token": " in",
+            "prob": 0.1154850541571242
+          },
+          {
+            "token": " related",
+            "prob": 0.01771020665135055
+          },
+          {
+            "token": " relevant",
+            "prob": 0.010741783323890718
+          },
+          {
+            "token": " aligned",
+            "prob": 0.0009991414890833182
+          }
+        ]
+      },
+      {
+        "token": " In",
+        "prob": 0.49724177083706905,
+        "top": [
+          {
+            "token": " In",
+            "prob": 0.49724177083706905
+          },
+          {
+            "token": " Additionally",
+            "prob": 0.3015923613261795
+          },
+          {
+            "token": " You",
+            "prob": 0.08640765821634211
+          },
+          {
+            "token": " Discuss",
+            "prob": 0.05240889394218173
+          },
+          {
+            "token": " It",
+            "prob": 0.031787601017560924
+          }
+        ]
+      },
+      {
+        "token": "quire",
+        "prob": 0.9981223910027736,
+        "top": [
+          {
+            "token": "quire",
+            "prob": 0.9981223910027736
+          },
+          {
+            "token": " addition",
+            "prob": 0.0017004213337588974
+          },
+          {
+            "token": "quiring",
+            "prob": 0.00015816374638412964
+          },
+          {
+            "token": "quiries",
+            "prob": 0.000007874509254544156
+          },
+          {
+            "token": " particular",
+            "prob": 0.00000694923002650895
+          }
+        ]
+      },
+      {
+        "token": " about",
+        "prob": 0.5936248763459925,
+        "top": [
+          {
+            "token": " about",
+            "prob": 0.5936248763459925
+          },
+          {
+            "token": " if",
+            "prob": 0.360051666411213
+          },
+          {
+            "token": " whether",
+            "prob": 0.04300203924886992
+          },
+          {
+            "token": " specifically",
+            "prob": 0.0027490283967071477
+          },
+          {
+            "token": " also",
+            "prob": 0.0004215771586327915
+          }
+        ]
+      },
+      {
+        "token": " any",
+        "prob": 0.5031451733993626,
+        "top": [
+          {
+            "token": " any",
+            "prob": 0.5031451733993626
+          },
+          {
+            "token": " companies",
+            "prob": 0.18509676521826596
+          },
+          {
+            "token": " specific",
+            "prob": 0.1633473219835478
+          },
+          {
+            "token": " the",
+            "prob": 0.025050123146994823
+          },
+          {
+            "token": " potential",
+            "prob": 0.02210665608658561
+          }
+        ]
+      },
+      {
+        "token": " specific",
+        "prob": 0.40786725543284147,
+        "top": [
+          {
+            "token": " specific",
+            "prob": 0.40786725543284147
+          },
+          {
+            "token": " partnerships",
+            "prob": 0.3599415895851626
+          },
+          {
+            "token": " connections",
+            "prob": 0.05519883711715722
+          },
+          {
+            "token": " companies",
+            "prob": 0.04871280278216285
+          },
+          {
+            "token": " recommended",
+            "prob": 0.037937568952351335
+          }
+        ]
+      },
+      {
+        "token": " companies",
+        "prob": 0.8927589247220955,
+        "top": [
+          {
+            "token": " companies",
+            "prob": 0.8927589247220955
+          },
+          {
+            "token": " organizations",
+            "prob": 0.02099567937945814
+          },
+          {
+            "token": " internship",
+            "prob": 0.02099567937945814
+          },
+          {
+            "token": " partnerships",
+            "prob": 0.01635145154183815
+          },
+          {
+            "token": " programs",
+            "prob": 0.014430105338434274
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.9634071254802004,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.9634071254802004
+          },
+          {
+            "token": " that",
+            "prob": 0.0199948781839335
+          },
+          {
+            "token": ",",
+            "prob": 0.015572026787064758
+          },
+          {
+            "token": " known",
+            "prob": 0.0007752855622738019
+          },
+          {
+            "token": " with",
+            "prob": 0.00004373861843650327
+          }
+        ]
+      },
+      {
+        "token": " organizations",
+        "prob": 0.8156193846764317,
+        "top": [
+          {
+            "token": " organizations",
+            "prob": 0.8156193846764317
+          },
+          {
+            "token": " industries",
+            "prob": 0.11038209359702682
+          },
+          {
+            "token": " sectors",
+            "prob": 0.03162499930301866
+          },
+          {
+            "token": " alumni",
+            "prob": 0.021735522962736693
+          },
+          {
+            "token": " partnerships",
+            "prob": 0.006227331591088873
+          }
+        ]
+      },
+      {
+        "token": " that",
+        "prob": 0.9773676477271743,
+        "top": [
+          {
+            "token": " that",
+            "prob": 0.9773676477271743
+          },
+          {
+            "token": " known",
+            "prob": 0.008455886312262894
+          },
+          {
+            "token": " the",
+            "prob": 0.00512875430343184
+          },
+          {
+            "token": " where",
+            "prob": 0.003524937846301764
+          },
+          {
+            "token": " with",
+            "prob": 0.002745224354977845
+          }
+        ]
+      },
+      {
+        "token": " have",
+        "prob": 0.3603582993624083,
+        "top": [
+          {
+            "token": " have",
+            "prob": 0.3603582993624083
+          },
+          {
+            "token": " typically",
+            "prob": 0.21856835704520416
+          },
+          {
+            "token": " actively",
+            "prob": 0.17022120762143542
+          },
+          {
+            "token": " frequently",
+            "prob": 0.13256839398754908
+          },
+          {
+            "token": " often",
+            "prob": 0.02958000698106197
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.39373852633968737,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.39373852633968737
+          },
+          {
+            "token": " previously",
+            "prob": 0.27061226780022396
+          },
+          {
+            "token": " historically",
+            "prob": 0.1128079630572248
+          },
+          {
+            "token": " hired",
+            "prob": 0.07753170357147868
+          },
+          {
+            "token": " partnered",
+            "prob": 0.06842148825393694
+          }
+        ]
+      },
+      {
+        "token": " history",
+        "prob": 0.9023094635746106,
+        "top": [
+          {
+            "token": " history",
+            "prob": 0.9023094635746106
+          },
+          {
+            "token": " track",
+            "prob": 0.050904815814062865
+          },
+          {
+            "token": " strong",
+            "prob": 0.027247384431131373
+          },
+          {
+            "token": " good",
+            "prob": 0.010023754947757195
+          },
+          {
+            "token": " partnership",
+            "prob": 0.003687533368620397
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999968263007644,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999968263007644
+          },
+          {
+            "token": " with",
+            "prob": 0.0000025612814430465682
+          },
+          {
+            "token": " or",
+            "prob": 4.450839766446488e-7
+          },
+          {
+            "token": " in",
+            "prob": 3.6534682768190175e-8
+          },
+          {
+            "token": "of",
+            "prob": 2.5109895770606383e-8
+          }
+        ]
+      },
+      {
+        "token": " hiring",
+        "prob": 0.9202901303688659,
+        "top": [
+          {
+            "token": " hiring",
+            "prob": 0.9202901303688659
+          },
+          {
+            "token": " recruiting",
+            "prob": 0.04043472938491581
+          },
+          {
+            "token": " offering",
+            "prob": 0.014875102103540195
+          },
+          {
+            "token": " taking",
+            "prob": 0.01312723153200382
+          },
+          {
+            "token": " working",
+            "prob": 0.003319083914587169
+          }
+        ]
+      },
+      {
+        "token": " students",
+        "prob": 0.5495088251674272,
+        "top": [
+          {
+            "token": " students",
+            "prob": 0.5495088251674272
+          },
+          {
+            "token": " i",
+            "prob": 0.22906935869045805
+          },
+          {
+            "token": " interns",
+            "prob": 0.15743691432747545
+          },
+          {
+            "token": " Syracuse",
+            "prob": 0.057917797158208044
+          },
+          {
+            "token": " from",
+            "prob": 0.0025447304093541615
+          }
+        ]
+      },
+      {
+        "token": " from",
+        "prob": 0.9114462441136699,
+        "top": [
+          {
+            "token": " from",
+            "prob": 0.9114462441136699
+          },
+          {
+            "token": " in",
+            "prob": 0.08477770747085385
+          },
+          {
+            "token": " for",
+            "prob": 0.0022592488396968933
+          },
+          {
+            "token": " within",
+            "prob": 0.0012092887613160304
+          },
+          {
+            "token": " with",
+            "prob": 0.00009926446630852264
+          }
+        ]
+      },
+      {
+        "token": " her",
+        "prob": 0.6649772984644717,
+        "top": [
+          {
+            "token": " her",
+            "prob": 0.6649772984644717
+          },
+          {
+            "token": " the",
+            "prob": 0.277203779678258
+          },
+          {
+            "token": " both",
+            "prob": 0.022754271873429353
+          },
+          {
+            "token": " these",
+            "prob": 0.017721044753246422
+          },
+          {
+            "token": " either",
+            "prob": 0.0065192080407984136
+          }
+        ]
+      },
+      {
+        "token": " program",
+        "prob": 0.7492675680347072,
+        "top": [
+          {
+            "token": " program",
+            "prob": 0.7492675680347072
+          },
+          {
+            "token": " desired",
+            "prob": 0.11490390647834592
+          },
+          {
+            "token": " programs",
+            "prob": 0.03292052038402078
+          },
+          {
+            "token": " current",
+            "prob": 0.02563852705419353
+          },
+          {
+            "token": " major",
+            "prob": 0.01996730494660332
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.4607574795788403,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.4607574795788403
+          },
+          {
+            "token": " and",
+            "prob": 0.4607574795788403
+          },
+          {
+            "token": ".",
+            "prob": 0.062356740285438673
+          },
+          {
+            "token": " or",
+            "prob": 0.015766256768439953
+          },
+          {
+            "token": " as",
+            "prob": 0.00015456694256397633
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.5595976699517446,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.5595976699517446
+          },
+          {
+            "token": " as",
+            "prob": 0.43581510356335235
+          },
+          {
+            "token": " or",
+            "prob": 0.0020182240868571863
+          },
+          {
+            "token": " along",
+            "prob": 0.0017810765053730903
+          },
+          {
+            "token": " including",
+            "prob": 0.00021271935517929282
+          }
+        ]
+      },
+      {
+        "token": " whether",
+        "prob": 0.3260422275873421,
+        "top": [
+          {
+            "token": " whether",
+            "prob": 0.3260422275873421
+          },
+          {
+            "token": " discuss",
+            "prob": 0.28773125595761107
+          },
+          {
+            "token": " if",
+            "prob": 0.1359146214925393
+          },
+          {
+            "token": " ask",
+            "prob": 0.1359146214925393
+          },
+          {
+            "token": " seek",
+            "prob": 0.03894018637901737
+          }
+        ]
+      },
+      {
+        "token": " there",
+        "prob": 0.876877485446135,
+        "top": [
+          {
+            "token": " there",
+            "prob": 0.876877485446135
+          },
+          {
+            "token": " the",
+            "prob": 0.10472808557479928
+          },
+          {
+            "token": " they",
+            "prob": 0.007586475264943887
+          },
+          {
+            "token": " she",
+            "prob": 0.005214103113408834
+          },
+          {
+            "token": " faculty",
+            "prob": 0.0014938655533152825
+          }
+        ]
+      },
+      {
+        "token": " are",
+        "prob": 0.9984765363047227,
+        "top": [
+          {
+            "token": " are",
+            "prob": 0.9984765363047227
+          },
+          {
+            "token": " might",
+            "prob": 0.0011690960350703911
+          },
+          {
+            "token": "’s",
+            "prob": 0.00012322175677804306
+          },
+          {
+            "token": " may",
+            "prob": 0.00012322175677804306
+          },
+          {
+            "token": " is",
+            "prob": 0.00007473777342953611
+          }
+        ]
+      },
+      {
+        "token": " any",
+        "prob": 0.5473024530076155,
+        "top": [
+          {
+            "token": " any",
+            "prob": 0.5473024530076155
+          },
+          {
+            "token": " opportunities",
+            "prob": 0.10777024928870149
+          },
+          {
+            "token": " alumni",
+            "prob": 0.10777024928870149
+          },
+          {
+            "token": " internship",
+            "prob": 0.04492532377974444
+          },
+          {
+            "token": " recommended",
+            "prob": 0.02404679298302417
+          }
+        ]
+      },
+      {
+        "token": " recommended",
+        "prob": 0.16337359252287442,
+        "top": [
+          {
+            "token": " recommended",
+            "prob": 0.16337359252287442
+          },
+          {
+            "token": " alumni",
+            "prob": 0.16337359252287442
+          },
+          {
+            "token": " internship",
+            "prob": 0.11228493196394268
+          },
+          {
+            "token": " partnerships",
+            "prob": 0.06810425385987831
+          },
+          {
+            "token": " upcoming",
+            "prob": 0.053039646236566984
+          }
+        ]
+      },
+      {
+        "token": " strategies",
+        "prob": 0.8422182625793994,
+        "top": [
+          {
+            "token": " strategies",
+            "prob": 0.8422182625793994
+          },
+          {
+            "token": " steps",
+            "prob": 0.06913349213603723
+          },
+          {
+            "token": " platforms",
+            "prob": 0.03700449175924166
+          },
+          {
+            "token": " approaches",
+            "prob": 0.015425763494145147
+          },
+          {
+            "token": " internship",
+            "prob": 0.005674821253868952
+          }
+        ]
+      },
+      {
+        "token": " for",
+        "prob": 0.9044060190068931,
+        "top": [
+          {
+            "token": " for",
+            "prob": 0.9044060190068931
+          },
+          {
+            "token": " or",
+            "prob": 0.06551494593155663
+          },
+          {
+            "token": " to",
+            "prob": 0.021269588845528736
+          },
+          {
+            "token": " she",
+            "prob": 0.007824646323980292
+          },
+          {
+            "token": " (",
+            "prob": 0.00030339431810601247
+          }
+        ]
+      },
+      {
+        "token": " applying",
+        "prob": 0.40734425281636455,
+        "top": [
+          {
+            "token": " applying",
+            "prob": 0.40734425281636455
+          },
+          {
+            "token": " approaching",
+            "prob": 0.16980635805471003
+          },
+          {
+            "token": " her",
+            "prob": 0.13224532462351152
+          },
+          {
+            "token": " finding",
+            "prob": 0.055128053115596994
+          },
+          {
+            "token": " searching",
+            "prob": 0.020280477373035413
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.8237665391064143,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.8237665391064143
+          },
+          {
+            "token": " to",
+            "prob": 0.0526616306245663
+          },
+          {
+            "token": ",",
+            "prob": 0.04647372591123383
+          },
+          {
+            "token": " and",
+            "prob": 0.024875592919847034
+          },
+          {
+            "token": " for",
+            "prob": 0.013314945401534203
+          }
+        ]
+      },
+      {
+        "token": " standing",
+        "prob": 0.4420078977470028,
+        "top": [
+          {
+            "token": " standing",
+            "prob": 0.4420078977470028
+          },
+          {
+            "token": " preparing",
+            "prob": 0.20878975938789368
+          },
+          {
+            "token": " networking",
+            "prob": 0.09862529888968526
+          },
+          {
+            "token": " making",
+            "prob": 0.04658729244957285
+          },
+          {
+            "token": " connecting",
+            "prob": 0.03628221984090388
+          }
+        ]
+      },
+      {
+        "token": " out",
+        "prob": 0.999999448776502,
+        "top": [
+          {
+            "token": " out",
+            "prob": 0.999999448776502
+          },
+          {
+            "token": " apart",
+            "prob": 4.4508482557577276e-7
+          },
+          {
+            "token": " Out",
+            "prob": 1.3440409951135022e-8
+          },
+          {
+            "token": "-out",
+            "prob": 1.186112015134383e-8
+          },
+          {
+            "token": " up",
+            "prob": 4.944450501938644e-9
+          }
+        ]
+      },
+      {
+        "token": " as",
+        "prob": 0.5016047415980298,
+        "top": [
+          {
+            "token": " as",
+            "prob": 0.5016047415980298
+          },
+          {
+            "token": " in",
+            "prob": 0.39065016554887527
+          },
+          {
+            "token": " to",
+            "prob": 0.05286875080098667
+          },
+          {
+            "token": " during",
+            "prob": 0.04117422452381538
+          },
+          {
+            "token": " among",
+            "prob": 0.011796612833071584
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.9796446603886719,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.9796446603886719
+          },
+          {
+            "token": " an",
+            "prob": 0.02033187817142596
+          },
+          {
+            "token": " candidates",
+            "prob": 0.000018540277450720946
+          },
+          {
+            "token": " she",
+            "prob": 0.0000032218171252771445
+          },
+          {
+            "token": " candidate",
+            "prob": 6.344134073398832e-7
+          }
+        ]
+      },
+      {
+        "token": " candidate",
+        "prob": 0.9992184329819518,
+        "top": [
+          {
+            "token": " candidate",
+            "prob": 0.9992184329819518
+          },
+          {
+            "token": " strong",
+            "prob": 0.000552652020087473
+          },
+          {
+            "token": " competitive",
+            "prob": 0.00017941984191197432
+          },
+          {
+            "token": " potential",
+            "prob": 0.000012997129755227228
+          },
+          {
+            "token": " candidates",
+            "prob": 0.000008932787935822806
+          }
+        ]
+      },
+      {
+        "token": ".\n\n",
+        "prob": 0.8127483551792543,
+        "top": [
+          {
+            "token": ".\n\n",
+            "prob": 0.8127483551792543
+          },
+          {
+            "token": ",",
+            "prob": 0.10999352229215044
+          },
+          {
+            "token": " given",
+            "prob": 0.03570966840558228
+          },
+          {
+            "token": ".",
+            "prob": 0.02781071771748769
+          },
+          {
+            "token": " in",
+            "prob": 0.00703165230320584
+          }
+        ]
+      },
+      {
+        "token": "3",
+        "prob": 1,
+        "top": [
+          {
+            "token": "3",
+            "prob": 1
+          },
+          {
+            "token": "4",
+            "prob": 1.522997974471263e-8
+          },
+          {
+            "token": " ",
+            "prob": 1.0467401794744656e-8
+          },
+          {
+            "token": "  ",
+            "prob": 7.194133030325383e-9
+          },
+          {
+            "token": "   ",
+            "prob": 1.8189616875530459e-9
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 1,
+        "top": [
+          {
+            "token": ".",
+            "prob": 1
+          },
+          {
+            "token": ".A",
+            "prob": 3.581747930283181e-10
+          },
+          {
+            "token": "**",
+            "prob": 2.4616969518153846e-10
+          },
+          {
+            "token": ":",
+            "prob": 2.172439935079017e-10
+          },
+          {
+            "token": ".\"",
+            "prob": 9.056076989672867e-11
+          }
+        ]
+      },
+      {
+        "token": " **",
+        "prob": 1,
+        "top": [
+          {
+            "token": " **",
+            "prob": 1
+          },
+          {
+            "token": " ",
+            "prob": 3.6534822137210456e-8
+          },
+          {
+            "token": " ***",
+            "prob": 8.152020714470167e-9
+          },
+          {
+            "token": "**",
+            "prob": 4.363462252943702e-9
+          },
+          {
+            "token": " *",
+            "prob": 9.736200313009565e-10
+          }
+        ]
+      },
+      {
+        "token": "Bal",
+        "prob": 0.9766139174073651,
+        "top": [
+          {
+            "token": "Bal",
+            "prob": 0.9766139174073651
+          },
+          {
+            "token": "Time",
+            "prob": 0.010849199314144046
+          },
+          {
+            "token": "Managing",
+            "prob": 0.007456538372077572
+          },
+          {
+            "token": "Work",
+            "prob": 0.003991197380844907
+          },
+          {
+            "token": "Balance",
+            "prob": 0.0008905565107719178
+          }
+        ]
+      },
+      {
+        "token": "ancing",
+        "prob": 1,
+        "top": [
+          {
+            "token": "ancing",
+            "prob": 1
+          },
+          {
+            "token": "acing",
+            "prob": 7.194133030325383e-9
+          },
+          {
+            "token": "ancin",
+            "prob": 3.581747930283181e-10
+          },
+          {
+            "token": "encing",
+            "prob": 2.4616969518153846e-10
+          },
+          {
+            "token": "anc",
+            "prob": 2.172439935079017e-10
+          }
+        ]
+      },
+      {
+        "token": " Work",
+        "prob": 0.9878404009275342,
+        "top": [
+          {
+            "token": " Work",
+            "prob": 0.9878404009275342
+          },
+          {
+            "token": " Academ",
+            "prob": 0.005873913272426455
+          },
+          {
+            "token": " Academic",
+            "prob": 0.004574608256259242
+          },
+          {
+            "token": " School",
+            "prob": 0.000701538897467172
+          },
+          {
+            "token": " Coursework",
+            "prob": 0.00048216016288402645
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.8150430909051166,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.8150430909051166
+          },
+          {
+            "token": ",",
+            "prob": 0.18186070082140107
+          },
+          {
+            "token": " with",
+            "prob": 0.0017828991503494828
+          },
+          {
+            "token": "load",
+            "prob": 0.0006558919430956071
+          },
+          {
+            "token": " Commit",
+            "prob": 0.0004507875005349891
+          }
+        ]
+      },
+      {
+        "token": " Academic",
+        "prob": 0.6644621542683398,
+        "top": [
+          {
+            "token": " Academic",
+            "prob": 0.6644621542683398
+          },
+          {
+            "token": " Academ",
+            "prob": 0.3138696972386039
+          },
+          {
+            "token": " Studies",
+            "prob": 0.015626653937861334
+          },
+          {
+            "token": " Academia",
+            "prob": 0.003486777795739091
+          },
+          {
+            "token": " Study",
+            "prob": 0.0012827138669854903
+          }
+        ]
+      },
+      {
+        "token": " Commit",
+        "prob": 0.5937105442854278,
+        "top": [
+          {
+            "token": " Commit",
+            "prob": 0.5937105442854278
+          },
+          {
+            "token": " Responsibilities",
+            "prob": 0.3177903540610053
+          },
+          {
+            "token": " Goals",
+            "prob": 0.043008252703692525
+          },
+          {
+            "token": " Purs",
+            "prob": 0.012322070704183148
+          },
+          {
+            "token": " Commitment",
+            "prob": 0.007473713673233918
+          }
+        ]
+      },
+      {
+        "token": "ments",
+        "prob": 0.9999982567411922,
+        "top": [
+          {
+            "token": "ments",
+            "prob": 0.9999982567411922
+          },
+          {
+            "token": " commitments",
+            "prob": 9.422436845439301e-7
+          },
+          {
+            "token": "iments",
+            "prob": 1.6373740075447596e-7
+          },
+          {
+            "token": "tees",
+            "prob": 1.6373740075447596e-7
+          },
+          {
+            "token": "men",
+            "prob": 8.76423150298272e-8
+          }
+        ]
+      },
+      {
+        "token": "**",
+        "prob": 0.999999448776502,
+        "top": [
+          {
+            "token": "**",
+            "prob": 0.999999448776502
+          },
+          {
+            "token": ":**",
+            "prob": 4.4508482557577276e-7
+          },
+          {
+            "token": " for",
+            "prob": 1.186112015134383e-8
+          },
+          {
+            "token": " with",
+            "prob": 9.237449661970594e-9
+          },
+          {
+            "token": " in",
+            "prob": 7.194133030325383e-9
+          }
+        ]
+      },
+      {
+        "token": ":",
+        "prob": 0.9999995679801056,
+        "top": [
+          {
+            "token": ":",
+            "prob": 0.9999995679801056
+          },
+          {
+            "token": ":\n",
+            "prob": 2.6995785033630146e-7
+          },
+          {
+            "token": " :",
+            "prob": 8.764248219443636e-8
+          },
+          {
+            "token": "：",
+            "prob": 2.9989608248573072e-9
+          },
+          {
+            "token": " Discuss",
+            "prob": 2.9989608248573072e-9
+          }
+        ]
+      },
+      {
+        "token": " Since",
+        "prob": 0.539678325951505,
+        "top": [
+          {
+            "token": " Since",
+            "prob": 0.539678325951505
+          },
+          {
+            "token": " Given",
+            "prob": 0.28886900890747397
+          },
+          {
+            "token": " Discuss",
+            "prob": 0.07303752345268343
+          },
+          {
+            "token": " Talk",
+            "prob": 0.02686900331231929
+          },
+          {
+            "token": " With",
+            "prob": 0.02371181219865701
+          }
+        ]
+      },
+      {
+        "token": " your",
+        "prob": 0.9013105957444765,
+        "top": [
+          {
+            "token": " your",
+            "prob": 0.9013105957444765
+          },
+          {
+            "token": " she",
+            "prob": 0.09499743009521337
+          },
+          {
+            "token": " she's",
+            "prob": 0.00368345097619433
+          },
+          {
+            "token": " you",
+            "prob": 0.000002308515968420564
+          },
+          {
+            "token": " her",
+            "prob": 0.000002308515968420564
+          }
+        ]
+      },
+      {
+        "token": " daughter",
+        "prob": 0.9999996871837232,
+        "top": [
+          {
+            "token": " daughter",
+            "prob": 0.9999996871837232
+          },
+          {
+            "token": " daughter's",
+            "prob": 2.6995785033630146e-7
+          },
+          {
+            "token": "daughter",
+            "prob": 2.8453348089834e-8
+          },
+          {
+            "token": " Daughter",
+            "prob": 2.061153622438558e-9
+          },
+          {
+            "token": " daughters",
+            "prob": 1.8189616875530459e-9
+          }
+        ]
+      },
+      {
+        "token": " is",
+        "prob": 0.7460538809442081,
+        "top": [
+          {
+            "token": " is",
+            "prob": 0.7460538809442081
+          },
+          {
+            "token": " works",
+            "prob": 0.2422082404491776
+          },
+          {
+            "token": " currently",
+            "prob": 0.00939143377327819
+          },
+          {
+            "token": " already",
+            "prob": 0.0016319864814362448
+          },
+          {
+            "token": " manages",
+            "prob": 0.0002835967265369929
+          }
+        ]
+      },
+      {
+        "token": " working",
+        "prob": 0.6157443655729133,
+        "top": [
+          {
+            "token": " working",
+            "prob": 0.6157443655729133
+          },
+          {
+            "token": " currently",
+            "prob": 0.22651969986224066
+          },
+          {
+            "token": " already",
+            "prob": 0.12124725813595585
+          },
+          {
+            "token": " managing",
+            "prob": 0.012779366987781943
+          },
+          {
+            "token": " balancing",
+            "prob": 0.012779366987781943
+          }
+        ]
+      },
+      {
+        "token": " ",
+        "prob": 0.9939907398786338,
+        "top": [
+          {
+            "token": " ",
+            "prob": 0.9939907398786338
+          },
+          {
+            "token": " part",
+            "prob": 0.005910485974956643
+          },
+          {
+            "token": " at",
+            "prob": 0.000039824541238095856
+          },
+          {
+            "token": " about",
+            "prob": 0.000027370980225712232
+          },
+          {
+            "token": " approximately",
+            "prob": 0.000014650629975579763
+          }
+        ]
+      },
+      {
+        "token": "15",
+        "prob": 1,
+        "top": [
+          {
+            "token": "15",
+            "prob": 1
+          },
+          {
+            "token": " ",
+            "prob": 1.3176514270095466e-10
+          },
+          {
+            "token": " fifteen",
+            "prob": 9.056076989672867e-11
+          },
+          {
+            "token": "１５",
+            "prob": 2.020683909022217e-11
+          },
+          {
+            "token": "10",
+            "prob": 1.3887943864964021e-11
+          }
+        ]
+      },
+      {
+        "token": " hours",
+        "prob": 1,
+        "top": [
+          {
+            "token": " hours",
+            "prob": 1
+          },
+          {
+            "token": " hour",
+            "prob": 4.691164021834418e-8
+          },
+          {
+            "token": "-hours",
+            "prob": 9.237449661970594e-9
+          },
+          {
+            "token": "hours",
+            "prob": 4.363462252943702e-9
+          },
+          {
+            "token": "-hour",
+            "prob": 2.061153622438558e-9
+          }
+        ]
+      },
+      {
+        "token": " a",
+        "prob": 0.9947214038072961,
+        "top": [
+          {
+            "token": " a",
+            "prob": 0.9947214038072961
+          },
+          {
+            "token": " per",
+            "prob": 0.005219819711980038
+          },
+          {
+            "token": " each",
+            "prob": 0.00003517085179333005
+          },
+          {
+            "token": " at",
+            "prob": 0.000011418303813799439
+          },
+          {
+            "token": " weekly",
+            "prob": 0.000011418303813799439
+          }
+        ]
+      },
+      {
+        "token": " week",
+        "prob": 1,
+        "top": [
+          {
+            "token": " week",
+            "prob": 1
+          },
+          {
+            "token": "week",
+            "prob": 3.2241867372567335e-8
+          },
+          {
+            "token": " weekend",
+            "prob": 6.691586091292783e-10
+          },
+          {
+            "token": "-week",
+            "prob": 1.917171513758312e-10
+          },
+          {
+            "token": ".week",
+            "prob": 1.493094676197164e-10
+          }
+        ]
+      },
+      {
+        "token": " at",
+        "prob": 0.9992665218050917,
+        "top": [
+          {
+            "token": " at",
+            "prob": 0.9992665218050917
+          },
+          {
+            "token": " in",
+            "prob": 0.0005526786367552966
+          },
+          {
+            "token": ",",
+            "prob": 0.00009604119196578213
+          },
+          {
+            "token": " while",
+            "prob": 0.00007479695551006225
+          },
+          {
+            "token": " and",
+            "prob": 0.000007883541110348827
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9999931310057394,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9999931310057394
+          },
+          {
+            "token": " her",
+            "prob": 0.000006144171336422507
+          },
+          {
+            "token": " a",
+            "prob": 5.714969584801392e-7
+          },
+          {
+            "token": " library",
+            "prob": 4.1399061336874633e-8
+          },
+          {
+            "token": " their",
+            "prob": 2.3355752197065545e-9
+          }
+        ]
+      },
+      {
+        "token": " library",
+        "prob": 0.9999918197752665,
+        "top": [
+          {
+            "token": " library",
+            "prob": 0.9999918197752665
+          },
+          {
+            "token": " university",
+            "prob": 0.000005422201831302804
+          },
+          {
+            "token": " campus",
+            "prob": 0.0000025612667873185223
+          },
+          {
+            "token": " school",
+            "prob": 2.5109799984138346e-8
+          },
+          {
+            "token": " Library",
+            "prob": 2.5109799984138346e-8
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.6192216238346251,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.6192216238346251
+          },
+          {
+            "token": " while",
+            "prob": 0.37557690001274324
+          },
+          {
+            "token": " alongside",
+            "prob": 0.002867565359865051
+          },
+          {
+            "token": " and",
+            "prob": 0.0015348971308929394
+          },
+          {
+            "token": " in",
+            "prob": 0.0004983081406856447
+          }
+        ]
+      },
+      {
+        "token": " discuss",
+        "prob": 0.6816564858350348,
+        "top": [
+          {
+            "token": " discuss",
+            "prob": 0.6816564858350348
+          },
+          {
+            "token": " it",
+            "prob": 0.1952978413619389
+          },
+          {
+            "token": " it's",
+            "prob": 0.09225216808190062
+          },
+          {
+            "token": " talk",
+            "prob": 0.00757252089548395
+          },
+          {
+            "token": " bring",
+            "prob": 0.005897485203227477
+          }
+        ]
+      },
+      {
+        "token": " how",
+        "prob": 0.39055242917606037,
+        "top": [
+          {
+            "token": " how",
+            "prob": 0.39055242917606037
+          },
+          {
+            "token": " the",
+            "prob": 0.18448390463452494
+          },
+          {
+            "token": " strategies",
+            "prob": 0.18448390463452494
+          },
+          {
+            "token": " with",
+            "prob": 0.12679379464980606
+          },
+          {
+            "token": " ways",
+            "prob": 0.0528555173204202
+          }
+        ]
+      },
+      {
+        "token": " she",
+        "prob": 0.8744230542971945,
+        "top": [
+          {
+            "token": " she",
+            "prob": 0.8744230542971945
+          },
+          {
+            "token": " this",
+            "prob": 0.07177701093044722
+          },
+          {
+            "token": " to",
+            "prob": 0.03841946540545436
+          },
+          {
+            "token": " her",
+            "prob": 0.012472974238469516
+          },
+          {
+            "token": " best",
+            "prob": 0.0013146418127147974
+          }
+        ]
+      },
+      {
+        "token": " can",
+        "prob": 0.995549547211201,
+        "top": [
+          {
+            "token": " can",
+            "prob": 0.995549547211201
+          },
+          {
+            "token": " might",
+            "prob": 0.0035905124792929956
+          },
+          {
+            "token": " is",
+            "prob": 0.0006239375125347785
+          },
+          {
+            "token": " could",
+            "prob": 0.00006576252999622417
+          },
+          {
+            "token": " plans",
+            "prob": 0.00005803522902779437
+          }
+        ]
+      },
+      {
+        "token": " effectively",
+        "prob": 0.8537069680641806,
+        "top": [
+          {
+            "token": " effectively",
+            "prob": 0.8537069680641806
+          },
+          {
+            "token": " balance",
+            "prob": 0.07940711047052472
+          },
+          {
+            "token": " manage",
+            "prob": 0.0375092630360867
+          },
+          {
+            "token": " best",
+            "prob": 0.01771812127621224
+          },
+          {
+            "token": " maintain",
+            "prob": 0.006518132553700802
+          }
+        ]
+      },
+      {
+        "token": " balance",
+        "prob": 0.8805946841941542,
+        "top": [
+          {
+            "token": " balance",
+            "prob": 0.8805946841941542
+          },
+          {
+            "token": " manage",
+            "prob": 0.11917551857109543
+          },
+          {
+            "token": " jug",
+            "prob": 0.00020302972420669133
+          },
+          {
+            "token": " maintain",
+            "prob": 0.000018884706091667276
+          },
+          {
+            "token": " navigate",
+            "prob": 0.0000017565512910099368
+          }
+        ]
+      },
+      {
+        "token": " her",
+        "prob": 0.9928984403854421,
+        "top": [
+          {
+            "token": " her",
+            "prob": 0.9928984403854421
+          },
+          {
+            "token": " work",
+            "prob": 0.005903990456294808
+          },
+          {
+            "token": " this",
+            "prob": 0.0011625646511385847
+          },
+          {
+            "token": " these",
+            "prob": 0.000010058155015573305
+          },
+          {
+            "token": " both",
+            "prob": 0.000010058155015573305
+          }
+        ]
+      },
+      {
+        "token": " job",
+        "prob": 0.6947155444847924,
+        "top": [
+          {
+            "token": " job",
+            "prob": 0.6947155444847924
+          },
+          {
+            "token": " work",
+            "prob": 0.25557156627817973
+          },
+          {
+            "token": " academic",
+            "prob": 0.016338139722095815
+          },
+          {
+            "token": " part",
+            "prob": 0.012724156009498246
+          },
+          {
+            "token": " workload",
+            "prob": 0.009909582664119957
+          }
+        ]
+      },
+      {
+        "token": " with",
+        "prob": 0.6444561161692498,
+        "top": [
+          {
+            "token": " with",
+            "prob": 0.6444561161692498
+          },
+          {
+            "token": ",",
+            "prob": 0.30441950491532305
+          },
+          {
+            "token": " responsibilities",
+            "prob": 0.03635772940450111
+          },
+          {
+            "token": " and",
+            "prob": 0.005575637058048525
+          },
+          {
+            "token": " while",
+            "prob": 0.005575637058048525
+          }
+        ]
+      },
+      {
+        "token": " her",
+        "prob": 0.9837407125429918,
+        "top": [
+          {
+            "token": " her",
+            "prob": 0.9837407125429918
+          },
+          {
+            "token": " academic",
+            "prob": 0.014032310609161058
+          },
+          {
+            "token": " academics",
+            "prob": 0.0014789946570167977
+          },
+          {
+            "token": " coursework",
+            "prob": 0.0003300083146788301
+          },
+          {
+            "token": " the",
+            "prob": 0.00012140327438597751
+          }
+        ]
+      },
+      {
+        "token": " academic",
+        "prob": 0.9515058332995207,
+        "top": [
+          {
+            "token": " academic",
+            "prob": 0.9515058332995207
+          },
+          {
+            "token": " coursework",
+            "prob": 0.025356769111714368
+          },
+          {
+            "token": " studies",
+            "prob": 0.019747871640363963
+          },
+          {
+            "token": " academics",
+            "prob": 0.0026725844389626366
+          },
+          {
+            "token": " school",
+            "prob": 0.0002485890764624773
+          }
+        ]
+      },
+      {
+        "token": " responsibilities",
+        "prob": 0.6336932413630645,
+        "top": [
+          {
+            "token": " responsibilities",
+            "prob": 0.6336932413630645
+          },
+          {
+            "token": " workload",
+            "prob": 0.20573006209436148
+          },
+          {
+            "token": " and",
+            "prob": 0.1101193669259285
+          },
+          {
+            "token": " commitments",
+            "prob": 0.027842536223826327
+          },
+          {
+            "token": " pursuits",
+            "prob": 0.00797702208674989
+          }
+        ]
+      },
+      {
+        "token": " and",
+        "prob": 0.8207341016234634,
+        "top": [
+          {
+            "token": " and",
+            "prob": 0.8207341016234634
+          },
+          {
+            "token": ",",
+            "prob": 0.16161211962326053
+          },
+          {
+            "token": " while",
+            "prob": 0.008046194607939762
+          },
+          {
+            "token": ".",
+            "prob": 0.007100741819099714
+          },
+          {
+            "token": " as",
+            "prob": 0.0023052733516453388
+          }
+        ]
+      },
+      {
+        "token": " internship",
+        "prob": 0.8149638966308896,
+        "top": [
+          {
+            "token": " internship",
+            "prob": 0.8149638966308896
+          },
+          {
+            "token": " the",
+            "prob": 0.05903578226511976
+          },
+          {
+            "token": " any",
+            "prob": 0.045977113457308226
+          },
+          {
+            "token": " potential",
+            "prob": 0.027886528956943754
+          },
+          {
+            "token": " her",
+            "prob": 0.019166112374801435
+          }
+        ]
+      },
+      {
+        "token": " search",
+        "prob": 0.9722321033107182,
+        "top": [
+          {
+            "token": " search",
+            "prob": 0.9722321033107182
+          },
+          {
+            "token": " pursuits",
+            "prob": 0.009531429504888665
+          },
+          {
+            "token": " applications",
+            "prob": 0.008411457015267671
+          },
+          {
+            "token": " searches",
+            "prob": 0.005781104225604581
+          },
+          {
+            "token": " preparation",
+            "prob": 0.0007823873777925744
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9996594700683173,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9996594700683173
+          },
+          {
+            "token": ",",
+            "prob": 0.0002611696239010901
+          },
+          {
+            "token": " during",
+            "prob": 0.000027527075838288644
+          },
+          {
+            "token": " efforts",
+            "prob": 0.000016696015468156904
+          },
+          {
+            "token": " this",
+            "prob": 0.000008936733090060821
+          }
+        ]
+      },
+      {
+        "token": " Ask",
+        "prob": 0.8977082663480331,
+        "top": [
+          {
+            "token": " Ask",
+            "prob": 0.8977082663480331
+          },
+          {
+            "token": " Seek",
+            "prob": 0.07368838016077721
+          },
+          {
+            "token": " You",
+            "prob": 0.008800821969368076
+          },
+          {
+            "token": " Explore",
+            "prob": 0.004710740539465269
+          },
+          {
+            "token": " In",
+            "prob": 0.004157213934957786
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.7503708296541398,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.7503708296541398
+          },
+          {
+            "token": " for",
+            "prob": 0.24360972676067677
+          },
+          {
+            "token": " about",
+            "prob": 0.004461868848924064
+          },
+          {
+            "token": " if",
+            "prob": 0.001448556730832557
+          },
+          {
+            "token": " whether",
+            "prob": 0.00008172197860578519
+          }
+        ]
+      },
+      {
+        "token": " advisor",
+        "prob": 0.9998997995353331,
+        "top": [
+          {
+            "token": " advisor",
+            "prob": 0.9998997995353331
+          },
+          {
+            "token": " academic",
+            "prob": 0.00005143970896522131
+          },
+          {
+            "token": " adviser",
+            "prob": 0.00004539538383166085
+          },
+          {
+            "token": " advisory",
+            "prob": 0.0000013708218111679807
+          },
+          {
+            "token": " counselor",
+            "prob": 3.9274702454020016e-7
+          }
+        ]
+      },
+      {
+        "token": " for",
+        "prob": 0.9575088182430477,
+        "top": [
+          {
+            "token": " for",
+            "prob": 0.9575088182430477
+          },
+          {
+            "token": " if",
+            "prob": 0.032764151125607884
+          },
+          {
+            "token": " about",
+            "prob": 0.009387086462538857
+          },
+          {
+            "token": " whether",
+            "prob": 0.00025015726156067675
+          },
+          {
+            "token": " to",
+            "prob": 0.000043470813824163254
+          }
+        ]
+      },
+      {
+        "token": " advice",
+        "prob": 0.625843337483962,
+        "top": [
+          {
+            "token": " advice",
+            "prob": 0.625843337483962
+          },
+          {
+            "token": " tips",
+            "prob": 0.2302348903929358
+          },
+          {
+            "token": " guidance",
+            "prob": 0.05137235408919342
+          },
+          {
+            "token": " any",
+            "prob": 0.031158907816709484
+          },
+          {
+            "token": " suggestions",
+            "prob": 0.031158907816709484
+          }
+        ]
+      },
+      {
+        "token": " on",
+        "prob": 0.9994759372772599,
+        "top": [
+          {
+            "token": " on",
+            "prob": 0.9994759372772599
+          },
+          {
+            "token": " or",
+            "prob": 0.0003799298057426523
+          },
+          {
+            "token": " regarding",
+            "prob": 0.00008477375797723234
+          },
+          {
+            "token": " about",
+            "prob": 0.000051417883352249854
+          },
+          {
+            "token": " and",
+            "prob": 0.0000025599456737893168
+          }
+        ]
+      },
+      {
+        "token": " time",
+        "prob": 0.753310683942458,
+        "top": [
+          {
+            "token": " time",
+            "prob": 0.753310683942458
+          },
+          {
+            "token": " managing",
+            "prob": 0.24456417951790538
+          },
+          {
+            "token": " how",
+            "prob": 0.0006869304476187879
+          },
+          {
+            "token": " course",
+            "prob": 0.0002527075891936484
+          },
+          {
+            "token": " maintaining",
+            "prob": 0.0001736832167219079
+          }
+        ]
+      },
+      {
+        "token": " management",
+        "prob": 0.9998760879914247,
+        "top": [
+          {
+            "token": " management",
+            "prob": 0.9998760879914247
+          },
+          {
+            "token": "-management",
+            "prob": 0.0001233945049762016
+          },
+          {
+            "token": " Management",
+            "prob": 3.465897692135045e-7
+          },
+          {
+            "token": " and",
+            "prob": 5.315126256652839e-8
+          },
+          {
+            "token": "management",
+            "prob": 4.6905824583421855e-8
+          }
+        ]
+      },
+      {
+        "token": " strategies",
+        "prob": 0.5428828875300642,
+        "top": [
+          {
+            "token": " strategies",
+            "prob": 0.5428828875300642
+          },
+          {
+            "token": ",",
+            "prob": 0.25643971812466443
+          },
+          {
+            "token": " and",
+            "prob": 0.09433888895179113
+          },
+          {
+            "token": " or",
+            "prob": 0.05049596846523011
+          },
+          {
+            "token": " techniques",
+            "prob": 0.03062735306604435
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.4964044052613331,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.4964044052613331
+          },
+          {
+            "token": " or",
+            "prob": 0.3411734256807231
+          },
+          {
+            "token": " and",
+            "prob": 0.12551068918197103
+          },
+          {
+            "token": " that",
+            "prob": 0.024714520062854833
+          },
+          {
+            "token": " for",
+            "prob": 0.010302547205105055
+          }
+        ]
+      },
+      {
+        "token": " course",
+        "prob": 0.22978285769847187,
+        "top": [
+          {
+            "token": " course",
+            "prob": 0.22978285769847187
+          },
+          {
+            "token": " and",
+            "prob": 0.12299388599884527
+          },
+          {
+            "token": " as",
+            "prob": 0.12299388599884527
+          },
+          {
+            "token": " potential",
+            "prob": 0.10854172343082379
+          },
+          {
+            "token": " any",
+            "prob": 0.08453237920384542
+          }
+        ]
+      },
+      {
+        "token": " load",
+        "prob": 0.5600622924618734,
+        "top": [
+          {
+            "token": " load",
+            "prob": 0.5600622924618734
+          },
+          {
+            "token": " loads",
+            "prob": 0.3396949517270699
+          },
+          {
+            "token": " selection",
+            "prob": 0.045972717986405204
+          },
+          {
+            "token": " scheduling",
+            "prob": 0.019164280069923365
+          },
+          {
+            "token": " planning",
+            "prob": 0.011623723433728292
+          }
+        ]
+      },
+      {
+        "token": " recommendations",
+        "prob": 0.6391764648621102,
+        "top": [
+          {
+            "token": " recommendations",
+            "prob": 0.6391764648621102
+          },
+          {
+            "token": " considerations",
+            "prob": 0.2664483841326077
+          },
+          {
+            "token": " adjustments",
+            "prob": 0.05246680392953242
+          },
+          {
+            "token": " suggestions",
+            "prob": 0.021871417852141188
+          },
+          {
+            "token": " planning",
+            "prob": 0.010331326254374221
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9253182414241292,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9253182414241292
+          },
+          {
+            "token": " for",
+            "prob": 0.05915361082105129
+          },
+          {
+            "token": " that",
+            "prob": 0.009071500026220121
+          },
+          {
+            "token": " (",
+            "prob": 0.002293634399972243
+          },
+          {
+            "token": " to",
+            "prob": 0.002024125253636981
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.5311993255785283,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.5311993255785283
+          },
+          {
+            "token": " and",
+            "prob": 0.4687817594780773
+          },
+          {
+            "token": " as",
+            "prob": 0.000008871932195792868
+          },
+          {
+            "token": " potential",
+            "prob": 0.0000013605548677362688
+          },
+          {
+            "token": " any",
+            "prob": 0.0000010596011964046178
+          }
+        ]
+      },
+      {
+        "token": " any",
+        "prob": 0.41285582188471576,
+        "top": [
+          {
+            "token": " any",
+            "prob": 0.41285582188471576
+          },
+          {
+            "token": " opportunities",
+            "prob": 0.1518811599865029
+          },
+          {
+            "token": " potential",
+            "prob": 0.10438629290905985
+          },
+          {
+            "token": " extracurricular",
+            "prob": 0.08129612665949684
+          },
+          {
+            "token": " ways",
+            "prob": 0.04351468088882304
+          }
+        ]
+      },
+      {
+        "token": " support",
+        "prob": 0.2225578424855352,
+        "top": [
+          {
+            "token": " support",
+            "prob": 0.2225578424855352
+          },
+          {
+            "token": " opportunities",
+            "prob": 0.13498815502697203
+          },
+          {
+            "token": " academic",
+            "prob": 0.08187445472190058
+          },
+          {
+            "token": " campus",
+            "prob": 0.07225395269287996
+          },
+          {
+            "token": " flexible",
+            "prob": 0.06376388945096045
+          }
+        ]
+      },
+      {
+        "token": " services",
+        "prob": 0.6584130397398591,
+        "top": [
+          {
+            "token": " services",
+            "prob": 0.6584130397398591
+          },
+          {
+            "token": " systems",
+            "prob": 0.2744673813488582
+          },
+          {
+            "token": " available",
+            "prob": 0.02252965730607041
+          },
+          {
+            "token": " programs",
+            "prob": 0.017546110568978784
+          },
+          {
+            "token": " resources",
+            "prob": 0.012059253678540084
+          }
+        ]
+      },
+      {
+        "token": " available",
+        "prob": 0.5323306067167948,
+        "top": [
+          {
+            "token": " available",
+            "prob": 0.5323306067167948
+          },
+          {
+            "token": " that",
+            "prob": 0.322874834077164
+          },
+          {
+            "token": " the",
+            "prob": 0.04951445947496526
+          },
+          {
+            "token": " offered",
+            "prob": 0.043696357119807315
+          },
+          {
+            "token": " (",
+            "prob": 0.030032037770665133
+          }
+        ]
+      },
+      {
+        "token": " to",
+        "prob": 0.4965700073720045,
+        "top": [
+          {
+            "token": " to",
+            "prob": 0.4965700073720045
+          },
+          {
+            "token": " for",
+            "prob": 0.34128724223593276
+          },
+          {
+            "token": " that",
+            "prob": 0.06720344259449708
+          },
+          {
+            "token": " at",
+            "prob": 0.0461882055930424
+          },
+          {
+            "token": " on",
+            "prob": 0.024722764906460692
+          }
+        ]
+      },
+      {
+        "token": " help",
+        "prob": 0.8699810486000749,
+        "top": [
+          {
+            "token": " help",
+            "prob": 0.8699810486000749
+          },
+          {
+            "token": " students",
+            "prob": 0.11773912635942722
+          },
+          {
+            "token": " assist",
+            "prob": 0.008528995740372743
+          },
+          {
+            "token": " ensure",
+            "prob": 0.0024435981920169197
+          },
+          {
+            "token": " her",
+            "prob": 0.0004246336940351581
+          }
+        ]
+      },
+      {
+        "token": " students",
+        "prob": 0.615268241261977,
+        "top": [
+          {
+            "token": " students",
+            "prob": 0.615268241261977
+          },
+          {
+            "token": " her",
+            "prob": 0.3731790633944612
+          },
+          {
+            "token": " student",
+            "prob": 0.004145645417592991
+          },
+          {
+            "token": " manage",
+            "prob": 0.004145645417592991
+          },
+          {
+            "token": " maintain",
+            "prob": 0.0013458940136144007
+          }
+        ]
+      },
+      {
+        "token": " manage",
+        "prob": 0.4453904190912223,
+        "top": [
+          {
+            "token": " manage",
+            "prob": 0.4453904190912223
+          },
+          {
+            "token": " maintain",
+            "prob": 0.2103875368899965
+          },
+          {
+            "token": " jug",
+            "prob": 0.08770257354315064
+          },
+          {
+            "token": " who",
+            "prob": 0.0683028329527832
+          },
+          {
+            "token": " in",
+            "prob": 0.032263973744351575
+          }
+        ]
+      },
+      {
+        "token": " their",
+        "prob": 0.7472719041754385,
+        "top": [
+          {
+            "token": " their",
+            "prob": 0.7472719041754385
+          },
+          {
+            "token": " work",
+            "prob": 0.18893992620796113
+          },
+          {
+            "token": " both",
+            "prob": 0.019914124085043415
+          },
+          {
+            "token": " multiple",
+            "prob": 0.012078526818900625
+          },
+          {
+            "token": " these",
+            "prob": 0.010659262505464768
+          }
+        ]
+      },
+      {
+        "token": " commitments",
+        "prob": 0.48174554025892313,
+        "top": [
+          {
+            "token": " commitments",
+            "prob": 0.48174554025892313
+          },
+          {
+            "token": " work",
+            "prob": 0.2008214069135599
+          },
+          {
+            "token": " workload",
+            "prob": 0.2008214069135599
+          },
+          {
+            "token": " workloads",
+            "prob": 0.04480931268585561
+          },
+          {
+            "token": " schedules",
+            "prob": 0.023984696719185187
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.538945730076928,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.538945730076928
+          },
+          {
+            "token": " while",
+            "prob": 0.25457992145678165
+          },
+          {
+            "token": " effectively",
+            "prob": 0.08264999964083905
+          },
+          {
+            "token": " without",
+            "prob": 0.03904109541438924
+          },
+          {
+            "token": ",",
+            "prob": 0.023679621357593376
+          }
+        ]
+      },
+      {
+        "token": " This",
+        "prob": 0.4208547366741266,
+        "top": [
+          {
+            "token": " This",
+            "prob": 0.4208547366741266
+          },
+          {
+            "token": " Additionally",
+            "prob": 0.19879770116748469
+          },
+          {
+            "token": " It",
+            "prob": 0.13663152866070374
+          },
+          {
+            "token": " Understanding",
+            "prob": 0.12057690083846943
+          },
+          {
+            "token": " Em",
+            "prob": 0.03048661487138761
+          }
+        ]
+      },
+      {
+        "token": " could",
+        "prob": 0.3673024599783172,
+        "top": [
+          {
+            "token": " could",
+            "prob": 0.3673024599783172
+          },
+          {
+            "token": " can",
+            "prob": 0.25244304281664753
+          },
+          {
+            "token": " conversation",
+            "prob": 0.17350139683325222
+          },
+          {
+            "token": " will",
+            "prob": 0.049708976528898025
+          },
+          {
+            "token": " may",
+            "prob": 0.043868017817402856
+          }
+        ]
+      },
+      {
+        "token": " also",
+        "prob": 0.7669809613504587,
+        "top": [
+          {
+            "token": " also",
+            "prob": 0.7669809613504587
+          },
+          {
+            "token": " include",
+            "prob": 0.15102749694730144
+          },
+          {
+            "token": " help",
+            "prob": 0.03818573128355828
+          },
+          {
+            "token": " be",
+            "prob": 0.018037666550823464
+          },
+          {
+            "token": " lead",
+            "prob": 0.014047748834562201
+          }
+        ]
+      },
+      {
+        "token": " include",
+        "prob": 0.6308659070083404,
+        "top": [
+          {
+            "token": " include",
+            "prob": 0.6308659070083404
+          },
+          {
+            "token": " lead",
+            "prob": 0.23208261115754455
+          },
+          {
+            "token": " be",
+            "prob": 0.058679673598383705
+          },
+          {
+            "token": " open",
+            "prob": 0.045699775748795676
+          },
+          {
+            "token": " involve",
+            "prob": 0.024461327250297878
+          }
+        ]
+      },
+      {
+        "token": " discussing",
+        "prob": 0.5073876512091356,
+        "top": [
+          {
+            "token": " discussing",
+            "prob": 0.5073876512091356
+          },
+          {
+            "token": " exploring",
+            "prob": 0.21151065364999183
+          },
+          {
+            "token": " discussions",
+            "prob": 0.0778104210665655
+          },
+          {
+            "token": " tips",
+            "prob": 0.041648917133753974
+          },
+          {
+            "token": " opportunities",
+            "prob": 0.0222930588812822
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.39779407011293877,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.39779407011293877
+          },
+          {
+            "token": " how",
+            "prob": 0.10057808590595917
+          },
+          {
+            "token": " whether",
+            "prob": 0.10057808590595917
+          },
+          {
+            "token": " any",
+            "prob": 0.08875984927989632
+          },
+          {
+            "token": " opportunities",
+            "prob": 0.07833029206338403
+          }
+        ]
+      },
+      {
+        "token": " possibility",
+        "prob": 0.44504949598961613,
+        "top": [
+          {
+            "token": " possibility",
+            "prob": 0.44504949598961613
+          },
+          {
+            "token": " potential",
+            "prob": 0.185524220697028
+          },
+          {
+            "token": " importance",
+            "prob": 0.185524220697028
+          },
+          {
+            "token": " feasibility",
+            "prob": 0.07733800133904442
+          },
+          {
+            "token": " flexibility",
+            "prob": 0.036531885088404395
+          }
+        ]
+      },
+      {
+        "token": " of",
+        "prob": 0.9999390143791609,
+        "top": [
+          {
+            "token": " of",
+            "prob": 0.9999390143791609
+          },
+          {
+            "token": " and",
+            "prob": 0.00005144172033044452
+          },
+          {
+            "token": " or",
+            "prob": 0.000004222593542535525
+          },
+          {
+            "token": " for",
+            "prob": 0.000003726425722161315
+          },
+          {
+            "token": " to",
+            "prob": 6.475556927151445e-7
+          }
+        ]
+      },
+      {
+        "token": " flexible",
+        "prob": 0.24044153757153963,
+        "top": [
+          {
+            "token": " flexible",
+            "prob": 0.24044153757153963
+          },
+          {
+            "token": " internships",
+            "prob": 0.14583516440558586
+          },
+          {
+            "token": " adjusting",
+            "prob": 0.12869909621797168
+          },
+          {
+            "token": " finding",
+            "prob": 0.11357655377779682
+          },
+          {
+            "token": " leveraging",
+            "prob": 0.06888766209073449
+          }
+        ]
+      },
+      {
+        "token": " work",
+        "prob": 0.8167498150451571,
+        "top": [
+          {
+            "token": " work",
+            "prob": 0.8167498150451571
+          },
+          {
+            "token": " hours",
+            "prob": 0.035885485084246244
+          },
+          {
+            "token": " internship",
+            "prob": 0.031668829434593
+          },
+          {
+            "token": " scheduling",
+            "prob": 0.02794764388450819
+          },
+          {
+            "token": " working",
+            "prob": 0.02176564694225574
+          }
+        ]
+      },
+      {
+        "token": " hours",
+        "prob": 0.5798221086375489,
+        "top": [
+          {
+            "token": " hours",
+            "prob": 0.5798221086375489
+          },
+          {
+            "token": " arrangements",
+            "prob": 0.35167988606790274
+          },
+          {
+            "token": " options",
+            "prob": 0.042002172672791396
+          },
+          {
+            "token": " opportunities",
+            "prob": 0.013636108992633178
+          },
+          {
+            "token": " schedules",
+            "prob": 0.012033823949304728
+          }
+        ]
+      },
+      {
+        "token": " or",
+        "prob": 0.6079377361976049,
+        "top": [
+          {
+            "token": " or",
+            "prob": 0.6079377361976049
+          },
+          {
+            "token": " during",
+            "prob": 0.28716945272883904
+          },
+          {
+            "token": " if",
+            "prob": 0.034297500134934676
+          },
+          {
+            "token": " to",
+            "prob": 0.02671091996247874
+          },
+          {
+            "token": " at",
+            "prob": 0.012617348191427104
+          }
+        ]
+      },
+      {
+        "token": " opportunities",
+        "prob": 0.2051321563403964,
+        "top": [
+          {
+            "token": " opportunities",
+            "prob": 0.2051321563403964
+          },
+          {
+            "token": " finding",
+            "prob": 0.09689758109793503
+          },
+          {
+            "token": " internships",
+            "prob": 0.08551181518686732
+          },
+          {
+            "token": " how",
+            "prob": 0.07546391203679677
+          },
+          {
+            "token": " relevant",
+            "prob": 0.07546391203679677
+          }
+        ]
+      },
+      {
+        "token": " for",
+        "prob": 0.2735360790623958,
+        "top": [
+          {
+            "token": " for",
+            "prob": 0.2735360790623958
+          },
+          {
+            "token": " that",
+            "prob": 0.2735360790623958
+          },
+          {
+            "token": " at",
+            "prob": 0.165908018488922
+          },
+          {
+            "token": " related",
+            "prob": 0.14641331243042144
+          },
+          {
+            "token": " within",
+            "prob": 0.06916074342354775
+          }
+        ]
+      },
+      {
+        "token": " professional",
+        "prob": 0.3071584837590828,
+        "top": [
+          {
+            "token": " professional",
+            "prob": 0.3071584837590828
+          },
+          {
+            "token": " her",
+            "prob": 0.21110673277730857
+          },
+          {
+            "token": " on",
+            "prob": 0.09971977150995823
+          },
+          {
+            "token": " growth",
+            "prob": 0.06853632984227973
+          },
+          {
+            "token": " work",
+            "prob": 0.04710428470828062
+          }
+        ]
+      },
+      {
+        "token": " development",
+        "prob": 0.9563045300402636,
+        "top": [
+          {
+            "token": " development",
+            "prob": 0.9563045300402636
+          },
+          {
+            "token": " growth",
+            "prob": 0.04201708631225516
+          },
+          {
+            "token": " experience",
+            "prob": 0.0014377459733295418
+          },
+          {
+            "token": " advancement",
+            "prob": 0.00009191202503351363
+          },
+          {
+            "token": " skill",
+            "prob": 0.00003381254440626461
+          }
+        ]
+      },
+      {
+        "token": " within",
+        "prob": 0.36369989692225235,
+        "top": [
+          {
+            "token": " within",
+            "prob": 0.36369989692225235
+          },
+          {
+            "token": " through",
+            "prob": 0.2205951384176705
+          },
+          {
+            "token": " at",
+            "prob": 0.15161267358787545
+          },
+          {
+            "token": " related",
+            "prob": 0.104201765085782
+          },
+          {
+            "token": " that",
+            "prob": 0.09195773493205024
+          }
+        ]
+      },
+      {
+        "token": " her",
+        "prob": 0.999565610623673,
+        "top": [
+          {
+            "token": " her",
+            "prob": 0.999565610623673
+          },
+          {
+            "token": " the",
+            "prob": 0.00043055546723222595
+          },
+          {
+            "token": " or",
+            "prob": 0.000002259346658828546
+          },
+          {
+            "token": " their",
+            "prob": 4.448917354569277e-7
+          },
+          {
+            "token": " library",
+            "prob": 3.0576932000225585e-7
+          }
+        ]
+      },
+      {
+        "token": " current",
+        "prob": 0.8169029345461046,
+        "top": [
+          {
+            "token": " current",
+            "prob": 0.8169029345461046
+          },
+          {
+            "token": " library",
+            "prob": 0.14195644646763333
+          },
+          {
+            "token": " job",
+            "prob": 0.035892210546754545
+          },
+          {
+            "token": " role",
+            "prob": 0.0033384948346886732
+          },
+          {
+            "token": " part",
+            "prob": 0.000844103684598918
+          }
+        ]
+      },
+      {
+        "token": " job",
+        "prob": 0.7521641618743012,
+        "top": [
+          {
+            "token": " job",
+            "prob": 0.7521641618743012
+          },
+          {
+            "token": " role",
+            "prob": 0.14810990955724646
+          },
+          {
+            "token": " position",
+            "prob": 0.0699621590642002
+          },
+          {
+            "token": " library",
+            "prob": 0.02916456692857156
+          },
+          {
+            "token": " work",
+            "prob": 0.00019650935306747113
+          }
+        ]
+      },
+      {
+        "token": " that",
+        "prob": 0.7089149967312691,
+        "top": [
+          {
+            "token": " that",
+            "prob": 0.7089149967312691
+          },
+          {
+            "token": ".",
+            "prob": 0.17924178123345724
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.05819128653114744
+          },
+          {
+            "token": " at",
+            "prob": 0.035294799409263736
+          },
+          {
+            "token": " to",
+            "prob": 0.01471305785802674
+          }
+        ]
+      },
+      {
+        "token": " could",
+        "prob": 0.4805391873734822,
+        "top": [
+          {
+            "token": " could",
+            "prob": 0.4805391873734822
+          },
+          {
+            "token": " align",
+            "prob": 0.17678048771193566
+          },
+          {
+            "token": " may",
+            "prob": 0.13767678226180036
+          },
+          {
+            "token": " might",
+            "prob": 0.10722278583624142
+          },
+          {
+            "token": " relate",
+            "prob": 0.05064845772075346
+          }
+        ]
+      },
+      {
+        "token": " enhance",
+        "prob": 0.4927900197292836,
+        "top": [
+          {
+            "token": " enhance",
+            "prob": 0.4927900197292836
+          },
+          {
+            "token": " complement",
+            "prob": 0.15998549579468177
+          },
+          {
+            "token": " be",
+            "prob": 0.08563406502138027
+          },
+          {
+            "token": " align",
+            "prob": 0.06669187689623855
+          },
+          {
+            "token": " relate",
+            "prob": 0.05193968595129232
+          }
+        ]
+      },
+      {
+        "token": " her",
+        "prob": 0.9998512970175607,
+        "top": [
+          {
+            "token": " her",
+            "prob": 0.9998512970175607
+          },
+          {
+            "token": " relevant",
+            "prob": 0.00010889256835479461
+          },
+          {
+            "token": " both",
+            "prob": 0.000011477192265145159
+          },
+          {
+            "token": " skills",
+            "prob": 0.00001012858662435848
+          },
+          {
+            "token": " the",
+            "prob": 0.0000025609077481761596
+          }
+        ]
+      },
+      {
+        "token": " resume",
+        "prob": 0.4004269379894868,
+        "top": [
+          {
+            "token": " resume",
+            "prob": 0.4004269379894868
+          },
+          {
+            "token": " skills",
+            "prob": 0.31185281286909716
+          },
+          {
+            "token": " skill",
+            "prob": 0.11472422484983169
+          },
+          {
+            "token": " internship",
+            "prob": 0.10124377308139515
+          },
+          {
+            "token": " career",
+            "prob": 0.022590539301682987
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.856981365160562,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.856981365160562
+          },
+          {
+            "token": ".\n\n",
+            "prob": 0.11597981923897158
+          },
+          {
+            "token": " for",
+            "prob": 0.013851810768218535
+          },
+          {
+            "token": " and",
+            "prob": 0.006543132101804256
+          },
+          {
+            "token": " in",
+            "prob": 0.0012884191032486152
+          }
+        ]
+      }
+    ],
+    "provider": "Azure"
+  },
+  "savedAt": "2026-10-13T16:43:12.953Z"
+}

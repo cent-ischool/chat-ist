@@ -1,0 +1,47 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-3-27b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "There are:\n12 baseballs in a box\n6 boxes in a case\n8 cases in a shipment\n\nEach game requires 2 baseballs.\n\nHow many games can you play with a shipment? Reply with only the number, nothing else."
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 600
+  },
+  "response": {
+    "text": "288",
+    "tokens": [
+      {
+        "token": "<end_of_turn>",
+        "prob": 0.8519520621150789,
+        "top": [
+          {
+            "token": "<end_of_turn>",
+            "prob": 0.8519520621150789
+          },
+          {
+            "token": "\n",
+            "prob": 0.1480470672584026
+          },
+          {
+            "token": " ",
+            "prob": 8.027480649140591e-7
+          },
+          {
+            "token": ".",
+            "prob": 5.131796687777905e-8
+          },
+          {
+            "token": "\n\n",
+            "prob": 2.746852825969024e-8
+          }
+        ]
+      }
+    ],
+    "provider": "NextBit"
+  },
+  "savedAt": "2026-10-13T14:50:20.022Z"
+}

@@ -1,0 +1,99 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Who is the 40th US president?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "Ronald Reagan",
+    "tokens": [
+      {
+        "token": "Ron",
+        "prob": 0.7624411300293746,
+        "top": [
+          {
+            "token": "Ron",
+            "prob": 0.7624411300293746
+          },
+          {
+            "token": "The",
+            "prob": 0.23707109593138767
+          },
+          {
+            "token": "40",
+            "prob": 0.00019294430226689336
+          },
+          {
+            "token": " Ronald",
+            "prob": 0.00017816276773979954
+          },
+          {
+            "token": "President",
+            "prob": 0.000029532476554858524
+          }
+        ]
+      },
+      {
+        "token": "ald",
+        "prob": 0.9999959918780326,
+        "top": [
+          {
+            "token": "ald",
+            "prob": 0.9999959918780326
+          },
+          {
+            "token": "ad",
+            "prob": 0.000001064694132056114
+          },
+          {
+            "token": "al",
+            "prob": 8.124690628173022e-7
+          },
+          {
+            "token": "lad",
+            "prob": 3.8029521662132127e-7
+          },
+          {
+            "token": "an",
+            "prob": 3.787895739138306e-7
+          }
+        ]
+      },
+      {
+        "token": " Reagan",
+        "prob": 0.9998259143946578,
+        "top": [
+          {
+            "token": " Reagan",
+            "prob": 0.9998259143946578
+          },
+          {
+            "token": " Wilson",
+            "prob": 0.00015660842129864894
+          },
+          {
+            "token": " W",
+            "prob": 0.000010839919371867921
+          },
+          {
+            "token": " Reg",
+            "prob": 0.000003494151455088399
+          },
+          {
+            "token": " Re",
+            "prob": 0.0000013894118914914818
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T14:45:19.270Z"
+}

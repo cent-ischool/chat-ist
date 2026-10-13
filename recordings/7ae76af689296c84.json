@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "openai/gpt-4o-mini",
+    "prompt": "My favorite food is",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "That's",
+    "tokens": [
+      {
+        "token": "That's",
+        "prob": 0.6617521963919031,
+        "top": [
+          {
+            "token": "That's",
+            "prob": 0.6617521963919031
+          },
+          {
+            "token": "What",
+            "prob": 0.14765687796001833
+          },
+          {
+            "token": "That",
+            "prob": 0.08955841292400231
+          },
+          {
+            "token": "It",
+            "prob": 0.08955841292400231
+          },
+          {
+            "token": "Great",
+            "prob": 0.005725277791298625
+          }
+        ]
+      }
+    ],
+    "provider": "Azure"
+  },
+  "savedAt": "2026-10-13T16:07:12.976Z"
+}

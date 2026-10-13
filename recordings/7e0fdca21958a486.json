@@ -1,0 +1,193 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Bob is Jill's mother"
+      },
+      {
+        "role": "assistant",
+        "content": "."
+      },
+      {
+        "role": "user",
+        "content": "who is Bob's child?"
+      },
+      {
+        "role": "assistant",
+        "content": "Jill is Bob's child."
+      },
+      {
+        "role": "user",
+        "content": "who is jills mother?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "Bob is Jill's mother.",
+    "tokens": [
+      {
+        "token": "Bob",
+        "prob": 0.42443277014074765,
+        "top": [
+          {
+            "token": "Bob",
+            "prob": 0.42443277014074765
+          },
+          {
+            "token": "You",
+            "prob": 0.3156246777320514
+          },
+          {
+            "token": "J",
+            "prob": 0.21514335620550495
+          },
+          {
+            "token": "It",
+            "prob": 0.010848681794186292
+          },
+          {
+            "token": "The",
+            "prob": 0.01000659403298922
+          }
+        ]
+      },
+      {
+        "token": " is",
+        "prob": 0.9989703418621014,
+        "top": [
+          {
+            "token": " is",
+            "prob": 0.9989703418621014
+          },
+          {
+            "token": ".",
+            "prob": 0.0006974993333777739
+          },
+          {
+            "token": "'s",
+            "prob": 0.00019715151759569282
+          },
+          {
+            "token": " would",
+            "prob": 0.000047977423569696846
+          },
+          {
+            "token": ",",
+            "prob": 0.00003717886884065439
+          }
+        ]
+      },
+      {
+        "token": " Jill",
+        "prob": 0.9990739605394333,
+        "top": [
+          {
+            "token": " Jill",
+            "prob": 0.9990739605394333
+          },
+          {
+            "token": " J",
+            "prob": 0.0002992937575966113
+          },
+          {
+            "token": " the",
+            "prob": 0.0002170514794653049
+          },
+          {
+            "token": " also",
+            "prob": 0.0001999938383781633
+          },
+          {
+            "token": " Bob",
+            "prob": 0.000049226325816393294
+          }
+        ]
+      },
+      {
+        "token": "'s",
+        "prob": 0.9996969961349463,
+        "top": [
+          {
+            "token": "'s",
+            "prob": 0.9996969961349463
+          },
+          {
+            "token": "’s",
+            "prob": 0.00027384426200836973
+          },
+          {
+            "token": "´s",
+            "prob": 0.000018503012524031686
+          },
+          {
+            "token": "'",
+            "prob": 0.000002565483751622401
+          },
+          {
+            "token": "‘s",
+            "prob": 0.0000012230179797722119
+          }
+        ]
+      },
+      {
+        "token": " mother",
+        "prob": 0.9994421200729071,
+        "top": [
+          {
+            "token": " mother",
+            "prob": 0.9994421200729071
+          },
+          {
+            "token": " father",
+            "prob": 0.00040005184770245685
+          },
+          {
+            "token": " Mother",
+            "prob": 0.00009411934060748304
+          },
+          {
+            "token": " biological",
+            "prob": 0.000018960418283778946
+          },
+          {
+            "token": " other",
+            "prob": 0.000006853925528348854
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9402329925655165,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9402329925655165
+          },
+          {
+            "token": "<|end|>",
+            "prob": 0.02990856454408445
+          },
+          {
+            "token": ",",
+            "prob": 0.015160422951221424
+          },
+          {
+            "token": " according",
+            "prob": 0.005094282737198523
+          },
+          {
+            "token": " as",
+            "prob": 0.002968777580353915
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T15:13:31.101Z"
+}

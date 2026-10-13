@@ -1,0 +1,11 @@
+{
+  "name": "chatist",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ChatIST: a bare-bones chatbot for showing how LLMs work",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "probe": "node tools/probe.mjs"
+  }
+}

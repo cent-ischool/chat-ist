@@ -1,0 +1,827 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-4o-mini",
+    "messages": [
+      {
+        "role": "user",
+        "content": "A young man is in a car accident and is rushed to the hospital. The surgeon, who is the young man's father, says \"I can't operate on this boy, he's my son!\" How is this possible?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "The surgeon is the young man's mother. This riddle highlights the common stereotype that surgeons are typically male, but it emphasizes that women can also be surgeons.",
+    "tokens": [
+      {
+        "token": "The",
+        "prob": 0.9859353951210816,
+        "top": [
+          {
+            "token": "The",
+            "prob": 0.9859353951210816
+          },
+          {
+            "token": "This",
+            "prob": 0.014063613108266473
+          },
+          {
+            "token": "In",
+            "prob": 7.235002649843042e-7
+          },
+          {
+            "token": "It",
+            "prob": 6.729607176979939e-8
+          },
+          {
+            "token": " The",
+            "prob": 5.9388574892958584e-8
+          }
+        ]
+      },
+      {
+        "token": " surgeon",
+        "prob": 0.9889029118980975,
+        "top": [
+          {
+            "token": " surgeon",
+            "prob": 0.9889029118980975
+          },
+          {
+            "token": " situation",
+            "prob": 0.007550368241694222
+          },
+          {
+            "token": " scenario",
+            "prob": 0.002451245679130154
+          },
+          {
+            "token": " solution",
+            "prob": 0.00048267889301456096
+          },
+          {
+            "token": " reason",
+            "prob": 0.00017756764142744708
+          }
+        ]
+      },
+      {
+        "token": " is",
+        "prob": 0.999774078518428,
+        "top": [
+          {
+            "token": " is",
+            "prob": 0.999774078518428
+          },
+          {
+            "token": " in",
+            "prob": 0.0001398100250471808
+          },
+          {
+            "token": " who",
+            "prob": 0.00006604157957017172
+          },
+          {
+            "token": " can",
+            "prob": 0.000013004358066293591
+          },
+          {
+            "token": "'s",
+            "prob": 0.000004221896932633673
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.9845990535648602,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.9845990535648602
+          },
+          {
+            "token": " his",
+            "prob": 0.014044554018830365
+          },
+          {
+            "token": " actually",
+            "prob": 0.0013063470182530777
+          },
+          {
+            "token": " a",
+            "prob": 0.000034812952244370844
+          },
+          {
+            "token": " not",
+            "prob": 0.000011302110842163394
+          }
+        ]
+      },
+      {
+        "token": " young",
+        "prob": 0.9626725566310853,
+        "top": [
+          {
+            "token": " young",
+            "prob": 0.9626725566310853
+          },
+          {
+            "token": " boy",
+            "prob": 0.03732686133499999
+          },
+          {
+            "token": " child's",
+            "prob": 2.944837338516755e-7
+          },
+          {
+            "token": " boys",
+            "prob": 4.516054324119443e-8
+          },
+          {
+            "token": " mother",
+            "prob": 3.5171066440172264e-8
+          }
+        ]
+      },
+      {
+        "token": " man's",
+        "prob": 0.9984972207165376,
+        "top": [
+          {
+            "token": " man's",
+            "prob": 0.9984972207165376
+          },
+          {
+            "token": " man",
+            "prob": 0.0015011798034510807
+          },
+          {
+            "token": " boy",
+            "prob": 0.0000015511655460915255
+          },
+          {
+            "token": " men's",
+            "prob": 4.356908935680043e-9
+          },
+          {
+            "token": "man's",
+            "prob": 3.844958640580784e-9
+          }
+        ]
+      },
+      {
+        "token": " mother",
+        "prob": 0.999997064707474,
+        "top": [
+          {
+            "token": " mother",
+            "prob": 0.999997064707474
+          },
+          {
+            "token": " **",
+            "prob": 0.0000015534957233607605
+          },
+          {
+            "token": " *",
+            "prob": 7.338194195418315e-7
+          },
+          {
+            "token": " other",
+            "prob": 2.382362851497276e-7
+          },
+          {
+            "token": "mother",
+            "prob": 2.1024278372789506e-7
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9999989719621736,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9999989719621736
+          },
+          {
+            "token": "!",
+            "prob": 8.315279260963632e-7
+          },
+          {
+            "token": ",",
+            "prob": 6.023562348842112e-8
+          },
+          {
+            "token": ";",
+            "prob": 1.955564378838448e-8
+          },
+          {
+            "token": ".\n",
+            "prob": 2.646568590975319e-9
+          }
+        ]
+      },
+      {
+        "token": " This",
+        "prob": 0.9193948485303831,
+        "top": [
+          {
+            "token": " This",
+            "prob": 0.9193948485303831
+          },
+          {
+            "token": " The",
+            "prob": 0.07546851812902453
+          },
+          {
+            "token": "<|end|>",
+            "prob": 0.004824540952428173
+          },
+          {
+            "token": " In",
+            "prob": 0.00010013015301219548
+          },
+          {
+            "token": " It's",
+            "prob": 0.00006881838064898152
+          }
+        ]
+      },
+      {
+        "token": " r",
+        "prob": 0.9018488994034757,
+        "top": [
+          {
+            "token": " r",
+            "prob": 0.9018488994034757
+          },
+          {
+            "token": " scenario",
+            "prob": 0.08388502222311843
+          },
+          {
+            "token": " classic",
+            "prob": 0.006076610628655483
+          },
+          {
+            "token": " situation",
+            "prob": 0.004732469116016913
+          },
+          {
+            "token": " puzzle",
+            "prob": 0.0017409780937614112
+          }
+        ]
+      },
+      {
+        "token": "iddle",
+        "prob": 1,
+        "top": [
+          {
+            "token": "iddle",
+            "prob": 1
+          },
+          {
+            "token": "IDDLE",
+            "prob": 2.510999155743982e-8
+          },
+          {
+            "token": "idd",
+            "prob": 4.363462252943702e-9
+          },
+          {
+            "token": "use",
+            "prob": 2.646573638909117e-9
+          },
+          {
+            "token": "iddel",
+            "prob": 1.8189616875530459e-9
+          }
+        ]
+      },
+      {
+        "token": " highlights",
+        "prob": 0.866926723691053,
+        "top": [
+          {
+            "token": " highlights",
+            "prob": 0.866926723691053
+          },
+          {
+            "token": " plays",
+            "prob": 0.10353963342302548
+          },
+          {
+            "token": " challenges",
+            "prob": 0.014012565615520204
+          },
+          {
+            "token": " illustrates",
+            "prob": 0.006619067314860554
+          },
+          {
+            "token": " often",
+            "prob": 0.005841306403363373
+          }
+        ]
+      },
+      {
+        "token": " the",
+        "prob": 0.7488900196889743,
+        "top": [
+          {
+            "token": " the",
+            "prob": 0.7488900196889743
+          },
+          {
+            "token": " common",
+            "prob": 0.11484600756257818
+          },
+          {
+            "token": " assumptions",
+            "prob": 0.08944216062236036
+          },
+          {
+            "token": " a",
+            "prob": 0.029037618131911122
+          },
+          {
+            "token": " gender",
+            "prob": 0.006479168384102278
+          }
+        ]
+      },
+      {
+        "token": " common",
+        "prob": 0.9465955057606854,
+        "top": [
+          {
+            "token": " common",
+            "prob": 0.9465955057606854
+          },
+          {
+            "token": " assumption",
+            "prob": 0.025225913985669896
+          },
+          {
+            "token": " stereotype",
+            "prob": 0.010515725452302683
+          },
+          {
+            "token": " assumptions",
+            "prob": 0.008189655216817233
+          },
+          {
+            "token": " often",
+            "prob": 0.0030128057845495108
+          }
+        ]
+      },
+      {
+        "token": " stereotype",
+        "prob": 0.7889372995150584,
+        "top": [
+          {
+            "token": " stereotype",
+            "prob": 0.7889372995150584
+          },
+          {
+            "token": " assumption",
+            "prob": 0.15535096759349293
+          },
+          {
+            "token": " misconception",
+            "prob": 0.03927887585421502
+          },
+          {
+            "token": " stereotypes",
+            "prob": 0.006825643524126991
+          },
+          {
+            "token": " assumptions",
+            "prob": 0.003224205701730898
+          }
+        ]
+      },
+      {
+        "token": " that",
+        "prob": 0.9944774131688364,
+        "top": [
+          {
+            "token": " that",
+            "prob": 0.9944774131688364
+          },
+          {
+            "token": " about",
+            "prob": 0.00217541030391343
+          },
+          {
+            "token": " and",
+            "prob": 0.001319453046778273
+          },
+          {
+            "token": " of",
+            "prob": 0.0009068459329187903
+          },
+          {
+            "token": " regarding",
+            "prob": 0.0005500298619509524
+          }
+        ]
+      },
+      {
+        "token": " surgeons",
+        "prob": 0.9877606062782812,
+        "top": [
+          {
+            "token": " surgeons",
+            "prob": 0.9877606062782812
+          },
+          {
+            "token": " doctors",
+            "prob": 0.009683665360234833
+          },
+          {
+            "token": " associates",
+            "prob": 0.0007948836577691726
+          },
+          {
+            "token": " all",
+            "prob": 0.0005463150158709047
+          },
+          {
+            "token": " a",
+            "prob": 0.0004254705621639275
+          }
+        ]
+      },
+      {
+        "token": " are",
+        "prob": 0.9997498969258338,
+        "top": [
+          {
+            "token": " are",
+            "prob": 0.9997498969258338
+          },
+          {
+            "token": ",",
+            "prob": 0.00012337897243541517
+          },
+          {
+            "token": " or",
+            "prob": 0.00005143200763528619
+          },
+          {
+            "token": " must",
+            "prob": 0.00004005528782129536
+          },
+          {
+            "token": " and",
+            "prob": 0.000018920778227194436
+          }
+        ]
+      },
+      {
+        "token": " typically",
+        "prob": 0.5383842119546717,
+        "top": [
+          {
+            "token": " typically",
+            "prob": 0.5383842119546717
+          },
+          {
+            "token": " male",
+            "prob": 0.32654653125573324
+          },
+          {
+            "token": " predominantly",
+            "prob": 0.10601413707948427
+          },
+          {
+            "token": " usually",
+            "prob": 0.011173810504816537
+          },
+          {
+            "token": " primarily",
+            "prob": 0.011173810504816537
+          }
+        ]
+      },
+      {
+        "token": " male",
+        "prob": 0.9901392728085454,
+        "top": [
+          {
+            "token": " male",
+            "prob": 0.9901392728085454
+          },
+          {
+            "token": " men",
+            "prob": 0.009706984220607461
+          },
+          {
+            "token": " males",
+            "prob": 0.00006540514519941202
+          },
+          {
+            "token": " thought",
+            "prob": 0.000035008851451929254
+          },
+          {
+            "token": "男性",
+            "prob": 0.00001873888783896878
+          }
+        ]
+      },
+      {
+        "token": ",",
+        "prob": 0.9762696343778299,
+        "top": [
+          {
+            "token": ",",
+            "prob": 0.9762696343778299
+          },
+          {
+            "token": " and",
+            "prob": 0.02295966311545909
+          },
+          {
+            "token": ".",
+            "prob": 0.0006933217503447817
+          },
+          {
+            "token": " while",
+            "prob": 0.000030462431724563326
+          },
+          {
+            "token": ";",
+            "prob": 0.00002688300164212185
+          }
+        ]
+      },
+      {
+        "token": " but",
+        "prob": 0.714200331128972,
+        "top": [
+          {
+            "token": " but",
+            "prob": 0.714200331128972
+          },
+          {
+            "token": " which",
+            "prob": 0.12410941535139254
+          },
+          {
+            "token": " and",
+            "prob": 0.06643098295364307
+          },
+          {
+            "token": " while",
+            "prob": 0.024438592885455822
+          },
+          {
+            "token": " illustrating",
+            "prob": 0.01482275586526399
+          }
+        ]
+      },
+      {
+        "token": " it",
+        "prob": 0.4068587074403194,
+        "top": [
+          {
+            "token": " it",
+            "prob": 0.4068587074403194
+          },
+          {
+            "token": " in",
+            "prob": 0.27962961093926014
+          },
+          {
+            "token": " women",
+            "prob": 0.2177757599694481
+          },
+          {
+            "token": " many",
+            "prob": 0.03784375259780858
+          },
+          {
+            "token": " of",
+            "prob": 0.026009605429691843
+          }
+        ]
+      },
+      {
+        "token": " emphasizes",
+        "prob": 0.34503453830919434,
+        "top": [
+          {
+            "token": " emphasizes",
+            "prob": 0.34503453830919434
+          },
+          {
+            "token": " is",
+            "prob": 0.23713853899250226
+          },
+          {
+            "token": " illustrates",
+            "prob": 0.1629827754377017
+          },
+          {
+            "token": " demonstrates",
+            "prob": 0.06794132894176913
+          },
+          {
+            "token": " shows",
+            "prob": 0.04120849906480426
+          }
+        ]
+      },
+      {
+        "token": " that",
+        "prob": 0.9820057278551381,
+        "top": [
+          {
+            "token": " that",
+            "prob": 0.9820057278551381
+          },
+          {
+            "token": " the",
+            "prob": 0.017986065514222133
+          },
+          {
+            "token": " gender",
+            "prob": 0.000005324679909942807
+          },
+          {
+            "token": " how",
+            "prob": 0.0000022196568214003366
+          },
+          {
+            "token": " there",
+            "prob": 2.064602454655172e-7
+          }
+        ]
+      },
+      {
+        "token": " women",
+        "prob": 0.9584808582022367,
+        "top": [
+          {
+            "token": " women",
+            "prob": 0.9584808582022367
+          },
+          {
+            "token": " a",
+            "prob": 0.032797414093388766
+          },
+          {
+            "token": " female",
+            "prob": 0.004438647325757242
+          },
+          {
+            "token": " the",
+            "prob": 0.0008740214805554745
+          },
+          {
+            "token": " there",
+            "prob": 0.0008740214805554745
+          }
+        ]
+      },
+      {
+        "token": " can",
+        "prob": 0.9997463217225576,
+        "top": [
+          {
+            "token": " can",
+            "prob": 0.9997463217225576
+          },
+          {
+            "token": " are",
+            "prob": 0.0001795146608425528
+          },
+          {
+            "token": " also",
+            "prob": 0.00006603975311283931
+          },
+          {
+            "token": ",",
+            "prob": 0.000006960538768350231
+          },
+          {
+            "token": " hold",
+            "prob": 6.474309581691174e-7
+          }
+        ]
+      },
+      {
+        "token": " also",
+        "prob": 0.72048642463386,
+        "top": [
+          {
+            "token": " also",
+            "prob": 0.72048642463386
+          },
+          {
+            "token": " be",
+            "prob": 0.2650521590642543
+          },
+          {
+            "token": " and",
+            "prob": 0.010277185051531888
+          },
+          {
+            "token": " hold",
+            "prob": 0.003780765093573051
+          },
+          {
+            "token": ",",
+            "prob": 0.00018823329995316544
+          }
+        ]
+      },
+      {
+        "token": " be",
+        "prob": 0.9703245955095984,
+        "top": [
+          {
+            "token": " be",
+            "prob": 0.9703245955095984
+          },
+          {
+            "token": " hold",
+            "prob": 0.029301262817730187
+          },
+          {
+            "token": " occupy",
+            "prob": 0.0001974303558721397
+          },
+          {
+            "token": " serve",
+            "prob": 0.0000640962521653272
+          },
+          {
+            "token": " have",
+            "prob": 0.000026719293131461266
+          }
+        ]
+      },
+      {
+        "token": " surgeons",
+        "prob": 0.9779867390167203,
+        "top": [
+          {
+            "token": " surgeons",
+            "prob": 0.9779867390167203
+          },
+          {
+            "token": " skilled",
+            "prob": 0.015807682303407015
+          },
+          {
+            "token": " highly",
+            "prob": 0.001666117456899405
+          },
+          {
+            "token": " successful",
+            "prob": 0.001666117456899405
+          },
+          {
+            "token": " doctors",
+            "prob": 0.0012975735801221942
+          }
+        ]
+      },
+      {
+        "token": ".",
+        "prob": 0.9785023723337631,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.9785023723337631
+          },
+          {
+            "token": " and",
+            "prob": 0.020308168353881814
+          },
+          {
+            "token": ",",
+            "prob": 0.0011457087320770082
+          },
+          {
+            "token": ".\n",
+            "prob": 0.00002098437740225871
+          },
+          {
+            "token": " or",
+            "prob": 0.000014422337610675963
+          }
+        ]
+      }
+    ],
+    "provider": "Azure"
+  },
+  "savedAt": "2026-10-13T15:14:38.508Z"
+}

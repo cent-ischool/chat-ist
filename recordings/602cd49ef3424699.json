@@ -1,0 +1,99 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Add to this list, only reply with next items in the list\n\nNew York Knicks\nNew York Redbulls\nNew York Giants"
+      }
+    ],
+    "temperature": 0.7,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "New York Yankees",
+    "tokens": [
+      {
+        "token": "New",
+        "prob": 0.9570814551997671,
+        "top": [
+          {
+            "token": "New",
+            "prob": 0.9570814551997671
+          },
+          {
+            "token": "\n",
+            "prob": 0.01816431180129434
+          },
+          {
+            "token": " New",
+            "prob": 0.01111798735273585
+          },
+          {
+            "token": "Bro",
+            "prob": 0.007070745210722315
+          },
+          {
+            "token": "Buff",
+            "prob": 0.001793430522934784
+          }
+        ]
+      },
+      {
+        "token": " York",
+        "prob": 0.9991420291676316,
+        "top": [
+          {
+            "token": " York",
+            "prob": 0.9991420291676316
+          },
+          {
+            "token": " Jersey",
+            "prob": 0.0008362027921114224
+          },
+          {
+            "token": " England",
+            "prob": 0.000015520233472362886
+          },
+          {
+            "token": " Y",
+            "prob": 0.0000014378307554412234
+          },
+          {
+            "token": " york",
+            "prob": 9.237494131270303e-7
+          }
+        ]
+      },
+      {
+        "token": " Yankees",
+        "prob": 0.5474742009249518,
+        "top": [
+          {
+            "token": " Yankees",
+            "prob": 0.5474742009249518
+          },
+          {
+            "token": " Jets",
+            "prob": 0.28471582540338297
+          },
+          {
+            "token": " Rangers",
+            "prob": 0.1198089725534223
+          },
+          {
+            "token": " Mets",
+            "prob": 0.04330578284018404
+          },
+          {
+            "token": " Islanders",
+            "prob": 0.004620649497014911
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T14:20:19.400Z"
+}

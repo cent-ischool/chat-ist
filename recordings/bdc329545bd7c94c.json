@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "openai/gpt-4o",
+    "prompt": "The quick brown fox jumps over the lazy",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "dog",
+    "tokens": [
+      {
+        "token": "dog",
+        "prob": 0.9987743318133662,
+        "top": [
+          {
+            "token": "dog",
+            "prob": 0.9987743318133662
+          },
+          {
+            "token": "The",
+            "prob": 0.001206566658225522
+          },
+          {
+            "token": "\"",
+            "prob": 0.0000033364558898659537
+          },
+          {
+            "token": "...",
+            "prob": 0.000002990779730369566
+          },
+          {
+            "token": "Sure",
+            "prob": 0.000002990779730369566
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T16:07:05.668Z"
+}

@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "google/gemma-3-27b-it",
+    "prompt": "On the weekend I like to",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "Okay",
+    "tokens": [
+      {
+        "token": "Okay",
+        "prob": 0.9818981206515991,
+        "top": [
+          {
+            "token": "Okay",
+            "prob": 0.9818981206515991
+          },
+          {
+            "token": "That",
+            "prob": 0.01798409304478256
+          },
+          {
+            "token": "This",
+            "prob": 0.000057239425985577
+          },
+          {
+            "token": "On",
+            "prob": 0.000034717466804604465
+          },
+          {
+            "token": "You",
+            "prob": 0.000009946720774353596
+          }
+        ]
+      }
+    ],
+    "provider": "NextBit"
+  },
+  "savedAt": "2026-10-13T16:07:13.392Z"
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "openai/gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Mary Lee Berners-Lee is Tim Berners-Lee's mother"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": ".",
+    "tokens": [
+      {
+        "token": ".",
+        "prob": 0.8106747527536968,
+        "top": [
+          {
+            "token": ".",
+            "prob": 0.8106747527536968
+          },
+          {
+            "token": "Yes",
+            "prob": 0.057927329133670026
+          },
+          {
+            "token": ",",
+            "prob": 0.028294269103968706
+          },
+          {
+            "token": "No",
+            "prob": 0.020752833238747576
+          },
+          {
+            "token": "This",
+            "prob": 0.02005660205257416
+          }
+        ]
+      }
+    ],
+    "provider": "OpenAI"
+  },
+  "savedAt": "2026-10-13T15:12:19.059Z"
+}

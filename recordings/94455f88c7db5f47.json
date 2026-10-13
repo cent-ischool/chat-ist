@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "google/gemma-4-31b-it",
+    "prompt": "Theres something unpredictable and in then end its rightThatIt",
+    "temperature": 1.5,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "It",
+    "tokens": [
+      {
+        "token": "It",
+        "prob": 0.9963532645065458,
+        "top": [
+          {
+            "token": "It",
+            "prob": 0.9963532645065458
+          },
+          {
+            "token": "That",
+            "prob": 0.0027985509144879414
+          },
+          {
+            "token": "This",
+            "prob": 0.00029496509628392534
+          },
+          {
+            "token": "Depending",
+            "prob": 0.00020272634829348872
+          },
+          {
+            "token": "Your",
+            "prob": 0.00017890537444128967
+          }
+        ]
+      }
+    ],
+    "provider": "CoreWeave"
+  },
+  "savedAt": "2026-10-13T14:16:43.500Z"
+}

@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "prompt": "My favorite food is",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "It",
+    "tokens": [
+      {
+        "token": "It",
+        "prob": 0.8050199381200649,
+        "top": [
+          {
+            "token": "It",
+            "prob": 0.8050199381200649
+          },
+          {
+            "token": "...",
+            "prob": 0.08484848102771746
+          },
+          {
+            "token": "I",
+            "prob": 0.08484848102771746
+          },
+          {
+            "token": "That",
+            "prob": 0.007892136241461678
+          },
+          {
+            "token": "You",
+            "prob": 0.00542418062551429
+          }
+        ]
+      }
+    ],
+    "provider": "Parasail"
+  },
+  "savedAt": "2026-10-13T16:07:11.971Z"
+}

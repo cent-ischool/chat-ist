@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "google/gemma-4-31b-it",
+    "prompt": "On the weekend I like to",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "Since",
+    "tokens": [
+      {
+        "token": "Since",
+        "prob": 0.9960638854010601,
+        "top": [
+          {
+            "token": "Since",
+            "prob": 0.9960638854010601
+          },
+          {
+            "token": "Depending",
+            "prob": 0.0035923671513594735
+          },
+          {
+            "token": "Because",
+            "prob": 0.0003341423549723207
+          },
+          {
+            "token": "As",
+            "prob": 0.0000034870883860129834
+          },
+          {
+            "token": " Since",
+            "prob": 0.0000018665039108692894
+          }
+        ]
+      }
+    ],
+    "provider": "CoreWeave"
+  },
+  "savedAt": "2026-10-13T16:07:13.363Z"
+}

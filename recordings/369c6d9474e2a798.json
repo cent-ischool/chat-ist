@@ -1,0 +1,28 @@
+{
+  "request": {
+    "kind": "chat",
+    "model": "google/gemma-4-31b-it",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is Michael Fudge's birthday?"
+      },
+      {
+        "role": "assistant",
+        "content": "I couldn't find any information on a person named Michael Fudge that would indicate his birthday. Could you provide more context or details about who Michael Fudge is? This would help me provide a more accurate answer."
+      },
+      {
+        "role": "user",
+        "content": "When is Brad Pitts Birthday?"
+      }
+    ],
+    "temperature": 0,
+    "max_tokens": 500
+  },
+  "response": {
+    "text": "Brad Pitt's birthday is December 18, 1963.",
+    "tokens": null,
+    "provider": "Venice"
+  },
+  "savedAt": "2026-10-13T14:25:47.013Z"
+}

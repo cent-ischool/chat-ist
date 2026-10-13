@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "google/gemma-3-27b-it",
+    "prompt": "Once upon a",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "Once",
+    "tokens": [
+      {
+        "token": "Once",
+        "prob": 0.9999998807907247,
+        "top": [
+          {
+            "token": "Once",
+            "prob": 0.9999998807907247
+          },
+          {
+            "token": "Okay",
+            "prob": 6.82560337633487e-8
+          },
+          {
+            "token": "##",
+            "prob": 1.186112015134383e-8
+          },
+          {
+            "token": "Upon",
+            "prob": 3.398267819495071e-9
+          },
+          {
+            "token": "...",
+            "prob": 1.2501528663867426e-9
+          }
+        ]
+      }
+    ],
+    "provider": "NextBit"
+  },
+  "savedAt": "2026-10-13T16:07:04.964Z"
+}

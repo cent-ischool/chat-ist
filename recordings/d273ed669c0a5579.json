@@ -1,0 +1,15 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "meta-llama/llama-3.2-3b-instruct",
+    "prompt": "I do not like green eggs and ham. I do not like them",
+    "temperature": 0,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "You",
+    "tokens": null,
+    "provider": "Cloudflare"
+  },
+  "savedAt": "2026-10-13T14:44:45.493Z"
+}

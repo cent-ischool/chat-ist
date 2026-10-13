@@ -1,0 +1,42 @@
+{
+  "request": {
+    "kind": "complete",
+    "model": "openai/gpt-4o",
+    "prompt": "Theres something unpredictable and in then end its right",
+    "temperature": 1.5,
+    "max_tokens": 1
+  },
+  "response": {
+    "text": "Those",
+    "tokens": [
+      {
+        "token": "Those",
+        "prob": 0.2978903634700292,
+        "top": [
+          {
+            "token": "It",
+            "prob": 0.49113820786374707
+          },
+          {
+            "token": "Those",
+            "prob": 0.2978903634700292
+          },
+          {
+            "token": "That",
+            "prob": 0.10958774044371217
+          },
+          {
+            "token": "The",
+            "prob": 0.03139741331419299
+          },
+          {
+            "token": "That's",
+            "prob": 0.03139741331419299
+          }
+        ]
+      }
+    ],
+    "provider": "Azure"
+  },
+  "savedAt": "2026-10-13T14:16:27.747Z"
+}
