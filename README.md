@@ -2,6 +2,10 @@
 
 A bare-bones chatbot for showing how LLMs work: no system prompt, no web search, no hidden reasoning. Each token in a response is colored by its probability, and clicking a token shows the other candidates for that spot.
 
+**Try it:** <https://cent-ischool.github.io/chat-ist/>
+
+The online copy is view-only: it replays the recorded answers for the demos and doesn't call any models. To type your own prompts, run it locally.
+
 ## Run it
 
 Put your OpenRouter key in `.env`:
@@ -30,6 +34,10 @@ There are no npm dependencies.
 Every live answer is saved in `recordings/`. Turn on **Offline** to replay them. Replay needs the exact same prompt, model and creativity setting, so do a full run-through at your talk settings beforehand. If the connection drops mid-talk, ChatIST falls back to a recording automatically when one exists.
 
 Fonts load from Google Fonts. Offline, the page falls back to system fonts.
+
+## The online copy
+
+Every push to `main` publishes `public/` and `recordings/` to GitHub Pages (see `.github/workflows/pages.yml`). With no server, the page loads each demo's recording directly, so commit `recordings/` after re-recording demos.
 
 ## Changing models
 
