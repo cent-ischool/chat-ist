@@ -426,9 +426,9 @@ button, input, select, textarea { font: inherit; color: inherit; }
   flex: none;
   padding: 0.3em 1.2em;
   border-top: 1px solid var(--line);
-  font-size: 0.6em;
+  font-size: calc(0.85em * 0.9); /* same as .caption inside .inspector */
   color: var(--muted);
-  text-align: right;
+  text-align: center;
 }
 .credits a { color: var(--action); }
 
