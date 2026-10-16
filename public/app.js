@@ -341,18 +341,14 @@ function showAbout(title, about = {}) {
   $("#about-tagline").hidden = !about.tagline;
   $("#about-text").textContent = about.text ?? "";
   $("#about-points").replaceChildren(...(about.points ?? []).map((p) => el("li", { textContent: p })));
+  $("#about-share").hidden = !about.share;
   $("#about").showModal();
 }
 
 const ABOUT_SITE = {
   tagline: "Understand how generative AI works, so you can use it wisely.",
   text: "ChatIST is a chatbot with the curtain pulled back. Popular AI apps wrap the model in hidden instructions, web search and behind-the-scenes reasoning steps. ChatIST sends your text to the bare model, so you can see what it actually does: predict the next word, one word at a time.",
-  points: [
-    "Each word is colored by the probability the model assigned to it. Click any word to see the other candidates.",
-    "“What the model received” shows exactly what was sent to the model. Nothing is hidden.",
-    "Each section on the left demonstrates one idea. Click its ? to learn more.",
-    "Once you know how it works, you'll know when to trust the output, and when to check it.",
-  ],
+  share: true,
 };
 $("#about-site").addEventListener("click", () => showAbout("ChatIST", ABOUT_SITE));
 $("#brand-tagline").textContent = ABOUT_SITE.tagline;
