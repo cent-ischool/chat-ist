@@ -132,7 +132,35 @@ function showSent(messages) {
 
 document.addEventListener("click", (e) => {
   const tok = e.target.closest(".tok, .added");
-  if (tok?.tokenInfo) showProbe(tok.tokenInfo, tok);
+  if (!tok?.tokenInfo) return;
+  showProbe(tok.tokenInfo, tok);
+  if (isPhone.matches) openDrawer("inspector");
+});
+
+// ---------- Phone drawers ----------
+
+// On phones the demo list and the inspector slide in over the chat.
+const isPhone = matchMedia("(max-width: 900px)");
+const drawers = { demos: "#toggle-demos", inspector: "#toggle-inspector" };
+
+function openDrawer(id) {
+  for (const [name, toggle] of Object.entries(drawers)) {
+    $("#" + name).classList.toggle("open", name === id);
+    $(toggle).setAttribute("aria-expanded", String(name === id));
+  }
+  $("#scrim").hidden = !id;
+}
+
+for (const [name, toggle] of Object.entries(drawers)) {
+  $(toggle).addEventListener("click", () => openDrawer($("#" + name).classList.contains("open") ? null : name));
+}
+$("#scrim").addEventListener("click", () => openDrawer(null));
+document.addEventListener("keydown", (e) => e.key === "Escape" && openDrawer(null));
+isPhone.addEventListener("change", () => openDrawer(null));
+
+$("#toggle-settings").addEventListener("click", (e) => {
+  const open = $("#controls").classList.toggle("open");
+  e.currentTarget.setAttribute("aria-expanded", String(open));
 });
 
 // ---------- Chat mode ----------
@@ -372,6 +400,7 @@ function setTemperature(value) {
 
 function usePreset(p, button) {
   button.classList.add("used");
+  openDrawer(null);
   if (p.model && state.models.some((m) => m.id === p.model)) {
     $("#model").value = p.model;
     describeModel();

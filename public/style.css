@@ -100,9 +100,13 @@ button, input, select, textarea { font: inherit; color: inherit; }
 /* Keep the top bar on one line on projector-size screens */
 @media (min-width: 901px) {
   .bar { flex-wrap: nowrap; }
-  .bar > * { flex-shrink: 0; }
+  .bar > *, .controls > * { flex-shrink: 0; }
   .bar .switches { flex-shrink: 1; }
 }
+
+/* The settings sit directly in the top bar, except on phones (see below) */
+.controls { display: contents; }
+.drawer-toggles { display: none; }
 .switch { display: flex; align-items: center; gap: 0.4em; cursor: pointer; }
 .switch input { width: 1.1em; height: 1.1em; accent-color: var(--orange); }
 
@@ -437,12 +441,60 @@ button, input, select, textarea { font: inherit; color: inherit; }
 
 /* ---------- Small screens ---------- */
 
+/* The chat fills the screen; demos, predictions and settings open on demand. */
 @media (max-width: 900px) {
-  .layout { grid-template-columns: 1fr; }
-  .demos, .inspector { border: 0; }
-  .demos { order: 2; }
-  .inspector { order: 3; }
+  body { height: 100dvh; }
+
+  .bar { padding: 0.4em 0.8em; gap: 0.4em 0.6em; }
+  .brand { font-size: 1.3em; }
+  .brand-tagline { display: none; }
+
+  .drawer-toggles { display: flex; gap: 0.4em; margin-left: auto; font-size: 0.75em; }
+  .toggle {
+    border: 0;
+    border-radius: 6px;
+    padding: 0.35em 0.7em;
+    background: transparent;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: inset 0 0 0 2px var(--orange);
+    cursor: pointer;
+  }
+  .toggle[aria-expanded="true"] { background: var(--orange); }
+
+  .controls { display: none; }
+  .controls.open {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.6em 1em;
+    width: 100%;
+    padding-top: 0.4em;
+  }
+  .field select { max-width: 100%; }
   .bar .btn-quiet { margin-left: 0; }
+
+  .layout { grid-template-columns: minmax(0, 1fr); }
+  .view { padding: 0.7em 0.8em; }
+  .next-text { font-size: 1.3em; }
+  .candidates { font-size: 1.1em; }
+
+  .demos, .inspector {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 20;
+    width: min(85vw, 22em);
+    background: var(--bg);
+    box-shadow: 0 0 30px rgb(0 14 84 / 0.3);
+    visibility: hidden;
+    transition: transform 200ms ease-out, visibility 0s 200ms;
+  }
+  .demos { left: 0; border-right: 0; transform: translateX(-100%); }
+  .inspector { right: 0; border-left: 0; transform: translateX(100%); }
+  .demos.open, .inspector.open { transform: none; visibility: visible; transition-delay: 0s; }
+
+  .scrim { position: fixed; inset: 0; z-index: 15; background: rgb(0 14 84 / 0.45); }
 }
 
 @media (prefers-reduced-motion: reduce) {

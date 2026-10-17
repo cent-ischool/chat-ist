@@ -21,6 +21,14 @@
       <p id="brand-tagline" class="brand-tagline"></p>
     </div>
 
+    <!-- Phone-only: open the side panels and settings -->
+    <div class="drawer-toggles">
+      <button id="toggle-demos" class="toggle" type="button" aria-controls="demos" aria-expanded="false">Demos</button>
+      <button id="toggle-settings" class="toggle" type="button" aria-controls="controls" aria-expanded="false">Settings</button>
+      <button id="toggle-inspector" class="toggle" type="button" aria-controls="inspector" aria-expanded="false">Predictions</button>
+    </div>
+
+    <div id="controls" class="controls">
     <label class="field">
       <span>Model</span>
       <select id="model"></select>
@@ -39,10 +47,12 @@
     </div>
 
     <button id="reset" class="btn btn-quiet" title="Ctrl+L">New conversation</button>
+    </div>
   </header>
 
   <div class="layout">
-    <nav class="demos" aria-label="Demo prompts">
+    <div id="scrim" class="scrim" hidden></div>
+    <nav id="demos" class="demos" aria-label="Demo prompts">
       <div class="tabs" role="tablist">
         <button role="tab" id="tab-chat" class="tab" aria-selected="true">Chat</button>
         <button role="tab" id="tab-next" class="tab" aria-selected="false">Next word</button>
@@ -76,7 +86,7 @@
       </section>
     </main>
 
-    <aside class="inspector">
+    <aside id="inspector" class="inspector">
       <section class="panel">
         <h2>Top predictions</h2>
         <p id="probe-caption" class="caption">Click any word in a response to see the other candidates for that spot.</p>
